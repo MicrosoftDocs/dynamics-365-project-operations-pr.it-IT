@@ -1,0 +1,60 @@
+---
+title: Novità o modifiche nella versione di aggiornamento 12 di Project Service Automation V3
+description: Questo argomento fornisce informazioni sulle novità dell'aggiornamento rilascio 12 di Project Service Automation V3.
+author: ruhercul
+manager: kfend
+ms.service: dynamics-365-customerservice
+ms.custom: dyn365-projectservice
+ms.date: 02/04/2020
+ms.topic: article
+ms.author: ruhercul
+audience: Admin
+search.audienceType:
+- admin
+- customizer
+- enduser
+search.app:
+- D365CE
+- D365PS
+- ProjectOperations
+ms.openlocfilehash: 62c3a0c5cfbecb568faef570da309c20afd86de9
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078837"
+---
+# <a name="project-service-automation-update-release-12-v3"></a><span data-ttu-id="f823b-103">Versione di aggiornamento di Project Service Automation 12, V3</span><span class="sxs-lookup"><span data-stu-id="f823b-103">Project Service Automation Update Release 12, V3</span></span>
+<span data-ttu-id="f823b-104">Siamo lieti di annunciare l'ultimo aggiornamento per l'applicazione Dynamics 365 Project Service Automation (PSA).</span><span class="sxs-lookup"><span data-stu-id="f823b-104">We’re pleased to announce the latest update for the Dynamics 365 Project Service Automation (PSA) application.</span></span> <span data-ttu-id="f823b-105">Questa versione include alcuni importanti miglioramenti in termini di qualità, prestazioni e usabilità.</span><span class="sxs-lookup"><span data-stu-id="f823b-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="f823b-106">Questa versione è compatibile con Dynamics 365 9.x.</span><span class="sxs-lookup"><span data-stu-id="f823b-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="f823b-107">Per aggiornare a questa versione, visitare l'interfaccia di amministrazione di Dynamics 365 online e andare alla pagina delle soluzioni per installare l'aggiornamento.</span><span class="sxs-lookup"><span data-stu-id="f823b-107">To update to this release, visit the Admin Center for Dynamics 365 online, and go to the solutions page to install the update.</span></span> <span data-ttu-id="f823b-108">Per ulteriori informazioni, vedere [Installare, aggiornare o rimuovere una soluzione preferita](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span><span class="sxs-lookup"><span data-stu-id="f823b-108">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
+
+<span data-ttu-id="f823b-109">Questo argomento elenca le funzionalità e le correzioni nuove o modificate per l'aggiornamento rilascio 12 di Project Service Automation V3.</span><span class="sxs-lookup"><span data-stu-id="f823b-109">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 12.</span></span> <span data-ttu-id="f823b-110">Questa versione ha il numero di build V3.10.2.34 ed è generalmente disponibile tramite un aggiornamento automatico in ottobre 2019.</span><span class="sxs-lookup"><span data-stu-id="f823b-110">This version has a build number of V3.10.2.34 and is generally available through a self-update in October 2019.</span></span>
+
+## <a name="update-release-12"></a><span data-ttu-id="f823b-111">Rilascio 12 dell'aggiornamento</span><span class="sxs-lookup"><span data-stu-id="f823b-111">Update Release 12</span></span>
+
+### <a name="bug-fixes"></a><span data-ttu-id="f823b-112">Correzioni di bug</span><span class="sxs-lookup"><span data-stu-id="f823b-112">Bug fixes</span></span>
+
+- <span data-ttu-id="f823b-113">Tempo e spesa</span><span class="sxs-lookup"><span data-stu-id="f823b-113">Time and Expense</span></span>
+
+    - <span data-ttu-id="f823b-114">Risolto: la messaggistica degli errori di immissione dell'ora è stata aggiornata con un contesto più pertinente.</span><span class="sxs-lookup"><span data-stu-id="f823b-114">Fixed: Time entry error messaging has been updated with more relevant context.</span></span>
+    - <span data-ttu-id="f823b-115">Risolto: la pianificazione e la griglia di immissione dell'ora visualizzano correttamente la barra di scorrimento verticale quando richiesto.</span><span class="sxs-lookup"><span data-stu-id="f823b-115">Fixed: Time entry grid and schedule correctly displays the vertical scrollbar when required.</span></span>
+    - <span data-ttu-id="f823b-116">Risolto: Gli inserimenti ore e spese inviati possono essere approvati.</span><span class="sxs-lookup"><span data-stu-id="f823b-116">Fixed: Submitted expense and time entries can be approved.</span></span>
+    - <span data-ttu-id="f823b-117">Risolto: il messaggio di annullamento della finestra di dialogo di conferma dell'approvazione è stato corretto per riflettere lo stato dell'approvazione quando cambia da **Approvato** in **Inviato**.</span><span class="sxs-lookup"><span data-stu-id="f823b-117">Fixed: Cancel approval confirmation dialog message has been corrected to reflect the status of the approval when changed from **Approved** to **Submitted**.</span></span>
+    - <span data-ttu-id="f823b-118">Risolto: i campi **Prezzo** , **Unità** e **Quantità** sono ora bloccati sul record Spese dopo che è stato approvato.</span><span class="sxs-lookup"><span data-stu-id="f823b-118">Fixed: **Price** , **Unit** , and **Quantity** fields are now locked on the Expense record after it is has been approved.</span></span>
+
+- <span data-ttu-id="f823b-119">Gestione progetti</span><span class="sxs-lookup"><span data-stu-id="f823b-119">Project Management</span></span>
+
+    - <span data-ttu-id="f823b-120">Risolto: l'azione **Nuovo** nel modulo principale **Membro del team** è stata rimossa.</span><span class="sxs-lookup"><span data-stu-id="f823b-120">Fixed: **New** action on **Team member** main form has been removed.</span></span>
+    - <span data-ttu-id="f823b-121">Risolto: le assegnazioni delle risorse sono state aggiornate per tenere conto degli errori di arrotondamento non accurati, che portano a uno spostamento nella data di fine di un'attività.</span><span class="sxs-lookup"><span data-stu-id="f823b-121">Fixed: Resource assignments have been updated to account for inaccurate rounding errors, which lead to a shift in a task’s end date.</span></span>
+    - <span data-ttu-id="f823b-122">Risolto: nella griglia delle attività, all'utente vengono visualizzati errori sul lato server.</span><span class="sxs-lookup"><span data-stu-id="f823b-122">Fixed: In the task grid, relevant server-side errors will be surfaced to the user.</span></span>
+    - <span data-ttu-id="f823b-123">Risolto: il nome del membro del team ora viene visualizzato nel selettore di persone dell'attività anziché nel nome della posizione.</span><span class="sxs-lookup"><span data-stu-id="f823b-123">Fixed: The team member’s name now renders in the task people picker instead of the position name.</span></span>
+
+- <span data-ttu-id="f823b-124">Gestione risorse</span><span class="sxs-lookup"><span data-stu-id="f823b-124">Resource Management</span></span>
+
+    - <span data-ttu-id="f823b-125">Risolto: i dettagli sui requisiti delle risorse per i progetti creati da un modello ora utilizzano il calendario del progetto.</span><span class="sxs-lookup"><span data-stu-id="f823b-125">Fixed: Resource requirement details for projects created from a template now use the project calendar.</span></span>
+    - <span data-ttu-id="f823b-126">Risolto: le abilità e le competenze ora vengono automaticamente impostate dai dati master del ruolo nel requisito della risorsa creato per quel ruolo.</span><span class="sxs-lookup"><span data-stu-id="f823b-126">Fixed: Skills and competencies now default from role master data to the resource requirement created for that role.</span></span>
+
+- <span data-ttu-id="f823b-127">Sales</span><span class="sxs-lookup"><span data-stu-id="f823b-127">Sales</span></span>
+
+    - <span data-ttu-id="f823b-128">Risolto: ID oggetto duplicato trovato nel modulo **Contratto principale**.</span><span class="sxs-lookup"><span data-stu-id="f823b-128">Fixed: Duplicate object IDs found on the **Contract main** form.</span></span>
+    - <span data-ttu-id="f823b-129">Risolto: la logica è stata aggiornata per rendere la scheda **Analisi offerta** visibile in modo da visualizzare l'impostazione dei metadati della scheda.</span><span class="sxs-lookup"><span data-stu-id="f823b-129">Fixed: Logic has been updated to make the **Quote Analysis** tab visible so that it displays the metadata setup of the tab.</span></span>
+    - <span data-ttu-id="f823b-130">Risolto: la data contabile sul record effettivo ora proviene dalla data di registrazione ora/spesa e non dalla data dell'approvazione.</span><span class="sxs-lookup"><span data-stu-id="f823b-130">Fixed: Accounting date on the actual record now comes from the date of the time/expense entry date and not the date of the approval.</span></span>
