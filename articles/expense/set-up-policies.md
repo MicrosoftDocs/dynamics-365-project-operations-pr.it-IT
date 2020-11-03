@@ -7,7 +7,6 @@ ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fbab7fd94fa429876216ee82b716da8d847fb01a
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 30b3a0e1547ca7043b1433da2b4ebf02f2b473a1
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896646"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078946"
 ---
 # <a name="define-expense-policies"></a>Definire i criteri di spesa
 
@@ -37,12 +36,12 @@ definisci i criteri.
         
 Puoi definire tre tipi di criteri:         
         
-- **Avviso**: consente al lavoratore di inviare una nota spese o una richiesta di viaggio, ma la spesa verrà contrassegnata per tutti gli approvatori e         
+- **Avviso** : consente al lavoratore di inviare una nota spese o una richiesta di viaggio, ma la spesa verrà contrassegnata per tutti gli approvatori e         
   per i report successivi.        
 
-- **Errore**: richiede al lavoratore di rivedere la spesa per conformarsi ai criteri prima di inviare la nota spese o la richiesta di viaggio.        
+- **Errore** : richiede al lavoratore di rivedere la spesa per conformarsi ai criteri prima di inviare la nota spese o la richiesta di viaggio.        
  
- - **Giustificazione**: richiede al lavoratore o a un responsabile di inserire una giustificazione per il superamento dell'importo dei criteri prima di inviare la nota spese o la richiesta di viaggio.        
+ - **Giustificazione** : richiede al lavoratore o a un responsabile di inserire una giustificazione per il superamento dell'importo dei criteri prima di inviare la nota spese o la richiesta di viaggio.        
 
 ## <a name="policy-tips"></a>Suggerimenti per i criteri
 Di seguito sono riportati alcuni suggerimenti che possono essere utili durante la creazione di nuovi criteri per la gestione delle spese: 

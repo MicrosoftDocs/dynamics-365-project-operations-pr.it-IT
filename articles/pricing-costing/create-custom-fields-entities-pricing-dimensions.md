@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 2000f7e710267560fe2bd52b0e33024617d108ea
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 9dd43be79f8e906298578911b3bff03e66c2f1e5
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898266"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078914"
 ---
 # <a name="create-custom-fields-and-entities-as-pricing-dimensions"></a>Creare campi ed entità personalizzati come dimensioni di determinazione dei prezzi
 
@@ -36,8 +35,8 @@ Completa i passaggi seguenti ogni volta che intendi creare un set di opzioni o u
 
 
 ## <a name="create-a-custom-solution-for-pricing-dimensions"></a>Creare una soluzione personalizzata per le dimensioni di determinazione dei prezzi
-1. Vai in **Impostazioni** > ,**Soluzioni** e quindi seleziona **Nuovo** per creare una nuova soluzione. 
-2. Assegna un nome alla soluzione, **dimensioni di determinazione dei prezzi di \<your organization name>**, immetti le informazioni richieste e quindi seleziona **Salva**.
+1. Vai in **Impostazioni** > , **Soluzioni** e quindi seleziona **Nuovo** per creare una nuova soluzione. 
+2. Assegna un nome alla soluzione, **dimensioni di determinazione dei prezzi di \<your organization name>** , immetti le informazioni richieste e quindi seleziona **Salva**.
   
 ## <a name="create-custom-fields-and-option-sets-in-the-pricing-dimension-solution"></a>Creare campi e set di opzioni personalizzati nella soluzione per le dimensioni di determinazione dei prezzi
 
@@ -61,9 +60,9 @@ Puoi creare due dimensioni basate su set di opzioni. Utilizza **Ubicazione lavor
 
 ## <a name="create-data-for-entity-based-dimensions"></a>Creare dati per le dimensioni basate su entità
 
-Puoi creare dati per le dimensioni basate su entità manualmente oppure utilizzando le chiamate di importazione o di servizio di Microsoft Excel. Utilizza i passaggi in questa procedura per creare due titoli standard, **Sistemista** e **Sistemista esperto**, a partire dalla dimensione basata su entità **Titolo standard**. Se intendi creare pochi dati, come illustrato nel seguente esempio, puoi utilizzare un modulo standard.
+Puoi creare dati per le dimensioni basate su entità manualmente oppure utilizzando le chiamate di importazione o di servizio di Microsoft Excel. Utilizza i passaggi in questa procedura per creare due titoli standard, **Sistemista** e **Sistemista esperto** , a partire dalla dimensione basata su entità **Titolo standard**. Se intendi creare pochi dati, come illustrato nel seguente esempio, puoi utilizzare un modulo standard.
 
-1. Seleziona **Ricerca avanzata**, seleziona l'entità **Titolo standard** e quindi seleziona **Risultati**. Tutte le righe nell'entità **Titolo standard** verranno visualizzate.
+1. Seleziona **Ricerca avanzata** , seleziona l'entità **Titolo standard** e quindi seleziona **Risultati**. Tutte le righe nell'entità **Titolo standard** verranno visualizzate.
 2. Seleziona **Nuovo** e nel campo **Nome** immetti "Systems Engineer" e seleziona **Salva**.
 3. Chiudi il modulo. 
 4. Ripeti i passaggi da 1 a 3 per creare un altro titolo standard, ovvero "Sistemista esperto".
@@ -73,7 +72,7 @@ Devi aggiungere le seguenti entità alla soluzione per la determinazione dei pre
 
 1. Seleziona **Impostazioni** > **Soluzioni** e fai doppio clic su **dimensioni di determinazione dei prezzi di \<your organization name>**. 
 2. In Esplora soluzioni, nel riquadro di spostamento a sinistra, seleziona **Aggiungi record esistente** > **Entità**.
-3. Nella finestra di dialogo **Componenti della soluzione**, seleziona le seguenti entità:
+3. Nella finestra di dialogo **Componenti della soluzione** , seleziona le seguenti entità:
 
   - Valore effettivo
   - Risorsa prenotabile

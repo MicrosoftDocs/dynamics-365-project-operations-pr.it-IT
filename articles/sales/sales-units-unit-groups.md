@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ea5399368214a293ca7c10fabf21d82407b5c76f
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 345a4f38ad0bc5acddb90cfd8cb3e92154e46513
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898761"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078999"
 ---
 # <a name="units-and-unit-groups"></a>Unità e unità di vendita
 
@@ -37,7 +36,7 @@ Per completare i passaggi in questo argomento, assicurati di essere stato assegn
 
 1. Nella mappa del sito, seleziona **Unità**.
 2. Seleziona **Nuovo** e nella finestra di dialogo **Crea unità di vendita** immetti il nome dell'unità.
-3. Nel campo**Unità primaria** immetti l'unità di misura comune più piccola che verrà utilizzata per la vendita del prodotto. Ad esempio, potresti inserire "pezzo" o "oncia".
+3. Nel campo **Unità primaria** immetti l'unità di misura comune più piccola che verrà utilizzata per la vendita del prodotto. Ad esempio, potresti inserire "pezzo" o "oncia".
 4. Seleziona **OK**.
 
 ## <a name="add-units-to-a-unit-group"></a>Aggiungere unità a un'unità di vendita

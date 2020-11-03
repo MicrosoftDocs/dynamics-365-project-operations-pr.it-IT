@@ -9,7 +9,6 @@ ms.custom:
 ms.date: 09/23/2019
 ms.topic: article
 ms.prod: ''
-ms.technology: ''
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +16,12 @@ search.audienceType:
 - customizer
 - enduser
 search.app: ''
-ms.openlocfilehash: e66d96a940f3b22d5d1f3372d2b6767a4482d925
-ms.sourcegitcommit: 7750485f8685a2ca5e1b3c165ead24a3b583c447
+ms.openlocfilehash: c70760748c5faa87f6738ab7e2ab593e2df49e41
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3891580"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4079075"
 ---
 # <a name="sales-processes-overview"></a>Panoramica dei processi di vendita
 
@@ -57,7 +56,7 @@ Ad esempio, la tua azienda potrebbe includere le sei fasi seguenti nel processo 
  
 La tua organizzazione potrebbe utilizzare entità differenti per rappresentare la stessa transazione durante l'evoluzione della stessa. All'inizio del processo di vendita, una transazione è rappresentata dall'entità Opportunità. Con il passare del tempo e quando emergono nuovi dettagli, potresti utilizzare stime generali per creare una o più offerte. Se una di queste offerte viene esaminata dalle parti interessate interne e dei clienti, l'entità Offerta rappresenta la transazione. Dopo l'accettazione dell'offerta da parte del cliente, un contratto di progetto o una descrizione dei lavori rappresenta la transazione. Per supportare questo comportamento, i processi aziendali sono strutturati di modo che ogni fase del processo sia collegata a una tabella di database differente.
 
-La fase **Imposta come qualificato** del processo di vendita può essere supportata da un'entità Opportunità. Le fasi **Stima** e **Verifica interna** possono essere supportate da un'entità Offerta. Le fasi **Contratto**, **Consegna** e **Chiusura** possono essere supportate da un'entità Contratto di progetto.
+La fase **Imposta come qualificato** del processo di vendita può essere supportata da un'entità Opportunità. Le fasi **Stima** e **Verifica interna** possono essere supportate da un'entità Offerta. Le fasi **Contratto** , **Consegna** e **Chiusura** possono essere supportate da un'entità Contratto di progetto.
 
 Durante lo spostamento delle transazioni da una fase all'altra, ti viene richiesto di creare un record di entità appropriato per guidarti durante il processo. Le fasi possono essere condizionali. Ad esempio, se richiedi una verifica interna di un'offerta solo se l'offerta utilizza un listino prezzi personalizzato, puoi configurare tale condizione nella fase appropriata del processo aziendale. La fase **Verifica interna** viene quindi visualizzata solo per le offerte che utilizzano un listino prezzi personalizzato. Per tutte le altre transazioni e offerte, la fase **Stima** è seguita dalla fase **Contratto**.
 

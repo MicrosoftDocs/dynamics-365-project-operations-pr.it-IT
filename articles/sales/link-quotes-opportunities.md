@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 606098473db479d0015e3a7a3c01a3d3b6de9db1
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898537"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078788"
 ---
 # <a name="create-project-quotes-from-opportunities"></a>Creare offerte di progetto dalle opportunità
 
@@ -30,7 +30,7 @@ Le offerte possono essere create da opportunità di progetto nei seguenti modi:
 Per creare un'offerta di progetto da un'opportunità, completa i seguenti passaggi.
 
 1. Apri la pagina **Opportunità di progetto** e seleziona la scheda **Offerte**. 
-2. Nella griglia secondaria **Offerte**, seleziona **+** per creare una nuova offerta di progetto basata sull'opportunità. Tutte le righe dell'opportunità e i relativi listini prezzi del progetto vengono copiati nella nuova offerta dall'opportunità.
+2. Nella griglia secondaria **Offerte** , seleziona **+** per creare una nuova offerta di progetto basata sull'opportunità. Tutte le righe dell'opportunità e i relativi listini prezzi del progetto vengono copiati nella nuova offerta dall'opportunità.
 
 ## <a name="from-the-opportunity-sales-process-flow"></a>Dal flusso del processo di vendita dell'opportunità
 
@@ -39,7 +39,7 @@ Per creare un'offerta dal flusso del processo di vendita Opportunità, completa 
 1. Dal flusso del processo di vendita Opportunità, apri Opportunità.
 2. Seleziona la fase **Qualifica**. 
 3. Seleziona **Avanti** e poi seleziona **+ Crea** per creare una nuova offerta. La maggior parte delle informazioni nella scheda **Riepilogo** per questa nuova offerta verranno generate come predefinite dall'opportunità. 
-4. Immetti le informazioni richieste mancanti o aggiorna i valori predefiniti come necessario nella scheda **Riepilogo**,
+4. Immetti le informazioni richieste mancanti o aggiorna i valori predefiniti come necessario nella scheda **Riepilogo** ,
 5. Seleziona **Salva**. La nuova offerta viene creata e associata all'opportunità. È ora possibile visualizzare le informazioni sull'offerta nella scheda **Offerte** della pagina **Opportunità**. 
 
    Il processo di vendita Opportunità passa alla fase successiva, **Proponi**.

@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 64d2fd9bab9452d71e8cd194fbab70edadf00b93
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896286"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078800"
 ---
 # <a name="project-quote-key-concepts"></a>Concetti chiave dell'offerta di progetto
 
@@ -78,7 +78,7 @@ Le trattative con più clienti si verificano quando è presente più di un clien
 
 ## <a name="invoice-schedules"></a>Pianificazioni di fatturazione
 
-Le pianificazioni delle fatturazioni sono specifiche per ciascuna riga di offerta e sono facoltative. Le pianificazioni delle fatturazioni vengono create in base a determinate date di inizio e fine e alla frequenza della fatturazione. Le pianificazioni delle fatturazioni vengono utilizzate nella fase del contratto in cui viene configurato il processo di creazione automatica delle fatture. In fase di offerta, le pianificazioni sono facoltative. Quando vengono create le pianificazioni delle fatturazioni nella fase **Offerta**, vengono copiate nel contratto di progetto creato quando viene acquisita un'offerta di progetto.
+Le pianificazioni delle fatturazioni sono specifiche per ciascuna riga di offerta e sono facoltative. Le pianificazioni delle fatturazioni vengono create in base a determinate date di inizio e fine e alla frequenza della fatturazione. Le pianificazioni delle fatturazioni vengono utilizzate nella fase del contratto in cui viene configurato il processo di creazione automatica delle fatture. In fase di offerta, le pianificazioni sono facoltative. Quando vengono create le pianificazioni delle fatturazioni nella fase **Offerta** , vengono copiate nel contratto di progetto creato quando viene acquisita un'offerta di progetto.
 
 ## <a name="changes-from-dynamics-365-sales-quote"></a>Modifiche rispetto all'offerta di Dynamics 365 Sales:
 

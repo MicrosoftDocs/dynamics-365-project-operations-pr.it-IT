@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 27f58f0dacc3404119a719547ad374629c740740
-ms.sourcegitcommit: 396e0fea2f1598a5313cb0128eca4fe0bb5aade9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961890"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078814"
 ---
 # <a name="manage-time-zones"></a>Gestire i fusi orario
 
@@ -22,7 +22,7 @@ _**Si applica a:** Project Operations per scenari basati su risorse/materiali no
 
 ## <a name="projects"></a>Progetti
 
-Quando viene creato un progetto, il fuso orario si basa sul fuso orario definito nel modello di ore lavorative applicato. Sul modulo **Progetto**, le date sono sempre relative al fuso orario dell'utente che ha effettuato l'accesso a ciascuna scheda, ad eccezione della scheda **Attività**. Quando visualizzi la struttura di suddivisione del lavoro, le date verranno sempre visualizzate nel fuso orario del progetto.
+Quando viene creato un progetto, il fuso orario si basa sul fuso orario definito nel modello di ore lavorative applicato. Sul modulo **Progetto** , le date sono sempre relative al fuso orario dell'utente che ha effettuato l'accesso a ciascuna scheda, ad eccezione della scheda **Attività**. Quando visualizzi la struttura di suddivisione del lavoro, le date verranno sempre visualizzate nel fuso orario del progetto.
 
 ## <a name="tasks"></a>Attività
 
@@ -30,7 +30,7 @@ Quando viene creata un'attività, l'ora di inizio, l'ora di fine e le ore/giorno
 
 ## <a name="manage-resources-with-time-zones"></a>Gestire le risorse con i fusi orari
 
-Per risultati accurati e prevedibili durante l'utilizzo di **Estendi prenotazione**, ci sono due prerequisiti chiave che devono essere soddisfatti:  
+Per risultati accurati e prevedibili durante l'utilizzo di **Estendi prenotazione** , ci sono due prerequisiti chiave che devono essere soddisfatti:  
 
 - L'utente deve configurare il fuso orario del proprio dispositivo in modo che corrisponda al fuso orario definito nelle **Impostazioni di personalizzazione** del sistema.
  
@@ -57,7 +57,7 @@ La tabella seguente mostra:
 |Risorsa C  |  ![Calendario della risorsa C](media/reconcile-assignments-08.png) |
 |Risorsa D  | ![Calendario della risorsa D](media/reconcile-assignments-09.png)  |
  
-Quando ti sposti nella vista **Riconciliazione**, vengono visualizzate le assegnazioni di risorse e le relative prenotazioni insufficienti.
+Quando ti sposti nella vista **Riconciliazione** , vengono visualizzate le assegnazioni di risorse e le relative prenotazioni insufficienti.
 
 ![Visualizzazione di riconciliazione prima dell'estensione](media/reconcile-assignments-10.png)
 

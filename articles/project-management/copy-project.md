@@ -3,23 +3,23 @@ title: Copiare un progetto
 description: Questo argomento fornisce informazioni sulla copia di progetti in Dynamics 365 Project Operations.
 author: ruhercul
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e35dc725e7938e9f59f7151dd1b37500fabf77a4
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: cf80f2a1cd27aae33d123e45dee70d94ea4d01a9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908275"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078817"
 ---
 # <a name="copy-a-project"></a>Copiare un progetto
 
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
-Con Dynamics 365 Project Operations, puoi creare rapidamente nuovi progetti utilizzando l'azione **Copia progetto** nel modulo **Progetti**. Per copiare un progetto, seleziona un progetto, quindi seleziona **Copia**. L'azione copierà:
+Con Dynamics 365 Project Operations, puoi creare rapidamente nuovi progetti selezionando **Copia progetto** nel modulo **Progetti**. Per copiare un progetto, apri il progetto che desideri copiare e quindi seleziona **Copia progetto**. L'azione copierà:
 
 - Proprietà del progetto
 - Struttura di suddivisione del lavoro
@@ -58,4 +58,6 @@ Quando un team di progetto viene copiato dal progetto di origine, vengono copiat
 
 ## <a name="estimates"></a>Stime
 
-Quando il progetto viene copiato, le righe di stima delle risorse e delle spese vengono copiate dal progetto di origine.
+Quando il progetto viene copiato, le righe di stima delle risorse e delle spese vengono copiate dal progetto di origine. 
+
+Per informazioni su come accedere a livello di codice a Copia progetto, vedi [Sviluppare modelli di progetto con Copia progetto](dev-copy-project.md).

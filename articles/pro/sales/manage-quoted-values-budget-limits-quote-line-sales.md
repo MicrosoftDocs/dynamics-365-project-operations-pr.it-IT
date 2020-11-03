@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: a409d1e378afe97de7fb6c77cf3ad6703661bdff
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908277"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078806"
 ---
 # <a name="project-based-quote-lines-pro"></a>Righe dell'offerta basate sul progetto (Pro)
 
@@ -49,15 +49,15 @@ La tabella seguente fornisce informazioni sui campi nella scheda **Generale** de
 
 ## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a>Regole di convalida per i campi nella scheda Generale delle righe dell'offerta basate sul progetto
 
-**Regola 1**: se il campo **Attività incluse** è vuoto o se è impostato su **Tutte le attività di progetto**, un progetto è incluso nella riga dell'offerta.
+**Regola 1** : se il campo **Attività incluse** è vuoto o se è impostato su **Tutte le attività di progetto** , un progetto è incluso nella riga dell'offerta.
 
-**Regola 2**: se il campo **Attività incluse** è vuoto o se è impostato su **Tutte le attività di progetto**, un progetto e una determinata classe di transazione possono essere inclusi solo in una riga di offerta basata su progetto di un'offerta.
+**Regola 2** : se il campo **Attività incluse** è vuoto o se è impostato su **Tutte le attività di progetto** , un progetto e una determinata classe di transazione possono essere inclusi solo in una riga di offerta basata su progetto di un'offerta.
 
-**Regola 3**: se il campo **Attività incluse** è vuoto o se è impostato su **Solo le attività di progetto selezionate**, un progetto e una determinata classe di transazione possono essere inclusi in più righe di offerta basata su progetto di un'offerta.
+**Regola 3** : se il campo **Attività incluse** è vuoto o se è impostato su **Solo le attività di progetto selezionate** , un progetto e una determinata classe di transazione possono essere inclusi in più righe di offerta basata su progetto di un'offerta.
 
-**Regola 4**: se un'opportunità ha più offerte, possono esserci righe di offerta da offerte diverse che fanno tutte riferimento allo stesso progetto e includono la stessa classe di transazione.
+**Regola 4** : se un'opportunità ha più offerte, possono esserci righe di offerta da offerte diverse che fanno tutte riferimento allo stesso progetto e includono la stessa classe di transazione.
 
-**Regola 5**: se le offerte non appartengono alla stessa opportunità, non possono includere lo stesso progetto e la stessa classe di transazione.
+**Regola 5** : se le offerte non appartengono alla stessa opportunità, non possono includere lo stesso progetto e la stessa classe di transazione.
 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>

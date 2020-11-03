@@ -7,7 +7,6 @@ ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 212b80a7fde8368eedd7572dd5f9278cc53fae98
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: ad5cbdeb5fe05e6115eb024833a8d58b626ea4c9
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897366"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078843"
 ---
 # <a name="review-proposed-resources"></a>Esaminare le risorse proposte
 
@@ -32,11 +31,11 @@ _**Si applica a:** Project Operations per scenari basati su risorse/non stoccate
 I responsabili delle risorse possono proporre una risorsa al responsabile di progetto mediante una richiesta di risorsa.
 
 1. Nella griglia delle richieste o nella richiesta stessa, seleziona **Cerca risorse**.
-2. Nella pagina **Assistente di pianificazione**, seleziona la risorsa e quindi, nel riquadro **Crea prenotazione risorsa**, nel campo **Stato di prenotazione**, seleziona **Prenota**.
+2. Nella pagina **Assistente di pianificazione** , seleziona la risorsa e quindi, nel riquadro **Crea prenotazione risorsa** , nel campo **Stato di prenotazione** , seleziona **Prenota**.
 
 Lo stato viene aggiornato come segue:
 
-- Nella pagina **Assistente di pianificazione**, gli indicatori di stato vengono aggiornati per indicare che la prenotazione è stata proposta ma che non è definitiva.
+- Nella pagina **Assistente di pianificazione** , gli indicatori di stato vengono aggiornati per indicare che la prenotazione è stata proposta ma che non è definitiva.
 - Nella richiesta di risorsa, lo stato diventa **Revisione necessaria**.
 - Nella scheda **Team** del progetto, il valore **Stato richiesta** del membro del team generico diventa **Revisione necessaria**.
 
@@ -72,9 +71,9 @@ Poiché la vista **Utilizzo risorsa** è basata sulla scheda di pianificazione, 
 
 La griglia richiede l'impostazione di un utilizzo di destinazione per il ruolo o la singola risorsa. A questo proposito, seleziona **Risorse** \> **Ruoli risorsa**.
 
-Inoltre, un ruolo predefinito deve essere assegnato a ogni risorsa prenotabile. Seleziona **Risorse** \> **Risorse**. Nella scheda **Project Service**, verifica che un ruolo risorsa sia definito e che il relativo campo **Predefinito** sia impostato su **Sì**. Puoi aggiungere ruoli aggiuntivi dove **Predefinito = No**. Il ruolo dove **Predefinito = Sì** viene utilizzato per valutare l'utilizzo della risorsa in base alla destinazione di quel ruolo.
+Inoltre, un ruolo predefinito deve essere assegnato a ogni risorsa prenotabile. Seleziona **Risorse** \> **Risorse**. Nella scheda **Project Service** , verifica che un ruolo risorsa sia definito e che il relativo campo **Predefinito** sia impostato su **Sì**. Puoi aggiungere ruoli aggiuntivi dove **Predefinito = No**. Il ruolo dove **Predefinito = Sì** viene utilizzato per valutare l'utilizzo della risorsa in base alla destinazione di quel ruolo.
 
-Nella scheda **Project Service**, puoi impostare un singolo utilizzo di destinazione per la risorsa. Per il calcolo dell'utilizzo viene quindi utilizzato l'utilizzo di destinazione allo scopo di valutare la destinazione della risorsa anziché la destinazione del ruolo predefinito della risorsa.
+Nella scheda **Project Service** , puoi impostare un singolo utilizzo di destinazione per la risorsa. Per il calcolo dell'utilizzo viene quindi utilizzato l'utilizzo di destinazione allo scopo di valutare la destinazione della risorsa anziché la destinazione del ruolo predefinito della risorsa.
 
 L'utilizzo viene visualizzato per una risorsa solo se questa ha tempo addebitabile approvato durante il periodo visualizzato nella griglia.
 

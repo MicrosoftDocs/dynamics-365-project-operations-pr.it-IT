@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d09a0dd8234641ca106c37a38d1d721dfb07236c
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 1a69cf51ca8cde8260f4136cf1b2e936f99b112a
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898671"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4079102"
 ---
 # <a name="project-price-lists"></a>Listini prezzi del progetto
 
@@ -35,16 +34,16 @@ Dynamics 365 Project Operations estende l'entità listino prezzi in Dynamics 365
 
 Un listino prezzi include informazioni fornite da quattro entità diverse:
 
-- **Listino prezzi**: in questa entità sono archiviate le informazioni relative a contesto, valuta, data di validità e unità di tempo per il tempo di determinazione dei prezzi. Il contesto indica se il listino prezzi include tassi di costo o di vendita. 
-- **Valuta**: questa entità archivia la valuta dei prezzi nel listino prezzi. 
-- **Data**: questa entità viene utilizzata quando il sistema tenta di immettere un prezzo predefinito in una transazione. Viene selezionato il listino prezzi con una validità di data che include la data della transazione. Se vengono trovati più listini prezzi validi per la data della transazione associata al relativo contratto, offerta o unità organizzativa, nessun prezzo viene impostato come predefinito. 
-- **Tempo**: questa entità archivia l'unità di tempo in cui sono espressi i prezzi, ad esempio tariffa oraria o giornaliera. 
+- **Listino prezzi** : in questa entità sono archiviate le informazioni relative a contesto, valuta, data di validità e unità di tempo per il tempo di determinazione dei prezzi. Il contesto indica se il listino prezzi include tassi di costo o di vendita. 
+- **Valuta** : questa entità archivia la valuta dei prezzi nel listino prezzi. 
+- **Data** : questa entità viene utilizzata quando il sistema tenta di immettere un prezzo predefinito in una transazione. Viene selezionato il listino prezzi con una validità di data che include la data della transazione. Se vengono trovati più listini prezzi validi per la data della transazione associata al relativo contratto, offerta o unità organizzativa, nessun prezzo viene impostato come predefinito. 
+- **Tempo** : questa entità archivia l'unità di tempo in cui sono espressi i prezzi, ad esempio tariffa oraria o giornaliera. 
 
 L'entità Listino prezzi include tre tabelle correlate che archiviano i prezzi:
 
-  - **Prezzo ruolo**: questa tabella archivia un tasso per una combinazione di valori di ruolo e unità organizzativa e viene utilizzata per configurare i prezzi basati su ruolo per le risorse umane.
-  - **Prezzo categoria di transazione**: questa tabella archivia i prezzi per categoria di transazione ed è utilizzata per configurare i prezzi delle categorie di spese.
-  - **Voci di listino**: questa tabella archivia i prezzi dei prodotti in catalogo.
+  - **Prezzo ruolo** : questa tabella archivia un tasso per una combinazione di valori di ruolo e unità organizzativa e viene utilizzata per configurare i prezzi basati su ruolo per le risorse umane.
+  - **Prezzo categoria di transazione** : questa tabella archivia i prezzi per categoria di transazione ed è utilizzata per configurare i prezzi delle categorie di spese.
+  - **Voci di listino** : questa tabella archivia i prezzi dei prodotti in catalogo.
  
 Il listino prezzi è un tariffario pubblicitario. Un tariffario pubblicitario è una combinazione dell'entità Listino prezzi e delle righe correlate nelle tabelle Prezzo ruolo, Prezzo categoria di transazione e Voci di listino.
 
@@ -54,15 +53,15 @@ Il termine *ruolo risorsa* fa riferimento a un insieme di competenze, qualifiche
 
 Il tempo delle risorse umane viene stimato in base al ruolo di una risorsa in uno specifico progetto. Per il tempo delle risorse umane, i costi e la fatturazione sono basati sul ruolo risorsa. Il prezzo del tempo può essere in qualsiasi unità dell'unità di vendita **Tempo**.
 
-L'unità di vendita **Tempo** viene creata quando si installa Project Operations. L'unità predefinita è **Ora**. Non puoi eliminare, rinominare, o modificare gli attributi dell'unità di vendita **Tempo** o dell'unità **Ora**. Puoi tuttavia aggiungere altre unità all''unità di vendita **Tempo**. Se cerchi di eliminare l'unità di vendita **Tempo** o l'unità **Ora**, è possibile che si verifichino errori nelle logica di business.
+L'unità di vendita **Tempo** viene creata quando si installa Project Operations. L'unità predefinita è **Ora**. Non puoi eliminare, rinominare, o modificare gli attributi dell'unità di vendita **Tempo** o dell'unità **Ora**. Puoi tuttavia aggiungere altre unità all''unità di vendita **Tempo**. Se cerchi di eliminare l'unità di vendita **Tempo** o l'unità **Ora** , è possibile che si verifichino errori nelle logica di business.
  
 ## <a name="transaction-categories-and-expense-categories"></a>Categorie di transazioni e di spese
 
 Le spese di viaggio e altre spese dei consulenti per un progetto sono fatturate al cliente. La determinazione dei prezzi delle categorie di spese è completata mediante l'utilizzo di listini prezzi. Biglietti aerei, hotel e autonoleggio sono esempi di categorie di spese. Ogni riga di listino prezzi relativa alle spese specifica la determinazione dei prezzi per una specifica categoria di spese. I tre metodi seguenti vengono utilizzati per definire le categorie di spesa:
 
-- **Al costo**: il costo della spesa viene fatturato al cliente e non viene applicato alcun ricarico.
-- **Percentuale ricarico**: la percentuale sul costo effettivo viene fatturata al cliente. 
-- **Prezzo unitario**: un prezzo di fatturazione viene impostato per ogni unità della categoria di spese. L'importo fatturato al cliente viene calcolato in base al numero di unità di spesa segnalato dal consulente. Per Indennità trasferta viene utilizzato il metodo di determinazione dei prezzi Prezzo unitario. Ad esempio, la categoria di spesa Indennità trasferta può essere configurata per 30 dollari USA (USD) al giorno o 2 USD per miglio. Quando un consulente segnala il chilometraggio per un progetto, l'importo da fatturare viene calcolato in base al numero di miglia indicato dal consulente.
+- **Al costo** : il costo della spesa viene fatturato al cliente e non viene applicato alcun ricarico.
+- **Percentuale ricarico** : la percentuale sul costo effettivo viene fatturata al cliente. 
+- **Prezzo unitario** : un prezzo di fatturazione viene impostato per ogni unità della categoria di spese. L'importo fatturato al cliente viene calcolato in base al numero di unità di spesa segnalato dal consulente. Per Indennità trasferta viene utilizzato il metodo di determinazione dei prezzi Prezzo unitario. Ad esempio, la categoria di spesa Indennità trasferta può essere configurata per 30 dollari USA (USD) al giorno o 2 USD per miglio. Quando un consulente segnala il chilometraggio per un progetto, l'importo da fatturare viene calcolato in base al numero di miglia indicato dal consulente.
  
 ## <a name="project-sales-pricing-and-overrides"></a>Determinazione dei prezzi di vendita di progetto e sostituzioni
 
@@ -104,7 +103,7 @@ Puoi creare sostituzioni specifiche a transazioni per i prezzi selezionati nei l
 
 Per impostazione predefinita, un contratto di progetto ottiene sempre una copia del listino prezzi di vendita master anziché un collegamento diretto allo stesso. Questo comportamento assicura che gli accordi sui prezzi stipulati con un cliente per una descrizione dei lavori non cambiano se il listino prezzi master cambia.
 
-Tuttavia, in un'offerta, puoi utilizzare un listino prezzi master. In alternativa, puoi copiare un listino prezzi master e modificarlo per creare un listino prezzi personalizzato applicabile solo a quell'offerta. Per creare un nuovo listino prezzi specifico a un'offerta, nella pagina **Offerta**, seleziona **Crea determinazione dei prezzi personalizzata**. Puoi accedere al listino prezzi di progetto specifico della transazione solo dall'offerta. 
+Tuttavia, in un'offerta, puoi utilizzare un listino prezzi master. In alternativa, puoi copiare un listino prezzi master e modificarlo per creare un listino prezzi personalizzato applicabile solo a quell'offerta. Per creare un nuovo listino prezzi specifico a un'offerta, nella pagina **Offerta** , seleziona **Crea determinazione dei prezzi personalizzata**. Puoi accedere al listino prezzi di progetto specifico della transazione solo dall'offerta. 
 
 Quando crei un listino prezzi di progetto personalizzato, solo i componenti di progetto del listino prezzi vengono copiati. In altre parole un nuovo listino prezzi creato come copia del listino prezzi di progetto esistente viene associato all'offerta e questo nuovo listino prezzi include solo i prezzi per ruolo e i prezzi per categoria di transazione correlati.
   

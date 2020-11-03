@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 005e36811643b0b1e98a686792cf39125ae97949
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896331"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078805"
 ---
 # <a name="manage-leads-pro"></a>Gestire lead (Pro)
 
@@ -23,7 +23,7 @@ I lead basati su progetto possono essere gestiti e qualificati in Project Operat
 
 ## <a name="list-of-project-sales-leads"></a>Elenco di lead di progetto
 
-Nella sezione **Vendite**, nel riquadro di spostamento a sinistra, apri la pagina elenco **Lead** per visualizzare un elenco di tutti i record di lead nel sistema. L'elenco dei lead mostrato è basato sul lavoro e altri tipi di lead che possono essere creati se disponi anche delle applicazioni Dynamics 365 Sales o Dynamics 365 Field Service.
+Nella sezione **Vendite** , nel riquadro di spostamento a sinistra, apri la pagina elenco **Lead** per visualizzare un elenco di tutti i record di lead nel sistema. L'elenco dei lead mostrato è basato sul lavoro e altri tipi di lead che possono essere creati se disponi anche delle applicazioni Dynamics 365 Sales o Dynamics 365 Field Service.
 
 Puoi creare un visualizzazione filtrata per vedere solo i lead basati su progetto creando un filtro sul valore **Tipo**. Ad esempio, puoi scegliere di mostrare solo i lead basati sul lavoro.
 

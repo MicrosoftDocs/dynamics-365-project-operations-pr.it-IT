@@ -1,29 +1,19 @@
 ---
 title: Soddisfare i requisiti generici delle risorse
-description: In questo argomento vengono fornite informazioni sulla prenotazione di risorse denominate per un requisito di risorsa generica.
+description: In questo argomento vengono fornite informazioni su come prenotare risorse denominate per un requisito di risorsa generica.
 author: ruhercul
 manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
-ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
 ms.author: ruhercul
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 76dd47fa2451b5cb61298ff332d77bae646a288a
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 6bb7c185656ff87bb3ca24209594c07d25862d70
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897591"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078821"
 ---
 # <a name="generic-resource-requirement-fulfillment"></a>Soddisfare i requisiti generici delle risorse
 
@@ -31,9 +21,9 @@ _**Si applica a:** Project Operations per scenari basati su risorse/non stoccate
 
 Puoi prenotare una risorsa denominata per sostituire una risorsa generica che ha un requisito di risorsa.
 
-1. Nella pagina **Progetti**, seleziona la scheda **Team**.
+1. Nella pagina **Progetti** , seleziona la scheda **Team**.
 2. Seleziona la risorsa generica che ha un requisito di risorsa nell'elenco e seleziona **Prenota**. Oppure apri il requisito di risorsa e seleziona **Prenota**.
-3. Nella pagina **Assistente di pianificazione**, seleziona una risorsa denominata per prenotarla per il team di progetto e seleziona **Prenota**.
+3. Nella pagina **Assistente di pianificazione** , seleziona una risorsa denominata per prenotarla per il team di progetto e seleziona **Prenota**.
 
 Al termine della prenotazione di una risorsa denominata, questa sostituisce la risorsa generica.
 

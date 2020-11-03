@@ -7,7 +7,6 @@ ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1b60ed9d15f51ff01f27bcc231f5db27513a838f
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: e2b16a6e1c48769ed4d903e546804ba1c4e1c4fa
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897456"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078818"
 ---
 # <a name="resource-reconciliation-overview"></a>Panoramica della riconciliazione risorse
 
@@ -47,7 +46,7 @@ In alcuni casi, quando visualizzi il tempo a un livello superiore al livello del
 Quando visualizzi il tempo a livelli superiori, le celle nella scheda **Riconciliazione** presentano un indicatore che informa dell'esistenza di differenze a livelli inferiori. Facendo doppio clic su una cella, puoi fare zoom in avanti per visualizzare la differenza. Fai clic con il pulsante destro del mouse per fare zoom indietro. Selezionando una risorsa e quindi utilizzando il controllo **Differenza successiva** puoi passare alla differenza successiva tra prenotazioni e assegnazioni per quella risorsa. Per tornare alla differenza precedente, utilizza il controllo **Differenza precedente**. Puoi anche disattivare l'indicatore di differenza e il comportamento di navigazione in **Impostazioni**.
 
 
-Se sono presenti assegnazioni di attività per una risorsa ma nessuna prenotazione, nella pagina **Progetti**, nella scheda **Riconciliazione**, seleziona la prenotazione insufficiente e quindi seleziona **Estendi prenotazione**. Viene visualizzata la finestra di dialogo **Estendi prenotazione** che mostra la prenotazione necessaria per compensare la mancanza della risorsa. Mostra inoltre le prenotazioni esistenti della risorsa in tutti i progetti o altre entità pianificabili. Se selezioni **OK** per creare la prenotazione della risorsa, indipendentemente dalla disponibilità di quella risorsa, è possibile che si abbia una sovraprenotazione.
+Se sono presenti assegnazioni di attività per una risorsa ma nessuna prenotazione, nella pagina **Progetti** , nella scheda **Riconciliazione** , seleziona la prenotazione insufficiente e quindi seleziona **Estendi prenotazione**. Viene visualizzata la finestra di dialogo **Estendi prenotazione** che mostra la prenotazione necessaria per compensare la mancanza della risorsa. Mostra inoltre le prenotazioni esistenti della risorsa in tutti i progetti o altre entità pianificabili. Se selezioni **OK** per creare la prenotazione della risorsa, indipendentemente dalla disponibilità di quella risorsa, è possibile che si abbia una sovraprenotazione.
 
 Il responsabile di progetto o il responsabile delle risorse può quindi utilizzare la scheda di pianificazione per gestire situazioni in cui una risorsa è sovraprenotata aldilà della sua capacità.
 

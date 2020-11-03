@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: a27bfe881fdb6431941fa860d279e3e7b526f623
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: e589465eb98723b3b49c5d96e263eb3abf15eb2c
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898311"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078916"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>Aggiungere campi personalizzati richiesti all'impostazione e alle entità transazionali
 
@@ -43,31 +42,31 @@ Quando una dimensione di determinazione dei prezzi è basata su set di opzioni, 
 2. In Esplora soluzioni, nel riquadro di spostamento a sinistra, seleziona **Entità > Prezzo ruolo**.
 3. Espandi l'entità **Prezzo ruolo** e seleziona **Campi**.
 4. Seleziona **Nuovo** per creare un nuovo campo denominato **Ubicazione lavoro risorsa** e seleziona **Set di opzioni** come tipo di campo. 
-5. Seleziona **Utilizza come set di opzioni esistente**, seleziona il set di opzioni **Ubicazione lavoro risorsa** e quindi seleziona **Salva**.
+5. Seleziona **Utilizza come set di opzioni esistente** , seleziona il set di opzioni **Ubicazione lavoro risorsa** e quindi seleziona **Salva**.
 6. Ripeti i passaggi da 1 a 5 per aggiungere questo campo all'entità **Ricarico prezzo ruolo**. 
 7. Ripeti i passaggi da 1 a 5 per il set di opzioni **Ore lavorative risorsa**.
 
 > [!IMPORTANT]
 > Quando aggiungi un campo a più entità, utilizza lo stesso nome di campo in tutte le entità. 
 
-Nelle fasi di vendita e stima di un progetto, le stime del lavoro richiesto per completare il lavoro **Locale** e **In loco**, presenti in **Ore regolari** e **Ore di lavoro straordinario**, sono utilizzate per stimare il valore dell'offerta/del progetto. I campi **Ubicazione lavoro risorsa** e **Ore lavorative risorsa** sono aggiunti alle entità di stima **Dettagli riga di offerta**, **Dettaglio voce di contratto**, **Membro del team di progetto** e **Riga di stima**.
+Nelle fasi di vendita e stima di un progetto, le stime del lavoro richiesto per completare il lavoro **Locale** e **In loco** , presenti in **Ore regolari** e **Ore di lavoro straordinario** , sono utilizzate per stimare il valore dell'offerta/del progetto. I campi **Ubicazione lavoro risorsa** e **Ore lavorative risorsa** sono aggiunti alle entità di stima **Dettagli riga di offerta** , **Dettaglio voce di contratto** , **Membro del team di progetto** e **Riga di stima**.
 
 1. In Project Operations, seleziona **Impostazioni** > **Soluzioni** e quindi fai doppio clic su **dimensioni di determinazione dei prezzi di \<your organization name>**. 
 2. In Esplora soluzioni, nel riquadro di spostamento a sinistra, seleziona **Dettagli riga di offerta**.
 3. Espandi l'entità **Dettagli riga di offerta** e seleziona **Campi**.
 4. Seleziona **Nuovo** per creare un nuovo campo denominato **Ubicazione lavoro risorsa** e seleziona il tipo di campo **Set di opzioni**. 
 5. Seleziona **Utilizza come set di opzioni esistente** e **Ubicazione lavoro risorsa** e quindi seleziona **Salva**.
-6. Ripeti i passaggi da 1 a 5 per aggiungere questo campo alle entità **Dettagli di voce di contratto di progetto**, **Membro del team di progetto** e **Riga di stima**.
+6. Ripeti i passaggi da 1 a 5 per aggiungere questo campo alle entità **Dettagli di voce di contratto di progetto** , **Membro del team di progetto** e **Riga di stima**.
 7. Ripeti i passaggi da 1 a 6 per il set di opzioni **Ore lavorative risorsa**. 
 
-Per la consegna e la fatturazione, è necessario determinare correttamente il prezzo del lavoro completato per specificare se è **Locale** o **In loco** e se è stato completato durante le **Ore regolari** o le **Ore di lavoro straordinario** per i valori effettivi di progetto. I campi **Ore lavorative di una risorsa** e **Ubicazione lavoro risorsa** devono essere aggiunti alle entità **Inserimento ore**, **Valore effettivo**, **Dettagli di riga fattura** e **Riga giornale di registrazione**.
+Per la consegna e la fatturazione, è necessario determinare correttamente il prezzo del lavoro completato per specificare se è **Locale** o **In loco** e se è stato completato durante le **Ore regolari** o le **Ore di lavoro straordinario** per i valori effettivi di progetto. I campi **Ore lavorative di una risorsa** e **Ubicazione lavoro risorsa** devono essere aggiunti alle entità **Inserimento ore** , **Valore effettivo** , **Dettagli di riga fattura** e **Riga giornale di registrazione**.
 
 1. Seleziona **Impostazioni** > **Soluzioni** e quindi fai doppio clic su **dimensioni di determinazione dei prezzi di \<your organization name>**.
 2. In Esplora soluzioni, nel riquadro di spostamento a sinistra, seleziona **Entità > Inserimento ore**.
 3. Espandi l'entità **Dettagli riga di offerta** e seleziona **Campi**.
 4. Seleziona **Nuovo** per creare un nuovo campo denominato **Ubicazione lavoro risorsa** e seleziona **Set di opzioni** come tipo di campo. 
-5. Seleziona **Utilizza come set di opzioni esistente**, seleziona il set di opzioni **Ubicazione lavoro risorsa** e quindi seleziona **Salva**.
-6. Ripeti i passaggi da 1 a 5 per aggiungere questo campo alle entità **Valore effettivo**, **Dettagli di riga fattura** e **Riga giornale di registrazione**.
+5. Seleziona **Utilizza come set di opzioni esistente** , seleziona il set di opzioni **Ubicazione lavoro risorsa** e quindi seleziona **Salva**.
+6. Ripeti i passaggi da 1 a 5 per aggiungere questo campo alle entità **Valore effettivo** , **Dettagli di riga fattura** e **Riga giornale di registrazione**.
 7. Ripeti i passaggi da 1 a 6 per il set di opzioni **Ore lavorative risorsa**. 
 
 Questa operazione completa le modifiche allo schema necessarie per le dimensioni personalizzate basate su set di opzioni.
@@ -95,11 +94,11 @@ Nelle fasi di vendita e stima del progetto, per determinare il prezzo dell'offer
 - **Membro del team di progetto**
 - **Riga di stima**
 
-5. Ripeti i passaggi da 1 a 5 per creare relazioni 1:N tra **Titolo standard** e **Dettagli riga di offerta**, **Dettagli di voce di contratto di progetto**, **Membro del team di progetto** e **Riga di stima**.
+5. Ripeti i passaggi da 1 a 5 per creare relazioni 1:N tra **Titolo standard** e **Dettagli riga di offerta** , **Dettagli di voce di contratto di progetto** , **Membro del team di progetto** e **Riga di stima**.
 
-  Nelle fasi di consegna e fatturazione, è necessario determinare accuratamente il prezzo del lavoro completato per ogni titolo standard nel valori effettivi di progetto. Ciò significa che deve esistere una relazione 1:N tra **Titolo standard** e le entità **Inserimento ore**, **Valore effettivo**, **Dettagli di riga fattura** e **Riga giornale di registrazione**.
+  Nelle fasi di consegna e fatturazione, è necessario determinare accuratamente il prezzo del lavoro completato per ogni titolo standard nel valori effettivi di progetto. Ciò significa che deve esistere una relazione 1:N tra **Titolo standard** e le entità **Inserimento ore** , **Valore effettivo** , **Dettagli di riga fattura** e **Riga giornale di registrazione**.
 
-6. Ripeti i passaggi da 1 a 6 per creare relazioni 1:N tra **Titolo standard** e le entità **Inserimento ore**, **Valore effettivo**, **Dettagli di riga fattura** e **Riga giornale di registrazione**.
+6. Ripeti i passaggi da 1 a 6 per creare relazioni 1:N tra **Titolo standard** e le entità **Inserimento ore** , **Valore effettivo** , **Dettagli di riga fattura** e **Riga giornale di registrazione**.
 
 ### <a name="set-up-dimension-value-defaulting-using-the-mappings-features-of-the-platform"></a>Configurare l'impostazione predefinita del valore della dimensione utilizzando funzionalità di mapping della piattaforma
 Per Inserimento ore, sarebbe utile che il sistema utilizzasse, per impostazione predefinita, il titolo standard nell'inserimento ore anziché quello della risorsa prenotabile che sta registrando l'inserimento ore. Utilizza i passaggi seguenti per aggiungere mapping di campi nella relazione 1:N tra **Risorsa prenotabile** e **Inserimento ore**.
@@ -116,7 +115,7 @@ Questa operazione completa le modifiche allo schema necessarie per le dimensioni
 Dopo aver apportato tutte le modifiche necessarie allo schema, è necessario rendere i campi visibili nell'interfaccia utente tramite l'aggiunta di campi ai moduli e alle viste.
 
 1. Apri il modulo o la vista. Nel riquadro di spostamento a destra, seleziona il campo e trascinalo nel canvas del modulo. 
-2. Se modifichi una vista, utilizza il riquadro di spostamento destro, seleziona **Aggiungi campi** e nella finestra di dialogo **Elenco campi**, seleziona i campi necessari e seleziona **OK**.
+2. Se modifichi una vista, utilizza il riquadro di spostamento destro, seleziona **Aggiungi campi** e nella finestra di dialogo **Elenco campi** , seleziona i campi necessari e seleziona **OK**.
 
 La tabella seguente fornisce un elenco completo di moduli e viste predefinite, elencati per entità, che devono essere aggiornati con i nuovi campi. Se nelle personalizzazioni di queste entità sono presenti ulteriori viste o moduli, aggiungi i nuovi campi anche a questi.
 

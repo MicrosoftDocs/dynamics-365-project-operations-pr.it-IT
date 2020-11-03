@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ecaf4d872873473b0e7fe3b08d62c6fe5af9c3d
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: 3ead79371c5ebf5801123e47dc0d24e35ae51e58
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908281"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078809"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>Pianificazioni della fatturazione su righe di offerta basate su progetto
 
@@ -28,11 +28,11 @@ Nel complesso, lo scopo delle pianificazioni della fatturazione è consentire la
 Quando il metodo di fatturazione per una riga di offerta basata su progetto è Tempo e materiale, il sistema genera una pianificazione della fatturazione basata sulla data. Per generare automaticamente una pianificazione della fatturazione basata sulla data, completa i seguenti passaggi.
 
 1. Vai a **Impostazioni** > **Frequenze di fatturazione** e configura una frequenza di fatturazione.
-2. Nella pagina **Offerta** apri l'offerta di progetto e nella scheda **Riepilogo**, imposta una data di consegna richiesta.
+2. Nella pagina **Offerta** apri l'offerta di progetto e nella scheda **Riepilogo** , imposta una data di consegna richiesta.
 3. Apri la riga dell'offerta di tempo e materiale per la quale è necessario creare una pianificazione della fatturazione basata sulla data. 
-4. Nella scheda **Pianificazione fatturazione**, seleziona i valori nei campi **Inizio fatturazione** e **Frequenza di fatturazione**. 
+4. Nella scheda **Pianificazione fatturazione** , seleziona i valori nei campi **Inizio fatturazione** e **Frequenza di fatturazione**. 
 5. Nella griglia secondaria, seleziona **Genera pianificazione fatturazione**.
-6. L'applicazione genera la pianificazione della fatturazione con i campi **Data esecuzione fattura**, **Data limite transazione** e **Stato di esecuzione** impostati nel modo seguente:
+6. L'applicazione genera la pianificazione della fatturazione con i campi **Data esecuzione fattura** , **Data limite transazione** e **Stato di esecuzione** impostati nel modo seguente:
 
     - **Data esecuzione fattura** è impostato sulla data dettata in base alla frequenza della fatturazione.
     - **Data limite transazione** è impostato il giorno prima della **Data esecuzione fattura**.
@@ -40,12 +40,12 @@ Quando il metodo di fatturazione per una riga di offerta basata su progetto è T
 
 ## <a name="create-a-fixed-price-invoice-schedule-for-a-project-based-quote-line"></a>Creare una pianificazione della fatturazione a prezzo fisso per una riga di offerta basata su progetto
 
-Quando la riga dell'offerta basata sul progetto ha un metodo di fatturazione **Fisso**, il sistema crea una pianificazione della fatturazione basata su passaggi fondamentali. Completa i passaggi seguenti per generare automaticamente questa pianificazione per un insieme fisso di passaggi fondamentali che vengono equamente distribuiti per il periodo di calendario.
+Quando la riga dell'offerta basata sul progetto ha un metodo di fatturazione **Fisso** , il sistema crea una pianificazione della fatturazione basata su passaggi fondamentali. Completa i passaggi seguenti per generare automaticamente questa pianificazione per un insieme fisso di passaggi fondamentali che vengono equamente distribuiti per il periodo di calendario.
 
 1. Vai a **Impostazioni** > **Frequenze di fatturazione** e configura una frequenza di fatturazione.
-2. Nella pagina **Offerta** apri l'offerta di progetto e nella scheda **Riepilogo**, imposta una data di consegna richiesta.
+2. Nella pagina **Offerta** apri l'offerta di progetto e nella scheda **Riepilogo** , imposta una data di consegna richiesta.
 3. Aprire la riga dell'offerta a prezzo fisso per cui è necessario creare una pianificazione dei passaggi fondamentali. 
-4. Nella scheda **Pianificazione fatturazione**, seleziona i valori nei campi **Inizio fatturazione** e **Frequenza di fatturazione**. 
+4. Nella scheda **Pianificazione fatturazione** , seleziona i valori nei campi **Inizio fatturazione** e **Frequenza di fatturazione**. 
 5. Nella griglia secondaria, seleziona **Genera passaggi fondamentali periodici**.
 6. L'applicazione genera la pianificazione della fatturazione con un nome, una data e un importo per il passaggio fondamentale.
 
@@ -58,7 +58,7 @@ Quando la riga dell'offerta basata sul progetto ha un metodo di fatturazione **F
 
 I passaggi fondamentali a prezzo fisso possono anche essere generati manualmente quando non vengono suddivisi periodicamente. Per creare manualmente un passaggio fondamentale:
 
-Apri la riga dell'offerta a prezzo fisso per cui è necessario creare un passaggio fondamentale. Nella scheda **Pianificazione della fatturazione**, nella griglia secondaria, seleziona **+ Crea un nuovo passaggio fondamentale della riga di offerta** e immetti le informazioni richieste in base alla tabella seguente.
+Apri la riga dell'offerta a prezzo fisso per cui è necessario creare un passaggio fondamentale. Nella scheda **Pianificazione della fatturazione** , nella griglia secondaria, seleziona **+ Crea un nuovo passaggio fondamentale della riga di offerta** e immetti le informazioni richieste in base alla tabella seguente.
 
 | **Campo** | **Luogo** | **Pertinenza, scopo e indicazioni** | **Impatto downstream** |
 | --- | --- | --- | --- |
