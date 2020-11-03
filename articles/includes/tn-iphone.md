@@ -1,0 +1,9 @@
+---
+ms.openlocfilehash: 97f2142cbb711918707b621ea05cbd1662b714ab
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4069775"
+---
+<span data-ttu-id="bf7bc-101">iPhone</span><span class="sxs-lookup"><span data-stu-id="bf7bc-101">iPhone</span></span>
