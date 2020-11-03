@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: c8ac11d45c1d28967eaf5d76b326950ebd0c8eb3
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908263"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078729"
 ---
 # <a name="edit-a-resource-requirement"></a>Modificare un requisito di risorsa
 
@@ -26,7 +26,7 @@ Dopo che un requisito di risorsa è stato definito dall'azione **Genera requisit
 In qualità di responsabile di progetto, completa i seguenti passaggi per modificare i requisiti di risorsa di un membro del team.
 
 1. Vai alla griglia dei membri del team, individua il membro del team nell'elenco e seleziona il collegamento ai requisiti di risorsa associati.
-2. Nel modulo **Dettagli requisito**, aggiorna i seguenti attributi in base alle necessità.
+2. Nel modulo **Dettagli requisito** , aggiorna i seguenti attributi in base alle necessità.
 
 - Competenze
 - Ruoli

@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.openlocfilehash: 0261405abb9305d7f6abcde9cb90d9b184868580
-ms.sourcegitcommit: a0f80d024a5d3112a39781815bd31d0c05ddaf6f
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "3906216"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078745"
 ---
 # <a name="travel-requisitions"></a>Richieste di viaggio
 
@@ -33,7 +33,7 @@ Le richieste di viaggio possono essere configurate come "obbligatorie" abilitand
 
 1. Vai a **Spese personali: richiesta di viaggio** e seleziona **Nuova richiesta di viaggio**.
 2. Immetti uno scopo e una destinazione per la richiesta.
-3. Nel campo **Descrizione viaggio**, immetti eventuali informazioni aggiuntive. 
+3. Nel campo **Descrizione viaggio** , immetti eventuali informazioni aggiuntive. 
 4. Per ciascuna delle spese previste, ad esempio volo, vitto o noleggio auto, crea una voce di spesa. Includi la data stimata, l'importo stimato e la valuta per ciascuna spesa. 
 5. Quando hai finito di aggiungere le spese previste, seleziona **Salva**.
 6. Quando sei pronto per inviare la richiesta di viaggio, seleziona **Flusso di lavoro** > **Invia**.

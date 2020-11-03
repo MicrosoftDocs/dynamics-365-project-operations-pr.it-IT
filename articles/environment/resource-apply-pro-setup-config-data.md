@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d99ab4c7b2ebf6ba56b86a3e0151036c6247e484
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 5e72b88a4dae1eb89859fdfd55f6d5e6ee5befcd
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948930"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078749"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service-for-project-operations"></a>Impostare e applicare i dati di configurazione in Common Data Service per Project Operations
 
@@ -27,7 +27,7 @@ _**Si applica a:** Project Operations per scenari basati su risorse/materiali no
 
 ![Migrazione della configurazione](./media/1ConfigurationMigration.png)
 
-4. A pagina 2 della procedura guidata CMT, seleziona **Office 365** come **Tipo di distribuzione**.
+4. A pagina 2 della procedura guidata CMT, seleziona **Microsoft 365** come **Tipo di distribuzione**.
 5. Seleziona le caselle di controllo **Visualizza l'elenco delle organizzazioni disponibili** e **Mostra avanzate**.
 6. Seleziona l'area del tenant, inserisci le tue credenziali e seleziona **Accedi**.
 
@@ -71,7 +71,7 @@ _**Si applica a:** Project Operations per scenari basati su risorse/materiali no
 
 ## <a name="update-project-operations-configurations"></a>Aggiornare le configurazioni di Project Operations
 
-1. Passa all‘ambiente CE. Puoi trovarlo aprendo l'[interfaccia di amministrazione di Power Platform](https://admin.powerplatform.microsoft.com/environments), selezionando l'ambiente e quindi selezionando **Apri ambiente**. 
+1. Passa all‘ambiente CE. Puoi trovarlo aprendo l' [interfaccia di amministrazione di Power Platform](https://admin.powerplatform.microsoft.com/environments), selezionando l'ambiente e quindi selezionando **Apri ambiente**. 
 
 ![Aprire l'ambiente](./media/7OpenEnvironment.png)
 
@@ -79,11 +79,11 @@ _**Si applica a:** Project Operations per scenari basati su risorse/materiali no
 
 ![Risorse prenotabili](./media/8BookableResources.png)
 
-3. Nella scheda **Generale**, seleziona l'utente amministratore. Verifica che il fuso orario corrisponda a quello in cui ti trovi. 
+3. Nella scheda **Generale** , seleziona l'utente amministratore. Verifica che il fuso orario corrisponda a quello in cui ti trovi. 
 
 ![Nuova risorsa prenotabile](./media/9NewBookableResource.png)
 
-4. Nella scheda **Pianificazione**, nel campo **Società**, seleziona la società **USPM**, quindi seleziona **Salva**. 
+4. Nella scheda **Pianificazione** , nel campo **Società** , seleziona la società **USPM** , quindi seleziona **Salva**. 
 
 ![Scheda Pianificazione](./media/10SchedulingTab.png)
 
@@ -114,10 +114,10 @@ _**Si applica a:** Project Operations per scenari basati su risorse/materiali no
  
 12. Aggiorna i seguenti campi:
 
- - **Società predefinita**: USPM
- - **Unità organizzativa predefinita**: Contoso Robotics Global
- - **Frequenza di fatturazione**: settimo e ultimo giorno
- - **Modello di ore lavorative**: cambia nel modello che hai creato.
+ - **Società predefinita** : USPM
+ - **Unità organizzativa predefinita** : Contoso Robotics Global
+ - **Frequenza di fatturazione** : settimo e ultimo giorno
+ - **Modello di ore lavorative** : cambia nel modello che hai creato.
 
 13. Seleziona **Salva**. 
 

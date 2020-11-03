@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: d7234958d542dec4cba55cb0516f1222937389e1
-ms.sourcegitcommit: f255b2cbf290973ce62fe2c1c121bd1df15a7392
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3928579"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078753"
 ---
 # <a name="copy-project-based-quotes"></a>Copiare offerte basate su progetto
 
@@ -21,7 +21,7 @@ _**Si applica a:** Project Operations per scenari basati su risorse/materiali no
 
 Puoi facilmente creare una nuova offerta di progetto copiandone una esistente. 
 
-- Per copiare un'offerta di progetto, nella pagina elenco **Offerte di progetto** o nella pagina dei dettagli **Offerta di progetto**, seleziona l'offerta di progetto che vuoi copiare, quindi seleziona **Copia**.
+- Per copiare un'offerta di progetto, nella pagina elenco **Offerte di progetto** o nella pagina dei dettagli **Offerta di progetto** , seleziona l'offerta di progetto che vuoi copiare, quindi seleziona **Copia**.
 
 Si aprirà una pagina della finestra di dialogo in cui è possibile inserire i parametri della copia. Nella tabella seguente sono elencati i campi inclusi nella pagina della finestra di dialogo. A seconda dei valori selezionati, il processo di copia potrebbe cambiare.
 
@@ -33,7 +33,7 @@ Si aprirà una pagina della finestra di dialogo in cui è possibile inserire i p
 Quando si apre la finestra di dialogo, il sistema la imposterà sull'unità di contratto dell'offerta di origine. | L'unità di contratto è la divisione dell'azienda che eseguirà i progetti dopo la chiusura della trattativa. Ogni unità di contratto ha una valuta. La valuta viene utilizzata per riportare i costi stimati ed effettivi sostenuti durante l'esecuzione del progetto. |
 | Valuta | È la valuta in cui viene eseguita la transazione. Quando si apre la finestra di dialogo, il sistema la imposterà sulla valuta dell'offerta di origine. Questo può essere modificato e, se cambia, il campo **Copia prezzi** è sempre impostato su **No**. Questo perché i listini prezzi sull'offerta di origine non sono più rilevanti. | La valuta viene utilizzata per impostare un listino prezzi predefinito, per generare una stima finanziaria sull'offerta e, infine, per fatturare al cliente quando la transazione viene acquisita. |
 | Data consegna richiesta | Questa è la data di consegna richiesta dal cliente. | Viene utilizzata come data di fine quando si creano date di fatturazione con una frequenza specifica. |
-| Copia prezzi | Un valore Sì/No indica se il prezzo dell'offerta deve essere copiato dall'offerta di origine. | Se viene selezionato **Sì** , il listino prezzi del progetto e i riferimenti del listino prezzi del prodotto vengono copiati dall'offerta di origine all'offerta di destinazione. Se viene selezionato **No**, i listini prezzi vengono reimpostati in base agli ultimi listini prezzi impostati sui parametri dell'account o del progetto. |
+| Copia prezzi | Un valore Sì/No indica se il prezzo dell'offerta deve essere copiato dall'offerta di origine. | Se viene selezionato **Sì** , il listino prezzi del progetto e i riferimenti del listino prezzi del prodotto vengono copiati dall'offerta di origine all'offerta di destinazione. Se viene selezionato **No** , i listini prezzi vengono reimpostati in base agli ultimi listini prezzi impostati sui parametri dell'account o del progetto. |
 
 Quando selezioni **OK** nella pagina della finestra di dialogo, il sistema crea una copia dell'offerta di progetto in base ai parametri selezionati nella finestra di dialogo. Si apre la nuova offerta di progetto. 
 

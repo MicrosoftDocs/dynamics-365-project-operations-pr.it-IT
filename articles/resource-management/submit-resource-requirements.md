@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 94cf0f0d88e9be2522936b45122ed0037434d4f3
-ms.sourcegitcommit: 2cf93d8bf0be5b61a739195a41334c34d910e9ba
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961718"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078770"
 ---
 # <a name="submit-a-resource-request"></a>Inviare una richiesta di risorsa
 
@@ -21,7 +21,7 @@ _**Si applica a:** Project Operations per scenari basati su risorse/materiali no
 
 È possibile inviare un requisito di risorsa generato come richiesta di risorse. La richiesta viene quindi inviata a un responsabile delle risorse per essere evasa.
 
-1. In Dynamics 365 Project Operations, nella pagina **Progetti**, seleziona la scheda **Team** per visualizzare un elenco di risorse prenotabili. 
+1. In Dynamics 365 Project Operations, nella pagina **Progetti** , seleziona la scheda **Team** per visualizzare un elenco di risorse prenotabili. 
 2. Seleziona la risorsa generica con un requisito di risorsa nell'elenco e fai clic su **Invia richiesta**.
 
 Lo stato della richiesta del membro del team generico diventerà **Inviata**.

@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: d726ab09da0e502da99191f7e7469c47f79b6e7c
-ms.sourcegitcommit: 6b396ccf5e76230a42a2f933a3aaa5b8149790bb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3964912"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078768"
 ---
 # <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a>Mappare progetti e attività a una riga dell'offerta basata su progetto
 
@@ -42,13 +42,13 @@ Ad esempio, puoi avere un progetto in cui una fase è a prezzo fisso e tutte le 
 La pagina **Progetto** fornisce l'esperienza ottimale per associare attività a righe di offerta. È possibile utilizzare questa pagina per selezionare più attività e associarle tutte, con le relative attività figlio, alla riga di offerta selezionata.
 
 1. Nella scheda **Generale** di una riga di offerta basata su progetto, controlla che il campo **Progetto** sia compilato.
-2. Nel campo **Attività incluse**, seleziona **Solo le attività selezionate**.
+2. Nel campo **Attività incluse** , seleziona **Solo le attività selezionate**.
 3. Salva la riga dell'offerta basata su progetto. Quando il modulo viene aggiornato, viene visualizzata la scheda **Attività addebitabili**.
-4. Nella scheda **Generale**, seleziona il collegamento per il progetto dal campo **Progetto**.
-5. Nella pagina **Progetto**, seleziona la scheda **Fatturazione attività**.
+4. Nella scheda **Generale** , seleziona il collegamento per il progetto dal campo **Progetto**.
+5. Nella pagina **Progetto** , seleziona la scheda **Fatturazione attività**.
 6. Nella seconda griglia, che si applica all'impostazione della fatturazione specifica per attività, seleziona una o più attività, quindi seleziona **Associa righe di offerta**.
 7. Nella finestra di dialogo che appare, seleziona una riga di offerta che visualizza le righe di offerta basate sul progetto nell'offerta.
-8. Nel campo **Tipo di fatturazione**, indica se queste attività sono addebitabili o non addebitabili.
+8. Nel campo **Tipo di fatturazione** , indica se queste attività sono addebitabili o non addebitabili.
 9. Seleziona la casella di controllo per indicare se l'associazione deve includere le attività figlio delle attività selezionate. La selezione della casella associa le attività figlio delle attività selezionate alla riga dell'offerta.
 10. Selezionate **OK** per chiudere la finestra di dialogo.
 
@@ -57,13 +57,13 @@ La pagina **Progetto** fornisce l'esperienza ottimale per associare attività a 
 È possibile associare attività di progetto a righe di offerta dalla scheda **Attività addebitabili** nella pagina **Riga di offerta**.
 
 >[!NOTE]
->Il posto ottimale per associare le attività del progetto alle righe di offerta è nella scheda **Fatturazione attività** nella pagina **Progetto**. Se associ attività dalla scheda **Attività addebitabili** nella pagina **Riga di offerta**, devi associare manualmente ogni progetto.
+>Il posto ottimale per associare le attività del progetto alle righe di offerta è nella scheda **Fatturazione attività** nella pagina **Progetto**. Se associ attività dalla scheda **Attività addebitabili** nella pagina **Riga di offerta** , devi associare manualmente ogni progetto.
 
 1. Nella scheda **Generale** di una riga di offerta basata su progetto, controlla che vi sia un progetto selezionato nel campo **Progetto**.
-2. Nel campo **Attività incluse**, seleziona **Solo le attività selezionate**.
+2. Nel campo **Attività incluse** , seleziona **Solo le attività selezionate**.
 3. Salva la riga dell'offerta basata su progetto. Quando il modulo viene aggiornato, viene visualizzata la scheda **Attività addebitabili**.
-4. Nella scheda **Attività addebitabili**, seleziona **Aggiungi attività riga di offerta**.
-5. Nella pagina **Attività riga offerta**, nel campo **Attività** seleziona l'attività e nel campo **Tipo di fatturazione** seleziona **Salva**. 
+4. Nella scheda **Attività addebitabili** , seleziona **Aggiungi attività riga di offerta**.
+5. Nella pagina **Attività riga offerta** , nel campo **Attività** seleziona l'attività e nel campo **Tipo di fatturazione** seleziona **Salva**. 
 6. Chiudi la pagina. L'attività selezionata è ora associata alla riga di offerta.
 
 ## <a name="disassociate-tasks-from-projectbased-quote-lines"></a>Annullare l'associazione di attività alle righe di offerta basate sul progetto
@@ -73,7 +73,7 @@ La pagina **Progetto** fornisce l'esperienza ottimale per associare attività a 
 Questo metodo fornisce l'esperienza ottimale per annullare l'associazione di attività a righe di offerta. Puoi selezionare più attività e annullare l'associazione di tutte, con le relative attività figlio, alla riga di offerta selezionata.
 
 1. Nella scheda **Generale** di una riga di offerta basata su progetto, nel campo **Progetto** seleziona il collegamento per il progetto.
-2. Nella pagina **Progetto**, seleziona la scheda **Fatturazione attività**.
+2. Nella pagina **Progetto** , seleziona la scheda **Fatturazione attività**.
 3. Nella seconda griglia, che si applica all'impostazione della fatturazione specifica per attività, seleziona una o più attività, quindi seleziona **Annulla associazione righe di offerta**.
 4. Nella finestra di dialogo che appare, seleziona una riga di offerta.
 5. Seleziona la casella di controllo per indicare se l'associazione deve essere rimossa anche dalle attività figlio delle attività selezionate. La selezione della casella annulla l'associazione anche delle attività figlio delle attività selezionate alla riga dell'offerta.
@@ -84,7 +84,7 @@ Questo metodo fornisce l'esperienza ottimale per annullare l'associazione di att
 
 È possibile inoltre annullare l'associazione di attività di progetto a righe di offerta dalla scheda **Attività addebitabili** nella pagina **Riga di offerta**.
 
-1. Nella scheda **Attività addebitabili**, seleziona **Elimina attività riga di offerta**.
+1. Nella scheda **Attività addebitabili** , seleziona **Elimina attività riga di offerta**.
 2. Seleziona **OK**. Un messaggio di avviso informa che se si rimuove questa associazione eventuali valori effettivi registrati in precedenza sull'attività potrebbero essere annullati. 
 3. Seleziona **OK** per continuare e rimuovere l'associazione tra l'attività e la riga dell'offerta basata sul progetto.
 

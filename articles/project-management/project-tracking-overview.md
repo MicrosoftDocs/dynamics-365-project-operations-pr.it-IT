@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: c998addbbdbbea8fe69c95f65e58a24146f394c8
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3907368"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078727"
 ---
 # <a name="project-tracking-overview"></a>Panoramica della registrazione di progetto
 
@@ -25,10 +25,10 @@ La necessità di tenere traccia dell'avanzamento di un progetto rispetto a una p
 
 La vista **Registrazione lavoro richiesto** tiene traccia dell'avanzamento delle attività nella pianificazione confrontando le ore di lavoro effettive spese per un'attività con le ore di lavoro pianificate dell'attività. Dynamics 365 Project Operations utilizza le seguenti formule per calcolare le metriche di monitoraggio:
 
-- **Percentuale di avanzamento**: lavoro richiesto effettivo fino a data odierna ÷ stima al completamento 
-- **Stima di completamento**: lavoro richiesto pianificato - lavoro richiesto effettivo fino a data odierna 
-- **Stima al completamento**: lavoro richiesto rimanente + lavoro richiesto effettivo fino a data odierna 
-- **Scostamento risorse previsto**: lavoro richiesto pianificato - stima al completamento
+- **Percentuale di avanzamento** : lavoro richiesto effettivo fino a data odierna ÷ stima al completamento 
+- **Stima di completamento** : lavoro richiesto pianificato - lavoro richiesto effettivo fino a data odierna 
+- **Stima al completamento** : lavoro richiesto rimanente + lavoro richiesto effettivo fino a data odierna 
+- **Scostamento risorse previsto** : lavoro richiesto pianificato - stima al completamento
 
 Project Operations mostra una proiezione dello scostamento risorse dell'attività. Se la stima al completamento è superiore al lavoro richiesto pianificato, si prevede che l'attività richiederà più tempo di quello inizialmente pianificato. Se la stima al completamento è inferiore al lavoro richiesto pianificato, si prevede che l'attività richiederà meno tempo di quello inizialmente pianificato.
 
@@ -60,10 +60,10 @@ La vista **Registrazione costi** confronta il costo effettivo di un'attività a 
 > [!NOTE]
 > Questa vista mostra solo i costi di manodopera e non include i costi dovuti alle stime di spesa. Project Operations utilizza le seguenti formule per calcolare le metriche di monitoraggio:
 
-- **Percentuale di costo consumata**: costo effettivo fino a data odierna ÷ costo pianificato al completamento
-- **Costi di completamento**: costo pianificato - costo effettivo fino a data odierna
-- **Stima al completamento**: costo rimanente + costo effettivo fino a data odierna
-- **Scostamento costo previsto**: costo pianificato - stima al completamento
+- **Percentuale di costo consumata** : costo effettivo fino a data odierna ÷ costo pianificato al completamento
+- **Costi di completamento** : costo pianificato - costo effettivo fino a data odierna
+- **Stima al completamento** : costo rimanente + costo effettivo fino a data odierna
+- **Scostamento costo previsto** : costo pianificato - stima al completamento
 
 Una proiezione dello scostamento costo viene visualizzata per l'attività. Se la stima al completamento è superiore al costo pianificato, si prevede che l'attività costerà più di quanto inizialmente pianificato. Pertanto, la tendenza è il superamento del budget. Se la stima al completamento è inferiore al costo pianificato, si prevede che l'attività costerà meno di quanto inizialmente pianificato. Pertanto, la tendenza è il non superamento del budget.
 

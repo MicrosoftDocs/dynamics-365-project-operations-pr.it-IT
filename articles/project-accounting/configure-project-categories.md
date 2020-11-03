@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
 ms.openlocfilehash: 84033182ce047d230724409eef9bc6afcaefd2b4
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3895971"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078772"
 ---
 # <a name="configure-project-categories"></a>Configurare categorie di progetto
 
@@ -45,7 +45,7 @@ Le categorie di progetto rappresentano il livello più granulare di configurazio
 
 1. Vai a **Gestione progetti e contabilità** \> **Configura** \> **Categorie** \> **Categorie di progetto**.
 2. Seleziona **Nuovo**.
-3. Seleziona l'**ID categoria** della categoria condivisa creata nella sezione precedente. Project Operations consente di utilizzare solo le categorie condivise associate alle categorie di transazione.
+3. Seleziona l' **ID categoria** della categoria condivisa creata nella sezione precedente. Project Operations consente di utilizzare solo le categorie condivise associate alle categorie di transazione.
 4. Seleziona un gruppo di categorie.
 
 ## <a name="category-groups"></a>Gruppi di categorie

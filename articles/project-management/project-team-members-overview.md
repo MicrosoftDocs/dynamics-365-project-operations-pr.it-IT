@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: f4941803c657fab55ee2702d9f58d6e333592889
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908273"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078767"
 ---
 # <a name="project-team-members"></a>Membri del team di progetto
 
@@ -47,16 +47,16 @@ La tabella seguente elenca gli attributi chiave di un membro del team di progett
 
 Dalla griglia dei membri del team, è possibile eseguire le seguenti azioni:
 
-- **Prenota**: per le organizzazioni che utilizzano la metodologia di prenotazione ibrida, l'azione di prenotazione consentirà agli utenti di prenotare una risorsa denominata in base ai requisiti richiesti generati dal membro generico del team
-- **Genera requisito**: questa azione genera il requisito.
-- **Specifica modello**: consente ai responsabili di progetto di modificare i profili dei requisiti di risorsa a un livello granulare. I responsabili di progetto possono effettuare modifiche in base alle esigenze specifiche del progetto nei casi in cui la distribuzione predefinita non è adatta.
-- **Invia richiesta**: per le organizzazioni che utilizzano la metodologia di prenotazione centrale.
-- **Modifica**: gli attributi dei membri del team possono essere modificati, inclusi unità organizzativa, ruolo e nome della posizione.
-- **Gestisci prenotazioni**: quando le prenotazioni delle risorse devono essere aggiornate, Gestisci prenotazioni consente al responsabile di progetto di modificare:
+- **Prenota** : per le organizzazioni che utilizzano la metodologia di prenotazione ibrida, l'azione di prenotazione consentirà agli utenti di prenotare una risorsa denominata in base ai requisiti richiesti generati dal membro generico del team
+- **Genera requisito** : questa azione genera il requisito.
+- **Specifica modello** : consente ai responsabili di progetto di modificare i profili dei requisiti di risorsa a un livello granulare. I responsabili di progetto possono effettuare modifiche in base alle esigenze specifiche del progetto nei casi in cui la distribuzione predefinita non è adatta.
+- **Invia richiesta** : per le organizzazioni che utilizzano la metodologia di prenotazione centrale.
+- **Modifica** : gli attributi dei membri del team possono essere modificati, inclusi unità organizzativa, ruolo e nome della posizione.
+- **Gestisci prenotazioni** : quando le prenotazioni delle risorse devono essere aggiornate, Gestisci prenotazioni consente al responsabile di progetto di modificare:
 
     - Inizia
     - Fine
     - Allocazione totale del lavoro
 
-- **Nuovo**: oltre ad aggiungere risorse direttamente dalla pianificazione, i responsabili di progetto possono aggiungere nuovi membri del team denominati o generici dalla griglia dei membri del team.
-- **Elimina**: selezionando uno o più membri del team, il responsabile di progetto può eliminare le risorse che non parteciperanno più al progetto. L'eliminazione di un membro del team eliminerà anche tutte le assegnazioni di risorse associate e annullerà tutte le prenotazioni esistenti.
+- **Nuovo** : oltre ad aggiungere risorse direttamente dalla pianificazione, i responsabili di progetto possono aggiungere nuovi membri del team denominati o generici dalla griglia dei membri del team.
+- **Elimina** : selezionando uno o più membri del team, il responsabile di progetto può eliminare le risorse che non parteciperanno più al progetto. L'eliminazione di un membro del team eliminerà anche tutte le assegnazioni di risorse associate e annullerà tutte le prenotazioni esistenti.

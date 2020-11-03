@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
 ms.openlocfilehash: 37994422e9146765076fdbb77f5c763b4f1d0802
-ms.sourcegitcommit: 2cf93d8bf0be5b61a739195a41334c34d910e9ba
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961171"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078736"
 ---
 # <a name="approvals-overview"></a>Panoramica delle approvazioni
 
@@ -27,7 +27,7 @@ Quando crei e invii una voce di tempo o di spesa, viene creata una voce di appro
 ## <a name="approve-an-entry"></a>Approvare una voce
 Il modulo **Approvazioni** consente di passare da una visualizzazione all'altra in modo da poter visualizzare i diversi tipi di approvazioni.
   
-1. Vai al modulo **Approvazioni** e seleziona **Spese**, **Tempo** o **Ricorda**.
+1. Vai al modulo **Approvazioni** e seleziona **Spese** , **Tempo** o **Ricorda**.
 2. Rivedi ogni approvazione e seleziona quelle che desideri approvare.
 3. Seleziona **Approva** per approvare le voci selezionate.
 Il sistema elaborerà queste voci e creerà valori effettivi o una prenotazione.
@@ -47,7 +47,7 @@ Ad un certo punto, potrebbe essere necessario richiamare una voce inviata. Se la
 Ogni progetto ha un numero di membri del team di progetto. È possibile specificare quali membri del team sono anche approvatori del progetto.
 
 1. Vai al modulo **Progetti** e apri il progetto dall'elenco.
-2. Nella scheda **Team**, seleziona il membro del team che sarà un approvatore del progetto, quindi seleziona **Modifica**.
+2. Nella scheda **Team** , seleziona il membro del team che sarà un approvatore del progetto, quindi seleziona **Modifica**.
 3. Imposta il campo **Responsabile approvazione di progetto** su **Sì**.
 4. Seleziona **Salva**.
 5. Ripeti i passaggi da 2 a 4 per aggiungere altri responsabili dell'approvazione del progetto.
@@ -55,7 +55,7 @@ Ogni progetto ha un numero di membri del team di progetto. È possibile specific
 ## <a name="configure-the-users-manager"></a>Configura il responsabile dell'utente
 
 1. Andare a **Impostazioni** > **Sicurezza** > **Utenti**.
-2. Seleziona l'utente a cui stai assegnando un responsabile e nell'area **Informazioni sull'organizzazione**, seleziona il responsabile dall'elenco. 
+2. Seleziona l'utente a cui stai assegnando un responsabile e nell'area **Informazioni sull'organizzazione** , seleziona il responsabile dall'elenco. 
 3. Seleziona **Salva**.
 
 

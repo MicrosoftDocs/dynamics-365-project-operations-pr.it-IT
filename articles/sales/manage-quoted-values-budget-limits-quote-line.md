@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 06a47c45dc3b3b174658e2fba14d3d2050aabf85
-ms.sourcegitcommit: a0f80d024a5d3112a39781815bd31d0c05ddaf6f
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "3906219"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078743"
 ---
 # <a name="project-based-quote-lines"></a>Righe dell'offerta basate sul progetto
 
@@ -47,11 +47,11 @@ La tabella seguente fornisce informazioni sui campi nella scheda **Generale** de
 
 ## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a>Regole di convalida per i campi nella scheda Generale delle righe dell'offerta basate sul progetto
 
-**Regola 1**: una determinata classe di transazione sul progetto selezionato può essere inclusa solo in una riga dell'offerta basata sul progetto di un'offerta.
+**Regola 1** : una determinata classe di transazione sul progetto selezionato può essere inclusa solo in una riga dell'offerta basata sul progetto di un'offerta.
 
-**Regola 2**: se un'opportunità ha più offerte, possono esserci righe di offerta da offerte diverse che fanno tutte riferimento allo stesso progetto e includono la stessa classe di transazione.
+**Regola 2** : se un'opportunità ha più offerte, possono esserci righe di offerta da offerte diverse che fanno tutte riferimento allo stesso progetto e includono la stessa classe di transazione.
 
-**Regola 3**: se le offerte non appartengono alla stessa opportunità, non possono includere lo stesso progetto e la stessa classe di transazione.
+**Regola 3** : se le offerte non appartengono alla stessa opportunità, non possono includere lo stesso progetto e la stessa classe di transazione.
 
 <table border="1" cellspacing="0" cellpadding="0">
     <tbody>

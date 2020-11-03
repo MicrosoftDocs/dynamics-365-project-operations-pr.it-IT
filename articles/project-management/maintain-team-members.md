@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: f5b36628e90896c9fe6570de71c95eab83a44ebd
-ms.sourcegitcommit: 396e0fea2f1598a5313cb0128eca4fe0bb5aade9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961889"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078742"
 ---
 # <a name="maintain-team-members"></a>Gestire membri del team
 
@@ -22,13 +22,13 @@ _**Si applica a:** Project Operations per scenari basati su risorse/materiali no
 Puoi aggiungere una risorsa denominata a un team di progetto prenotandole direttamente nel team.
 
 1. In Dynamics 365 Project Operations, vai a **Progetti** e apri il progetto per cui esegui le prenotazioni.
-2. Nella pagina **Progetto**, nella scheda **Team**, seleziona **Nuovo**. 
-3. Nella finestra di dialogo **Creazione rapida: Membro del team di progetto**, seleziona la risorsa prenotabile. Il campo **Ruolo** verrà popolato con il ruolo predefinito della risorsa, se a questa ne è stato assegnato uno. È possibile modificare il ruolo. 
+2. Nella pagina **Progetto** , nella scheda **Team** , seleziona **Nuovo**. 
+3. Nella finestra di dialogo **Creazione rapida: Membro del team di progetto** , seleziona la risorsa prenotabile. Il campo **Ruolo** verrà popolato con il ruolo predefinito della risorsa, se a questa ne è stato assegnato uno. È possibile modificare il ruolo. 
 4. Seleziona le date di inizio e di fine per la risorsa e quindi il metodo di allocazione della capacità della risorsa. 
 5. Se il membro del team deve essere un responsabile approvazione di progetto, seleziona **Sì** nel campo **Responsabile approvazione di progetto**. Il membro del team può approvare voci di spesa e inserimenti ore inviati per il progetto. 
 6. Seleziona **Salva**.
 
-Ora puoi assegnare la risorsa prenotata ad attività nel progetto. Nella pagina **Progetto**, fai clic sulla scheda **Pianifica** per assegnare attività alla nuova risorsa. Il selettore di risorse eseguito dal campo **Risorse** nella griglia delle attività indicherà i membri del team che è possibile selezionare.
+Ora puoi assegnare la risorsa prenotata ad attività nel progetto. Nella pagina **Progetto** , fai clic sulla scheda **Pianifica** per assegnare attività alla nuova risorsa. Il selettore di risorse eseguito dal campo **Risorse** nella griglia delle attività indicherà i membri del team che è possibile selezionare.
 
 
 In Project Operations, le prenotazioni di risorse e le assegnazioni di attività non sono strettamente collegate. Quando utilizzi il selettore di risorse nella pianificazione, puoi assegnare attività a membri del team per più ore di quelle che le relative prenotazioni coprono nel progetto.

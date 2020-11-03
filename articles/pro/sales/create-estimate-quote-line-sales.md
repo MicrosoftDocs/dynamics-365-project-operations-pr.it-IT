@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 65aee7238781ac90f603e57c6d9b0b92cabd6644
-ms.sourcegitcommit: f6509f7d50de4d4ebb92c1bf2cfcdf09f17458eb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3966807"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078780"
 ---
 # <a name="estimating-a-project-based-quote-line"></a>Stima di una riga dell'offerta basata su progetto
 
@@ -30,7 +30,7 @@ Per stimare una riga di offerta basata su progetto, nella riga dell'offerta basa
 
 Per creare una stima su una riga di offerta basata su progetto, seleziona la scheda **Dettagli riga di offerta**. L'elemento della riga creato in questa scheda riepilogherà il valore offerto per questa riga di offerta. 
 
-Per creare i dettagli della riga di offerta, seleziona **+Nuovo dettaglio riga di offerta** nella griglia secondaria **Dettagli riga di offerta**. Si aprirà un cursore di creazione rapida. I seguenti campi nel modulo **Riga di offerta**:
+Per creare i dettagli della riga di offerta, seleziona **+Nuovo dettaglio riga di offerta** nella griglia secondaria **Dettagli riga di offerta**. Si aprirà un cursore di creazione rapida. I seguenti campi nel modulo **Riga di offerta** :
 
 | **Campo** | **Luogo** | **Pertinenza, scopo e indicazioni** | **Impatto downstream** |
 | --- | --- | --- | --- |
@@ -50,11 +50,11 @@ Per creare i dettagli della riga di offerta, seleziona **+Nuovo dettaglio riga d
 
 ## <a name="update-prices-on-quote-line-details"></a>Aggiornare i prezzi sui dettagli della riga di offerta
 
-Se hai modificato i prezzi sul listino prezzi di progetto allegato all'offerta o sul listino prezzi di costo dell'unità contratto, puoi selezionare **Ricalcola** nella pagina **Offerta**, per aggiornare i prezzi nei dettagli delle singole righe di offerta per riflettere questa modifica. Quando selezioni **Ricalcola**, viene visualizzato un avviso che informa che i prezzi sui dettagli delle righe di offerta per tutte le righe di offerta in questa offerta verranno reimpostati. Seleziona **Sì** per aggiornare i prezzi sia per i dettagli delle righe di offerta che di vendita.
+Se hai modificato i prezzi sul listino prezzi di progetto allegato all'offerta o sul listino prezzi di costo dell'unità contratto, puoi selezionare **Ricalcola** nella pagina **Offerta** , per aggiornare i prezzi nei dettagli delle singole righe di offerta per riflettere questa modifica. Quando selezioni **Ricalcola** , viene visualizzato un avviso che informa che i prezzi sui dettagli delle righe di offerta per tutte le righe di offerta in questa offerta verranno reimpostati. Seleziona **Sì** per aggiornare i prezzi sia per i dettagli delle righe di offerta che di vendita.
 
 ## <a name="access-quote-line-details-for-cost"></a>Accedere ai dettagli della riga di offerta per il costo
 
-Nella scheda **Dettagli riga di offerta**, seleziona una riga nella griglia per abilitare alcune azioni sulla barra degli strumenti della griglia secondaria. La prima azione sulla barra degli strumenti della griglia secondaria quando è selezionato un dettaglio della riga di offerta è **Apri dettagli di costo**. Seleziona **Apri dettagli di costo** per visualizzare il tasso di costo e l'importo correlati per questa riga di offerta.
+Nella scheda **Dettagli riga di offerta** , seleziona una riga nella griglia per abilitare alcune azioni sulla barra degli strumenti della griglia secondaria. La prima azione sulla barra degli strumenti della griglia secondaria quando è selezionato un dettaglio della riga di offerta è **Apri dettagli di costo**. Seleziona **Apri dettagli di costo** per visualizzare il tasso di costo e l'importo correlati per questa riga di offerta.
 
 > [!NOTE]
 > Modificando l'unità di risorse, la quantità, le date, il ruolo o i valori di categoria nei dettagli della riga dell'offerta per il costo, cambierà i valori corrispondenti nei dettagli della riga dell'offerta per le vendite.

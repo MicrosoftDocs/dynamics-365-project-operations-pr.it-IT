@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 42e02f393e89d20b2a462645f519a3792bee8f2f
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 33b85115963f3561718b8951e5b518fd34de7723
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948927"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078741"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Applica la configurazione demo e i dati di configurazione per la distribuzione semplice di Project Operations: accordo per la fatturazione proforma
 
@@ -25,7 +25,7 @@ _**Distribuzione semplice: accordo per la fatturazione proforma_
 
 ![Migrazione della configurazione](./media/1ConfigurationMigration.png)
 
-4. A pagina 2 della procedura guidata CMT, seleziona **Office 365** come **Tipo di distribuzione**.
+4. A pagina 2 della procedura guidata CMT, seleziona **Microsoft 365** come **Tipo di distribuzione**.
 5. Seleziona le caselle di controllo **Visualizza l'elenco delle organizzazioni disponibili** e **Mostra avanzate**.
 6. Seleziona l'area del tenant, inserisci le tue credenziali e seleziona **Accedi**.
 

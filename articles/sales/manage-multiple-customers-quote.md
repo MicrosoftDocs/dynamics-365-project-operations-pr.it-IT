@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 8b1d9284c063e34e34ec6525072a1f8f860116b6
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908280"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078730"
 ---
 # <a name="manage-multiple-customers-on-project-quotes"></a>Gestire più clienti nelle offerte di progetto
 
@@ -29,7 +29,7 @@ I clienti dell'offerta e quelli della riga dell'offerta possono essere aggiunti,
 
 Il cliente elencato nella scheda **Riepilogo** dell'offerta di progetto come potenziale cliente è il cliente primario dell'offerta. Se si tenta di eliminare il cliente primario dall'elenco dei clienti nell'offerta, verrà visualizzato un errore relativo all'impossibilità di eliminare un record del cliente primario in un'offerta.
 
-Il cliente primario non deve essere aggiornato dall'elenco dei clienti nell'offerta. Tuttavia, puoi determinare il cliente primario modificando il potenziale cliente nella scheda **Riepilogo** dell'offerta. Quando questo campo viene aggiornato in **Riepilogo offerta**, il potenziale cliente appena selezionato viene aggiunto come nuovo cliente dell'offerta con il contrassegno **Primario** impostato. Il vecchio potenziale cliente sarà ancora un cliente dell'offerta.
+Il cliente primario non deve essere aggiornato dall'elenco dei clienti nell'offerta. Tuttavia, puoi determinare il cliente primario modificando il potenziale cliente nella scheda **Riepilogo** dell'offerta. Quando questo campo viene aggiornato in **Riepilogo offerta** , il potenziale cliente appena selezionato viene aggiunto come nuovo cliente dell'offerta con il contrassegno **Primario** impostato. Il vecchio potenziale cliente sarà ancora un cliente dell'offerta.
 
 ## <a name="create-update-or-delete-a-quote-customer-record"></a>Creare, aggiornare o eliminare un record del cliente dell'offerta
 

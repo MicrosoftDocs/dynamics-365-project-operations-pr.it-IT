@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 656418ab99db46455195f70c38b6f5fa13c30755
-ms.sourcegitcommit: f6509f7d50de4d4ebb92c1bf2cfcdf09f17458eb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3966806"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078776"
 ---
 # <a name="managing-multiple-customers-on-project-quotes-sales"></a>Gestione di più clienti nelle offerte di progetto (Vendite)
 
@@ -31,7 +31,7 @@ I clienti dell'offerta e quelli della riga dell'offerta possono essere aggiunti,
 
 Il cliente che si trova nella scheda Riepilogo dell'offerta di progetto come potenziale cliente è il cliente primario dell'offerta. Quando si tenta di eliminare il cliente primario dall'elenco dei clienti nell'offerta, verrà visualizzato un errore relativo all'impossibilità di eliminare un record del cliente primario in un'offerta.
 
-Il cliente primario non deve essere aggiornato dall'elenco dei clienti nell'offerta. Tuttavia, puoi determinare il cliente primario modificando il potenziale cliente nella scheda **Riepilogo** dell'offerta. Quando questo campo viene aggiornato in **Riepilogo offerta**, il potenziale cliente appena selezionato viene aggiunto come nuovo cliente dell'offerta con il contrassegno **Primario** impostato. Il vecchio potenziale cliente sarà ancora un cliente dell'offerta.
+Il cliente primario non deve essere aggiornato dall'elenco dei clienti nell'offerta. Tuttavia, puoi determinare il cliente primario modificando il potenziale cliente nella scheda **Riepilogo** dell'offerta. Quando questo campo viene aggiornato in **Riepilogo offerta** , il potenziale cliente appena selezionato viene aggiunto come nuovo cliente dell'offerta con il contrassegno **Primario** impostato. Il vecchio potenziale cliente sarà ancora un cliente dell'offerta.
 
 ## <a name="create-update-or-delete-a-quote-customer-record"></a>Creare, aggiornare o eliminare un record del cliente dell'offerta
 

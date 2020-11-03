@@ -8,14 +8,16 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ffb89a954b8af9d726c64cceeafca638c3393130
-ms.sourcegitcommit: fd8ea1779db2bb39a428f459ae3293c4fd785572
+ms.openlocfilehash: ea7f0a8207fc78914783f5b9c919b3243a0bb5a4
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3965815"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078752"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines"></a>Gestire più clienti sulle righe di offerta basate su progetto
+
+_**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati_
 
 Le righe di offerta basate su progetto supportano scenari in cui ogni riga di offerta include un elenco di clienti che stanno pagando per essa. Questo elenco di clienti nella riga di offerta basata su progetto può essere uguale all'elenco di clienti nell'offerta. Puoi anche modificare l'elenco dei clienti in modo che sia diverso. Dopo l'acquisizione di un'offerta di progetto, l'elenco di clienti nella riga di offerta basata su progetto viene copiato nella voce di contratto basata su progetto corrispondente per creare l'eventuale contratto di progetto. I clienti dell'offerta basata sul progetto vengono copiati nel contratto di progetto.
 
@@ -31,11 +33,11 @@ I campi elencati nella tabella seguente si trovano nel record del cliente della 
 
 | Campo | Ufficio | Descrizione e istruzioni | Impatto downstream |
 | --- | --- | --- | --- |
-| **Account** | Una griglia modificabile nella scheda **Clienti riga offerta**, il modulo principale e il modulo Creazione rapida per un cliente della riga dell'offerta. | Elenca tutti gli account attivi. Questo campo è bloccato dopo la creazione del record. Se è necessario aggiornare il campo, elimina e ricrea il record. Se hai registrato dei valori effettivi, non puoi eliminare il record. | Quando selezioni un account dall'elenco master degli account da aggiungere, anche il cliente della riga dell'offerta viene aggiunto come cliente dell'offerta. Quando un'offerta viene acquisita, i clienti della riga dell'offerta vengono copiati nei clienti della voce del contratto di progetto. |
-| **Percentuale di separazione fatturazione** | Una griglia modificabile nella scheda **Clienti riga offerta**, il modulo principale e il modulo Creazione rapida per un cliente della riga dell'offerta. | Rappresenta la percentuale di ciascuna transazione di vendita non fatturata che verrà attribuita a questo cliente della riga di offerta. | Copiato nei clienti del contratto di progetto. |
-| **Limite da non superare** | Una griglia modificabile nella scheda **Clienti riga offerta**, il modulo principale e il modulo Creazione rapida per un cliente della riga dell'offerta. | Indica se esiste un limite negoziato o un limite massimo per l'importo complessivo che verrà fatturato a questo cliente per questa riga di offerta. | Copiato nei clienti del contratto di progetto quando un'offerta viene acquisita. |
-| **Società proprietaria** | Una griglia modificabile nella scheda **Clienti riga offerta**, il modulo principale e il modulo Creazione rapida per un cliente della riga dell'offerta. | La persona giuridica in cui questo cliente è configurato nel modulo **Gestione progetto e contabilità**. Questo campo è di sola lettura ed è impostato sulla società proprietaria dell'offerta stessa. L'elenco dei clienti da aggiungere nel campo **Conto** è già filtrato in base all'elenco dalla società proprietaria nel modulo **Gestione progetto e contabilità** di Project Operations. | La società proprietaria corrisponde al concetto di persona giuridica. Tutti i costi e i ricavi derivati da questo progetto verranno contabilizzati nella contabilità generale della società proprietaria. |
-| **Arrotondamento** | Una griglia modificabile nella scheda **Clienti riga offerta**, il modulo principale e il modulo Creazione rapida per un cliente della riga dell'offerta. | Indica se questo cliente è un cliente di arrotondamento predefinito per questa riga di offerta basata su progetto. | Copiato nei clienti del contratto di progetto quando un'offerta viene acquisita. |
+| **Account** | Una griglia modificabile nella scheda **Clienti riga offerta** , il modulo principale e il modulo Creazione rapida per un cliente della riga dell'offerta. | Elenca tutti gli account attivi. Questo campo è bloccato dopo la creazione del record. Se è necessario aggiornare il campo, elimina e ricrea il record. Se hai registrato dei valori effettivi, non puoi eliminare il record. | Quando selezioni un account dall'elenco master degli account da aggiungere, anche il cliente della riga dell'offerta viene aggiunto come cliente dell'offerta. Quando un'offerta viene acquisita, i clienti della riga dell'offerta vengono copiati nei clienti della voce del contratto di progetto. |
+| **Percentuale di separazione fatturazione** | Una griglia modificabile nella scheda **Clienti riga offerta** , il modulo principale e il modulo Creazione rapida per un cliente della riga dell'offerta. | Rappresenta la percentuale di ciascuna transazione di vendita non fatturata che verrà attribuita a questo cliente della riga di offerta. | Copiato nei clienti del contratto di progetto. |
+| **Limite da non superare** | Una griglia modificabile nella scheda **Clienti riga offerta** , il modulo principale e il modulo Creazione rapida per un cliente della riga dell'offerta. | Indica se esiste un limite negoziato o un limite massimo per l'importo complessivo che verrà fatturato a questo cliente per questa riga di offerta. | Copiato nei clienti del contratto di progetto quando un'offerta viene acquisita. |
+| **Società proprietaria** | Una griglia modificabile nella scheda **Clienti riga offerta** , il modulo principale e il modulo Creazione rapida per un cliente della riga dell'offerta. | La persona giuridica in cui questo cliente è configurato nel modulo **Gestione progetto e contabilità**. Questo campo è di sola lettura ed è impostato sulla società proprietaria dell'offerta stessa. L'elenco dei clienti da aggiungere nel campo **Conto** è già filtrato in base all'elenco dalla società proprietaria nel modulo **Gestione progetto e contabilità** di Project Operations. | La società proprietaria corrisponde al concetto di persona giuridica. Tutti i costi e i ricavi derivati da questo progetto verranno contabilizzati nella contabilità generale della società proprietaria. |
+| **Arrotondamento** | Una griglia modificabile nella scheda **Clienti riga offerta** , il modulo principale e il modulo Creazione rapida per un cliente della riga dell'offerta. | Indica se questo cliente è un cliente di arrotondamento predefinito per questa riga di offerta basata su progetto. | Copiato nei clienti del contratto di progetto quando un'offerta viene acquisita. |
 
 ## <a name="edit-billing-split-percentages"></a>Modifica delle percentuali di separazione della fatturazione
 

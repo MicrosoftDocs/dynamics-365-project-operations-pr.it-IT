@@ -1,28 +1,200 @@
 ---
-title: Conferma di una fattura proforma
+title: Confermare una fattura proforma
 description: Questo argomento fornisce informazioni sulla conferma di una fattura proforma.
 author: rumant
 manager: AnnBe
-ms.date: 06/21/2020
+ms.date: 10/13/2020
 ms.topic: article
-ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: be6b8efe7afb4d78cda6864baaa687a9c005117a
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.author: rumant
+ms.openlocfilehash: 560bb68cba865a6af60504114126ae6ea73dde2d
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896061"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078721"
 ---
-# <a name="confirming-a-proforma-invoice"></a>Conferma di una fattura proforma
+# <a name="confirm-a-proforma-invoice"></a>Confermare una fattura proforma
+
+_**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati_
+
+Dopo la conferma di una fattura proforma, lo stato della fattura di progetto viene aggiornato su **Confermato**. Quando una fattura viene confermata, diventa di sola lettura. In futuro, la fattura può essere corretta solo se sono presenti correzioni o accrediti avviati dal cliente o se è contrassegnata come pagata.
+
+Nella tabella seguente sono elencati i valori effettivi creati dal sistema. Questi valori effettivi vengono creati quando vengono eseguite determinate operazioni sulla bozza della fattura di progetto prima che venga confermata.
+
+<table border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td width="416" valign="top">
+                <p>
+                    <strong>Scenario</strong>
+                </p>
+            </td>
+            <td width="608" valign="top">
+                <p>
+                    <strong>Valori effettivi creati alla conferma</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Fatturazione di una transazione di tempo senza modifiche sulla fattura in bozza.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Uno storno delle vendite non fatturate per le ore e l'importo nell'approvazione del tempo originale.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Un valore effettivo delle vendite fatturate per le ore e l'importo sull'approvazione del tempo originale.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+La fatturazione di una transazione temporale modificata per ridurre la quantità.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Uno storno delle vendite non fatturate per le ore e l'importo nell'approvazione del tempo originale.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Un nuovo valore effettivo delle vendite non fatturate addebitabile per le ore e l'importo nei dettagli della riga fattura modificata, uno storno del valore effettivo delle vendite non fatturate e un valore effettivo delle vendite fatturate equivalente.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Un nuovo valore effettivo delle vendite non fatturate non addebitabile per le ore e l'importo rimanenti dopo la deduzione delle cifre corrette nei dettagli della riga fattura modificata, uno storno del valore effettivo delle vendite non fatturate e un valore effettivo delle vendite fatturate equivalente.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+La fatturazione di una transazione temporale modificata per aumentare la quantità.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Uno storno delle vendite non fatturate per le ore e l'importo nell'approvazione del tempo originale.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Un nuovo valore effettivo delle vendite non fatturate addebitabile per le ore e l'importo nei dettagli della riga fattura modificata, uno storno del valore effettivo delle vendite non fatturate e un valore effettivo delle vendite fatturate equivalente.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Fatturazione di una transazione di spesa senza modifiche sulla fattura in bozza.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Uno storno delle vendite non fatturate per la quantità e l'importo sull'approvazione della spesa originale.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Un valore effettivo delle vendite fatturate per la quantità e l'importo sull'approvazione della spesa originale.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+La fatturazione di una transazione di spesa modificata per ridurre la quantità.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Uno storno delle vendite non fatturate per la quantità e l'importo sull'approvazione della spesa originale.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Un nuovo valore effettivo delle vendite non fatturate addebitabile per la quantità e l'importo nei dettagli della riga fattura modificata, uno storno del valore effettivo delle vendite non fatturate e un valore effettivo delle vendite fatturate equivalente. 
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Un nuovo valore effettivo delle vendite non fatturate non addebitabile per la quantità e l'importo rimanenti dopo la deduzione delle cifre corrette nei dettagli della riga fattura modificata, uno storno del valore effettivo delle vendite non fatturate e un valore effettivo delle vendite fatturate equivalente.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+La fatturazione di una transazione di spesa modificata per aumentare la quantità.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Uno storno delle vendite non fatturate per la quantità e l'importo sull'approvazione della spesa originale.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Un nuovo valore effettivo delle vendite non fatturate addebitabile per la quantità e l'importo nei dettagli della riga fattura modificata, uno storno del valore effettivo delle vendite non fatturate e un valore effettivo delle vendite fatturate equivalente.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Fatturazione di una commissione.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Uno storno delle vendite non fatturate per l'importo della commissione nella riga di registrazione originale.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Un valore effettivo delle vendite fatturate per la quantità e l'importo nella riga di registrazione della commissione originale.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" valign="top">
+                <p>
+La fatturazione di un passaggio fondamentale.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Un valore effettivo delle vendite fatturate per l'importo nel passaggio fondamentale della voce di contratto di progetto.
+                </p>
+            </td>
+        </tr>
+    </tbody>
+</table>

@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
 ms.openlocfilehash: 6da831fef5dba060b8019d7689645405c7ebdbed
-ms.sourcegitcommit: 0874b3d89e1dc0e65a51cedb82bf8f80831ca0bb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3967371"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078756"
 ---
 # <a name="expense-home-page"></a>Home page di Spesa
 
@@ -24,8 +24,8 @@ Dynamics 365 Project Operations supporta la possibilità di elaborare le spese. 
 
 In Project Operations, sono disponibili due modelli di distribuzione supportati per spesa: 
 
-- **Completo**: la distribuzione completa è disponibile per **Project Operations per scenari basati su risorse/materiali non stoccati** o **Project Operations per scenari basati su ordini di produzione**.
-- **Di base**: la distribuzione di base è disponibile per **Project Operations per scenari basati su risorse/materiali non stoccati** e **Distribuzione semplice: dalla transazione alla fatturazione proforma**.
+- **Completo** : la distribuzione completa è disponibile per **Project Operations per scenari basati su risorse/materiali non stoccati** o **Project Operations per scenari basati su ordini di produzione**.
+- **Di base** : la distribuzione di base è disponibile per **Project Operations per scenari basati su risorse/materiali non stoccati** e **Distribuzione semplice: dalla transazione alla fatturazione proforma**.
 
 ## <a name="full"></a>Completa 
 La distribuzione completa della spesa garantisce la piena applicazione dei criteri che include la possibilità di creare criteri, come:
