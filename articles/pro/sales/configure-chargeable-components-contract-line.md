@@ -34,7 +34,7 @@ Un sottoinsieme dei componenti inclusi può essere contrassegnato come addebitab
 
 I componenti addebitabili possono essere definiti sulle attività, sui ruoli e sulle categorie di transazioni.
 
-L'esigibilità è definita nelle attività per una voce di contratto di progetto e si applica a tutte le classi di transazione incluse in quella riga. Se il campo **Includi attività** di una voce di contratto è vuoto o impostato su *Intero progetto* , la scheda **Attività addebitabili** non è disponibile.
+L'esigibilità è definita nelle attività per una voce di contratto di progetto e si applica a tutte le classi di transazione incluse in quella riga. Se il campo **Includi attività** di una voce di contratto è vuoto o impostato su * *Intero progetto* *, la scheda **Attività addebitabili** non è disponibile.
 
 L'esigibilità definita nei ruoli per una voce di contratto di progetto si applica solo alla classe di transazione **Tempo**. Se il campo **Includi tempo** di una voce di contratto è impostato su **No** , la scheda **Ruoli addebitabili** non è disponibile.
 
