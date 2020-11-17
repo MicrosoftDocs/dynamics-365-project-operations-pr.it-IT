@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 20eb3880b17fb1f765ad79bd720520b0c8004c0a
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 829c1d1de7270e7cafbb98ef80235ae6404f77f7
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078789"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131753"
 ---
 # <a name="create-resource-assignments"></a>Creare assegnazioni di risorse
 
@@ -29,7 +29,7 @@ Quando crei un membro del team generico tramite l'assegnazione di attività, cre
 
 1. Nella griglia Pianificazione di un'attività, seleziona l'icona Risorsa nella cella della **risorsa**.
 2. Digita un nome da utilizzare come nome della risorsa segnaposto. Ad esempio, "Program Manager".
-3. Seleziona **Crea** e nel campo **Creazione rapida: membro del team di progetto** , imposta il ruolo per la risorsa generica.
+3. Seleziona **Crea** e nel campo **Creazione rapida: membro del team di progetto**, imposta il ruolo per la risorsa generica.
 4. Assegna le attività a questa risorsa segnaposto selezionando la risorsa nel **selettore delle risorse** per l'attività. Le risorse elencate in **Membri del team**.
 5. Dopo l'assegnazione della risorsa generica, seleziona la risorsa generica nella scheda **Team** e quindi **Genera requisito** per creare un requisito di risorsa per la risorsa generica.
 6. Seleziona **Prenota** per la risorsa generica e utilizza la scheda di pianificazione per trovare e prenotare una risorsa reale. Puoi anche inviare il requisito che deve essere soddisfatto da un responsabile delle risorse.
@@ -37,7 +37,7 @@ Quando crei un membro del team generico tramite l'assegnazione di attività, cre
 
 ## <a name="assign-a-named-resource-from-the-list-of-all-bookable-resources"></a>Assegnare una risorsa denominata dall'elenco di tutte le risorse prenotabili
 
-Puoi utilizzare la casella di ricerca nel **selettore delle risorse** per cercare tutte le risorse prenotabili attive in Project Service e assegnarle a un'attività del nodo foglia. Le risorse assegnate questo modo sono aggiunte al team senza alcuna prenotazione. Ciò equivale ad aggiungere un membro del team e a selezionare **Nessuno** come metodo di allocazione. La risorsa è visualizzata nelle schede **Team** , **Assegnazione risorse** e **Riconciliazione** come risorse con soltanto assegnazioni e un disavanzo di prenotazione. Prenotare se desideri utilizzarne la relativa disponibilità.
+Puoi utilizzare la casella di ricerca nel **selettore delle risorse** per cercare tutte le risorse prenotabili attive in Project Service e assegnarle a un'attività del nodo foglia. Le risorse assegnate questo modo sono aggiunte al team senza alcuna prenotazione. Ciò equivale ad aggiungere un membro del team e a selezionare **Nessuno** come metodo di allocazione. La risorsa è visualizzata nelle schede **Team**, **Assegnazione risorse** e **Riconciliazione** come risorse con soltanto assegnazioni e un disavanzo di prenotazione. Prenotare se desideri utilizzarne la relativa disponibilità.
 
 1. Dalla griglia delle attività, dalla bacheca o dalla sequenza temporale, vai alla cella **Assegnato a**.
 2. Nella casella di ricerca, inizia a digitare un nome. I risultati della ricerca per il nome sono visualizzati nel **selettore delle risorse** in **Altre risorse**.

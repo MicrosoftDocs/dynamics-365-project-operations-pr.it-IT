@@ -3,7 +3,7 @@ title: Novità o modifiche nella versione di aggiornamento 12 di Project Service
 description: Questo argomento fornisce informazioni sulle novità dell'aggiornamento rilascio 12 di Project Service Automation V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 02/04/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 62c3a0c5cfbecb568faef570da309c20afd86de9
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: fc92a5dcc111688159f9be5b2839b7c040404a3b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078837"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119963"
 ---
 # <a name="project-service-automation-update-release-12-v3"></a>Versione di aggiornamento di Project Service Automation 12, V3
 Siamo lieti di annunciare l'ultimo aggiornamento per l'applicazione Dynamics 365 Project Service Automation (PSA). Questa versione include alcuni importanti miglioramenti in termini di qualità, prestazioni e usabilità. Questa versione è compatibile con Dynamics 365 9.x. Per aggiornare a questa versione, visitare l'interfaccia di amministrazione di Dynamics 365 online e andare alla pagina delle soluzioni per installare l'aggiornamento. Per ulteriori informazioni, vedere [Installare, aggiornare o rimuovere una soluzione preferita](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
@@ -39,7 +39,7 @@ Questo argomento elenca le funzionalità e le correzioni nuove o modificate per 
     - Risolto: la pianificazione e la griglia di immissione dell'ora visualizzano correttamente la barra di scorrimento verticale quando richiesto.
     - Risolto: Gli inserimenti ore e spese inviati possono essere approvati.
     - Risolto: il messaggio di annullamento della finestra di dialogo di conferma dell'approvazione è stato corretto per riflettere lo stato dell'approvazione quando cambia da **Approvato** in **Inviato**.
-    - Risolto: i campi **Prezzo** , **Unità** e **Quantità** sono ora bloccati sul record Spese dopo che è stato approvato.
+    - Risolto: i campi **Prezzo**, **Unità** e **Quantità** sono ora bloccati sul record Spese dopo che è stato approvato.
 
 - Gestione progetti
 

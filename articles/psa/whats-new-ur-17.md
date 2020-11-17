@@ -3,7 +3,7 @@ title: Novità o modifiche nella versione di aggiornamento 17 di Project Service
 description: Questo argomento elenca le funzionalità e le correzioni disponibili nella versione di aggiornamento 17 di Project Service Automation V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 03/06/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7ba685568692dafe117de42a71bb14d391cd7cc4
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bb93208217972639f91b39b7b6705d9897373ef7
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078832"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126803"
 ---
 # <a name="project-service-automation-update-release-17-v3"></a>Versione di aggiornamento di Project Service Automation 17, V3
 
@@ -52,6 +52,6 @@ Questo argomento elenca le funzionalità e le correzioni nuove o modificate per 
 **Sales**
 
 - Risolto: **Invoice.PreValidateInvoiceUpdate** gestisce ora lo scenario di riassegnazione corretta dei proprietari dei record.
-- Risolto: quando la classe di transazione è **Ora** , **UnitGroup** non è modificabile per tutte le entità, tra cui **QuoteLineDetails** , **JournalLine** , **InvoiceLineDetail** e **ContractLineDetails**. Tuttavia, **Unità** non è editabile solo per **JournalLine** e **InvoiceLineDetails**.
+- Risolto: quando la classe di transazione è **Ora**, **UnitGroup** non è modificabile per tutte le entità, tra cui **QuoteLineDetails**, **JournalLine**, **InvoiceLineDetail** e **ContractLineDetails**. Tuttavia, **Unità** non è editabile solo per **JournalLine** e **InvoiceLineDetails**.
 
 

@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: db1bda71e18369550cd2d38fee1d0ac40e07555d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: af6463b07e282ae1ff6aa7dc1a540ff7c8cc318a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078903"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127703"
 ---
 # <a name="set-up-workflows-for-expense-management"></a>Impostare flussi di lavoro per la gestione delle spese
 
@@ -30,9 +30,9 @@ _**Si applica a:** Project Operations per scenari basati su risorse/non stoccate
 
 Un flusso di lavoro rappresenta un processo aziendale e definisce il modo in cui un documento scorre attraverso il sistema. Il flusso di lavoro indica anche chi deve completare un'attività o approvare un documento. Ci sono diversi vantaggi nell'utilizzo del sistema di flusso di lavoro nella tua organizzazione:
 
-- **Processi coerenti** : puoi definire il processo di approvazione per documenti specifici, come richieste di acquisto e note spese. L'utilizzo del sistema del flusso di lavoro aiuta a garantire che i documenti vengano elaborati e approvati in modo coerente ed efficiente.
-- **Visibilità del processo** : puoi tenere traccia dello stato, della cronologia e delle metriche delle prestazioni di una specifica istanza del flusso di lavoro. Ciò ti consente di determinare se è necessario apportare modifiche al flusso di lavoro per migliorare l'efficienza.
-- **Elenco di lavoro centralizzato** : gli utenti possono visualizzare un elenco di lavoro centralizzato per vedere le attività del flusso di lavoro e le approvazioni loro assegnate. 
+- **Processi coerenti**: puoi definire il processo di approvazione per documenti specifici, come richieste di acquisto e note spese. L'utilizzo del sistema del flusso di lavoro aiuta a garantire che i documenti vengano elaborati e approvati in modo coerente ed efficiente.
+- **Visibilità del processo**: puoi tenere traccia dello stato, della cronologia e delle metriche delle prestazioni di una specifica istanza del flusso di lavoro. Ciò ti consente di determinare se è necessario apportare modifiche al flusso di lavoro per migliorare l'efficienza.
+- **Elenco di lavoro centralizzato**: gli utenti possono visualizzare un elenco di lavoro centralizzato per vedere le attività del flusso di lavoro e le approvazioni loro assegnate. 
 
 ## <a name="workflow-types"></a>Tipi di flusso di lavoro
 

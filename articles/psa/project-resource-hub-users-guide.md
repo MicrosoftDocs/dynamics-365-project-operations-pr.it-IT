@@ -3,7 +3,7 @@ title: Manuale dell'utente dell'Hub risorse di progetto
 description: Guida per l'utente finale dell'Hub risorse di progetto per Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 181e47a7bf923100e480eabd120d8bd784c24d07
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1c52a17d791b5656f13535077e4300b331db71b5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078867"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123158"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Manuale dell'utente dell'Hub risorse di progetto
 
@@ -88,7 +88,7 @@ Inserisci le spese almeno ogni settimana (oppure alla frequenza richiesta dai re
 
 1. Tocca il pulsante menu ![Pulsante Menu](media/MenuButton.png "Pulsante Menu"), quindi **Spese**. Verrà così visualizzato il calendario.
 
-2. Puoi passare alla visualizzazione **Giorno** , **Settimana** o **Mese** , o passare al periodo di tempo precedente o successivo. 
+2. Puoi passare alla visualizzazione **Giorno**, **Settimana** o **Mese**, o passare al periodo di tempo precedente o successivo. 
 
 3. Per immettere le spese, tocca **Nuovo** sulla barra dei comandi. 
 

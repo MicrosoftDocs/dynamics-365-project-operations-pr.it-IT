@@ -3,7 +3,7 @@ title: Competenze e modelli del livello di preparazione
 description: In questo argomento vengono fornite informazioni su come utilizzare competenze e modelli del livello di preparazione.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/13/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cd243544df062e5801bbfa0a3bd75c4d9a116a6f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 92735262ebc4b48dd1143af57349d77e1fe3061c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079096"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124193"
 ---
 # <a name="skills-and-proficiency-models"></a>Competenze e modelli del livello di preparazione
 
@@ -41,8 +41,8 @@ Le competenze delle risorse vengono valutate mediante modelli del livello di pre
 
 1. Per creare un modello del livello di preparazione, seleziona **Risorse** \> **Modelli di livello di preparazione** e quindi **Nuovo**.
 2. Nel nuovo modello di valutazione, specificare il valore di valutazione minimo, quello massimo e l'entità che viene valutata.
-3. Nella griglia secondaria **Valori di valutazione** , puoi definire diversi valori di valutazione, da quello minimo a quello massimo.
+3. Nella griglia secondaria **Valori di valutazione**, puoi definire diversi valori di valutazione, da quello minimo a quello massimo.
 
 > ![Valutazioni minime e massime definite](media/Resource-Management-image85.png)
 
-Questi valori di valutazione sono visualizzati nei filtri **Requisiti di risorse** , **Scheda di pianificazione** e **Assistente di pianificazione**.
+Questi valori di valutazione sono visualizzati nei filtri **Requisiti di risorse**, **Scheda di pianificazione** e **Assistente di pianificazione**.

@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ec77f3911a460b96414a61bc44ea254f1b7da660
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: bec6afe04a705d4f55ac3a7de93a64b47021fbb4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087975"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122348"
 ---
 # <a name="manage-the-billing-backlog"></a>Gestire il backlog di fatturazione
 
@@ -23,9 +23,9 @@ Dynamics 365 Project Operations dispone di due visualizzazioni dedicate per aiut
 
 ## <a name="fixed-price-milestones"></a>Passaggi fondamentali prezzo fisso
 
-Questa visualizzazione elenca tutti i passaggi fondamentali a prezzo fisso in tutte le voci del contratto di progetto nel sistema. Uno o più passaggi fondamentali possono essere contrassegnati come **Pronto per la fatturazione** o **Non pronto per la fatturazione** da questa vista. Quando contrassegni un passaggio fondamentale come **Pronto per la fatturazione** , il passaggio fondamentale diventa disponibile per una bozza di fattura.
+Questa visualizzazione elenca tutti i passaggi fondamentali a prezzo fisso in tutte le voci del contratto di progetto nel sistema. Uno o più passaggi fondamentali possono essere contrassegnati come **Pronto per la fatturazione** o **Non pronto per la fatturazione** da questa vista. Quando contrassegni un passaggio fondamentale come **Pronto per la fatturazione**, il passaggio fondamentale diventa disponibile per una bozza di fattura.
 
-Quando le voci di contratto per più clienti hanno un metodo di fatturazione a prezzo fisso, viene creato un passaggio fondamentale per ogni cliente nella voce di contratto. L'utente crea un passaggio fondamentale e tale passaggio fondamentale viene suddiviso internamente in record passaggio fondamentale specifico del cliente, in base alla suddivisione di percentuale di fatturazione definita per ogni cliente nella voce del contratto. Nella visualizzazione **Passaggi fondamentali a prezzo fisso** vedrai i record dei passaggi fondamentali specifici del cliente. Ciascuno di questi record passaggio fondamentale può essere contrassegnato come **Pronto per la fatturazione** separatamente da questa vista. Quando una o più suddivisioni di passaggio fondamentale correlate sono contrassegnate come **Pronto per la fatturazione** , l'intestazione passa nello stato **In corso** da **Non avviato**. Quando tutte le suddivisioni passaggio fondamentale sono state fatturate, lo stato del passaggio fondamentale dell'intestazione diventa **Completato**.
+Quando le voci di contratto per più clienti hanno un metodo di fatturazione a prezzo fisso, viene creato un passaggio fondamentale per ogni cliente nella voce di contratto. L'utente crea un passaggio fondamentale e tale passaggio fondamentale viene suddiviso internamente in record passaggio fondamentale specifico del cliente, in base alla suddivisione di percentuale di fatturazione definita per ogni cliente nella voce del contratto. Nella visualizzazione **Passaggi fondamentali a prezzo fisso** vedrai i record dei passaggi fondamentali specifici del cliente. Ciascuno di questi record passaggio fondamentale può essere contrassegnato come **Pronto per la fatturazione** separatamente da questa vista. Quando una o più suddivisioni di passaggio fondamentale correlate sono contrassegnate come **Pronto per la fatturazione**, l'intestazione passa nello stato **In corso** da **Non avviato**. Quando tutte le suddivisioni passaggio fondamentale sono state fatturate, lo stato del passaggio fondamentale dell'intestazione diventa **Completato**.
 
 In questa visualizzazione viene mostrato un passaggio fondamentale in una bozza di fattura con lo stato di fatturazione **Fattura cliente creata**. Quando la bozza di fattura viene confermata, lo stato di fatturazione in questo record viene aggiornato a **Fattura registrata**. L'aggiornamento di questo valore di stato utilizzando il codice personalizzato non è consigliato. Project Operations non funzionerà correttamente se questi valori di stato vengono aggiornati con codice personalizzato.
 

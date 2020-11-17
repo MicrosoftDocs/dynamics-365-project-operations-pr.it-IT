@@ -3,7 +3,7 @@ title: Consentire a un altro utente di immettere la voce di tempo o spesa
 description: Come consentire ad altri utenti di immettere le ore o le spese in Project Service per il proprio conto
 author: revathiMuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f56fae115b383d66a59cbcb08fffe95c83c83e17
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 50c54e73cf4898ce525492b8ef7c8b8cf6dc36cd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078849"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130378"
 ---
 # <a name="allow-someone-else-to-enter-your-time-entry-or-expense-project-service"></a>Consentire l'immissione delle proprie ore o spese da parte di un altro utente (Project Service)
 
@@ -37,13 +37,13 @@ Installa un delegato per consentire a un altro utente di inserire le ore o le sp
   
 2.  Nella barra dei comandi, fai clic su **Nuovo**.  
   
-3. **Nome** : immetti un nome per il record.  
+3. **Nome**: immetti un nome per il record.  
   
-4. **Tipo** : specifica se il delegato potrà inserire le ore o le spese per tuo conto.  
+4. **Tipo**: specifica se il delegato potrà inserire le ore o le spese per tuo conto.  
   
-5. **Delegato** : seleziona il nome della persona che desideri come delegato.  
+5. **Delegato**: seleziona il nome della persona che desideri come delegato.  
   
-6. **Date di inizio e fine** : scegli le date in cui la delega inizia e finisce.  
+6. **Date di inizio e fine**: scegli le date in cui la delega inizia e finisce.  
   
 7.  Al termine, fai clic su **Salva e chiudi**.  
   
@@ -61,7 +61,7 @@ Installa un delegato per consentire a un altro utente di inserire le ore o le sp
   
 1.  Nel menu principale fai clic su **Project Service** > **Inserimenti ore**.  
   
-2.  Sulla barra dei comandi seleziona il menu a discesa **NOME DELLE RISORSE** , quindi il nome della persona per la quale inserisci le ore.  
+2.  Sulla barra dei comandi seleziona il menu a discesa **NOME DELLE RISORSE**, quindi il nome della persona per la quale inserisci le ore.  
   
 3.  Fare clic su **OK**.  
   
@@ -77,7 +77,7 @@ Installa un delegato per consentire a un altro utente di inserire le ore o le sp
   
 1.  Nel menu principale fai clic su **Project Service** > **Spese**.  
   
-2.  Sulla barra dei comandi seleziona il menu a discesa **NOME DELLE RISORSE** , quindi il nome della persona per la quale inserisci le spese.  
+2.  Sulla barra dei comandi seleziona il menu a discesa **NOME DELLE RISORSE**, quindi il nome della persona per la quale inserisci le spese.  
   
 3.  Fare clic su **OK**.  
   

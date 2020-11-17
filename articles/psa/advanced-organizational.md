@@ -3,7 +3,7 @@ title: Unità organizzative
 description: In questo argomento vengono fornite informazioni sulle unità organizzative in Dynamics 365 Project Service Automation.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 454d9a4c4d139f493adf4604f8ba40a0211f0eec
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 755eee6ab9993c72ff1db46e0993527ac0826bfe
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078988"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130628"
 ---
 # <a name="organizational-units"></a>Unità organizzative 
 
@@ -50,7 +50,7 @@ Inoltre, vi è un attributo per l'unità organizzativa nell'entità Risorsa. Ogn
 
 L'unità organizzativa svolge due ruoli in PSA:
 
-- **Unità contratto** - L'unità organizzativa che rappresenta la divisione o gruppo dell'azienda che è il responsabile principale dell'acquisizione della vendita e della gestione della fornitura del lavoro e dei servizi al cliente. L'unità contratto è identificata dal campo **Unità contratto** nella sezione dell'intestazione delle pagine **Opportunità** , **Offerta** , **Contratto di progetto** e **Progetto**.
+- **Unità contratto** - L'unità organizzativa che rappresenta la divisione o gruppo dell'azienda che è il responsabile principale dell'acquisizione della vendita e della gestione della fornitura del lavoro e dei servizi al cliente. L'unità contratto è identificata dal campo **Unità contratto** nella sezione dell'intestazione delle pagine **Opportunità**, **Offerta**, **Contratto di progetto** e **Progetto**.
 - **Unità gestione risorse** - L'unità organizzativa a cui una risorsa appartiene o è assegnata. Questa unità organizzativa può fornire le proprie risorse per alcuni ruoli nelle descrizioni dei lavori e nei progetti di proprietà dell'unità contratto.
 
 > ![Unità contratto e unità di gestione risorse](media/advanced-1.png)

@@ -1,33 +1,33 @@
 ---
-title: Impostazione delle tariffe della fatturazione del lavoro
+title: Impostare le tariffe per la fatturazione del lavoro - semplice
 description: Questo argomento fornisce informazioni su come impostare le tariffe della fatturazione del lavoro in Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e6294895857442f3a24a9d73ee07d2b90926a4fb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cf53f6909ed5fb9b143197118c799b9803699171
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078938"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181186"
 ---
-# <a name="setting-up-bill-rates-for-labor-rate-billing"></a>Impostazione delle tariffe per la fatturazione della tariffa di manodopera 
+# <a name="set-up-labor-bill-rates---lite"></a>Impostare le tariffe per la fatturazione del lavoro - semplice
 
 _**Si applica a:** Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
 Ogni listino prezzi ha una serie di prezzi di ruolo, o tariffe di manodopera che sono valide per il contenuto e la data di validità inclusa nell'intestazione del listino prezzi. Le tariffe di fatturazione per il tempo in Dynamics 365 Project Operations possono essere impostati in una sola valuta, che è la valuta nell'intestazione del listino prezzi.
 
 1. Per impostare le tariffe di fatturazione della manodopera per un listino prezzi di vendita, crea un listino prezzi basato sull'intestazione del listino prezzi. 
-2. Nella scheda **Prezzo del ruolo** , nella griglia secondaria, seleziona **+ Nuovo prezzo ruolo**. 
+2. Nella scheda **Prezzo del ruolo**, nella griglia secondaria, seleziona **+ Nuovo prezzo ruolo**. 
 3. Nel riquadro **Creazione rapida** immetti la combinazione di ruolo e unità organizzativa per cui è necessario impostare la tariffa di fatturazione.
 
   La tabella seguente include i campi della scheda **Generale** e nel riquadro **Creazione rapida** di una riga di prezzo del ruolo che devi tenere a mente quando crei i prezzi del ruolo in un listino prezzi di vendita:
 
-  | Campo | Ufficio | Pertinenza, scopo e indicazioni | Impatto downstream |
+  | Campo | Ufficio | Descrizione | Impatto downstream |
   | --- | --- | --- | --- |
   | Ruolo | Scheda **Generale** e riquadro **Creazione rapida** | Seleziona il ruolo per il quale stai impostando la tariffa di fatturazione. | Il ruolo nella stima in entrata o nel valore effettivo verrà confrontato con questa riga per impostare la tariffa di fatturazione predefinita del ruolo. |
   | Unità gestione risorse | Scheda **Generale** e riquadro **Creazione rapida** | Seleziona l'unità organizzativa o la divisione dell'azienda da cui proviene il ruolo. Ad esempio, uno sviluppatore della divisione Robotics di Fabrikam India o uno sviluppatore della divisione Software di Fabrikam USA. | L'unità di gestione risorse nella stima in entrata o nel valore effettivo verrà confrontato con questa riga per impostare la tariffa di fatturazione predefinita del ruolo. |

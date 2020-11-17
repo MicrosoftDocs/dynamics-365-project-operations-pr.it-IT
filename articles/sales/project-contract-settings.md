@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c11d6e76b551e0d2cde8ff514d1a0ddd989d07b9
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 2f29e396f8d30a5c5648b5c9937f1f20fbf72e89
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087977"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181142"
 ---
 # <a name="project-contract-settings"></a>Impostazioni del contratto di progetto
 
@@ -23,7 +23,7 @@ Questo argomento fornisce informazioni sui campi che si applicano all'intero con
 
 La tabella seguente elenca i campi su un contratto di progetto che sono univoci per Dynamics 365 Project Operations o presentano alcune importanti modifiche nel comportamento rispetto agli ordini di vendita in Dynamics 365 Sales.
 
-| Campo | Ufficio | Pertinenza, scopo e indicazioni | Impatto downstream |
+| Campo | Ufficio | Descrizione | Impatto downstream |
 | --- | --- | --- | --- |
 | Digita | Scheda **Riepilogo** (nascosta) | Questo è un campo di set di opzioni con le seguenti opzioni:</br>- **Basato su lavoro** (disponibile solo quando è installato Project Operations)</br>- **Basato su articolo** (disponibile solo quando sono installati Project Operations e Sales)</br>- **Basato su manutenzione di servizio** (disponibile quando Dynamics 365 Field Service è installato ) | In Project Operations, il valore di questo campo predefinito è **Basato sul lavoro** e classifica il contratto come contratto basato su progetto. Un contratto deve essere basato su progetto per abilitare tutte le estensioni e funzionalità specifiche del progetto. |
 | Società proprietaria | Scheda **Riepilogo** | La persona giuridica che deve rendere conto dei costi e dei ricavi derivanti dai progetti associati a questo contratto di progetto. Quando un contratto viene creato da un'offerta, questo campo viene copiato dal campo corrispondente nel record dell'offerta. | La società proprietaria corrisponde al concetto di persona giuridica nel modulo **Gestione progetti e contabilità** di Project Operations. Tutti i costi e i ricavi derivati da questo progetto vengono contabilizzati nella contabilità generale della società proprietaria. |
@@ -37,7 +37,7 @@ La tabella seguente elenca i campi su un contratto di progetto che sono univoci 
 
 I seguenti KPI sono disponibili nella scheda **Prestazioni contratto** di un contratto di progetto.
 
-| Campo | Ufficio | Pertinenza, scopo e indicazioni |
+| Campo | Ufficio | Descrizione |
 | --- | --- | --- |
 | Valore contratto | Contratto generale | Il valore totale del contratto di progetto. |
 | Importo fatturato | Contratto generale | La somma degli importi su tutte le fatture relative a questo contratto. |

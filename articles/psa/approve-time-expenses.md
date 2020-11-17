@@ -3,7 +3,7 @@ title: Approvare tempo e spese
 description: Come approvare il tempo e le spese in Project Service
 author: revathiMuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6b5fca4ab1eb4c907c3fd6cca5e2adf79fad9590
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ce126815dce37055fb364512a9a14c828d9b0c32
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079054"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127118"
 ---
 # <a name="approve-time-and-expenses-project-service"></a>Approvare ore e spese (Project Service)
 
@@ -35,7 +35,7 @@ Dopo che i consulenti immettono il tempo e le spese di un progetto, devi approva
   
 2.  Fai clic sulla voce da approvare.  
   
-3.  Nelle schede **Inserimenti ore** , **Voci di spesa** e **Assenza/ferie** esamina ogni voce e apporta le modifiche necessarie.  
+3.  Nelle schede **Inserimenti ore**, **Voci di spesa** e **Assenza/ferie** esamina ogni voce e apporta le modifiche necessarie.  
   
 4.  Per approvare una voce, selezionalo e fai clic su **Approva**. Puoi selezionare e approvare più voci contemporaneamente.  
   

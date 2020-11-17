@@ -1,74 +1,76 @@
 ---
-title: Creazione di pianificazioni di fatturazione in una voce di contratto basata su progetto
-description: Questo argomento fornisce informazioni sulla creazione di pianificazioni e passaggi fondamentali di fatturazione per le voci di contratto.
+title: Creare pianificazioni di fatturazione in una voce di contratto basata su progetto - semplice
+description: Questo argomento fornisce informazioni sulla creazione di pianificazioni di fatturazione e passaggi fondamentali.
 author: rumant
 manager: Annbe
-ms.date: 10/17/2020
+ms.date: 10/26/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2183b915dd2f67e03964246cb0689003e48363f7
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.openlocfilehash: 728a35b2b69fb63a2b20f218c250365c5068370f
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4079110"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180332"
 ---
-# <a name="creating-invoice-schedules-on-a-project-based-contract-line"></a>Creazione di pianificazioni di fatturazione in una voce di contratto basata su progetto
+# <a name="create-invoice-schedules-on-a-project-based-contract-line---lite"></a>Creare pianificazioni di fatturazione in una voce di contratto basata su progetto - semplice
 
 _**Si applica a:** Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
+Puoi collegare una pianificazione fatturazione in una voce di contratto basata su progetto. La fatturazione è consentita solo dopo che il contratto è stato acquisito per creare un contratto di progetto. Le pianificazioni di fatturazione consentono di creare automaticamente bozze di fattura per una voce di contratto basata su progetto. Se pensi di creare sempre le fatture manualmente, puoi saltare la creazione di pianificazioni di fatturazione in una voce di contratto basata su progetto o una voce di contratto.
 
-Puoi creare una pianificazioni di fatturazione in una voce di contratto basata su progetto. La fatturazione è consentita solo dopo che il contratto è stato acquisito e stai creando un contratto di progetto. Una pianificazione fatturazione consente la creazione automatica di bozze di fattura per una voce di contratto basata su progetto. Se, tuttavia, crei solo fatture manualmente, puoi saltare la creazione delle pianificazioni fatturazione nelle voci di contratto.
-
-## <a name="create-a-time-and-material-invoice-schedule-for-a-contract-line"></a>Creare una pianificazione della fatturazione per tempi e materiali per una voce di contratto
+## <a name="create-a-time-and-material-invoice-schedule-for-a-project-based-contract-line"></a>Creare una pianificazione fatturazione di tempo e materiale per una voce di contratto basata su progetto
 
 Quando una voce di contratto basata su progetto ha un metodo di fatturazione per tempo e materiali puoi creare una pianificazione fatturazione basata sulla data. Per generare automaticamente una pianificazione della fatturazione basata sulla data, completa i seguenti passaggi.
 
-1. Vai a **Impostazioni** > **Frequenze di fatturazione** e configura una frequenza di fatturazione.
-2. Vai al record del contratto di progetto e nella scheda **Riepilogo** , nel campo **Data di consegna richiesta** seleziona una data.
-3. Apri la voce di contratto **Tempistica e materiali** per cui stai creando una pianificazione della fatturazione basata sulla data. 
-4. Nella scheda **Pianificazione fatturazione** , seleziona la data di inizio fatturazione e la frequenza di fatturazione.
-5. Nella griglia secondaria, seleziona **Genera pianificazione fatturazione**. La pianificazione della fatturazione viene generata con i campi **Data esecuzione fattura** , **Data limite transazione** e **Stato di esecuzione** impostati nel modo seguente:
+1. Vai a **Impostazioni** > **Frequenze di fatturazione** per impostare la frequenza di fatturazione.
+2. Apri il contratto di progetto e nella scheda **Sommario** imposta la data di consegna richiesta.
+3. Apri la voce di contratto tempo e materiale per la quale vuoi creare una pianificazione di fatturazione basata sulla data. 
+4. Nella scheda **Pianificazione fatturazione** seleziona una data di inizio fatturazione e la frequenza di fatturazione. 
+5. Nella griglia secondaria, seleziona **Genera pianificazione fatturazione**.
 
-    - **Data esecuzione fattura** : è la data dettata dalla frequenza della fatturazione.
-    - **Data limite transazione** : il giorno prima della data di esecuzione fattura.
-    - **Stato di esecuzione** : viene impostato automaticamente su **Non eseguito**. Quando il processo di creazione automatica della fattura viene eseguito per una determinata data di esecuzione della fattura, aggiorna questo campo in **Esecuzione completata** o **Esecuzione non riuscita**.
+    Il sistema genera la pianificazione di fatturazione con le seguenti informazioni dei campi:
 
+    - **Data esecuzione fattura** è impostato sulla data in base alla frequenza di fatturazione.
+    - **Data limite transazione** è impostato sul giorno prima della **Data esecuzione fattura**.
+    - **Stato di esecuzione** viene impostato automaticamente su **Non eseguito**. Quando il processo di creazione automatica della fattura viene eseguito per una determinata **Data esecuzione fattura**, questo campo viene impostato su **Esecuzione completata** o **Esecuzione non riuscita**.
 
-## <a name="create-a-fixed-price-invoice-schedule-for-a-contract-line"></a>Creare una pianificazione della fatturazione a prezzo fisso per una voce di contratto
+## <a name="create-a-fixed-price-invoice-schedule-for-a-project-based-contract-line"></a>Creare una pianificazione fatturazione a prezzo fisso per una voce di contratto basata su progetto
 
-Quando la voce di contratto ha un metodo di fatturazione fisso, puoi creare una pianificazione della fatturazione basata su passaggi fondamentali. Completa i passaggi seguenti per generare una pianificazione della fatturazione basata su passaggi fondamentali per un insieme fisso di passaggi fondamentali distribuiti per il periodo di calendario.
+Quando una voce di contratto basata su progetto ha un metodo di fatturazione a prezzo fisso, puoi creare una pianificazione di fatturazione basata su passaggio fondamentale. Completa i seguenti passaggi per generare automaticamente una pianificazione di fatturazione basata su passaggio fondamentale per un set fisso di passaggi fondamentali che vengono distribuiti equamente per il periodo di calendario.
 
-1. Vai a **Impostazioni** > **Frequenze di fatturazione** e configura una frequenza di fatturazione.
-2. Vai al record del contratto di progetto e nella scheda **Riepilogo** , nel campo **Data di consegna richiesta** seleziona una data.
-3. Apri la voce di contratto **Prezzo fisso** per cui stai creando una pianificazione dei passaggi fondamentali. Nella scheda **Passaggi fondamentali di fatturazione** , seleziona la data di inizio fatturazione e la frequenza di fatturazione. 
-4. Nella griglia secondaria, seleziona **Genera passaggi fondamentali periodici**. La pianificazione fatturazione viene generata con i campi **Nome passaggio fondamentale** , **Data passaggio fondamentale** e **Importo passaggio fondamentale** impostati come segue:
+1. Vai a **Impostazioni** > **Frequenze di fatturazione** per impostare la frequenza di fatturazione.
+2. Apri il contratto di progetto e nella scheda **Sommario** imposta la data di consegna richiesta.
+3. Apri la voce di contratto a prezzo fisso per cui vuoi creare una pianificazione di passaggi fondamentali. 
+4. Nella scheda **Pianificazione fatturazione (passaggi fondamentali di fatturazione)** seleziona la data di inizio fatturazione e la frequenza di fatturazione. 
+5. Nella griglia secondaria, seleziona **Genera passaggi fondamentali periodici**.
 
-    - **Nome passaggio fondamentale** : è la data dettata dalla frequenza della fatturazione.
-    - **Data fondamentale** : è la data dettata dalla frequenza della fatturazione.
-    - **Importo passaggio fondamentale** : è l'importo calcolato dividendo l'importo del contratto nella voce di contratto per il numero di passaggi fondamentali come stabilito dalla frequenza e dalle date di inizio della fatturazione e di consegna richieste.
+    Il sistema genera la pianificazione di fatturazione con le seguenti informazioni dei passaggi fondamentali.
 
-    Se la voce di contratto ha un valore nel campo **Importo previsto delle imposte** , questo campo viene anche ripartito equamente su ogni passaggio fondamentale quando si generano passaggi fondamentali periodici.
+    - **Nome passaggio fondamentale** è impostato sulla data indicata in base alla frequenza di fatturazione.
+    - **Data passaggio fondamentale** è impostato sulla data indicata in base alla frequenza di fatturazione.
+    - **Importo passaggio fondamentale** viene calcolato dividendo l'importo del contratto nella voce di contratto basata su progetto per il numero di passaggi fondamentali come indicato dalla frequenza, dall'inizio della fatturazione e dalle date di consegna richieste.
+    - Se la voce di contratto ha un valore nel campo **Importo stimato delle imposte**, anche questo campo viene ripartito equamente su ogni passaggio fondamentale quando si generano passaggi fondamentali periodici.
 
-I passaggi fondamentali di fatturazione devono essere uguali al valore di contratto della voce di contratto. In caso contrario, riceverai un errore nella pagina **Voce di contratto**. Puoi correggere l'errore verificando che i passaggi fondamentali di fatturazione totalizzino il valore di contratto della voce creando, modificando o eliminando i passaggi fondamentali. Dopo aver apportato le modifiche, aggiorna la pagina per rimuovere l'errore.
+I passaggi fondamentali di fatturazione devono essere uguali al valore di contratto della voce di contratto basata su progetto. Se non sono uguali, si verifica un errore. È possibile correggere l'errore verificando che i passaggi fondamentali di fatturazione totalizzino il valore di contratto della voce creando, modificando o eliminando i passaggi fondamentali. Dopo aver apportato le modifiche, aggiorna la pagina.
 
 ### <a name="manually-create-milestones"></a>Creare manualmente passaggi fondamentali
 
-Puoi generare passaggi fondamentali a prezzo fisso manualmente quando non vengono suddivisi periodicamente. Completa i passaggi seguenti per creare manualmente un passaggio fondamentale.
+I passaggi fondamentali a prezzo fisso possono essere generati manualmente quando non vengono suddivisi periodicamente. Per creare manualmente un passaggio fondamentale, completa i seguenti passaggi.
 
-1. Apri la voce di contratto a prezzo fisso per cui stai creando un passaggio fondamentale e nella scheda **Pianificazione fatturazione** , nella griglia secondaria, seleziona **+ Crea nuovo passaggio fondamentale della voce di contratto**. 
-2. Nella pagina **Creazione passaggio fondamentale** immetti le informazioni richieste in base alla tabella seguente.
+1. Apri la voce di contratto a prezzo fisso per cui vuoi creare un passaggio fondamentale. 
+2. Nella scheda **Pianificazione di fatturazione**, nella griglia secondaria, seleziona **+ Crea nuovo passaggio fondamentale voce di contratto**.
+3. Nel modulo **Creazione passaggio fondamentale** inserisci le informazioni richieste in base alla tabella seguente. 
 
-| Campo | Ufficio | Pertinenza, scopo e indicazioni | Impatto downstream |
+| Campo | Ufficio | Descrizione | Impatto downstream |
 | --- | --- | --- | --- |
-| Nome passaggio fondamentale | Creazione rapida | Campo di testo per il nome del passaggio fondamentale. | Viene riportato sul passaggio fondamentale della voce di contratto del progetto e sulla fattura. |
-| Attività di progetto | Creazione rapida | Se il passaggio fondamentale è legato all'attività di progetto, puoi utilizzare questo riferimento per aggiungere logica personalizzata e impostare lo stato del passaggio fondamentale in base allo stato dell'attività. | L'applicazione non ha alcun impatto downstream di questo riferimento a un'attività. |
-| Data passaggio fondamentale | Creazione rapida | Imposta la data in cui il processo di creazione automatica della fattura deve cercare lo stato di questo passaggio fondamentale per considerarlo per la fatturazione. | Viene riportato sul passaggio fondamentale della voce di contratto del progetto e sulla fattura. |
-| Stato fattura | Creazione rapida | Quando viene creato un passaggio fondamentale, questo stato è sempre impostato su **Non pronto per la fatturazione** o **Non avviato**. | Viene riportato sul passaggio fondamentale della voce di contratto del progetto e sulla fattura. |
-| Importo riga | Creazione rapida | Importo o valore del passaggio fondamentale che verrà fatturato al cliente. | Viene riportato sul passaggio fondamentale della voce di contratto del progetto e sulla fattura. |
-| Imposta | Creazione rapida | L'importo delle imposte applicato al passaggio fondamentale. | Viene riportato sul passaggio fondamentale della voce di contratto del progetto e sulla fattura. |
+| Nome passaggio fondamentale | Creazione rapida | Campo di testo per il nome del passaggio fondamentale. | Questo campo è incluso nel passaggio fondamentale della voce di contratto di progetto e nella fattura. |
+| Attività di progetto | Creazione rapida | Se il passaggio fondamentale è collegato a un'attività di progetto, utilizza questo riferimento per aggiungere logica personalizzata e impostare lo stato del passaggio fondamentale in base allo stato dell'attività. | Non vi è alcun impatto downstream di questo riferimento a un'attività. |
+| Data passaggio fondamentale | Creazione rapida | La data in cui il processo di creazione automatica della fattura cerca lo stato di questo passaggio fondamentale per considerarlo per la fatturazione. | Questo è incluso nel passaggio fondamentale della voce di contratto di progetto e nella fattura. |
+| Stato fattura | Creazione rapida | Quando viene creato il passaggio fondamentale, questo stato è sempre impostato su **Non pronto per la fatturazione** o **Non avviato**. | Questo è incluso nel passaggio fondamentale della voce di contratto di progetto e nella fattura. |
+| Importo riga | Creazione rapida | L'importo o il valore del passaggio fondamentale che verrà fatturato al cliente. | Questo campo è incluso nel passaggio fondamentale della voce di contratto di progetto e nella fattura. |
+| Imposta | Creazione rapida | L'importo delle imposte applicato al passaggio fondamentale. | Questo è incluso nel passaggio fondamentale della voce di contratto di progetto e nella fattura. |
 
-3. Seleziona **Salva e chiudi**.
-| Importo riga | Creazione rapida | Importo o valore del passaggio fondamentale che verrà fatturato al cliente | Viene propagato al passaggio fondamentale della voce di contratto di progetto e alla fattura | | Imposta | Creazione rapida | Importo dell'imposta che verrà applicato al passaggio fondamentale | Viene propagato al passaggio fondamentale della voce di contratto di progetto e alla fattura |
+4. Seleziona **Salva e chiudi**.

@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 203b8a057d8ef3b699b20c4303061e622d2a3acd
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.openlocfilehash: 9d3c84664f1b0701db17f0c05654e0c99bb6c640
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4079106"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128063"
 ---
 # <a name="create-a-manual-proforma-invoice"></a>Creare una fattura proforma manuale
 
@@ -44,17 +44,17 @@ Le fatture di progetto possono essere create individualmente o in blocco. Puoi c
 
 ### <a name="manually-create-project-invoices"></a>Creare fatture di progetto manualmente 
 
-Nella pagina elenco **Contratti di progetto** , puoi creare fatture di progetto separatamente per ogni contratto di progetto, oppure puoi creare fatture in blocco per molteplici contratti di progetto.
+Nella pagina elenco **Contratti di progetto**, puoi creare fatture di progetto separatamente per ogni contratto di progetto, oppure puoi creare fatture in blocco per molteplici contratti di progetto.
 
 Segui questa procedura per creare una fattura per uno specifico contratto di progetto.
 
-- Nella pagina elenco **Contratti di progetto** , apri un contratto di progetto e quindi seleziona **Crea fattura**.
+- Nella pagina elenco **Contratti di progetto**, apri un contratto di progetto e quindi seleziona **Crea fattura**.
 
     Una fattura viene generata per tutte le transazioni del contratto di progetto selezionato il cui stato è **Pronto per la fatturazione**. Queste transazioni includono voci di contratto basate su prodotto, tempo, spese e passaggi fondamentali.
 
 Segui questa procedura per creare fatture in blocco.
 
-1. Nella pagina elenco **Contratti di progetto** , seleziona uno o più contratti di progetto per i quali devi creare una fattura per e quindi seleziona **Crea fatture di progetto**.
+1. Nella pagina elenco **Contratti di progetto**, seleziona uno o più contratti di progetto per i quali devi creare una fattura per e quindi seleziona **Crea fatture di progetto**.
 
     Un messaggio di avviso informa che la creazione delle fatture può richiedere un certo tempo. Il processo viene anche visualizzato.
 
@@ -71,7 +71,7 @@ Segui questa procedura per configurare un'esecuzione di fatturazione automatizza
 1. Passa a **Impostazioni** \> **Processi batch**.
 2. Crea un processo batch e denominalo **Project Operations - Creazione di fatture**. Il nome del processo batch deve includere il termine "Creazione di fatture".
 3. Nel campo **Tipo di processo** seleziona **Nome**. Per impostazione predefinita, le opzioni **Frequenza giornaliera** e **Attivo** sono impostate su **Sì**.
-4. Seleziona **Esegui flusso di lavoro**. Nella finestra di dialogo **Cerca record** , vengono visualizzati tre flussi di lavoro:
+4. Seleziona **Esegui flusso di lavoro**. Nella finestra di dialogo **Cerca record**, vengono visualizzati tre flussi di lavoro:
 
     - ProcessRunCaller
     - ProcessRunner
@@ -80,11 +80,11 @@ Segui questa procedura per configurare un'esecuzione di fatturazione automatizza
 5. Seleziona **ProcessRunCaller** e quindi **Aggiungi**.
 6. Nella finestra di dialogo successiva, seleziona **OK**. Un flusso di lavoro **Sospendi** è seguito da un flusso di lavoro **Elabora**.
 
-    Puoi anche selezionare **ProcessRunner** nel passaggio 5. Successivamente, quando selezioni **OK** , un flusso di lavoro **Elabora** è seguito da un flusso di lavoro **Sospendi**.
+    Puoi anche selezionare **ProcessRunner** nel passaggio 5. Successivamente, quando selezioni **OK**, un flusso di lavoro **Elabora** è seguito da un flusso di lavoro **Sospendi**.
 
 I flussi di lavoro **ProcessRunCaller** e **ProcessRunner** creano le fatture. **ProcessRunCaller** chiama **ProcessRunner**. **ProcessRunner** è il flusso di lavoro che crea le fatture. Esamina tutte le voci di contratto per le quali devono essere create le fatture e crea le fatture per tali voci. Per determinare le voci di contratto per le quali creare le fatture, il processo analizza le date di esecuzione delle fatture per le voci di contratto. Se le voci di contratto appartenenti a un contratto hanno la stessa data di esecuzione delle fatture, le transazioni sono combinate in una fattura con due righe fattura. Se non sono presenti transazioni per le quali creare fatture, il processo ignora la creazione delle fatture.
 
-Dopo il termine dell'esecuzione di **ProcessRunner** , questo flusso di lavoro chiama **ProcessRunCaller** , fornisce l'ora di fine e viene chiuso. **ProcessRunCaller** avvia quindi un timer che viene eseguito per 24 ore a partire dall'ora di fine specificata. Alla fine dell'esecuzione del timer, **ProcessRunCaller** viene chiuso.
+Dopo il termine dell'esecuzione di **ProcessRunner**, questo flusso di lavoro chiama **ProcessRunCaller**, fornisce l'ora di fine e viene chiuso. **ProcessRunCaller** avvia quindi un timer che viene eseguito per 24 ore a partire dall'ora di fine specificata. Alla fine dell'esecuzione del timer, **ProcessRunCaller** viene chiuso.
 
 Il processo batch per la creazione di fatture è un processo ricorrente. Se questo processo batch viene eseguito molte volte, vengono create molteplici istanze del processo che causano errori. Pertanto, devi avviare il processo batch una sola volta e riavviarlo solo se viene interrotto.
 
@@ -99,7 +99,7 @@ Quando crei una bozza di fattura di progetto, tutte le transazioni di vendita no
 - Modificare e rettificare la quantità e il tipo di fatturazione.
 - Aggiungere direttamente tempo, spese e imposte come transazioni nella fattura. Puoi utilizzare questa funzionalità se la riga fattura viene mappata a una voce di contratto che consente queste classi di transazioni.
 
-Seleziona **Conferma** per confermare una fattura. L'azione Conferma è unidirezionale. Quando selezioni **Conferma** , il sistema rende la fattura di sola lettura e crea valori effettivi di vendite fatturate da ogni dettaglio di ogni riga fattura. Se il dettaglio di riga fattura fa riferimento a un valore effettivo di vendite non fatturate, il sistema storna anche questo valore. (qualsiasi dettaglio di riga fattura creato da una voce di spesa o un inserimento ore farà riferimento a un valore effettivo di vendite non fatturate). I sistemi di integrazione di contabilità generale possono utilizzare questo storno per stornare il lavoro in corso del progetto per scopi di contabilità.
+Seleziona **Conferma** per confermare una fattura. L'azione Conferma è unidirezionale. Quando selezioni **Conferma**, il sistema rende la fattura di sola lettura e crea valori effettivi di vendite fatturate da ogni dettaglio di ogni riga fattura. Se il dettaglio di riga fattura fa riferimento a un valore effettivo di vendite non fatturate, il sistema storna anche questo valore. (qualsiasi dettaglio di riga fattura creato da una voce di spesa o un inserimento ore farà riferimento a un valore effettivo di vendite non fatturate). I sistemi di integrazione di contabilità generale possono utilizzare questo storno per stornare il lavoro in corso del progetto per scopi di contabilità.
 
 ### <a name="correct-a-confirmed-invoice"></a>Correggere una fattura confermata
 

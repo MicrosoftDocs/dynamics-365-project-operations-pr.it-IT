@@ -1,21 +1,21 @@
 ---
-title: Risoluzione dei prezzi di vendita per stime e valori effettivi
+title: Risolvere i prezzi di vendita per stime e valori effettivi - semplice
 description: Questo argomento fornisce informazioni su come vengono risolti i prezzi di vendita su stime e valori effettivi.
 author: rumant
 manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c8972bd7710735e9acdbf951079f2da24a00bd7f
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 92cebbe851c3cface86d0580e7e060134295e8c2
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087971"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176751"
 ---
-# <a name="resolving-sales-prices-for-estimates-and-actuals"></a>Risoluzione dei prezzi di vendita per stime e valori effettivi
+# <a name="resolve-sales-prices-for-estimates-and-actuals---lite"></a>Risolvere i prezzi di vendita per stime e valori effettivi - semplice
 
 _**Si applica a:** Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
@@ -27,8 +27,8 @@ In Project Operations, le righe di stima per il tempo vengono utilizzate per ind
 
 Dopo che un listino prezzi per le vendite è stato risolto, il sistema completa i seguenti passaggi per impostare la tariffa di fatturazione predefinita.
 
-1. Il sistema utilizza i campi **Ruolo** e **Unità gestione risorse** nella riga di stima affinché il tempo corrisponda alle righe di prezzo del ruolo nel listino prezzi risolto. Questa corrispondenza presuppone che vengano utilizzate dimensioni di determinazione del prezzo predefinite per le tariffe di fatturazione. Se hai configurato i prezzi in base ad altri campi al posto o in aggiunta a **Ruolo** e **Unità gestione risorse** , verrà utilizzata tale combinazione per recuperare una riga di prezzo del ruolo corrispondente.
-2. Se il sistema trova una riga di prezzo del ruolo con una tariffa di fatturazione per la combinazione di campi **Ruolo** e **Unità gestione risorse** , questa è la tariffa di fatturazione predefinita.
+1. Il sistema utilizza i campi **Ruolo** e **Unità gestione risorse** nella riga di stima affinché il tempo corrisponda alle righe di prezzo del ruolo nel listino prezzi risolto. Questa corrispondenza presuppone che vengano utilizzate dimensioni di determinazione del prezzo predefinite per le tariffe di fatturazione. Se hai configurato i prezzi in base ad altri campi al posto o in aggiunta a **Ruolo** e **Unità gestione risorse**, verrà utilizzata tale combinazione per recuperare una riga di prezzo del ruolo corrispondente.
+2. Se il sistema trova una riga di prezzo del ruolo con una tariffa di fatturazione per la combinazione di campi **Ruolo** e **Unità gestione risorse**, questa è la tariffa di fatturazione predefinita.
 3. Se il sistema non può corrispondere ai valori dei campi **Ruolo** e **Unità gestione risorse** recupera le righe di prezzo del ruolo con un ruolo corrispondente, eccetto i valori nulli di **Unità risorsa**. Dopo che il sistema trova un record di prezzo del ruolo corrispondente, imposta la tariffa di fatturazione da quel record. Questa corrispondenza presuppone una configurazione predefinita per la priorità relativa di **Ruolo** e **Unità gestione risorse** come dimensione di prezzi di vendita.
 
 > [!NOTE]
@@ -41,7 +41,7 @@ In Project Operations, le righe di stima per la spesa vengono utilizzate per ind
 Dopo che un listino prezzi per le vendite è stato risolto, il sistema completa i seguenti passaggi per impostare il prezzo unitario di vendita.
 
 1. Il sistema utilizza una combinazione dei campi **Categoria** e **Unità** nella riga di stima per affinché una spesa corrisponda alle righe prezzo di categoria nel listino prezzi risolto.
-2. Se il sistema trova una riga di prezzo di categoria con una tariffa di vendita per la combinazione di campi **Categoria** e **Unità** , questa riga è la tariffa di vendita predefinita.
+2. Se il sistema trova una riga di prezzo di categoria con una tariffa di vendita per la combinazione di campi **Categoria** e **Unità**, questa riga è la tariffa di vendita predefinita.
 3. Se il sistema trova una riga di prezzo della categoria corrispondente, il metodo di determinazione del prezzo può essere utilizzato per impostare il prezzo di vendita predefinito. La tabella seguente mostra il comportamento predefinito del prezzo di spesa in Project Operations.
 
     | Contesto | Metodo di determinazione dei prezzi | Prezzo predefinito |

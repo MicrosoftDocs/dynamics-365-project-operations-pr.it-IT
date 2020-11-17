@@ -1,21 +1,21 @@
 ---
-title: Fatturazione di un anticipo o di un acconto
+title: Fatturare un pagamento anticipato o in acconto - semplice
 description: Questo argomento fornisce informazioni su come fatturare un acconto o un anticipo in Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6ed3b71d5f0ac035403de9fa213f3f45d14038e0
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 9013529b615026eab92177c9fd9fb84c50d66f4f
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087973"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180557"
 ---
-# <a name="invoice-a-retainer-or-an-advance"></a>Fatturazione di un anticipo o di un acconto
+# <a name="invoice-a-retainer-or-an-advance---lite"></a>Fatturare un pagamento anticipato o in acconto - semplice
 
 _**Si applica a:** Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
@@ -43,7 +43,7 @@ Su ogni fattura generata per un contratto di progetto che ha fatturati acconti o
 
 Questo può essere visto nella griglia **Acconti e anticipi applicati** della pagina **Fattura**. La tabella seguente fornisce informazioni sui campi della griglia **Acconti e anticipi applicati** della pagina **Fattura progetto**.
 
-| Campo | Ufficio | Pertinenza, scopo e indicazioni | Impatto downstream |
+| Campo | Ufficio | Descrizione | Impatto downstream |
 | --- | --- | --- | --- |
 | Descrizione | Griglia **Acconti e anticipi applicati** della pagina **Fattura progetto** |Questo campo di sola lettura fornisce una descrizione dell'acconto o dell'anticipo utilizzato in questa fattura. Il valore non può essere modificato nella fattura. Questo valore può essere aggiornato nella griglia secondaria della pagina **Contratto di progetto**. | Questo campo può essere visualizzato al cliente sulla fattura stampata per indicare quale acconto o anticipo è stato applicato alla fattura. |
 | Data consegna | Griglia **Acconti e anticipi applicati** della pagina **Fattura progetto**  | Questo campo di sola lettura fornisce la data della fattura dell'acconto o dell'anticipo utilizzato in questa fattura. Il valore non può essere modificato nella fattura. Questo valore può essere aggiornato nella griglia secondaria della pagina **Contratto di progetto**. | Questo campo può essere visualizzato al cliente sulla fattura stampata per indicare la data in cui l'acconto o l'anticipo è stato fatturato per la prima volta al cliente. |

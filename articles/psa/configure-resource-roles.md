@@ -3,7 +3,7 @@ title: Configurare ruoli delle risorse
 description: Come configurare i ruoli di risorsa in Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f899d17980df16602c964bab4bbab1e976b3ebf
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b573bec395217e105cc8d9c669343e37ff6662e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078874"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129143"
 ---
 # <a name="configure-resource-roles-project-service"></a>Configurare i ruoli di risorsa (Project Service)
 
@@ -41,13 +41,13 @@ I ruoli hanno una parte importante nella pianificazione del progetto, quando si 
   
 2.  Fare clic su **Nuovo**.  
   
-3.  Nell'area **Generale** , immetti un nome per il ruolo in **Nome** , quindi compila gli altri campi a seconda delle esigenze.  
+3.  Nell'area **Generale**, immetti un nome per il ruolo in **Nome**, quindi compila gli altri campi a seconda delle esigenze.  
   
 4.  Fai clic su **Salva** per creare il record in modo da poter continuare a modificarlo.  
   
 5.  Nell'area **Competenze** fai clic su **+** per aggiungere una competenza.  
   
-6.  Nel riquadro **Requisito di competenza ruolo** , fai clic nel campo **Competenza** , poi sul pulsante **Cerca** e seleziona una competenza.  
+6.  Nel riquadro **Requisito di competenza ruolo**, fai clic nel campo **Competenza**, poi sul pulsante **Cerca** e seleziona una competenza.  
   
 7.  Seleziona una capacità per tale esperienza e quindi fai clic su **Salva**.  
   

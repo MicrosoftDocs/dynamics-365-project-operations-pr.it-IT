@@ -3,7 +3,7 @@ title: Creare unità organizzative
 description: Come creare unità organizzative in Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4c653f5bd066fd174c8fb0996820628c1b281519
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ebb00b9838773560404a9e3f7a19cc83408d7889
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078925"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125092"
 ---
 # <a name="create-organizational-units-project-service"></a>Creare unità organizzative (Project Service)
 
@@ -38,11 +38,11 @@ La società probabilmente organizza l'attività di consulenza per area geografic
   
 2.  Fare clic su **Nuovo**.  
   
-3.  Nell'area **Generale** , immetti un nome per l'unità organizzativa in **Nome** , quindi compila gli altri campi a seconda delle esigenze.  
+3.  Nell'area **Generale**, immetti un nome per l'unità organizzativa in **Nome**, quindi compila gli altri campi a seconda delle esigenze.  
   
 4.  Fai clic su **Salva** per creare il record in modo da poter continuare a modificarlo.  
   
-5.  In **Listini prezzi** , fai clic su **+** aggiungere un listino prezzi. Puoi solo aggiungere listini prezzi con il contesto **Costo** di seguito.  
+5.  In **Listini prezzi**, fai clic su **+** aggiungere un listino prezzi. Puoi solo aggiungere listini prezzi con il contesto **Costo** di seguito.  
   
 6.  Nel campo **Nome** fai clic sul pulsante **Cerca** e seleziona un listino prezzi che desideri rendere disponibile in questa unità organizzativa. Continua ad aggiungere listini prezzi in base alle esigenze.  
   

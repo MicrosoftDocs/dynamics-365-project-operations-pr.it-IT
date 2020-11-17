@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e5a2402a2c1059ff11dbe1a331a028da77958235
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: b518c9eda00bef4d342dd66677344af516012749
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078795"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180287"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Impostare tariffe di vendita e costo per le spese
 
@@ -24,17 +24,17 @@ Puoi impostare i prezzi di costo e di vendita per le categorie di transazione in
 Per impostare le tariffe di vendita e costo per le categorie di transazione, completa i seguenti passaggi. 
 
 1. Crea un listino prezzi in base all'intestazione del listino prezzi. 
-2. In **Prezzi di categoria** , nel menu della griglia secondaria, seleziona **+ Nuovo prezzo di categoria**. 
+2. In **Prezzi di categoria**, nel menu della griglia secondaria, seleziona **+ Nuovo prezzo di categoria**. 
 3. Nella pagina **Creazione rapida** inserisci la categoria di transazione e l'unità per cui stai creando il nuovo prezzo.
 
 La tabella seguente elenca i campi della scheda **Generale** e nella pagina **Creazione rapida** di una riga di prezzo di categoria che devi tenere a mente quando crei i prezzi di categoria in un listino prezzi di vendita o costo:
 
-| Campo | Ufficio | Pertinenza, scopo e indicazioni | Impatto downstream |
+| Campo | Ufficio | Descrizione | Impatto downstream |
 | --- | --- | --- | --- |
 | Categoria di transazione | Scheda **Generale** e pagine **Creazione rapida** | Seleziona la categoria di transazione per la quale stai creando un prezzo di vendita o di costo. | La categoria di transazione nella stima in entrata o nel valore effettivo per la spesa verrà confrontato con questa riga per impostare la tariffa di vendita o costo predefinita della categoria di transazione. |
 | Pianificazione unità | Scheda **Generale** e pagine **Creazione rapida** | La pianificazione di unità predefinita proviene dalla pianificazione di unità della categoria di transazione. | Non vi è alcun impatto downstream da questo campo. |
 | Unità | Scheda **Generale** e pagine **Creazione rapida** | Seleziona l'unità per la quale vengono impostate le tariffe. | L'unità sulla stima o sul valore effettivo in entrata viene confrontata con l'unità su questa riga per impostare la tariffa predefinita per la stima o il valore effettivo di spesa. |
-| Metodo di determinazione dei prezzi | Scheda **Generale** e pagine **Creazione rapida** | I possibili valori del campo **Metodo di determinazione dei prezzi** sono **Prezzo unitario** , **Al costo** e **Ricarico sul costo**. | Durante l'impostazione del prezzo, se selezioni **Prezzo per unità** blocchi il campo **Percentuale** nella riga del prezzo di categoria. Se **Al costo** viene selezionato, i campi **Prezzo** e **Percentuale** sono bloccati nel listino prezzi di vendita. La selezione di **Ricarico sul costo** blocca il campo **Prezzo** del listino prezzi di vendita. Su una riga di valore effettivo in entrata per la spesa, il metodo di determinazione dei prezzi **Al costo** o **Ricarico sul costo** fa sì che alla riga di vendita non fatturata corrispondente venga assegnato un prezzo che è uguale al prezzo di costo effettivo o calcolato come ricarico sul prezzo. |
+| Metodo di determinazione dei prezzi | Scheda **Generale** e pagine **Creazione rapida** | I possibili valori del campo **Metodo di determinazione dei prezzi** sono **Prezzo unitario**, **Al costo** e **Ricarico sul costo**. | Durante l'impostazione del prezzo, se selezioni **Prezzo per unità** blocchi il campo **Percentuale** nella riga del prezzo di categoria. Se **Al costo** viene selezionato, i campi **Prezzo** e **Percentuale** sono bloccati nel listino prezzi di vendita. La selezione di **Ricarico sul costo** blocca il campo **Prezzo** del listino prezzi di vendita. Su una riga di valore effettivo in entrata per la spesa, il metodo di determinazione dei prezzi **Al costo** o **Ricarico sul costo** fa sì che alla riga di vendita non fatturata corrispondente venga assegnato un prezzo che è uguale al prezzo di costo effettivo o calcolato come ricarico sul prezzo. |
 | Prezzo | Scheda **Generale** e pagine **Creazione rapida** | Imposta una tariffa unitario per la combinazione di categoria di transazione e unità. Ad esempio, la tariffa per il chilometraggio è 10 USD per miglio e 8 USD per chilometro. | La tariffa del chilometraggio sarà la tariffa predefinita sul costo o prezzo unitario della stima in entrata o della riga effettiva per una classe di transazione spesa.|
 | Percentuale | Scheda **Generale** e pagine **Creazione rapida** | Imposta una percentuale sul costo per la combinazione di categoria di transazione e unità. Ad esempio, la tariffa di vendita del biglietto aereo deve essere maggiorata del 10% rispetto al costo del biglietto aereo sostenuto. | Questa percentuale di ricarico sul costo è applicabile solo sul listino prezzi di vendita quando il metodo di calcolo del prezzo selezionato è **Ricarico sul costo**. |
 | Valuta | Scheda **Generale** e pagine **Creazione rapida** | Per impostazione predefinita, questo valore proviene dalla valuta nell'intestazione del listino prezzi. Per i prezzi della categoria di transazione, la valuta non può essere sovrascritta. | Questa valuta utilizza per impostazione predefinita la valuta del prezzo unitario della riga effettiva in entrata per la classe di transazione spesa per costo e vendita. |

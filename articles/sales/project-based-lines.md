@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7b255d607ac8180c249a9b9831db6f8d0cd3937b
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 0ede474e3d8830b420dc5b183f14327206c10288
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078737"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181952"
 ---
 # <a name="project-based-opportunity-lines"></a>Righe di opportunità basate su progetto
 
@@ -26,7 +26,7 @@ Le righe di opportunità basate su progetto sono le voci che verranno consegnate
 
 Di seguito sono riportati i campi in una riga di opportunità basata su progetto:
 
-| **Campo** | **Luogo** | **Pertinenza, scopo e indicazioni** | **Impatto downstream** |
+| **Campo** | **Luogo** | **Descrizione** | **Impatto downstream** |
 | --- | --- | --- | --- |
 | Tipo di prodotto | Scheda Generale (nascosta) | Questo è un campo di set di opzioni. Se è installato Dynamics 365 Operations, una delle opzioni disponibili è **Servizio basato sul progetto**.  | Il valore di questo campo è impostato su **Servizio basato sul progetto** quando si crea la riga di opportunità basata su progetto dalla griglia delle righe basate su progetto nell'opportunità. <br> Se modifichi o sostituisci questo valore, la funzionalità del progetto non sarà abilitata sulle voci basate su progetto. |
 | Opportunità | Scheda Generale | Questo campo è di sola lettura e fa riferimento al record di opportunità padre a cui appartiene questa voce. | Non vi è alcun impatto downstream di questo campo. |

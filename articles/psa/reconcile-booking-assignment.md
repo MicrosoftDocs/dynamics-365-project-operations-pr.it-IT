@@ -3,7 +3,7 @@ title: Riconciliare prenotazioni e assegnazioni
 description: In questo argomento vengono fornite informazioni su valori effettivi.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/27/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7ca6f4bb69322db08c413e076860e2ee9fdcc412
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f5255b4aa2c6c8b7fa7320da2e10b2ed23a88fdd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078922"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120458"
 ---
 # <a name="reconcile-bookings-and-assignments"></a>Riconciliare prenotazioni e assegnazioni
 
@@ -35,7 +35,7 @@ Per questo motivo, l'entità Progetto include una scheda **Riconciliazione**. Qu
 
 Per ogni membro del team denominato, la scheda **Riconciliazione** mostra prenotazioni e assegnazioni fino al livello della singola attività. Visualizza le ore nelle celle che possono rappresentare periodi da mesi a giorni.
 
-Nel campo **Scala cronologica** , puoi selezionare **Mese** , **Settimana** o **Giorno**. L'impostazione predefinita è **Settimana**. Tuttavia, puoi modificare il valore predefinito selezionando il pulsante **Impostazioni**. Quando la scheda **Riconciliazione** viene aperta, visualizza la data corrente, ma puoi utilizzare il controllo calendario per spostarti a una data antecedente o successiva. Quando un progetto ha una data di inizio nel futuro, la tabella visualizza quella data quando viene aperta. Il controllo calendario include inoltre opzioni che ti consentono di passare alla date di inizio e di fine del progetto.
+Nel campo **Scala cronologica**, puoi selezionare **Mese**, **Settimana** o **Giorno**. L'impostazione predefinita è **Settimana**. Tuttavia, puoi modificare il valore predefinito selezionando il pulsante **Impostazioni**. Quando la scheda **Riconciliazione** viene aperta, visualizza la data corrente, ma puoi utilizzare il controllo calendario per spostarti a una data antecedente o successiva. Quando un progetto ha una data di inizio nel futuro, la tabella visualizza quella data quando viene aperta. Il controllo calendario include inoltre opzioni che ti consentono di passare alla date di inizio e di fine del progetto.
 
 Puoi utilizzare i controlli dell'espansore in ogni risorsa per visualizzare i dettagli delle prenotazioni della risorsa. Puoi anche espandere le assegnazioni di ogni risorsa fino al livello della singola attività.
 
@@ -47,9 +47,9 @@ Nella parte inferiore della scheda **Riconciliazione** è visualizzato un totale
 > [!NOTE]
 > La legenda per queste condizioni può essere nascosta per lasciare più spazio disponibile per la griglia. In questo caso, rendi la legenda visibile selezionando il pulsante **Impostazioni**.
 
-In alcuni casi, quando il campo **Scala cronologica** è impostato su un livello superiore a **Giorno** , le differenze possono essere pari a 0 (zero). Ad esempio, nel livello **Mese** , la differenza netta per una risorsa può essere 0 (zero) a indicare che le prenotazioni eguagliano le assegnazioni. Tuttavia, osservando il livello **Settimana** , puoi notare che vi sono assegnazioni di 0 (zero) ore e prenotazioni di 40 ore nella prima settimana del mese e assegnazioni di 40 ore e prenotazioni di 0 (zero) ore nella seconda settimana del mese. Sebbene le prenotazioni e le assegnazioni totali per il mese siano uguali, differiscono per settimana.
+In alcuni casi, quando il campo **Scala cronologica** è impostato su un livello superiore a **Giorno**, le differenze possono essere pari a 0 (zero). Ad esempio, nel livello **Mese**, la differenza netta per una risorsa può essere 0 (zero) a indicare che le prenotazioni eguagliano le assegnazioni. Tuttavia, osservando il livello **Settimana**, puoi notare che vi sono assegnazioni di 0 (zero) ore e prenotazioni di 40 ore nella prima settimana del mese e assegnazioni di 40 ore e prenotazioni di 0 (zero) ore nella seconda settimana del mese. Sebbene le prenotazioni e le assegnazioni totali per il mese siano uguali, differiscono per settimana.
 
-Quando visualizzi livelli di tempo superiori, nelle celle della scheda **Riconciliazione** viene visualizzato un indicatore che informa dell'esistenza di differenze nei livelli di tempo inferiori. Ad esempio, nell'illustrazione seguente, un indicatore di cella è visualizzato nella cella del mese di ottobre 2018 per la risorsa Elisa Lombardi. Pertanto, puoi vedere che, anche se le prenotazioni e le assegnazioni della risorsa sono uguali quando vengono aggregate al livello **Mese** , non corrispondono ai livelli inferiori.
+Quando visualizzi livelli di tempo superiori, nelle celle della scheda **Riconciliazione** viene visualizzato un indicatore che informa dell'esistenza di differenze nei livelli di tempo inferiori. Ad esempio, nell'illustrazione seguente, un indicatore di cella è visualizzato nella cella del mese di ottobre 2018 per la risorsa Elisa Lombardi. Pertanto, puoi vedere che, anche se le prenotazioni e le assegnazioni della risorsa sono uguali quando vengono aggregate al livello **Mese**, non corrispondono ai livelli inferiori.
 
 ![Prenotazioni e assegnazioni non corrispondenti a livello di mese](media/reconcile-assignments-01.JPG)
 

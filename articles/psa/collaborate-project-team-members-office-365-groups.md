@@ -3,7 +3,7 @@ title: Collaborare con i membri del team di progetto con Gruppi di Office 365
 description: Come collaborare con i membri del team Project Service con Gruppi di Office 365
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a7caa9275c2df493b42f08a23d4cf450c56a8683
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3b8f6fb0de5c6803f0ff242160164207af8ce738
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079053"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126938"
 ---
 # <a name="collaborate-with-your-project-team-members-with-office-365-groups-project-service"></a>Collaborare con i membri del team di progetto con Gruppi di Office 365 (Project Service)
 
@@ -37,7 +37,7 @@ Con [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], puoi collaborar
   
 3. Nella barra sulla parte superiore dello schermo, seleziona la freccia in giù accanto al nome del progetto e quindi fai clic su **Gruppi di Office 365**. Verrà visualizzato il progetto, insieme agli elementi condivisi con il gruppo.  
   
-4. Per aprire l'area di lavoro del team in [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)], fai clic su **Apri calendario** , **Apri conversazioni** , **Apri blocco appunti** , **Apri documenti** o **Apri utenti**.  
+4. Per aprire l'area di lavoro del team in [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)], fai clic su **Apri calendario**, **Apri conversazioni**, **Apri blocco appunti**, **Apri documenti** o **Apri utenti**.  
   
 ### <a name="see-also"></a>Vedi anche  
  [Guida per tempo, spese e collaborazione](../psa/time-expense-collaboration-guide.md)

@@ -3,7 +3,7 @@ title: Pianificare un progetto con una struttura di suddivisione del lavoro
 description: Come pianificare un progetto con una struttura di suddivisione del lavoro in Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d77d9f8427f06015d4f4cb9438d7f59ac840b061
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 04f30f2f2ed93dd1525f1c86a7521cdbf39a77bc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079058"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127883"
 ---
 # <a name="schedule-a-project-with-a-work-breakdown-structure-project-service"></a>Pianificare un progetto con una struttura di suddivisione del lavoro (Project Service)
 
@@ -86,14 +86,14 @@ Utilizzerai i seguenti tipi di attività quando si crea la struttura di suddivis
   
 ### <a name="schedule-attributes"></a>Attributi di pianificazione
 
- - Assegna i valori a **Ore di lavoro** , **Numero di risorse** , **Data di inizio** , **Data di fine** e **Durata** per determinare la pianificazione dell'attività. 
+ - Assegna i valori a **Ore di lavoro**, **Numero di risorse**, **Data di inizio**, **Data di fine** e **Durata** per determinare la pianificazione dell'attività. 
  - **Lavoro** è una stima delle ore necessarie per completare l'attività.
  - **Numero di risorse** è una stima che il responsabile di progetto inserisce nell'attività per ottenere la migliore pianificazione possibile. 
  - **Durata** (in giorni) indica il numero di giorni lavorativi che ci vorranno per completare l'attività.  
   
 ### <a name="staffing-attributes"></a>Attributi di assegnazione del personale
 
- - **Ruolo** , **Unità organizzativa risorsa** , **Numero di risorse** e **Risorse** descrivono i requisiti di assegnazione del personale per l'attività. 
+ - **Ruolo**, **Unità organizzativa risorsa**, **Numero di risorse** e **Risorse** descrivono i requisiti di assegnazione del personale per l'attività. 
  - **Ruolo** descrive il tipo di risorsa necessario per eseguire l'attività. 
  - **Unità organizzativa risorsa** indica l'unità organizzativa da cui le risorse devono avere assegnato del personale per questa attività, influisce inoltre sulla stima di costo e vendite dell'attività, poiché viene contabilizzata quando si determina il prezzo di vendita dell'unità per la risorsa. 
  - **Risorse** include una risorsa generica o una risorsa denominata quando ne viene trovata una.  

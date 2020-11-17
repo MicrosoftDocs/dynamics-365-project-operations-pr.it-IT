@@ -3,7 +3,7 @@ title: Installazione dei dati di esempio
 description: In questo argomento vengono fornite informazioni sul'installazione dei dati di esempio in Project Service Automation.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.suite: ''
 applies_to: Dynamics 365 Project Service Automation
@@ -11,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 46dbd8d125396baa97537ea5d11c47864558c113
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c9cca7aa9d85bb38e48820b361ba07923ceddbd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078941"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132428"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Installazione di dati di esempio per l'applicazione Project Service
 
@@ -49,9 +49,9 @@ Quando si installa uno dei pacchetti di dati di esempio, il processo di installa
 
 - Crea o imposta parametri predefiniti per l'utilizzo di Field Service, Project Service o entrambe le applicazioni (se applicabile).
 
-- Importa dati di esempio per le applicazioni, come risorse prenotabili, ruoli specifici dell'applicazione, listini prezzi di costo e vendita, unità organizzative, record di processi di vendita e altre entità per mostrare le funzionalità chiave.  
+- Importa dati di esempio per le applicazioni, come risorse prenotabili, ruoli specifici dell'applicazione, listini prezzi di costo e vendita, unità organizzative, record di processi di vendita e altre entità per mostrare le funzionalità chiave.  
 
-Con il pacchetto di **dati dimostrativi** , vengono scaricati i dati transazionali descritti sopra e altri come ordini di lavoro e progetti.
+Con il pacchetto di **dati dimostrativi**, vengono scaricati i dati transazionali descritti sopra e altri come ordini di lavoro e progetti.
 
 Per scoprire quali sono le funzionalità che è possibile provare con i dati di esempio, Vedi lo scenario della Fabrikam Robotics in [Note tecniche](#technical-notes).
 
@@ -80,7 +80,7 @@ Il protocollo di installazione presuppone quanto segue per l'istanza di destinaz
 
 È necessario eseguire il programma di installazione in un computer con una versione recente di Windows (Windows 10 preferibilmente).
 
-È necessario pianificare la connessione del computer a una rete e l'esecuzione dell'installazione per **un'ora** per i **dati di configurazione/riferimento**. (L'installazione richiede in genere 30 minuti per **FPSMasterData** , che include i dati di esempio per entrambe le applicazioni). Per **FPSDemoData** , l'installazione durerà circa **3 ore**.
+È necessario pianificare la connessione del computer a una rete e l'esecuzione dell'installazione per **un'ora** per i **dati di configurazione/riferimento**. (L'installazione richiede in genere 30 minuti per **FPSMasterData**, che include i dati di esempio per entrambe le applicazioni). Per **FPSDemoData**, l'installazione durerà circa **3 ore**.
 
 La funzione screen saver del computer deve essere disattivata. In caso contrario, è possibile la perdita delle credenziali della sessione per l'installazione quando la funzione screen saver viene attivata (a meno che la sessione non viene mantenuta sempre attiva).
 
@@ -114,13 +114,13 @@ Il pacchetto **FPSMasterData** è stato progettato per l'installazione con un ut
 
 Per creare o configurare utenti, accedere a **Impostazioni** > **Sicurezza** > **Utenti** ed eseguire le operazioni seguenti:
 
-1. Impostare UserFullname="Spencer Low" con il nome utente "spencerl" ( **in lettere minuscole** ) per i ruoli Responsabile di progetto e Responsabile operativo.
+1. Impostare UserFullname="Spencer Low" con il nome utente "spencerl" (**in lettere minuscole**) per i ruoli Responsabile di progetto e Responsabile operativo.
 
 2. Selezionare **Spencer Low** e quindi selezionare **Gestisci ruoli**. Trovare e selezionare il ruolo **Amministratore di sistema** e quindi selezionare **OK** per assegnare diritti di amministratore a Spencer Low. Questo passaggio è necessario per assicurare la creazione di record di esempio con la corretta proprietà utente e quindi popolare correttamente le visualizzazioni.
 
 3. Dal pacchetto scaricato, è necessario aggiornare un file di mapping dei dati con indirizzi di posta elettronica del contesto dell'utente predefinito. A tale scopo, aprire **PkgFolder** e quindi individuare e aprire il file **ImportUserMapFile.xml** in Blocco note (o Visual Studio o un altro editor XML). Impostare il campo **DefaultUserToMapTo=** sull'indirizzo di posta elettronica dell'utente Spencer Low.
 
-4. Se non si utilizza Spencer Low con il nome utente **spencerl** , è necessario aggiornare un file aggiuntivo. Aprire il file **DemoDataPreImportConfig.xml** e quindi trovare il tag **userstocreateandconfigure**. Aggiorna il tag **\<login\>** con il nome utente dell'utente Spencer Low. Per ulteriori informazioni, vedi le [Note tecniche](#technical-notes).
+4. Se non si utilizza Spencer Low con il nome utente **spencerl**, è necessario aggiornare un file aggiuntivo. Aprire il file **DemoDataPreImportConfig.xml** e quindi trovare il tag **userstocreateandconfigure**. Aggiorna il tag **\<login\>** con il nome utente dell'utente Spencer Low. Per ulteriori informazioni, vedi le [Note tecniche](#technical-notes).
 
 ## <a name="create-or-configure-users---demo-data-package"></a>Creare o configurare gli utenti - pacchetto di dati dimostrativi
 
@@ -138,14 +138,14 @@ Il pacchetto di dati dimostrativi richiede sei utenti. Affinché il pacchetto ve
   
 2. A scopo di importazione dei dati dimostrativi, assegna ai sei utenti descritti sopra il ruolo di amministratore in modo da importare correttamente i record di esempio. 
 
-3. Apri **PkgFolder** , quindi individua ed apri **ImportUserMapFile.xml**. Aggiorna i campi **Nuovo=** sugli indirizzi e-mail degli utenti corrispondenti nel sistema.
+3. Apri **PkgFolder**, quindi individua ed apri **ImportUserMapFile.xml**. Aggiorna i campi **Nuovo=** sugli indirizzi e-mail degli utenti corrispondenti nel sistema.
 
    > [!div class="mx-imgBorder"]
    > ![Schermata di UserMapFile](media/sample-data-7.png)
 
-4. Se l'utente con il nome completo "Spencer Low" ha un ID utente diverso da **"spencerl"** , devi aggiornare un file aggiuntivo. Apri **DemoDataPreImportConfig.xml** , quindi trova il tag **userstocreateandconfigure**. Aggiorna il tag **\<login\>** con il loginId (con distinzione tra maiuscole e minuscole). 
+4. Se l'utente con il nome completo "Spencer Low" ha un ID utente diverso da **"spencerl"**, devi aggiornare un file aggiuntivo. Apri **DemoDataPreImportConfig.xml**, quindi trova il tag **userstocreateandconfigure**. Aggiorna il tag **\<login\>** con il loginId (con distinzione tra maiuscole e minuscole). 
 
-5. Il calendario del primo utente (nel tag **userstocreateandconfigure** ) viene utilizzato per inserire le ore lavorative per tutte le risorse prenotabili durante l'importazione dei dati dimostrativi. Accedi a **Impostazioni** > **Sicurezza** > **Utenti** , trova l'utente "Spencer Low", quindi apri l'ozpione "Ore lavorative". Modifica le ore lavorative esistenti, selezionando l'opzione **Intera pianificazione settimanale**. Verifica che le **ore lavorative siano impostate su 8 - 17 (9 ore), da Lunedì a Venerdì con il fuso orario impostato su Ora pacifico (USA e Canada)**. Ciò è necessario per garantire che la scheda di pianificazione e di progetto venga visualizzata come previsto.
+5. Il calendario del primo utente (nel tag **userstocreateandconfigure** ) viene utilizzato per inserire le ore lavorative per tutte le risorse prenotabili durante l'importazione dei dati dimostrativi. Accedi a **Impostazioni** > **Sicurezza** > **Utenti**, trova l'utente "Spencer Low", quindi apri l'ozpione "Ore lavorative". Modifica le ore lavorative esistenti, selezionando l'opzione **Intera pianificazione settimanale**. Verifica che le **ore lavorative siano impostate su 8 - 17 (9 ore), da Lunedì a Venerdì con il fuso orario impostato su Ora pacifico (USA e Canada)**. Ciò è necessario per garantire che la scheda di pianificazione e di progetto venga visualizzata come previsto.
 
 **Raccomandazione:** considerare la possibilità di creare un backup dell'organizzazione ora, nel caso sia necessario ritornare al punto di partenza a seguito di problemi durante l'installazione dei dati di esempio. Per ulteriori informazioni, vedere [Backup e ripristino di istanze](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
 
@@ -241,7 +241,7 @@ Sono disponibili vari altri componenti di configurazione in questo file di confi
 
 ### <a name="fabrikam-robotics-fictitious-scenario"></a>Scenario fittizio Fabrikam Robotics
 
-I pacchetti di dati di riferimento di esempio di Field Service e Project Service installano la **soluzione Fabrikam Manufacturing Master Data (v3.0.0.0)** , insieme a circa 4.000 record e circa 40 entità differenti. I pacchetti di dati di esempio distinti per Field Service e Project Service contengono un sottoinsieme dei dati di esempio **v902FPSMasterData** per tale applicazione. Il pacchetto **Dati dimostrativi** installa la **soluzione Fabrikam Manufacturing Demo Data (v 3.0.0.7)** con circa 22.000 record su 148 entità.
+I pacchetti di dati di riferimento di esempio di Field Service e Project Service installano la **soluzione Fabrikam Manufacturing Master Data (v3.0.0.0)**, insieme a circa 4.000 record e circa 40 entità differenti. I pacchetti di dati di esempio distinti per Field Service e Project Service contengono un sottoinsieme dei dati di esempio **v902FPSMasterData** per tale applicazione. Il pacchetto **Dati dimostrativi** installa la **soluzione Fabrikam Manufacturing Demo Data (v 3.0.0.7)** con circa 22.000 record su 148 entità.
 
 La società fittizia, Fabrikam Robotics, è un produttore di robot per catene di montaggio di dispositivi elettronici ed è nota per la qualità dei suoi prodotti, l'innovazione e un eccellente servizio clienti, con servizi di pianificazione delle installazioni, di implementazione e di manutenzione continua. La sede di Fabrikam si trova negli Stati Uniti (Fabrikam US) e ha succursali in Francia, India, Regno Unito e Svizzera.
 
@@ -291,7 +291,7 @@ Per impostazione predefinita, tutte le risorse prenotabili hanno un calendario d
 
 Se è necessario modificare le ore lavorative per le risorse prenotabili di esempio, vai a **Universal Resource Scheduling** > **Pianificazione** > **Risorse**.
 
-Selezionare un utente (ad esempio, Spencer Low) e sostituire le ore lavorative di Spencer con le ore che si intende applicare a più utenti. Vai a **Universal Resource Scheduling** > **Impostazioni** > **Modelli di ore lavorative** e modifica il record **Modello di lavoro predefinito**. Nel campo **Risorsa Modello** , selezionare un utente con le ore lavorative che si desidera applicare ad altre risorse. Vai a **Universal Resource Scheduling** > **Pianificazione** > **Risorse** > . **Risorse prenotabili attive**. Selezionare le risorsa che si desidera modificare e quindi selezionare **Imposta calendario**. Nell'elenco a discesa **Modello di lavoro** , selezionare il modello **Ore lavorative predefinite** o un altro modello con la risorsa corretta. Quando accedi alla scheda di pianificazione, potrai vedere che le ore lavorative delle risorse sono state aggiornate.
+Selezionare un utente (ad esempio, Spencer Low) e sostituire le ore lavorative di Spencer con le ore che si intende applicare a più utenti. Vai a **Universal Resource Scheduling** > **Impostazioni** > **Modelli di ore lavorative** e modifica il record **Modello di lavoro predefinito**. Nel campo **Risorsa Modello**, selezionare un utente con le ore lavorative che si desidera applicare ad altre risorse. Vai a **Universal Resource Scheduling** > **Pianificazione** > **Risorse** > .**Risorse prenotabili attive**. Selezionare le risorsa che si desidera modificare e quindi selezionare **Imposta calendario**. Nell'elenco a discesa **Modello di lavoro**, selezionare il modello **Ore lavorative predefinite** o un altro modello con la risorsa corretta. Quando accedi alla scheda di pianificazione, potrai vedere che le ore lavorative delle risorse sono state aggiornate.
 
 > [!div class="mx-imgBorder"]
 > ![Schermata delle risorse prenotabili attive](media/sample-data-6.png)

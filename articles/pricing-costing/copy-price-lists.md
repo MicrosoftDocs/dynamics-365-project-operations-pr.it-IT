@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 91ee798a206ea5200780c8ebafc8f99cd9a3e219
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 67a69d521ac0a5632371138bd4fbb9dd00fe34ee
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078915"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181502"
 ---
 # <a name="copy-price-lists"></a>Copiare listini prezzi
 
@@ -26,12 +26,12 @@ Per fare una copia del listino prezzi, completa i seguenti passaggi.
 1. Apri il listino prezzi di cui vuoi fare una copia e seleziona **Copia**.
 2. Immetti le informazioni necessarie per copiare il listino prezzi. La tabella seguente mostra le considerazioni da tenere presenti quando si immettono le informazioni.
 
-| Campo | Pertinenza, scopo e indicazioni | Impatto downstream |
+| Campo | Descrizione | Impatto downstream |
 | --- | --- | --- |
 | Nome | Il nome del listino prezzi di origine con **-copia** aggiunto. | Il listino prezzi include questo valore in tutte le pagine dell'elenco e nelle opzioni a discesa. |
 | Contesto | Inserisci il contesto che desideri per il listino prezzi di destinazione. | Un listino prezzi che ha il contesto impostato su **Costo** viene utilizzato per cercare il prezzo per le stime dei costi e i costi effettivi. Un listino prezzi che ha il contesto impostato su **Vendite** viene utilizzato per cercare il prezzo per le stime delle vendite e le vendite effettive. Solo i listini prezzi che hanno il contesto impostato su **Vendite** possono essere collegati a un listino prezzi di progetto per un cliente, un'offerta o un contratto. |
-| Data di inizio | La data di inizio del periodo di validità del listino prezzi. | Insieme a **Data di fine** , questo campo viene utilizzato per determinare quale listino prezzi è applicabile per una determinata riga di stima o valore effettivo. |
-| Data di fine | La data di fine del periodo di validità del listino prezzi. | Insieme a **Data di inizio** , questo campo viene utilizzato per determinare quale listino prezzi è applicabile per una determinata riga di stima o valore effettivo. |
+| Data di inizio | La data di inizio del periodo di validità del listino prezzi. | Insieme a **Data di fine**, questo campo viene utilizzato per determinare quale listino prezzi è applicabile per una determinata riga di stima o valore effettivo. |
+| Data di fine | La data di fine del periodo di validità del listino prezzi. | Insieme a **Data di inizio**, questo campo viene utilizzato per determinare quale listino prezzi è applicabile per una determinata riga di stima o valore effettivo. |
 | Valuta | La valuta del listino prezzi di origine. Questo valore può essere modificato. | Quando viene modificato, tutte le righe di prezzo risultanti per manodopera, spese e articoli del catalogo prodotti vengono convertite nella valuta del listino prezzi di destinazione durante la copia. |
 | Unità di tempo | La valuta del listino prezzi di origine. Questo valore può essere modificato. | Quando viene modificato, tutte le righe di prezzo risultanti per articoli di manodopera vengono convertite nell'unità del listino prezzi di destinazione durante la copia. Viene utilizzata la conversione dall'impostazione dell'unità per l'unità di tempo del listino prezzi di origine e l'unità di tempo del listino prezzi di destinazione. |
 | Descrizione | Una descrizione del listino prezzi di origine con **-copia** aggiunto. Questo è un campo di testo e permette di inserire una descrizione su più righe del listino prezzi. | Questo campo è mostrato nelle visualizzazioni **associate** nel listino prezzi di varie entità che hanno relativi listini prezzi. |
@@ -40,6 +40,6 @@ Per fare una copia del listino prezzi, completa i seguenti passaggi.
 
 ## <a name="update-a-price-list-by-applying-a-mark-up-to-all-the-prices"></a>Aggiornare un listino prezzi applicando un ricarico a tutti i prezzi
 
-1. Nelle schede **Ruolo** , **Categoria** e **Voce di listino** di un listino prezzi puoi selezionare **Aggiorna prezzi** per applicare un ricarico a tutti i prezzi nella griglia secondaria. 
+1. Nelle schede **Ruolo**, **Categoria** e **Voce di listino** di un listino prezzi, è possibile selezionare **Aggiorna prezzi** per applicare un ricarico su tutti i prezzi nella griglia secondaria. 
 2. Nella pagina di dialogo che si apre, inserisci un ricarico. Puoi anche inserire una percentuale di aumento negativa per diminuire i prezzi di una determinata percentuale. 
 3. Seleziona **OK** nella pagina di dialogo e quindi verifica che i prezzi nella griglia secondaria riflettano le modifiche apportate.

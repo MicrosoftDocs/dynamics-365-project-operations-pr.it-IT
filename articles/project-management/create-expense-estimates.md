@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 2afe4ff2f84fc5426c409e6314da73b11a4de281
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 10872366453985561bda0c07e50cff7f5f6d333e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078798"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131708"
 ---
 # <a name="expense-estimates"></a>Stime di spesa
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione semplice: dalla transazione alla fatturazione proforma_
@@ -32,9 +32,9 @@ Completa i seguenti passaggi per visualizzare, aggiungere o eliminare una spesa 
 
 I seguenti attributi sono definiti per ciascuna voce di riga di spesa:
 
-- **Categoria** : i raggruppamenti comuni utilizzati per descrivere tutte le spese sostenute per un progetto.
-- **Data d'inizio** : data in cui si prevede di sostenere la spesa.
-- **Quantità** : il numero stimato di voci di spesa per una categoria specifica.
-- **Prezzo di costo unitario** : il prezzo unitario utilizzato per calcolare il costo della spesa.
-- **Prezzo di vendita unitario** : il prezzo unitario utilizzato per calcolare il prezzo di vendita della spesa.
+- **Categoria**: i raggruppamenti comuni utilizzati per descrivere tutte le spese sostenute per un progetto.
+- **Data d'inizio**: data in cui si prevede di sostenere la spesa.
+- **Quantità**: il numero stimato di voci di spesa per una categoria specifica.
+- **Prezzo di costo unitario**: il prezzo unitario utilizzato per calcolare il costo della spesa.
+- **Prezzo di vendita unitario**: il prezzo unitario utilizzato per calcolare il prezzo di vendita della spesa.
 

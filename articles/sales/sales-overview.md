@@ -1,29 +1,23 @@
 ---
-title: Panoramica dei processi di vendita
+title: Panoramica del processo di vendita
 description: In questo argomento vengono fornite informazioni sui processi di vendita di base.
 author: rumant
-manager: kfend
-ms.service: dynamics-365-customerservice
-ms.custom:
-- dyn365-projectservice
-ms.date: 09/23/2019
+manager: Annbe
+ms.date: 10/29/2020
 ms.topic: article
-ms.prod: ''
+ms.service: project-operations
+ms.reviewer: kfend
 ms.author: rumant
-audience: Admin
-search.audienceType:
-- admin
-- customizer
-- enduser
-search.app: ''
-ms.openlocfilehash: c70760748c5faa87f6738ab7e2ab593e2df49e41
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5da29d2959a6e49defa185630f45d280dba283c4
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079075"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177606"
 ---
-# <a name="sales-processes-overview"></a>Panoramica dei processi di vendita
+# <a name="sales-process-overview"></a>Panoramica del processo di vendita
+
+_**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
 I processi di vendita utilizzati in un'organizzazione basata su progetto differiscono dai processi di vendita utilizzati in un'organizzazione basata su prodotto. Questo perché i cicli di vendita per le organizzazioni basate su progetto sono più lunghi e richiedono tecniche di stima personalizzate per analizzare e creare offerte per ogni transazione. Dynamics 365 Project Operations utilizza alcune delle seguenti funzionalità utilizzate in un processo di vendita:
 
@@ -56,7 +50,7 @@ Ad esempio, la tua azienda potrebbe includere le sei fasi seguenti nel processo 
  
 La tua organizzazione potrebbe utilizzare entità differenti per rappresentare la stessa transazione durante l'evoluzione della stessa. All'inizio del processo di vendita, una transazione è rappresentata dall'entità Opportunità. Con il passare del tempo e quando emergono nuovi dettagli, potresti utilizzare stime generali per creare una o più offerte. Se una di queste offerte viene esaminata dalle parti interessate interne e dei clienti, l'entità Offerta rappresenta la transazione. Dopo l'accettazione dell'offerta da parte del cliente, un contratto di progetto o una descrizione dei lavori rappresenta la transazione. Per supportare questo comportamento, i processi aziendali sono strutturati di modo che ogni fase del processo sia collegata a una tabella di database differente.
 
-La fase **Imposta come qualificato** del processo di vendita può essere supportata da un'entità Opportunità. Le fasi **Stima** e **Verifica interna** possono essere supportate da un'entità Offerta. Le fasi **Contratto** , **Consegna** e **Chiusura** possono essere supportate da un'entità Contratto di progetto.
+La fase **Imposta come qualificato** del processo di vendita può essere supportata da un'entità Opportunità. Le fasi **Stima** e **Verifica interna** possono essere supportate da un'entità Offerta. Le fasi **Contratto**, **Consegna** e **Chiusura** possono essere supportate da un'entità Contratto di progetto.
 
 Durante lo spostamento delle transazioni da una fase all'altra, ti viene richiesto di creare un record di entità appropriato per guidarti durante il processo. Le fasi possono essere condizionali. Ad esempio, se richiedi una verifica interna di un'offerta solo se l'offerta utilizza un listino prezzi personalizzato, puoi configurare tale condizione nella fase appropriata del processo aziendale. La fase **Verifica interna** viene quindi visualizzata solo per le offerte che utilizzano un listino prezzi personalizzato. Per tutte le altre transazioni e offerte, la fase **Stima** è seguita dalla fase **Contratto**.
 

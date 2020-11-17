@@ -5,15 +5,15 @@ author: sigitac
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 32031742b1a9580b9ebdbaf6952a998733be5e8f
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 47bb5671c7b80c0e96f3f65e9c4d25f6da8184a5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078790"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131978"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Configurare la contabilità per i progetti fatturabili
 
@@ -21,8 +21,8 @@ _**Si applica a:** Project Operations per scenari basati su risorse/materiali no
 
 Dynamics 365 Project Operations supporta varie opzioni di contabilità per progetti fatturabili che includono transazioni di tempo, materiale e prezzo fisso.
 
-- **Transazioni temporali e materiali** : queste transazioni vengono fatturate man mano che il lavoro procede in base al consumo di ore, spese, articoli o commissioni sul progetto. Questi costi di transazione possono essere associati ai ricavi di ciascuna transazione e il progetto viene fatturato man mano che il lavoro procede. I ricavi del progetto possono inoltre essere maturati anche nel momento in cui si verifica la transazione. Durante la fatturazione, i ricavi vengono riconosciuti e, se applicabile, i ratei attivi vengono stornati.
-- **Transazioni a prezzo fisso** : queste transazioni vengono fatturate in base a un programma di fatturazione basato sul contratto di progetto. I ricavi per transazioni a prezzo fisso possono essere riconosciuti alla fatturazione o calcolati e registrati periodicamente, in base ai metodi **Contratto completato** o **Percentuale completata**.
+- **Transazioni temporali e materiali**: queste transazioni vengono fatturate man mano che il lavoro procede in base al consumo di ore, spese, articoli o commissioni sul progetto. Questi costi di transazione possono essere associati ai ricavi di ciascuna transazione e il progetto viene fatturato man mano che il lavoro procede. I ricavi del progetto possono inoltre essere maturati anche nel momento in cui si verifica la transazione. Durante la fatturazione, i ricavi vengono riconosciuti e, se applicabile, i ratei attivi vengono stornati.
+- **Transazioni a prezzo fisso**: queste transazioni vengono fatturate in base a un programma di fatturazione basato sul contratto di progetto. I ricavi per transazioni a prezzo fisso possono essere riconosciuti alla fatturazione o calcolati e registrati periodicamente, in base ai metodi **Contratto completato** o **Percentuale completata**.
 
 Un progetto è considerato fatturabile quando è associato a una o più voci di contratto. Una voce di contratto di progetto definisce autonomamente il metodo di fatturazione e i tipi di transazione consentiti.
 
@@ -42,50 +42,50 @@ Completa i seguenti passaggi per creare un nuovo profilo di costi e ricavi del p
 
 1. Vai a **Gestione progetti e contabilità** > **Configura** > **Registrazione** > **Profili di costi e ricavi di progetto**. 
 2. Seleziona **Nuovo** per creare un nuovo profilo di costi e ricavi di progetto.
-3. Nel campo **Nome** , immetti il nome e una breve descrizione del profilo.
-4. Nel campo **Metodo di fatturazione** , seleziona **Tempistica e materiali** o **Prezzo fisso**.
+3. Nel campo **Nome**, immetti il nome e una breve descrizione del profilo.
+4. Nel campo **Metodo di fatturazione**, seleziona **Tempistica e materiali** o **Prezzo fisso**.
 5. Espandi la Scheda dettaglio **Contabilità generale**. I campi di questa scheda definiscono i principi contabili utilizzati quando le transazioni di progetto vengono inserite nel giornale di registrazioneil giornale di integrazione di Project Operations e quindi fatturate tramite la proposta di fattura progetto.
-6. Seleziona le informazioni appropriate nei seguenti campi della Shceda dettaglio **Contabilità generale** :
+6. Seleziona le informazioni appropriate nei seguenti campi della Shceda dettaglio **Contabilità generale**:
 
-    - **Registra costi: ora** :
+    - **Registra costi: ora**:
 
-       - *Nessun libro mastro* : il costo per le transazioni temporali non verrà registrato nel libro mastro quando viene registrato il giornale di registrazione delle integrazioni Project Operations. Tuttavia, il contabile può registrare i costi utilizzando la funzione Registra costi in un secondo momento.
-       - **Saldo** : il costo per le transazioni a tempo verrà addebitato al tipo di conto CoGe, *WIP - Valore di costo* e accreditato su *Allocazione retribuzioni conto* in Impostazioni registrazione contabile. Il contabile utilizzerà la funzione Registra costi per spostare periodicamente questo costo da un conto Saldo a un conto Profitti e perdite.
-       - **Profitti e perdite** : durante la registrazione del giornale di integrazione di Project Operations, il costo della transazione temporale verrà addebitato al tipo di conto CoGe *Costo* e accreditato su *Allocazione retribuzioni conto* definito nella scheda **Costo** della pagina **Impostazioni registrazione contabile** ( **Gestione del progetto e contabilità** \> **Configura** \> **Registrazione** \> **Impostazione registrazione contabile** ). Questa è l'impostazione più comune per le transazioni di tempistica e materiali.
-        - *Mai in contabilità generale* : il costo per le transazioni orarie non verrà mai registrato nella contabilità generale.
+       - *Nessun libro mastro*: il costo per le transazioni temporali non verrà registrato nel libro mastro quando viene registrato il giornale di registrazione delle integrazioni Project Operations. Tuttavia, il contabile può registrare i costi utilizzando la funzione Registra costi in un secondo momento.
+       - **Saldo**: il costo per le transazioni a tempo verrà addebitato al tipo di conto CoGe,*WIP - Valore di costo* e accreditato su *Allocazione retribuzioni conto* in Impostazioni registrazione contabile. Il contabile utilizzerà la funzione Registra costi per spostare periodicamente questo costo da un conto Saldo a un conto Profitti e perdite.
+       - **Profitti e perdite**: durante la registrazione del giornale di integrazione di Project Operations, il costo della transazione temporale verrà addebitato al tipo di conto CoGe *Costo* e accreditato su *Allocazione retribuzioni conto* definito nella scheda **Costo** della pagina **Impostazioni registrazione contabile** (**Gestione del progetto e contabilità** \> **Configura** \> **Registrazione** \> **Impostazione registrazione contabile**). Questa è l'impostazione più comune per le transazioni di tempistica e materiali.
+        - *Mai in contabilità generale*: il costo per le transazioni orarie non verrà mai registrato nella contabilità generale.
 
-    - **Registra costi – spesa** :
+    - **Registra costi – spesa**:
 
-         - **Saldo** : durante la registrazione del giornale di integrazione di Project Operations, il costo della transazione di spesa verrà addebitato al tipo di conto CoGe *WIP - Valore di costo* come definito nella scheda **Costo** della pagina **Impostazione registrazione contabile** e accreditato sul conto di contropartita nella riga del giornale di registrazione. I conti di contropartita predefiniti per le spese sono definiti in **Gestione del progetto e contabilità** > **Configura** \> **Registrazione** \> **Conto di contropartita predefinito per le spese**. Il contabile utilizzerà la funzione **Registra costi** per spostare periodicamente questo costo da un conto Saldo a un conto Profitti e perdite.
-        - **Profitti e perdite** : durante la registrazione del giornale di integrazione di Project Operations, il costo della transazione di spesa verrà addebitato al tipo di conto CoGe *Costo* come definito nella scheda **Costo** della pagina **Impostazione registrazione contabile** e accreditato sul conto di contropartita nella riga del giornale di registrazione. I conti di contropartita predefiniti per le spese sono definiti in **Gestione del progetto e contabilità** \> **Configura** \> **Registrazione** \> **Conto di contropartita predefinito per le spese**.
+         - **Saldo**: durante la registrazione del giornale di integrazione di Project Operations, il costo della transazione di spesa verrà addebitato al tipo di conto CoGe *WIP - Valore di costo* come definito nella scheda **Costo** della pagina **Impostazione registrazione contabile** e accreditato sul conto di contropartita nella riga del giornale di registrazione. I conti di contropartita predefiniti per le spese sono definiti in **Gestione del progetto e contabilità** > **Configura** \> **Registrazione** \> **Conto di contropartita predefinito per le spese**. Il contabile utilizzerà la funzione **Registra costi** per spostare periodicamente questo costo da un conto Saldo a un conto Profitti e perdite.
+        - **Profitti e perdite**: durante la registrazione del giornale di integrazione di Project Operations, il costo della transazione di spesa verrà addebitato al tipo di conto CoGe *Costo* come definito nella scheda **Costo** della pagina **Impostazione registrazione contabile** e accreditato sul conto di contropartita nella riga del giornale di registrazione. I conti di contropartita predefiniti per le spese sono definiti in **Gestione del progetto e contabilità** \> **Configura** \> **Registrazione** \> **Conto di contropartita predefinito per le spese**.
        
-    - **Fatturazione acconti** :
+    - **Fatturazione acconti**:
 
-        - **Saldo** : durante la registrazione della proposta di fattura progetto, una transazione in acconto (passaggio fondamentale di fatturazione) verrà accreditata al tipo di conto CoGe *WIP fatturato - in acconto* come definito nella scheda **Ricavi** della pagina **Impostazione registrazione contabile** e addebitato sul conto del saldo del cliente.
-         - **Profitti e perdite** : durante la registrazione della proposta di fattura progetto, una transazione in acconto (passaggio fondamentale di fatturazione) verrà accreditata al tipo di conto CoGe *Ricavi fatturati - in acconto* come definito nella scheda **Ricavi** della pagina **Impostazione registrazione contabile** e addebitato sul conto del saldo del cliente. I conti del saldo del cliente sono definiti in **Contabilità clienti** \> **Configura** \> **Profili di registrazione dei clienti**.
+        - **Saldo**: durante la registrazione della proposta di fattura progetto, una transazione in acconto (passaggio fondamentale di fatturazione) verrà accreditata al tipo di conto CoGe *WIP fatturato - in acconto* come definito nella scheda **Ricavi** della pagina **Impostazione registrazione contabile** e addebitato sul conto del saldo del cliente.
+         - **Profitti e perdite**: durante la registrazione della proposta di fattura progetto, una transazione in acconto (passaggio fondamentale di fatturazione) verrà accreditata al tipo di conto CoGe *Ricavi fatturati - in acconto* come definito nella scheda **Ricavi** della pagina **Impostazione registrazione contabile** e addebitato sul conto del saldo del cliente. I conti del saldo del cliente sono definiti in **Contabilità clienti** \> **Configura** \> **Profili di registrazione dei clienti**.
 
-   Quando si definiscono i profili di registrazione per i metodi di fatturazione tempistica e materiali, è possibile maturare ricavi per tipo di transazione (ora, spesa e commissione). Se l'opzione **Accumula ricavi** è impostata su **Sì** , le transazioni di vendita non fatturate nel giornale di registrazione dell'integrazione di Project Operations verranno registrate nella contabilità generale. Il valore di vendita viene addebitato sul conto **WIP - conto del valore delle vendite** e accreditato sul conto **Ricavi maturati - valore delle vendite** che è stato configurato nella pagina **Impostazione registrazione contabile** , nella scheda **Ricavi**. 
+   Quando si definiscono i profili di registrazione per i metodi di fatturazione tempistica e materiali, è possibile maturare ricavi per tipo di transazione (ora, spesa e commissione). Se l'opzione **Accumula ricavi** è impostata su **Sì**, le transazioni di vendita non fatturate nel giornale di registrazione dell'integrazione di Project Operations verranno registrate nella contabilità generale. Il valore di vendita viene addebitato sul conto **WIP - conto del valore delle vendite** e accreditato sul conto **Ricavi maturati - valore delle vendite** che è stato configurato nella pagina **Impostazione registrazione contabile**, nella scheda **Ricavi**. 
   
   > [!NOTE]
   > L'opzione **Accumula ricavi** è disponibile solo quando il rispettivo tipo di transazione **Costo** viene registrato nel conto profitti e perdite.
     
 7. Espandi la Scheda dettaglio **Stima**. I campi di questa scheda definiscono le impostazioni di calcolo per le stime dei ricavi a prezzo fisso. I campi di questa scheda si applicano solo ai profili di costi e ricavi del progetto con un metodo di fatturazione di tipo **Prezzo fisso**.
-8. Seleziona le informazioni appropriate nei seguenti campi della Shceda dettaglio **Stima** :
+8. Seleziona le informazioni appropriate nei seguenti campi della Shceda dettaglio **Stima**:
 
-    - **Principio utilizzato per i calcoli di completamento del progetto** :
+    - **Principio utilizzato per i calcoli di completamento del progetto**:
 
         - **Contratto completato** : l'abbinamento dei costi e il riconoscimento dei ricavi non si verificano fino alla fine del progetto. I costi si riflettono come WIP nel saldo fino al completamento del progetto.
-        - **Percentuale completata** : i ricavi maturati vengono calcolati e registrati nel libro mastro ogni periodo in base alla percentuale di completamento del progetto. Sono disponibili più metodi per calcolare la percentuale di completamento. Questi metodi possono essere automatici in base alla configurazione o manuali.
-        - **Nessun WIP** : questa configurazione viene utilizzata per progetti a prezzo fisso con un breve arco di tempo e in cui la fattura e i costi si verificano nello stesso periodo. In questo caso, il valore del campo **Fatturazione acconti** nella Scheda dettaglio **Contabilità generale** viene impostato automaticamente su **Profitti e perdite** per garantire che i ricavi siano riconosciuti al momento della fatturazione. Il processo di stima dei ricavi non verrà utilizzato per questo profilo di costi e ricavi del progetto.
+        - **Percentuale completata**: i ricavi maturati vengono calcolati e registrati nel libro mastro ogni periodo in base alla percentuale di completamento del progetto. Sono disponibili più metodi per calcolare la percentuale di completamento. Questi metodi possono essere automatici in base alla configurazione o manuali.
+        - **Nessun WIP**: questa configurazione viene utilizzata per progetti a prezzo fisso con un breve arco di tempo e in cui la fattura e i costi si verificano nello stesso periodo. In questo caso, il valore del campo **Fatturazione acconti** nella Scheda dettaglio **Contabilità generale** viene impostato automaticamente su **Profitti e perdite** per garantire che i ricavi siano riconosciuti al momento della fatturazione. Il processo di stima dei ricavi non verrà utilizzato per questo profilo di costi e ricavi del progetto.
 
-    - **Principio di corrispondenza** : questo campo determina il modo in cui il valore di vendita calcolato (ricavo maturato) verrà registrato nel libro mastro.
+    - **Principio di corrispondenza**: questo campo determina il modo in cui il valore di vendita calcolato (ricavo maturato) verrà registrato nel libro mastro.
 
-        - Utilizzando il principio **Valore delle vendite** , il sistema calcolerà il valore delle vendite abbinando costi e ricavi e quindi registrandolo come un unico importo.
-        - Utilizzando il principio **Produzione e profitto** , il sistema suddividerà il valore delle vendite in costi realizzati e profitto calcolato. Questi vengono registrati separatamente.
+        - Utilizzando il principio **Valore delle vendite**, il sistema calcolerà il valore delle vendite abbinando costi e ricavi e quindi registrandolo come un unico importo.
+        - Utilizzando il principio **Produzione e profitto**, il sistema suddividerà il valore delle vendite in costi realizzati e profitto calcolato. Questi vengono registrati separatamente.
 
-    - **Modelli di costo** : consenti il reggruppamento delle transazioni del progetto in base al tipo di transazione e alla categoria di progetto e definisci le regole di calcolo della percentuale di completamento per questi gruppi.
-    - **Codici periodo** : definisci la frequenza con cui vengono calcolate le stime dei ricavi per un dato profilo di costi e ricavi del progetto.
-    - **Categorie per stima** : utilizzato per la registrazione del valore di vendita (ricavo maturato) nelle transazioni di progetto. Innanzitutto, configura la categoria di progetto dedicata per un tipo di transazione **Commissione** e quindi imposta il flag, **Stima** per questa categoria di progetto. Successivamente, a seconda del principio di corrispondenza selezionato, scegli questa categoria di progetto nel valore **Vendite** o il campo **Profitto** nel profilo costi e ricavi del progetto.
+    - **Modelli di costo**: consenti il reggruppamento delle transazioni del progetto in base al tipo di transazione e alla categoria di progetto e definisci le regole di calcolo della percentuale di completamento per questi gruppi.
+    - **Codici periodo**: definisci la frequenza con cui vengono calcolate le stime dei ricavi per un dato profilo di costi e ricavi del progetto.
+    - **Categorie per stima**: utilizzato per la registrazione del valore di vendita (ricavo maturato) nelle transazioni di progetto. Innanzitutto, configura la categoria di progetto dedicata per un tipo di transazione **Commissione** e quindi imposta il flag, **Stima** per questa categoria di progetto. Successivamente, a seconda del principio di corrispondenza selezionato, scegli questa categoria di progetto nel valore **Vendite** o il campo **Profitto** nel profilo costi e ricavi del progetto.
 
 ### <a name="sample-configurations-for-project-cost-and-revenue-profiles"></a>Configurazioni di esempio per i profili di costi e ricavi del progetto
 

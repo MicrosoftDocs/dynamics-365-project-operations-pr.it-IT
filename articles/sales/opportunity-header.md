@@ -5,17 +5,17 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c4e91c1a869347ac1182db2de1ab9244309eb856
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 1344e21d58fbc28198468146f9cea9cf00572d7d
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078751"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181232"
 ---
-# <a name="opportunity-headersummary"></a>Riepilogo/intestazione opportunità
+# <a name="opportunity-settings"></a>Impostazioni delle opportunità
 
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati_
 
@@ -26,9 +26,9 @@ Le opportunità basate su progetto in Dynamics 365 Project Operations sono esten
 
 La tabella seguente include i campi in un'opportunità basata su progetto che sono univoci per Project Operations o presentano alcune importanti modifiche nel comportamento rispetto alle opportunità in Sales.
 
-| **Campo** | **Luogo** | **Pertinenza, scopo e indicazioni** | **Impatto downstream** |
+| **Campo** | **Luogo** | **Descrizione** | **Impatto downstream** |
 | --- | --- | --- | --- |
-| Tipo | Scheda Generale (nascosta) | Questo campo di set di opzioni include le seguenti opzioni:</br>- Basato su lavoro (disponibile solo con Project Operations)</br>- Basato su articolo (disponibile solo quando sono installati Project Operations e Sales)</br>- Basato su manutenzione di servizio (disponibile quando è installato Field Service) | Quando si utilizza Project Operations, questo valore di campo viene impostato automaticamente su **Basato su lavoro** che classifica l'opportunità come basata su progetto. Un'opportunità deve essere basata su progetto per abilitare tutte le estensioni e funzionalità specifiche del progetto nel processo di vendita downstream per questa transazione. |
+| Digita | Scheda Generale (nascosta) | Questo campo di set di opzioni include le seguenti opzioni:</br>- Basato su lavoro (disponibile solo con Project Operations)</br>- Basato su articolo (disponibile solo quando sono installati Project Operations e Sales)</br>- Basato su manutenzione di servizio (disponibile quando è installato Field Service) | Quando si utilizza Project Operations, questo valore di campo viene impostato automaticamente su **Basato su lavoro** che classifica l'opportunità come basata su progetto. Un'opportunità deve essere basata su progetto per abilitare tutte le estensioni e funzionalità specifiche del progetto nel processo di vendita downstream per questa transazione. |
 | Società proprietaria | Scheda Generale | Questa è l'azienda o la persona giuridica che consegnerà il progetto al cliente. | Queste informazioni del campo verranno copiate nel campo corrispondente dell'offerta di progetto creata da questa opportunità. |
 | Contatto | Scheda Generale | Riferimento al contatto primario del cliente per questa transazione. | |
 | Conto | Scheda Generale | Riferimento alla società o al record di account del cliente. | |

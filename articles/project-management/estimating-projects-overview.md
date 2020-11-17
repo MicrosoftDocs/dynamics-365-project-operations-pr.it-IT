@@ -5,15 +5,15 @@ author: ruhercul
 manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 8e7ee4888a907b9d8c3ce06c1597f6b05be84477
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d35be82563515adbba2c22402a751ed3daca8f83
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078765"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131573"
 ---
 # <a name="estimate-projects-overview"></a>Panoramica dei progetti di stima
 
@@ -74,8 +74,8 @@ Se hai aggiunto un campo personalizzato per i dettagli di riga di offerta e vuoi
 2. Seleziona **Cerca** e cerca il plug-in da aggiornare.
 3. Seleziona il plug-in e quindi, nella pagina principale, fai clic su **Seleziona**.
 4. Seleziona il passaggio del plug-in da aggiornare, fai clic con il pulsante destro del mouse e quindi scegli **Aggiorna**.
-5. Nella finestra di dialogo **Aggiorna passaggio esistente** , nel campo **Attributi filtro** , seleziona il pulsante con i puntini di sospensione ( **...** ):
-6. Nella finestra di dialogo **Seleziona attributi** , seleziona le caselle di controllo relative agli attributi personalizzati.
+5. Nella finestra di dialogo **Aggiorna passaggio esistente**, nel campo **Attributi filtro**, seleziona il pulsante con i puntini di sospensione (**...**):
+6. Nella finestra di dialogo **Seleziona attributi**, seleziona le caselle di controllo relative agli attributi personalizzati.
 7. Seleziona **OK** per chiudere la finestra di dialogo e quindi seleziona **Aggiorna passaggio**.
 8. Ripeti i passaggi da 1 a 7 per il secondo plug-in.
 9. Chiudi **PluginRegistrationTool**.

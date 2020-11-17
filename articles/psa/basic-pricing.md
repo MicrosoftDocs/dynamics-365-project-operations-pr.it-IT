@@ -3,7 +3,7 @@ title: Determinazione dei prezzi di progetto
 description: In questo argomento vengono fornite informazioni sulla funzionalità di determinazione dei prezzi in Dynamics 365 Project Service Automation.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/11/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b319f9be9fd72ac99ce6012b6baffde812e3077d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 88b791a1eb90d2aad67adba69169eab2c49c1318
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079073"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120773"
 ---
 # <a name="project-pricing"></a>Determinazione dei prezzi di progetto 
 
@@ -56,7 +56,7 @@ Il termine *ruolo risorsa* fa riferimento a un insieme di competenze, qualifiche
 
 Il tempo delle risorse umane viene in genere stimato in base al ruolo di una risorsa in uno specifico progetto. Per il tempo delle risorse umane, PSA supporta i costi e la fatturazione basati sul ruolo risorsa. Il prezzo del tempo può essere in qualsiasi unità dell'unità di vendita **Tempo**.
 
-L'unità di vendita **Tempo** viene creata all'installazione di PSA. L'unità predefinita è **Ora**. Non puoi eliminare, rinominare, o modificare gli attributi dell'unità di vendita **Tempo** o dell'unità **Ora**. Puoi tuttavia aggiungere altre unità all''unità di vendita **Tempo**. Se cerchi di eliminare l'unità di vendita **Tempo** o l'unità **Ora** , è possibile che si verifichino errori nelle logica di business di PSA.
+L'unità di vendita **Tempo** viene creata all'installazione di PSA. L'unità predefinita è **Ora**. Non puoi eliminare, rinominare, o modificare gli attributi dell'unità di vendita **Tempo** o dell'unità **Ora**. Puoi tuttavia aggiungere altre unità all''unità di vendita **Tempo**. Se cerchi di eliminare l'unità di vendita **Tempo** o l'unità **Ora**, è possibile che si verifichino errori nelle logica di business di PSA.
 
 > ![Configurare prezzi per ruolo](media/basic-guide-13.png)
  
@@ -110,7 +110,7 @@ In PSA, puoi creare sostituzioni specifiche a transazioni per i prezzi seleziona
 
 Per impostazione predefinita, un contratto di progetto ottiene sempre una copia del listino prezzi di vendita master anziché un collegamento diretto allo stesso. Questo comportamento assicura che gli accordi sui prezzi stipulati con un cliente per una descrizione dei lavori non cambiano se il listino prezzi master cambia.
 
-Tuttavia, in un'offerta, puoi utilizzare un listino prezzi master. In alternativa, puoi copiare un listino prezzi master e modificarlo per creare un listino prezzi personalizzato applicabile solo a quell'offerta. Per creare un nuovo listino prezzi specifico a un'offerta, nella pagina **Offerta** , seleziona **Crea determinazione dei prezzi personalizzata**. Puoi accedere al listino prezzi di progetto specifico della transazione solo dall'offerta. 
+Tuttavia, in un'offerta, puoi utilizzare un listino prezzi master. In alternativa, puoi copiare un listino prezzi master e modificarlo per creare un listino prezzi personalizzato applicabile solo a quell'offerta. Per creare un nuovo listino prezzi specifico a un'offerta, nella pagina **Offerta**, seleziona **Crea determinazione dei prezzi personalizzata**. Puoi accedere al listino prezzi di progetto specifico della transazione solo dall'offerta. 
 
 Quando crei un listino prezzi di progetto personalizzato, solo i componenti di progetto del listino prezzi vengono copiati. In altre parole un nuovo listino prezzi creato come copia del listino prezzi di progetto esistente viene associato all'offerta e questo nuovo listino prezzi include solo i prezzi per ruolo e i prezzi per categoria di transazione correlati.
 

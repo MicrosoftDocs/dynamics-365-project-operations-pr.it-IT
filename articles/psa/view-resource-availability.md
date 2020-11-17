@@ -3,7 +3,7 @@ title: Visualizzare la disponibilità delle risorse
 description: Come visualizzare la disponibilità delle risorse in Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 18f2287eeba5df9dae150c213e2a7c88de8c7276
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 65798e1b0d675b86a73fcd6a0426407d6fe86d0b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078950"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124958"
 ---
 # <a name="view-resource-availability-project-service"></a>Visualizzare la disponibilità delle risorse (Project Service)
 
@@ -38,7 +38,7 @@ Puoi verificare la disponibilità di una risorsa per ottenere una visione global
 
 1. Vai a **Project Service > Disponibilità risorsa**.  
 
-    In questo diagramma viene illustrata una visualizzazione Calendario di tutte le risorse e le relative disponibilità. Seleziona una visualizzazione oppure ordinamento dalla parte superiore dello schermo. Puoi inoltre scegliere se visualizzare la disponibilità per il **Giorno** , la **Settimana** o il **Mese** , quindi utilizzare le frecce per visualizzare il periodo di tempo precedente o successivo. Utilizza la casella di ricerca per trovare una risorsa specifica.  
+    In questo diagramma viene illustrata una visualizzazione Calendario di tutte le risorse e le relative disponibilità. Seleziona una visualizzazione oppure ordinamento dalla parte superiore dello schermo. Puoi inoltre scegliere se visualizzare la disponibilità per il **Giorno**, la **Settimana** o il **Mese**, quindi utilizzare le frecce per visualizzare il periodo di tempo precedente o successivo. Utilizza la casella di ricerca per trovare una risorsa specifica.  
 
 2. Fai clic su **Opzioni** per modificare le visualizzazioni. Ad esempio, puoi mostrare una legenda con la combinazione di colori per i tipi diversi di prenotazioni, oppure puoi scegliere solo un tipo specifico di prenotazione (ad esempio la prenotazione definitiva o provvisoria).  
 

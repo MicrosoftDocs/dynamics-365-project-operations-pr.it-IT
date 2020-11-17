@@ -3,7 +3,7 @@ title: Gestire richieste risorse
 description: Come gestire richieste di risorse in Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 49a2d2102246126f6edc9cb36a072583c566c95a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11d7e603755c9339c2d43b79ef65c27e3bb6e6fd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078875"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129008"
 ---
 # <a name="manage-resource-requests-project-service"></a>Gestire le richieste di risorse (Project Service)
 
@@ -37,7 +37,7 @@ I responsabili di gestione account e di progetto richiedono regolarmente risorse
   
     Esegui una delle operazioni seguenti per ottimizzare la ricerca:  
   
-   -   Seleziona una visualizzazione oppure ordinamento dalla parte superiore dello schermo. Puoi inoltre scegliere se visualizzare la disponibilità per il **Giorno** , la **Settimana** o il **Mese** , quindi utilizzare le frecce per visualizzare il periodo di tempo precedente o successivo. Utilizza la casella di ricerca per trovare una risorsa specifica.  
+   -   Seleziona una visualizzazione oppure ordinamento dalla parte superiore dello schermo. Puoi inoltre scegliere se visualizzare la disponibilità per il **Giorno**, la **Settimana** o il **Mese**, quindi utilizzare le frecce per visualizzare il periodo di tempo precedente o successivo. Utilizza la casella di ricerca per trovare una risorsa specifica.  
   
    -   Fai clic su **Opzioni** per modificare le visualizzazioni. Ad esempio, puoi mostrare una legenda con la combinazione di colori per i tipi diversi di prenotazioni, oppure puoi scegliere solo un tipo specifico di prenotazione (ad esempio la prenotazione definitiva o provvisoria).  
   

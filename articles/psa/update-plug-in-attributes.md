@@ -6,7 +6,7 @@ manager: kfend
 ms.custom: ''
 ms.date: 11/19/2018
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f215555dd7b29444e00499c0e731624e51057250
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c42e5fda79d51430f4dedf46037e11c86a38c474
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078959"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121853"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>Aggiornare attributi di plug-in per includere nuove dimensioni di determinazione dei prezzi
 
@@ -50,7 +50,7 @@ La procedura seguente consente di eseguire la registrazione dei plug-in.
 
  ![Screenshot del plug-in da aggiornare](media/PRT-2.png)
  
-5. Nella finestra di aggiornamento, fai clic sui puntini di sospensione ( **...** ) negli attributi di filtro.
+5. Nella finestra di aggiornamento, fai clic sui puntini di sospensione (**...**) negli attributi di filtro.
 
  ![Screenshot delle informazioni di configurazione di Aggiorna passaggio esistente](media/PRT-3.png)
  

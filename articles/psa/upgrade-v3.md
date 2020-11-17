@@ -2,7 +2,7 @@
 title: Considerazioni sull'aggiornamento - Da Microsoft Dynamics 365 Project Service Automation versione 2.x o 1.x alla versione 3
 description: In questo argomento vengono fornite informazioni sulle considerazioni che devi eseguire quando esegui l'aggiornamento da Project Service Automation versione 2.x o 1.x alla versione 3.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/13/2018
@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 19d6d312c7cedd2d7b9b5649452b85dd24fae761
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c51726f71cfd0d4be98982d6a02268d64a70b91
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078956"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121718"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Considerazioni sull'aggiornamento - Da PSA versione 2.x o 1.x alla versione 3
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
@@ -31,11 +31,11 @@ ms.locfileid: "4078956"
 Dynamics 365 Project Service Automation e Dynamics 365 Field Service utilizzano la soluzione URS (Universal Resourcing Scheduling) per la pianificazione delle risorse. Se nell'istanza sono presenti sia Project Service Automation che Field Service, è necessario pianificare l'aggiornamento di entrambe le soluzioni all'ultima versione (versione 3.x per Project Service Automation, versione 8.x per Field Service). L'aggiornamento di Project Service Automation o Field Service installerà l'ultima versione di URS, di conseguenza un comportamento incoerente è possibile se entrambe le soluzioni Project Service Automation e Field Service nella stessa istanza non vengono aggiornate all'ultima versione.
 
 ## <a name="resource-assignments"></a>Assegnazioni di risorse
-In Project Service Automation versione 2 e versione 1, le assegnazioni di attività erano archiviate come attività figlio (dette anche attività riga) nell' **entità Attività** e indirettamente correlate all'entità **Assegnazione risorse**. L'attività riga era visibile nella finestra popup di assegnazione nella Struttura di suddivisione del lavoro.
+In Project Service Automation versione 2 e versione 1, le assegnazioni di attività erano archiviate come attività figlio (dette anche attività riga) nell'**entità Attività** e indirettamente correlate all'entità **Assegnazione risorse**. L'attività riga era visibile nella finestra popup di assegnazione nella Struttura di suddivisione del lavoro.
 
 ![Attività riga nella Struttura di suddivisione del lavoro in Project Service Automation versione 2 e versione 1](media/upgrade-line-task-01.png)
 
-Nella versione 3 di Project Service Automation, lo schema sottostante di assegnazione di risorse prenotabili ad attività è stato modificato. L'attività riga è stata deprecata ed esiste una relazione diretta 1:1 tra l'attività nell' **entità Attività** e il membro del team nell'entità **Assegnazione risorse**. Le attività assegnate a un membro del team di progetto ora vengono archiviate direttamente nell'entità Assegnazione risorse.  
+Nella versione 3 di Project Service Automation, lo schema sottostante di assegnazione di risorse prenotabili ad attività è stato modificato. L'attività riga è stata deprecata ed esiste una relazione diretta 1:1 tra l'attività nell'**entità Attività** e il membro del team nell'entità **Assegnazione risorse**. Le attività assegnate a un membro del team di progetto ora vengono archiviate direttamente nell'entità Assegnazione risorse.  
 
 Queste modifiche hanno un impatto sull'aggiornamento di qualsiasi progetto esistente che ha assegnazioni di risorse per le risorse prenotabili denominate e le risorse generiche in un team di progetto. In questo argomento vengono fornite informazioni che devono essere prese in considerazione per i progetti durante l'aggiornamento alla versione 3. 
 
@@ -77,7 +77,7 @@ Nella versione 2 e nella versione 1, i progetti con risorse generiche possono av
 
 Prima di iniziare l'aggiornamento, è consigliabile rigenerare il team per ogni progetto con attività assegnate a risorse generiche o per il quale non è ancora stato eseguita la procedura di generazione di team.
 
-Per le attività assegnate a membri del team generici generati con **Genera team** , l'aggiornamento manterrà la risorsa generica nel team e lascerà l'assegnazione a quel membro del team generico. È consigliabile generare il requisito di risorsa per il membro del team generico dopo l'aggiornamento ma prima di prenotare o inviare una richiesta di risorsa. Ciò preserverà qualsiasi assegnazione di unità organizzativa per i membri del team generici che è differente dall'unità organizzativa di contratto del progetto.
+Per le attività assegnate a membri del team generici generati con **Genera team**, l'aggiornamento manterrà la risorsa generica nel team e lascerà l'assegnazione a quel membro del team generico. È consigliabile generare il requisito di risorsa per il membro del team generico dopo l'aggiornamento ma prima di prenotare o inviare una richiesta di risorsa. Ciò preserverà qualsiasi assegnazione di unità organizzativa per i membri del team generici che è differente dall'unità organizzativa di contratto del progetto.
 
 Ad esempio, nel progetto Progetto Z, l'unità organizzativa di contratto è Contoso US. Nel piano di progetto, alle attività di test nella fase di implementazione è stato assegnato il ruolo Consulente Tecnico e l'unità organizzativa assegnata è Contoso India.
 

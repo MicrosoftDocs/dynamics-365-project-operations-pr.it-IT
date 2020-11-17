@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 7116659c646b323667e3c92cb3f6de99184f5ae6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 30633a7445baaf99af5be5c88e35b24824022b93
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078973"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121268"
 ---
 # <a name="products"></a>Prodotti
 
@@ -33,27 +33,27 @@ I prodotti sono le spina dorsale dell'azienda. Il catalogo prodotti in Dynamics 
 ## <a name="add-a-product"></a>Aggiungere un prodotto
 
 1.  Assicurati di disporre del ruolo di sicurezza Amministratore di sistema o Responsabile Sales Professional in modo da poter aggiungere prodotti in Dynamics 365 Sales Professional.
-2.  Nella mappa del sito, sotto **Configurazione** , seleziona **Prodotti**.
+2.  Nella mappa del sito, sotto **Configurazione**, seleziona **Prodotti**.
 3.  Seleziona **Aggiungi prodotto** e inserisci le seguenti informazioni:
 
     -  **Nome**
     -  **ID prodotto**
-    -  **Padre** : seleziona una famiglia di prodotti padre per il prodotto. Se si crea un prodotto figlio in una famiglia di prodotti, il nome della famiglia di prodotto padre viene popolato qui. Questa impostazione non può essere modificata dopo il salvataggio del record.
-    -  **Valido da**/**Valido fino a** : definire il periodo di validità dell'aggregazione dei prodotti selezionando una data **Valido da** e **Valido fino a**.
-    -  **Unità di vendita** : seleziona un'unità di vendita. Un'unità di vendita è una raccolta di diverse unità presso le quali un prodotto viene venduto e definisce come i singoli elementi sono raggruppati in quantità maggiori. Ad esempio, se si è scelto di aggiungere i semi come prodotto, è probabile che sia stata creata un'unità di vendita denominata "Semi" e che la relativa unità primaria sia stata definita come "pacchetto".
-    -  **Unità predefinita** : seleziona l'unità più comune per la vendita del prodotto. Le unità sono le quantità o le misure in cui vengono vendute i prodotti. Ad esempio, se intendi aggiungere i semi come prodotto, puoi venderli in pacchetti, caselle o pallet. Ognuno di questi diventa un'unità del prodotto. Se i semi sono venduti principalmente in pacchetti, selezionare pacchetto come unità.
-    -  **Listino prezzi predefinito** : nel caso di un nuovo prodotto, questo campo sarà di sola lettura. Prima di poter selezionare un listino prezzi predefinito, devi compilare tutti i campi obbligatori e quindi salvare il record. Sebbene il listino prezzi predefinito non sia obbligatorio, dopo aver salvato il record del prodotto è consigliabile impostare un listino prezzi predefinito per ogni prodotto. In questo modo, se il record di un cliente non contiene un listino prezzi, Vendite potrà utilizzare il listino prezzi predefinito per generare offerte, ordini e fatture.
-    -  **Decimali supportati** : immetti un numero intero compreso tra 0 e 5. Se il prodotto non può essere suddiviso in quantità frazionarie, immettere 0. La precisione del campo **Quantità** nel record del prodotto offerta, ordine o fattura è convalidata in base al valore di questo campo se al prodotto non è associato un listino prezzi.
-    -  **Argomento** : associa il prodotto a un argomento. Gli argomenti consentono di suddividere i prodotti in categorie e filtrare i report.
+    -  **Padre**: seleziona una famiglia di prodotti padre per il prodotto. Se si crea un prodotto figlio in una famiglia di prodotti, il nome della famiglia di prodotto padre viene popolato qui. Questa impostazione non può essere modificata dopo il salvataggio del record.
+    -  **Valido da**/**Valido fino a**: definire il periodo di validità dell'aggregazione dei prodotti selezionando una data **Valido da** e **Valido fino a**.
+    -  **Unità di vendita**: seleziona un'unità di vendita. Un'unità di vendita è una raccolta di diverse unità presso le quali un prodotto viene venduto e definisce come i singoli elementi sono raggruppati in quantità maggiori. Ad esempio, se si è scelto di aggiungere i semi come prodotto, è probabile che sia stata creata un'unità di vendita denominata "Semi" e che la relativa unità primaria sia stata definita come "pacchetto".
+    -  **Unità predefinita**: seleziona l'unità più comune per la vendita del prodotto. Le unità sono le quantità o le misure in cui vengono vendute i prodotti. Ad esempio, se intendi aggiungere i semi come prodotto, puoi venderli in pacchetti, caselle o pallet. Ognuno di questi diventa un'unità del prodotto. Se i semi sono venduti principalmente in pacchetti, selezionare pacchetto come unità.
+    -  **Listino prezzi predefinito**: nel caso di un nuovo prodotto, questo campo sarà di sola lettura. Prima di poter selezionare un listino prezzi predefinito, devi compilare tutti i campi obbligatori e quindi salvare il record. Sebbene il listino prezzi predefinito non sia obbligatorio, dopo aver salvato il record del prodotto è consigliabile impostare un listino prezzi predefinito per ogni prodotto. In questo modo, se il record di un cliente non contiene un listino prezzi, Vendite potrà utilizzare il listino prezzi predefinito per generare offerte, ordini e fatture.
+    -  **Decimali supportati**: immetti un numero intero compreso tra 0 e 5. Se il prodotto non può essere suddiviso in quantità frazionarie, immettere 0. La precisione del campo **Quantità** nel record del prodotto offerta, ordine o fattura è convalidata in base al valore di questo campo se al prodotto non è associato un listino prezzi.
+    -  **Argomento**: associa il prodotto a un argomento. Gli argomenti consentono di suddividere i prodotti in categorie e filtrare i report.
 
 4.  Seleziona **Salva**.
-5.  Nella scheda **Dettagli aggiuntivi** nella sezione **Voci di listino** , seleziona l'icona **Altri comandi** e quindi seleziona **Aggiungi nuova entità Voce di listino**.
-7.  Nella scheda **Dettagli aggiuntivi** nella sezione **Relazione prodotti** , seleziona l'icona **Altri comandi** e quindi seleziona **Aggiungi nuova relazione prodotti**.
-8.  Nel modulo **Nuova relazione prodotti** immetti i seguenti dettagli e sulla barra dei comandi seleziona **Salva e chiudi** :
+5.  Nella scheda **Dettagli aggiuntivi** nella sezione **Voci di listino**, seleziona l'icona **Altri comandi** e quindi seleziona **Aggiungi nuova entità Voce di listino**.
+7.  Nella scheda **Dettagli aggiuntivi** nella sezione **Relazione prodotti**, seleziona l'icona **Altri comandi** e quindi seleziona **Aggiungi nuova relazione prodotti**.
+8.  Nel modulo **Nuova relazione prodotti** immetti i seguenti dettagli e sulla barra dei comandi seleziona **Salva e chiudi**:
 
-    -   **Prodotto correlato** : seleziona un prodotto che vuoi aggiungere come prodotto correlato al record di prodotto esistente al quale stai lavorando.
-    -   **Tipo di relazione vendite** : seleziona se vuoi aggiungere il prodotto come una up-sell, cross-sell, accessorio o prodotto sostitutivo.
-    -   **Direzione** : seleziona se la relazione tra i prodotti sarà unidirezionale o bidirezionale. Quando si seleziona Unidirezionale, il prodotto selezionato in **Prodotto correlato** verrà visualizzato come consiglio per il prodotto esistente, ma non viceversa.
+    -   **Prodotto correlato**: seleziona un prodotto che vuoi aggiungere come prodotto correlato al record di prodotto esistente al quale stai lavorando.
+    -   **Tipo di relazione vendite**: seleziona se vuoi aggiungere il prodotto come una up-sell, cross-sell, accessorio o prodotto sostitutivo.
+    -   **Direzione**: seleziona se la relazione tra i prodotti sarà unidirezionale o bidirezionale. Quando si seleziona Unidirezionale, il prodotto selezionato in **Prodotto correlato** verrà visualizzato come consiglio per il prodotto esistente, ma non viceversa.
 
 9.  Nel modulo Prodotto, seleziona **Salva**.
 
@@ -119,8 +119,8 @@ Il sistema verifica che solo le proprietà numeriche o le proprietà di prodotto
 
 Ad esempio, se sono presenti le seguenti proprietà: 
 
-- **N. di utenti** : il numero di utenti 
-- **N. di mesi** : il numero di mesi di sottoscrizione
+- **N. di utenti**: il numero di utenti 
+- **N. di mesi**: il numero di mesi di sottoscrizione
 - **SKU prodotto** 
 
 Le proprietà **N. di utenti** e **N. di mesi** possono essere contrassegnate come fattori di quantità modificando le proprietà della riga prodotto. 

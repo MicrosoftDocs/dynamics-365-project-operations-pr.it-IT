@@ -3,7 +3,7 @@ title: Pianificare risorse per un progetto
 description: Come pianificare le risorse per un progetto in Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: db69348aac96cbfaaa865228c9230cbda4b1e784
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1479bf920be897a6ee3498aada7a6c36692a01fc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079082"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132146"
 ---
 # <a name="schedule-resources-for-a-project-project-service"></a>Pianificare le risorse per un progetto (Project Service)
 
@@ -31,7 +31,7 @@ ms.locfileid: "4079082"
 
 Puoi verificare la disponibilità di una risorsa per ottenere una visione globale di come sono prenotate le risorse, oppure puoi filtrare la in base alle competenze, il team, la posizione e altre opzioni.  
   
-Nella scheda di pianificazione sono visualizzati l'elenco di risorse e le relative disponibilità. Seleziona la modalità di visualizzazione per vedere la disponibilità in base a **Ore** , **Giorno** , **Settimana** o **Mese**.  
+Nella scheda di pianificazione sono visualizzati l'elenco di risorse e le relative disponibilità. Seleziona la modalità di visualizzazione per vedere la disponibilità in base a **Ore**, **Giorno**, **Settimana** o **Mese**.  
   
 Prima di utilizzare la scheda di pianificazione, è importante configurarla. Per ulteriori informazioni, vedi [Configurare la scheda di pianificazione (Field Service, Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board).
   
@@ -61,7 +61,7 @@ Se utilizzi una versione precedente, per la disponibilità delle risorse, vedi [
 
 ## <a name="book-a-resource-using-the-daily-view-and-find-whos-under-booked"></a>Prenota una risorsa mediante la visualizzazione giornaliera e trova chi è prenotato sotto la disponibilità
   
-1.  Nella scheda di pianificazione seleziona **Modalità di visualizzazione** , quindi **Giorni**.  
+1.  Nella scheda di pianificazione seleziona **Modalità di visualizzazione**, quindi **Giorni**.  
   
     Questo diagramma illustra la visualizzazione griglia del numero di ore che una risorsa è prenotata al giorno e i quali giorni sono liberi.  
   

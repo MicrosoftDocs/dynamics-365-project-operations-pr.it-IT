@@ -3,7 +3,7 @@ title: Creare una prenotazione di progetto dalla scheda di pianificazione
 description: In questo argomento vengono fornite informazioni su come creare una prenotazione di progetto dalla scheda di pianificazione.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 57fbc71681015fca73cdda4bc7d392f6be4289f3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ccbfedec82b2d9035b51cf1b283ae5c441f1cbcc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078893"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122303"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>Creare una prenotazione di progetto dalla scheda di pianificazione
 
@@ -51,7 +51,7 @@ ms.locfileid: "4078893"
 
 4. È inoltre possibile trascinare la riga selezionata dalla parte inferiore della scheda di pianificazione in una cella della risorsa nella griglia precedente. Viene visualizzato il pannello **Crea prenotazione risorsa** a destra.
 
-    Se si seleziona **Prenota** , la risorsa viene prenotata nel team di progetto.
+    Se si seleziona **Prenota**, la risorsa viene prenotata nel team di progetto.
 
 ![Pannello Crea prenotazione risorsa](media/FAQ-Project-Booking-Schedule-Board-6.png "")
  
@@ -81,7 +81,7 @@ Completare i passaggi seguenti per prenotare da un nuovo requisito di risorsa.
 
 1. Accedere a **Requisiti di risorsa** e selezionare **Nuovo** per creare un nuovo requisito di risorsa.
 
-2. Nella scheda **Progetto** , selezionare un progetto per associare il requisito al progetto.
+2. Nella scheda **Progetto**, selezionare un progetto per associare il requisito al progetto.
  
     Nella scheda di pianificazione, questo nuovo requisito è visualizzato come **requisito aperto** che è possibile soddisfare.
 

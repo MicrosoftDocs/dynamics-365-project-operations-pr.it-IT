@@ -5,15 +5,15 @@ author: sigitac
 manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c0e02ef2d17bf49209369f7adad681d9a5981e2a
-ms.sourcegitcommit: 91ad491e94a421f256a378b0f4b26ed48c67bc93
+ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "4096757"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122888"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Configurare l'integrazione di Project Operations per persona giuridica 
 
@@ -26,7 +26,7 @@ Questo argomento ti guida nei passaggi necessari per configurare Dynamics 365 Pr
 Completa i seguenti passaggi per abilitare le funzioni richieste.
 
 1. In Dynamics 365 Finance, vai all'area di lavoro **Gestione delle funzionalità** workspace.
-2. Nell' **elenco delle funzionalità** , trova e attiva le seguenti funzionalità:
+2. Nell'**elenco delle funzionalità**, trova e attiva le seguenti funzionalità:
   
     - **Abilita più voci di contratto per un progetto**
     - **Abilita Project Operations in Dynamics 365 Customer Engagement**
@@ -48,6 +48,6 @@ Completa i seguenti passaggi per abilitare le funzioni richieste.
 
 Ogni persona giuridica che utilizza Project Operations in Dynamics 365 Customer Engagement necessita di una serie di parametri predefiniti. Questi parametri vengono configurati nella scheda **Project Operations** della pagina **Parametri di Gestione progetti e contabilità**. I parametri sono i seguenti:
 
-  - **Tipo di fatturazione predefinito** : Project Operations utilizza un set fisso di valori predefiniti per il tipo di fatturazione che devono essere associati alle proprietà della riga Finance. Crea un record per ogni tipo di fatturazione: **Non specificato** , **Addebitabile** , **Non addebitabile** , **Gratuito** e **Non disponibile**.
-  - **Impostazioni predefinite della categoria di progetto** : seleziona le categorie di progetto predefinite da utilizzare per ogni tipo di transazione. Queste impostazioni predefinite verranno utilizzate nel **giornale dell'integrazione di Project Operations** e nelle stime in cui non è specificata alcuna categoria di transazione per il valore effettivo del progetto.
-  - **Previsioni** : seleziona il modello previsionale da utilizzare per le stime di tempi e costi.
+  - **Tipo di fatturazione predefinito**: Project Operations utilizza un set fisso di valori predefiniti per il tipo di fatturazione che devono essere associati alle proprietà della riga Finance. Crea un record per ogni tipo di fatturazione: **Non specificato**, **Addebitabile**, **Non addebitabile**, **Gratuito** e **Non disponibile**.
+  - **Impostazioni predefinite della categoria di progetto**: seleziona le categorie di progetto predefinite da utilizzare per ogni tipo di transazione. Queste impostazioni predefinite verranno utilizzate nel **giornale dell'integrazione di Project Operations** e nelle stime in cui non è specificata alcuna categoria di transazione per il valore effettivo del progetto.
+  - **Previsioni**: seleziona il modello previsionale da utilizzare per le stime di tempi e costi.

@@ -3,7 +3,7 @@ title: Pianificazioni di progetto
 description: In questo argomento vengono fornite informazioni su come creare una pianificazione.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9a6b27050a19d8a7f2ed35f74b42bb4f371ad069
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bad7a8712057b60d202c37cc75ea68bf04fd4cc9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078911"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123245"
 ---
 # <a name="project-schedules"></a>Pianificazioni di progetto 
 
@@ -83,12 +83,12 @@ I pulsanti **Sposta giù** e **Sposta su** cambiano la posizione di un'attività
 
 La griglia **Pianificazione** è completamente accessibile e può essere utilizzata con utilità per la lettura dello schermo, ad esempio Narrator, JAWS o NVDA. Puoi spostarti nell'area della griglia utilizzando i tasti di direzione (come in Microsoft Excel), utilizzare il tasto TAB per avanzare negli elementi dell'interfaccia utente interattiva e il tasto FRECCIA GIÙ, il tasto INVIO o la BARRA SPAZIATRICE per selezionare e visualizzare i menu a discesa. Anche le intestazioni di colonna sono interattive. Puoi nascondere e rendere visibili le colonne, utilizzare il tasto TAB e i tasti di direzione per spostarti tra le intestazioni di colonna e utilizzare i pulsanti di azione nella barra degli strumenti. Inoltre, puoi utilizzare i seguenti tasti di scelta rapida:
 
-- **Aggiornare** : ALT+MAIUSC+F5
-- **Eliminare** : ALT+MAIUSC+INS
-- **Eliminare** : ALT+MAIUSC+CANC
-- **Spostare su/giù** : ALT+MAIUSC+FRECCIA SU/GIÙ
-- **Rientro/rientro negativo** : ALT_MAIUSC+freccia SINISTRA/DESTRA
-- **Espandere/comprimere gerarchie** : ALT+MAIUSC+tasti Più/Meno
+- **Aggiornare**: ALT+MAIUSC+F5
+- **Eliminare**: ALT+MAIUSC+INS
+- **Eliminare**: ALT+MAIUSC+CANC
+- **Spostare su/giù**: ALT+MAIUSC+FRECCIA SU/GIÙ
+- **Rientro/rientro negativo**: ALT_MAIUSC+freccia SINISTRA/DESTRA
+- **Espandere/comprimere gerarchie**: ALT+MAIUSC+tasti Più/Meno
 
 ## <a name="task-attributes"></a>Attributi attività
 
@@ -98,19 +98,19 @@ Il nome di un'attività descrive il lavoro che deve essere completato. In PSA, g
  
 ### <a name="schedule-attributes"></a>Attributi di pianificazione
 
-Gli attributi **Lavoro richiesto** , **Data di inizio** , **Data di fine** e **Durata** definiscono la pianificazione dell'attività.
+Gli attributi **Lavoro richiesto**, **Data di inizio**, **Data di fine** e **Durata** definiscono la pianificazione dell'attività.
 
 Ulteriori attributi di pianificazione includono:
 
-- **Ore lavoro richiesto** : immetti una stima delle ore necessarie per completare l'attività. 
-- **Durata** : specifica il numero di giorni lavorativi necessari per completare l'attività.
-- **ID pianificazione** : questo ID generato automaticamente viene utilizzato per ordinare le attività nella gerarchia. Le dipendenze tra le attività gestiscono l'ordine effettivo in cui le attività vengono eseguite.
+- **Ore lavoro richiesto**: immetti una stima delle ore necessarie per completare l'attività. 
+- **Durata**: specifica il numero di giorni lavorativi necessari per completare l'attività.
+- **ID pianificazione**: questo ID generato automaticamente viene utilizzato per ordinare le attività nella gerarchia. Le dipendenze tra le attività gestiscono l'ordine effettivo in cui le attività vengono eseguite.
  
 ### <a name="staffing-attributes"></a>Attributi di assegnazione del personale
 
-Agli attributi di assegnazione del personale si accede tramite il campo **Risorse** nella pianificazione. Puoi cercare una risorsa esistente oppure fare clic su **Crea** e nel riquadro **Creazione rapida** , aggiungere un membro del team di progetto come nuova risorsa.
+Agli attributi di assegnazione del personale si accede tramite il campo **Risorse** nella pianificazione. Puoi cercare una risorsa esistente oppure fare clic su **Crea** e nel riquadro **Creazione rapida**, aggiungere un membro del team di progetto come nuova risorsa.
 
-I campi **Ruolo** , **Unità gestione risorse** e **Nome posizione** sono utilizzati per descrivere i requisiti di assegnazione del personale per l'attività. Questi attributi, insieme alla pianificazione dell'attività, sono utilizzati per trovare le risorse disponibili per eseguire l'attività.
+I campi **Ruolo**, **Unità gestione risorse** e **Nome posizione** sono utilizzati per descrivere i requisiti di assegnazione del personale per l'attività. Questi attributi, insieme alla pianificazione dell'attività, sono utilizzati per trovare le risorse disponibili per eseguire l'attività.
 
 **Ruolo** - Specifica il tipo di risorsa necessaria per eseguire l'attività.
 

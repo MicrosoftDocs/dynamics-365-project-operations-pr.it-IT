@@ -3,7 +3,7 @@ title: Inviare richieste di risorse
 description: Come inviare richieste di risorse in Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1978a9212db25ac32ff2dc5f9050ec43fc1ccbd7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 50f66d1157b932a91224a63d91ea2aeccc2c209f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078968"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126893"
 ---
 # <a name="submit-resource-requests-project-service"></a>Inviare richieste di risorse (Project Service)
 
@@ -41,7 +41,7 @@ Dopo avere acquisito un contratto di progetto, dovrai assegnare personale al pro
   
 5.  Per prenotare definitivamente una risorsa, seleziona il ruolo, quindi fai clic su **Prenota definitivamente**. In questo calendario vengono visualizzate tutte le risorse e la relativa disponibilità con la codifica di colori che fornisce un una visualizzazione dello stato di prenotazione delle risorse. Esegui una delle operazioni seguenti per ottimizzare la ricerca:  
   
-    -   Seleziona una visualizzazione oppure ordinamento dalla parte superiore dello schermo. Puoi inoltre scegliere se visualizzare la disponibilità per il **Giorno** , la **Settimana** o il **Mese** , quindi utilizzare le frecce per visualizzare il periodo di tempo precedente o successivo. Utilizza la casella di ricerca per trovare una risorsa specifica.  
+    -   Seleziona una visualizzazione oppure ordinamento dalla parte superiore dello schermo. Puoi inoltre scegliere se visualizzare la disponibilità per il **Giorno**, la **Settimana** o il **Mese**, quindi utilizzare le frecce per visualizzare il periodo di tempo precedente o successivo. Utilizza la casella di ricerca per trovare una risorsa specifica.  
   
     -   Fai clic su **Opzioni** per modificare le visualizzazioni. Ad esempio, puoi mostrare una legenda con la combinazione di colori per i tipi diversi di prenotazioni, oppure puoi scegliere solo un tipo specifico di prenotazione (ad esempio la prenotazione definitiva o provvisoria).  
   

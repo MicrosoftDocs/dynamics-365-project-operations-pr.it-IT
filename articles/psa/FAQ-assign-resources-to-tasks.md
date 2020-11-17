@@ -3,7 +3,7 @@ title: Assegnare una risorsa a un‘attività
 description: In questo argomento vengono fornite informazioni su come assegnare risorse ad attività.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/27/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 77f13d1e96b76dfea241fbf7a67d5676582f0235
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b7aef799ec4b90d602a6f3641cbac06264664f00
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079065"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125138"
 ---
 # <a name="assign-a-resource-to-a-task"></a>Assegnare una risorsa a un‘attività
 
@@ -33,7 +33,7 @@ Vi sono tre modi di assegnare una risorsa ad un'attività in Microsoft Dynamics 
 
 Puoi aggiungere una risorsa al team di progetto e quindi assegnarla risorsa alle attività nella pianificazione del progetto.
 
-1. Nella scheda **Membro del team** , aggiungi un nuovo membro del team selezionando **Nuovo**. 
+1. Nella scheda **Membro del team**, aggiungi un nuovo membro del team selezionando **Nuovo**. 
 
 2. Viene aperto il pannello **Creazione rapida: Membro del team di progetto** dove puoi selezionare il nome della risorsa prenotabile e impostare un ruolo. 
 
@@ -48,7 +48,7 @@ Puoi aggiungere una risorsa al team di progetto e quindi assegnarla risorsa alle
 3. Nella griglia **Pianificazione** di un'attività, seleziona l'icona **Risorsa** nella cella della risorsa e quindi sotto **Membri del team** seleziona il membro del team appena aggiunto. 
 
 > [!NOTE]
-> Nelle schede **Membro del team** e **Riconciliazione** , la risorsa mostra le ore prenotate e quelle assegnate. Le ore dovrebbero essere uguali, ma non è necessario in quanto prenotazioni e assegnazioni non sono strettamente associate. La scheda **Riconciliazione** fornisce i dettagli quando sono differenti, ad esempio, quando a una risorsa si assegnano più ore di quelle prenotate. Se necessario, puoi correggere le informazioni estendendo le prenotazioni della risorsa o modificando l'assegnazione.
+> Nelle schede **Membro del team** e **Riconciliazione**, la risorsa mostra le ore prenotate e quelle assegnate. Le ore dovrebbero essere uguali, ma non è necessario in quanto prenotazioni e assegnazioni non sono strettamente associate. La scheda **Riconciliazione** fornisce i dettagli quando sono differenti, ad esempio, quando a una risorsa si assegnano più ore di quelle prenotate. Se necessario, puoi correggere le informazioni estendendo le prenotazioni della risorsa o modificando l'assegnazione.
 
 ## <a name="create-a-generic-team-member-through-task-assignment"></a>Creare un membro del team generico mediante l'assegnazione di attività
 
@@ -58,7 +58,7 @@ Quando crei un membro del team generico mediante l'assegnazione di attività, cr
 
 2. Digita un nome da utilizzare come nome della risorsa segnaposto. Ad esempio, "Program Manager".
 
-3. Seleziona **Crea** e nel campo **Creazione rapida: membro del team di progetto** , imposta il ruolo per la risorsa generica.
+3. Seleziona **Crea** e nel campo **Creazione rapida: membro del team di progetto**, imposta il ruolo per la risorsa generica.
 
 4. Puoi continuare ad assegnare attività a questa risorsa segnaposto selezionando la risorsa nel **selettore delle risorse** per l'attività. Le attività sono elencate in **Membri del team**.
 

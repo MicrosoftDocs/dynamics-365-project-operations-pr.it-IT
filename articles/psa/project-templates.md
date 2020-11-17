@@ -3,7 +3,7 @@ title: Modelli di progetto
 description: In questo argomento vengono fornite informazioni su come utilizzare modelli di progetto per una rapida configurazione dei progetti.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1bb82a312114e9814f5ce65a1698455582fd252e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 4fd618e15524c5cef5b6da9b282f449e3dfb7973
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079038"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123023"
 ---
 # <a name="project-templates"></a>Modelli di progetto 
 
@@ -49,7 +49,7 @@ Esistono vari modi di creare un progetto da un modello di progetto:
 
 > ![Finestra di dialogo Creazione rapida: Progetto](media/project-11.png)
 
-- Quando crei un progetto selezionando **Nuovo progetto** , viene visualizzata la pagina **Progetto** prima del salvataggio del record. Nel campo **Seleziona un modello** , seleziona uno dei modelli di progetto predefiniti nell'organizzazione.
+- Quando crei un progetto selezionando **Nuovo progetto**, viene visualizzata la pagina **Progetto** prima del salvataggio del record. Nel campo **Seleziona un modello**, seleziona uno dei modelli di progetto predefiniti nell'organizzazione.
 - Utilizza **Crea progetto da un modello** nella pagina **Entità modello**.
 
 ## <a name="copying-components-of-template-to-project"></a>Copiare componenti di un modello in un progetto

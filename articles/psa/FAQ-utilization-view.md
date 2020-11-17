@@ -3,7 +3,7 @@ title: Visualizzare l‘utilizzo addebitabile per le risorse
 description: In questo argomento vengono fornite informazioni sulla vista utilizzo risorse.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6daa6cfa1c6a237d8a1685123f7c1a6926418bfe
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a1d1db532c65b2a13f3cf4e1281a5987490b96df
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078898"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122168"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>Visualizzare l‘utilizzo addebitabile per le risorse
  
@@ -46,7 +46,7 @@ L'utilizzo di destinazione può essere impostato nel ruolo predefinito della ris
 
 1. Seleziona **Risorse** \> **Risorse**. 
 2. Selezionare una risorsa per aprire il record. 
-3. Nella scheda **Project Service** , è possibile impostare l'utilizzo di destinazione della risorsa.
+3. Nella scheda **Project Service**, è possibile impostare l'utilizzo di destinazione della risorsa.
 
 > ![Utilizzo della scheda Project Service per impostare l'utilizzo di destinazione](media/FAQ-utilization-2.png)
  
@@ -68,7 +68,7 @@ Innanzi tutto, l'utilizzo di destinazione deve essere impostato sulla singola ri
 
 1. A questo proposito, selezionare **Risorse** \> **Risorse**. 
 2. Selezionare una risorsa, aprire il record e quindi selezionare la scheda **Project Service**. 
-3. Nella griglia **Ruolo risorsa** , assicurarsi che è presente un ruolo per la risorsa e che **Predefinito** è impostato su **Sì**.
+3. Nella griglia **Ruolo risorsa**, assicurarsi che è presente un ruolo per la risorsa e che **Predefinito** è impostato su **Sì**.
  
 ### <a name="change-billing-type-for-resource-role"></a>Modificare il tipo di fatturazione per il ruolo risorsa
 

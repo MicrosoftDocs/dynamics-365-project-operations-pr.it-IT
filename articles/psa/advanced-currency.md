@@ -3,7 +3,7 @@ title: Scenari con più valute (versione 3.x)
 description: In questo argomento vengono fornite informazioni sugli scenari con più valute.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/26/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7be029eeca3129d30f4bec1bf9b180a0a5122a86
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 61ca37db59b7d25478434c2376e3a987afd4972d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078986"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123383"
 ---
 # <a name="multiple-currency-scenarios"></a>Scenari con più valute
 
@@ -56,7 +56,7 @@ Le entità seguenti sono considerate transazioni commerciali:
 - Dettagli di riga fattura
 - Valore effettivo
 
-In ognuna di queste entità, è presente un record che rappresenta l'importo dei costi o quello delle vendite. Come per qualsiasi entità di Dynamics 365 che ha un campo **Importo** , ogni record include gli importi nella valuta transazioni e nella valuta di base. 
+In ognuna di queste entità, è presente un record che rappresenta l'importo dei costi o quello delle vendite. Come per qualsiasi entità di Dynamics 365 che ha un campo **Importo**, ogni record include gli importi nella valuta transazioni e nella valuta di base. 
 
 PSA espande il concetto di valuta transazioni per i costi e le vendite nei modi seguenti:
 
@@ -69,7 +69,7 @@ PSA espande il concetto di valuta transazioni per i costi e le vendite nei modi 
 In questa sezione viene descritto un progetto di esempio che Contoso UK consegna a un cliente, ovvero Fabrikam, Japan. Di seguito viene riportata la configurazione dello scenario:
 
 1. La Sterlina britannica e lo Yen giapponese sono impostati in **Impostazioni** \> **Gestione aziendale** \> **Valute**. 
-2. Viene configurato un account cliente, **Fabrikam - Japan** , e JPY viene utilizzato come valuta dell'account.
+2. Viene configurato un account cliente, **Fabrikam - Japan**, e JPY viene utilizzato come valuta dell'account.
 3. Viene impostata un'unità organizzativa denominata **Contoso UK** e GBP viene selezionato come valuta.
 4. Viene creato un contratto di progetto, dove **Contoso UK** è specificato come unità contratto e **Fabrikam – Japan** come cliente.
 5. Vengono create voci di contratto di progetto, in base alle disposizioni di fatturazione per le varie classi di transazioni del progetto, ad esempio fatturazione per il tempo e fatturazione per le spese.

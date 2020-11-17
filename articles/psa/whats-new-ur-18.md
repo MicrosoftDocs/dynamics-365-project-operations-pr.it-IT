@@ -3,7 +3,7 @@ title: Novità o modifiche nella versione di aggiornamento 18 di Project Service
 description: Questo argomento elenca le funzionalità e le correzioni disponibili nella versione di aggiornamento 18 di Project Service Automation V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 04/27/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d7ea200531dd24d56a829f879e3a2532a9b38dc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3a6d3ee21ecf742b2253132f3d3cc1cb2b57af75
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078830"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119873"
 ---
 # <a name="project-service-automation-update-release-18-v3"></a>Versione di aggiornamento di Project Service Automation 18, V3
 
@@ -36,7 +36,7 @@ Questo argomento elenca le funzionalità e le correzioni nuove o modificate per 
 
 **Tempo e spesa**
 
-- Corretto: i flussi **Richiama** , **Richiesta** e **Annulla approvazione** generano eccezioni con messaggi di errore poco chiari.
+- Corretto: i flussi **Richiama**, **Richiesta** e **Annulla approvazione** generano eccezioni con messaggi di errore poco chiari.
 - Corretto: quando **Annulla approvazione** non riesce per una spesa, non viene generato un errore di eccezione rilevante.
 - Corretto: la griglia di inserimento dell'ora gestisce erroneamente i giorni non lavorativi in Australia dopo il cambio dell'ora legale (DST) in ottobre.
 - Corretto: una logica predefinita errata impedisce l'invio delle spese.
@@ -60,4 +60,4 @@ Questo argomento elenca le funzionalità e le correzioni nuove o modificate per 
 
 **Sales**
 
-- Corretto: quando le immissioni del tempo sono state nuovamente approvate ( **Approva > Annulla >** approva di nuovo), viene creato un duplicato non addebitabile effettivo.
+- Corretto: quando le immissioni del tempo sono state nuovamente approvate (**Approva > Annulla >** approva di nuovo), viene creato un duplicato non addebitabile effettivo.

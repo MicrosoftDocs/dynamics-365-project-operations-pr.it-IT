@@ -1,21 +1,21 @@
 ---
-title: Gestire i listini prezzi di progetto sulle offerte di progetto
+title: Gestire i listini prezzi di progetto sulle offerte di progetto - semplice
 description: Questo argomento fornisce informazioni sull'utilizzo dei listini prezzi di progetto sulle offerte. (Sales)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4013d2e8cc0d2329f824a17484ee6f4a054a390e
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2ff830c63f7acf4cc23ac75d44afa9c3553b8724
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078799"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175986"
 ---
-# <a name="manage-project-price-lists-on-project-quotes-sales"></a>Gestire i listini prezzi di progetto sulle offerte di progetto (Vendite)
+# <a name="manage-project-price-lists-on-project-quotes---lite"></a>Gestire i listini prezzi di progetto sulle offerte di progetto - semplice
 
 _**Si applica a:** Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
@@ -48,8 +48,8 @@ I listini prezzi di progetto possono essere impostati come predefiniti su un'off
 ### <a name="set-up-organizational-default-for-project-price-lists"></a>Impostare un valore predefinito organizzativo per i listini prezzi di progetto
 
 1. Vai a **Impostazioni** > **Generali** > **Parametri**.
-2. Nella pagina di elenco **Parametri attivi** , individua il record e fai doppio clic per aprirlo. 
-3. Nella pagina **Parametri** , seleziona la scheda **Listino prezzi**. Viene visualizzato l'elenco dei listini prezzi predefiniti. Si tratta di un listino prezzi di vendita e costi standard. La disponibilità di un listino prezzi di vendita associato qui per ogni valuta in cui vendi assicurerà che questo listino prezzi di vendita sia utilizzato come predefinito su qualsiasi offerta creata per i clienti che effettuano transazioni in questa valuta.
+2. Nella pagina di elenco **Parametri attivi**, individua il record e fai doppio clic per aprirlo. 
+3. Nella pagina **Parametri**, seleziona la scheda **Listino prezzi**. Viene visualizzato l'elenco dei listini prezzi predefiniti. Si tratta di un listino prezzi di vendita e costi standard. La disponibilità di un listino prezzi di vendita associato qui per ogni valuta in cui vendi assicurerà che questo listino prezzi di vendita sia utilizzato come predefinito su qualsiasi offerta creata per i clienti che effettuano transazioni in questa valuta.
 
 ### <a name="set-up-customer-specific-project-price-lists"></a>Impostare listini prezzi di progetto specifici per il cliente
 
@@ -59,11 +59,11 @@ Per impostare un listino prezzi di progetto specifico per il cliente, completa i
 
 1. Nell'area **Vendite** seleziona **Clienti**.
 2. Nell'elenco dei tuoi account attivi, seleziona e apri il record del cliente per il quale disponi di un listino prezzi speciale.
-3. Nella scheda **Listini prezzi di progetto** , puoi creare una nuova associazione di listini prezzi per avere il listino prezzi di progetto specifico per questo cliente.
+3. Nella scheda **Listini prezzi di progetto**, puoi creare una nuova associazione di listini prezzi per avere il listino prezzi di progetto specifico per questo cliente.
 
 ## <a name="create-custom-pricing-on-a-project-quote"></a>Creare una determinazione dei prezzi personalizzata in un'offerta di progetto
 
 Dopo aver impostato i listini prezzi di progetto predefiniti dell'organizzazione e specifici del cliente, le offerte di progetto verranno create automaticamente con queste associazioni di listini prezzi di progetto. Tuttavia, in alcuni casi, potrebbe essere necessario creare una determinazione dei prezzi personalizzata per un'offerta di progetto specifica. 
 
-1. In **Offerta di progetto** , nella scheda **Listino prezzi di progetto** , verifica nella griglia secondaria che non sia selezionato alcun record di listino prezzi specifico.
+1. In **Offerta di progetto**, nella scheda **Listino prezzi di progetto**, verifica nella griglia secondaria che non sia selezionato alcun record di listino prezzi specifico.
 2. Seleziona **Crea determinazione dei prezzi personalizzata**. Questo effettua delle copie di tutti i listini prezzi standard attualmente associati all'offerta e associa queste copie all'offerta. Le associazioni esistenti ai listini prezzi standard verranno rimosse. Il venditore può quindi iniziare a modificare i prezzi su queste copie. Questi prezzi modificati saranno applicabili solo a questa offerta di progetto.

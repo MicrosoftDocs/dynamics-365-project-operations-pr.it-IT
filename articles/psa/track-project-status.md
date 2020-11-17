@@ -3,7 +3,7 @@ title: Tener traccia dello stato di un progetto
 description: Come registrare lo stato di un progetto in Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 70d07c98bd9432712e939445dbf867b96642f5ba
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 00b6d874b42a415fe567d17e49c0ea319d8952a0
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078962"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127838"
 ---
 # <a name="track-a-projects-status-project-service"></a>Registrare lo stato di un progetto (Project Service)
 
@@ -40,7 +40,7 @@ Quando l'impegno avanza, le fasi del progetto si aggiornano per riflettere la fa
 |  **Offerta**   |      Quando si associa un progetto a un'offerta o lo si crea da un'offerta, la fase del progetto è impostata su **Offerta** e anche le date di inizio e di fine stimate vengono aggiornate. Quando il progetto si trova nella fase di offerta, vengono visualizzati dettagli sull'offerta nella scheda **Vendite** della pagina **Progetto**.      |
 |   **Piano**   |                                     Quando viene acquisita un'offerta associata a un progetto e quando l'impegno avanza alla fase contratto, la fase del progetto si aggiorna a **Piano**. I dettagli del contratto vengono visualizzati nella scheda **Vendite** nella pagina **Progetto**.                                      |
 | **Completo** |                    Quando il lavoro del progetto è completato, puoi passare la fase a **Completa**. Quando la fase del progetto è impostata su completo, è chiaro che il lavoro è completato al 100% ma viene tenuto aperto per tutte le voci di tempo e spesa da registrare.                     |
-|  **Chiudi**   |           Quando tutte le transazioni sono state registrate nel progetto e non prevedi di registrarne altre, puoi impostare manualmente la fase su **Chiudi**. Quando il progetto è impostato su **Chiudi** , non è possibile registrare altre transazioni nel progetto e questo sarà di sola lettura.           |
+|  **Chiudi**   |           Quando tutte le transazioni sono state registrate nel progetto e non prevedi di registrarne altre, puoi impostare manualmente la fase su **Chiudi**. Quando il progetto è impostato su **Chiudi**, non è possibile registrare altre transazioni nel progetto e questo sarà di sola lettura.           |
 
 ## <a name="to-track-a-projects-status"></a>Per registra lo stato del progetto  
 

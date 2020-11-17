@@ -1,21 +1,21 @@
 ---
-title: Applicare i dati dimostrativi di Project Operations a un ambiente ospitato su cloud di Finance
+title: Applicare i dati dimostrativi a un ambiente ospitato su cloud di Finance
 description: Questo argomento spiega come applicare i dati dimostrativi da Project Operations a un ambiente ospitato su cloud di Dynamics 365 Finance.
 author: sigitac
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b9af6c71b61840f4ffdf2892d8e7e5bbf0f8df67
-ms.sourcegitcommit: 91ad491e94a421f256a378b0f4b26ed48c67bc93
+ms.openlocfilehash: a7cdbd2847ce45972aadd0d1a2d4f26270727ad9
+ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "4096627"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4365243"
 ---
-# <a name="apply-project-operations-demo-data-to-a-finance-cloud-hosted-environment"></a>Applicare i dati dimostrativi di Project Operations a un ambiente ospitato su cloud di Finance
+# <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Applicare i dati dimostrativi a un ambiente ospitato su cloud di Finance
 
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati_
 

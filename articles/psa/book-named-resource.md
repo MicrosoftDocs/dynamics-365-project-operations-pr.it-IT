@@ -3,7 +3,7 @@ title: Prenotare risorse denominate da requisiti di risorsa
 description: In questo argomento vengono fornite informazioni sulla prenotazione di risorse denominate per un requisito di risorsa generica.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/11/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 20e3a904bc33360b194c0c53e58430c80d1ff55f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d7ff58ec08661adc702867c6c26805a74a3637c9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079081"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125903"
 ---
 # <a name="book-named-resources-from-resource-requirements"></a>Prenotare risorse denominate da requisiti di risorsa
 
@@ -31,14 +31,14 @@ ms.locfileid: "4079081"
 
 Puoi prenotare una risorsa denominata per sostituire una risorsa generica che ha un requisito di risorsa.
 
-1. In Project Service Automation (PSA), nella pagina **Progetti** , fai clic sulla scheda **Team**.
+1. In Project Service Automation (PSA), nella pagina **Progetti**, fai clic sulla scheda **Team**.
 2. Seleziona la risorsa generica che ha un requisito di risorsa nell'elenco e fai clic su **Prenota**. Oppure apri il requisito di risorsa e fai clic su **Prenota**.
 
 
 ![Prenotare un membro del team generico](media/RM-how-to-14.png)
 
 
-3. Nella pagina **Assistente di pianificazione** , seleziona una risorsa denominata per prenotarla per il team di progetto e fai clic su **Prenota**.
+3. Nella pagina **Assistente di pianificazione**, seleziona una risorsa denominata per prenotarla per il team di progetto e fai clic su **Prenota**.
 
 ![Prenotare un membro del team generico utilizzando l'assistente di pianificazione](media/RM-how-to-15.png)
 

@@ -5,29 +5,29 @@ author: rumant
 manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2c7d63d0cfd5c9b6dbfb65fa8c8227c7f6eeac48
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 501458510efca6434a51577aacd1f09d1a4faa25
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078900"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180703"
 ---
-# <a name="set-up-bill-rates-for-labor-rate-billing"></a>Impostare le tariffe per la fatturazione della tariffa di manodopera 
+# <a name="set-up-labor-bill-rates"></a>Impostare le tariffe per la fatturazione del lavoro
 
 _ **Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati
 
 Ogni listino prezzi ha una serie di prezzi di ruolo, o tariffe di manodopera che sono valide per il contenuto e la data di validità inclusa nell'intestazione del listino prezzi. Le tariffe di fatturazione per il tempo in Dynamics 365 Project Operations possono essere impostati in una sola valuta, che è la valuta nell'intestazione del listino prezzi.
 
 1. Per impostare le tariffe di fatturazione della manodopera per un listino prezzi di vendita, crea un listino prezzi basato sull'intestazione del listino prezzi. 
-2. Nella scheda **Prezzo del ruolo** , nella griglia secondaria, seleziona **+ Nuovo prezzo ruolo**. 
+2. Nella scheda **Prezzo del ruolo**, nella griglia secondaria, seleziona **+ Nuovo prezzo ruolo**. 
 3. Nel riquadro **Creazione rapida** immetti la combinazione di ruolo e unità organizzativa per cui è necessario impostare la tariffa di fatturazione.
 
    La tabella seguente include i campi della scheda **Generale** e nel riquadro **Creazione rapida** di una riga di prezzo del ruolo che devi tenere a mente quando crei i prezzi del ruolo in un listino prezzi di vendita:
 
-    | Campo | Ufficio | Pertinenza, scopo e indicazioni | Impatto downstream |
+    | Campo | Ufficio | Descrizione | Impatto downstream |
     | --- | --- | --- | --- |
     | Ruolo | Scheda **Generale** e riquadro **Creazione rapida** | Seleziona il ruolo per il quale stai impostando la tariffa di fatturazione. | Il ruolo nella stima in entrata o nel valore effettivo verrà confrontato con questa riga per impostare la tariffa di fatturazione predefinita del ruolo. |
     | Società resourcing | Scheda **Generale** e riquadro **Creazione rapida** | Seleziona la società o la persona giuridica da cui è assegnato il ruolo. Ad esempio, uno sviluppatore di Fabrikam India o uno sviluppatore di Fabrikam USA. | La società di gestione risorse nella stima in entrata o nel valore effettivo verrà confrontato con questa riga per impostare la tariffa di fatturazione predefinita del ruolo. |

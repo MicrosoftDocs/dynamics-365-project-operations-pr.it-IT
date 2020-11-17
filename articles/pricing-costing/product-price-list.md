@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 504aa90bfb478207059b5e2894a3990f9a4a5e9e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 702402854c0787dae0bde854c9c274f5c23c131f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078944"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119603"
 ---
 # <a name="product-price-lists"></a>Listini prezzi del prodotto
 
@@ -42,7 +42,7 @@ Puoi aggiungere prodotti da un catalogo prodotti a differenti listini prezzi. Le
 
 PSA supporta varie opzioni di arrotondamento quando i prezzi sono configurati come funzione di prezzo di listino, costo standard o costo corrente. Oltre a beneficiare di vari metodi di determinazione dei prezzi e delle opzioni di arrotondamento, puoi associare elenchi sconti a voci di listino. 
 
-Quando crei un nuovo listino prezzi personalizzato per un'offerta selezionando **Crea determinazione dei prezzi personalizzata** nella pagina **Offerta di progetto** , viene creata una copia del listino prezzi e il campo **Entità** nell'intestazione del nuovo listino prezzi è impostato su **Entità vendite**. Il nome del nuovo listino prezzi viene aggiunto al nome dell'offerta e a un timestamp. Puoi anche utilizzare il nome del nuovo listino prezzi e il nome dell'offerta in flussi di lavoro personalizzati per avviare ulteriori analisi e approvazioni delle offerte che utilizzano prezzi personalizzati.
+Quando crei un nuovo listino prezzi personalizzato per un'offerta selezionando **Crea determinazione dei prezzi personalizzata** nella pagina **Offerta di progetto**, viene creata una copia del listino prezzi e il campo **Entità** nell'intestazione del nuovo listino prezzi è impostato su **Entità vendite**. Il nome del nuovo listino prezzi viene aggiunto al nome dell'offerta e a un timestamp. Puoi anche utilizzare il nome del nuovo listino prezzi e il nome dell'offerta in flussi di lavoro personalizzati per avviare ulteriori analisi e approvazioni delle offerte che utilizzano prezzi personalizzati.
 
  
 ## <a name="default-product-price-list"></a>Listino prezzi prodotto predefinito

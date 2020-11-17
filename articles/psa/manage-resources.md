@@ -3,7 +3,7 @@ title: Gestione risorse
 description: In questo argomento vengono fornite informazioni su come gestire le risorse.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/13/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5b34ad66750dba9459d551a2527c13111196511e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 548595e3951f824e1c79a641d3f336e381fcaaf9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079077"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132338"
 ---
 # <a name="manage-resources"></a>Gestione risorse
 
@@ -36,7 +36,7 @@ Dynamics 365 Project Service Automation include un dashboard per i responsabili 
 - **Utilizzo fatturabile per la settimana passata** - Il grafico **Utilizzo per ruolo** visualizza la percentuale dell'utilizzo fatturabile effettivo dell'organizzazione per ruolo rispetto al relativo utilizzo fatturabile di destinazione per ruolo.
 
     > [!NOTE]
-    > Per rendere disponibile il grafico **Utilizzo per ruolo** , crea un processo che esegue il flusso di lavoro UpdateRoleUtilization. Questo processo ricorrente viene eseguito ogni sette giorni per calcolare l'utilizzo fatturabile dei sette giorni precedenti. I risultati sono aggregati per ruolo.
+    > Per rendere disponibile il grafico **Utilizzo per ruolo**, crea un processo che esegue il flusso di lavoro UpdateRoleUtilization. Questo processo ricorrente viene eseguito ogni sette giorni per calcolare l'utilizzo fatturabile dei sette giorni precedenti. I risultati sono aggregati per ruolo.
 
 ## <a name="manage-project-team-members"></a>Gestire membri del team di progetto
 
@@ -44,11 +44,11 @@ I responsabili di progetto possono utilizzare il dashboard dei responsabili dell
 
 ### <a name="add-a-team-member-directly-to-a-project"></a>Aggiungere un membro del team direttamente a un progetto
 
-Per aggiungere un membro del team direttamente a un progetto, nella pagina **Progetti** , nella scheda **Team** , seleziona **Nuovo**. Viene visualizzata la finestra di dialogo **Creazione rapida: Membro del team di progetto**. In questa finestra di dialogo, puoi eseguire le seguenti attività:
+Per aggiungere un membro del team direttamente a un progetto, nella pagina **Progetti**, nella scheda **Team**, seleziona **Nuovo**. Viene visualizzata la finestra di dialogo **Creazione rapida: Membro del team di progetto**. In questa finestra di dialogo, puoi eseguire le seguenti attività:
 
-- **Prenotare una risorsa denominata** - Nel campo **Risorsa prenotabile** , seleziona il nome della risorsa. Quindi seleziona il ruolo, imposta il periodo e seleziona un metodo di allocazione. La risorsa denominata selezionata viene aggiunta al progetto mediante il metodo di allocazione selezionato e il calendario delle risorse.
+- **Prenotare una risorsa denominata** - Nel campo **Risorsa prenotabile**, seleziona il nome della risorsa. Quindi seleziona il ruolo, imposta il periodo e seleziona un metodo di allocazione. La risorsa denominata selezionata viene aggiunta al progetto mediante il metodo di allocazione selezionato e il calendario delle risorse.
 - **Aggiungere una risorsa generica** - Lascia vuoto il campo **Risorsa prenotabile** e quindi seleziona il ruolo, imposta il periodo e seleziona il metodo di allocazione preferito. Una risorsa generica viene aggiunta al team come segnaposto per mantenere il modello di domanda utilizzato per prenotare risorse denominate del team. Il requisito viene creato in base al calendario del progetto.
-- **Aggiungere una risorsa denominata al team senza consumare la capacità della risorsa** - Nel campo **Risorsa prenotabile** , seleziona una risorsa. Quindi seleziona il periodo e **Nessuno** come metodo di allocazione. La risorsa viene aggiunta al team, ma la capacità della stessa non viene consumata a seguito della prenotazione.
+- **Aggiungere una risorsa denominata al team senza consumare la capacità della risorsa** - Nel campo **Risorsa prenotabile**, seleziona una risorsa. Quindi seleziona il periodo e **Nessuno** come metodo di allocazione. La risorsa viene aggiunta al team, ma la capacità della stessa non viene consumata a seguito della prenotazione.
 
 ### <a name="book-a-team-member-to-fulfill-resource-requirements-for-a-generic-resource"></a>Prenotare un membro del team per soddisfare i requisiti di risorsa di una risorsa generica
 
@@ -56,23 +56,23 @@ In PSA, puoi prenotare una risorsa generica in un team di progetto e puoi specif
 
 Segui questi passaggi per specificare le competenze necessarie di una risorsa generica per uno sviluppatore.
 
-1. Nella pagina **Progetti** , nella scheda **Team** , seleziona **Nuovo** per prenotare una risorsa generica.
+1. Nella pagina **Progetti**, nella scheda **Team**, seleziona **Nuovo** per prenotare una risorsa generica.
 
     ![Risorsa generica prenotata nel team](media/Resource-Management-image9.png)
 
-2. Nella vista **Tutti i membri del team** , nella colonna **Requisito di risorsa** , seleziona il collegamento per aggiungere le competenze richieste per la risorsa generica.
+2. Nella vista **Tutti i membri del team**, nella colonna **Requisito di risorsa**, seleziona il collegamento per aggiungere le competenze richieste per la risorsa generica.
 
     ![Collegamento al requisito](media/Resource-Management-image10.png)
 
-3. Nella pagina **Requisito di risorsa** visualizzata, nella griglia **Competenze** , seleziona i puntini di sospensione ( **...** ) e quindi **Aggiungi caratteristica nuovo requisito** per aggiungere le competenze richieste per lo sviluppatore.
+3. Nella pagina **Requisito di risorsa** visualizzata, nella griglia **Competenze**, seleziona i puntini di sospensione (**...**) e quindi **Aggiungi caratteristica nuovo requisito** per aggiungere le competenze richieste per lo sviluppatore.
 
     ![Comando Aggiungi caratteristica nuovo requisito](media/Resource-Management-image11.png)
 
-4. Nella finestra di dialogo **Creazione rapida: Caratteristica requisito** visualizzata, nel campo **Caratteristica** , seleziona la competenza richiesta. Quindi, nel campo **Valore di valutazione** , seleziona il livello di esperienza per tale competenza. Infine, nel campo **Requisito di risorsa** , imposta il requisito per utilizzare risorse delle unità organizzative o persino risorse denominate. Al termine, seleziona **Salva**.
+4. Nella finestra di dialogo **Creazione rapida: Caratteristica requisito** visualizzata, nel campo **Caratteristica**, seleziona la competenza richiesta. Quindi, nel campo **Valore di valutazione**, seleziona il livello di esperienza per tale competenza. Infine, nel campo **Requisito di risorsa**, imposta il requisito per utilizzare risorse delle unità organizzative o persino risorse denominate. Al termine, seleziona **Salva**.
 
     ![Finestra di dialogo Creazione rapida: Caratteristica requisito](media/Resource-Management-image12.png)
 
-5. Nella pagina **Requisito di risorsa** , seleziona **Prenota** per soddisfare il requisito.
+5. Nella pagina **Requisito di risorsa**, seleziona **Prenota** per soddisfare il requisito.
 
     ![Pulsante Prenota nella pagina Requisito di risorsa](media/Resource-Management-image13.png)
 
@@ -83,7 +83,7 @@ Segui questi passaggi per specificare le competenze necessarie di una risorsa ge
     > [!NOTE]
     > In questo esempio, vi sono 40 ore richieste ma nessuna ora prenotata, in quanto le risorse generiche non hanno prenotazioni. Inoltre, non vi sono ore assegnate, in quanto la risorsa generica è stata aggiunta direttamente al team. Non è stata aggiunta utilizzando l'assegnazione delle attività.
 
-    Nella pagina **Assistente pianificazione** , puoi filtrare le risorse disponibili in base ai requisiti specificati nel requisito di risorsa. Le risorse sono ordinate in base ai parametri di ordinamento specificati nella scheda di pianificazione.
+    Nella pagina **Assistente pianificazione**, puoi filtrare le risorse disponibili in base ai requisiti specificati nel requisito di risorsa. Le risorse sono ordinate in base ai parametri di ordinamento specificati nella scheda di pianificazione.
 
     ![Pagina Assistente pianificazione](media/Resource-Management-image15.png)
 
@@ -120,11 +120,11 @@ Segui questi passaggi per specificare le competenze necessarie di una risorsa ge
 
 In PSA, puoi creare attività e quindi assegnarvi risorse generiche. In questo modo, la richiesta di risorse può essere rappresentata da segnaposto mentre stimi la pianificazione e i dati finanziari. Puoi quindi generare requisiti di risorsa per le risorse generiche e soddisfarli.
 
-1. Nella pagina **Progetti** , nella scheda **Pianifica** , seleziona **Aggiungi** per creare un'attività.
+1. Nella pagina **Progetti**, nella scheda **Pianifica**, seleziona **Aggiungi** per creare un'attività.
 
     ![Nuova attività creata](media/Resource-Management-image21.png)
 
-2. Nel campo **Risorse** , seleziona il simbolo del **selettore di risorse**. Viene visualizzato il selettore di risorse che mostra i membri del team esistenti per il progetto.
+2. Nel campo **Risorse**, seleziona il simbolo del **selettore di risorse**. Viene visualizzato il selettore di risorse che mostra i membri del team esistenti per il progetto.
 
     ![Selettore di risorse](media/Resource-Management-image22.png)
 
@@ -132,7 +132,7 @@ In PSA, puoi creare attività e quindi assegnarvi risorse generiche. In questo m
 
     ![Immettere il nome di una nuova risorsa generica](media/Resource-Management-image23.png)
 
-4. Nella finestra di dialogo **Creazione rapida: Membro del team di progetto** visualizzata, nel campo **Ruolo** , seleziona il ruolo della risorsa generica. Nel campo **Unità gestione risorse** , seleziona l'unità organizzativa per la risorsa generica. Quindi seleziona **Salva**.
+4. Nella finestra di dialogo **Creazione rapida: Membro del team di progetto** visualizzata, nel campo **Ruolo**, seleziona il ruolo della risorsa generica. Nel campo **Unità gestione risorse**, seleziona l'unità organizzativa per la risorsa generica. Quindi seleziona **Salva**.
 
     ![Finestra di dialogo Creazione rapida: Membro del team di progetto](media/Resource-Management-image24.png)
 
@@ -140,7 +140,7 @@ In PSA, puoi creare attività e quindi assegnarvi risorse generiche. In questo m
 
     ![Membro del team generico assegnato all'attività](media/Resource-Management-image25.png)
 
-    Nella scheda **Team** , viene visualizzato il nuovo membro del team generico. Nota che ha solo ore assegnate. Queste ore sono la somma di tutte le attività assegnate al membro del team generico. Il membro del team generico non ha ancora ore richieste o un requisito di risorsa.
+    Nella scheda **Team**, viene visualizzato il nuovo membro del team generico. Nota che ha solo ore assegnate. Queste ore sono la somma di tutte le attività assegnate al membro del team generico. Il membro del team generico non ha ancora ore richieste o un requisito di risorsa.
 
     ![Membro del team generico nella scheda Team](media/Resource-Management-image26.png)
 
@@ -150,7 +150,7 @@ In PSA, puoi creare attività e quindi assegnarvi risorse generiche. In questo m
 
     Al termine dell'assegnazione della risorsa generica alle attività, puoi generare un requisito di risorsa per la risorsa generica.
 
-5. Nella scheda **Team** , seleziona la risorsa generica e quindi seleziona **Genera requisito**.
+5. Nella scheda **Team**, seleziona la risorsa generica e quindi seleziona **Genera requisito**.
 
     ![Comando Genera requisito](media/Resource-Management-image28.png)
 
@@ -162,7 +162,7 @@ In PSA, puoi creare attività e quindi assegnarvi risorse generiche. In questo m
 
     ![Risorsa generica sostituita dalla risorsa denominata](media/Resource-Management-image30.png)
 
-    Nella scheda **Pianifica** , le assegnazioni della risorsa generica vengono rimosse e sostituite dalla risorsa denominata.
+    Nella scheda **Pianifica**, le assegnazioni della risorsa generica vengono rimosse e sostituite dalla risorsa denominata.
 
     ![Assegnazioni della risorsa generica sostituite dalla risorsa denominata nella scheda Pianifica](media/Resource-Management-image31.png)
 
@@ -181,11 +181,11 @@ In PSA, puoi creare attività e quindi assegnarvi risorse generiche. In questo m
 
     ![Seconda risorsa](media/Resource-Management-image35.png)
 
-    Nella scheda **Team** , puoi ora vedere che la risorsa generica non ha ore richieste, ma che le ore assegnate sono ancora visualizzate con le due risorse denominate che compongono il requisito.
+    Nella scheda **Team**, puoi ora vedere che la risorsa generica non ha ore richieste, ma che le ore assegnate sono ancora visualizzate con le due risorse denominate che compongono il requisito.
 
     ![Due risorse denominate nella scheda Team](media/Resource-Management-image36.png)
 
-    Nella scheda **Pianifica** , la risorsa generica rimane assegnata all'attività.
+    Nella scheda **Pianifica**, la risorsa generica rimane assegnata all'attività.
 
     ![Risorse generiche nella scheda Pianifica](media/Resource-Management-image37.png)
 
@@ -197,7 +197,7 @@ Pertanto, in questi scenari, il responsabile di progetto deve analizzare le molt
 
 Dopo la creazione di un requisito di risorsa, è possibile che un responsabile di progetto o delle risorse desideri modificare i dettagli per perfezionare i criteri di ricerca quando si utilizza la scheda di pianificazione. Per modificare il requisito di risorsa, procedi come descritto di seguito.
 
-1. Nella pagina **Progetti** , nella scheda **Team** , seleziona il collegamento a qualsiasi requisito di una risorsa generica.
+1. Nella pagina **Progetti**, nella scheda **Team**, seleziona il collegamento a qualsiasi requisito di una risorsa generica.
 2. Nella pagina **Requisito di risorsa** che viene visualizzata, puoi aggiornare vari attributi. Di seguito sono riportati alcuni esempi.
 
     - Nome
@@ -206,7 +206,7 @@ Dopo la creazione di un requisito di risorsa, è possibile che un responsabile d
     - Durata
     - Tipo di risorsa
 
-Nella pagina **Requisito di risorsa** , il responsabile di progetto o delle risorse può anche definire le informazioni seguenti:
+Nella pagina **Requisito di risorsa**, il responsabile di progetto o delle risorse può anche definire le informazioni seguenti:
 
 - Competenze
 - Ruoli
@@ -217,7 +217,7 @@ Nella pagina **Requisito di risorsa** , il responsabile di progetto o delle riso
 
 Dopo aver aggiunto una risorsa generica o denominata a un team di progetto, puoi modificare le prenotazioni delle risorse.
 
-1. Nella pagina **Progetti** , nella scheda **Team** , seleziona un membro del team e quindi seleziona **Gestisci prenotazioni**.
+1. Nella pagina **Progetti**, nella scheda **Team**, seleziona un membro del team e quindi seleziona **Gestisci prenotazioni**.
 
     ![Scheda di pianificazione aperta per il membro del team selezionato](media/Resource-Management-image40.png)
 
@@ -286,7 +286,7 @@ Seleziona **Accetta tutte le proposte** per accettare tutte le risorse proposte 
 
 Talvolta, un responsabile di progetto deve sostituire un membro del team prenotato in un progetto.
 
-1. Nella pagina **Progetti** , nella scheda **Team** , seleziona la risorsa che deve essere sostituita, quindi seleziona **Gestisci prenotazioni**.
+1. Nella pagina **Progetti**, nella scheda **Team**, seleziona la risorsa che deve essere sostituita, quindi seleziona **Gestisci prenotazioni**.
 2. Espandi la risorsa per visualizzare i progetti a cui è assegnata.
 
     ![Risorsa espansa per visualizzare i progetti assegnati](media/Resource-Management-image50.png)
@@ -337,7 +337,7 @@ Quando visualizzi il tempo a livelli superiori, le celle nella scheda **Riconcil
 
 ![Indicatore di differenza](media/Resource-Management-image57.png)
 
-Se sono presenti assegnazioni di attività per una risorsa ma nessuna prenotazione, nella pagina **Progetti** , nella scheda **Riconciliazione** , seleziona la prenotazione insufficiente e quindi seleziona **Estendi prenotazione**. Viene visualizzata la finestra di dialogo **Estendi prenotazione** che mostra la prenotazione necessaria per compensare la mancanza della risorsa. Mostra inoltre le prenotazioni esistenti della risorsa in tutti i progetti o altre entità pianificabili. Se selezioni **OK** per creare la prenotazione della risorsa, indipendentemente dalla disponibilità di quella risorsa, è possibile che si abbia una sovraprenotazione.
+Se sono presenti assegnazioni di attività per una risorsa ma nessuna prenotazione, nella pagina **Progetti**, nella scheda **Riconciliazione**, seleziona la prenotazione insufficiente e quindi seleziona **Estendi prenotazione**. Viene visualizzata la finestra di dialogo **Estendi prenotazione** che mostra la prenotazione necessaria per compensare la mancanza della risorsa. Mostra inoltre le prenotazioni esistenti della risorsa in tutti i progetti o altre entità pianificabili. Se selezioni **OK** per creare la prenotazione della risorsa, indipendentemente dalla disponibilità di quella risorsa, è possibile che si abbia una sovraprenotazione.
 
 ![Finestra di dialogo Estendi prenotazione](media/Resource-Management-image58.png)
 

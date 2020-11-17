@@ -1,23 +1,30 @@
 ---
-title: Applicare i dati di configurazione e la configurazione dimostrativa
+title: Applicare i dati di configurazione e la configurazione dimostrativa - semplice
 description: Questo argomento fornisce informazioni su come applicare la configurazione dimostrativa i dati di configurazione in Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 11/04/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 33b85115963f3561718b8951e5b518fd34de7723
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 5cfc270c07a568d692f6cd180b9c367ae185044c
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078741"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401268"
 ---
-# <a name="apply-demo-setup-and-configuration-data-for-project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Applica la configurazione demo e i dati di configurazione per la distribuzione semplice di Project Operations: accordo per la fatturazione proforma
+# <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Applicare i dati di configurazione e la configurazione dimostrativa per Project Operations - semplice 
 
 _**Distribuzione semplice: accordo per la fatturazione proforma_
+
+## <a name="prerequisites"></a>Prerequisiti
+
+Prima di iniziare la configurazione, è necessario disporre di un ambiente Common Data Service (CDS) con provisioning per Dynamics 365 Project Operations.
+
+
+## <a name="instructions"></a>Istruzioni
 
 1. Scarica il [Pacchetto dati master](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData%20-%20CE%20only%20CMT.zip). 
 2. Vai alla cartella *ProjOpsDemoDataSetupAndMaster - Integrated CMT* ed esegui il file eseguibile *DataMigrationUtility*.
@@ -45,25 +52,25 @@ _**Distribuzione semplice: accordo per la fatturazione proforma_
 10. L'importazione verrà eseguita per circa due-dieci minuti a seconda della velocità della rete. Al termine dell'operazione, esci dalla procedura guidata CMT. 
 11. Nella tua organizzazione controlla i dati nelle seguenti 20 entità:
 
-- Valuta
-- Unità organizzativa
-- Contatto
-- Gruppo imposte
-- Gruppo clienti
-- Unità
-- Unità di vendita
-- Listino prezzi
-- Listino prezzi di parametro progetto
-- Frequenza di fatturazione
-- Dettagli di frequenza di fatturazione
-- Categoria di risorsa prenotabile
-- Categoria di transazione
-- Categoria di spesa
-- Prezzo ruolo
-- Prezzo categoria di transazione
-- Caratteristica
-- Risorsa prenotabile
-- Associazione categoria di risorsa prenotabile
-- Caratteristica di risorsa prenotabile
+-   Valuta
+-   Conto
+-   Unità organizzativa
+-   Contatto
+-   Gruppo imposte
+-   Gruppo clienti
+-   Unità
+-   Unità di vendita
+-   Listino prezzi
+-   Listino prezzi di parametro progetto 
+-   Frequenza di fatturazione
+-   Categoria di risorsa prenotabile
+-   Categoria di transazione
+-   Categoria di spesa
+-   Prezzo ruolo
+-   Prezzo categoria di transazione
+-   Caratteristica
+-   Risorsa prenotabile
+-   Associazione categoria di risorsa prenotabile
+-   Caratteristica di risorsa prenotabile
 
 ![Completare l'importazione](./media/6CompleteImport.png)

@@ -1,21 +1,21 @@
 ---
-title: Righe di opportunità basate su progetto (Pro)
+title: Righe di opportunità basate su progetto - semplice
 description: In questo argomento vengono fornite informazioni sulle righe di opportunità basate su progetto. (Pro)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1a688b9bed5a38e7b5947cbcee1e3cb8ab211e98
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: bba555003b76e3e87412679b274f74f68ac7203b
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078801"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181010"
 ---
-# <a name="project-based-opportunity-lines-pro"></a>Righe di opportunità basate su progetto (Pro)
+# <a name="project-based-opportunity-lines---lite"></a>Righe di opportunità basate su progetto - semplice
 
 _**Si applica a:** Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
@@ -25,7 +25,7 @@ Le righe di opportunità basate su progetto sono le voci che verranno consegnate
 
 Di seguito sono riportati i campi in una riga di opportunità basata su progetto:
 
-| **Campo** | **Luogo** | **Pertinenza, scopo e indicazioni** | **Impatto downstream** |
+| **Campo** | **Luogo** | **Descrizione** | **Impatto downstream** |
 | --- | --- | --- | --- |
 | Tipo di prodotto | Scheda Generale (nascosta) | Puoi selezionare una delle opzioni seguenti:</br>- Servizio basato sul progetto (disponibile solo quando è installato Dynamics 365 Project Operations)</br>- Prodotto (disponibile solo quando sono installati Project Operations e Dynamics 365 Sales) | Il valore di questo campo è impostato su **Servizio basato sul progetto** quando si crea una riga di opportunità basata su progetto dalla griglia delle righe basate su progetto nell'opportunità. <br> Se modifichi o sostituisci questo valore, la funzionalità del progetto non sarà abilitata sulle voci basate su progetto. |
 | Opportunità | Scheda Generale | Questo campo è di sola lettura e fa riferimento al record di opportunità padre a cui appartiene questa voce. | Non vi è alcun impatto downstream da questo campo. |

@@ -3,7 +3,7 @@ title: Novità o modifiche nella versione di aggiornamento 20 di Project Service
 description: Questo argomento elenca le funzionalità e le correzioni disponibili nella versione di aggiornamento 20 di Project Service Automation V3
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 06/12/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 12edae76dbc6de63d3e2d36058c4092f80ede77d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ef24c20f3fa520b25a14773a15363a0f04f98d36
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078825"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126758"
 ---
 # <a name="project-service-automation-update-release-20-v3"></a>Versione di aggiornamento di Project Service Automation 20, V3
 
@@ -48,7 +48,7 @@ Sono stati risolti i seguenti problemi:
 
 Sono stati risolti i seguenti problemi:
 
-- Sul modulo **Contratto** , fai doppio clic su **Crea fattura** crea due fatture per un singolo record effettivo.
+- Sul modulo **Contratto**, fai doppio clic su **Crea fattura** crea due fatture per un singolo record effettivo.
 - In Internet Explorer 11, gli utenti non sono in grado di creare voci di spesa.
 - Lo storno del costo e lo storno dei valori effettivi di vendita non fatturati non sono collegati.
 - Il pulsante **Aggiorna valori effettivi** sul modulo **Progetto** non aggiorna **Ore effettive attività**.
@@ -59,4 +59,4 @@ Sono stati risolti i seguenti problemi:
 - Le impostazioni predefinite per i valori delle unità e delle unità di vendita non vengono applicate correttamente per le categorie di spesa nei moduli **Dettagli voce di contratto** e **Dettagli riga di offerta**.
 - Gli elenchi **Prezzo di costo unità organizzativa** consentono sovrapposizioni della data di validità.
 - Gli utenti non sono autorizzati a modificare **OrgUnit** quando il tipo di ordine non è basato sul lavoro perché questa operazione genererà un errore di eccezione di riferimento Null.
-- Quando si tenta di passare dal modulo **Dettagli riga di offerta** , indietro nella scheda **Offerta** , il modulo si aggiorna e visualizza la scheda **Riepilogo**.
+- Quando si tenta di passare dal modulo **Dettagli riga di offerta**, indietro nella scheda **Offerta**, il modulo si aggiorna e visualizza la scheda **Riepilogo**.

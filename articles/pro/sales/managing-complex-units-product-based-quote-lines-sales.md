@@ -1,21 +1,21 @@
 ---
-title: Gestione di unità complesse come per utente, per mese per le righe di offerta basate su prodotto
+title: Gestione di unità complesse come per utente, per mese per le righe di offerta basate su prodotto - semplice
 description: Questo argomento fornisce informazioni sulla gestione di unità complesse per le righe di offerta basate su prodotto.
 author: rumant
 manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 741230e69302138cce8f7379f520f7178e1c80af
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2ee46da2f663ef4f5f8fc7f9f89b6fcfd09a1798
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078808"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175581"
 ---
-# <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines"></a>Gestione di unità complesse come per utente, per mese per le righe di offerta basate su prodotto
+# <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines---lite"></a>Gestione di unità complesse come per utente, per mese per le righe di offerta basate su prodotto - semplice
 
 _**Si applica a:** Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
@@ -29,8 +29,8 @@ Project Operations verifica che solo le proprietà numeriche o le proprietà di 
 
 Ad esempio, Dynamics 365 Sales potrebbe avere le proprietà seguenti:
 
-- **N. di utenti** : il numero di utenti
-- **N. di mesi** : il numero di mesi di sottoscrizione
+- **N. di utenti**: il numero di utenti
+- **N. di mesi**: il numero di mesi di sottoscrizione
 - **SKU prodotto**
 
 Le proprietà **N. di utenti** e **N. di mesi** possono essere contrassegnate come fattori di quantità modificando le proprietà della riga prodotto.

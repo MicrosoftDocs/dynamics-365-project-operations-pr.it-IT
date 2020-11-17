@@ -3,7 +3,7 @@ title: Unità di vendita e unità
 description: In questo argomento vengono fornite informazioni su unità di vendita e unità.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 78f154856acf796f408491c5873cb29da8ac55bb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 58ce821d11d729f6e2c33e5a50344458e395db4d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078892"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130583"
 ---
 # <a name="unit-groups-and-units"></a>Unità di vendita e unità
 
@@ -33,16 +33,16 @@ Le unità di vendita e le unità sono entità di base in Microsoft Dynamics 365.
 
 Di seguito sono riportati alcuni esempi di unità e unità di vendita:
  
-- **Unità di vendita** : distanza 
-    - **Unità** : miglio, chilometro e così via.
-- **Unità di vendita** : tempo
-    - **Unità** : ora, giorno, settimana e così via. 
+- **Unità di vendita**: distanza 
+    - **Unità**: miglio, chilometro e così via.
+- **Unità di vendita**: tempo
+    - **Unità**: ora, giorno, settimana e così via. 
 
 Quando imposti molteplici unità in un'unità di vendita, devi anche impostare un fattore di conversione tra le stesse designando la prima unità che hai configurato come unità predefinita o primaria per l'unità di vendita. 
 
-Ad esempio, in un'unità di vendita **Tempo** , se imposti **Ora** come prima unità, il sistema designa **Ora** come unità predefinita. Se l'unità seguente impostata è **Giorno** , devi impostare un fattore di conversione da **Giorno** a **Ora**. Se quindi aggiungi **Settimana** come terza unità, devi impostare un fattore di conversione per **Settimana** in termini di **Giorno** o **Ora**. 
+Ad esempio, in un'unità di vendita **Tempo**, se imposti **Ora** come prima unità, il sistema designa **Ora** come unità predefinita. Se l'unità seguente impostata è **Giorno**, devi impostare un fattore di conversione da **Giorno** a **Ora**. Se quindi aggiungi **Settimana** come terza unità, devi impostare un fattore di conversione per **Settimana** in termini di **Giorno** o **Ora**. 
 
-L'immagine seguente mostra un esempio di impostazione per l'unità **Giorno** , dove il campo **Quantità** mostra il numero di ore in un giorno, e **Settimana** , dove il campo **Quantità** mostra il numero di giorni in una settimana.
+L'immagine seguente mostra un esempio di impostazione per l'unità **Giorno**, dove il campo **Quantità** mostra il numero di ore in un giorno, e **Settimana**, dove il campo **Quantità** mostra il numero di giorni in una settimana.
 
 > ![Unità di vendita: pagina Informazioni](media/advanced-2.png)
 
@@ -52,7 +52,7 @@ Dynamics 365 Project Service Automation utilizza unità e unità di vendita per 
 
 Per le spese, ogni categoria di spesa include un'unità di vendita e un'unità predefinite. Tali valori vengono immessi come valori predefiniti nelle voci di listino prezzi per le categorie di spesa. 
 
-Ad esempio, hai una categoria di spesa denominata **Indennità trasferta** Questa categoria ha un'unità di vendita denominata **Distanza** e un'unità predefinita denominata **Miglio**. Se imposti l'unità di vendita **Distanza** in modo da avere due unità ( **Miglio** e **Chilometro** ), puoi impostare due prezzi per la categoria **Indennità trasferta** in un listino prezzi: prezzo al miglio e prezzo al chilometro.
+Ad esempio, hai una categoria di spesa denominata **Indennità trasferta** Questa categoria ha un'unità di vendita denominata **Distanza** e un'unità predefinita denominata **Miglio**. Se imposti l'unità di vendita **Distanza** in modo da avere due unità (**Miglio** e **Chilometro**), puoi impostare due prezzi per la categoria **Indennità trasferta** in un listino prezzi: prezzo al miglio e prezzo al chilometro.
 
 | Categoria di spesa  | Unità di vendita  | Unità      | Metodo di determinazione dei prezzi  | Prezzo unitario  |
 |-------------------|---------------|-----------|-------------------|-------------------|
@@ -72,17 +72,17 @@ Le righe di stima per il campo **Tempo in offerta** possono essere espresse in q
 L'esempio seguente illustra come PSA utilizza l'unità di vendita, le unità e i fattori di conversione.
 - Unità
 
-   - **Unità di vendita** : tempo 
-   - **Unità** : ora 
+   - **Unità di vendita**: tempo 
+   - **Unità**: ora 
     
     - **Giorno** - Fattore di conversione: 8 ore       
     - **Settimana** - Fattore di conversione: 40 ore  
         
 - Configurazione listino prezzi nel progetto A:
 
-    - **Nome** : prezzi di vendita Regno Unito 2016 
-    - **Unità di tempo predefinita** : giorno 
-    - **Valuta** : GBP
+    - **Nome**: prezzi di vendita Regno Unito 2016 
+    - **Unità di tempo predefinita**: giorno 
+    - **Valuta**: GBP
 
 | Ruolo      | Unità di vendita | Unità | Unità organizzativa | Prezzo   |
 |-----------|------------|------|---------------------|---------|
@@ -109,4 +109,4 @@ In alcuni paesi o aree geografiche, per legge è necessario configurare i tassi 
 N. La stima di pianificazione è attualmente limitata alle ore e non può essere modificata.
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>È possibile modificare, eliminare e aggiungere unità e unità di vendita?
-Sì. Con l'eccezione dell'unità di vendita **Tempo** e dell'unità **Ora** , tutte le unità possono essere modificate, eliminate e aggiunte. In PSA, l'unità di vendita **Tempo** e l'unità **Ora** non possono essere eliminate. Tuttavia, possono essere aggiornate con un testo tradotto per il campo **Nome**.
+Sì. Con l'eccezione dell'unità di vendita **Tempo** e dell'unità **Ora**, tutte le unità possono essere modificate, eliminate e aggiunte. In PSA, l'unità di vendita **Tempo** e l'unità **Ora** non possono essere eliminate. Tuttavia, possono essere aggiornate con un testo tradotto per il campo **Nome**.

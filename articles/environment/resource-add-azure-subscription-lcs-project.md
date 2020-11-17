@@ -1,21 +1,21 @@
 ---
-title: Aggiungere una sottoscrizione di Azure al progetto LCS
+title: Aggiungere una sottoscrizione di Azure a un progetto LCS
 description: Questo argomento fornisce informazioni su come connettere la sottoscrizione di Azure a un progetto LCS.
 author: sigitac
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 0b5703542ac58adcc710890d9676dd0090a82f25
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: e741f35f9b229d2897cec06054d91ae620397228
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078747"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175806"
 ---
-# <a name="add-an-azure-subscription-to-lcs-project"></a>Aggiungere una sottoscrizione di Azure al progetto LCS
+# <a name="add-an-azure-subscription-to-an-lcs-project"></a>Aggiungere una sottoscrizione di Azure a un progetto LCS
 
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati_
 
@@ -23,11 +23,11 @@ Gli ambienti ospitati su cloud devono essere distribuiti utilizzando una sottosc
 
 ## <a name="grant-admin-consent"></a>Concedere il consenso amministratore
 
-1. Nel progetto LCS, nella sezione **Ambienti** , seleziona **Impostazioni di Microsoft Azure**.
+1. Nel progetto LCS, nella sezione **Ambienti**, seleziona **Impostazioni di Microsoft Azure**.
 
 ![Impostazioni Microsoft Azure](./media/1MicrosoftAzureSettings.png)
 
-2. Nella pagina **Impostazioni progetto** , nella scheda **Connettori di Azure** , seleziona **Autorizza**. Ciò consente di distribuire gli ambienti a questo progetto.
+2. Nella pagina **Impostazioni progetto**, nella scheda **Connettori di Azure**, seleziona **Autorizza**. Ciò consente di distribuire gli ambienti a questo progetto.
 
 ![Connettori di Azure](./media/2AzureConnectors.png)
 
@@ -57,11 +57,11 @@ L'autorizzazione è ora completa.
 
 ### <a name="add-a-subscription-connector-to-an-lcs-project"></a>Aggiungere un connettore di sottoscrizione a un progetto LCS
 
-1. Nel progetto LCS, nella pagina **Impostazioni di Microsoft Azure** , seleziona **Aggiungi** per aggiungere un nuovo connettore.
+1. Nel progetto LCS, nella pagina **Impostazioni di Microsoft Azure**, seleziona **Aggiungi** per aggiungere un nuovo connettore.
 2. Immetti l'ID sottoscrizione di Azure. È possibile trovare l'ID della sottoscrizione di Azure nel [portale di Azure](https://ms.portal.azure.com/), sotto **Impostazioni** in basso a sinistra dello schermo.
-3. Nel campo **Configura per l'utilizzo di Azure Resource Manager** , seleziona **Sì**.
+3. Nel campo **Configura per l'utilizzo di Azure Resource Manager**, seleziona **Sì**.
 4. Assicurati che il dominio tenant AAD della sottoscrizione di Azure corrisponda alla sottoscrizione di Azure proprietaria del dominio che stai utilizzando e seleziona **Avanti**.
-5. Nella schermata **Impostazione di Microsoft Azure** , seleziona **Avanti** per confermare. Se ricevi un errore in questa schermata, torna alla sezione [Fornire l'accesso a Servizi di distribuzione Dynamics alla sottoscrizione di Azure](#provide) in questo argomento e assicurati di aver completato tutti i passaggi.
+5. Nella schermata **Impostazione di Microsoft Azure**, seleziona **Avanti** per confermare. Se ricevi un errore in questa schermata, torna alla sezione [Fornire l'accesso a Servizi di distribuzione Dynamics alla sottoscrizione di Azure](#provide) in questo argomento e assicurati di aver completato tutti i passaggi.
 6. Scarica il certificato di gestione di Azure in una cartella locale nel computer e quindi caricalo nel portale di gestione di Azure andando a **Impostazioni** > **Certificati di gestione**. Questo certificato consentirà a LCS di comunicare con Azure. Puoi saltare questo passaggio se il tuo utente ha accesso alla sottoscrizione.
 7. Seleziona **Avanti**.
 8. Seleziona l'area di Azure in cui eseguire la distribuzione e seleziona un data center vicino al luogo in cui prevedi di utilizzare questo sistema.

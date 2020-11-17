@@ -1,21 +1,21 @@
 ---
-title: Configurare i componenti addebitabili di una riga di offerta
+title: Configurare i componenti addebitabili di una riga di offerta - semplice
 description: Questo argomento fornisce informazioni sulla configurazione dei componenti addebitabili e non addebitabili di una riga di offerta basata su progetto.
 author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e0b64d7edb21df127bf7544f044de7f3c496dfe3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b5d751ecd66975135c4afd5f18e896251ff34990
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078997"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177111"
 ---
-# <a name="configure-the-chargeable-components-of-a-quote-line"></a>Configurare i componenti addebitabili di una riga di offerta
+# <a name="configure-the-chargeable-components-of-a-quote-line---lite"></a>Configurare i componenti addebitabili di una riga di offerta - semplice
 
 _**Si applica a:** Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
@@ -44,9 +44,9 @@ L'esigibilità è definita nelle categorie di transazione per una riga di offert
 
 Un'attività di progetto può essere addebitabile o non addebitabile nel contesto di una specifica riga di offerta basata su progetto, il che rende possibile la seguente configurazione:
 
-Se una riga di offerta basata su progetto include **Tempo** e l'attività **T1** , l'attività è associata alla riga di offerta come addebitabile. Se è presente una seconda riga di offerta che include **Spese** , puoi associare l'attività **T1** nella riga di offerta come non addebitabile. Il risultato è che tutto il tempo registrato sull'attività è addebitabile e tutte le spese registrate sull'attività non sono addebitabili.
+Se una riga di offerta basata su progetto include **Tempo** e l'attività **T1**, l'attività è associata alla riga di offerta come addebitabile. Se è presente una seconda riga di offerta che include **Spese**, puoi associare l'attività **T1** nella riga di offerta come non addebitabile. Il risultato è che tutto il tempo registrato sull'attività è addebitabile e tutte le spese registrate sull'attività non sono addebitabili.
 
-Il tipo di fatturazione di un'attività può essere configurato nella scheda **Attività addebitabili** di una riga di offerta basata su progetto aggiornando il campo **Tipo di fatturazione** nella griglia secondaria **Attività riga di offerta**. In alternativa, puoi aggiornare il tipo di fatturazione per un'attività di progetto nel campo **Tipo di fatturazione** nella griglia secondaria dell'impostazione della fatturazione di attività di un progetto che mostra le righe di offerta associate a un'attività.
+Il tipo di fatturazione di un'attività può essere configurato nella scheda **Attività addebitabili** di una riga di offerta basata su progetto aggiornando il campo **Tipo di fatturazione** nella griglia secondaria **Attività riga offerta**. In alternativa, puoi aggiornare il tipo di fatturazione per un'attività di progetto nel campo **Tipo di fatturazione** nella griglia secondaria dell'impostazione fatturazione attività di un progetto che mostra le righe di offerta associate a un'attività.
 
 ### <a name="update-a-role-to-be-chargeable-or-non-chargeable"></a>Aggiornare un ruolo in modo che sia addebitabile o non addebitabile
 
@@ -61,9 +61,9 @@ Una categoria di transazione può essere addebitabile o non addebitabile su una 
 Il tipo di fatturazione di una transazione può essere configurato nella scheda **Categorie addebitabili** di una riga di offerta aggiornando il campo **Tipo di fatturazione** nella griglia secondaria **Categorie addebitabili**.
 
 ### <a name="resolve-chargeability"></a>Risolvere l'esigibilità
-Una stima o un valore effettivo creato per il tempo sarà considerato addebitabile solo se il **tempo** è incluso nella voce di contratto e se l' **attività** e il **ruolo** sono configurati come addebitabili nella riga di offerta.
+Una stima o un valore effettivo creato per il tempo sarà considerato addebitabile solo se il **tempo** è incluso nella voce di contratto e se l'**attività** e il **ruolo** sono configurati come addebitabili nella riga di offerta.
 
-Una stima o un valore effettivo creato per la spesa sarà considerato addebitabile solo se la **spesa** è inclusa nella riga di offerta e se l' **attività** e la **categoria di transazioni** sono configurati come addebitabili nella riga di offerta.
+Una stima o un valore effettivo creato per la spesa sarà considerato addebitabile solo se la **spesa** è inclusa nella riga di offerta e se l'**attività** e la **categoria di transazioni** sono configurati come addebitabili nella riga di offerta.
 
 | Include il tempo | Include la spesa | Attività incluse | Ruolo | Categoria. | Attività | Fatturazione |
 | --- | --- | --- | --- | --- | --- | --- |

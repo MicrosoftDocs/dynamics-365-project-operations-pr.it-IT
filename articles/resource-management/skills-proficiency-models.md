@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 4c814754e68b3a1a8bf8784434d45010bf8d0123
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 1d04148f2e0953744da5ca32aa9062e3ae9530e7
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078793"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128873"
 ---
 # <a name="skills-and-certifications"></a>Competenze e certificazioni
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione semplice: dalla transazione alla fatturazione proforma_
@@ -39,7 +39,7 @@ L'aggiunta di caratteristiche ai requisiti di risorsa consente di documentare le
 ## <a name="assign-characteristics-to-resource-requirements"></a>Assegnare caratteristiche ai requisiti di risorsa
 
 1. Nella griglia dei membri del team, trova e fai doppio clic sul membro generico del team con le caratteristiche che devono essere aggiornate.
-2. In **Dettaglio membro del team di progetto** , seleziona la scheda **Requisito di risorsa**.
-3. Nella griglia secondaria **Competenze** , seleziona **+Aggiungi nuova caratteristica requisito**.
+2. In **Dettaglio membro del team di progetto**, seleziona la scheda **Requisito di risorsa**.
+3. Nella griglia secondaria **Competenze**, seleziona **+Aggiungi nuova caratteristica requisito**.
 4. Nel riquadro Creazione rapida, trova e seleziona le caratteristiche richieste e aggiungi un **Valore di classificazione**.
 5. Seleziona **Salva e chiudi**.

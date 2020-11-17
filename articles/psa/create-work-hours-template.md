@@ -3,7 +3,7 @@ title: Creare un modello di ore lavorative
 description: Come creare un modello delle ore lavorative in Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c34634817fc8e4c993261024a8b19d45052bf5e5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a0fce327587940e557e0214c8c0897116ac91901
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078886"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133058"
 ---
 # <a name="create-a-work-hours-template-project-service"></a>Creare un modello delle ore lavorative (Project Service)
 
@@ -45,7 +45,7 @@ Prima di creare le pianificazioni di progetto, devi impostare un calendario di p
   
 2.  Seleziona la risorsa su cui desideri basare le ore lavorative.  
   
-3.  Fai clic su **Salva calendario con nome** , inserisci un nome per il modello delle ore lavorative e quindi fai clic su **Salva**.  
+3.  Fai clic su **Salva calendario con nome**, inserisci un nome per il modello delle ore lavorative e quindi fai clic su **Salva**.  
   
 4.  Una volta completata la modifica delle opzioni, fai clic su **Salva e chiudi**.  
   

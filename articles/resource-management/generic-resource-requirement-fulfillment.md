@@ -5,15 +5,15 @@ author: ruhercul
 manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 6bb7c185656ff87bb3ca24209594c07d25862d70
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c4d02fd589d4a5d39380688852377f57fceb05b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078821"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130313"
 ---
 # <a name="generic-resource-requirement-fulfillment"></a>Soddisfare i requisiti generici delle risorse
 
@@ -21,9 +21,9 @@ _**Si applica a:** Project Operations per scenari basati su risorse/non stoccate
 
 Puoi prenotare una risorsa denominata per sostituire una risorsa generica che ha un requisito di risorsa.
 
-1. Nella pagina **Progetti** , seleziona la scheda **Team**.
+1. Nella pagina **Progetti**, seleziona la scheda **Team**.
 2. Seleziona la risorsa generica che ha un requisito di risorsa nell'elenco e seleziona **Prenota**. Oppure apri il requisito di risorsa e seleziona **Prenota**.
-3. Nella pagina **Assistente di pianificazione** , seleziona una risorsa denominata per prenotarla per il team di progetto e seleziona **Prenota**.
+3. Nella pagina **Assistente di pianificazione**, seleziona una risorsa denominata per prenotarla per il team di progetto e seleziona **Prenota**.
 
 Al termine della prenotazione di una risorsa denominata, questa sostituisce la risorsa generica.
 

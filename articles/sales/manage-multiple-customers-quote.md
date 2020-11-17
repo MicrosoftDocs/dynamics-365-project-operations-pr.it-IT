@@ -1,21 +1,21 @@
 ---
-title: Gestire più clienti nelle offerte di progetto
+title: Gestire più clienti in un'offerta di progetto
 description: Questo argomento fornisce informazioni su come utilizzare offerte che interessano più clienti che finanzieranno il progetto.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8b1d9284c063e34e34ec6525072a1f8f860116b6
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 67e927962feb248aa7f07a69463b433e1ec89761
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078730"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181997"
 ---
-# <a name="manage-multiple-customers-on-project-quotes"></a>Gestire più clienti nelle offerte di progetto
+# <a name="manage-multiple-customers-on-a-project-quote"></a>Gestire più clienti in un'offerta di progetto
 
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
@@ -29,13 +29,13 @@ I clienti dell'offerta e quelli della riga dell'offerta possono essere aggiunti,
 
 Il cliente elencato nella scheda **Riepilogo** dell'offerta di progetto come potenziale cliente è il cliente primario dell'offerta. Se si tenta di eliminare il cliente primario dall'elenco dei clienti nell'offerta, verrà visualizzato un errore relativo all'impossibilità di eliminare un record del cliente primario in un'offerta.
 
-Il cliente primario non deve essere aggiornato dall'elenco dei clienti nell'offerta. Tuttavia, puoi determinare il cliente primario modificando il potenziale cliente nella scheda **Riepilogo** dell'offerta. Quando questo campo viene aggiornato in **Riepilogo offerta** , il potenziale cliente appena selezionato viene aggiunto come nuovo cliente dell'offerta con il contrassegno **Primario** impostato. Il vecchio potenziale cliente sarà ancora un cliente dell'offerta.
+Il cliente primario non deve essere aggiornato dall'elenco dei clienti nell'offerta. Tuttavia, puoi determinare il cliente primario modificando il potenziale cliente nella scheda **Riepilogo** dell'offerta. Quando questo campo viene aggiornato in **Riepilogo offerta**, il potenziale cliente appena selezionato viene aggiunto come nuovo cliente dell'offerta con il contrassegno **Primario** impostato. Il vecchio potenziale cliente sarà ancora un cliente dell'offerta.
 
 ## <a name="create-update-or-delete-a-quote-customer-record"></a>Creare, aggiornare o eliminare un record del cliente dell'offerta
 
 Un cliente dell'offerta può essere creato, aggiornato o eliminato dalla scheda **Clienti offerta** nella pagina **Offerta**. I campi elencati nella tabella seguente si trovano nel record del cliente dell'offerta di un'offerta di progetto.
 
-| **Campo** | **Luogo** | **Pertinenza, scopo e indicazioni** | **Impatto downstream** |
+| **Campo** | **Luogo** | **Descrizione** | **Impatto downstream** |
 | --- | --- | --- | --- |
 | Conto | Griglia modificabile nella scheda **Clienti offerta** e i moduli **Principale** e **Creazione rapida** per un cliente dell'offerta. | Elenca tutti gli account attivi. Questo campo è bloccato dopo la creazione del record. Se desideri aggiornarlo, elimina il record e ricrealo. Se sono stati registrati valori effettivi o se il record del cliente dell'offerta è un cliente primario, sarà possibile eliminare il record. | I clienti dell'offerta vengono copiati come clienti della riga dell'offerta quando viene creata una riga dell'offerta. I clienti dell'offerta vengono copiati anche nei clienti del contratto di progetto quando un'offerta viene acquisita. |
 | Percentuale di suddivisione fatturazione | Griglia modificabile nella scheda **Clienti offerta** e i moduli **Principale** e **Creazione rapida** per un cliente dell'offerta. | Rappresenta la percentuale di ciascuna transazione di vendita non fatturata che verrà attribuita a questo cliente dell'offerta. | Copiato nelle nuove righe dell'offerta create e nei clienti del contratto di progetto. |
@@ -50,4 +50,4 @@ Un cliente dell'offerta può essere creato, aggiornato o eliminato dalla scheda 
 
 Puoi modificare le percentuali di suddivisione della fatturazione utilizzando l'esperienza di modifica della griglia in linea. Quando le percentuali di suddivisione della fatturazione non raggiungono il 100%, si verifica un errore. Dopo aver aggiornato le percentuali di suddivisione della fatturazione, aggiorna la pagina per rimuovere l'errore.
 
-Puoi anche provare a selezionare **Distribuzione uniforme** nella griglia secondaria dei clienti dell'offerta. Questa azione assegna le suddivisioni della fatturazione a tutti i clienti dell'offerta. Se è presente un fattore di arrotondamento, verrà aggiunto al cliente di arrotondamento. Uno dei clienti dell'offerta viene sempre contrassegnato come cliente di arrotondamento. Ciò significa che il record del cliente dell'offerta ha il contrassegno **Arrotondamento** impostato su **Sì**. In genere questo è il cliente primario dell'offerta, ma può essere modificato.
+Puoi anche provare a selezionare **Distribuzione uniforme** sulla griglia secondaria dei clienti dell'offerta. Questa azione assegna le suddivisioni della fatturazione a tutti i clienti dell'offerta. Se è presente un fattore di arrotondamento, verrà aggiunto al cliente di arrotondamento. Uno dei clienti dell'offerta viene sempre contrassegnato come cliente di arrotondamento. Ciò significa che il record del cliente dell'offerta ha il contrassegno **Arrotondamento** impostato su **Sì**. In genere questo è il cliente primario dell'offerta, ma può essere modificato.

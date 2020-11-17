@@ -1,21 +1,21 @@
 ---
-title: Gestire lead (Pro)
+title: Gestire i lead - semplice
 description: In questo argomento vengono fornite informazioni sulla gestione dei lead basati su progetto (pro).
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 005e36811643b0b1e98a686792cf39125ae97949
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 00fc16b0e723d4df88ceae961d9772e26dd1451e
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078805"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180512"
 ---
-# <a name="manage-leads-pro"></a>Gestire lead (Pro)
+# <a name="manage-leads---lite"></a>Gestire i lead - semplice
 
 _**Si applica a:** Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
@@ -23,7 +23,7 @@ I lead basati su progetto possono essere gestiti e qualificati in Project Operat
 
 ## <a name="list-of-project-sales-leads"></a>Elenco di lead di progetto
 
-Nella sezione **Vendite** , nel riquadro di spostamento a sinistra, apri la pagina elenco **Lead** per visualizzare un elenco di tutti i record di lead nel sistema. L'elenco dei lead mostrato è basato sul lavoro e altri tipi di lead che possono essere creati se disponi anche delle applicazioni Dynamics 365 Sales o Dynamics 365 Field Service.
+Nella sezione **Vendite**, nel riquadro di spostamento a sinistra, apri la pagina elenco **Lead** per visualizzare un elenco di tutti i record di lead nel sistema. L'elenco dei lead mostrato è basato sul lavoro e altri tipi di lead che possono essere creati se disponi anche delle applicazioni Dynamics 365 Sales o Dynamics 365 Field Service.
 
 Puoi creare un visualizzazione filtrata per vedere solo i lead basati su progetto creando un filtro sul valore **Tipo**. Ad esempio, puoi scegliere di mostrare solo i lead basati sul lavoro.
 
@@ -38,7 +38,7 @@ Affinché un lead qualificato crei automaticamente un'opportunità, imposta l'at
 
 La tabella seguente include importanti informazioni sul campo per un lead e le implicazioni downstream di tali campi.
 
-| **Campo** | **Luogo** | **Pertinenza, scopo e indicazioni** | **Impatto downstream** |
+| **Campo** | **Luogo** | **Descrizione** | **Impatto downstream** |
 | --- | --- | --- | --- |
 | Argomento | Scheda Generale | Questo campo di testo dovrebbe contenere una breve descrizione della transazione. | L'argomento del lead sarà predefinito come l'argomento dell'opportunità e il nome dell'offerta e il contratto di progetto. |
 | Tipo | Scheda Generale | Questo campo di set di opzioni include le seguenti opzioni:</br>- Basato su lavoro (disponibile solo quando è installato Project Operations)</br>- Basato su articolo (disponibile solo quando sono installati Project Operations e Sales)</br>- Basato su manutenzione di servizio (disponibile quando è installato Field Service) | Quando il valore di questo campo è impostato su **Basato sul lavoro** sul lead, il lead è qualificato per creare un'opportunità basata sul progetto. È necessaria un'opportunità basata su progetto per abilitare tutte le estensioni e funzionalità specifiche del progetto nel processo di vendita downstream per questa transazione. |
@@ -53,7 +53,7 @@ I lead che hanno il valore **Tipo** impostato su **Basato su lavoro** sono chiam
 
 - Un account che utilizza il campo **Azienda** dal lead.
 - Un record del contatto associato all'account in base ai valori nei campi **Nome** e **Cognome** sul lead.
-- Un'opportunità basata su progetto che ha il campo **Tipo** impostato su &quot;**Basato sul lavoro**.
+- Un'opportunità basata su progetto che ha il campo **Tipo** impostato su **Basato sul lavoro**.
 
 Per informazioni più dettagliate sulla qualificazione dei lead, vedi [Qualificare o convertire i lead](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 

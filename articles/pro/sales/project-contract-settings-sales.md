@@ -1,21 +1,21 @@
 ---
-title: Campi e informazioni del contratto di progetto
+title: Impostazioni del contratto di progetto - semplice
 description: Questo argomento fornisce informazioni sui campi che influiscono sulle righe del contratto e le informazioni sul contratto che vengono riepilogate in tutte le voci.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 082292c54682022933a4b46b856f9241078a9067
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 28dfb256eb75ca9484161f053969c205fcd60965
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087972"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180918"
 ---
-# <a name="project-contract-fields-and-information"></a>Campi e informazioni del contratto di progetto 
+# <a name="project-contract-settings---lite"></a>Impostazioni del contratto di progetto - semplice
 
 _**Si applica a:** Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
@@ -23,7 +23,7 @@ Questo argomento fornisce informazioni sui campi che si applicano all'intero con
 
 La tabella seguente elenca i campi su un contratto di progetto che sono univoci per Dynamics 365 Project Operations o presentano alcune importanti modifiche nel comportamento rispetto agli ordini di vendita in Dynamics 365 Sales.
 
-| Campo | Ufficio | Pertinenza, scopo e indicazioni | Impatto downstream |
+| Campo | Ufficio | Descrizione | Impatto downstream |
 | --- | --- | --- | --- |
 | Digita | Scheda **Riepilogo** (nascosta) | Questo è un campo di set di opzioni con le seguenti opzioni:</br>- **Basato su lavoro** (disponibile solo quando è installato Project Operations)</br>- **Basato su articolo** (disponibile solo quando sono installati Project Operations e Sales)</br>- **Basato su manutenzione di servizio** (disponibile quando Dynamics 365 Field Service è installato ) | In Project Operations, il valore di questo campo predefinito è **Basato sul lavoro** e classifica il contratto come contratto basato su progetto. Un contratto deve essere basato su progetto per abilitare tutte le estensioni e funzionalità specifiche del progetto. |
 | Potenziale cliente | Scheda **Riepilogo** | Il riferimento alla società o al record di account del cliente. Quando un contratto viene creato da un'offerta, questo campo viene copiato dal campo corrispondente nel record dell'offerta. | La valuta del contratto di progetto viene impostata in modo predefinito in base alla valuta del cliente. Questa impostazione può essere modificata prima di salvare il contratto. |
@@ -36,7 +36,7 @@ La tabella seguente elenca i campi su un contratto di progetto che sono univoci 
 
 I seguenti KPI sono disponibili nella scheda **Prestazioni contratto** di un contratto di progetto.
 
-| Campo | Ufficio | Pertinenza, scopo e indicazioni |
+| Campo | Ufficio | Descrizione |
 | --- | --- | --- |
 | Valore contratto | Contratto generale | Il valore totale del contratto di progetto. |
 | Importo fatturato | Contratto generale | La somma degli importi su tutte le fatture relative a questo contratto. |

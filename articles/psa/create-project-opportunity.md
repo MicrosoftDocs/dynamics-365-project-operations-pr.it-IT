@@ -3,7 +3,7 @@ title: Crea un'opportunità di progetto
 description: Come creare un'opportunità di progetto in Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d822f37b5bb13f9f55355e65be591e7861a64a1f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c51ff895780085ed9f2723da8f505e666af90c42
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079068"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133238"
 ---
 # <a name="create-a-project-opportunity-project-service"></a>Crea un'opportunità di progetto (Project Service)
 
@@ -39,13 +39,13 @@ Le opportunità sono lead di livello medio da parte di clienti interessati a sot
   
 4.  Aggiungere eventuali note e impegni, ad esempio telefonate o e-mail, relativi al lead. Per ulteriori informazioni su come aggiungere note e impegni, vedere [Tenere traccia delle note, delle attività, delle chiamate, o della posta elettronica con gli impegni](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/work-with-activities).  
   
-5.  Per aggiungere le parti interessate, nell'area **Parti interessate** , fai clic su **+**.  
+5.  Per aggiungere le parti interessate, nell'area **Parti interessate**, fai clic su **+**.  
   
-6.  Per aggiungere membri del team di vendita, nell'area **Team di vendita** , fai clic su **+**.  
+6.  Per aggiungere membri del team di vendita, nell'area **Team di vendita**, fai clic su **+**.  
   
-7.  Per aggiungere concorrenti, nell'area **Concorrenti** , fai clic su **+**.  
+7.  Per aggiungere concorrenti, nell'area **Concorrenti**, fai clic su **+**.  
   
-8.  Per aggiungere un prodotto all'opportunità, fai clic su **Nuovo** in **Righe basate su prodotto** nell'area **Righe opportunità**. Seleziona un elemento in **Nome prodotto** , quindi specifica la quantità, il prezzo di vendita e il budget cliente.  
+8.  Per aggiungere un prodotto all'opportunità, fai clic su **Nuovo** in **Righe basate su prodotto** nell'area **Righe opportunità**. Seleziona un elemento in **Nome prodotto**, quindi specifica la quantità, il prezzo di vendita e il budget cliente.  
   
 9. Per aggiungere una stima prodotto all'opportunità, fai clic su **+** in **Righe basate su progetto** nell'area **Righe opportunità**. Immetti il nome, l'importo budget e il progetto, se disponibile. Se devi creare un progetto con una struttura di suddivisione del lavoro per ottenere una stima, vedi [Creare un progetto](../psa/create-project.md).  
   

@@ -3,7 +3,7 @@ title: Prenotare risorse prenotabili denominate per un team di progetto e assegn
 description: In questo argomento vengono fornite informazioni sulla modalità di prenotazione di risorse denominate per team di progetto e sull'assegnazione delle risorse ad attività.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: defc92e701ae6baf9d54f41dca123a09ef834c35
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0300c494a3294b26e2de6bbfa1dd50a76bb72651
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078995"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130178"
 ---
 # <a name="book-named-bookable-resources-to-a-project-team-and-assign-tasks"></a>Prenotare risorse prenotabili denominate per un team di progetto e assegnarvi attività 
 
@@ -32,11 +32,11 @@ ms.locfileid: "4078995"
 Puoi aggiungere una risorsa denominata a un team di progetto prenotandole direttamente nel team. A tale scopo, eseguire la procedura seguente.
 
 1. In Project Service Automation, seleziona **Progetti** e apri il progetto per cui esegui le prenotazioni.
-2. Nella pagina **Progetto** , nella scheda **Team** , fai clic su **Nuovo**. 
+2. Nella pagina **Progetto**, nella scheda **Team**, fai clic su **Nuovo**. 
 
 ![Aggiungere un membro del team dalla scheda Team](media/RM-how-to-1.png)
 
-3. Nella finestra di dialogo **Creazione rapida: Membro del team di progetto** , seleziona la risorsa prenotabile. Il campo **Ruolo** verrà popolato con il ruolo predefinito della risorsa, se a questa ne è stato assegnato uno. Se necessario, puoi cambiare il ruolo. 
+3. Nella finestra di dialogo **Creazione rapida: Membro del team di progetto**, seleziona la risorsa prenotabile. Il campo **Ruolo** verrà popolato con il ruolo predefinito della risorsa, se a questa ne è stato assegnato uno. Se necessario, puoi cambiare il ruolo. 
 4. Seleziona le date di inizio e di fine per la risorsa e quindi il metodo di allocazione della capacità della risorsa. 
 5. Se il membro del team deve essere un responsabile approvazione di progetto, seleziona **Sì** nel campo **Responsabile approvazione di progetto**. Ciò significa che il membro del team può approvare voci di spesa e inserimenti ore inviati per il progetto. 
 6. Fai clic su **Salva**.
@@ -44,7 +44,7 @@ Puoi aggiungere una risorsa denominata a un team di progetto prenotandole dirett
 ![Aggiungere un membro del team nel modulo di creazione rapida](media/RM-how-to-2.png)
 
 
-Ora puoi assegnare la risorsa prenotata ad attività nel progetto. Nella pagina **Progetto** , fai clic sulla scheda **Pianifica** per assegnare attività alla nuova risorsa. Il selettore di risorse eseguito dal campo **Risorse** nella griglia delle attività indicherà i membri del team che è possibile selezionare.
+Ora puoi assegnare la risorsa prenotata ad attività nel progetto. Nella pagina **Progetto**, fai clic sulla scheda **Pianifica** per assegnare attività alla nuova risorsa. Il selettore di risorse eseguito dal campo **Risorse** nella griglia delle attività indicherà i membri del team che è possibile selezionare.
 
 ![Assegnare un membro del team ad un'attività nella scheda Pianifica](media/RM-how-to-3.png)
 

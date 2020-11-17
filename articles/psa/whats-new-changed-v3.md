@@ -2,7 +2,7 @@
 title: Novità o modifiche in Project Service Automation versione 3
 description: Questo argomento fornisce informazioni sulle novità e sulle modifiche in Project Service Automation versione 3.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0c198a0fd293008b73422f3f60ea023f918e0ddc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 46cbbc3ff3b0efcecd3cba30b265a782f6cdcf60
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078838"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120008"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Novità o modifiche in Project Service Automation versione 3
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
@@ -94,7 +94,7 @@ Le stime sono state suddivise in due schede, **Assegnazione risorse** e **Stime*
 
 ![Scheda Assegnazioni risorse con stime del lavoro richiesto e assegnazioni delle risorse per le attività](media/resource-assignments-tab-02.png)
 
-La scheda **Stime** mostra gli importi di costo e di vendite per le assegnazioni delle risorse. Gli importi sono di sola lettura. La determinazione dei costi e quella dei prezzi di vendita sono ora basate sulle assegnazioni dei membri del team nella pianificazione. Ciò significa che se hai un'attività senza assegnazioni, questa viene visualizzata sotto il bucket non assegnato. Ciò significa anche che senza **ruolo** , ovvero una dimensione di determinazione dei prezzi predefinita, non si ha una vendita o un costo stimato se un cliente o un contratto/offerta è associato al progetto. 
+La scheda **Stime** mostra gli importi di costo e di vendite per le assegnazioni delle risorse. Gli importi sono di sola lettura. La determinazione dei costi e quella dei prezzi di vendita sono ora basate sulle assegnazioni dei membri del team nella pianificazione. Ciò significa che se hai un'attività senza assegnazioni, questa viene visualizzata sotto il bucket non assegnato. Ciò significa anche che senza **ruolo**, ovvero una dimensione di determinazione dei prezzi predefinita, non si ha una vendita o un costo stimato se un cliente o un contratto/offerta è associato al progetto. 
 
 ![Scheda Stime che mostra importi di costo e vendite](media/estimates-tab-03.png)
   
@@ -105,12 +105,12 @@ Le stime di spesa possono essere immesse nella griglia nella scheda **Stime di s
 ![Scheda Stime di spesa con la griglia delle stime di spesa](media/expense-estimates-tab-04.png)
 
 ## <a name="resource-management"></a>Gestione risorse
-In Project Service Automation versione 3, con la nuova interfaccia utente e le modifiche nella relazione tra prenotazioni e assegnazioni, l'assegnazione di risorse generiche o reali a un progetto è cambiata in modo considerevole rispetto alla versione 2 e alla versione 1. Tuttavia, i concetti di risorse prenotabili, **reali** e **generiche** , rimangono invariati, così come i membri del team, i requisiti, le assegnazioni e le prenotazioni.   
+In Project Service Automation versione 3, con la nuova interfaccia utente e le modifiche nella relazione tra prenotazioni e assegnazioni, l'assegnazione di risorse generiche o reali a un progetto è cambiata in modo considerevole rispetto alla versione 2 e alla versione 1. Tuttavia, i concetti di risorse prenotabili, **reali** e **generiche**, rimangono invariati, così come i membri del team, i requisiti, le assegnazioni e le prenotazioni.   
 
 ![Utilizzare il selettore di risorse](media/resource-management-05.png)
 
 ### <a name="assign-a-real-bookable-resource"></a>Assegnare una risorsa prenotabile reale 
-In Project Service Automation versione 3, le prenotazioni e le assegnazioni di attività non sono strettamente intrecciate come nelle versioni precedenti di Project Service Automation. Puoi utilizzare la griglia del team per prenotare un membro del team **reale** , come con le versioni sul mercato.
+In Project Service Automation versione 3, le prenotazioni e le assegnazioni di attività non sono strettamente intrecciate come nelle versioni precedenti di Project Service Automation. Puoi utilizzare la griglia del team per prenotare un membro del team **reale**, come con le versioni sul mercato.
 
 Utilizzando il selettore di risorse nella pianificazione, puoi selezionare il membro del team creato nella vista del team e quindi assegnarlo ad attività. Puoi continuare ad assegnargli attività anche dopo le sue prenotazioni. Utilizza la scheda **Riconciliazione** per riconciliare i membri del team che presentano differenze tra prenotazioni e assegnazioni.
 
@@ -158,7 +158,7 @@ Fai clic su **Nuovo** nella barra multifunzione per aprire una pagina di creazio
 I campi di ricerca sono supportati da viste di sistema. Ad esempio, dopo l'immissione di informazioni sul progetto, per impostazione predefinita il campo **Attività di progetto** viene impostato sulla vista **Attività di progetto personali aperte**. Per creare inserimenti ore per le attività non assegnate all'utente, fai clic su **Cambia vista** nella finestra di dialogo di ricerca e quindi seleziona **Tutte le attività di progetto attive**. Dopo la creazione e la visualizzazione dell'inserimento ore nella vista, puoi modificare qualsiasi valore di riga direttamente nella griglia.  
 
 ### <a name="bulk-createcopy"></a>Creare/copiare in blocco 
-Dopo la creazione di alcuni inserimenti ore, puoi utilizzare la funzionalità di copia per creare ulteriori inserimenti ore in blocco. Fai clic su **Copia** per aprire la finestra di dialogo **Copia**. In **Dal periodo: Data di inizio** , imposta l'intervallo di date a partire dal quale le date devono essere copiate. In **Al periodo: Data di inizio** , specifica la data per la quale è necessario creare inserimenti ore. Fai clic su **Copia** per copiare gli inserimenti ore nel giorno della settimana corrispondente indicato in **Al periodo**. Ad esempio, l'inserimento ore di lunedì dell'ultima settimana viene copiato nel lunedì della settimana indicata in **Al periodo**. 
+Dopo la creazione di alcuni inserimenti ore, puoi utilizzare la funzionalità di copia per creare ulteriori inserimenti ore in blocco. Fai clic su **Copia** per aprire la finestra di dialogo **Copia**. In **Dal periodo: Data di inizio**, imposta l'intervallo di date a partire dal quale le date devono essere copiate. In **Al periodo: Data di inizio**, specifica la data per la quale è necessario creare inserimenti ore. Fai clic su **Copia** per copiare gli inserimenti ore nel giorno della settimana corrispondente indicato in **Al periodo**. Ad esempio, l'inserimento ore di lunedì dell'ultima settimana viene copiato nel lunedì della settimana indicata in **Al periodo**. 
 
 ![Copiare inserimenti ore in blocco](media/bulk-copy-time-entry-09.png)
  
@@ -192,7 +192,7 @@ La piattaforma Common Data Service non consente a un utente di impersonare un al
 Con la personalizzazione è possibile aggiungere **Risorsa prenotabile** alle esperienze di creazione e modifica, le quali consentono a un utente di agire come delegato modificando il campo **Prenotazione risorsa** di un altro utente per il quale è necessario registrare inserimenti ore e voci di spesa. I passaggi seguenti sono relativi alla delega degli inserimenti ore. Le stesse informazioni si applicano alla delega delle voci di spesa. 
  
 1.  Verifica che l'utente delegato disponga di un accesso di sicurezza globale per i progetti e le attività di progetto. 
-1.  Poiché **Risorsa prenotabile** , che è un campo nell'entità **Inserimento ore** , non viene esposto nella pagina **Creazione rapida** , devi aggiungerlo.
+1.  Poiché **Risorsa prenotabile**, che è un campo nell'entità **Inserimento ore**, non viene esposto nella pagina **Creazione rapida**, devi aggiungerlo.
 
     -oppure-
 
@@ -229,13 +229,13 @@ Per i clienti di Project Service Automation che desiderano continuare a utilizza
 Nella versione 3 di Project Service Automation, gli aspetti di configurazione e gestione di offerte e contratti sono stati modificati. Le sezioni seguenti forniscono informazioni più dettagliate.
 
 ### <a name="set-up-chargeability-options"></a>Configurare opzioni di esigibilità
-Nelle versioni 1 e 2, la configurazione delle opzioni di esigibilità di ruoli e categorie per specifiche offerte e contratti veniva eseguita utilizzando la vista **Esigibilità** , accessibile dalla barra di navigazione superiore di una riga di offerta o di una voce di contratto. Questa vista consentiva inoltre di configurare i prezzi per tali ruoli e categorie di spesa.
+Nelle versioni 1 e 2, la configurazione delle opzioni di esigibilità di ruoli e categorie per specifiche offerte e contratti veniva eseguita utilizzando la vista **Esigibilità**, accessibile dalla barra di navigazione superiore di una riga di offerta o di una voce di contratto. Questa vista consentiva inoltre di configurare i prezzi per tali ruoli e categorie di spesa.
 
 A partire dalla versione 3, la configurazione delle opzioni di esigibilità per ruolo e categoria di spesa viene eseguito a livello di riga di offerta o di voce di contratto. La configurazione della funzionalità di determinazione dei prezzi è distinta da quella dell'esigibilità. Puoi trovare i **Ruoli addebitabili** e le **Categorie addebitabili** come schede nelle pagine **Riga di offerta** e **Voce di contratto** senza dover utilizzare la barra di navigazione superiore.
 
 ![Ruoli addebitabili](media/chargeable-12.png)
  
-La configurazione dei ruoli addebitabili e delle categorie addebitabili utilizza anche il controllo di griglia modificabile predefinito. Per ogni ruolo e categoria, le opzioni supportate per il tipo di fatturazione durante le fasi Offerta e Contratto rimangono invariate ( **Addebitabile** e **Non addebitabile** ) rispetto alle versioni precedenti. **Gratuito** non è un tipo supportato durante la fase Offerta o Contratto. **Gratuito** è supportato solo durante l'approvazione di tempo o spese.  
+La configurazione dei ruoli addebitabili e delle categorie addebitabili utilizza anche il controllo di griglia modificabile predefinito. Per ogni ruolo e categoria, le opzioni supportate per il tipo di fatturazione durante le fasi Offerta e Contratto rimangono invariate (**Addebitabile** e **Non addebitabile**) rispetto alle versioni precedenti. **Gratuito** non è un tipo supportato durante la fase Offerta o Contratto. **Gratuito** è supportato solo durante l'approvazione di tempo o spese.  
  
 ### <a name="create-and-edit-custom-pricing-for-a-project-service-automation-quote-and-project-contract"></a>Creare e modificare la funzionalità di determinazione dei prezzi personalizzata per un'offerta e un contratto di progetto di Project Service Automation
 Nelle versioni 1 e 2, l'utilizzo del listino prezzi personalizzato per specifici contratti e offerte era possibile mediante l'opzione **Modifica prezzi** nella vista **Esigibilità**. La vista **Esigibilità** si trovava nella barra di navigazione superiore di una riga di offerta o di una voce di contratto. In questa vista era anche possibile configurare le opzioni di esigibilità per ruoli e categorie di spesa.

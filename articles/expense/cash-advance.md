@@ -5,17 +5,17 @@ author: suvaidya
 manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 209fe0b8a79b2c0689c458c423664cb292da249b
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: c5839fbdab58903555936324139b76f4c94b6c35
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078759"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122754"
 ---
 # <a name="cash-advance"></a>Anticipo in contanti
 
@@ -25,10 +25,10 @@ Un anticipo in contanti consente ai dipendenti di prendere in prestito denaro da
 
 ## <a name="create-and-submit-a-cash-advance-request"></a>Creare e inviare una richiesta di anticipo contanti
 
-1. In **Le mie spese** , seleziona **Anticipi contanti** > **Nuovo** per creare un nuovo anticipo contanti. 
-2. Nella pagina **Nuova richiesta di anticipo contanti** , inserisci lo scopo della spesa e seleziona la posizione in cui verrà sostenuta la spesa.
+1. In **Le mie spese**, seleziona **Anticipi contanti** > **Nuovo** per creare un nuovo anticipo contanti. 
+2. Nella pagina **Nuova richiesta di anticipo contanti**, inserisci lo scopo della spesa e seleziona la posizione in cui verrà sostenuta la spesa.
 3. Immetti l'importo e la valuta richiesti, quindi seleziona **Salva**. 
-4. Quando sei pronto per inviare la richiesta di anticipo contanti, nella pagina **Richiesta di anticipo contanti** , seleziona **Flusso di lavoro** > **Invia**.
+4. Quando sei pronto per inviare la richiesta di anticipo contanti, nella pagina **Richiesta di anticipo contanti**, seleziona **Flusso di lavoro** > **Invia**.
 
 ## <a name="modify-a-cash-advance-request"></a>Modificare una richiesta di anticipo contanti
 
@@ -46,7 +46,7 @@ Un anticipo in contanti consente ai dipendenti di prendere in prestito denaro da
 
 I responsabili o gli utenti configurati come responsabile approvazione nel flusso di lavoro potranno approvare gli anticipi contanti inviati loro per la revisione. 
 
-1. Per approvare un anticipo contanti, in **Elabora anticipi contanti** , seleziona **Anticipi contanti per revisione personale**.
+1. Per approvare un anticipo contanti, in **Elabora anticipi contanti**, seleziona **Anticipi contanti per revisione personale**.
 2. Seleziona l'anticipo contanti che devi rivedere e seleziona **Approva**.  
 
 ## <a name="pay-cash-advances"></a>Pagare gli anticipi in contanti 

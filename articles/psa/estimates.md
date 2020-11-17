@@ -3,7 +3,7 @@ title: Stime
 description: In questo argomento vengono fornite informazioni sulle stime in Dynamics 365 Project Service Automation.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 1/31/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e21511f78d92ff672e462f63f0dd0d098578516a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 95f739f0c724ff93c4d588776f9e49687bac2035
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079078"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132734"
 ---
 # <a name="estimates"></a>Stime
 
@@ -90,11 +90,11 @@ Se hai aggiunto un campo personalizzato per i dettagli di riga di offerta e vuoi
 
     ![Selezionare un passaggio nel plug-in](media/basic-guide-20.png)
 
-5. Nella finestra di dialogo **Aggiorna passaggio esistente** , nel campo **Attributi filtro** , seleziona il pulsante con i puntini di sospensione ( **...** ):
+5. Nella finestra di dialogo **Aggiorna passaggio esistente**, nel campo **Attributi filtro**, seleziona il pulsante con i puntini di sospensione (**...**):
  
     ![Finestra di dialogo Aggiorna passaggio esistente](media/basic-guide-21.png)
 
-6. Nella finestra di dialogo **Seleziona attributi** , seleziona le caselle di controllo relative agli attributi personalizzati.
+6. Nella finestra di dialogo **Seleziona attributi**, seleziona le caselle di controllo relative agli attributi personalizzati.
 
     ![Finestra di dialogo Seleziona attributi](media/basic-guide-22.png)
 

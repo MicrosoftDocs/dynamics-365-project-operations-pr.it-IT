@@ -1,23 +1,33 @@
 ---
-title: Impostare e applicare i dati di configurazione in Common Data Service per Project Operations
+title: Impostare e applicare i dati di configurazione in Common Data Service
 description: Questo argomento fornisce informazioni sull'impostazione e l'applicazione dei dati di configurazione in Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 11/04/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5e72b88a4dae1eb89859fdfd55f6d5e6ee5befcd
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 7de8db5e91265c77c79f34a513bf27d9a55b789a
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078749"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401133"
 ---
-# <a name="set-up-and-apply-configuration-data-in-the-common-data-service-for-project-operations"></a>Impostare e applicare i dati di configurazione in Common Data Service per Project Operations
+# <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Impostare e applicare i dati di configurazione in Common Data Service 
 
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati_
+
+## <a name="prerequisites"></a>Prerequisiti
+
+Prima di iniziare a configurare i dati in Common Data Service (CDS), devono essere soddisfatti i seguenti prerequisiti:
+
+1.  Provisioning di un ambiente CDS e un ambiente Dynamics 365 Finance per Project Operations.
+2.  Informazioni sulla persona giuridica di Dynamics 365 Finance condivise nell'ambiente CDS. Ciò significa che l'entità **Società** in CDS ha i seguenti record aziendali:
+  - THPM
+  - USPM
+  - GBPM
 
 ## <a name="install-setup-and-configuration-data"></a>Installare i dati di impostazione e configurazione
 
@@ -71,7 +81,7 @@ _**Si applica a:** Project Operations per scenari basati su risorse/materiali no
 
 ## <a name="update-project-operations-configurations"></a>Aggiornare le configurazioni di Project Operations
 
-1. Passa all‘ambiente CE. Puoi trovarlo aprendo l' [interfaccia di amministrazione di Power Platform](https://admin.powerplatform.microsoft.com/environments), selezionando l'ambiente e quindi selezionando **Apri ambiente**. 
+1. Passa all‘ambiente CE. Puoi trovarlo aprendo l'[interfaccia di amministrazione di Power Platform](https://admin.powerplatform.microsoft.com/environments), selezionando l'ambiente e quindi selezionando **Apri ambiente**. 
 
 ![Aprire l'ambiente](./media/7OpenEnvironment.png)
 
@@ -79,11 +89,11 @@ _**Si applica a:** Project Operations per scenari basati su risorse/materiali no
 
 ![Risorse prenotabili](./media/8BookableResources.png)
 
-3. Nella scheda **Generale** , seleziona l'utente amministratore. Verifica che il fuso orario corrisponda a quello in cui ti trovi. 
+3. Nella scheda **Generale**, seleziona l'utente amministratore. Verifica che il fuso orario corrisponda a quello in cui ti trovi. 
 
 ![Nuova risorsa prenotabile](./media/9NewBookableResource.png)
 
-4. Nella scheda **Pianificazione** , nel campo **Società** , seleziona la società **USPM** , quindi seleziona **Salva**. 
+4. Nella scheda **Pianificazione**, nel campo **Società**, seleziona la società **USPM**, quindi seleziona **Salva**. 
 
 ![Scheda Pianificazione](./media/10SchedulingTab.png)
 
@@ -114,10 +124,10 @@ _**Si applica a:** Project Operations per scenari basati su risorse/materiali no
  
 12. Aggiorna i seguenti campi:
 
- - **Società predefinita** : USPM
- - **Unità organizzativa predefinita** : Contoso Robotics Global
- - **Frequenza di fatturazione** : settimo e ultimo giorno
- - **Modello di ore lavorative** : cambia nel modello che hai creato.
+ - **Società predefinita**: USPM
+ - **Unità organizzativa predefinita**: Contoso Robotics Global
+ - **Frequenza di fatturazione**: settimo e ultimo giorno
+ - **Modello di ore lavorative**: cambia nel modello che hai creato.
 
 13. Seleziona **Salva**. 
 

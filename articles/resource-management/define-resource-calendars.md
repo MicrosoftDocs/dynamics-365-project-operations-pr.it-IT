@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: ab39d7e5dc2d8c01ed49ca0f1a4d1691aaf15637
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: daa49cf8ba9ba005a16777f590c4c06d024de529
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078724"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123923"
 ---
 # <a name="define-resource-calendars"></a>Definire i calendari delle risorse
 
@@ -26,9 +26,9 @@ Ogni risorsa prenotabile che lavora su un progetto deve avere un calendario dell
 
 ## <a name="define-a-resources-working-hours"></a>Definire l'orario di lavoro di una risorsa
 
-1. Nel menu **Risorse** , seleziona **Risorse**.
+1. Nel menu **Risorse**, seleziona **Risorse**.
 2. Dalla visualizzazione griglia, seleziona la **Risorsa prenotabile** applicabile.
-3. Nella pagina **Dettagli risorsa** , seleziona la scheda **Ore lavorative**. Per impostazione predefinita, il calendario delle risorse prenotabili utilizza per impostazione predefinita l'orario di lavoro del modello di ora di lavoro predefinito definito per l'organizzazione.
+3. Nella pagina **Dettagli risorsa**, seleziona la scheda **Ore lavorative**. Per impostazione predefinita, il calendario delle risorse prenotabili utilizza per impostazione predefinita l'orario di lavoro del modello di ora di lavoro predefinito definito per l'organizzazione.
 4. Per aggiornare l'orario di lavoro, fai clic con il tasto destro sulla data di inizio della regola di calendario proposta da definire. Utilizza il menu delle regole del calendario per definire una regola del calendario per un giorno specifico, il resto della serie o l'intero calendario.
 5. Dopo che l'opzione è stata selezionata, puoi definire:
 
@@ -39,7 +39,7 @@ Ogni risorsa prenotabile che lavora su un progetto deve avere un calendario dell
 
 ## <a name="applying-a-calendar-template-to-a-resource"></a>Applicazione di un modello di calendario a una risorsa
 
-1. Nel menu **Risorse** , seleziona **Risorse**.
+1. Nel menu **Risorse**, seleziona **Risorse**.
 2. Dalla visualizzazione griglia, seleziona fino a 25 **Risorse prenotabili** per aggiornare.
 3. Seleziona **Imposta calendario** e una finestra di dialogo ti chiederà un elenco di modelli di ore lavorative disponibili.
 4. Seleziona il modello che vuoi utilizzare, quindi seleziona **Applica**.

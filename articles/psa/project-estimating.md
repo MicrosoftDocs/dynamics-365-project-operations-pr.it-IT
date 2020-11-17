@@ -3,7 +3,7 @@ title: Costi e ricavi di progetto
 description: In questo argomento vengono fornite informazioni sulle stime di costi e ricavi di progetto.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9862b6c69596f5b998cf40691f8478bb87251583
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 282950c0ee21f430a2f20b21128830891c76c84a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078906"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127973"
 ---
 # <a name="project-costs-and-revenue"></a>Costi e ricavi di progetto
 
@@ -80,7 +80,7 @@ Nella vista su scala cronologica, distribuisci il lavoro richiesto totale che vi
 
 ### <a name="work-hours-based-allocation"></a>Allocazione basata su ore lavorative
  
-Nella modalità attività pianificata automaticamente, le ore predefinite giornaliere per le risorse dell'attività sono impostate sulla tariffa oraria di lavoro completa. Questo comportamento viene applicato quando l'allocazione del lavoro richiesto ne comporta la distribuzione sulla durata dell'attività nella vista su scala cronologica. Ad esempio, se stimi che un'attività verrà completata da una risorsa nella scala temporale **Giorno** , il lavoro richiesto allocato al giorno non supererà le ore lavorative giornaliere definite nel calendario di progetto. Pertanto, l'allocazione del lavoro richiesto assicura sempre che le risorse vengono stimate per un utilizzo durante un giorno intero.
+Nella modalità attività pianificata automaticamente, le ore predefinite giornaliere per le risorse dell'attività sono impostate sulla tariffa oraria di lavoro completa. Questo comportamento viene applicato quando l'allocazione del lavoro richiesto ne comporta la distribuzione sulla durata dell'attività nella vista su scala cronologica. Ad esempio, se stimi che un'attività verrà completata da una risorsa nella scala temporale **Giorno**, il lavoro richiesto allocato al giorno non supererà le ore lavorative giornaliere definite nel calendario di progetto. Pertanto, l'allocazione del lavoro richiesto assicura sempre che le risorse vengono stimate per un utilizzo durante un giorno intero.
 
 ### <a name="even-allocation"></a>Allocazione uniforme
 

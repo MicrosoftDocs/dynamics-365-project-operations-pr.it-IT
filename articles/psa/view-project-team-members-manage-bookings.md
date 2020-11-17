@@ -3,7 +3,7 @@ title: Visualizzare i membri del team di progetto e gestire le prenotazioni
 description: Come visualizzare membri del team di progetto e gestire prenotazioni in Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f7fae8a4e8821b7983112ffa46c1879c97b9589
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f9607614b0b5cbc5a2d65abe5b72f40c6099d83c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078951"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127778"
 ---
 # <a name="view-project-team-members-and-manage-bookings-project-service"></a>Visualizzare i membri del team di progetto e gestire le prenotazioni (Project Service)
 
@@ -41,7 +41,7 @@ Puoi visualizzare un elenco dei membri del team di progetto e da qui puoi gestir
   
 5.  Per prenotare definitivamente una risorsa, seleziona il ruolo, quindi fai clic su **Prenota definitivamente**. In questo calendario vengono visualizzate tutte le risorse e la relativa disponibilità con la codifica di colori che fornisce un una visualizzazione dello stato di prenotazione delle risorse. Esegui una delle operazioni seguenti per ottimizzare la ricerca:  
   
-    -   Seleziona una visualizzazione oppure ordinamento dalla parte superiore dello schermo. Puoi inoltre scegliere se visualizzare la disponibilità per il **Giorno** , la **Settimana** o il **Mese** , quindi utilizzare le frecce per visualizzare il periodo di tempo precedente o successivo. Utilizza la casella di ricerca per trovare una risorsa specifica.  
+    -   Seleziona una visualizzazione oppure ordinamento dalla parte superiore dello schermo. Puoi inoltre scegliere se visualizzare la disponibilità per il **Giorno**, la **Settimana** o il **Mese**, quindi utilizzare le frecce per visualizzare il periodo di tempo precedente o successivo. Utilizza la casella di ricerca per trovare una risorsa specifica.  
   
     -   Fai clic su **Opzioni** per modificare le visualizzazioni. Ad esempio, puoi mostrare una legenda con la combinazione di colori per i tipi diversi di prenotazioni, oppure puoi scegliere solo un tipo specifico di prenotazione (ad esempio la prenotazione definitiva o provvisoria).  
   

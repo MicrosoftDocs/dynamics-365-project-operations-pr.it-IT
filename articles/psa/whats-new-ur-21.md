@@ -3,7 +3,7 @@ title: Novità o modifiche nella versione di aggiornamento 21 di Project Service
 description: Questo argomento elenca le funzionalità e le correzioni disponibili nella versione di aggiornamento 21 di Project Service Automation V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 06/19/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e8a15d5f723da528640c62c1892bac0d801c2bee
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 799be481c365e82e8ffb59ba242e30378644008b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078827"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126713"
 ---
 # <a name="project-service-automation-update-release-21-v3"></a>Versione di aggiornamento di Project Service Automation 21, V3
 
@@ -54,7 +54,7 @@ Sono stati risolti i seguenti problemi:
 
 Sono stati risolti i seguenti problemi:
 
-- Le griglie del modulo **Progetto** ( **Assegnazione risorse** , **Attività** , visualizzazione **Riconciliazione** , **Stime di spesa** ) rimangono modificabili anche quando un progetto non è attivo.
+- Le griglie del modulo **Progetto** (**Assegnazione risorse**, **Attività**, visualizzazione **Riconciliazione**, **Stime di spesa**) rimangono modificabili anche quando un progetto non è attivo.
 - I clienti duplicati non possono essere uniti a clienti collegati a contratti di progetto confermati.
 - Quando viene aggiunta una risorsa che non dispone di un calendario valido, il sistema non restituisce un messaggio di errore descrittivo.
 - Il pulsante **Aggiungi attività** sulla griglia delle attività è abilitato quando il progetto è collegato al **componente aggiuntivo Microsoft Project**.
@@ -71,7 +71,7 @@ Sono stati risolti i seguenti problemi:
 - **Prezzo di vendita totale** è zero (0) per **Categoria** nonostante **Ruolo** abbia un prezzo di vendita totale diverso da zero.
 - I clienti non possono modificare il valore del campo **Stato fattura** in **Pronto per la fatturazione** quando un altro processo personalizzato aggiorna un campo aggiuntivo.
 - Il pulsante **Aggiorna righe fattura** può creare più righe duplicate se viene selezionato ripetutamente.
-- Il pulsante **Aggiorna prezzi** non funziona nella sottogriglia **Prezzi ruolo** nel modulo di **visualizzazione rapida**.
+- Il pulsante **Aggiorna prezzi** non funziona nella griglia secondaria **Prezzi ruolo** del modulo di **visualizzazione rapida**.
 - La logica **Risoluzione listino prezzi di vendita** gestisce in modo inaccurato i fusi orari, determinando una selezione errata dei listini prezzi.
 - Il **costo effettivo totale** di un progetto può essere disattivato di un importo in frazione dopo l'approvazione di una singola voce.
 - La logica **Risoluzione prezzi** non fornisce un messaggio di errore descrittivo se **RolePrice recuperato** non ha valori nei campi **"Unità primaria"** e **"Prezzo in unità primaria"**.

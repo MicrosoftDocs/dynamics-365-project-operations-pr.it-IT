@@ -5,15 +5,15 @@ author: suvaidya
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 7d1c4ac7781cb711e2cc0d09606d422b4dd554f3
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 8d723b49e9556401c364b323cf58eaaf44906275
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078750"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128513"
 ---
 # <a name="per-diems"></a>Diaria
 
@@ -26,8 +26,8 @@ Una diaria è un'indennità pagata a un lavoratore che viaggia per lavoro. In Ge
 
 1. Per aggiungere destinazioni delle trasferte giornaliere, vai a **Imposta** > **Calcoli e codici** > **Destinazioni trasferte giornaliere**.
 2. Per ciascuna delle destinazioni aggiunte sopra, seleziona una tariffa giornaliera e una valuta valide tra una data di inizio e una data di fine specifiche per hotel, vitto e altre spese. Le tariffe giornaliere e le valute sono configurate in **Imposta** > **Calcoli e codici** > **Trasferte giornaliere**.
-3. Nella pagina **Destinazioni trasferte giornaliere** , configura i livelli di tariffe giornaliere. I livelli di tariffe giornaliere consentono di definire la ripartizione percentuale di un'indennità giornaliera per hotel, vitto e altre spese. 
+3. Nella pagina **Destinazioni trasferte giornaliere**, configura i livelli di tariffe giornaliere. I livelli di tariffe giornaliere consentono di definire la ripartizione percentuale di un'indennità giornaliera per hotel, vitto e altre spese. 
 4. Per specificare la riduzione percentuale del vitto per colazione, pranzo o cena, aggiorna i campi nella pagina **Parametri di gestione spese** nella scheda **Diaria**. 
     
 ## <a name="submit-expenses-using-per-diem"></a>Inviare le spese utilizzando la diaria
-Per inviare le spese utilizzando le diarie, utilizza la categoria di spesa **Diaria** quando crei una nota spese. Inserisci la **Data inizio trasferta giornaliera** , la **Data fine trasferta giornaliera** e la **Destinazione trasferta giornaliera**. L'importo verrà calcolato in base alle tariffe giornaliere per la destinazione selezionata e la riduzione per il vitto verrà calcolata in base ai livelli delle tariffe giornaliere.
+Per inviare le spese utilizzando le diarie, utilizza la categoria di spesa **Diaria** quando crei una nota spese. Inserisci la **Data inizio trasferta giornaliera**, la **Data fine trasferta giornaliera** e la **Destinazione trasferta giornaliera**. L'importo verrà calcolato in base alle tariffe giornaliere per la destinazione selezionata e la riduzione per il vitto verrà calcolata in base ai livelli delle tariffe giornaliere.

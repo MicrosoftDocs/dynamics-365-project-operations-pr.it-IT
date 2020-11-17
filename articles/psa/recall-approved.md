@@ -3,7 +3,7 @@ title: Richiamare inserimenti ore o voci di spesa approvati
 description: In questo argomento vengono fornite informazioni su come richiamare una transazione di tempo o spesa approvata precedentemente.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/08/2019
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7bacd70881a6c463cc449a365173da5338a3d3fc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 102da39d5940874a8e1f4220437ecdf386a7187b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078923"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120548"
 ---
 # <a name="recall-approved-time-or-expense-entries"></a>Richiamare inserimenti ore o voci di spesa approvati
 
@@ -60,13 +60,13 @@ Segui questi passaggi per richiedere il richiamo di un inserimento ore o una voc
 Segui questi passaggi per approvare o rifiutare una richiesta di richiamo.
 
 1. Seleziona **Progetti** \> **Attività personali** \> **Approvazioni**.
-2. Nella pagina elenco **Approvazioni** , seleziona la vista **Richieste di richiamo da approvare**. Viene visualizzato un elenco di richieste di richiamo.
+2. Nella pagina elenco **Approvazioni**, seleziona la vista **Richieste di richiamo da approvare**. Viene visualizzato un elenco di richieste di richiamo.
 3. Seleziona uno o più inserimenti o voci e quindi seleziona **Approva** o **Rifiuta**.
-4. Se selezioni **Approva** , viene visualizzato un messaggio di avviso che spiega l'impatto dell'approvazione. Seleziona **OK** per confermare l'operazione. La richiesta di richiamo viene approvata.
+4. Se selezioni **Approva**, viene visualizzato un messaggio di avviso che spiega l'impatto dell'approvazione. Seleziona **OK** per confermare l'operazione. La richiesta di richiamo viene approvata.
 
     OPPURE
 
-    Se hai selezionato **Rifiuta** , la richiesta di richiamo viene rifiutata.
+    Se hai selezionato **Rifiuta**, la richiesta di richiamo viene rifiutata.
 
 > [!NOTE]
 > Come avviene quando si richiede un richiamo, anche per l'approvazione di un richiamo il sistema verifica le attività di fatturazione negli inserimenti ore o nelle voci di spesa. Se un inserimento ore o una voce di spesa è già stata fatturato o se si trova in una bozza di fattura, il responsabile approvazione riceve un messaggio di errore che indica che l'inserimento ore o la voce di spesa non può essere approvato in quanto è già stato fatturato.
@@ -77,7 +77,7 @@ Quando un'approvazione viene richiamata, si ha un impatto operativo e un impatto
 
 ### <a name="operational-impact"></a>Impatto operativo
 
-Se una richiesta di richiamo viene approvata, il record dell'approvazione viene contrassegnato come **Rifiutato**. Lo stato dell'inserimento ore o della voce di spesa diventa **Restituito** o **Rifiutato** , a seconda se si tratta di un inserimento ore o di una voce di spesa.
+Se una richiesta di richiamo viene approvata, il record dell'approvazione viene contrassegnato come **Rifiutato**. Lo stato dell'inserimento ore o della voce di spesa diventa **Restituito** o **Rifiutato**, a seconda se si tratta di un inserimento ore o di una voce di spesa.
 
 Il membro del team di progetto può visualizzare, modificare e quindi inviare di nuovo l'inserimento ore o la voce di spesa oppure eliminarlo completamente.
 

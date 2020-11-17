@@ -3,7 +3,7 @@ title: Prezzi del catalogo prodotti
 description: In questo argomento vengono fornite informazioni sui prezzi del catalogo prodotti in Dynamics 365 Project Service Automation (PSA).
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e6d9266cfee996b68608c99f77d1b0c053985b3d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11f1d237be4540a64f1854fbed4e5c72ebbce18d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078907"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132293"
 ---
 # <a name="product-catalog-pricing"></a>Prezzi del catalogo prodotti 
 
@@ -46,7 +46,7 @@ PSA supporta varie opzioni di arrotondamento quando i prezzi sono configurati co
 
 > ![Aggiungere prodotti da un catalogo a differenti listini prezzi](media/basic-guide-16.png)
 
-Quando crei un nuovo listino prezzi personalizzato per un'offerta selezionando **Crea determinazione dei prezzi personalizzata** nella pagina **Offerta di progetto** , PSA crea una copia del listino prezzi e il campo **Entità** nell'intestazione del nuovo listino prezzi è impostato su **Entità vendite**. Il nome del nuovo listino prezzi viene aggiunto al nome dell'offerta e a un timestamp. Puoi anche utilizzare il nome del nuovo listino prezzi e il nome dell'offerta in flussi di lavoro personalizzati per avviare ulteriori analisi e approvazioni delle offerte che utilizzano prezzi personalizzati.
+Quando crei un nuovo listino prezzi personalizzato per un'offerta selezionando **Crea determinazione dei prezzi personalizzata** nella pagina **Offerta di progetto**, PSA crea una copia del listino prezzi e il campo **Entità** nell'intestazione del nuovo listino prezzi è impostato su **Entità vendite**. Il nome del nuovo listino prezzi viene aggiunto al nome dell'offerta e a un timestamp. Puoi anche utilizzare il nome del nuovo listino prezzi e il nome dell'offerta in flussi di lavoro personalizzati per avviare ulteriori analisi e approvazioni delle offerte che utilizzano prezzi personalizzati.
 
  
 ## <a name="default-product-price-list"></a>Listino prezzi prodotto predefinito

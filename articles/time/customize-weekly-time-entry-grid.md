@@ -5,15 +5,15 @@ author: stsporen
 manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 190ad9e1f9ced690aee953ed992bf7aa2844c3b3
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078775"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124643"
 ---
 # <a name="extending-time-entries"></a>Estensione degli inserimenti ore
 
@@ -103,13 +103,13 @@ Personalizza la visualizzazione **Inserimenti ore personali settimanali** e aggi
 
 #### <a name="create-a-new-default-custom-time-entry"></a>Creare un nuovo inserimento ore personalizzato predefinito
 
-Questa vista contiene i campi **Descrizione** e **Commenti esterne** , nonché le colonne che desideri avere nella griglia. 
+Questa vista contiene i campi **Descrizione** e **Commenti esterne**, nonché le colonne che desideri avere nella griglia. 
 
 1. Scegli la posizione, le dimensioni e l'ordine predefinito della griglia modificando tali proprietà nella vista. 
 2. Configura il controllo personalizzato per questa vista di modo che sia un controllo **Griglia inserimento ore**. 
 3. Aggiungi questo controllo alla vista e selezionalo per Web, telefono e tablet. 
 4. Configura i parametri per la griglia di inserimento ore settimanale. 
-5. Imposta il campo **Data di inizio** su **msdyn_date** , imposta il campo **Durata** su **msdyn_duration** e imposta il campo **Stato** su **msdyn_entrystatus**. 
+5. Imposta il campo **Data di inizio** su **msdyn_date**, imposta il campo **Durata** su **msdyn_duration** e imposta il campo **Stato** su **msdyn_entrystatus**. 
 6. Per la visualizzazione predefinita, il campo **Elenco stato di sola lettura** è impostato su **192350002,192350003,192350004**. Il campo **Flusso di attività modifica riga** è impostato su **msdyn_timeentryrowedit**. Il campo **Flusso di attività modifica cella** è impostato su **msdyn_timeentryedit**. 
 7. Puoi personalizzare questi campi per aggiungere o rimuovere lo stato di sola lettura o per utilizzare una differente esperienza basata su attività (TBX) per la modifica di celle o righe. Questi campi sono ora limitati a un valore statico.
 
@@ -117,14 +117,14 @@ Questa vista contiene i campi **Descrizione** e **Commenti esterne** , nonché l
 > [!NOTE] 
 > Entrambe le opzioni rimuoveranno alcune opzioni di filtro predefinite nelle entità **Progetto** e **Attività di progetto** di modo che tutte le viste di ricerca per le entità siano visibili. Per impostazione predefinita, solo le viste di ricerca pertinenti sono visibili.
 
-Determina il flusso di attività appropriato per il campo personalizzato. Se hai aggiunto il campo alla griglia, deve essere integrato nel flusso di attività di modifica di righe utilizzato per i campi applicati all'intera riga di inserimenti ore. Se il campo personalizzato ha un valore univoco ogni giorno, ad esempio un campo personalizzato per **Ora di fine** , deve essere integrato nel flusso di attività di modifica di celle.
+Determina il flusso di attività appropriato per il campo personalizzato. Se hai aggiunto il campo alla griglia, deve essere integrato nel flusso di attività di modifica di righe utilizzato per i campi applicati all'intera riga di inserimenti ore. Se il campo personalizzato ha un valore univoco ogni giorno, ad esempio un campo personalizzato per **Ora di fine**, deve essere integrato nel flusso di attività di modifica di celle.
 
 Per aggiungere il campo personalizzato a un flusso di attività, trascina un elemento **Campo** nella posizione appropriata sulla pagina e quindi imposta le proprietà del campo. Imposta la proprietà **Origine** su **Inserimento ore** e imposta la proprietà **Campo dati** sul campo personalizzato. La proprietà **Campo** specifica il nome visualizzato nella pagina TBX. Seleziona **Applica** per salvare le modifiche nel campo, quindi seleziona **Aggiorna** per salvare le modifiche alla pagina.
 
-Per utilizzare una nuova pagina TBX personalizzata, crea un nuovo processo. Imposta la categoria su **Processo aziendale** , imposta l'entità su **Inserimento ore** e imposta il tipo di processo aziendale su **Esegui processo come flusso di attività**. In **Proprietà** , la proprietà **Nome pagina** deve essere impostata sul nome visualizzato per la pagina. Aggiungi tutti i campi pertinenti alla pagina TBX. Salva e attiva il processo. Aggiorna la proprietà di controllo personalizzata per il flusso di attività pertinente al valore **Nome** del processo.
+Per utilizzare una nuova pagina TBX personalizzata, crea un nuovo processo. Imposta la categoria su **Processo aziendale**, imposta l'entità su **Inserimento ore** e imposta il tipo di processo aziendale su **Esegui processo come flusso di attività**. In **Proprietà**, la proprietà **Nome pagina** deve essere impostata sul nome visualizzato per la pagina. Aggiungi tutti i campi pertinenti alla pagina TBX. Salva e attiva il processo. Aggiorna la proprietà di controllo personalizzata per il flusso di attività pertinente al valore **Nome** del processo.
 
 ### <a name="add-new-option-set-values"></a>Aggiungere nuovi valori di set di opzioni
-Per aggiungere valori di set di opzioni a un campo predefinito, apri la pagina di modifica per il campo, quindi in **Tipo** , seleziona **Modifica** accanto al set di opzioni. Aggiungi una nuova opzione che ha un'etichetta e un colore personalizzati. Se intendi aggiungere un nuovo stato di inserimento ore, il campo predefinito è denominato **Stato inserimento** , non **Stato**
+Per aggiungere valori di set di opzioni a un campo predefinito, apri la pagina di modifica per il campo, quindi in **Tipo**, seleziona **Modifica** accanto al set di opzioni. Aggiungi una nuova opzione che ha un'etichetta e un colore personalizzati. Se intendi aggiungere un nuovo stato di inserimento ore, il campo predefinito è denominato **Stato inserimento**, non **Stato**
 
 ### <a name="designate-a-new-time-entry-status-as-read-only"></a>Designare un nuovo stato di inserimento ore come di sola lettura
 Per designare un nuovo stato di inserimento ore come di sola lettura, aggiungi un nuovo valore di inserimento ore alla proprietà **Elenco stato di sola lettura**. La parte modificabile della griglia di inserimento ore viene bloccata per le righe che hanno un nuovo stato.

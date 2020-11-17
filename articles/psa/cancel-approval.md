@@ -3,7 +3,7 @@ title: Annullare inserimenti ore e voci di spesa approvate precedentemente
 description: In questo argomento vengono fornite informazioni su come annullare una transazione di tempo e spesa di progetto approvata.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0ea816040570cc8f6ddf3c5ec8a74ac092fc68b2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 84fc057599dd98162320d6104ed4a7612e894ecb
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079051"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123338"
 ---
 # <a name="cancel-previously-approved-time-or-expense-entries"></a>Annullare inserimenti ore o voci di spesa approvate precedentemente
 
@@ -36,7 +36,7 @@ Nell'ultima versione di Dynamics 365 Project Service Automation, i responsabili 
 Segui questi passaggi per annullare un inserimento ore o una voce di spesa approvata precedentemente.
 
 1. Seleziona **Progetti** \> **Attività personali** \> **Approvazioni**.
-2. Nella pagina elenco **Approvazioni** , seleziona la vista **Approvazioni personali passate**. Viene visualizzato un elenco di inserimenti ore e voci di spesa approvate in precedenza.
+2. Nella pagina elenco **Approvazioni**, seleziona la vista **Approvazioni personali passate**. Viene visualizzato un elenco di inserimenti ore e voci di spesa approvate in precedenza.
 3. Seleziona una o più voci o inserimenti e quindi seleziona **Annulla approvazione**. Viene visualizzato un messaggio di avviso.
 4. Seleziona **OK** per annullare l'approvazione.
 
@@ -46,7 +46,7 @@ Quando si annulla un'approvazione, si ha un impatto operativo e un impatto finan
 
 ### <a name="operational-impact"></a>Impatto operativo
 
-Per quanto riguarda le operazioni, quando si annulla un'approvazione, lo stato del record diventa **Bozza** e l'approvazione non è più visualizzata nella vista **Approvazioni personali passate**. L'approvazione annullata è invece visualizzata nella vista **Inserimenti ore per l'approvazione** o nella vista **Voci di spesa per l'approvazione** , a seconda se si tratti di un inserimento ore o di una voce di spesa. Inoltre, lo stato dell'inserimento ore o della voce di spesa correlata diventa **Inviato** , di modo che la voce o l'inserimento correlato sia coerente con le approvazioni il cui stato è **Bozza**.
+Per quanto riguarda le operazioni, quando si annulla un'approvazione, lo stato del record diventa **Bozza** e l'approvazione non è più visualizzata nella vista **Approvazioni personali passate**. L'approvazione annullata è invece visualizzata nella vista **Inserimenti ore per l'approvazione** o nella vista **Voci di spesa per l'approvazione**, a seconda se si tratti di un inserimento ore o di una voce di spesa. Inoltre, lo stato dell'inserimento ore o della voce di spesa correlata diventa **Inviato**, di modo che la voce o l'inserimento correlato sia coerente con le approvazioni il cui stato è **Bozza**.
 
 Come responsabile approvazione, puoi modificare alcuni campi di un'approvazione il cui stato è **Bozza**. Questi campi includono **Tipo di fatturazione** e **Ore fatturabili per inserimenti ore**. Dopo avere apportato le modifiche, puoi approvare di nuovo il record. In alternativa, puoi rifiutare la voce o l'inserimento. Se rifiuti l'approvazione di un inserimento ore, lo stato dell'inserimento diventa **Restituito**. Se rifiuti l'approvazione di una voce di spesa, lo stato diventa **Rifiutato**. Da un punto di vista funzionale, le voci e gli inserimenti restituiti e rifiutati hanno lo stesso comportamento di quelli il cui stato è **Bozza**. Un membro del team di progetto può apportare qualsiasi modifica necessaria alla voce o all'inserimento e quindi inviarlo di nuovo per l'approvazione oppure eliminarlo completamente.
 

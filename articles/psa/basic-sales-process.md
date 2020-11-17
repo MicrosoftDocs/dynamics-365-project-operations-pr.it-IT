@@ -3,7 +3,7 @@ title: Processi di vendita
 description: In questo argomento vengono fornite informazioni sui processi di vendita di base.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f09b30fe6d842faaf896cb97f44b060ec4049213
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 38e02018e46943f53680babd12c7bede0a5d19de
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078990"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129323"
 ---
 # <a name="sales-processes"></a>Processi di vendita
 
@@ -70,12 +70,12 @@ Queste sei fasi sono rappresentate da frecce di espansione (\>) che selezioni pe
  
 La tua organizzazione potrebbe utilizzare entità differenti per rappresentare la stessa transazione durante l'evoluzione della stessa. All'inizio del processo di vendita, una transazione è rappresentata dall'entità Opportunità. Con il passare del tempo e quando emergono nuovi dettagli, potresti utilizzare stime generali per creare una o più offerte. Se una di queste offerte viene esaminata dalle parti interessate interne e dei clienti, l'entità Offerta rappresenta la transazione. Dopo l'accettazione dell'offerta da parte del cliente, un contratto di progetto o una descrizione dei lavori rappresenta la transazione. Per supportare questo comportamento, i processi aziendali sono strutturati di modo che ogni fase del processo sia collegata a una tabella di database differente.
 
-La fase **Imposta come qualificato** del processo di vendita può essere supportata da un'entità Opportunità. Le fasi **Stima** e **Verifica interna** possono essere supportate da un'entità Offerta. Le fasi **Contratto** , **Consegna** e **Chiusura** possono essere supportate da un'entità Contratto di progetto.
+La fase **Imposta come qualificato** del processo di vendita può essere supportata da un'entità Opportunità. Le fasi **Stima** e **Verifica interna** possono essere supportate da un'entità Offerta. Le fasi **Contratto**, **Consegna** e **Chiusura** possono essere supportate da un'entità Contratto di progetto.
 
 Durante lo spostamento delle transazioni da una fase all'altra, ti viene richiesto di creare un record di entità appropriato per guidarti durante il processo. Le fasi possono essere condizionali. Ad esempio, se richiedi una verifica interna di un'offerta solo se l'offerta utilizza un listino prezzi personalizzato, puoi configurare tale condizione nella fase appropriata del processo aziendale. La fase **Verifica interna** viene quindi visualizzata solo per le offerte che utilizzano un listino prezzi personalizzato. Per tutte le altre transazioni e offerte, la fase **Stima** è seguita dalla fase **Contratto**.
 
 > [!NOTE]
-> PSA include pagine specifiche per le entità Opportunità, Offerta, Ordine e Fattura. Devi creare opportunità, offerte, ordini e fatture di Project Service utilizzando le pagine di informazioni di progetto per queste entità. Se utilizzi un'altra pagina per creare un record, non potrai aprire il record dalla pagina **Informazioni sul progetto**. Se desideri aprire un record dalla pagina **Informazioni sul progetto** , devi eliminare il record e ricrearlo utilizzando la pagina **Informazioni di progetto**. Nella pagina **Informazioni di progetto** , la logica di business di ognuna di queste entità assicura la corretta impostazione del campo **Tipo** del record e la corretta inizializzazione di tutti i concetti obbligatori.
+> PSA include pagine specifiche per le entità Opportunità, Offerta, Ordine e Fattura. Devi creare opportunità, offerte, ordini e fatture di Project Service utilizzando le pagine di informazioni di progetto per queste entità. Se utilizzi un'altra pagina per creare un record, non potrai aprire il record dalla pagina **Informazioni sul progetto**. Se desideri aprire un record dalla pagina **Informazioni sul progetto**, devi eliminare il record e ricrearlo utilizzando la pagina **Informazioni di progetto**. Nella pagina **Informazioni di progetto**, la logica di business di ognuna di queste entità assicura la corretta impostazione del campo **Tipo** del record e la corretta inizializzazione di tutti i concetti obbligatori.
 
 > ![Informazioni sul progetto per un nuovo ordine](media/basic-guide-4.png)
  

@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3ead79371c5ebf5801123e47dc0d24e35ae51e58
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2b69742915fe79ee59e7fdcf317000cea79c5929
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078809"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180827"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>Pianificazioni della fatturazione su righe di offerta basate su progetto
 
@@ -28,11 +28,11 @@ Nel complesso, lo scopo delle pianificazioni della fatturazione è consentire la
 Quando il metodo di fatturazione per una riga di offerta basata su progetto è Tempo e materiale, il sistema genera una pianificazione della fatturazione basata sulla data. Per generare automaticamente una pianificazione della fatturazione basata sulla data, completa i seguenti passaggi.
 
 1. Vai a **Impostazioni** > **Frequenze di fatturazione** e configura una frequenza di fatturazione.
-2. Nella pagina **Offerta** apri l'offerta di progetto e nella scheda **Riepilogo** , imposta una data di consegna richiesta.
+2. Nella pagina **Offerta** apri l'offerta di progetto e nella scheda **Riepilogo**, imposta una data di consegna richiesta.
 3. Apri la riga dell'offerta di tempo e materiale per la quale è necessario creare una pianificazione della fatturazione basata sulla data. 
-4. Nella scheda **Pianificazione fatturazione** , seleziona i valori nei campi **Inizio fatturazione** e **Frequenza di fatturazione**. 
+4. Nella scheda **Pianificazione fatturazione**, seleziona i valori nei campi **Inizio fatturazione** e **Frequenza di fatturazione**. 
 5. Nella griglia secondaria, seleziona **Genera pianificazione fatturazione**.
-6. L'applicazione genera la pianificazione della fatturazione con i campi **Data esecuzione fattura** , **Data limite transazione** e **Stato di esecuzione** impostati nel modo seguente:
+6. L'applicazione genera la pianificazione della fatturazione con i campi **Data esecuzione fattura**, **Data limite transazione** e **Stato di esecuzione** impostati nel modo seguente:
 
     - **Data esecuzione fattura** è impostato sulla data dettata in base alla frequenza della fatturazione.
     - **Data limite transazione** è impostato il giorno prima della **Data esecuzione fattura**.
@@ -40,12 +40,12 @@ Quando il metodo di fatturazione per una riga di offerta basata su progetto è T
 
 ## <a name="create-a-fixed-price-invoice-schedule-for-a-project-based-quote-line"></a>Creare una pianificazione della fatturazione a prezzo fisso per una riga di offerta basata su progetto
 
-Quando la riga dell'offerta basata sul progetto ha un metodo di fatturazione **Fisso** , il sistema crea una pianificazione della fatturazione basata su passaggi fondamentali. Completa i passaggi seguenti per generare automaticamente questa pianificazione per un insieme fisso di passaggi fondamentali che vengono equamente distribuiti per il periodo di calendario.
+Quando la riga dell'offerta basata sul progetto ha un metodo di fatturazione **Fisso**, il sistema crea una pianificazione della fatturazione basata su passaggi fondamentali. Completa i passaggi seguenti per generare automaticamente questa pianificazione per un insieme fisso di passaggi fondamentali che vengono equamente distribuiti per il periodo di calendario.
 
 1. Vai a **Impostazioni** > **Frequenze di fatturazione** e configura una frequenza di fatturazione.
-2. Nella pagina **Offerta** apri l'offerta di progetto e nella scheda **Riepilogo** , imposta una data di consegna richiesta.
+2. Nella pagina **Offerta** apri l'offerta di progetto e nella scheda **Riepilogo**, imposta una data di consegna richiesta.
 3. Aprire la riga dell'offerta a prezzo fisso per cui è necessario creare una pianificazione dei passaggi fondamentali. 
-4. Nella scheda **Pianificazione fatturazione** , seleziona i valori nei campi **Inizio fatturazione** e **Frequenza di fatturazione**. 
+4. Nella scheda **Pianificazione fatturazione**, seleziona i valori nei campi **Inizio fatturazione** e **Frequenza di fatturazione**. 
 5. Nella griglia secondaria, seleziona **Genera passaggi fondamentali periodici**.
 6. L'applicazione genera la pianificazione della fatturazione con un nome, una data e un importo per il passaggio fondamentale.
 
@@ -58,9 +58,9 @@ Quando la riga dell'offerta basata sul progetto ha un metodo di fatturazione **F
 
 I passaggi fondamentali a prezzo fisso possono anche essere generati manualmente quando non vengono suddivisi periodicamente. Per creare manualmente un passaggio fondamentale:
 
-Apri la riga dell'offerta a prezzo fisso per cui è necessario creare un passaggio fondamentale. Nella scheda **Pianificazione della fatturazione** , nella griglia secondaria, seleziona **+ Crea un nuovo passaggio fondamentale della riga di offerta** e immetti le informazioni richieste in base alla tabella seguente.
+Apri la riga dell'offerta a prezzo fisso per cui è necessario creare un passaggio fondamentale. Nella scheda **Pianificazione fatturazione** nella griglia secondaria, seleziona **+ Crea nuovo passaggio fondamentale riga di offerta** e immetti le informazioni richieste in base alla tabella seguente.
 
-| **Campo** | **Luogo** | **Pertinenza, scopo e indicazioni** | **Impatto downstream** |
+| **Campo** | **Luogo** | **Descrizione** | **Impatto downstream** |
 | --- | --- | --- | --- |
 | Nome passaggio fondamentale | Creazione rapida | Il nome del passaggio fondamentale. | Viene propagato sul passaggio fondamentale della riga di contratto del progetto e sulla fattura |
 | Attività di progetto | Creazione rapida | Se il passaggio fondamentale è legato all'attività di progetto, è possibile utilizzare questo riferimento per aggiungere logica personalizzata e impostare lo stato del passaggio fondamentale in base allo stato dell'attività. | L'applicazione non ha alcun impatto downstream di questo riferimento a un'attività. |

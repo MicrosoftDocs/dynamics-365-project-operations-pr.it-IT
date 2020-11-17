@@ -3,7 +3,7 @@ title: Assegnare risorse prenotabili generiche a un'attività e a un team di pro
 description: In questo argomento vengono fornite informazioni sulla prenotazione di risorse generiche per attività e team di progetto.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/11/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ca0999ae5413d824dd1384fe2262e5226695a5f8
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 19761b3e570ad664522e832069a8ac50fffead64
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078891"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127073"
 ---
 # <a name="assign-generic-bookable-resources-to-a-task-and-generate-resource-requirements"></a>Assegnare risorse prenotabili generiche a un'attività e generare requisiti di risorsa 
 
@@ -31,7 +31,7 @@ ms.locfileid: "4078891"
 
 Oltre a prenotare e assegnare risorse denominate o reali al tuo progetto, puoi assegnare risorse generiche ad attività di progetto. Queste risorse possono essere utilizzate come segnaposto per le risorse denominate fino a che non si è pronti ad assegnare risorse denominate al progetto. 
 
-1. In Project Service Automation (PSA), apri la pagina **Progetto** e nella scheda **Pianifica** , immetti il nome posizione della risorsa generica nella cella **Risorsa** della pianificazione. In alternativa, fai clic sull'icona **Risorsa** nella cella per aprire il selettore di risorse e quindi immetti il nome della risorsa generica che intendi creare.
+1. In Project Service Automation (PSA), apri la pagina **Progetto** e nella scheda **Pianifica**, immetti il nome posizione della risorsa generica nella cella **Risorsa** della pianificazione. In alternativa, fai clic sull'icona **Risorsa** nella cella per aprire il selettore di risorse e quindi immetti il nome della risorsa generica che intendi creare.
 
 ![Creare e assegnare un membro del team generico](media/RM-how-to-9.png)
 

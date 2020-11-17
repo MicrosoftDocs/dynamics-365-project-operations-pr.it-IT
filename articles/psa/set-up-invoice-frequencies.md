@@ -3,7 +3,7 @@ title: Configurare le frequenze di fatturazione
 description: Come impostare le frequenze di fatturazione in Project Service
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 18fb4e6968612adb1c946650c829174286c5f3cd
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2739db966b332db35e383589e06e023ff156ed45
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079092"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132041"
 ---
 # <a name="set-up-invoice-frequencies-project-service"></a>Impostare le frequenze di fatturazione (Project Service)
 
@@ -37,11 +37,11 @@ Le frequenze di fatturazione di [!INCLUDE[pn_project_service_auto](../includes/p
   
 3.  Nell'area **Generale** inserisci un nome per la frequenza di fatturazione in **Nome**.  
   
-4.  In **Periodo** seleziona **Mensile** , **Bisettimanale** o **Settimanale**.  
+4.  In **Periodo** seleziona **Mensile**, **Bisettimanale** o **Settimanale**.  
   
 5.  Se hai specificato un periodo di mensile o bisettimanale, in **Giorni di esecuzione** seleziona **Giorno del periodo** per fatturare nel giorno specificato del periodo (se giorno feriale o fine settimana) oppure seleziona **giorno feriale del periodo** per fatturare nel giorno feriale specificato del periodo.  
   
-6.  Se è stato specificato un periodo mensile, in **Esecuzioni per mese** , seleziona il numero di volte per mese in cui si desidera eseguire la fatturazione.  
+6.  Se è stato specificato un periodo mensile, in **Esecuzioni per mese**, seleziona il numero di volte per mese in cui si desidera eseguire la fatturazione.  
   
 7.  Nell'area **Dettagli di frequenza di fatturazione** modifica i dettagli del giorno o del giorno feriale in base alle necessità per verificare che la fattura venga eseguita il giorno esatto o il giorno feriale del periodo specificato.  
   
