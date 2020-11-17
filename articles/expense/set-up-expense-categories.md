@@ -5,59 +5,59 @@ author: suvaidya
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: f051d70f3dfe3b241dc0a206c0cdfda000f87c76
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 13e72e4b852fd0edac5ad35d5162e74b016bce33
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078766"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123788"
 ---
-# <a name="set-up-expense-categories"></a><span data-ttu-id="d3d83-103">Configurare le categorie di spesa</span><span class="sxs-lookup"><span data-stu-id="d3d83-103">Set up expense categories</span></span>
+# <a name="set-up-expense-categories"></a><span data-ttu-id="532ce-103">Configurare le categorie di spesa</span><span class="sxs-lookup"><span data-stu-id="532ce-103">Set up expense categories</span></span>
 
-<span data-ttu-id="d3d83-104">_**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati_</span><span class="sxs-lookup"><span data-stu-id="d3d83-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
+<span data-ttu-id="532ce-104">_**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati_</span><span class="sxs-lookup"><span data-stu-id="532ce-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
 
-<span data-ttu-id="d3d83-105">Quando i dipendenti creano note spese, ogni spesa che registrano deve essere associata a una categoria di spesa.</span><span class="sxs-lookup"><span data-stu-id="d3d83-105">When employees create expense reports, each expense that they record must be associated with an expense category.</span></span> <span data-ttu-id="d3d83-106">Le categorie di spesa derivano da categorie condivise che possono essere condivise tra le persone giuridiche dell'organizzazione.</span><span class="sxs-lookup"><span data-stu-id="d3d83-106">Expense categories are derived from shared categories that can be shared across the legal entities in your organization.</span></span> <span data-ttu-id="d3d83-107">A seconda di come è definita l'organizzazione, queste categorie di spesa possono essere condivise anche in altre aree.</span><span class="sxs-lookup"><span data-stu-id="d3d83-107">Depending on how your organization is defined, these expense categories can also be shared in other areas.</span></span> <span data-ttu-id="d3d83-108">In base alla definizione dell'organizzazione e alle linee guida del team di implementazione, è necessario determinare se le categorie utilizzate nella gestione delle spese verranno utilizzate solo in Gestione spese o debbano essere condivise in altre aree.</span><span class="sxs-lookup"><span data-stu-id="d3d83-108">Based on the definition of your organization and guidance from the implementation team, you must determine whether the categories that are used in Expense management will be used only in Expense management or should be shared in other areas.</span></span>
+<span data-ttu-id="532ce-105">Quando i dipendenti creano note spese, ogni spesa che registrano deve essere associata a una categoria di spesa.</span><span class="sxs-lookup"><span data-stu-id="532ce-105">When employees create expense reports, each expense that they record must be associated with an expense category.</span></span> <span data-ttu-id="532ce-106">Le categorie di spesa derivano da categorie condivise che possono essere condivise tra le persone giuridiche dell'organizzazione.</span><span class="sxs-lookup"><span data-stu-id="532ce-106">Expense categories are derived from shared categories that can be shared across the legal entities in your organization.</span></span> <span data-ttu-id="532ce-107">A seconda di come è definita l'organizzazione, queste categorie di spesa possono essere condivise anche in altre aree.</span><span class="sxs-lookup"><span data-stu-id="532ce-107">Depending on how your organization is defined, these expense categories can also be shared in other areas.</span></span> <span data-ttu-id="532ce-108">In base alla definizione dell'organizzazione e alle linee guida del team di implementazione, è necessario determinare se le categorie utilizzate nella gestione delle spese verranno utilizzate solo in Gestione spese o debbano essere condivise in altre aree.</span><span class="sxs-lookup"><span data-stu-id="532ce-108">Based on the definition of your organization and guidance from the implementation team, you must determine whether the categories that are used in Expense management will be used only in Expense management or should be shared in other areas.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="d3d83-109">Queste categorie possono essere condivise tra Gestione progetti e contabilità e Gestione spese oppure tra Gestione progetti e contabilità e Produzione.</span><span class="sxs-lookup"><span data-stu-id="d3d83-109">These categories can be shared between Project management and accounting and Expense management, or between Project management and accounting and Production.</span></span> <span data-ttu-id="d3d83-110">Tuttavia, non possono essere condivise tra Gestione spese e Produzione.</span><span class="sxs-lookup"><span data-stu-id="d3d83-110">However, they can't be shared between Expense management and Production.</span></span>
+> <span data-ttu-id="532ce-109">Queste categorie possono essere condivise tra Gestione progetti e contabilità e Gestione spese oppure tra Gestione progetti e contabilità e Produzione.</span><span class="sxs-lookup"><span data-stu-id="532ce-109">These categories can be shared between Project management and accounting and Expense management, or between Project management and accounting and Production.</span></span> <span data-ttu-id="532ce-110">Tuttavia, non possono essere condivise tra Gestione spese e Produzione.</span><span class="sxs-lookup"><span data-stu-id="532ce-110">However, they can't be shared between Expense management and Production.</span></span>
 
-<span data-ttu-id="d3d83-111">Prima di poter iniziare il processo di configurazione, è necessario prendere le seguenti decisioni per ciascuna categoria di spesa:</span><span class="sxs-lookup"><span data-stu-id="d3d83-111">Before you can begin the setup process, the following decisions must be made for each expense category:</span></span>
+<span data-ttu-id="532ce-111">Prima di poter iniziare il processo di configurazione, è necessario prendere le seguenti decisioni per ciascuna categoria di spesa:</span><span class="sxs-lookup"><span data-stu-id="532ce-111">Before you can begin the setup process, the following decisions must be made for each expense category:</span></span>
 
-- <span data-ttu-id="d3d83-112">Qual è la categoria di spesa?</span><span class="sxs-lookup"><span data-stu-id="d3d83-112">What is the expense category?</span></span> <span data-ttu-id="d3d83-113">Gli esempi includono categorie per voli, hotel o chilometraggio.</span><span class="sxs-lookup"><span data-stu-id="d3d83-113">Examples include categories for flights, hotel, or mileage.</span></span>
-- <span data-ttu-id="d3d83-114">La categoria di spesa può essere utilizzata anche in Gestione progetti e contabilità?</span><span class="sxs-lookup"><span data-stu-id="d3d83-114">Can the expense category also be used in Project management and accounting?</span></span> <span data-ttu-id="d3d83-115">In caso affermativo, devi anche prendere le decisioni seguenti:</span><span class="sxs-lookup"><span data-stu-id="d3d83-115">If it can, you must also make the following decisions:</span></span>
+- <span data-ttu-id="532ce-112">Qual è la categoria di spesa?</span><span class="sxs-lookup"><span data-stu-id="532ce-112">What is the expense category?</span></span> <span data-ttu-id="532ce-113">Gli esempi includono categorie per voli, hotel o chilometraggio.</span><span class="sxs-lookup"><span data-stu-id="532ce-113">Examples include categories for flights, hotel, or mileage.</span></span>
+- <span data-ttu-id="532ce-114">La categoria di spesa può essere utilizzata anche in Gestione progetti e contabilità?</span><span class="sxs-lookup"><span data-stu-id="532ce-114">Can the expense category also be used in Project management and accounting?</span></span> <span data-ttu-id="532ce-115">In caso affermativo, devi anche prendere le decisioni seguenti:</span><span class="sxs-lookup"><span data-stu-id="532ce-115">If it can, you must also make the following decisions:</span></span>
 
-    - <span data-ttu-id="d3d83-116">Quali conti di costo verranno utilizzati per le seguenti spese?</span><span class="sxs-lookup"><span data-stu-id="d3d83-116">Which cost accounts will be used for the following expenses?</span></span>
+    - <span data-ttu-id="532ce-116">Quali conti di costo verranno utilizzati per le seguenti spese?</span><span class="sxs-lookup"><span data-stu-id="532ce-116">Which cost accounts will be used for the following expenses?</span></span>
 
-        - <span data-ttu-id="d3d83-117">Costo</span><span class="sxs-lookup"><span data-stu-id="d3d83-117">Cost</span></span>
-        - <span data-ttu-id="d3d83-118">Allocazione retribuzioni</span><span class="sxs-lookup"><span data-stu-id="d3d83-118">Payroll allocation</span></span>
-        - <span data-ttu-id="d3d83-119">WIP - valore costo</span><span class="sxs-lookup"><span data-stu-id="d3d83-119">WIP-cost value</span></span>
-        - <span data-ttu-id="d3d83-120">Elemento di costo</span><span class="sxs-lookup"><span data-stu-id="d3d83-120">Cost-item</span></span>
-        - <span data-ttu-id="d3d83-121">WIP - elemento valore di costo</span><span class="sxs-lookup"><span data-stu-id="d3d83-121">WIP-cost value-item</span></span>
-        - <span data-ttu-id="d3d83-122">Perdita maturata</span><span class="sxs-lookup"><span data-stu-id="d3d83-122">Accrued loss</span></span>
-        - <span data-ttu-id="d3d83-123">WIP - perdita maturata</span><span class="sxs-lookup"><span data-stu-id="d3d83-123">WIP-accrued loss</span></span>
+        - <span data-ttu-id="532ce-117">Costo</span><span class="sxs-lookup"><span data-stu-id="532ce-117">Cost</span></span>
+        - <span data-ttu-id="532ce-118">Allocazione retribuzioni</span><span class="sxs-lookup"><span data-stu-id="532ce-118">Payroll allocation</span></span>
+        - <span data-ttu-id="532ce-119">WIP - valore costo</span><span class="sxs-lookup"><span data-stu-id="532ce-119">WIP-cost value</span></span>
+        - <span data-ttu-id="532ce-120">Elemento di costo</span><span class="sxs-lookup"><span data-stu-id="532ce-120">Cost-item</span></span>
+        - <span data-ttu-id="532ce-121">WIP - elemento valore di costo</span><span class="sxs-lookup"><span data-stu-id="532ce-121">WIP-cost value-item</span></span>
+        - <span data-ttu-id="532ce-122">Perdita maturata</span><span class="sxs-lookup"><span data-stu-id="532ce-122">Accrued loss</span></span>
+        - <span data-ttu-id="532ce-123">WIP - perdita maturata</span><span class="sxs-lookup"><span data-stu-id="532ce-123">WIP-accrued loss</span></span>
 
-    - <span data-ttu-id="d3d83-124">Quali conti ricavi verranno utilizzati per le seguenti fonti di ricavi?</span><span class="sxs-lookup"><span data-stu-id="d3d83-124">Which revenue accounts will be used for the following sources of revenue?</span></span>
+    - <span data-ttu-id="532ce-124">Quali conti ricavi verranno utilizzati per le seguenti fonti di ricavi?</span><span class="sxs-lookup"><span data-stu-id="532ce-124">Which revenue accounts will be used for the following sources of revenue?</span></span>
 
-        - <span data-ttu-id="d3d83-125">Ricavi fatturati</span><span class="sxs-lookup"><span data-stu-id="d3d83-125">Invoiced revenue</span></span>
-        - <span data-ttu-id="d3d83-126">Ricavi maturati - valore delle vendite</span><span class="sxs-lookup"><span data-stu-id="d3d83-126">Accrued revenue-sales value</span></span>
-        - <span data-ttu-id="d3d83-127">WIP - valore delle vendite</span><span class="sxs-lookup"><span data-stu-id="d3d83-127">WIP-sales value</span></span>
-        - <span data-ttu-id="d3d83-128">Ricavi maturati - produzione</span><span class="sxs-lookup"><span data-stu-id="d3d83-128">Accrued revenue-production</span></span>
-        - <span data-ttu-id="d3d83-129">WIP - produzione</span><span class="sxs-lookup"><span data-stu-id="d3d83-129">WIP-production</span></span>
-        - <span data-ttu-id="d3d83-130">Ricavi maturati - profitti</span><span class="sxs-lookup"><span data-stu-id="d3d83-130">Accrued revenue-profit</span></span>
-        - <span data-ttu-id="d3d83-131">WIP - profitti</span><span class="sxs-lookup"><span data-stu-id="d3d83-131">WIP-profit</span></span>
-        - <span data-ttu-id="d3d83-132">Ricavi maturati - abbonamento</span><span class="sxs-lookup"><span data-stu-id="d3d83-132">Accrued revenue-subscription</span></span>
-        - <span data-ttu-id="d3d83-133">WIP - abbonamento</span><span class="sxs-lookup"><span data-stu-id="d3d83-133">WIP-subscription</span></span>
+        - <span data-ttu-id="532ce-125">Ricavi fatturati</span><span class="sxs-lookup"><span data-stu-id="532ce-125">Invoiced revenue</span></span>
+        - <span data-ttu-id="532ce-126">Ricavi maturati - valore delle vendite</span><span class="sxs-lookup"><span data-stu-id="532ce-126">Accrued revenue-sales value</span></span>
+        - <span data-ttu-id="532ce-127">WIP - valore delle vendite</span><span class="sxs-lookup"><span data-stu-id="532ce-127">WIP-sales value</span></span>
+        - <span data-ttu-id="532ce-128">Ricavi maturati - produzione</span><span class="sxs-lookup"><span data-stu-id="532ce-128">Accrued revenue-production</span></span>
+        - <span data-ttu-id="532ce-129">WIP - produzione</span><span class="sxs-lookup"><span data-stu-id="532ce-129">WIP-production</span></span>
+        - <span data-ttu-id="532ce-130">Ricavi maturati - profitti</span><span class="sxs-lookup"><span data-stu-id="532ce-130">Accrued revenue-profit</span></span>
+        - <span data-ttu-id="532ce-131">WIP - profitti</span><span class="sxs-lookup"><span data-stu-id="532ce-131">WIP-profit</span></span>
+        - <span data-ttu-id="532ce-132">Ricavi maturati - abbonamento</span><span class="sxs-lookup"><span data-stu-id="532ce-132">Accrued revenue-subscription</span></span>
+        - <span data-ttu-id="532ce-133">WIP - abbonamento</span><span class="sxs-lookup"><span data-stu-id="532ce-133">WIP-subscription</span></span>
 
-- <span data-ttu-id="d3d83-134">Qual è il tipo di spesa?</span><span class="sxs-lookup"><span data-stu-id="d3d83-134">What is the expense type?</span></span>
-- <span data-ttu-id="d3d83-135">Qual è il metodo di pagamento predefinito per la categoria di spesa?</span><span class="sxs-lookup"><span data-stu-id="d3d83-135">What is the default payment method for the expense category?</span></span>
-- <span data-ttu-id="d3d83-136">Le spese nella categoria di spesa devono essere dettagliate?</span><span class="sxs-lookup"><span data-stu-id="d3d83-136">Do expenses in the expense category have to be itemized?</span></span>
-- <span data-ttu-id="d3d83-137">Qual è il conto predefinito principale per la categoria di spesa?</span><span class="sxs-lookup"><span data-stu-id="d3d83-137">What is the main default account for the expense category?</span></span>
-- <span data-ttu-id="d3d83-138">Qual è la fascia IVA articoli predefinita per la categoria di spesa?</span><span class="sxs-lookup"><span data-stu-id="d3d83-138">What is the default item sales tax group for the expense category?</span></span>
-- <span data-ttu-id="d3d83-139">Sono consentiti metodi di pagamento aggiuntivi per la categoria di spesa?</span><span class="sxs-lookup"><span data-stu-id="d3d83-139">Are additional payment methods allowed for the expense category?</span></span> <span data-ttu-id="d3d83-140">In caso affermativo, quali?</span><span class="sxs-lookup"><span data-stu-id="d3d83-140">If so, what are they?</span></span>
-- <span data-ttu-id="d3d83-141">Ci sono sottocategorie in questa categoria di spesa?</span><span class="sxs-lookup"><span data-stu-id="d3d83-141">Are there subcategories in this expense category?</span></span> <span data-ttu-id="d3d83-142">In caso affermativo, devi anche prendere le decisioni seguenti:</span><span class="sxs-lookup"><span data-stu-id="d3d83-142">If there are subcategories, you must also make the following decisions:</span></span>
+- <span data-ttu-id="532ce-134">Qual è il tipo di spesa?</span><span class="sxs-lookup"><span data-stu-id="532ce-134">What is the expense type?</span></span>
+- <span data-ttu-id="532ce-135">Qual è il metodo di pagamento predefinito per la categoria di spesa?</span><span class="sxs-lookup"><span data-stu-id="532ce-135">What is the default payment method for the expense category?</span></span>
+- <span data-ttu-id="532ce-136">Le spese nella categoria di spesa devono essere dettagliate?</span><span class="sxs-lookup"><span data-stu-id="532ce-136">Do expenses in the expense category have to be itemized?</span></span>
+- <span data-ttu-id="532ce-137">Qual è il conto predefinito principale per la categoria di spesa?</span><span class="sxs-lookup"><span data-stu-id="532ce-137">What is the main default account for the expense category?</span></span>
+- <span data-ttu-id="532ce-138">Qual è la fascia IVA articoli predefinita per la categoria di spesa?</span><span class="sxs-lookup"><span data-stu-id="532ce-138">What is the default item sales tax group for the expense category?</span></span>
+- <span data-ttu-id="532ce-139">Sono consentiti metodi di pagamento aggiuntivi per la categoria di spesa?</span><span class="sxs-lookup"><span data-stu-id="532ce-139">Are additional payment methods allowed for the expense category?</span></span> <span data-ttu-id="532ce-140">In caso affermativo, quali?</span><span class="sxs-lookup"><span data-stu-id="532ce-140">If so, what are they?</span></span>
+- <span data-ttu-id="532ce-141">Ci sono sottocategorie in questa categoria di spesa?</span><span class="sxs-lookup"><span data-stu-id="532ce-141">Are there subcategories in this expense category?</span></span> <span data-ttu-id="532ce-142">In caso affermativo, devi anche prendere le decisioni seguenti:</span><span class="sxs-lookup"><span data-stu-id="532ce-142">If there are subcategories, you must also make the following decisions:</span></span>
 
-    - <span data-ttu-id="d3d83-143">Alcune delle sottocategorie sono escluse dal recupero IVA?</span><span class="sxs-lookup"><span data-stu-id="d3d83-143">Are any of the subcategories excluded from tax recovery?</span></span>
-    - <span data-ttu-id="d3d83-144">Qual è la fascia IVA articoli delle sottocategorie?</span><span class="sxs-lookup"><span data-stu-id="d3d83-144">What is the item sales tax group of the subcategories?</span></span>
+    - <span data-ttu-id="532ce-143">Alcune delle sottocategorie sono escluse dal recupero IVA?</span><span class="sxs-lookup"><span data-stu-id="532ce-143">Are any of the subcategories excluded from tax recovery?</span></span>
+    - <span data-ttu-id="532ce-144">Qual è la fascia IVA articoli delle sottocategorie?</span><span class="sxs-lookup"><span data-stu-id="532ce-144">What is the item sales tax group of the subcategories?</span></span>
