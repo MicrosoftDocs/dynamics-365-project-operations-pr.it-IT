@@ -38,7 +38,9 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: Novità
       items:
-        - name: Novembre 2020 - Project Operations per scenari basati su risorse/non stoccate
+        - name: Dicembre 2020 - Project Operations per scenari basati su risorse/materiali non stoccati
+          href: whats-new/whats-new-dec-2020-resource-based.md
+        - name: Novembre 2020 - Project Operations per scenari basati su risorse/materiali non stoccati
           href: whats-new/whats-new-nov-2020-resource-based.md
     - name: Processo di vendita di progetto
       items:
@@ -87,7 +89,7 @@
                 - name: Gestire più clienti sulle righe di offerta basate su progetto
                   href: sales/manage-multiple-customers-quote-line.md
                 - name: Configurare i componenti addebitabili di una riga di offerta di progetto
-                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
+                  href: sales/configure-chargeable-quoteline.md
                 - name: Creare stime in una riga dell'offerta
                   href: sales/create-estimate-quote-line.md
                 - name: Importare stime da un progetto in una riga di offerta basata su progetto
@@ -109,7 +111,7 @@
             - name: Gestire i listini prezzi di progetto sui contratti di progetto
               href: sales/contracts-manage-project-price-lists.md
             - name: Gestire più clienti nei contratti di progetto
-              href: sales/contracts-manage-project-price-lists.md
+              href: sales/manage-multiple-customers-contract.md
             - name: Voci di contratto basate su progetto
               items:
                 - name: Panoramica delle voci di contratto basate su progetto
@@ -128,9 +130,17 @@
               href: pro/sales/confirm-contract-sales.md
             - name: Copiare un contratto di progetto
               href: pro/sales/copy-project-contracts-sales.md
+            - name: Anticipi e acconti
+              items:
+                - name: Anticipi e contratti basati su acconto - semplice
+                  href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
+                - name: Configurare una pianificazione di acconti - semplice
+                  href: pro/sales/set-up-schedule-retainers-sales.md
+                - name: Creare un anticipo ad hoc su un contratto - semplice
+                  href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Prezzi e costi
       items:
-        - name: Impostazione del listino prezzi
+        - name: Configurazione del listino prezzi
           items:
             - name: Configurare i listini prezzi
               href: pricing-costing/price-list-setup.md
@@ -158,18 +168,28 @@
           items:
             - name: Panoramica delle dimensioni di determinazione dei prezzi
               href: pricing-costing/pricing-dimensions-overview.md
+            - name: Creare una soluzione per le dimensioni di determinazione dei prezzi personalizzate
+              href: sales/create-solution-custompd.md
             - name: Utilizzare i campi esistenti come dimensioni di determinazione dei prezzi
               items:
                 - name: Utilizzare i campi Project Operations come dimensioni di determinazione dei prezzi
                   href: pricing-costing/use-existing-field-pricing-dimension.md
+                - name: Utilizzare una risorsa prenotabile come dimensione di determinazione dei prezzi
+                  href: sales/use-br-as-pd.md
+                - name: Utilizzare una categoria di transazione come dimensione di determinazione dei prezzi
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: Risorsa prenotabile con più ruoli in un progetto
+                  href: sales/br-playing-multiple-roles.md
             - name: Campi personalizzati come dimensioni di determinazione dei prezzi
               items:
                 - name: Creare campi ed entità personalizzati come dimensioni di determinazione dei prezzi
                   href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
-                - name: Aggiungere campi personalizzati all'impostazione e alle entità transazionali
+                - name: Aggiungere campi personalizzati alla configurazione dei prezzi e alle entità transazionali
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
                 - name: Configurare campi personalizzati come dimensioni di determinazione dei prezzi
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+                - name: Aggiornare attributi di plug-in per includere nuove dimensioni di determinazione dei prezzi
+                  href: pricing-costing/update-plugin-attributes-pd.md
             - name: Disattivare una dimensione di determinazione dei prezzi
               href: pricing-costing/turning-off-pricing-dimension.md
     - name: Gestione dei progetti
@@ -250,12 +270,18 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: Amministrazione delle risorse
           items:
+            - name: Creare le risorse
+              href: resource-management/create-resources.md
             - name: Definire le competenze e i livelli di preparazione
               href: resource-management/define-skills-proficiencies.md
+            - name: Definire i ruoli
+              href: resource-management/define-roles.md
             - name: Definire i calendari delle risorse
               href: resource-management/define-resource-calendars.md
         - name: Metodi di allocazione delle prenotazioni
           href: resource-management/booking-allocation-methods.md
+        - name: Stati di prenotazione
+          href: resource-management/booking-status.md
         - name: Competenze e modelli del livello di preparazione
           href: resource-management/skills-proficiency-models.md
         - name: Riconciliazione risorse
@@ -354,6 +380,8 @@
           href: proforma-invoicing/create-manual-proforma-invoice.md
         - name: Gestire una fattura di progetto proforma
           href: proforma-invoicing/manage-proforma-invoice.md
+        - name: Fatturare un pagamento anticipato o in acconto
+          href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
         - name: Confermare una fattura di progetto proforma
           href: proforma-invoicing/confirm-proforma-invoice.md
         - name: Configurare Project Service Automation
@@ -370,6 +398,32 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: Giornale di registrazione integrazione in Project Operations
           href: project-accounting/project-operations-integration-journal.md
+        - name: Fatturazione interaziendale
+          items:
+            - name: Panoramica della fatturazione interaziendale
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: Configurare la fatturazione interaziendale
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: Creare fatture interaziendali per clienti e fornitori
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
+            - name: Creare transazioni interaziendali
+              href: project-accounting/create-intercompany-transactions.md
+    - name: Riconoscimento ricavi
+      items:
+        - name: Panoramica del riconoscimento ricavi
+          href: revenue-recognition/revenue-recognition-overview.md
+        - name: Configurare il riconoscimento ricavi
+          items:
+            - name: Configurare i tipi di periodo
+              href: project-accounting/period-types.md
+            - name: Configurare i modelli di costo
+              href: revenue-recognition/rev-rec-cost-templates.md
+        - name: Gestire le stime dei ricavi
+          href: revenue-recognition/rev-rec-completed-contract-method.md
+        - name: Progetti di stima dei ricavi a prezzo fisso
+          href: revenue-recognition/rev-rec-percentage-completion-method.md
+        - name: Costo per completare i metodi
+          href: revenue-recognition/cost-complete-methods.md
 - name: 'Distribuzione semplice: dalla transazione alla fatturazione proforma'
   items:
     - name: Attività iniziali
@@ -386,7 +440,9 @@
           href: environment/security-model.md
     - name: Novità
       items:
-        - name: 'Novità di novembre 2020 - Distribuzione semplice: dalla transazione alla fatturazione proforma'
+        - name: 'Novità di dicembre 2020 - distribuzione semplice: dalla transazione alla fatturazione proforma'
+          href: pro/whats-new/whats-new-dec-2020-lite.md
+        - name: 'Novità di novembre 2020 - distribuzione semplice: dalla transazione alla fatturazione proforma'
           href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: Processo di vendita di progetto
       items:
@@ -508,7 +564,7 @@
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Prezzi e costi
       items:
-        - name: Impostazione del listino prezzi
+        - name: Configurazione del listino prezzi
           items:
             - name: Configurare i listini prezzi
               href: pricing-costing/price-list-setup.md
@@ -538,18 +594,28 @@
           items:
             - name: Panoramica delle dimensioni di determinazione dei prezzi
               href: pricing-costing/pricing-dimensions-overview.md
+            - name: Creare una soluzione per le dimensioni di determinazione dei prezzi personalizzate
+              href: sales/create-solution-custompd.md
             - name: Utilizzare i campi esistenti come dimensioni di determinazione dei prezzi
               items:
-                - name: Utilizzare un campo esistente come dimensione di determinazione dei prezzi
+                - name: Utilizzare i campi Project Operations come dimensioni di determinazione dei prezzi
                   href: pricing-costing/use-existing-field-pricing-dimension.md
+                - name: Utilizzare una risorsa prenotabile come dimensione di determinazione dei prezzi
+                  href: sales/use-br-as-pd.md
+                - name: Utilizzare una categoria di transazione come dimensione di determinazione dei prezzi
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: Risorsa prenotabile con più ruoli in un progetto
+                  href: sales/br-playing-multiple-roles.md
             - name: Campi personalizzati come dimensioni di determinazione dei prezzi
               items:
                 - name: Creare campi ed entità personalizzati come dimensioni di determinazione dei prezzi
                   href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
-                - name: Aggiungere campi personalizzati all'impostazione e alle entità transazionali
+                - name: Aggiungere campi personalizzati alla configurazione dei prezzi e alle entità transazionali
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
                 - name: Configurare campi personalizzati come dimensioni di determinazione dei prezzi
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+                - name: Aggiornare attributi di plug-in per includere nuove dimensioni di determinazione dei prezzi
+                  href: pricing-costing/update-plugin-attributes-pd.md
             - name: Disattivare una dimensione di determinazione dei prezzi
               href: pricing-costing/turning-off-pricing-dimension.md
     - name: Gestione dei progetti
@@ -626,12 +692,18 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: Amministrazione delle risorse
           items:
+            - name: Creare le risorse
+              href: resource-management/create-resources.md
             - name: Definire le competenze e i livelli di preparazione
               href: resource-management/define-skills-proficiencies.md
+            - name: Definire i ruoli
+              href: resource-management/define-roles.md
             - name: Definire i calendari delle risorse
               href: resource-management/define-resource-calendars.md
         - name: Metodi di allocazione delle prenotazioni
           href: resource-management/booking-allocation-methods.md
+        - name: Stati di prenotazione
+          href: resource-management/booking-status.md
         - name: Competenze e modelli del livello di preparazione
           href: resource-management/skills-proficiency-models.md
         - name: Riconciliazione risorse
@@ -834,6 +906,8 @@
       items:
         - name: Pianificazione del rilascio dell'aggiornamento per Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Novità o modifiche dell''aggiornamento versione 26, V3'
+          href: psa/whats-new-ur-26.md
         - name: 'Novità o modifiche dell''aggiornamento versione 25, V3'
           href: psa/whats-new-ur-25.md
         - name: 'Novità o modifiche dell''aggiornamento versione 24, V3'
@@ -926,9 +1000,9 @@
               href: psa/custompricingdimensionssolution.md
             - name: Creare campi ed entità personalizzati
               href: psa/create-custom-fields-entities.md
-            - name: Aggiungere campi personalizzati all'impostazione e alle entità transazionali
+            - name: Aggiungere campi personalizzati alla configurazione dei prezzi e alle entità transazionali
               href: psa/field-references.md
-            - name: 'Configurare campi personalizzati come dimensioni di determinazione dei prezzi '
+            - name: Configurare campi personalizzati come dimensioni di determinazione dei prezzi
               href: psa/set-up-pricing-dimensions.md
             - name: Aggiornare attributi di plug-in per includere nuove dimensioni di determinazione dei prezzi
               href: psa/update-plug-in-attributes.md
