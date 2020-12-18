@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 674f4ccced3d0e3178799f60d9f95a2ec27cd153
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: b2fbec567c07d7567f1d133fa3512496039f16a1
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180782"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513929"
 ---
 # <a name="create-an-invoice-schedule-on-a-project-based-contract-line"></a>Creare una pianificazioni di fatturazione in una voce di contratto basata su progetto 
 
@@ -49,7 +49,7 @@ Completa i passaggi seguenti per generare una pianificazione della fatturazione 
 3. Apri la voce di contratto **Prezzo fisso** per cui stai creando una pianificazione dei passaggi fondamentali. Nella scheda **Passaggi fondamentali di fatturazione**, seleziona la data di inizio fatturazione e la frequenza di fatturazione. 
 4. Nella griglia secondaria, seleziona **Genera passaggi fondamentali periodici**. La pianificazione fatturazione viene generata con i campi **Nome passaggio fondamentale**, **Data passaggio fondamentale** e **Importo passaggio fondamentale** impostati come segue:
 
-    - **Nome passaggio fondamentale**: è la data dettata dalla frequenza della fatturazione.
+    - **Nome passaggio fondamentale**: questo nome è dettato dalla frequenza della fattura.
     - **Data fondamentale**: è la data dettata dalla frequenza della fatturazione.
     - **Importo passaggio fondamentale**: è l'importo calcolato dividendo l'importo del contratto nella voce di contratto per il numero di passaggi fondamentali come stabilito dalla frequenza e dalle date di inizio della fatturazione e di consegna richieste.
 

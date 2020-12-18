@@ -3,17 +3,17 @@ title: Voce di spesa (semplice)
 description: Questo argomento fornisce informazioni su come lavorare con le voci di spesa in una distribuzione semplice.
 author: stsporen
 manager: AnnBe
-ms.date: 10/06/2020
+ms.date: 11/19/2020
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 536c961593599df8e7e2986f92259b0e690eae8b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d87094882751f0751a8d9d539fa4cdcfc6b7b0d7
+ms.sourcegitcommit: 16c442258ba24c79076cf5877a0f3c1f51a85f61
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121088"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4590951"
 ---
 # <a name="expense-entry-lite"></a>Voce di spesa (semplice)
 
@@ -36,6 +36,10 @@ Dopo che hai acquisito tutte le spese e sei pronto per l'approvazione, devi invi
 
 1. Vai a **Spese** e seleziona una spesa. Oppure seleziona tutte le spese utilizzando la casella di controllo nell'intestazione.
 2. Seleziona **Invia**. Il sistema elabora le voci selezionate e quindi crea le richieste di approvazione delle spese.
+
+## <a name="add-an-attachment"></a>Aggiungi un allegato
+
+Potrebbe essere necessario fornire al revisore documentazione aggiuntiva sulle spese. È possibile allegare una ricevuta nella cronologia della voce di spesa. Seleziona **Modifica** e nella sezione **Sequenza temporale**, quindi seleziona l'icona della graffetta per allegare la ricevuta.
 
 ## <a name="recall-a-basic-expense"></a>Richiamare una spesa di base
 

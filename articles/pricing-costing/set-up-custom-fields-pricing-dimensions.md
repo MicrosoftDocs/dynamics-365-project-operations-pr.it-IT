@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 67e891d8576cd92f48466929fc53fe8a4203d72d
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 744c561d023d7ef5ed79947e69f2de8a3902fb41
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119423"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650220"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Configurare campi personalizzati come dimensioni di determinazione dei prezzi
 
@@ -41,9 +41,15 @@ In questo argomento vengono fornite informazioni sull'impostazione di dimensioni
 Affinché un campo diventi una dimensione di determinazione dei costi, deve essere:
 
 - Creato come campo nelle entità **Prezzo ruolo** e **Ricarichi prezzo ruolo**. Per ulteriori informazioni su come eseguire questa operazione, vedi [Aggiungere campi personalizzati alla configurazione dei prezzi e ad entità transazionali](add-custom-fields-price-setup-transactional-entities.md).
+
 - Creato come riga nella tabella **Dimensione di determinazione dei prezzi**. Ad esempio, aggiungi righe come dimensioni di determinazione dei prezzi come mostrato nell'illustrazione seguente. 
 
+![Righe di dimensioni di determinazione dei prezzi basate su importo](media/Amt-based-PD.png)
+
 Il campo Ore lavorative della risorsa (**msdyn_resourceworkhours**) è aggiunto come dimensione basata su ricarico e alla griglia nella scheda **Dimensione di determinazione dei prezzi basata su ricarico**.
+
+![Righe di dimensioni di determinazione dei prezzi basate su ricarico](media/Markup-based-PD.png)
+
 
 > [!IMPORTANT]
 > Tutte le modifiche ai dati nuovi o esistenti delle dimensioni di determinazione dei prezzi in questa tabella vengono propagate alla regole di business per la determinazione dei prezzi solo dopo l'aggiornamento della cache. L'aggiornamento della cache può durare fino a 10 minuti. Utilizza questo tempo per dare un'occhiata alle modifiche alla logica di impostazione predefinita dei prezzi che deve risultare dalle modifiche ai dati di Dimensione di determinazione dei prezzi.

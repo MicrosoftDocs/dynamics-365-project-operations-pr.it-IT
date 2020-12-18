@@ -1,5 +1,5 @@
 ---
-title: Fatturare un pagamento anticipato o in acconto - semplice
+title: Fatturazione di un anticipo o di un acconto
 description: Questo argomento fornisce informazioni su come fatturare un acconto o un anticipo in Project Operations.
 author: rumant
 manager: Annbe
@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9013529b615026eab92177c9fd9fb84c50d66f4f
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180557"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596197"
 ---
-# <a name="invoice-a-retainer-or-an-advance---lite"></a>Fatturare un pagamento anticipato o in acconto - semplice
+# <a name="invoice-a-retainer-or-an-advance"></a>Fatturare un pagamento anticipato o in acconto
 
-_**Si applica a:** Distribuzione semplice: dalla transazione alla fatturazione proforma_
+_**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
-Dynamics 365 Project Operations supporta contratti basati su acconti e anticipi una tantum. In un contratto di progetto, puoi registrare una pianificazione di acconti o di un anticipo una tantum. Tuttavia, la registrazione a livello di contratto di progetto non rende immediatamente disponibile per l'uso un acconto o un anticipo. Per utilizzare un acconto o un anticipo su una fattura che addebita effettivamente l'importo al cliente, devi prima fatturare l'acconto o l'acconto.
+Dynamics 365 Project Operations supporta contratti basati su acconto e anticipi una tantum. In un contratto di progetto, puoi registrare una pianificazione di acconti o di un anticipo una tantum. Tuttavia, la registrazione a livello di contratto di progetto non rende immediatamente disponibile per l'uso un acconto o un anticipo. Per utilizzare un acconto o un anticipo su una fattura che addebita effettivamente l'importo al cliente, devi prima fatturare l'acconto o l'acconto.
 
 Completa questa procedura per fatturare un acconto o un anticipo.
 

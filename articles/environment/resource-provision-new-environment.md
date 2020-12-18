@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 044a942a068b33318b98041cc94944d90c1d63c3
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121178"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642981"
 ---
 # <a name="provision-a-new-environment"></a>Effettuare il provisioning di un nuovo ambiente
 
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati_
 
-Questo argomento fornisce informazioni su come effettuare il provisioning di un nuovo ambiente Dynamics 365 Project Operations per scenari basati su risorse/non stoccate.
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Questo argomento fornisce informazioni su come eseguire il provisioning di un nuovo ambiente Dynamics 365 Project Operations per scenari basati risorse/materiali non stoccati.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>Abilitare il provisioning automatizzato di Project Operations in un progetto LCS
 
@@ -120,7 +122,7 @@ La manutenzione dell'ambiente richiederà del tempo. Al termine, l'ambiente torn
 
 ![Applica soluzioni](./media/13ApplySolutions.png)
 
-5. Seleziona entrambe le soluzioni, **Mapping entità doppia scrittura Dynamics 365 Finance and Operations** e **Mapping entità doppia scrittura Dynamics 365 Project Operations**, quindi seleziona **Applica**.
+5. Seleziona entrambe le soluzioni, **Dynamics 365 Finance and Operations Dual Write Entity Map** e **Dynamics 365 Project Operations Dual Write Entity Maps** e quindi seleziona **Applica**.
 
 ![Confermare le soluzioni](./media/14ConfirmSolutions.png)
 
@@ -160,6 +162,7 @@ L'aggiornamento richiederà circa 20 minuti. Riceverai un avviso quando sarà co
 | --- | --- | --- | --- | --- | --- |
 | **Ruoli delle risorse di progetto per tutte le aziende (bookableresourcecategories)** | No | Sì | Common Data Service | No | N/A |
 | **Persone giuridiche (cdm\_companies)** | No | Sì | App Finance and Operations | No | N/A |
+| **Libro mastro (msdyn_ledgers)** | No | Sì | App Finance and Operations | Sì | Sì, app Finance and Operations |
 | **Valori effettivi dell'integrazione di Project Operations (msdyn\_actuals)** | No | No | N/A | Sì | No |
 | **Voci del contratto di progetto (salesorderdetails)** | No | No | N/A | No | No |
 | **Entità di integrazione per le relazioni di transazione del progetto (msdyn\_transactionconnections)** | No | No | N/A | No | N/A |

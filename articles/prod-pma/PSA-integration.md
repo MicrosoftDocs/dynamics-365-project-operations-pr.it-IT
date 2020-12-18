@@ -17,16 +17,17 @@ ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e1a963bccefd1552aab6e42d3b2d1dc63a82e8f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d9ccbb29d5035ea061d232011af87cef2c81e76c
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079017"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642458"
 ---
 # <a name="project-service-automation-overview"></a>Panoramica di Project Service Automation
 
 [!include[banner](../includes/banner.md)]
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 La soluzione di integrazione da Project Service Automation a Finance utilizza la funzionalità di integrazione dei dati per sincronizzare i dati tra le istanze di Dynamics 365 Finance e Dynamics 365 Project Service Automation tramite Common Data Service. I modelli di integrazione disponibili con la funzionalità Integrazione dati consentono il flusso di progetti, contratti di progetto, voci di contratto di progetto, fasi delle voci di contratto di progetto, attività di progetto, categorie di transazione di spesa, stime delle ore e stime delle spese da Project Service Automation a Finance.
 

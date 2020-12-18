@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ce37c9dd18fd01e599e8766389e42c066e182547
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 3381707457ef35ff604c716592afd8382b98ad5d
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177066"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4643043"
 ---
 # <a name="project-contracts---key-concepts---lite"></a>Concetti chiave dei contratti di progetto - semplice
 
 _**Si applica a:** Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
-Questo argomento fornisce i concetti chiave di cui tenere conto prima di iniziare a utilizzare i contratti di progetto in Dynamics 365 Project Operations:
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Questo argomento fornisce i concetti chiave di cui essere a conoscenza prima di iniziare a utilizzare i contratti di Project in Dynamics 365 Project Operations:
 
 ## <a name="contracting-unit"></a>Unità contratto
 

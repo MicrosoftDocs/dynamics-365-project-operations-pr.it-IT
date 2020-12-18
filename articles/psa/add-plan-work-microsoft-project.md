@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 86b676a0cf74e0257fd76cf32271497eebc06e75
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4129683"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642773"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Utilizzare il componente aggiuntivo Project Service Automation di pianificare il lavoro in Microsoft Project
 
@@ -85,14 +85,14 @@ ms.locfileid: "4129683"
 ## <a name="publish-your-project"></a>Pubblicare il progetto  
 Quando la pianificazione di progetto è completa, è necessario importare e pubblicare il progetto in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
-Il progetto verrà importato in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Il processo di creazione del team e dei prezzi viene applicato. Aprire il progetto in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] per verificare che team, stime di progetto e struttura di suddivisione del lavoro siano stati creati. La tabella seguente mostra dove trovare i risultati:
+Il progetto verrà importato in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Il processo di creazione del team e dei prezzi viene applicato. Aprire il progetto in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] per verificare che il team, le stime di progetto e la struttura di suddivisione del lavoro siano stati creati. La tabella seguente mostra dove trovare i risultati:
 
 
 |                                                                                          |                                                                                                                                   |
 |------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
 |  [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Diagramma di Gantt**   | Importare nella schermata **Struttura di suddivisione del lavoro** di [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] |
 | [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Foglio risorse** |   Esegue l'importazione in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], schermata **Solo membri del team di progetto**   |
-|   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Utilizzare l'utilizzo**    |    Esegue l'importazione in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], schermata  **Stime di progetto**.     |
+|   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Utilizzare l'utilizzo**    |    Esegue l'importazione in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], schermata **Stime di progetto**.     |
 
 **Per importare e pubblicare il progetto**  
 1. Nella scheda **Project Service**, fare clic su **Pubblica** > **Nuovo progetto di Project Service Automation**.  
@@ -173,6 +173,59 @@ Il progetto verrà importato in [!INCLUDE[pn_project_service_auto](../includes/p
 4. Fare clic su **Pubblica**.  
 
 Il collegamento del file di Project a [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] imposta il file di Project come master e imposta la struttura di suddivisione del lavoro nel modello di [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] su sola lettura.  Per apportare modifiche al piano di progetto, è necessario eseguire le modifiche in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] e pubblicarle come aggiornamenti in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].
+
+## <a name="read-a-resource-loaded-schedule"></a>Leggere una pianificazione caricata di risorse
+
+Durante la lettura di un progetto da Project Service Automation, il calendario della risorsa non viene sincronizzato con il client desktop. Se sono presenti differenze nella durata, nello svolgimento o nella fine delle attività, è probabile che le risorse e il client desktop non abbiano lo stesso calendario del modello delle ore di lavoro applicato al progetto.
+
+
+## <a name="data-synchronization"></a>Sincronizzazione dati
+
+La tabella seguente illustra come i dati vengono sincronizzati tra Project Service Automation e il componente aggiuntivo desktop di Microsoft Project.
+
+| **Entità** | **Campo** | **Da Microsoft Project a Project Service Automation** | **Da Project Service Automation a Microsoft Project** |
+| --- | --- | --- | --- |
+| Attività di progetto | Data di scadenza | ● | - |
+| Attività di progetto | Lavoro richiesto stimato | ● | - |
+| Attività di progetto | ID client di MS Project | ● | - |
+| Attività di progetto | Attività padre | ● | - |
+| Attività di progetto | Project | ● | - |
+| Attività di progetto | Attività di progetto | ● | - |
+| Attività di progetto | Nome attività di progetto | ● | - |
+| Attività di progetto | Unità gestione risorse (deprecata nella v3.0) | ● | - |
+| Attività di progetto | Durata pianificata | ● | - |
+| Attività di progetto | Data di inizio | ● | - |
+| Attività di progetto | ID struttura di suddivisione del lavoro | ● | - |
+
+| **Entità** | **Campo** | **Da Microsoft Project a Project Service Automation** | **Da Project Service Automation a Microsoft Project** |
+| --- | --- | --- | --- |
+| Membro del team | ID client di MS Project | ● | - |
+| Membro del team | Nome posizione | ● | - |
+| Membro del team | progetto | ● | ● |
+| Membro del team | Team di progetto | ● | ● |
+| Membro del team | Unità gestione risorse | - | ● |
+| Membro del team | Ruolo | - | ● |
+| Membro del team | Ore lavorative | Non sincronizzato | Non sincronizzato |
+
+| **Entità** | **Campo** | **Da Microsoft Project a Project Service Automation** | **Da Project Service Automation a Microsoft Project** |
+| --- | --- | --- | --- |
+| Assegnazione risorse | Dal | ● | - |
+| Assegnazione risorse | Ore | ● | - |
+| Assegnazione risorse | ID client di MS Project | ● | - |
+| Assegnazione risorse | Lavoro pianificato | ● | - |
+| Assegnazione risorse | Project | ● | - |
+| Assegnazione risorse | Team di progetto | ● | - |
+| Assegnazione risorse | Assegnazione risorse | ● | - |
+| Assegnazione risorse | Attività | ● | - |
+| Assegnazione risorse | Fino al | ● | - |
+
+| **Entità** | **Campo** | **Da Microsoft Project a Project Service Automation** | **Da Project Service Automation a Microsoft Project** |
+| --- | --- | --- | --- |
+| Dipendenze attività di progetto | Dipendenza attività di progetto | ● | - |
+| Dipendenze attività di progetto | Tipo di collegamento | ● | - |
+| Dipendenze attività di progetto | Attività precedente | ● | - |
+| Dipendenze attività di progetto | Project | ● | - |
+| Dipendenze attività di progetto | Attività successiva | ● | - |
 
 ### <a name="see-also"></a>Vedi anche  
  [Guida del responsabile di progetto](../psa/project-manager-guide.md)

@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 3fc4101d0ea4b8e2a4ba8f1d43540d57239cf402
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b01f3d88dd021895933bc863b762f019ae50eed6
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124373"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642908"
 ---
 # <a name="security-model"></a>Modello di sicurezza
 
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
-Microsoft Dynamics 365 Project Operations contiene un modello di sicurezza unico che consente un modello di sicurezza aziendale basato sui ruoli che collabora con Gruppi di Microsoft Office. 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Microsoft Dynamics 365 Project Operations contiene un modello di sicurezza unico che consente un modello di sicurezza aziendale basato sui ruoli che collabora con i gruppi di Microsoft Office. 
 
 
 ## <a name="security-roles"></a>Ruoli di sicurezza

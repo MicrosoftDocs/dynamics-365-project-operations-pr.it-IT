@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 00fc16b0e723d4df88ceae961d9772e26dd1451e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 5e789295d4b1f5a53fcf179a2998f60d35f48f99
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180512"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513794"
 ---
 # <a name="manage-leads---lite"></a>Gestire i lead - semplice
 
@@ -23,7 +23,7 @@ I lead basati su progetto possono essere gestiti e qualificati in Project Operat
 
 ## <a name="list-of-project-sales-leads"></a>Elenco di lead di progetto
 
-Nella sezione **Vendite**, nel riquadro di spostamento a sinistra, apri la pagina elenco **Lead** per visualizzare un elenco di tutti i record di lead nel sistema. L'elenco dei lead mostrato è basato sul lavoro e altri tipi di lead che possono essere creati se disponi anche delle applicazioni Dynamics 365 Sales o Dynamics 365 Field Service.
+Nella sezione **Vendite**, nel riquadro di spostamento a sinistra, apri la pagina elenco **Lead** per visualizzare un elenco di tutti i record di lead nel sistema. I lead nell'elenco sono basati sul lavoro e altri tipi di lead che possono essere creati se si dispone anche di Dynamics 365 Sales o applicazioni di Dynamics 365 Field Service.
 
 Puoi creare un visualizzazione filtrata per vedere solo i lead basati su progetto creando un filtro sul valore **Tipo**. Ad esempio, puoi scegliere di mostrare solo i lead basati sul lavoro.
 
@@ -53,7 +53,7 @@ I lead che hanno il valore **Tipo** impostato su **Basato su lavoro** sono chiam
 
 - Un account che utilizza il campo **Azienda** dal lead.
 - Un record del contatto associato all'account in base ai valori nei campi **Nome** e **Cognome** sul lead.
-- Un'opportunità basata su progetto che ha il campo **Tipo** impostato su **Basato sul lavoro**.
+- Un'opportunità basata su progetto che ha il campo **Tipo** impostato su **Basato su lavoro**.
 
 Per informazioni più dettagliate sulla qualificazione dei lead, vedi [Qualificare o convertire i lead](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 

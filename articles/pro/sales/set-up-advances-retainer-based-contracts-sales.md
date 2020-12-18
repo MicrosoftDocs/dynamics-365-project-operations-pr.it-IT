@@ -1,5 +1,5 @@
 ---
-title: Anticipi e contratti basati su acconto - semplice
+title: Anticipi e contratti basati su acconto
 description: Questo argomento fornisce informazioni sui modelli di contratto basato su acconto o sugli anticipi in Project Operations.
 author: rumant
 manager: Annbe
@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 912b235af5e561349fdfb481e5f5b7c5514669c3
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 1aee64bf683b7d8d0bcde284f2d5d484e689c4d2
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180872"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596107"
 ---
-# <a name="advances-and-retainer-based-contracts---lite"></a>Anticipi e contratti basati su acconto - semplice
+# <a name="advances-and-retainer-based-contracts"></a>Anticipi e contratti basati su acconto
 
 
-_**Si applica a:** Distribuzione semplice: dalla transazione alla fatturazione proforma_
+_**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
-Dynamics 365 Project Operations supporta contratti basati su acconti. Un contratto basato su acconto è una serie negoziata di pagamenti equamente distribuiti che verranno fatturati al cliente per tutta la durata di un progetto. Questo tipo di contratto viene generalmente utilizzato per modelli di fatturazione basati su tempo e materiali o consumo in cui è necessario fornire al cliente una fatturazione e una pianificazione dei pagamenti prevista. I ricavi effettivi maturati in ciascun periodo vengono riconciliati con il pagamento ricevuto dal cliente all'inizio del periodo. In accordo con il concetto del modello di fatturazione Tempo e materiali, i valori dei ricavi maturati in ciascun periodo possono variare in base ai costi sostenuti. Se le entrate maturate sono superiori all'importo ricevuto all'inizio del periodo, la società di consegna del progetto può:
+Dynamics 365 Project Operations supporta contratti basati su acconto. Un contratto basato su acconto è una serie negoziata di pagamenti equamente distribuiti che verranno fatturati al cliente per tutta la durata di un progetto. Questo tipo di contratto viene generalmente utilizzato per modelli di fatturazione basati su tempo e materiali o consumo in cui è necessario fornire al cliente una fatturazione e una pianificazione dei pagamenti prevista. I ricavi effettivi maturati in ciascun periodo vengono riconciliati con il pagamento ricevuto dal cliente all'inizio del periodo. In accordo con il concetto del modello di fatturazione Tempo e materiali, i valori dei ricavi maturati in ciascun periodo possono variare in base ai costi sostenuti. Se le entrate maturate sono superiori all'importo ricevuto all'inizio del periodo, la società di consegna del progetto può:
 
 - Fatturare al cliente solo l'eccedenza 
 - Rinviare la riconciliazione dei ricavi al periodo di fatturazione successivo ed eseguire una fattura finale alla fine del progetto per eventuali entrate non riconciliate rimanenti

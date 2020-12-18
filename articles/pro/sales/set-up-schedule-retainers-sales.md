@@ -1,5 +1,5 @@
 ---
-title: Configurare una pianificazione di acconti - semplice
+title: Configurare una pianificazione acconti
 description: Questo argomento fornisce informazioni su come impostare una pianificazione di acconti in Project Operations.
 author: rumant
 manager: Annbe
@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5e0312b89d9969f140146b6aaaa9bdcfde702c0b
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 1c264b544660cf7a0b116f09b6bd7c94fcf0457e
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181277"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596377"
 ---
-# <a name="set-up-a-retainer-schedule---lite"></a>Configurare una pianificazione di acconti - semplice
+# <a name="set-up-a-retainer-schedule"></a>Configurare una pianificazione acconti
 
-_**Si applica a:** Distribuzione semplice: dalla transazione alla fatturazione proforma_
+_**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
 Le pianificazioni di acconti sono impostate nella pagina **Contratto di progetto** in Dynamics 365 Project Operations.
 

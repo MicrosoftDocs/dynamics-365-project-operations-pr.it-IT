@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 0100c29873be6346614e958ef6ea0c77da2c9590
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 22976730ef3c8c22ea028b27a6eb5f14fb88993e
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131618"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642413"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>Sviluppare i modelli di progetto con Copia progetto
 
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
-Dynamics 365 Project Operations supporta la possibilità di copiare un progetto e ripristinare eventuali assegnazioni alle risorse generiche che rappresentano il ruolo. I clienti possono utilizzare questa funzionalità per creare modelli di progetto di base.
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Dynamics 365 Project Operations supporta la capacità di copiare un progetto e ripristinare eventuali assegnazioni alle risorse generiche che ne rappresentano il ruolo. I clienti possono utilizzare questa funzionalità per creare modelli di progetto di base.
 
 Quando selezioni **Copia progetto**, lo stato del progetto di destinazione viene aggiornato. Usa il **motivo stato** per determinare quando l'azione di copia è stata completata. La selezione di **Copia progetto** aggiorna anche la data di inizio del progetto sulla data di inizio corrente se non viene rilevata alcuna data di destinazione nell'entità del progetto di destinazione.
 

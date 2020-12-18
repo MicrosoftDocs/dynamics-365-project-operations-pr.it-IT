@@ -3,30 +3,22 @@ title: Panoramica delle dimensioni di determinazione dei prezzi
 description: Questo argomento fornisce informazioni sulle dimensioni di determinazione dei prezzi in Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ec2e350e0e4c28ea1c9540d70c83fdf0a75dc408
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.author: rumant
+ms.openlocfilehash: 33f55976eafedd046fba952ab6381c297ab4e271
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128468"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650201"
 ---
 # <a name="pricing-dimensions-overview"></a>Panoramica delle dimensioni di determinazione dei prezzi
 
-_**Si applica a:** Project Operations per scenari basati su risorse/non stoccate, Distribuzione semplice: dalla transazione alla fatturazione proforma_
+_**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
 Le dimensioni utilizzate nelle risorse umane per impostare prezzi e costi rientrano in due categorie:
 
@@ -40,9 +32,21 @@ Di conseguenza, sono disponibili due tipi di valori per le dimensioni di determi
 
 ## <a name="pricing-dimensions"></a>Dimensioni di determinazione dei prezzi
 
-Dynamics 365 Project Operations viene fornito con un set predefinito di dimensioni dei prezzi. Puoi visualizzare queste dimensioni di determinazione dei prezzi in **Project Operations** > **Parametri**. Nel record del parametro, nella scheda **Dimensione di determinazione dei prezzi basata su importo**, verifica che i campi **Vendite applicabili a** e **Costo applicabile a** del ruolo **msdyn_resourcecategory** e dell'unità organizzativa di gestione risorse **msdyn_organizationalunit** siano impostati su **Sì**. Con questi campi abilitati puoi impostare il prezzo e il costo di ogni combinazione di unità organizzativa e ruolo.
+Dynamics 365 Project Operations include un set predefinito di dimensioni di determinazione dei prezzi. Puoi visualizzare queste dimensioni di determinazione dei prezzi in **Project Operations** > **Parametri**. Nel record del parametro, nella scheda **Dimensione di determinazione dei prezzi basata su importo**, verifica che i campi **Vendite applicabili a** e **Costo applicabile a** del ruolo **msdyn_resourcecategory** e dell'unità organizzativa di gestione risorse **msdyn_organizationalunit** siano impostati su **Sì**. Con questi campi abilitati puoi impostare il prezzo e il costo di ogni combinazione di unità organizzativa e ruolo.
 
-Se devi determinare il prezzo o il costo delle risorse utilizzando ulteriori attributi, puoi creare entità, dimensioni e campi personalizzati.
+![Screenshot dei parametri di Project Service con il campo "Vendite applicabili a" evidenziato](media/PS-OOB-parameters.png)
+
+Se devi determinare il prezzo o il costo delle risorse utilizzando ulteriori attributi, puoi creare entità, dimensioni e campi personalizzati. Per ulteriori informazioni, vedere gli argomenti seguenti. 
+  
+  > [!NOTE]
+  > Le procedure devono essere completate nell'ordine in cui sono elencate.
+
+1. [Creare una soluzione per le dimensioni di determinazione dei prezzi personalizzate](../sales/create-solution-custompd.md)
+2. [Creazione di campi ed entità personalizzati](create-custom-fields-entities-pricing-dimensions.md)
+3. [Aggiungere campi personalizzati all'impostazione e alle entità transazionali ](add-custom-fields-price-setup-transactional-entities.md)
+4. [Configurare campi personalizzati come dimensioni di determinazione dei prezzi ](set-up-custom-fields-pricing-dimensions.md)
+5. [Aggiornare attributi di plug-in per includere nuove dimensioni di determinazione dei prezzi](update-plugin-attributes-pd.md)
+
 
 ## <a name="pricing-human-resource-time"></a>Determinare il prezzo del tempo delle risorse umane
 Il modo in cui un'organizzazione determina il prezzo del tempo delle risorse umane è spesso un fattore strategico importante che influenza direttamente la redditività dell'organizzazione. Collabora con i team finanziari e i responsabili delle procedure quando l'organizzazione è pronta per identificare il modo in cui configurare tassi di fatturazione e di costo per il tempo delle risorse umane.

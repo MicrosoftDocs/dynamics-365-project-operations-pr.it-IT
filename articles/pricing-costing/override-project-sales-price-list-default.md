@@ -5,15 +5,16 @@ author: rumant
 manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c97dca8685c2db7d256017cf4442416feb0e005b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: af9baca540d89f4e5e616bdfdd6111bef29abe28
+ms.sourcegitcommit: 656a9d03f260c29e988e2ff05b6e07ae0365d6d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130853"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "4672236"
 ---
 # <a name="override-project-sales-price-lists"></a>Sostituire i listini prezzi di vendita di progetto
 
@@ -27,7 +28,7 @@ Per impostare un listino prezzi di progetto specifico per il cliente, nell'area 
 
 1. Apri la pagina elenco **Conti**.
 2. Individua e fai doppio clic su un record cliente per aprire la pagina dei dettagli del **conto**.
-3. Nella scheda **Listini prezzi di progetto** seleziona **+ Nuovo listino prezzi di progetto^^.
+3. Nella scheda **Listini prezzi di progetto** seleziona **+ Nuovo listino prezzi di progetto**.
 4. Nella pagina **Nuovo listino prezzi di progetto** seleziona un listino prezzi dal menu a discesa. Solo i listini prezzi che hanno il contesto impostato su **Vendite** e la cui valuta corrisponde alla valuta del conto sono inclusi.
 5. Immetti un nome per l'associazione e seleziona **Salva**. Il listino prezzi di progetto specifico per il cliente è stato creato. Questo listino prezzi verrà utilizzato per i prezzi di progetto predefiniti sulle offerte di progetto o sui contratti creati per questo cliente in cui la data di creazione dell'offerta o del contratto di progetto rientra nella data di validità del listino prezzi.
 
