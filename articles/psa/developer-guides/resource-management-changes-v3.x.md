@@ -16,20 +16,22 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5176d2c6b7b00d47d4aeb12f54bdb84d4b87304c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 94f9adc67163254486387a1ce59d5d3e8e93c335
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079067"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148648"
 ---
 # <a name="resource-management-changes-project-service-automation-3x"></a>Modifiche alla gestione delle risorse (Project Service Automation 3.x)
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 Le sezioni di questo argomento forniscono informazioni sulle modifiche apportate all'area Gestione risorse di Dynamics 365 Project Service Automation versione 3.x.
 
 ## <a name="project-estimates"></a>Stime di progetto
 
-Anziché essere basate sull'entità **msdyn\_projecttask** ( **Attività di progetto** ), le stime di progetto sono basate sull'entità **msdyn\_resourceassignment** ( **Assegnazione risorse** ). Le assegnazioni delle risorse sono diventate un'"origine di riferimento" per la pianificazione delle attività e la determinazione dei prezzi.
+Anziché essere basate sull'entità **msdyn\_projecttask** (**Attività di progetto**), le stime di progetto sono basate sull'entità **msdyn\_resourceassignment** (**Assegnazione risorse**). Le assegnazioni delle risorse sono diventate un'"origine di riferimento" per la pianificazione delle attività e la determinazione dei prezzi.
 
 ## <a name="line-tasks"></a>Attività riga
 
@@ -65,7 +67,7 @@ In PSA 3.x, un'assegnazione non assegnata è un'assegnazione che viene assegnata
 
 ## <a name="scheduling-fields-on-the-project-task-entity"></a>Pianificare campi nell'entità Attività di progetto
 
-I campi dell'entità **msdyn\_projecttask** sono stati deprecati o spostati nell'entità **msdyn\_resourceassignment** , oppure vi si fa riferimento dall'entità **msdyn\_projectteam** entity ( **Membro del team di progetto** ).
+I campi dell'entità **msdyn\_projecttask** sono stati deprecati o spostati nell'entità **msdyn\_resourceassignment**, oppure vi si fa riferimento dall'entità **msdyn\_projectteam** entity (**Membro del team di progetto**).
 
 | Campo deprecato in msdyn\_projecttask (Attività di progetto) | Nuovo campo in msdyn\_resourceassignment (Assegnazione risorse) | Commento |
 |---|---|---|
@@ -77,7 +79,7 @@ I campi dell'entità **msdyn\_projecttask** sono stati deprecati o spostati nell
 
 ## <a name="schedule-contour"></a>Profilo di pianificazione
 
-Il profilo di pianificazione è archiviato nel campo **Lavoro pianificato** ( **msdyn\_plannedwork** ) di ogni entità **Assegnazione risorse** ( **msdyn\_resourceassignment** ).
+Il profilo di pianificazione è archiviato nel campo **Lavoro pianificato** (**msdyn\_plannedwork**) di ogni entità **Assegnazione risorse** (**msdyn\_resourceassignment**).
 
 ### <a name="structure"></a>Struttura
 
@@ -139,7 +141,7 @@ In questo esempio, l'attività viene assegnata a due risorse e viene pianificata
 
 ## <a name="pricing-dimensions"></a>Dimensioni di determinazione dei prezzi
 
-In PSA 3.x, i campi delle dimensioni di determinazione dei prezzi specifici delle risorse (come **Ruolo** e **Unità organizzativa** ) sono stati rimossi dall'entità **msdyn\_projecttask**. Questi campi possono ora essere recuperati dal membro del team di progetto corrispondente ( **msdyn\_projectteam** ) dell'assegnazione delle risorse ( **msdyn\_resourceassignment** ) quando vengono generate le stime di progetto. Un nuovo campo, **msdyn\_organizationalunit** , è stato aggiunto all'entità **msdyn\_projectteam**.
+In PSA 3.x, i campi delle dimensioni di determinazione dei prezzi specifici delle risorse (come **Ruolo** e **Unità organizzativa**) sono stati rimossi dall'entità **msdyn\_projecttask**. Questi campi possono ora essere recuperati dal membro del team di progetto corrispondente (**msdyn\_projectteam**) dell'assegnazione delle risorse (**msdyn\_resourceassignment**) quando vengono generate le stime di progetto. Un nuovo campo, **msdyn\_organizationalunit**, è stato aggiunto all'entità **msdyn\_projectteam**.
 
 | Campo deprecato in msdyn\_projecttask (Attività di progetto) | Al suo posto viene utilizzato il campo msdyn\_projectteam (Membro del team di progetto) |
 |---|---|
@@ -155,12 +157,12 @@ I campi del profilo di stima e di determinazione dei prezzi sono stati deprecati
 | msdyn\_costestimatecontour | msdyn\_plannedcostcontour |
 | msdyn\_salesestimatecontour | msdyn\_plannedsalescontour |
 
-I campi seguenti sono stati aggiunti all'entità **msdyn\_resourceassignment** :
+I campi seguenti sono stati aggiunti all'entità **msdyn\_resourceassignment**:
 
 * msdyn\_plannedcost
 * msdyn\_plannedsales
 
-I campi seguenti per costi e vendite pianificati, effettivi e rimanenti rimangono invariati nell'entità **msdyn\_projecttask** :
+I campi seguenti per costi e vendite pianificati, effettivi e rimanenti rimangono invariati nell'entità **msdyn\_projecttask**:
 
 * msdyn\_plannedcost
 * msdyn\_plannedsales
