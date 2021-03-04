@@ -49,3 +49,6 @@ Fogli presenze personali (ottimizzati per dispositivi mobili) e Fogli presenze p
 - [Immissione ora progetto]( project-time-entry-mobile-workspace.md)
 - [Fogli presenze di progetto su un dispositivo mobile](Mobile-timesheets.md)
 - [Implementare campi personalizzati per l'app per dispositivi mobili Microsoft Dynamics 365 Project Timesheet su iOS e Android](custom-fields-mobile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

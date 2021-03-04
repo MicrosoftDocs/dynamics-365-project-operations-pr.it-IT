@@ -45,3 +45,6 @@ Le seguenti informazioni non vengono copiate dal **contratto di origine** in **q
   - Informazioni sul budget del cliente
 
 Poiché queste informazioni sono specifiche per ogni contratto, questi campi e record non vengono copiati. Le voci di contratto per progetti e prodotti, le stime sui dettagli delle voci di contratto e i valori da non superare a livello di contratto vengono copiati. I valori predefiniti di prezzo e tariffa di costo dipendono dalla selezione del campo **Copia prezzi** nella pagina della finestra di dialogo **Copia parametri**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

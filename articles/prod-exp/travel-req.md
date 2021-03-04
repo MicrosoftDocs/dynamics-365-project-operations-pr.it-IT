@@ -32,3 +32,6 @@ La tua organizzazione potrebbe richiedere l'invio di una richiesta di viaggio pr
 Le richieste di viaggio e i criteri possono essere utilizzati per aiutare a controllare il budget. Ad esempio, se l'organizzazione sta lavorando a un progetto a prezzo fisso che richiede viaggi, le spese di viaggio dei membri del team del progetto devono rientrare nel budget del progetto. Richiedendo che le spese di viaggio siano approvate prima che vengano sostenute, l'organizzazione può aiutare a garantire che il progetto rispetti il budget.
 
 Puoi impostare i criteri per le richieste di viaggio dalla pagina **Richiesta di viaggio**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

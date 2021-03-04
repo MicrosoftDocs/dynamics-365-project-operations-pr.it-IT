@@ -57,3 +57,6 @@ Regola: un progetto e una determinata classe di transazione possono essere inclu
 | C1       | CL2           | P1      | No           | Sì             | No          | Valido           | I tempi e le commissioni del progetto P1 sono inclusi in CL1. La spesa sul progetto P1 è inclusa in CL2. </br>   Non c'è sovrapposizione in ciò che viene incluso in ogni voce di contratto ed è quindi valido.  |
 | C1       | CL1           | P1      | Sì          | Sì             | Sì         | Non valido       | Viola la regola. Il tempo, le spese e le commissioni sul progetto P1 sono inclusi nelle voci dei due contratti.                                                                                               |
 | CL2      | CL2           | P1      | Sì          | Sì             | Sì         | Non valido       | Viola la regola. Il tempo, le spese e le commissioni sul progetto P1 sono inclusi nelle voci dei due contratti.                                                                                               |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -124,3 +124,6 @@ La figura seguente mostra un esempio del mapping delle attività del modello in 
 > Il mapping mostra le informazioni sui campi che verranno sincronizzate da Project Service Automation a Finance.
 
 [![Mapping di modello da Project Service Automation a Finance](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

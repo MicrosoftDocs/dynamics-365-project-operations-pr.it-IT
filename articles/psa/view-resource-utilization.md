@@ -43,3 +43,6 @@ Controlla l'utilizzo delle risorse per determinare i livelli di utilizzo delle r
   
 ### <a name="see-also"></a>Vedi anche  
  [Guida di Resource Manager](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

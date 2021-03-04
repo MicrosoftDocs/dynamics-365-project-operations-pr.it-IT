@@ -40,3 +40,6 @@ Se decidi di richiedere più approvatori della nota spese, puoi aggiungere gli e
 
     1. Il responsabile del dipendente approva la nota spese.
     2. Il proprietario del budget approva la nota spese.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

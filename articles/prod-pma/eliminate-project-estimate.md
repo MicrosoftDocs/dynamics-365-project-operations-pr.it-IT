@@ -51,3 +51,6 @@ Il progetto di stima deve essere completo per poter essere eliminato. I passaggi
 5. Una volta completato il processo di eliminazione, il progetto di stima eliminato viene visualizzato con un valore negativo. 
 
 Se non intendevi eliminare una stima, puoi selezionare la stima eliminata e selezionare **Annulla eliminazione**.   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

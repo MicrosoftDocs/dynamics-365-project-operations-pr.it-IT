@@ -63,3 +63,6 @@ Questo argomento elenca le funzionalità e le correzioni nuove o modificate per 
   - Risolto: non viene più visualizzato un messaggio di errore **Ricerca progetto** nel modulo **Riga di offerta** quando ci sono più di 1000 progetti.
   - Risolto: la griglia **Stime** per le stime della manodopera e delle spese ora mostra il simbolo di valuta corretto.
   - Risolto: dopo che un'organizzazione aggiorna PSA dall'aggiornamento rilascio 14 all'aggiornamento rilascio 15, la scheda **Pianifica** non viene più visualizzata come vuota sul modulo **Progetto**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

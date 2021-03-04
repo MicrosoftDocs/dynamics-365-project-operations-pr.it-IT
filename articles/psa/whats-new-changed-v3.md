@@ -257,3 +257,6 @@ Nel grafico seguente sono visualizzati i listini prezzi personalizzati che sono 
 
 > [!NOTE]
 > È possibile che la creazione di un listino prezzi non sia immediata dopo che fai clic su **Crea determinazione dei prezzi personalizzata**. È consigliabile aggiornare la griglia anziché fare clic più volte. Un listino prezzi personalizzato viene creato se il nome di listino prezzi associato include il nome dell'offerta o il nome del contratto di progetto.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

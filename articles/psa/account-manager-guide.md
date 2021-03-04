@@ -48,3 +48,6 @@ Le funzionalità di [!INCLUDE[pn_project_service_auto](../includes/pn-project-se
  [Guida del responsabile di progetto](../psa/project-manager-guide.md)   
  [Guida di Resource Manager](../psa/resource-manager-guide.md)   
  [Guida per tempo, spese e collaborazione](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

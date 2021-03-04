@@ -32,3 +32,6 @@ Di seguito sono riportati i campi in una riga di opportunità basata su progetto
 | Nome | Scheda Generale | Questo campo di testo modificabile può essere utilizzato per assegnare una breve identità alla voce. | Questo valore viene riportato nella riga dell'offerta quando si crea un'offerta da questa opportunità. |
 | Budget cliente | Scheda Generale | Questo campo di valuta modificabile può essere utilizzato per tenere traccia dell'importo che il cliente è disposto a spendere per questa voce. | Questo valore viene riportato nel campo corrispondente della riga dell'offerta quando si crea un'offerta da questa opportunità. |
 | Metodo di fatturazione | Scheda Generale | Di seguito sono riportati i valori possibili di questo campo modificabile:</br>- Tempistica e materiali</br>- Prezzo fisso | Questo valore viene riportato nel campo corrispondente della riga dell'offerta quando si crea un'offerta da questa opportunità. Dopo aver creato la riga dell'offerta, il campo è bloccato e non può essere modificato. Assegna un valore a questo campo nel modo più accurato possibile. Se è necessario modificare il valore di questo campo nella riga dell'offerta, elimina e ricrea la riga dell'offerta. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

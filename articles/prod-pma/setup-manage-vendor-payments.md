@@ -80,3 +80,6 @@ Quando un fornitore completa il suo lavoro su un progetto e ti invia una fattura
 2. Nella pagina **Fatture fornitore con pagamento su pagamento** , nel campo di ricerca, immetti i valori per trovare la fattura fornitore che desideri esaminare, quindi seleziona **Cerca**.
 3. Nella scheda dettaglio **Righe fattura fornitore** seleziona le righe che vuoi modificare.
 4. Se le condizioni di **pagamento su pagamento** sono soddisfatte per la riga della fattura, seleziona **Rilascia pagamento fornitore**. L'opzione **Pagamento su pagamento** viene deselezionata e il valore del campo **Pronto per il pagamento** viene modificato in **Sì**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

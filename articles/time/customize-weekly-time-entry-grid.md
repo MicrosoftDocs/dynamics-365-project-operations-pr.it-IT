@@ -144,3 +144,6 @@ Utilizza le convalide di plug-in per qualsiasi convalida che richiede più conte
 
 ### <a name="copying-time-entries"></a>Copia di inserimenti ore
 Usa la vista **Copia colonne inserimenti ore** per definire l'elenco dei campi da copiare durante l'inserimento ore. I campi **Data** e **Durata** sono obbligatori e non devono essere rimossi dalla visualizzazione.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -124,3 +124,6 @@ Ad esempio, se sono presenti le seguenti proprietà:
 - **SKU prodotto** 
 
 Le proprietà **N. di utenti** e **N. di mesi** possono essere contrassegnate come fattori di quantità modificando le proprietà della riga prodotto. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

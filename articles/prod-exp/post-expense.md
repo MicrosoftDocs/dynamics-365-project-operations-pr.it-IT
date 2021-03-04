@@ -32,3 +32,6 @@ Se le spese in una nota spese vengono addebitate a un'azienda diversa dall'azien
 Per registrare una nota spese, nella pagina **Note spese approvate** seleziona la nota spese, quindi nel riquadro Azioni seleziona **Registra**.
 
 È inoltre possibile registrare contemporaneamente tutte le note spese dell'elenco. Seleziona tutte le note spese, quindi seleziona **Registra**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

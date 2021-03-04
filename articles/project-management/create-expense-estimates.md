@@ -38,3 +38,6 @@ I seguenti attributi sono definiti per ciascuna voce di riga di spesa:
 - **Prezzo di costo unitario**: il prezzo unitario utilizzato per calcolare il costo della spesa.
 - **Prezzo di vendita unitario**: il prezzo unitario utilizzato per calcolare il prezzo di vendita della spesa.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

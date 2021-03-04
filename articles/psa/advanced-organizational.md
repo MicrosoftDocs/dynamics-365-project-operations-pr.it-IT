@@ -167,3 +167,6 @@ Se l'azienda opera come un'unica unità che ha un listino prezzi di costo, non �
 Quando un progetto viene creato in modo autonomo, l'unità contratto predefinita del progetto è basata sull'utente che l'ha creata. Quell'utente è anche il responsabile di progetto predefinito. Se il progetto viene mappato a un'entità di vendita ad esempio un'offerta o un contratto di progetto, l'unità contratto bozza del progetto è invece basata sull'entità di vendita. In questo caso, le stime di progetto potrebbero essere ricalcolate, in quanto il listino prezzi di costo viene utilizzato per calcolare le modifiche alla stima di costo se l'unità contratto viene modificata. Il listino prezzi di vendita è utilizzato per calcolare le stime di vendita che verranno modificate di modo che siano sincronizzate con il listino prezzi di progetto dell'offerta.
 
 I campi **Unità contratto** e **Valuta** del progetto vengono bloccati per la modifica, in quanto devono essere sincronizzati con i valori dell'entità di vendita (offerta o contratto di progetto) a cui il progetto viene mappato.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

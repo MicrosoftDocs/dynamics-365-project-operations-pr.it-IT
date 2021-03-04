@@ -62,3 +62,6 @@ La procedura seguente illustra come creare un team di progetto.
 ## <a name="monitor-project-teams"></a>Monitorare i team di progetto
 1. Nella pagina **Tutti i progetti** , seleziona il collegamento **ID progetto** per il progetto **Aggiornamento XYZ Fase 2**.
 2. Nella Scheda dettaglio **Team progetto e programmazione** , verifica che le risorse del progetto elencate siano corrette.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

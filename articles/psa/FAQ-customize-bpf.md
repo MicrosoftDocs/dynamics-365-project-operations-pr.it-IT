@@ -107,3 +107,6 @@ Per creare un processo aziendale personalizzato per l'entità di progetto, proce
 
    ![Modifica delle viste nell'entità di progetto](media/FAQ-Customize-BPF-8-720.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

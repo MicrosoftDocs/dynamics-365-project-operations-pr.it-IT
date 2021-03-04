@@ -61,3 +61,6 @@ Puoi creare più fatture interaziendali contemporaneamente per tutte le persone 
 ## <a name="post-the-intercompany-vendor-invoice"></a>Registrare la fattura fornitore interaziendale
 
 Un contabile di progetto nella persona giuridica richiedente può rivedere le fatture fornitore interaziendali in sospeso quando viene registrata la fattura cliente interaziendale corrispondente. In Finance, nella persona giuridica richiedente, vai a **Contabilità fornitori** > **Fatture** > **Fattura fornitore in sospeso**. Il numero della fattura in sospeso corrisponderà al numero della fattura del cliente interaziendale. Verifica che la fattura sia corretta, quindi registra la fattura. La registrazione di una fattura fornitore interaziendale crea un registro secondario del progetto e una transazione di contabilità generale che riflette i costi di transazione nella persona giuridica debitrice.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

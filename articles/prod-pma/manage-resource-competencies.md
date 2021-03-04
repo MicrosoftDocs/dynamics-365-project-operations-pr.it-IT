@@ -53,3 +53,6 @@ Per configurare le competenze per un lavoratore, puoi utilizzare la pagina elenc
 5. Nel campo **Data livello** , seleziona **1-/14/2014**.
 6. Nel campo **Anni di esperienza** , inserisci **10**.
 7. Seleziona **Salva** e quindi chiudi la pagina.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -101,3 +101,6 @@ Dopo che la funzionalità di estensione della prenotazione è stata eseguita su 
 
 Tuttavia, uno sguardo più attento ai dettagli delle prenotazioni mostra differenze nell'orario di inizio delle prenotazioni. Le prenotazioni inizieranno non prima dell'orario di inizio del profilo di assegnazione e non prima dell'orario di inizio disponibile della risorsa.
  ![Nuove prenotazioni delle risorse nella scheda di pianificazione](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

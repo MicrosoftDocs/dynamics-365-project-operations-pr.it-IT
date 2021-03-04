@@ -240,3 +240,6 @@ Scarica e installa l'app per dispositivi mobili Dynamics 365 Unified Ops:
 22. Seleziona **Invia**.
 23. Immetti eventuali commenti per il responsabile dell'approvazione.
 24. Seleziona **Fatto**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

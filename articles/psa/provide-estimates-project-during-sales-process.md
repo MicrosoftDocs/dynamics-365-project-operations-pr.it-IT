@@ -54,3 +54,6 @@ Durante il processo di vendita, puoi eseguire le stime di vendita dal basso fino
   
 ### <a name="see-also"></a>Vedi anche  
  [Guida del responsabile di progetto](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

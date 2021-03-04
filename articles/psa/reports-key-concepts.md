@@ -48,3 +48,6 @@ Nella tabella seguente vengono definiti i concetti chiave utilizzati nell'app Dy
 | Profilo di distribuzione                    | Ore di assegnazione, attività o requisito suddivise in una distribuzione giornaliera. Ad esempio, un'attività di 40 ore durante cinque giorni può essere ripartita in otto ore al giorno per cinque giorni. |
 | Vista Riconciliazione        | Una vista che mostra le prenotazioni e le assegnazioni di ogni membro del team di progetto. Questa vista consente al responsabile di progetto di individuare qualsiasi differenza tra prenotazioni e assegnazioni e di intraprendere un'azione correttiva. |
 | Ore lavorative                 | Un'entità utilizzata per identificare la capacità della risorsa nonché le ore lavorative e non lavorative. Questa entità è nota anche come calendario risorsa. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

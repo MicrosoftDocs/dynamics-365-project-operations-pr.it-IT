@@ -62,3 +62,6 @@ Android sarà compatibile con Platform update 16, quando sarà disponibile.
 13. Facoltativo: immetti righe aggiuntive di foglio presenze.
 
 14. Dopo aver completato l'inserimento delle righe del foglio presenze, seleziona l'azione **Flusso di lavoro** \> **Invia** per inviare il foglio presenze al processo di approvazione del flusso di lavoro.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

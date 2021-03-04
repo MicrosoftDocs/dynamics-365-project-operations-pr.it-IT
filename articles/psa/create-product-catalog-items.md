@@ -37,3 +37,6 @@ Se desideri includere i prodotti, come le licenze software, alle offerte di prog
   
 ### <a name="see-also"></a>Vedi anche  
  [Configurare Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

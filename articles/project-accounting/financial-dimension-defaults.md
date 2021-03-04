@@ -62,3 +62,6 @@ I progetti vengono creati e gestiti in CDS. Gli attributi contabili per i proget
 4. Imposta i valori predefiniti della dimensione finanziaria. Tieni presente che le dimensioni finanziarie sono predefinite dal conto cliente. Se il progetto è associato a una voce di contratto con più clienti di contratto di progetto, il cliente principale viene utilizzato per le dimensioni finanziarie predefinite.
 
 Le dimensioni finanziarie predefinite del progetto vengono utilizzate per impostare i valori predefiniti della riga di giornale di registrazione per le transazioni di ore, spese e commissioni nel **Giornale di registrazione integrazione Project Operations** e sulle righe di fattura di progetto correlate.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

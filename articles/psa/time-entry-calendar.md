@@ -42,3 +42,6 @@ Il calendario non supporta azioni per singoli elementi del calendario e non è p
 ## <a name="extensibility"></a>Estendibilità 
 
 Nella pagina **Inserimenti ore** che include la griglia di inserimento ore, puoi aggiungere campi personalizzati, configurare campi di tipo lookup e creare viste personalizzate. Puoi anche impostare logica di business personalizzata basata sui valori selezionati o immessi nei campi personalizzati.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

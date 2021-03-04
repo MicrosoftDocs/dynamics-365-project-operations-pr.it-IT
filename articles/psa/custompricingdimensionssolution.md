@@ -68,3 +68,6 @@ Devi aggiungere le seguenti entità di Project Service alla soluzione per la det
 > ![Non includere i componenti correlati.](media/Do-not-include-required.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

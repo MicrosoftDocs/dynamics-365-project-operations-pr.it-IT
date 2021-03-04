@@ -68,3 +68,6 @@ I calcoli della redditività convertono gli importi per i dettagli della voce di
 
 > [!NOTE]
 > Potrebbero verificarsi errori di arrotondamento della valuta e margini modificati a causa della mancanza di tassi di cambio validi. Utilizza questi calcoli sui contratti di progetto solo come approssimazione e non per documenti legali effettivi o di altro tipo che richiedono una maggiore precisione di arrotondamento e consapevolezza della validità della data per i tassi di cambio.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -35,3 +35,6 @@ Per rivedere i progetti delle stime dei ricavi a prezzo fisso, completare i segu
 
   Il costo del progetto, il profilo dei ricavi, il modello di costo e il codice del periodo possono essere impostati manualmente. Se non vengono impostati manualmente, i valori vengono impostati come predefiniti durante il primo calcolo della stima per il progetto utilizzando le regole configurate per i profili di costi e ricavi del progetto.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

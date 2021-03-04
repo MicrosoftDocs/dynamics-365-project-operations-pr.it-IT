@@ -26,3 +26,5 @@ I requisiti delle risorse sono definiti dal Project manager per stabilire le ris
 3.  Nella scheda **Membro del team**, seleziona il membro del team e quindi seleziona **Genera requisito**.
 
 Per informazioni su come modificare il requisito delle risorse, vedi [Aggiornare i dettagli sui requisiti delle risorse](define-resource-requirements.md) per modificare il requisito di risorsa.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

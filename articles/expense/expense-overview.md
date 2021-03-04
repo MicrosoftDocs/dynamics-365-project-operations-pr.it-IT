@@ -44,3 +44,6 @@ Per ulteriori informazioni, vedi [Voce di spesa (semplice)](basic-expense.md)
 
 ## <a name="determine-your-expense-deployment"></a>Determinare la distribuzione della spesa
 Per determinare se stai eseguendo la distribuzione di gestione delle spese di base, verifica che l'URL dell'indirizzo termini con **.crm.dynamics.com**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -46,3 +46,6 @@ Per creare fattori di quantità dalle proprietà del prodotto, completa i seguen
 7. Ripeti i passaggi 2-6 per tutte le proprietà che insieme comporranno la quantità per la voce di contratto basata su prodotto.
 
 Con i fattori di quantità impostati, quando l'utente crea una voce di contratto per questo prodotto, la quantità della voce di contratto viene bloccata. La quantità viene quindi calcolata come prodotto dei valori di proprietà per quella voce di contratto.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Quando questo metodo di determinazione dei prezzi viene selezionato sulla riga d
 
 ### <a name="markup-over-cost"></a>Ricarico sul costo
 Quando questo metodo di determinazione dei prezzi viene selezionato sulla riga di prezzo di categoria collegata a un listino prezzi di vendita, il prezzo è predefinito per la combinazione di categoria e unità solo in un valore effettivo di spesa. Ad esempio, i valori effettivi delle vendite non fatturate per la classe di transazione di spesa. Questo prezzo unitario viene impostato sulle vendite non fatturate effettive su un valore calcolato dal prezzo unitario sul costo effettivo per quella spesa dopo l'applicazione della percentuale di ricarico definita. L'impostazione predefinita del prezzo in base al costo non viene eseguita nelle stime di progetto per le spese o sui dettagli della riga dell'offerta e della voce del contratto per le spese.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

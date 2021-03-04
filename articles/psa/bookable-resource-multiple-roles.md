@@ -74,3 +74,6 @@ Quando espandi la riga del record del membro del team puoi visualizzare assegnaz
 Quando passi alla griglia **Stime** puoi notare che entrambe le assegnazioni per la stessa risorsa hanno un prezzo diverso.
 Il prezzo dell'assegnazione per la risorsa nell'attività A viene calcolato utilizzando il valore dell'attributo **Ruolo** di **Consulting Lead**. Il prezzo dell'assegnazione per la stessa risorsa nell'attività B viene calcolato utilizzando il valore dell'attributo **Ruolo** di **Network Technician**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

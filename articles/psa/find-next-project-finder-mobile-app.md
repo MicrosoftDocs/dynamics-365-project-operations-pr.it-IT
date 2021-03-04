@@ -49,3 +49,6 @@ Con l'app Project Finder Mobile sul tuo telefono [!INCLUDE[tn_iphone](../include
   
 ### <a name="see-also"></a>Vedi anche  
  [Guida per tempo, spese e collaborazione](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

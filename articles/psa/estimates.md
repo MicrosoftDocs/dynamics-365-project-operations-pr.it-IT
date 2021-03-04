@@ -106,3 +106,6 @@ Se hai aggiunto un campo personalizzato per i dettagli di riga di offerta e vuoi
 
 8. Ripeti i passaggi da 1 a 7 per il secondo plug-in.
 9. Chiudi PluginRegistrationTool.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

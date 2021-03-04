@@ -89,3 +89,6 @@ Completa i seguenti passaggi per correggere una o più voci di spesa.
 8. Nella pagina del progetto, nella scheda **Valori effettivi** controlla **Visualizzazione associata valore effettivo**. Viene visualizzato un elenco delle voci originali e di quelle corrette. Il grafico seguente mostra gli importi delle voci di spesa originali e gli importi delle voci di spesa corretti corrispondenti. 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

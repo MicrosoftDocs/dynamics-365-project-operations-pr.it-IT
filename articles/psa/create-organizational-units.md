@@ -52,3 +52,6 @@ La società probabilmente organizza l'attività di consulenza per area geografic
   
 ### <a name="see-also"></a>Vedi anche  
  [Configurare Project Service Automation](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -74,3 +74,6 @@ Sono stati risolti i seguenti problemi:
 - Quando si seleziona una riga basata su progetto nel preventivo o contratto, il pulsante **Suggerimento** dovrebbe essere visibile solo quando si seleziona una linea basata sul prodotto associata a un prodotto esistente.
 - Suddividi il privilegio **Create_Product** dal privilegio **Create_ProjectContract**.
 - L'eliminazione di una riga della fattura causa l'errore di riferimento null su **MarkReadyToInvoiceForProductContractLineAfterDeletingInvoice**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

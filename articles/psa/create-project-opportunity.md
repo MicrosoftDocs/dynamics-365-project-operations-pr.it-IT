@@ -55,3 +55,6 @@ Le opportunità sono lead di livello medio da parte di clienti interessati a sot
   
 ### <a name="see-also"></a>Vedi anche  
  [Guida per la gestione dell'account](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

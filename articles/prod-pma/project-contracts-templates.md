@@ -153,3 +153,6 @@ La figura seguente mostra esempi di mapping delle attività del modello in Integ
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>Mapping delle fasi di voce contratto di progetto nel modello di progetti e contratti (da PSA 3.x a Dynamics) - v2:
 
 [![Mapping di passaggio fondamentale di voce di contratto di progetto con modello a due versioni](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -90,3 +90,6 @@ Questo metodo fornisce l'esperienza ottimale per annullare l'associazione di att
 
 >[!NOTE]
 > Questa procedura non elimina l'attività dal progetto. Rimuove solo l'associazione dell'attività alla riga dell'offerta basata sul progetto.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

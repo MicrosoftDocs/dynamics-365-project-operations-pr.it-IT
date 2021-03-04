@@ -44,3 +44,6 @@ I seguenti argomenti forniscono ulteriori informazioni sulle funzionalità relat
 - [Unità di vendita e unità](advanced-units.md)
 - [Valuta per più unità](advanced-currency.md)
 - [Registrare valori effettivi](advanced-actuals.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -74,3 +74,6 @@ Prima di iniziare la configurazione, è necessario disporre di un ambiente Commo
     -   Caratteristica di risorsa prenotabile
 
     ![Completare l'importazione](./media/6CompleteImport.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

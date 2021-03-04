@@ -47,3 +47,6 @@ Per aprire la pagina **Parametri di integrazione di Project Service Automation**
 | Impostazioni predefinite per il tipo di fatturazione  | Tipo di fatturazione         | Fai clic su **Nuovo** per aggiungere una riga in cui puoi selezionare il tipo di fatturazione per cui impostare la proprietà della riga predefinita. Un tipo di fatturazione specifico può essere selezionato solo una volta nella configurazione. |
 |                        | Proprietà riga        | Seleziona la proprietà riga predefinita per il tipo di fatturazione selezionato. Quando nuove stime orarie, nuove stime di spesa o nuovi valori effettivi vengono sincronizzati da Project Service Automation, il campo **Proprietà riga** è impostato sul valore predefinito per il tipo di fatturazione. |
 | Blocco funzionalità  | Non applicabile       | Seleziona la funzionalità da disabilitare in Finance per progetti e contratti originati da Project Service Automation. Ad esempio, puoi disattivare la possibilità di modificare contratti e progetti, creare strutture di suddivisione del lavoro e inserire fogli presenze in Finance. I campi relativi alla contabilità continueranno ad essere abilitati, anche se resi non disponibili dall'impostazione dei parametri. Per impostazione predefinita, tutte le funzionalità sono abilitate. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

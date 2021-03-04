@@ -102,3 +102,6 @@ Di seguito è riportata una breve panoramica dei controlli tipici presenti nelle
 **Aggiungi colonna**: consente all'utente di definire le colonne visibili nella griglia. È possibile aggiungere solo colonne predefinite alle griglie nel modulo **Pianificazione progetto**.
 
 ![Pulsante Aggiungi colonna](media/navigation5.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

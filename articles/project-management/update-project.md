@@ -48,3 +48,6 @@ Di seguito è riportato un riepilogo dei campi che possono essere aggiornati in 
 - **Stato di progetto generale**: lo stato complessivo del progetto fornito dal responsabile di progetto.
 - **Commenti**: una descrizione dello stato attuale del progetto fornita dal responsabile di progetto.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

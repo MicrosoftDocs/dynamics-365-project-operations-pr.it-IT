@@ -81,3 +81,6 @@ Sono stati risolti i seguenti problemi:
 - Il pulsante **Aggiorna valori effettivi** calcola in modo errato le attività di riepilogo.
 - Componente aggiuntivo Microsoft Project: corregge l'errore di riferimento nullo se un membro del team dispone di un'unità di di gestione risorse vuota.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

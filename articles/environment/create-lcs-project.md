@@ -36,3 +36,6 @@ Utilizza Lifecycle Services (LCS) per gestire i tuoi ambienti Dynamics 365 Proje
 
 Utilizza questo progetto LCS per distribuire il tuo ambiente Project Operations.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

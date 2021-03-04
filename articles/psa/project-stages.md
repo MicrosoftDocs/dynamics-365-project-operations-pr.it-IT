@@ -65,3 +65,6 @@ Quando il lavoro del progetto viene completato, il responsabile di progetto può
 ## <a name="close"></a>Chiusura
 
 Quando tutte le registrazioni sono registrate per il progetto, il responsabile di progetto può aggiornare la fase a **Chiusura**. A quel punto, nessuna transazione può essere registrata e il progetto diventa di sola lettura.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

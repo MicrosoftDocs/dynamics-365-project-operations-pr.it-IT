@@ -35,3 +35,6 @@ Tutte le fatture del progetto create sono disponibili nella pagina **Fattura** n
 Puoi creare una fattura proforma anche dalla pagina dei dettagli **Contratto di progetto**. Il sistema verifica che il contratto di progetto abbia un backlog **Pronto per la fatturazione** datato prima della data odierna. Da questi contratti, il sistema crea bozze di fatture proforma in base al numero di clienti su ciascuna voce di contratto.
 
 Quando viene creata una singola fattura proforma, viene visualizzata la pagina **Fattura**. Se vengono create più fatture per quel contratto di progetto, viene visualizzata la pagina di elenco **Fatture** per mostrare tutte le fatture create.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

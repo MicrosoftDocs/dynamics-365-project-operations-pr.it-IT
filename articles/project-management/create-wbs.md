@@ -116,3 +116,6 @@ La modalità di attività non influisce sugli aggiornamenti delle date di inizio
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Tasti di scelta rapida e accessibilità
 
 La griglia **Pianificazione** è completamente accessibile e può essere utilizzata con utilità per la lettura dello schermo, ad esempio Narrator, JAWS o NVDA. Puoi spostarti nell'area della griglia utilizzando i tasti di direzione (come in Microsoft Excel), utilizzare il tasto TAB per avanzare negli elementi dell'interfaccia utente interattiva e il tasto FRECCIA GIÙ, il tasto INVIO o la BARRA SPAZIATRICE per selezionare e aprire i menu a discesa.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

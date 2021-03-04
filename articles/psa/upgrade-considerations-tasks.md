@@ -96,3 +96,6 @@ Per assicurare un aggiornamento corretto, le seguenti relazioni devono essere ge
 
 - Tutte le dipendenze delle attività di progetto devono essere correlate allo stesso progetto.
 - Non è possibile avere più riferimenti alla stessa dipendenza di un'attività.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

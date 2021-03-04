@@ -51,3 +51,6 @@ Le frequenze di fatturazione di [!INCLUDE[pn_project_service_auto](../includes/p
   
 ### <a name="see-also"></a>Vedi anche  
  [Configurare Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

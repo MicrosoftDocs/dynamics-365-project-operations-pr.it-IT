@@ -56,3 +56,6 @@ Seleziona la richiesta di viaggio da approvare, quindi seleziona **Flusso di lav
 
 > [!NOTE]
 > Quando si esegue il mapping di una nota spese a una richiesta di viaggio approvata, l'importo della transazione non può essere maggiore dell'importo autorizzato. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

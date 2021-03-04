@@ -31,3 +31,6 @@ Una diaria è un'indennità pagata a un lavoratore che viaggia per lavoro. In Ge
     
 ## <a name="submit-expenses-using-per-diem"></a>Inviare le spese utilizzando la diaria
 Per inviare le spese utilizzando le diarie, utilizza la categoria di spesa **Diaria** quando crei una nota spese. Inserisci la **Data inizio trasferta giornaliera**, la **Data fine trasferta giornaliera** e la **Destinazione trasferta giornaliera**. L'importo verrà calcolato in base alle tariffe giornaliere per la destinazione selezionata e la riduzione per il vitto verrà calcolata in base ai livelli delle tariffe giornaliere.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

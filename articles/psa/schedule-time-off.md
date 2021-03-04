@@ -57,3 +57,6 @@ Pianifica la vacanza o il permesso nello stesso modo in cui inserisci un orario 
   
 ### <a name="see-also"></a>Vedi anche  
  [Guida per tempo, spese e collaborazione](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

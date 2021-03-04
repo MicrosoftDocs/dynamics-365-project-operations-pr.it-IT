@@ -45,3 +45,6 @@ Se desideri visualizzare a cosa stai lavorando per la settimana, dai un'occhiata
   
 ### <a name="see-also"></a>Vedi anche  
  [Guida per tempo, spese e collaborazione](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

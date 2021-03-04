@@ -71,3 +71,6 @@ I listini prezzi si basano sui ruoli e le categorie di spesa, pertanto prima di 
   
 ### <a name="see-also"></a>Vedi anche  
  [Configurare Project Service Automation](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

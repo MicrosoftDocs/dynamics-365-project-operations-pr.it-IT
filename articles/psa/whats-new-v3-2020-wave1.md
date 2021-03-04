@@ -43,3 +43,6 @@ Inoltre, se si dispone di moduli di app personalizzati che includono tutti i mod
 
 ### <a name="currently-extended-time-entry-changes"></a>Modifiche di inserimento ore attualmente esteso
 Per ridurre al minimo l'impatto per gli utenti attuali dell'inserimento ore, questo cambio di ruolo è l'unico requisito fondamentale necessario per continuare a utilizzare l'inserimento ore. Se sono state create visualizzazioni personalizzate o esperienze di inserimento ore separate, è necessario impostare i campi **Impostazioni di inserimento ore** con il valore di PSA corretto.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

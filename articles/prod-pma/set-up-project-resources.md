@@ -75,3 +75,6 @@ Dopo che le attività precedenti sono state completate, puoi completare le segue
 - Soddisfa richieste di risorse.
 - Richiedi una risorsa con personale da una struttura di suddivisione del lavoro.
 - Prenota risorse per un progetto senza dover richiedere una risorsa con personale.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

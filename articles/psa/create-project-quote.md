@@ -55,3 +55,6 @@ La creazione di un'offerta è simile alla creazione di un'opportunità. Mentre u
   
 ### <a name="see-also"></a>Vedi anche  
  [Guida per la gestione dell'account](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

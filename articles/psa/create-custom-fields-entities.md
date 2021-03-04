@@ -73,3 +73,6 @@ Puoi creare dati per le dimensioni basate su entità manualmente oppure utilizza
 > ![Dati di esempio per l'entità Titolo standard ](media/ST-data.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -74,3 +74,6 @@ I passaggi fondamentali a prezzo fisso possono essere generati manualmente quand
 | Imposta | Creazione rapida | L'importo delle imposte applicato al passaggio fondamentale. | Questo è incluso nel passaggio fondamentale della voce di contratto di progetto e nella fattura. |
 
 4. Seleziona **Salva e chiudi**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

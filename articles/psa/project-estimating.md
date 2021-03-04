@@ -97,3 +97,6 @@ Nella vista griglia e nella vista su scala cronologica, puoi scegliere i campi d
 ## <a name="expense-estimates"></a>Stime di spesa
 
 Il pulsante **Aggiungi una nuova stima di spesa** nella vista griglia ti consente di registrare tutte le spese del progetto che non sono direttamente correlate alla manodopera. Puoi registrare le stime di spesa per una specifica attività o per l'intero progetto. Seleziona le categorie di spesa e la data possibile in cui prevedi di avere delle spese. Se il listino prezzi di costo e il listino prezzi di vendita associati hanno prezzi predefiniti (o se le percentuali di ricarico sono definite per le categorie di spesa), sono automaticamente immessi nella riga di stima al momento dell'associazione.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

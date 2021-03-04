@@ -46,3 +46,6 @@ L'Assistente di pianificazione viene visualizzato e filtrato in base ai requisit
 > ![Risorsa selezionata](media/Resource-Management-image61.png)
 
 Il membro del team generico viene sostituito con la risorsa denominata prenotata definitivamente nel team di progetto e le assegnazioni delle attività nella pianificazione del progetto.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

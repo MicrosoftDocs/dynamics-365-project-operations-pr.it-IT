@@ -51,3 +51,6 @@ Un cliente dell'offerta può essere creato, aggiornato o eliminato dalla scheda 
 Puoi modificare le percentuali di suddivisione della fatturazione utilizzando l'esperienza di modifica della griglia in linea. Quando le percentuali di suddivisione della fatturazione non raggiungono il 100%, si verifica un errore. Dopo aver aggiornato le percentuali di suddivisione della fatturazione, aggiorna la pagina per rimuovere l'errore.
 
 Puoi anche provare a selezionare **Distribuzione uniforme** sulla griglia secondaria dei clienti dell'offerta. Questa azione assegna le suddivisioni della fatturazione a tutti i clienti dell'offerta. Se è presente un fattore di arrotondamento, verrà aggiunto al cliente di arrotondamento. Uno dei clienti dell'offerta viene sempre contrassegnato come cliente di arrotondamento. Ciò significa che il record del cliente dell'offerta ha il contrassegno **Arrotondamento** impostato su **Sì**. In genere questo è il cliente primario dell'offerta, ma può essere modificato.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

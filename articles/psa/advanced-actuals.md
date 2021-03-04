@@ -34,3 +34,6 @@ ms.locfileid: "5145723"
 Tutte le transazioni finanziarie che si verificano durante un progetto vengono registrate. Queste transazioni vengono registrate come **valori effettivi**. Nella tabella seguente sono elencati i differenti tipi di valori effettivi creati, a seconda se il progetto è di tipo Tempistica e materiali, Prezzo fisso o Interno o se in fase di prevendita.
 
 > ![Tabella che mostra come i valori effettivi vengono registrati](media/advanced-table2.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

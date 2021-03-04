@@ -231,3 +231,6 @@ La tabella seguente illustra come i dati vengono sincronizzati tra Project Servi
 
 ### <a name="see-also"></a>Vedi anche  
  [Guida del responsabile di progetto](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

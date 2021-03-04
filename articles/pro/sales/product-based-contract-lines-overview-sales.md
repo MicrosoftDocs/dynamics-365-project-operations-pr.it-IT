@@ -46,3 +46,6 @@ Se una voce di contratto è basata su un catalogo prodotti, puoi sostituire il p
 Se imposti il campo **Prezzi** su **Sostituisci prezzo**, il prezzo predefinito non è impostato. Immetti un prezzo per il prodotto nella voce di contratto. Se imposti il campo su **Usa predefinito**, viene utilizzato il prezzo di vendita predefinito e il campo non può essere modificato.
 
 Dopo l'installazione di Project Operations, i prezzi di vendita predefiniti vengono immessi nelle righe basate su prodotto di un contratto. Il campo **Prezzi** viene quindi impostato su **Sostituisci prezzo** di modo che sia possibile modificare il prezzo predefinito nelle voci di contratto. Si tratta di una sostituzione specifica di Project Operations al comportamento delle righe basate su prodotto in Dynamics 365 Sales.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

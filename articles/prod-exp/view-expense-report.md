@@ -32,3 +32,6 @@ Per le note spese, è possibile eseguire il drill-down da una transazione al rep
 Per eseguire il drill-down alla nota spese originale che è apparsa nella transazione, seleziona la transazione, quindi seleziona **Documento originale**.
 
 Quando visualizzi le singole transazioni, puoi anche vedere eventuali dati aggiuntivi allegati a una transazione. Ad esempio, per una spesa di hotel dettagliata, è possibile visualizzare un elenco dettagliato delle spese quali accesso a Internet, telefonate e servizio in camera.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

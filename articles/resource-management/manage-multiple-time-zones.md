@@ -68,3 +68,6 @@ Dopo che la funzionalità di estensione della prenotazione è stata utilizzata p
 Tieni presente che esaminando attentamente i dettagli delle prenotazioni puoi visualizzare le differenze nell'orario di inizio delle prenotazioni. Le prenotazioni iniziano non prima dell'ora di inizio del profilo di assegnazione e non prima dell'ora di inizio disponibile della risorsa.
 
 ![Nuove prenotazioni delle risorse nella scheda di pianificazione](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

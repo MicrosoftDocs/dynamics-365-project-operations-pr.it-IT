@@ -60,3 +60,6 @@ Se i valori del margine lordo e del margine lordo rettificato differiscono di un
 L'analisi delle aspettative dei clienti rispetto alla pianificazione viene eseguita confrontando la data di fine più recente del dettaglio della riga di offerta alla data di consegna richiesta in tutte le righe di offerta nell'offerta.
 
 L'analisi delle aspettative dei clienti rispetto al budget viene eseguita confrontando la somma del totale del budget del cliente all'importo indicato in tutte le righe dell'offerta.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

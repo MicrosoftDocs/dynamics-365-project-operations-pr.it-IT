@@ -66,3 +66,6 @@ Se non viene ancora visualizzato un prezzo valido per l'effettivo costo ora dopo
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -71,3 +71,6 @@ Prima di iniziare questa procedura, verifica che il tuo ruolo di sicurezza inclu
 
 > [!IMPORTANT]
 >  Non puoi eliminare le valute in uso in altri record, ma puoi disattivarle. La disattivazione di record di valuta non comporta la rimozione delle informazioni sulla valuta archiviate nei record esistenti, ad esempio opportunità o ordini. Tuttavia, non ti sarà possibile selezionare la valuta disattivata per le nuove transazioni.  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

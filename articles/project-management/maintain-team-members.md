@@ -42,3 +42,6 @@ Quando si effettua una selezione, la risorsa viene aggiunta al team di progetto 
 Puoi utilizzare la funzionalità di prenotazione estesa della scheda **Riconciliazione** o la **Scheda di pianificazione** per prenotare la capacità della risorsa per il progetto.
 
 Dopo la prenotazione di un membro del team nel progetto, puoi utilizzare **Gestisci prenotazioni** o la **scheda di pianificazione** direttamente per gestire le tue prenotazioni.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

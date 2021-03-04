@@ -55,3 +55,6 @@ I seguenti argomenti forniscono informazioni sulle attività che devono essere c
 - [Prestazioni della pianificazione delle risorse di progetto](project-scheduling-performance.md)
 - [Imposta i ruoli sui modelli di struttura di suddivisione del lavoro](set-up-roles-wbs-template.md)
 - [Soddisfazione delle risorse per le risorse pianificate](resource-fulfillment-planned-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

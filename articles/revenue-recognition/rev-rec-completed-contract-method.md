@@ -90,3 +90,6 @@ La stima cambia lo stato in **Eliminato**.
 Utilizzare questa pagina per annullare tutte le eliminazioni con una data di stima specificata e con uno stato di stima **Eliminato**. Lo stato della transazione cambia dopo aver selezionato i campi appropriati.
 
 Questo cambia automaticamente anche lo stato del progetto in **In corso** se la fase del progetto è finita. Lo stato della stima del periodo del progetto torna a **Inserito**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

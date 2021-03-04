@@ -66,3 +66,6 @@ Sono stati risolti i seguenti problemi:
 - I clienti possono riscontrare prestazioni compromesse durante la creazione di un progetto perché **GetBookableResourceIdFromUser** recupera tutte le colonne di risorse prenotabili anziché solo l'ID principale.
 - All'entità **TransactionType** manca il plug-in di aggiornamento preliminare per impedire agli utenti di accedere a **Unità** e **UnitGroups** che non sono validi per i tipi di transazione.
 - Il passaggio **Rimuovi** non funziona per l'importazione dell'inserimento ore.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

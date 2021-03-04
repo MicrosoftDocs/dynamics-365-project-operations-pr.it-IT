@@ -52,3 +52,6 @@ Il collegamento PDF incluso precedentemente in questo argomento è stato rimosso
 
 > [!NOTE]
 > Questo argomento verrà rimosso in un aggiornamento futuro della documentazione. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -150,3 +150,6 @@ La tabella seguente fornisce un elenco completo di moduli e viste predefinite, e
 |  Valore effettivo|• Informazioni<br>• Valori effettivi attivi|• Vista Valore effettivo associata|
 
 A seconda di quanto hai definito, è possibile che sia necessario aggiungere campi personalizzati anche alle regole di business. Un esempio predefinito riguarda la regola di business **Possibilità di modifica di Inserimento ore basata sullo stato**. Tale regola definisce quali campi devono essere bloccati quando lo stato di Inserimento ore non è modificabile ad esempio **Approvato**. Aggiungi campi a questa regola di business di modo che i campi siano bloccati per la modifica quando lo stato di Inserimento ore non è **Bozza** o **Restituito**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

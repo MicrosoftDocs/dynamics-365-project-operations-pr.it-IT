@@ -46,3 +46,6 @@ Quando una riga di offerta è basata su un catalogo prodotti, puoi sostituire il
 Se selezioni **Sostituisci prezzo**, il prezzo predefinito non è impostato. Devi quindi immettere un prezzo per il prodotto nella riga di offerta. Se selezioni **Usa predefinito**, viene utilizzato il prezzo di vendita predefinito e il campo è bloccato per la modifica.
 
 I prezzi di vendita predefiniti vengono immessi nelle righe basate su prodotto di un'offerta. Il campo **Prezzi** viene quindi impostato su **Sostituisci prezzo** di modo che sia possibile modificare il prezzo predefinito nelle righe di offerta. Si tratta di una sostituzione specifica di Project Operations al comportamento delle righe basate su prodotto in Dynamics 365 Sales.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Il riquadro dei filtri mostra le opzioni relative al lavoro, tra cui:
 -   Società di gestione risorse
 -   Tipi di risorsa
 -   Risorse preferite
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

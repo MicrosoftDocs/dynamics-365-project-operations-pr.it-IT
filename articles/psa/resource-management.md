@@ -53,3 +53,6 @@ Puoi assegnare a un progetto un team di risorse generiche o denominate in PSA. P
 - [Prenotare risorse denominate da requisiti di risorsa](book-named-resource.md)
 - [Inviare una richiesta di risorse](submit-resource-request.md)
 - [Accettare o rifiutare una risorsa di progetto proposta da una richiesta di risorsa](accept-reject-proposed-resource.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

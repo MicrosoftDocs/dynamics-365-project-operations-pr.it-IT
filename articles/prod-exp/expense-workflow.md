@@ -55,3 +55,6 @@ Il processo seguente è un esempio del flusso di lavoro di gestione delle spese 
 Dopo aver verificato questi requisiti, viene registrata la nota spese.
 
 Dopo la registrazione della nota spese, il pagamento viene autorizzato per la nota spese e il dipendente viene rimborsato.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

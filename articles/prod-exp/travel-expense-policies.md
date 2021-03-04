@@ -51,3 +51,6 @@ Di seguito sono riportati alcuni suggerimenti che possono essere utili durante l
 ## <a name="when-to-evaluate-policies"></a>Quando valutare i criteri
 
 Nei parametri di gestione delle spese, puoi scegliere di valutare i criteri di gestione delle spese quando viene salvata una riga o quando viene inviata una nota spese. Se scegli di valutare quando una riga viene salvata, gli utenti avranno visibilità in anticipo su ciò che devono fare per completare la loro nota spese tutto insieme. In caso contrario, puoi ritardare la valutazione del criterio e risparmiare tempo convalidando alla fine, durante l'invio al flusso di lavoro.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

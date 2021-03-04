@@ -69,3 +69,6 @@ Quando copi nelle righe di stima del progetto, i listini prezzi vengono aggiorna
 ### <a name="copying-a-project-team"></a>Copiare un team di progetto
 
 Quando un team di progetto viene copiato da un modello di progetto in un progetto, le risorse generiche vengono copiate insieme alle competenze e alle qualifiche definite nel modello. Anche le assegnazioni di risorse generiche vengono gestite come se fossero nel modello di progetto. Le risorse denominate non sono supportate nei modelli di progetto.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

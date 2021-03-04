@@ -76,3 +76,6 @@ Viene aperta la pagina **Nuovo nome campo dimensioni di determinazione dei prezz
 5. Aggiungi **msdyn_projectteam** al campo **Nome logico entità** e **msdyn_bookableresourceid** al campo **Nome campo**. Salvare il record.
 
  ![Modulo Nuovo nome campo dimensioni di determinazione dei prezzi](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

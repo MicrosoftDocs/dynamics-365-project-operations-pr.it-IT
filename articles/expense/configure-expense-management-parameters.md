@@ -83,3 +83,6 @@ Questo argomento descrive i parametri che controllano il comportamento generale 
 | Visualizza attestazione anticorruzione   | Seleziona questa opzione per mostrare il testo anticorruzione quando viene creata una nota spese. È quindi possibile abilitare categorie di spesa specifiche che richiederanno la selezione dell'attestazione anticorruzione nella nota spese. Ad esempio, una categoria di regali correlata a una spesa di un funzionario governativo potrebbe richiedere al dipendente di confermare che la spesa soddisfa i criteri aziendali correlati ai funzionari pubblici. |
 | Messaggio anticorruzione per autore dell'invio | Immetti il testo che deve essere mostrato a un dipendente che sta creando una nota spese. Per inserire un testo specifico per la lingua che verrà mostrato, in base alla lingua dell'utente, seleziona **Traduzioni**. |
 | Messaggio anticorruzione per approvatore  | Immetti il testo che deve essere mostrato a un approvatore quando viene creata una nota spese. Per inserire un testo specifico per la lingua che verrà mostrato, in base alla lingua dell'utente, seleziona **Traduzioni**. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

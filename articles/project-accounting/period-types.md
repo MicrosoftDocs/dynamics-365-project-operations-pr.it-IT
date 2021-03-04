@@ -34,3 +34,6 @@ Per creare e utilizzare i tipi di periodo, completare i seguenti passaggi:
 4. Selezionare il record del tipo di periodo e quindi selezionare **Genera periodi** per creare periodi per il tipo di periodo. In base alla frequenza del periodo selezionata, potresti avere la possibilità di specificare una data di inizio o il numero di periodi da generare.
 5. Seleziona **Periodi** per rivedere i periodi generati.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

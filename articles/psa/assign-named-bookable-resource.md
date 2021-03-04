@@ -68,3 +68,6 @@ Puoi utilizzare la funzionalità di prenotazione estesa della scheda **Riconcili
 ![Estendere le prenotazioni per un membro del team nella scheda Riconciliazione risorse](media/RM-how-to-7.png)
 
 Dopo la prenotazione di un membro del team nel progetto, puoi utilizzare Gestisci prenotazioni o la scheda di pianificazione direttamente per gestire le tue prenotazioni.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

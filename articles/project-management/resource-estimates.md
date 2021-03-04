@@ -34,3 +34,6 @@ I prezzi di vendita vengono applicati una volta per transazione. La gerarchia pe
 1. Azienda
 2. Cliente
 3. Offerta/contratto
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

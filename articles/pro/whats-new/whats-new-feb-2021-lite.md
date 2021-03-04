@@ -38,3 +38,6 @@ Questo argomento si applica ai seguenti componenti e versioni di Dynamics 365 Pr
 | **Pianificazione e rilevamento dei progetti** | 2164035 | Problemi risolti con la funzione **Copia progetto**. |
 | **Inserimento ore** | 2129161 | Vengono applicate restrizioni più rigide per garantire che gli utenti non possano modificare e aggiornare un inserimento ore inviato o approvato. |
 | **Inserimento ore** | 2103572 | L'approvazione dell'ora per inserimenti ore non di progetto non deve cercare il ruolo di approvatore del progetto. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

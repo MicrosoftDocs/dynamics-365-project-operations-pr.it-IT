@@ -27,3 +27,6 @@ I membri del team di progetto creano e inviano gli inserimenti ore per l'approva
 
 Per informazioni su come creare, inviare o richiamare un inserimento e altri strumenti per completare la creazione di report, vedi [Comportamento dell'utente nell'inserimento ore](ui-behavior-time.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -113,3 +113,6 @@ Quando la persona giuridica mutuante, USSI, registra la fattura cliente interazi
 Per altre informazioni, vedi [Configurare la fatturazione del progetto interaziendale](tasks/configure-intercompany-project-invoicing.md).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

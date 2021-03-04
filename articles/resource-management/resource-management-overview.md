@@ -25,3 +25,6 @@ ms.lasthandoff: 10/28/2020
 ms.locfileid: "4119783"
 ---
 # <a name="resource-management-overview"></a>Panoramica della gestione delle risorse
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

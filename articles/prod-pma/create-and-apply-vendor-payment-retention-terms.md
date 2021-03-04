@@ -65,3 +65,6 @@ Dopo aver creato le condizioni di trattenimento per un fornitore, è possibile a
 6. Se il progetto ha anche le condizioni di pagamento su pagamento impostati per il fornitore, immetti la percentuale di soglia per il progetto nel campo **Percentuale soglia pagamento su pagamento**.
 
 Le condizioni di trattenimento per il fornitore vengono visualizzate anche negli ordini di acquisto creati per il fornitore.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

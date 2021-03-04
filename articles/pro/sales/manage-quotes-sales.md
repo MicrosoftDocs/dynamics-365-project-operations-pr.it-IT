@@ -33,3 +33,6 @@ Un elenco di tutte le offerte di progetto può essere visualizzato dalla pagina 
 2. Utilizza **Cambia vista** per selezionare altre visualizzazioni filtrate delle offerte. Utilizzando criteri di filtro personalizzati, è possibile configurare le proprie visualizzazioni e opzioni di spostamento.
 
 Le offerte possono essere create o eliminate da questa pagina elenco o dalle pagine dei dettagli.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

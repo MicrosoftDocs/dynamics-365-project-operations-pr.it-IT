@@ -128,3 +128,6 @@ Per una riga di offerta a prezzo fisso, puoi utilizzare la griglia **Pianificazi
 - Per creare passaggi fondamentali di fatturazione equamente divisi, seleziona la frequenza di fatturazione, immetti la data di inizio della fatturazione nella riga di offerta e seleziona **Data di completamento richiesta** per l'offerta nella sezione **Riepilogo** dell'intestazione dell'offerta. Quindi seleziona **Genera passaggi fondamentali periodici** per creare passaggi fondamentali suddivisi equamente in base alla frequenza di fatturazione selezionata. 
 - Per creare un passaggio fondamentale di fatturazione con somma forfettaria, crea un passaggio fondamentale e quindi immetti il valore della riga di offerta come importo del passaggio fondamentale.
 - Per creare passaggi fondamentali di fatturazione basati su specifiche attività del piano di progetto, crea un passaggio fondamentale e mappalo all'elemento di pianificazione del progetto nell'interfaccia utente dei passaggi fondamentali di fatturazione.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

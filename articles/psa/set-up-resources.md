@@ -55,3 +55,6 @@ Prima di richiedere o assegnare risorse in [!INCLUDE[pn_project_service_auto](..
   
 ### <a name="see-also"></a>Vedi anche  
  [Configurare Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

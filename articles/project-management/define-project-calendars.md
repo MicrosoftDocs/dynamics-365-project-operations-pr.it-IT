@@ -49,3 +49,6 @@ Per creare una pianificazione di progetto, creai un modello di calendario di pro
 8. Nella finestra di dialogo **Modello di lavoro**, immetti un nome per il modello di lavoro e quindi seleziona **Applica**. 
 
 Ora puoi associare il modello di lavoro a un modello di calendario di progetto.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

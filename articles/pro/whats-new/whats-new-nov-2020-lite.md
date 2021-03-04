@@ -37,3 +37,6 @@ La tabella seguente elenca gli aggiornamenti di Project Operations in ambiente C
 | Inserimento rapido spesa e ore | 2047499          | Il pulsante **Nuovo** nella pagina Inserimento ore apre la pagina **Nuova firma e-mail**.                                                                                               |
 | Inserimento rapido spesa e ore | 2059859          | Quando si crea una voce di spesa viene visualizzato un pop-up imprevisto.                                                                                                                         |
 | Altro                        | 2044181          | [Disinstallazione PO] - L'errore "Record non disponibile" si verifica quando si tenta di disinstallare le soluzioni di base di Project Service **msdyn_ProjectServiceCore_Patch** e msdyn.        |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

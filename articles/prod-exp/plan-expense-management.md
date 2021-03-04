@@ -160,3 +160,6 @@ Creando criteri di nota spese, puoi aiutare la tua organizzazione a risparmiare 
 - Quando scade il criterio?
 - Qual è la regola dei criteri?
 - Qual è il risultato della regola dei criteri?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

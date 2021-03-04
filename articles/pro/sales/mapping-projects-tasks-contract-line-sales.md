@@ -82,3 +82,6 @@ Questa è l'esperienza ottimale per annullare l'associazione di attività da voc
 4. Nella pagina di dialogo che si apre, seleziona una voce di contratto dal menu a discesa.
 5. Seleziona la casella di controllo per indicare se l'associazione deve essere rimossa anche dalle attività figlio delle attività selezionate. Selezionando la casella si annullerà l'associazione anche delle attività figlio delle attività selezionate dalla voce di contratto.
 6. Seleziona **OK**. Un messaggio di avviso indica che la rimozione di questa associazione potrebbe comportare l'annullamento di tutti i valori effettivi precedentemente registrati nell'attività. Seleziona **OK** nella finestra di dialogo di avviso per rimuovere l'associazione tra l'attività e la voce di contratto basata su progetto.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

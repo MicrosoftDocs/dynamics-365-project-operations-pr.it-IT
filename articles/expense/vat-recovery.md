@@ -66,3 +66,6 @@ Quando Arnie è pronto per inviare i dati della nota spese al fornitore di terze
 Arnie deve verificare che le transazioni della nota spese siano idonee per il recupero dell'IVA e che le ricevute digitali siano allegate alle note spese. Per iniziare a elaborare le spese idonee per il recupero nazionale, Arnie apre la pagina **Recupero imposte su spese** e seleziona la nota spese che richiede la verifica. Verifica che le ricevute siano intestate all'azienda anziché al dipendente. (Per il recupero dell'IVA le ricevute devono essere intestate all'azienda.) Arnie verifica quindi che siano stati inseriti la fascia IVA e i codici IVA articoli corretti.
 
 Quando Arnie riceve le ricevute cartacee, cambia lo stato della nota spese in **Pronte per il recupero**. Può quindi presentare la dichiarazione all'autorità fiscale appropriata. In questo caso, l'autorità fiscale appropriata negli Stati Uniti è l'Internal Revenue Service (IRS).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -51,3 +51,6 @@ I responsabili di gestione account e di progetto richiedono regolarmente risorse
   
 ### <a name="see-also"></a>Vedi anche  
  [Guida di Resource Manager](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -93,3 +93,6 @@ Installa un delegato per consentire a un altro utente di inserire le ore o le sp
   
 ### <a name="see-also"></a>Vedi anche  
  [Guida per tempo, spese e collaborazione](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

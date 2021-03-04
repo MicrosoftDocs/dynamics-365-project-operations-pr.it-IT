@@ -60,3 +60,6 @@ Dalla griglia dei membri del team, è possibile eseguire le seguenti azioni:
 
 - **Nuovo**: oltre ad aggiungere risorse direttamente dalla pianificazione, i responsabili di progetto possono aggiungere nuovi membri del team denominati o generici dalla griglia dei membri del team.
 - **Elimina**: selezionando uno o più membri del team, il responsabile di progetto può eliminare le risorse che non parteciperanno più al progetto. L'eliminazione di un membro del team eliminerà anche tutte le assegnazioni di risorse associate e annullerà tutte le prenotazioni esistenti.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

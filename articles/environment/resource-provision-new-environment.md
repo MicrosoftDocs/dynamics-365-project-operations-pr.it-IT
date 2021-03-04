@@ -209,3 +209,6 @@ Se hai applicato i dati demo all'ambiente Finance, vedi [Impostare e applicare i
 
 
 Il provisioning e la configurazione dell'ambiente Project Operations sono stati ora completati. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

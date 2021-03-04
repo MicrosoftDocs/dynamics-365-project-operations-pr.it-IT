@@ -33,3 +33,6 @@ Esistono due metodi per gestire le spese personali di un lavoratore:
 - **Pagato dalla società** - La tua organizzazione paga l'intera fattura per la carta di credito aziendale e quindi addebita le spese personali sul conto del lavoratore.
 
 È possibile selezionare il metodo utilizzato dalla propria organizzazione nella pagina **Parametri di gestione spese**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

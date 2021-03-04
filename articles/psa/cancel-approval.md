@@ -62,3 +62,6 @@ L'annullamento di un'approvazione ha anche un impatto finanziario su un progetto
 Quindi, nella tabella Valori effettivi vengono create scritture di storno. Per creare scritture di storno, il sistema copia i valori di campo dai valori effettivi originali. I soli valori che non vengono copiati sono i valori di quantità. Questi valori vengono invece stornati. Valori effettivi stornati vengono creati per i valori effettivi **Costo** e **Vendite non fatturate**. Il campo **Stato rettifica** dei valori effettivi stornati viene impostato su **Non rettificabile** e lo stato di fatturazione viene impostato su **Annullato**.
 
 Dopo aver eseguito tali modifiche, l'importo che viene registrato come speso nel progetto e nel backlog dei ricavi del progetto non include più gli importi che questi valori effettivi rappresentano.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

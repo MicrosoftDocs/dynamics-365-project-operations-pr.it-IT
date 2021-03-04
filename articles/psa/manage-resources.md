@@ -344,3 +344,6 @@ Se sono presenti assegnazioni di attività per una risorsa ma nessuna prenotazio
 ![Finestra di dialogo Estendi prenotazione](media/Resource-Management-image58.png)
 
 Il responsabile di progetto o il responsabile delle risorse può quindi utilizzare la scheda di pianificazione per gestire situazioni in cui una risorsa è sovraprenotata aldilà della sua capacità.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

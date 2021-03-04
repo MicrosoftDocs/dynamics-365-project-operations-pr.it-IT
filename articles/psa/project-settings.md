@@ -68,3 +68,6 @@ Ogni organizzazione deve impostare questi ruoli nella pagina **Categorie di riso
 ## <a name="price-lists"></a>Listini prezzi
 
 I listini prezzi consentono di impostare i prezzi di costo e di vendita per ruoli risorsa, categorie di spese, prodotti e altri elementi in un'organizzazione. Prima di impostare le stime finanziarie per il lavoro da eseguire per un progetto, devi creare un listino prezzi di costo e vendita di backup. Nella sezione dei parametri, devi impostare anche un listino prezzi di costo e vendita predefinito applicabile a tutti i progetti creati nell'organizzazione. Nella pagina **Parametri progetto attivi**, verifica di aver impostato un listino prezzi di costo e vendita predefinito.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

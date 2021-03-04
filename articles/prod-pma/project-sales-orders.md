@@ -41,3 +41,6 @@ Se un progetto relativo a tempi e materiali ha più fonti di finanziamento nel c
 - Vai al progetto stesso. Nel riquadro azioni seleziona **Gestisci > Attività articolo > Ordine di vendita**. Le informazioni sul progetto verranno impostate per impostazione predefinita sull'ordine di vendita del progetto. Se il contratto di progetto ha più di una fonte di finanziamento, sarà necessario selezionare la fonte di finanziamento per impostare il cliente per l'ordine di vendita. Se esiste una sola fonte di finanziamento per il progetto, il cliente verrà impostato automaticamente.
 - Vai alla pagina elenco **Tutti gli ordini di vendita** e crea un nuovo ordine di vendita. Sarà necessario selezionare il progetto per l'ordine di vendita. Dopo aver selezionato il progetto, il cliente verrà impostato dalla fonte di finanziamento o sarà necessario selezionare la fonte di finanziamento se il contratto di progetto ha più fonti di finanziamento.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

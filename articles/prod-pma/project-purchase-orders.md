@@ -76,3 +76,6 @@ Puoi utilizzare uno dei seguenti metodi per creare un ordine di acquisto in Gest
 
 Per altre informazioni, vedi [Ricevere gli articoli nell'ordine di acquisto dal requisito dell'articolo](tasks/receive-items-purchase-order-item-requirement.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

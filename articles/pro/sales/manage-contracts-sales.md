@@ -33,3 +33,6 @@ Un elenco di tutti i contratti di progetto può essere visualizzato dalla pagina
 2. Seleziona **Cambia vista** (la freccia a discesa accanto al nome della visualizzazione) per selezionare altre visualizzazioni filtrate. Puoi creare le tue visualizzazioni con criteri di filtro personalizzati.
 
 I contratti possono essere creati o eliminati da questa pagina elenco o dalle pagine dei dettagli.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

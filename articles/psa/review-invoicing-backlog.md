@@ -59,3 +59,6 @@ Ogni voce di contratto di progetto con un metodo di fatturazione a prezzo fisso 
 Per esaminare i passaggi fondamentali di fatturazione, seleziona **Vendite** \> **Fatturazione** \> **Passaggi fondamentali prezzo fisso**. Seleziona i passaggi fondamentali che sono pronti per essere fatturati e quindi seleziona **Pronto per la fatturazione**. Lo stato di fatturazione di questi passaggi fondamentali diventa **Pronto per la fatturazione**.
 
 ![Passaggi fondamentali prezzo fisso](media/FPBacklog.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

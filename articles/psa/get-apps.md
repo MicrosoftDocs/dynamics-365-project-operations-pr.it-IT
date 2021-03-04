@@ -36,3 +36,6 @@ Se desideri immettere tempi e spese sul tuo dispositivo mobile [Ottenere e insta
   
 ### <a name="see-also"></a>Vedi anche  
  [Guida per tempo, spese e collaborazione](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

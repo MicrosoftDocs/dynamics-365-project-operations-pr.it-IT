@@ -40,3 +40,6 @@ Un project manager può pianificare i ruoli delle risorse richieste per un proge
 7. Seleziona un ruolo di lavoro e quindi seleziona **Assegna**.
 8. Verifica che la riga per **Sviluppatore software 1** sia stata rimossa per il progetto **Progetto di aggiornamento XYZ Fase 2**.
 9. Nella scheda **Team progetto e programmazione** , per il progetto **Aggiornamento XYZ fase 2** , verifica che il ruolo di lavoro selezionato nel passaggio precedente sia stato aggiunto come **Sviluppatore software**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

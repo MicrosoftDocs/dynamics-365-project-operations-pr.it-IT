@@ -72,3 +72,6 @@ Il processo aziendale dal lead a opportunità supporta le seguenti fasi:
 | Sviluppa | Opportunità | Sviluppa l'opportunità per aggiungere altre informazioni sul lavoro, sulle parti interessate chiave e sulla concorrenza coinvolti. |
 | Proponi | Opportunità | Sviluppa la proposta e ottieni l'approvazione dal team di revisione interno. |
 | Chiuso | Opportunità | Acquisisci l'opportunità per chiudere la transazione. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

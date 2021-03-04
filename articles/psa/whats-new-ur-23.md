@@ -67,3 +67,6 @@ Sono stati risolti i seguenti problemi:
 Sono stati risolti i seguenti problemi:
 
 - Il doppio clic su **Recupera tutte le categorie di transazioni** crea più righe.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

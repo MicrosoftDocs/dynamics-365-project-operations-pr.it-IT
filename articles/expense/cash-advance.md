@@ -63,3 +63,6 @@ Quando crei e invii una nota spese per l'anticipo in contanti che hai già ricev
 ### <a name="example"></a>Esempio
 Hai intenzione di viaggiare da Seattle a New York City per una conferenza. Crei una richiesta di anticipo in contanti per 3000,00 USD in base al costo stimato del biglietto della conferenza, dei voli, dell'hotel, dei pasti e del taxi. Non verrai pagato a meno che il tuo manager non approvi questa richiesta. Dopo che il tuo responsabile ha approvato, l'anticipo in contanti richiesto viene pagato come 3000,00 USD sul tuo conto bancario. Quindi partecipi alla conferenza. Dopo aver completato il tuo viaggio, scopri che la spesa totale era solo 2790,00 USD. Seleziona **Contante** nel campo **Metodo di pagamento** e invia la tua spesa per 2790,00 USD. L'importo della spesa inviato viene rettificato automaticamente in base all'anticipo in contanti di 3000,00 USD che ti è stato prestato. Ora devi un saldo di 210,00 USD (3000,00 - 2790,00), che puoi restituire all'azienda utilizzando la categoria di spesa **Restituisci contante**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

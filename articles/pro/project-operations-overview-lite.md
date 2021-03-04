@@ -37,3 +37,6 @@ Usa questo tipo di distribuzione per utilizzare Project Operations per l'intero 
 - Un sistema integrato che gestisce progetti interni e fatturabili per programmi e dati finanziari, dalla vendita del progetto alla fatturazione.
 - Una pianificazione delle risorse aziendali di terze parti (sistema ERP/contabilità finanziaria) da integrare con Project Operations.
 - Un sistema di terze parti per lavorare con IVA, tassi di cambio, rimborsi spese e spese non di progetto.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

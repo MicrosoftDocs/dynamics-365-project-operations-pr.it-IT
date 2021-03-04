@@ -127,3 +127,6 @@ Per creare una nuova struttura di suddivisione del lavoro utilizzando Microsoft 
 8.  Seleziona il **Calendario** da utilizzare per le risorse.
 
 11. Fare clic su **OK**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

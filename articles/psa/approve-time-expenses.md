@@ -47,3 +47,6 @@ Dopo che i consulenti immettono il tempo e le spese di un progetto, devi approva
   
 ### <a name="see-also"></a>Vedi anche  
  [Guida del responsabile di progetto](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

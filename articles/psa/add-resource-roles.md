@@ -47,3 +47,6 @@ Imposta tassi di utilizzo di destinazione per ogni ruolo. Queste impostazioni de
   
 ### <a name="see-also"></a>Vedi anche  
  [Configurare le risorse](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

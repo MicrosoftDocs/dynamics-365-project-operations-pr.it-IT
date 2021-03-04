@@ -61,3 +61,6 @@ Questo argomento elenca le funzionalità e le correzioni nuove o modificate per 
     - Risolto: ID oggetto duplicato trovato nel modulo **Contratto principale**.
     - Risolto: la logica è stata aggiornata per rendere la scheda **Analisi offerta** visibile in modo da visualizzare l'impostazione dei metadati della scheda.
     - Risolto: la data contabile sul record effettivo ora proviene dalla data di registrazione ora/spesa e non dalla data dell'approvazione.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -73,3 +73,6 @@ Lo stato da non superare viene reimpostato su **Non valutato** per tutti i valor
 Per rivalutare lo stato da non superare, seleziona uno o più valori effettivi dalla visualizzazione **Backlog di fatturazione tempo e materiale** o **Valori effettivi** quindi seleziona **Rivaluta stato da non superare**.
 
 Tutti i valori effettivi selezionati pertinenti con un limite da non superare verranno valutati rispetto all'impostazione del limite da non superare. I valori effettivi rilevanti per la rivalutazione dello stato da non superare sono i valori effettivi di vendita non fatturati che non sono fatturati, non in una bozza di fattura e contrassegnati come addebitabili. Qualsiasi altro valore effettivo selezionato.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

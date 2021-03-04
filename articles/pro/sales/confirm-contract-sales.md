@@ -35,3 +35,6 @@ Se il contratto di progetto chiuso come perso fa riferimento a un progetto nelle
 
 > [!NOTE]
 > In Dynamics 365 Project Operations, la chiusura di un contratto di progetto come perso non influirà sullo stato dell'opportunità associata. L'opportunità rimarrà aperta e dovrà essere chiusa manualmente.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -59,3 +59,6 @@ Ogni progetto ha un numero di membri del team di progetto. È possibile specific
 3. Seleziona **Salva**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

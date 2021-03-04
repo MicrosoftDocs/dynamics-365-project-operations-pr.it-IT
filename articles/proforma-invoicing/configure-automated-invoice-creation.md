@@ -45,3 +45,6 @@ Il processo batch per la creazione di fatture è un processo ricorrente. Se ques
 
 > [!NOTE]
 > La fatturazione batch viene eseguita solo per le righe di contratto di progetto configurate dalle pianificazioni fatture. Una riga di contratto con un metodo di fatturazione a prezzo fisso deve avere i passaggi fondamentali configurati. Una riga di contratto di progetto con un metodo di fatturazione di tempo e materiali richiederà una pianificazione fatturazione basata sulla data. Lo stesso vale per una riga di contratto basato su progetto.     
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

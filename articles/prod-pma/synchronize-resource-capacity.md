@@ -49,3 +49,6 @@ Si consiglia di utilizzare un batch. Le opzioni sono disponibili durante la sinc
     | Data di fine    | Immetti la data di fine per il processo di sincronizzazione per i roll-up della capacità delle risorse. |
 
 [![Processo di sincronizzazione](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

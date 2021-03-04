@@ -37,3 +37,6 @@ Poiché Nancy ha lavorato su due progetti separati mentre era a Francoforte, qua
 |Hotel         |EUR 725              |EUR 557                        |EUR 168                          |
 |Vitto         |EUR 346              |EUR 284                        |EUR 62                           |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -42,3 +42,6 @@ Puoi utilizzare la casella di ricerca nel **selettore delle risorse** per cercar
 1. Dalla griglia delle attività, dalla bacheca o dalla sequenza temporale, vai alla cella **Assegnato a**.
 2. Nella casella di ricerca, inizia a digitare un nome. I risultati della ricerca per il nome sono visualizzati nel **selettore delle risorse** in **Altre risorse**.
 3. Seleziona la risorsa che desideri assegnare all'attività o seleziona il nome della risorsa sotto **Altre risorse del team**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

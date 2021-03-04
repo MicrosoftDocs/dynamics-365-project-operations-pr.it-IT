@@ -48,3 +48,6 @@ Se sono presenti assegnazioni di attività per una risorsa ma nessuna prenotazio
 Le prenotazioni che vengono create tramite l'azione **Estendi prenotazione** sono associate al requisito primario del progetto. Quando viene avviata un'estensione, il requisito specifico che deve essere esteso non può essere determinato, poiché la risorsa potrebbe essere associata a più di un requisito per il progetto.
 
 Il responsabile di progetto o il responsabile delle risorse può quindi utilizzare la scheda di pianificazione per gestire situazioni in cui una risorsa è sovraprenotata aldilà della sua capacità.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

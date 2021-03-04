@@ -91,3 +91,6 @@ Completare i passaggi seguenti per prenotare da un nuovo requisito di risorsa.
 
 4. Ora che la risorsa è prenotata, è necessario assegnare manualmente le attività.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

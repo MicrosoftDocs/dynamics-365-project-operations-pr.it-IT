@@ -58,3 +58,6 @@ Durante la creazione di un progetto, imposti la frequenza con cui vengono genera
   
 ### <a name="see-also"></a>Vedi anche  
  [Guida del responsabile di progetto](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ I campi elencati nella tabella seguente si trovano nel record del cliente della 
 È possibile modificare le percentuali di suddivisione della fatturazione in linea. Quando le percentuali di suddivisione della fatturazione non raggiungono il 100%, si verifica un errore. Dopo aver modificato le percentuali di suddivisione della fatturazione, aggiorna la pagina della riga di offerta rimuovere l'errore.
 
 Utilizza l'azione di distribuzione uniforme nella griglia secondaria dei clienti della riga di offerta per allocare le suddivisioni di fatturazione a tutti i clienti della riga di offerta. Se è presente un fattore di arrotondamento, verrà aggiunto al cliente di arrotondamento. Uno dei clienti della riga di offerta è sempre contrassegnato come cliente di arrotondamento, il che significa che il record del cliente della riga di offerta ha il flag di arrotondamento impostato su **Sì**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

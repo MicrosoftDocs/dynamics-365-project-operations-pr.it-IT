@@ -47,3 +47,6 @@ Dopo aver acquisito l'offerta per il progetto, è ora di creare un contratto con
   
 ### <a name="see-also"></a>Vedi anche  
  [Guida per la gestione dell'account](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -59,3 +59,6 @@ I ruoli hanno una parte importante nella pianificazione del progetto, quando si 
   
 ### <a name="see-also"></a>Vedi anche  
  [Configurare le risorse](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

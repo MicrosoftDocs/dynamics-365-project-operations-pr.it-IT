@@ -26,3 +26,6 @@ Diversamente dalle prenotazioni, le assegnazioni sono l'impegno delle risorse pe
 In genere, la somma delle prenotazioni per una risorsa sarà uguale alla somma delle assegnazioni della risorsa in una o più attività. Tuttavia, in Project Operations questa concordanza non è obbligatoria. La vista **Riconciliazione** mostra a un responsabile di progetto dove prenotazioni e assegnazioni non corrispondono.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

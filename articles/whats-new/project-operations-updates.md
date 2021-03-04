@@ -77,3 +77,6 @@ Le date di rilascio previste sono soggette a modifiche. Per ulteriori informazio
 | --- | --- |
 | 10.0.17 | 19 marzo 2021 |
 | 10.0.18 | 16 aprile 2021 |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

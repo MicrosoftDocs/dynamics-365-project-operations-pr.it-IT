@@ -55,3 +55,6 @@ Le spese che non sono state ancora inviate possono essere eliminate. Per elimina
 ## <a name="see-also"></a>Vedi anche
 
 - [Panoramica delle approvazioni](../approvals/approvals-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -58,3 +58,6 @@ Una stima o un valore effettivo creato per la spesa sarà considerato addebitabi
 | No | Sì | Non può essere impostato | Non addebitabile | Fatturazione in base all'ora effettiva: non disponibile </br>Tipo di fatturazione su un valore effettivo di spesa: non addebitabile |
 | Sì | No | Addebitabile | Non può essere impostato | Fatturazione in base all'ora effettiva: addebitabile </br>Tipo di fatturazione su un valore effettivo di spesa: non disponibile |
 | Sì | No | Non addebitabile | Non può essere impostato | Fatturazione in base all'ora effettiva: non addebitabile </br> Tipo di fatturazione su un valore effettivo di spesa: non disponibile |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

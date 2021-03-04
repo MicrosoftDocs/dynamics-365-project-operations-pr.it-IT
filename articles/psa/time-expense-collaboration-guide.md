@@ -73,3 +73,6 @@ Fai clic su un collegamento per ulteriori informazioni sull'utilizzo di [!INCLUD
  [Guida per la gestione dell'account](../psa/account-manager-guide.md)   
  [Guida del responsabile di progetto](../psa/project-manager-guide.md)   
  [Guida di Resource Manager](../psa/resource-manager-guide.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

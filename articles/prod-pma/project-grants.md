@@ -79,3 +79,6 @@ Puoi creare una concessione inserendo tutti i dettagli in un nuovo record oppure
 2. Seleziona la concessione da modificare.
 3. Nel riquadro azioni, nella scheda **Concessione** , nel gruppo **Mantieni** , seleziona **Modifica**.
 4. Rivedi i dettagli della concessione e apporta le modifiche necessarie.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

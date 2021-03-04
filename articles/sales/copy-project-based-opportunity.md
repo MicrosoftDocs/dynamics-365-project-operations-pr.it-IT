@@ -34,3 +34,6 @@ Le opportunità di progetto possono essere facilmente copiate per creare nuove o
     | Copia prezzi | Un valore Sì/No che indica se il prezzo dell'opportunità deve essere copiato dall'opportunità di origine. | Se **Sì** è selezionato, i listini prezzi vengono copiati dall'opportunità di origine in quella di destinazione. Se viene selezionato **No**, i listini prezzi vengono impostati sui valori predefiniti in base agli ultimi listini prezzi impostati. |
 
 3. Seleziona **OK**. Il sistema crea una copia dell'opportunità di progetto in base ai parametri selezionati e viene aperta la nuova opportunità di progetto.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

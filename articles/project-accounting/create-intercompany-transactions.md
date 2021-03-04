@@ -113,3 +113,6 @@ Molly Clark, sviluppatore impiegato in GBPM registra 10 ore di lavoro contro un 
     - Credito: Progetto - Ricavi maturati 120 USD
 
     Il sistema è ora pronto per creare una fattura cliente interaziendale.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

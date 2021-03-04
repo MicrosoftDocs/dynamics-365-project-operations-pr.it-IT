@@ -28,3 +28,6 @@ Le righe basate su prodotto possono essere elementi di catalogo o prodotti fuori
 
 Quando il metodo di ricavo del riepilogo opportunità è **Calcolato dal sistema**, i valori del budget del cliente nelle righe di opportunità vengono riepilogati per calcolare i ricavi stimati. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

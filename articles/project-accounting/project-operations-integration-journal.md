@@ -55,3 +55,6 @@ Solo i seguenti attributi di contabilità possono essere aggiornati nelle righe 
 Le righe del giornale di registrazione integrazione possono essere eliminate, tuttavia tutte le righe non registrate verranno inserite nuovamente nel giornale dopo aver rieseguito il processo periodico **Importa da gestione temporanea**.
 
 Quando registri il giornale di registrazione integrazione, vengono creati un registro secondario del progetto e le transazioni di contabilità generale. Questi vengono utilizzati nella fatturazione dei clienti downstream, nel riconoscimento dei ricavi e nel reporting finanziario.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

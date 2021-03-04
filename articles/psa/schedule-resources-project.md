@@ -83,3 +83,6 @@ Se utilizzi una versione precedente, per la disponibilità delle risorse, vedi [
   
 ### <a name="additional-resources"></a>Risorse aggiuntive  
  [Guida di Resource Manager](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

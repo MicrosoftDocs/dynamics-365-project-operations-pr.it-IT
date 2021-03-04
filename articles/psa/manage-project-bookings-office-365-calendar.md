@@ -91,3 +91,6 @@ Visualizza gli appuntamenti, le prenotazioni di progetto- lavoro e le assegnazio
   
 ### <a name="see-also"></a>Vedi anche  
  [Guida per tempo, spese e collaborazione](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

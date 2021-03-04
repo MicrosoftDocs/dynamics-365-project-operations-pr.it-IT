@@ -53,3 +53,6 @@ Le categorie di progetto rappresentano il livello più granulare di configurazio
 I gruppi di categorie vengono utilizzati per condividere proprietà, principalmente profili di registrazione, tra le categorie di progetto correlate. Deve essere presente almeno un gruppo di categorie per ogni tipo di transazione e ad ogni categoria di progetto è assegnato un gruppo.
 
 Le specifiche di registrazione in Project Operations sono definite dalle regole del profilo dei costi e dei ricavi del progetto, dalle categorie di progetto e dai gruppi di categorie. Puoi configurare gruppi di categorie andando a **Gestione progetti e contabilità** \> **Configura** \> **Categorie** \> **Gruppi di categorie**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

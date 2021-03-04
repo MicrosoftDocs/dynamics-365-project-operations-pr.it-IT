@@ -44,3 +44,6 @@ Dopo aver allocato un budget o una revisione del budget, è possibile rivedere g
 10. Quando l'allocazione è quella che hai scelto, fai clic su Invia nella pagina Budget di progetto per inviare il budget o le revisioni del budget al flusso di lavoro di approvazione.  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

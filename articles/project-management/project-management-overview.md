@@ -26,3 +26,6 @@ Gli strumenti per gestione di progetti in Dynamics 365 Project Operations consen
 - Utilizzare stime di progetto durante il processo di vendita.
 - Prevedere requisiti di risorsa per i progetti nella pipeline
 - Consegnare i progetti tenendo traccia dell'avanzamento e del consumo dei costi.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

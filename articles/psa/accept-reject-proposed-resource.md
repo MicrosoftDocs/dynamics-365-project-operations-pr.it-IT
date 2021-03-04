@@ -45,3 +45,6 @@ Per rifiutare la proposta, fai clic su **Rifiuta risorsa**.
 ![Accettare una proposta di risorsa](media/RM-how-to-20.png) 
 
 Analogamente a quando si soddisfa direttamente una richiesta di risorse generiche con una risorsa denominata, la risorsa generica viene sostituita e le attività assegnate vengono aggiornate con il membro del team denominato.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

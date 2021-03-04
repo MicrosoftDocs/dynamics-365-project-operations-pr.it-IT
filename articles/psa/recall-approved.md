@@ -107,3 +107,6 @@ Nella figura seguente vengono illustrate le modifiche che si verificano per gli 
 Nella figura seguente vengono illustrate le modifiche che si hanno per le voci di spesa approvate quando vengono richiamate.
 
 ![Transizioni dello stato delle voci di spesa](media/ExpenseEntryStateTransitions.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

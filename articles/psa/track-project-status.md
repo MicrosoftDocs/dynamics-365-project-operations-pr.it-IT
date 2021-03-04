@@ -58,3 +58,6 @@ Quando l'impegno avanza, le fasi del progetto si aggiornano per riflettere la fa
 
 ### <a name="see-also"></a>Vedi anche  
  [Guida del responsabile di progetto](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

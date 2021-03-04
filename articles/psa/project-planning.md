@@ -52,3 +52,6 @@ Gli argomenti seguenti forniscono le informazioni che aiuteranno i responsabili 
 - [Modelli di progetto](project-templates.md)
 - [Fasi di progetto](project-stages.md)
 - [Impostazioni di progetto](project-settings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

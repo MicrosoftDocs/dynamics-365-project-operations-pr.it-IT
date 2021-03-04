@@ -79,3 +79,6 @@ Questo processo richiede un paio di minuti per il completamento. Dovresti riceve
 18. Chiudi la sessione Desktop remoto e utilizza la pagina **Dettagli ambiente** di LCS per accedere all'ambiente e confermare che funzioni come previsto.
 
 ![Finance and Operations](./media/10FinanceAndOperations.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

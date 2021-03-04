@@ -43,3 +43,5 @@ L'aggiunta di caratteristiche ai requisiti di risorsa consente di documentare le
 3. Nella griglia secondaria **Competenze**, seleziona **+Aggiungi nuova caratteristica requisito**.
 4. Nel riquadro Creazione rapida, trova e seleziona le caratteristiche richieste e aggiungi un **Valore di classificazione**.
 5. Seleziona **Salva e chiudi**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

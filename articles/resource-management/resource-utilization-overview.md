@@ -45,3 +45,6 @@ Inoltre, un ruolo predefinito deve essere assegnato a ogni risorsa prenotabile. 
 Nella scheda **Project Service**, puoi impostare un singolo utilizzo di destinazione per la risorsa. Per il calcolo dell'utilizzo viene quindi utilizzato l'utilizzo di destinazione allo scopo di valutare la destinazione della risorsa anziché la destinazione del ruolo predefinito della risorsa.
 
 L'utilizzo viene visualizzato per una risorsa solo se ha tempo addebitabile approvato durante il periodo visualizzato nella griglia.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

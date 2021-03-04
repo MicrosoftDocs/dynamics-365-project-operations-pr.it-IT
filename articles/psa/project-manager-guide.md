@@ -95,3 +95,6 @@ Questa guida contiene informazioni necessarie per creare e gestire i progetti:
  [Guida di Resource Manager](../psa/resource-manager-guide.md)   
  [Guida per tempo, spese e collaborazione](../psa/time-expense-collaboration-guide.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

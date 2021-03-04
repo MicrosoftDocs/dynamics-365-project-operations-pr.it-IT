@@ -28,3 +28,6 @@ Esistono due metodi che puoi utilizzare per gestire le spese personali di un dip
   - **Pagato dalla società**: La tua organizzazione paga l'intero conto della carta di credito aziendale, quindi addebita le spese personali sul conto del lavoratore.
 
 È possibile selezionare il metodo utilizzato dalla propria organizzazione nella pagina **Parametri di gestione spese**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

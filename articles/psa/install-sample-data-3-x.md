@@ -297,3 +297,6 @@ Selezionare un utente (ad esempio, Spencer Low) e sostituire le ore lavorative d
 
 > [!div class="mx-imgBorder"]
 > ![Schermata delle risorse prenotabili attive](media/sample-data-6.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

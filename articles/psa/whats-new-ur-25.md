@@ -70,3 +70,6 @@ Sono stati risolti i seguenti problemi:
 - Gestione degli errori migliorata per risolvere le eccezioni di riferimento nullo generate da **Copia progetto: gestione stime HelperResource**.
 - **Non pronto per la fatturazione** in un **Backlog di fatturazione tempo e materiale** non cancella lo stato di fatturazione.
 - Corretto l'errore di etichettatura dei pulsanti **Prezzi** nella scheda **Prezzo ruolo** e **Articoli di catalogo**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

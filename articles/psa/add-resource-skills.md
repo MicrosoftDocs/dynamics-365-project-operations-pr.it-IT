@@ -47,3 +47,6 @@ I progetti dei clienti richiedono sicuramente una varietà di competenze diverse
   
 ### <a name="see-also"></a>Vedi anche  
  [Configurare le risorse](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

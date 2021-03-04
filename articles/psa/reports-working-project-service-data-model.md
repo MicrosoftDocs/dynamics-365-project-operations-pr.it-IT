@@ -123,3 +123,6 @@ Quando utilizzi l'entità **Valore effettivo**, è importante comprendere quali 
 L'entità **Origine transazione** registra l'origine del record **Valore effettivo** e l'entità entità **Connessione della transazione** registra i record correlati per il record **Valore effettivo**. Inoltre, il record **Valore effettivo** contiene riferimenti al progetto, il contratto di progetto (ordine), la risorsa prenotabile e il cliente.
 
 ![Diagramma che mostra la connessione della transazione, l'origine e le relazioni effettive](media/PS-Reporting-image6.png "Diagramma che mostra la connessione della transazione, l'origine e le relazioni effettive")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

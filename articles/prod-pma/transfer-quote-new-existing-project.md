@@ -36,3 +36,6 @@ Per usare la procedura guidata, segui questi passaggi.
 1. Vai a **Gestione progetti e contabilità** > **Offerte** > **Offerte di progetto**.
 2. Seleziona l'offerta che desideri trasferire e nella scheda **Completamento** nel gruppo **Modifica** seleziona **Trasferisci al progetto**.
 3. Segui la procedura guidata **Trasferisci l'offerta al progetto** per associare e trasferire l'offerta a un progetto.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

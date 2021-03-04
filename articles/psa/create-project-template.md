@@ -62,3 +62,6 @@ I modelli di progetto consentono di risparmiare tempo se la società esegue rego
   
 ### <a name="see-also"></a>Vedi anche  
  [Guida del responsabile di progetto](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

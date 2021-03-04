@@ -72,3 +72,6 @@ Sono stati risolti i seguenti problemi:
 - La chiusura dell'offerta come vinta non consente di accedere al contratto creato se un processo aziendale collegato all'offerta è nella fase finale.
 - Lo storno delle **vendite non fatturate** è collegato al costo originale quando viene richiamato un inserimento di ore.
 - Dopo aver selezionato il pulsante **Conferma** lo stato della fattura non cambia in **Confermato** a meno che la fattura non venga aggiornata.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

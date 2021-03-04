@@ -43,3 +43,6 @@ Sono stati risolti i seguenti problemi:
 
 - Le date di fine vengono compilate automaticamente quando viene creata un inserimento ore se la durata è nulla.
 - Gli utenti possono modificare l'attività di un inserimento ore approvato o inviato.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

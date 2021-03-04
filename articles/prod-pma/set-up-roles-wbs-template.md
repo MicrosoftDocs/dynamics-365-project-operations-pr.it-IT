@@ -107,3 +107,6 @@ Sono state aggiunte ulteriori opzioni nella struttura di suddivisione del lavoro
     > Non ricevi un avviso che la risorsa specificata è ora 2, perché il numero di risorse rimane 1.
 
 14. Nella pagina **Struttura di suddivisione del lavoro** , convalida l'assegnazione delle risorse sulla struttura di suddivisione del lavoro, quindi seleziona **Salva**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -30,3 +30,6 @@ Quando viene creata una riga di contratto basata sul prodotto per un prodotto ca
 Avere un costo unitario su una voce di contratto basata su prodotto consente costi diversi per un prodotto per ciascuna unità di vendita. Sebbene non sempre necessario, esistono alcuni scenari in cui il costo del prodotto può essere scontato per il cliente dal fornitore. Prendi in considerazione lo scenario seguente:
 
 Fabrikam Robotics sta installando bracci robotici presso le linee di assemblaggio di Adatum Corporation. Fabrikam fornisce servizi di installazione ma Robotic Arms proviene da Trey Research. Se l'installazione di bracci robotici presso Adatum Corporation apre un nuovo settore verticale per Trey Research, potrebbero concedere uno sconto speciale per questo accordo a Fabrikam. In questo caso, Fabrikam crea una riga di contratto basata sul prodotto per Robotic Arms. Per questo contratto viene inserito un costo unitario. Il costo è diverso dal costo di Robotic Arms di Trey Research.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

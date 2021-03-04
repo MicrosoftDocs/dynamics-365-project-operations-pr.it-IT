@@ -79,3 +79,6 @@ Per creare modelli di costo, seguire questi passaggi:
 7. Nella scheda **Categorie**, selezionare le categorie di progetto da includere nella riga del modello di costo.
 8. Nella scheda **Generale**, selezionare se questa riga sarà inclusa nel calcolo della percentuale di completamento.
 9. Selezionare il costo per completare il metodo da utilizzare nel calcolo della percentuale di completamento.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Apri la riga dell'offerta a prezzo fisso per cui è necessario creare un passagg
 | Stato fattura | Creazione rapida | Quando viene creato un passaggio fondamentale, questo stato è sempre impostato su **Non pronto per la fatturazione**. | Viene propagato sul passaggio fondamentale della riga di contratto del progetto e sulla fattura. |
 | Importo riga | Creazione rapida | Importo o valore del passaggio fondamentale che verrà fatturato al cliente. | Viene propagato sul passaggio fondamentale della riga di contratto del progetto e sulla fattura. |
 | Imposta | Creazione rapida | Importo dell'imposta che verrà applicato al passaggio fondamentale. | Viene propagato sul passaggio fondamentale della riga di contratto del progetto e sulla fattura. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

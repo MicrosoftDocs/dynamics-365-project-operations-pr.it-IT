@@ -440,3 +440,6 @@ Dopo che il rendiconto è stato calcolato, puoi visualizzare le seguenti informa
 -   **Consumo** : informazioni sul consumo di ore, articoli, spese e transazioni sui salari.
 -   **Fattura** : informazioni su fatture e fatturazione acconti.
 -   **Tariffa oraria** : le tariffe orarie per le ore registrate nei conti ricavi e costi.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -110,3 +110,6 @@ Per le attività assegnate a un ruolo con un'unità organizzativa differente dal
  
 La modifica dell'impostazione predefinita delle differenti unità organizzative di gestione risorse per i membri del team non generati è il motivo per cui consigliamo di generare o rigenerare il team per ogni progetto contenente risorse generiche prima di eseguire l'aggiornamento. In questo, non si perderanno le assegnazioni delle unità organizzative.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

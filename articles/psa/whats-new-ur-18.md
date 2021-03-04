@@ -63,3 +63,6 @@ Questo argomento elenca le funzionalità e le correzioni nuove o modificate per 
 **Sales**
 
 - Corretto: quando le immissioni del tempo sono state nuovamente approvate (**Approva > Annulla >** approva di nuovo), viene creato un duplicato non addebitabile effettivo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

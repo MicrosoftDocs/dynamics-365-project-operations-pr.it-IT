@@ -64,3 +64,6 @@ Aggiungi le seguenti entità di Project Service alla tua soluzione tariffaria pe
 5.  Quando viene richiesto di includere eventuali entità dipendenti per le entità selezionate, seleziona **No, non includere i componenti richiesti.**
 
     ![Comprese le entità dipendenti](./media/Do-not-include-required.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

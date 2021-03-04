@@ -35,3 +35,6 @@ Le fasi del progetto possono servire da guida al ciclo di vita del progetto. Puo
 4. Nell'elenco seleziona la fase predefinita o definita dall'utente che vuoi modificare. 
 5. Nel campo Fase progetto, immetti il nuovo nome.
 6. Fare clic su Salva.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

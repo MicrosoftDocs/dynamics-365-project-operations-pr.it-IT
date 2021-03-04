@@ -24,3 +24,6 @@ Le opportunità di progetto possono essere chiuse come acquisite o perse. La fin
 Non ti sarà consentito di chiudere l'opportunità se sono presenti offerte attive ad essa associate. È possibile chiudere contemporaneamente tutti i preventivi attivi e in bozza associati a un'opportunità. Quindi ti sarà permesso di chiudere l'opportunità.
 
 Per altre informazioni generali sulla chiusura delle opportunità, vedi [Chiudere opportunità come acquisite o perse](https://docs.microsoft.com/dynamics365/sales-enterprise/close-opportunity-won-lost-sales).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -66,3 +66,6 @@ In qualità di Project manager, potresti dover prenotare una risorsa per un prog
 
 > [!NOTE]
 > Questo metodo non crea alcuna prenotazione per la risorsa. Al contrario, aggiunge la risorsa al team. Dopo che il membro del team è stato aggiunto al progetto, il project manager può utilizzare le prenotazioni di mantenimento o estendere le prenotazioni per aggiungere le prenotazioni richieste alla risorsa.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

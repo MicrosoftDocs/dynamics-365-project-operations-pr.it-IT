@@ -39,3 +39,6 @@ Se la chiave di gestione delle funzionalità **Abilita pagina elenco delegati di
 Un delegato può filtrare e cercare rapidamente le note spese esistenti che gli sono state delegate. Il delegato può anche creare rapidamente una nuova nota spese per altri utenti selezionando **Nuova nota spese**.
 
 I delegati possono creare e gestire note spese per altri dipendenti accedendo a **Gestione spese** > **Le mie spese** > **Rendiconti spese** e selezionando **Apri le spese di altri utenti**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -85,3 +85,6 @@ Dopo che sono stati creati alcuni inserimenti ore, gli utenti possono creare pi√
 
 ## <a name="import"></a>Importazione
 Lo stesso processo di base viene utilizzato per eseguire importazioni di prenotazioni, assegnazioni e scambi. Puoi specificare l'intervallo di date da cui sono importate le prenotazioni e quindi selezionare in modo esplicito le prenotazioni che devono essere copiate negli inserimenti ore in bozza. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

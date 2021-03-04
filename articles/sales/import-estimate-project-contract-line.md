@@ -59,3 +59,6 @@ Quando l'utente seleziona il riepilogo per **Classe di transazione**, **Categori
 | Attività A | Biglietto aereo | 1/10/2020 | 4 | 400 | 1600 |
 | Attività B | Hotel | 1/10/2020 | 4 | 200 | 800 |
 | Attività C | Hotel | 1/11/2020 | 2 | 200 | 400 |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

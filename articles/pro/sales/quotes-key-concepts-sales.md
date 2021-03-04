@@ -89,3 +89,6 @@ Le offerte di Project Operations sono basate sulle offerte di Dynamics 365 Sales
 - Le offerte di Project Operations hanno il proprio modulo ed elementi dell'interfaccia utente, regole di business, logica di business nei plug-in e script lato client che le rendono uniche rispetto alle offerte di Sales.
 
 Per questi motivi, non è consigliabile utilizzare un'offerta di Sales e un'offerta di Project Operations in modo intercambiabile.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

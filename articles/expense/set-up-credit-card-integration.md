@@ -47,3 +47,6 @@ Le transazioni con carta di credito relative alle spese possono essere impostate
 Dopo che un record di dipendente viene terminato, l'account Active Directory Domain Services (AD DS) del dipendente viene disabilitato. Tuttavia, potrebbero essere attive transazioni con carta di credito che devono ancora essere spesate e rimborsate. Dalla pagina **Transazioni con carta di credito** puoi riassegnare il dipendente per qualsiasi transazione con carta di credito in cui il dipendente associato è stato licenziato.
 
 Seleziona una o più transazioni con carta di credito, quindi seleziona **Riassegna transazioni**. È quindi possibile selezionare un altro dipendente a cui assegnare le transazioni con carta di credito. Dopo che le transazioni con carta di credito sono state riassegnate, possono essere selezionate per una nota spese e pagate attraverso il normale processo di rimborso della nota spese.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

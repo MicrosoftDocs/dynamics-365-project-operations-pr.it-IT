@@ -140,3 +140,6 @@ La figura seguente mostra esempi di mapping delle attività del modello in Integ
 [![Mappatura dei modelli - Aggiornamento dei valori effettivi](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
 [![Mappatura dei modelli - Aggiornamento della transazione](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

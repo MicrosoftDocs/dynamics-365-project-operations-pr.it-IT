@@ -84,3 +84,6 @@ Nel listino prezzi di Fabrikam UK-Robotics, le tariffe possono essere espresse c
 | Developer | Fabrikam UK | 115 GBP |
 
 Il listino prezzi di costo può fornire tariffe di manodopera in più valute. Quando si genera una stima dei costi sul progetto, Project Operations convertirà queste tariffe di costo nella valuta del progetto e li mostrerà all'utente. Quando una'immissione ore viene approvata e viene creato un costo effettivo, il costo effettivo viene prezzato nella valuta della riga di prezzo del ruolo corrispondente nel listino prezzi di costo. I costi effettivi per il tempo su un singolo progetto possono essere registrati in più valute. Tuttavia, durante il roll-up o il riepilogo dei costi di manodopera effettivi a livello di progetto, Project Operations convertirà tutti gli importi dei costi di manodopera nella valuta di progetto che l'utente può visualizzare.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

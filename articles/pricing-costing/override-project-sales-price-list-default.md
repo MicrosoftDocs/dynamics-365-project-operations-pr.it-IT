@@ -52,3 +52,6 @@ Puoi utilizzare ciascuno di questi listini prezzi e aggiornare i prezzi di manod
 In un contratto di progetto, il prezzo del progetto è sempre predefinito come un listino prezzi personalizzato con il nome del contratto e il timestamp della data di creazione aggiunto al nome. Questo è vero se il contratto è stato creato quando l'offerta è stata acquisita o se il contratto è stato creato da zero. Se necessario, è possibile rimuovere questa associazione al listino prezzi personalizzato e associare un listino prezzi standard al contratto di progetto.
 
 Quando associ un listino prezzi standard ai listini prezzi di progetto su offerta o contratto, eventuali modifiche apportate ai prezzi nel listino prezzi avranno effetto su tutte le offerte e i contratti che utilizzano il listino prezzi.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

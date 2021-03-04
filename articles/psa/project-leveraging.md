@@ -54,3 +54,6 @@ Puoi definire il lavoro richiesto e pianificare le stime utilizzando i campi nel
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>Importazione di stime da un progetto in un'offerta
 
 Dopo aver definito le stime di progetto, puoi importarle nella riga di offerta. Nella pagina **Dettagli riga di offerta**, seleziona **Importa da stime** nella barra multifunzione per riepilogare stime di progetto per tipo di transazione, ruolo o livello di attività.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

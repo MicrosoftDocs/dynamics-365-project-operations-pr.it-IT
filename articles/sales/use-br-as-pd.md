@@ -78,3 +78,6 @@ Per una risorsa prenotabile, l'entità **Membri del team di progetto** ha un nom
 5. Aggiungi **msdyn_bookableresourceid** a **Nome campo**.
 
  ![Modulo Nuovo nome campo dimensioni di determinazione dei prezzi](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -36,3 +36,6 @@ Vi sono due modi per un responsabile di progetto di eseguire una nuova proiezion
 - Sostituire la percentuale di avanzamento predefinita con una nuova stima dell'avanzamento effettivo dell'attività.
 
 Ognuno di questi approcci genera un nuovo calcolo di stima di completamento, stima al completamento, percentuale di avanzamento e scostamento risorse previsto dell'attività. La stima di completamento, la stima al completamento e la percentuale di avanzamento delle attività di riepilogo vengono ricalcolate e producono una nuova proiezione dello scostamento risorse.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

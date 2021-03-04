@@ -38,3 +38,6 @@ Seleziona **Accesso** > **Accedi all'ambiente** per passare al modulo **Gestione
 
 > [!NOTE]
 > È possibile accedere a Project Operations in Common Data Service e al modulo **Gestione progetti e contabilità** direttamente utilizzando i rispettivi URL. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

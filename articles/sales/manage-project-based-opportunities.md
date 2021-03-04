@@ -65,3 +65,6 @@ Il processo di vendita opportunità in Project Operations è un'estensione del f
 > Se il contratto basato su progetto è iniziato con un'opportunità, il processo di vendita opportunità ha la precedenza.
 
 Puoi modificare il flusso di processo aziendale del prodotto o creare i tuoi flussi di processi aziendali per monitorare il processo di vendita secondo necessità. Per ulteriori informazioni sul flusso di processi aziendali, vedi [Panoramica dei processi aziendali](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

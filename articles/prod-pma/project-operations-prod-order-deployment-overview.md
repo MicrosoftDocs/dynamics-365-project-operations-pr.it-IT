@@ -43,3 +43,6 @@ Seleziona questo tipo di distribuzione per utilizzare Dynamics 365 Project Opera
 - Un motore di tasso di cambio e IVA a livello aziendale per generare fatture rivolte ai clienti per i progetti.
 - Un sistema di contabilità di progetto e riconoscimento dei ricavi conforme agli International Financial Reporting Standard (IFRS).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ Puoi utilizzare lo stesso metodo per annullare una prenotazione definitiva o pro
 Per convertire una risorsa prenotata provvisoriamente in una prenotata definitivamente nella scheda **Team** del progetto, seleziona la risorsa e quindi **Conferma**.
 
 ![Comando Conferma](media/Resource-Management-image83.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -38,3 +38,6 @@ Queste domande frequenti si applicano agli effettivi spese dove la classe di tra
 Passare alla voce di spesa correlata e verificare che nel campo Voce di spesa sia visualizzato un importo. Se per la voce di spesa di origine non era visualizzato un importo, il problema è stato risolto.
  
 Per risolvere il problema, ricreare la voce di spesa con un importo valido e approvarla.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

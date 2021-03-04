@@ -67,3 +67,6 @@ Valuta nel dettaglio della riga di offerta per i valori predefiniti di costo dal
 I calcoli della redditività convertono l'importo sui dettagli della riga dell'offerta per costi e vendite nella valuta di base dell'ambiente per riportare il margine stimato complessivo sull'offerta.
 
 Ciò potrebbe causare errori di arrotondamento della valuta e modificare i margini a causa della mancanza di tassi di cambio effettivi. Utilizza questi calcoli sulle offerte di progetto solo come approssimazioni e non come rapporti legali o di altro tipo effettivi che richiedono una maggiore precisione di arrotondamento e consapevolezza dell'efficacia della data per i tassi di cambio.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -98,3 +98,6 @@ Quando elabori gli importi di budget residuo, puoi creare transazioni nella cont
 5. Per ogni progetto che desideri elaborare, seleziona l'opzione all'inizio della riga per il progetto. 
 6. Seleziona **Elabora** per trasferire gli importi di budget residuo per i progetti selezionati all'anno fiscale selezionato.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

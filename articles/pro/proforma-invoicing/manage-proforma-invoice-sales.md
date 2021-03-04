@@ -144,3 +144,6 @@ Se sono presenti valori effettivi ricevuti dopo la creazione della fattura, è p
 In Project Operations è possibile creare righe di fattura per prodotti che non si applicano a nessun progetto o per tutti i progetti insieme a righe di fattura basate su progetto. Queste righe di fattura vengono create come righe di contratto basate su prodotto e, dopo essere state contrassegnate come pronte per la fatturazione, vengono aggiunte come righe di fattura basate su prodotto.
 
 Dopo aver aggiunto righe di fattura basate su prodotto, non è possibile modificarle. Tuttavia, possono essere eleminate dalla bozza di fattura proforma.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

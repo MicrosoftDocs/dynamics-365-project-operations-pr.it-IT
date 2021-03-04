@@ -53,3 +53,6 @@ Dopo aver aggiunto le competenze per i progetti dei client, è necessaria una mo
   
 ### <a name="see-also"></a>Vedi anche  
  [Configurare le risorse](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

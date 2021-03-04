@@ -39,3 +39,6 @@ Completa i passaggi seguenti per fatturare un anticipo al cliente.
     | **Stato fattura** | Questa è un'impostazione dell'opzione che indica se questo anticipo viene aggiunto a una bozza di fattura per questo cliente. I valori possibili sono:</br>- **Non pronto per la fatturazione**</br>- **Pronto per la fatturazione** | Quando un anticipo o un pagamento anticipato è contrassegnato come **Pronto per la fatturazione**, viene aggiunto come riga di ora su una bozza di fattura. Solo un anticipo completamente fatturato può essere utilizzato per riconciliare i costi del progetto per il periodo di fatturazione successivo. |
 
 4. Seleziona **Salva e chiudi** nella finestra di dialogo di creazione rapida per registrare l'anticipo o il pagamento anticipato.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

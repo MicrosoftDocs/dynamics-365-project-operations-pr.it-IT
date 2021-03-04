@@ -28,3 +28,6 @@ ms.locfileid: "4960027"
 Una *diaria* è un'indennità pagata a un lavoratore che viaggia per lavoro. In Gestione spese, è possibile creare regole per la diaria per varie situazioni di viaggio. Le tariffe giornaliere possono essere basate sul periodo dell'anno, sulla destinazione del viaggio o su entrambi. Quando crei una regola per la diaria, puoi specificare che una percentuale della tariffa giornaliera sarà trattenuta se un lavoratore riceve vitto o servizi gratuiti. È inoltre possibile impostare un numero minimo e massimo di ore che la tariffa giornaliera può applicare al viaggio di un lavoratore.
 
 Il calcolo dell'importo della diaria totale si basa sulle date di inizio e di fine che è possibile impostare nella pagina **Diaria**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

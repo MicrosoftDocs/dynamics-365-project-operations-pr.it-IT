@@ -44,3 +44,6 @@ Questa guida sulle attività mostra come modificare una transazione su un proget
 13. Nell'elenco, contrassegna la riga selezionata. 
 14. Nel campo Prezzo di costo, inserisci un numero. 
 15. Fai clic su Post. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

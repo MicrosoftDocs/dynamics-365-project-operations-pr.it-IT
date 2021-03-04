@@ -64,3 +64,6 @@ Questo argomento elenca le funzionalità e le correzioni nuove o modificate per 
      - Risolto: il prezzo di vendita totale non viene calcolato fino a quando l'utente non inserisce anche un prezzo di costo per le stime di spesa in un progetto.
      - Risolto: la chiusura di un'offerta come **acquisita** non riesce se il contratto di progetto associato non è in stato di **Bozza**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ I seguenti KPI sono disponibili nella scheda **Prestazioni contratto** di un con
 | Costi sostenuti | Righe basate su prodotto | La somma di tutti i costi effettivi registrati per la voce di contratto basata su prodotto. |
 | Margine lordo | Righe basate su progetto | Importo fatturato - Costo sostenuto fino alla data / Importo fatturato |
 | Margine previsto | Righe basate su prodotto | (Valore voce di contratto - Costi stimati per la voce di contratto) / Valore voce di contratto |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

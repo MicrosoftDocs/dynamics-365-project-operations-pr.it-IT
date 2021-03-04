@@ -40,3 +40,6 @@ Il dashboard **Responsabile operativo** offre ai responsabili operativi un'esper
 ## <a name="resource-manager"></a>Gestione risorse 
 
 Il dashboard **Gestione risorse** offre ai responsabili delle risorse un'esperienza dashboard grafica per il monitoraggio delle richieste di risorse e per la domanda e utilizzo di risorse. Consente inoltre di suddividere le informazioni monitorate in sezioni in base a varie dimensioni.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

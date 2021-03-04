@@ -57,3 +57,6 @@ Puoi visualizzare un elenco dei membri del team di progetto e da qui puoi gestir
   
 ### <a name="see-also"></a>Vedi anche  
  [Guida del responsabile di progetto](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

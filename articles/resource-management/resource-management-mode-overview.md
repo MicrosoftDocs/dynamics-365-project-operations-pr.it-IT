@@ -48,3 +48,6 @@ Prenota una risorsa direttamente per un progetto:
 Prenota una risorsa da un requisito di risorsa:
 - [Assegnare risorse prenotabili generiche a un'attività e generare requisiti di risorsa](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
 - [Prenotare risorse denominate da requisiti di risorsa](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

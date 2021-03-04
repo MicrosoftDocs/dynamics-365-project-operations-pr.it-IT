@@ -55,3 +55,6 @@ Dopo avere acquisito un contratto di progetto, dovrai assegnare personale al pro
   
 ### <a name="see-also"></a>Vedi anche  
  [Guida del responsabile di progetto](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -35,3 +35,6 @@ Prima che un lavoratore possa creare e inviare le spese interaziendali, è neces
 
 Prima di poter utilizzare le fasce IVA associate alla persona giuridica concedente (origine) anziché alla persona giuridica richiedente (destinazione) nella nota spese, devi abilitare la funzionalità nell'impostazione IVA di contabilità generale. Quando il parametro **Persona giuridica per registrazione imposte interaziendali** è impostato su **Origine** e **Applica regole di tassazione vendite** è impostato su **No**, viene utilizzata la combinazione fiscale per la persona giuridica concedente. Quando lo stesso parametro è impostato su **Destinazione**, verrà utilizzata la combinazione fiscale per la persona giuridica che prende in prestito la risorsa. Per le persone giuridiche negli Stati Uniti, quando il parametro è impostato su **Origine**, il campo **Contabilità IVA** deve essere configurato anche nella nuova pagina **Gruppi di registrazione contabile**. Il motore di contabilità utilizzerà le informazioni di questo campo per la registrazione contabile relativa alle imposte.   
 Il comportamento è coerente per le righe di spesa registrate con o senza un progetto.  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

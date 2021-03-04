@@ -60,3 +60,6 @@ I valori effettivi delle vendite non fatturate con stato **Limite da non superar
 Se le righe di contratto con più clienti hanno un metodo di fatturazione di tempo e materiale, quando i tempi e le spese vengono approvati, viene creato un valore effettivo di vendita non fatturato per ogni cliente nella voce di contratto in base alla suddivisione in percentuale di fatturazione definita per ciascuno dei clienti. Nella visualizzazione **Backlog di fatturazione tempo e materiale** vengono visualizzati questi dati effettivi delle vendite non fatturate specifici del cliente. Ciascuno di questi record valori effettivi di vendita non fatturati può essere contrassegnato come **Pronto per la fatturazione** separatamente da questa vista.
 
 Un valore effettivo di vendita non fatturata che si trova in una bozza di fattura viene visualizzata in questa visualizzazione con uno stato di fatturazione di **Fattura cliente creata**. Quando la bozza di fattura viene confermata, lo stato di fatturazione in questo record viene aggiornato a **Fattura cliente registrata**. Non aggiornare questo valore di stato utilizzando codice personalizzato. Project Operations non funziona correttamente quando questi valori di stato vengono aggiornati con codice personalizzato.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -429,3 +429,6 @@ L'immissione di una categoria di progetto predefinita negli inserimenti del fogl
 1. L'app tenta di inserire la categoria predefinita dalla risorsa del progetto. Questa categoria predefinita è impostata nei metodi **getCurrentUserResource** e **getDelegatedResourcesForCurrentUser** nella classe **TSTimesheetSettingsService**.
 2. Se la categoria predefinita non viene specificata a livello di risorsa del progetto, l'app tenta di estrarla dall'attività del progetto. Questa categoria predefinita è impostata nel metodo **getActivitiesForProject** nella classe **TSTimesheetProjectService**.
 3. Se la categoria predefinita non viene specificata a livello di attività del progetto, la categoria predefinita viene acquisita dai parametri del progetto. Questa categoria predefinita è impostata nel metodo **getProjectDetailsbyRule** nella classe **TSTimesheetProjectService**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -111,3 +111,6 @@ Quando confermi una fattura correttiva, il valore effettivo delle vendite fattur
 
 - Un valore effettivo delle vendite fatturate per sei ore.
 - Un valore effettivo delle vendite non fatturate per le due ore rimanenti. Questa transazione può essere fatturata successivamente o contrassegnata come non addebitale, a seconda delle negoziazioni con il cliente.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

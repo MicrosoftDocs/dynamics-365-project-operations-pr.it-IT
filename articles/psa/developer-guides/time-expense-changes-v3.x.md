@@ -32,3 +32,6 @@ In Dynamics 365 Project Service Automation versione 3.0, le viste Tempo e spesa 
 In precedenza, le viste calendario e griglia per Tempo e spesa venivano implementate come controlli DHTMLX. Gli elementi correlati all'implementazione delle viste griglia e calendario sono ora obsoleti (deprecati).
 
 Per un elenco completo delle risorse deprecate, vedere [Risorse Web deprecate in Project Service Automation 3.x](web-resources-deprecated-v3.x.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

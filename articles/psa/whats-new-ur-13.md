@@ -59,3 +59,6 @@ Questo argomento elenca le funzionalità e le correzioni nuove o modificate per 
      - Risolto: pulsanti aggiuntivi per **Nuova opportunità**, **Offerta**, **Riga ordine** e **Aggiungi prodotto** sono visibili nei comandi per Opportunità, Offerte, Prodotti ordine e nella griglia secondaria Righe basate su progetto.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

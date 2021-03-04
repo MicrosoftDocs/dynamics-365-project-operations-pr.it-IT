@@ -48,3 +48,6 @@ Le competenze delle risorse vengono valutate mediante modelli del livello di pre
 > ![Valutazioni minime e massime definite](media/Resource-Management-image85.png)
 
 Questi valori di valutazione sono visualizzati nei filtri **Requisiti di risorse**, **Scheda di pianificazione** e **Assistente di pianificazione**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Non sono disponibili listini prezzi di costo predefiniti per alcuna entità in P
 5. Quindi, il sistema esamina la data di validità dei listini prezzi che corrispondono alla data della riga di stima o valore effettivo in entrata. 
 6. Se sono presenti più listini prezzi validi per la data del valore effettivo o della stima in entrata, viene selezionato il listino prezzi creato più di recente.
 7. Se non sono presenti listini prezzi di costo collegati ai parametri del progetto che corrispondono alla valuta e alla data di validità, il sistema imposta la tariffa di costo su zero (0) nella riga di stima o valore effettivo in entrata.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

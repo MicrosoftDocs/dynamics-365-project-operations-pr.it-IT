@@ -200,3 +200,6 @@ Quando visualizzi il tempo a livelli superiori, le celle nella scheda **Riconcil
 Se sono presenti assegnazioni di attività per una risorsa ma nessuna prenotazione, nel modulo **Progetti**, nella scheda **Riconciliazione**, seleziona la prenotazione insufficiente e quindi seleziona **Estendi prenotazione**. Viene visualizzata la finestra di dialogo **Estendi prenotazione** che mostra la prenotazione necessaria per compensare la mancanza della risorsa. La finestra di dialogo mostra inoltre le prenotazioni esistenti della risorsa in tutti i progetti o altre entità pianificabili. Se selezioni **OK** per creare la prenotazione della risorsa, indipendentemente dalla disponibilità di quella risorsa, è possibile che si abbia una sovraprenotazione.
 
 Il responsabile di progetto o il responsabile delle risorse può quindi utilizzare la scheda di pianificazione per gestire situazioni in cui una risorsa è sovraprenotata aldilà della sua capacità.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

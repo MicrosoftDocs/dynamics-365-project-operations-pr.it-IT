@@ -96,3 +96,6 @@ Segui la procedura esposta di seguito per creare una versione personalizzata del
     ```
 
 6. Salva e quindi pubblica le personalizzazioni.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

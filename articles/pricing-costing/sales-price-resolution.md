@@ -54,3 +54,6 @@ Dopo che un listino prezzi per le vendite è stato risolto, il sistema completa 
     | &nbsp; | Ricarico sul costo | Applicando un ricarico come definito dalla riga del prezzo della categoria sulla tariffa di costo unitario del costo effettivo correlato |
 
 4. Se il sistema non è in grado di abbinare i valori dei campi **Categoria** e **Unità** la tariffa di vendita è impostata su zero (0).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

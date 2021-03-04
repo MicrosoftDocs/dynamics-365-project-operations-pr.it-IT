@@ -50,3 +50,6 @@ La tabella seguente elenca tutti i moduli e le visualizzazioni predefiniti, per 
 2. Nella pagina **Parametri**, nella scheda **Dimensioni di determinazione dei prezzi basate su importo**, verifica che la griglia nella scheda mostra i record nell'entità **Dimensioni di determinazione dei prezzi**.
 3. Aggiungi **Categoria di transazione** a questo elenco e imposta i campi **Costo applicabile a** **Vendite applicabili a** su **Sì**.
 4. Nel campo **Tipo di dimensione**, seleziona **Basata su importo** e quindi seleziona la priorità per **Categoria di transazione** relativa a costo e vendite.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

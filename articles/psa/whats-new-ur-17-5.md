@@ -44,3 +44,6 @@ Questo argomento elenca le funzionalità e le correzioni nuove o modificate per 
 - Risolto: il problema relativo all'aggiunta di un ulteriore giorno alle attività con i modelli di ore lavorative a 24 ore è stato risolto.
 - Risolto: il problema dello spostamento in modo impreciso delle attività un giorno prima con i modelli di ore lavorative +13 GMT è stato risolto.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

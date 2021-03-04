@@ -63,3 +63,6 @@ In Project Operations, puoi tenere traccia delle revisioni di un'offerta. Devi i
 
 ## <a name="track-comments-and-approvals-of-quotes-and-project-contracts"></a>Tenere traccia di commenti e approvazioni di offerte e contratti di progetto
 Puoi gestire la revisione e l'approvazione di offerte e contratti di progetto mediante la bacheca record e i post. L'organizzazione può creare plug-in e flussi di lavoro personalizzati per assegnare, reindirizzare, riassegnare e gestire notifiche relative alla revisione e all'approvazione di elementi di lavoro.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

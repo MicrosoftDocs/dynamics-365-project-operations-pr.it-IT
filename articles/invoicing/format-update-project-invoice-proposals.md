@@ -143,3 +143,6 @@ Per visualizzare la fattura prima della registrazione, deseleziona la casella di
 In aggiunta alla pagina **Proposta di fattura**, le proposte di fatturazione possono essere registrate anche eseguendo il processo periodico **Registra proposte di fatturazione**. Per trovare questo processo, vai a **Gestione progetti e contabilità** > **Periodico** > **Fatture di progetto** > **Registra proposte di fatturazione**.
 
 Questa pagina mostra tutte le proposte di fatturazione pronte per la registrazione. Puoi pianificare la registrazione delle proposte di fatturazione selezionando **Batch**. Imposta **Parametro di elaborazione batch** su **Sì** e imposta la ricorrenza dell'elaborazione batch selezionando **Ricorrenza**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

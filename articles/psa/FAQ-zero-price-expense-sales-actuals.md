@@ -72,3 +72,6 @@ Se il prezzo impostato per categoria di spesa non è valido, il problema è stat
 Se non viene ancora visualizzato un prezzo valido per l'effettivo vendita spese dopo aver eseguito i tre controlli descritti precedentemente, crea un ticket di supporto.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -62,3 +62,6 @@ Sono stati risolti i seguenti problemi:
 - Gli elenchi **Prezzo di costo unità organizzativa** consentono sovrapposizioni della data di validità.
 - Gli utenti non sono autorizzati a modificare **OrgUnit** quando il tipo di ordine non è basato sul lavoro perché questa operazione genererà un errore di eccezione di riferimento Null.
 - Quando si tenta di passare dal modulo **Dettagli riga di offerta**, indietro nella scheda **Offerta**, il modulo si aggiorna e visualizza la scheda **Riepilogo**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

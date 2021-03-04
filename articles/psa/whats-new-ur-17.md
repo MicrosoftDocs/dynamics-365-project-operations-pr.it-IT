@@ -57,3 +57,6 @@ Questo argomento elenca le funzionalità e le correzioni nuove o modificate per 
 - Risolto: quando la classe di transazione è **Ora**, **UnitGroup** non è modificabile per tutte le entità, tra cui **QuoteLineDetails**, **JournalLine**, **InvoiceLineDetail** e **ContractLineDetails**. Tuttavia, **Unità** non è editabile solo per **JournalLine** e **InvoiceLineDetails**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

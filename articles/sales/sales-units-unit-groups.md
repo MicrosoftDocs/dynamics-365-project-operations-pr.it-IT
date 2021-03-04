@@ -46,3 +46,6 @@ Per completare i passaggi in questo argomento, assicurati di essere stato assegn
 3. Nel campo **Quantità** immetti la quantità che l'unità conterrà. Ad esempio, se una scatola contiene 2 pezzi, immetti "2". 
 4. Nel campo **Unità base** seleziona un'unità di base per stabilire l'unità di misura più bassa per l'unità. Ad esempio, potresti selezionare "Pezzo".
 5. Seleziona **Salva**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -27,3 +27,6 @@ _**Si applica a:** Project Operations per scenari basati su risorse/materiali no
 Lo stato della richiesta del membro del team generico diventerà **Inviata**.
 
 Dopo che la richiesta viene soddisfatta, la risorsa generica viene sostituita da una risorsa denominata se il responsabile delle risorse soddisfa la richiesta con la prenotazione di una risorsa denominata. In caso contrario, se il responsabile delle risorse propone una risorsa denominata, la risorsa generica rimane nel team e lo stato della richiesta diventerà **Revisione necessaria**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

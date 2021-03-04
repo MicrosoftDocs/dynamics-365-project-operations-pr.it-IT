@@ -55,3 +55,6 @@ Ogni categoria di spesa può avere la propria unità di vendita e unità. Puoi d
   
 ### <a name="see-also"></a>Vedi anche  
  [Configurare Project Service Automation](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

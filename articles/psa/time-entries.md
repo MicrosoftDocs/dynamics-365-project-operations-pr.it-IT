@@ -70,3 +70,6 @@ Puoi importare dati da prenotazioni e assegnazioni di progetto. Quando importi d
 ## <a name="group-by-sort-search-and-filter-capabilities"></a>Raggruppare, ordinare, cercare e filtrare funzionalità
 
 Puoi raggruppare e filtrare gli inserimenti ore in base alle dimensioni specificate nelle colonne. Nel campo **Raggruppa per**, seleziona la dimensione da utilizzare per filtrare gli inserimenti ore. Puoi anche ordinare record di inserimenti ore in ordine crescente o decrescente utilizzando la freccia di ordinamento nelle intestazioni delle colonne. Inoltre, puoi visualizzare o nascondere gli inserimenti selezionando il pulsante **Filtra** nelle intestazioni delle colonne e quindi immettendo, nella casella **Cerca**, il testo che deve essere utilizzato per cercare inserimenti ore per nome di progetto, attività di progetto, inserimento ore o risorsa.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

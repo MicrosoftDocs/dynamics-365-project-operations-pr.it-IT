@@ -98,3 +98,6 @@ Segui le indicazioni nell'argomento [Effettuare il provisioning di un nuovo ambi
 
 Installa i dati di installazione e configurazione CDS come descritto nell'argomento [Impostare e applicare i dati di configurazione in Common Data Service](resource-apply-pro-setup-config-data.md).
 Completa questo passaggio solo dopo che l'ambiente demo Finance è stato distribuito e i dati demo in FO sono pronti.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

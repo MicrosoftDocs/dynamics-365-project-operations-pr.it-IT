@@ -170,3 +170,6 @@ La figura seguente mostra esempi di mapping delle attività del modello in Integ
 [![Mappatura del modello delle transazioni di stima di spesa](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
 
 [![Mappatura del modello delle stime di spesa](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ La tabella seguente elenca gli aggiornamenti di Project Operations in ambiente D
 | Tempistica e spesa | 2034882 | Il pulsante **Nuovo** viene visualizzato due volte sulla barra dei comandi per le voci di tempo quando Dynamics 365 Field Service è installato. |
 | Tempistica e spesa | 2056028 | Aggiornare la pagina **Modifica ora** per includere la sequenza temporale. |
 | Tempistica e spesa | 1983747 | Il grafico di inserimenti ore mostra dati aggiuntivi. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

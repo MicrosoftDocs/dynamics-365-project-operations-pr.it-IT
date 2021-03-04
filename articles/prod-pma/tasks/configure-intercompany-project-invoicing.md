@@ -64,3 +64,6 @@ Questo argomento mostra come configurare la fatturazione del progetto tra due so
 32. Nel campo **Prezzi** , inserisci un numero.
 33. Seleziona **Salva**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

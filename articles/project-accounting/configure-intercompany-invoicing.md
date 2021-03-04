@@ -101,3 +101,6 @@ Nell'esempio seguente, Contoso Robotics USA (USPM) è la persona giuridica richi
           - **Società resourcing** = **Contoso Robotics UK**
           - **Tasso di fatturazione** = **200 USD**
       9. Andare a **Vendite** > **Contratti di progetto** e allegare il listino prezzi **Tariffe per la fatturazione di Adventure Works** al listino prezzi del progetto Adventure Works del contratto di progetto.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

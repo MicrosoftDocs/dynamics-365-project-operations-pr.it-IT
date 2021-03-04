@@ -53,3 +53,6 @@ Prima di eseguire prenotazioni nella scheda di pianificazione, è necessario cre
 Il requisito viene soddisfatto utilizzando la risorsa selezionata. Nel riquadro **Requisiti prenotazione**, nota che il requisito è stato aggiornato e che la risorsa è visualizzata come prenotata nel progetto.
 
 ![Risorsa prenotata nel progetto](media/Resource-Management-image76.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

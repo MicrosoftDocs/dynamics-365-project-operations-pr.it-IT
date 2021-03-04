@@ -50,3 +50,6 @@ Nella tabella seguente sono elencati i tipi di flusso di lavoro che puoi creare 
 |      <strong>Richiesta di anticipo in contanti</strong>      |         Creare flussi di lavoro di approvazione per richieste di anticipo in contanti.          |
 |        <strong>Recupero dell'IVA</strong>        | Creare flussi di lavoro di approvazione per il recupero dell'IVA.  |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

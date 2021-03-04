@@ -105,3 +105,6 @@ Dynamics 365 gestisce automaticamente i rollup di importi in differenti valute. 
 | Spesa           | Vendite non fatturate   | 17-Giu | Alfonso  | Noleggio auto           | 1 ea     | 150 EUR      | 150 EUR     | 0.94          | 159,57 USD     |
 
 Per calcolare il valore totale delle vendite non fatturate del progetto, puoi creare un campo di rollup per il campo **Importo** per tutti i valori effettivi delle vendite non fatturate correlati. Il campo di rollup è un costrutto di Dynamics 365 che consente l'utilizzo di formule rapide nei record correlati.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

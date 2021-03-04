@@ -120,3 +120,6 @@ Come i tassi di fatturazione, anche i tassi di costo per le risorse umane sono c
     1. Il listino prezzi di costo associato all'unità organizzativa.
     2. Il listino prezzi di costo associato ai parametri di Project Operations. Poiché i listini prezzi di costo in molte differenti valute possono essere associati ai parametri, viene completata una corrispondenza di valuta tra la valuta dell'unità organizzativa di contratto del progetto, del contratto o dell'offerta e la valuta del listino prezzi di costo.
     3. Per le spese, i metodi di determinazione dei prezzi Al costo e Ricarico sul costo non sono applicabili ai listini prezzi di costo. Anche se questi metodi di determinazione dei prezzi vengono utilizzati nelle righe dei listini prezzi di costo per configurare i costi delle categorie di transazioni, il sistema li ignora e non viene immesso alcun prezzo di costo predefinito.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

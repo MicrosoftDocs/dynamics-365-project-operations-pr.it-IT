@@ -41,3 +41,6 @@ Le risorse sono il cespite più importante di un'organizzazione di servizi. La p
 - [Prenotare provvisoriamente requisiti](resource-management-softbook-requirements.md)
 - [Competenze e modelli del livello di preparazione](resource-management-skills-proficiency.md)
 - [Domande frequenti sulla gestione delle risorse](resource-management-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

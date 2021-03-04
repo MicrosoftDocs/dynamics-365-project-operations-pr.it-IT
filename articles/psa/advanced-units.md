@@ -112,3 +112,6 @@ N. La stima di pianificazione è attualmente limitata alle ore e non può essere
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>È possibile modificare, eliminare e aggiungere unità e unità di vendita?
 Sì. Con l'eccezione dell'unità di vendita **Tempo** e dell'unità **Ora**, tutte le unità possono essere modificate, eliminate e aggiunte. In PSA, l'unità di vendita **Tempo** e l'unità **Ora** non possono essere eliminate. Tuttavia, possono essere aggiornate con un testo tradotto per il campo **Nome**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

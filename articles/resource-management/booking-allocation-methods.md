@@ -81,3 +81,6 @@ Per riepilogare, i seguenti metodi di allocazione portano all'overbooking se la 
 - Ore distribuzione uniforme
 
 Quando si utilizza uno di questi tre metodi di allocazione, non si riceverà una notifica in caso di overbooking della risorsa. Per correggere l'overbooking, sarà necessario utilizzare la scheda di pianificazione.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

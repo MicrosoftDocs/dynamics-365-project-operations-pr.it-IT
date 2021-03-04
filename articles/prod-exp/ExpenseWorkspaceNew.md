@@ -78,3 +78,6 @@ Le seguenti funzionalità sono presenti nella pagina esistente ma non sono ancor
 - Flusso di lavoro a livello di riga
 - Supporto per approvatori provvisori
 - Classificazione avanzata
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

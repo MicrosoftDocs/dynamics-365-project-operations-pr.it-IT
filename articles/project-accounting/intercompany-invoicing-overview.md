@@ -43,3 +43,6 @@ Il diagramma seguente illustra la fatturazione interaziendale in quanto si rifer
 - [Configurare la fatturazione interaziendale](configure-intercompany-invoicing.md)
 - [Registrare transazioni interaziendali](create-intercompany-transactions.md)
 - [Creare fatture interaziendali per clienti e fornitori](create-intercompany-customer-vendor-invoices.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

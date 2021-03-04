@@ -43,3 +43,6 @@ Di seguito sono riportati i campi del record cliente voce di **contratto** di un
 Le percentuali di suddivisione della fatturazione possono essere modificate nella griglia. Quando le percentuali di suddivisione della fatturazione non raggiungono il 100 percento viene visualizzato un errore. Dopo aver modificato le percentuali di suddivisione della fatturazione, aggiorna la pagina per rimuovere l'errore.
 
 Puoi anche selezionare **Distribuzione uniforme** sulla griglia secondaria dei clienti della voce di contratto. Questa azione assegna in modo uniforme le suddivisioni di fatturazione a tutti i clienti della voce di contratto. Se è presente un fattore di arrotondamento, verrà aggiunto al cliente con arrotondamento. Un cliente della voce di contratto viene sempre contrassegnato come cliente con **arrotondamento** con il contrassegno **Arrotondamento** impostato su **Sì**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

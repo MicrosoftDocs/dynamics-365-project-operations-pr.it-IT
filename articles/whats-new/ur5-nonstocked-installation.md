@@ -125,3 +125,6 @@ I seguenti aggiornamenti ai privilegi di sicurezza per le entità sono richiesti
  
  ![Sincronizzazione dei mapping del libro mastro](media/DW6.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

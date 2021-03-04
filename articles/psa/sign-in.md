@@ -56,3 +56,6 @@ Quando si accede alle app Dynamics 365, è necessario ottenere le seguenti infor
   
 ### <a name="see-also"></a>Vedi anche  
  [Guida per tempo, spese e collaborazione](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

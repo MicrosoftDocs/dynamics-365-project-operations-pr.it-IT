@@ -132,3 +132,6 @@ Dovresti utilizzare convalide di plug-in per qualsiasi convalida che richiede pi
 
 > [!IMPORTANT] 
 > Attualmente, un problema noto nelle pagine TBX impedisce agli utenti di correggere le informazioni e di selezionare di nuovo Fatto quando l'aggiornamento di una convalida di plug-in non riesce. Come soluzione alternativa, imposta convalide di regole di business per evitare questa situazione il più possibile.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

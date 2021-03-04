@@ -43,3 +43,6 @@ Questa distribuzione deve essere scelta per utilizzare Project Operations per l'
 - Richiede un motore di tasso di cambio e IVA a livello aziendale per generare fatture rivolte ai clienti per i progetti.
 - Un sistema di contabilità di progetto e riconoscimento dei ricavi conforme agli International Financial Reporting Standard (IFRS).
 - Applicazioni Finance o Supply Chain Management e integrazione di transazioni basate su progetti.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

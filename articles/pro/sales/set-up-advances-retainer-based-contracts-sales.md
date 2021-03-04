@@ -37,3 +37,6 @@ L'acconto in Project Operations non è disponibile per l'uso fino a quando non v
 | --- | --- | --- |
 | Importo disponibile | L'importo disponibile per essere utilizzato nel record di acconto o anticipo. | Fino a quando l'anticipo o l'acconto non viene fatturato, non è disponibile per essere utilizzato, il che significa che l'importo disponibile è zero. |
 | Importo utilizzato | L'importo già utilizzato nell'acconto o nell'anticipo. | Un anticipo o un acconto può essere parzialmente riconciliato su una fattura con i costi effettivi che hanno una parte contrassegnata come già utilizzata o consumata. Il resto dell'importo dell'anticipo o dell'acconto è disponibile per la riconciliazione su una fattura futura con i costi effettivi. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

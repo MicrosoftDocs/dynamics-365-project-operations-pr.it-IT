@@ -82,3 +82,6 @@ Le risorse assegnate questo modo sono aggiunte al team senza alcuna prenotazione
 
 3. Seleziona la risorsa a cui desideri assegnare l'attività.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

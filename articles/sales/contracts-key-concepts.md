@@ -88,3 +88,6 @@ Le pianificazioni di fatturazione sono specifiche per ogni voce di contratto e s
 ## <a name="changes-from-dynamics-365-sales-orders"></a>Modifiche rispetto agli ordini di Dynamics 365 Sales
 
 I contratti di Project Operations sono basati sugli ordini di Dynamics 365 Sales. Tuttavia, ci sono alcune importanti differenze e scostamenti nella funzionalità. I contratti hanno il proprio modulo ed elementi dell'interfaccia utente, regole di business, logica di business nei plug-in e script lato client che le rendono uniche rispetto agli ordini. Per questi motivi, non utilizzare un ordine di Sales e un contratto di Project Operations in modo intercambiabile.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -101,3 +101,6 @@ Se non si sta visualizzando l'utilizzo addebitabile, di seguito sono elencati al
   - Il ruolo nella voce di contratto di progetto che supporta il progetto è stato impostato come non addebitabile.
   - Il progetto non ha una voce di contratto associata.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

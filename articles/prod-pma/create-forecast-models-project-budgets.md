@@ -57,3 +57,6 @@ Questo argomento descrive come creare un modello di previsione per i budget resi
 
  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

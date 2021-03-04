@@ -37,3 +37,5 @@ In qualità di responsabile di progetto, completa i seguenti passaggi per modifi
 ## <a name="edit-resource-assignment-contours"></a>Modificare i profili di assegnazione delle risorse
 
 Oltre a modificare i dettagli dei requisiti di risorsa, un responsabile di progetto può aggiornare i profili individuali dei requisiti di risorsa utilizzando la funzionalità **Specifica modello** . Quando **Specifica modello** viene selezionato, si apre una pagina ed è possibile visualizzare i profili nella scala temporale del giorno, della settimana o del mese. Ogni profilo può essere modificato per l'ora di inizio, l'ora di fine e il lavoro richiesto totale in un determinato periodo.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

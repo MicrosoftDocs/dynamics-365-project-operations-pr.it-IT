@@ -70,3 +70,6 @@ L'autorizzazione è ora completa.
 La sottoscrizione di Azure è stata connessa in modo corretto. Ora puoi distribuire ambienti ospitati su cloud di Dynamics 365 Finance.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

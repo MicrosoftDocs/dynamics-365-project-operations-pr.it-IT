@@ -135,3 +135,6 @@ Se sono presenti valori effettivi ricevuti dopo la creazione della fattura, è p
 2. Apri la bozza di fattura proforma e, sulla barra multifunzione **Azioni**, fai clic su **Aggiorna transazioni riga fattura**.
 
   In questo modo vengono creati i dettagli della riga di fattura per qualsiasi valore effettivo che è datato e contrassegnato come **Pronto per la fatturazione** ma non è incluso nella fattura.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

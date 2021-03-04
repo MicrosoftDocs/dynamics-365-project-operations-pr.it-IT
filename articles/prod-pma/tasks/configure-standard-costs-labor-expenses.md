@@ -54,3 +54,6 @@ Questo argomento spiega come configurare i costi standard per la manodopera e le
 22. Nel campo **Prezzi** , inserisci un numero. Il prezzo di vendita effettivo, che viene applicato quando un lavoratore immette le transazioni nel giornale di registrazione delle spese, è il prezzo di vendita con il livello di dettaglio più elevato. Ad esempio, se vengono configurati sia un prezzo di vendita generale che un prezzo di vendita specifico del lavoratore, viene utilizzato il prezzo di vendita specifico del lavoratore.  
 23. Seleziona **Salva**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -20,3 +20,6 @@ ms.locfileid: "4514544"
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
 È possibile utilizzare le funzionalità fornite in Dynamics 365 Field Service per definire i ruoli nel tuo ambiente Dynamics 365 Project Operations. Per completare questa configurazione, vedi [Configurare categorie di risorse prenotabili](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resource-categories).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

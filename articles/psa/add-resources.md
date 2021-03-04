@@ -55,3 +55,6 @@ Puoi assegnare risorse alle unità organizzative se devi disporre di diversi cos
   
 ### <a name="see-also"></a>Vedi anche  
  [Configurare le risorse](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

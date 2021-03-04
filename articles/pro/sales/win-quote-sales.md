@@ -40,3 +40,6 @@ Se l'offerta di progetto chiusa come Persa fa riferimento a un progetto in una d
 
 > [!NOTE]
 > In Project Operations, la chiusura di un'offerta come acquisita o persa non influirà sullo stato dell'opportunità, che rimarrà aperta fino a quando non verrà chiusa manualmente.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

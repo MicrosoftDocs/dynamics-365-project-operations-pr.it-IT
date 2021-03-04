@@ -95,3 +95,6 @@ Attualmente sono supportati gli Stati Uniti.
 Finance contatta Cognitive Services per estrarre i dati sul campo. Cognitive Services conserveranno una copia della ricevuta per un massimo di 24 ore durante l'elaborazione. Una volta completata l'elaborazione, Cognitive Services rimuoveranno la ricevuta. Le ricevute sono ancora archiviate in Finance.
 
 Per ulteriori informazioni, vedi [Abilitare la comprensione delle ricevute con la nuova funzionalità di riconoscimento modulo](https://azure.microsoft.com/blog/enable-receipt-understanding-with-form-recognizer-s-new-capability/).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

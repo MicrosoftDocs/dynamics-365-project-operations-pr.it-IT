@@ -87,3 +87,6 @@ Quando si è pronti a modificare una risorsa membro del team prenotata provvisor
 2. Quando la scheda di pianificazione viene aperta, espandere la risorsa per visualizzarne le prenotazioni. La prenotazione sarà contrassegnata come Provvisoria.
 3. Fare clic con il pulsante destro del mouse sulla prenotazione e in Cambia stato scegliere selezionare Prenota definitivamente e quindi Definitiva. Lo stato della prenotazione è ora Definitiva.
 4. Dopo la chiusura della scheda di pianificazione, si noterà che lo stato delle ore della risorsa è passato da Provvisoria a Definitiva nella griglia dei membri del team. A questo punto, è possibile assegnare la risorsa alle attività (purché esista un allineamento tra le ore prenotate definitivamente e le ore risorsa dell'attività per l'assegnazione). Da notare che se è stato eseguito il passaggio 3 sopra, la modifica dello stato della risorsa prenotabile da Provvisoria a Definitiva comporta la rimozione del membro del team generico dal team.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Ogni risorsa prenotabile che lavora su un progetto deve avere un calendario dell
 2. Dalla visualizzazione griglia, seleziona fino a 25 **Risorse prenotabili** per aggiornare.
 3. Seleziona **Imposta calendario** e una finestra di dialogo ti chiederà un elenco di modelli di ore lavorative disponibili.
 4. Seleziona il modello che vuoi utilizzare, quindi seleziona **Applica**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

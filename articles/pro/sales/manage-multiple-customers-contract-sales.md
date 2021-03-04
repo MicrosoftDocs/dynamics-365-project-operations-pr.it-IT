@@ -52,3 +52,6 @@ Il cliente principale non può essere aggiornato dall'elenco dei clienti di cont
 Le percentuali di suddivisione della fatturazione possono essere modificate utilizzando l'esperienza di modifica della griglia in linea. Quando le percentuali di suddivisione della fatturazione non raggiungono il 100 percento, verrà visualizzato un errore. Dopo aver modificato le percentuali di suddivisione della fatturazione, aggiorna la pagina per eliminare l'errore.
 
 Puoi anche selezionare **Distribuisci uniformemente** nella griglia secondaria **Clienti di contratto** per allocare le ripartizioni di fatturazione in modo uniforme a tutti i clienti del contratto. Se è presente un fattore di arrotondamento, verrà aggiunto al cliente con arrotondamento. Uno dei clienti del contratto è sempre contrassegnato come cliente con **arrotondamento** il che significa che il record del cliente del contratto ha il contrassegno di arrotondamento impostato su **Sì**. In genere, questo è il cliente principale del contratto, ma può anche essere modificato.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -60,3 +60,6 @@ In Dynamics 365 Project Operations, i principi di riconoscimento dei ricavi vari
 [Gestire le stime dei ricavi](rev-rec-completed-contract-method.md)
 
 [Metodi Costi di completamento](cost-complete-methods.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

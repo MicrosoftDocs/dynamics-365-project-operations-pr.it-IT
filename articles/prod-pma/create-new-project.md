@@ -104,3 +104,6 @@ Durante la prenotazione delle risorse, i project manager possono filtrare le ris
 
 3. Seleziona **Salva** e quindi chiudi la pagina.
 4. Nella scheda **Competenze** , aggiungi la competenza **ProjectMgmt** e il certificato **PMP**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

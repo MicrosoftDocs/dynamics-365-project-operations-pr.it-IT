@@ -23,3 +23,6 @@ Dynamics 365 Project Operations include la logica di convalida che garantisce la
 
   - Tutte le righe di supporto vengono create nelle tabelle correlate, come giornali di registrazione e valori effettivi.
   - Il responsabile approvazione di progetto è contrassegnato come **Responsabile approvazione di progetto** nel progetto prima di procedere.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

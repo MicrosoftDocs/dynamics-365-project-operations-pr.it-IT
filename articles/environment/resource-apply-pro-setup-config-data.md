@@ -134,3 +134,6 @@ Prima di iniziare a configurare i dati in Common Data Service (CDS), devono esse
 13. Seleziona **Salva**. 
 
 ![Parametri progetto aggiornati](./media/17UpdatedProjectParameters.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

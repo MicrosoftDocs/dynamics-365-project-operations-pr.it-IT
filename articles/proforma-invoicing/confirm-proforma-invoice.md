@@ -198,3 +198,6 @@ Un valore effettivo delle vendite fatturate per l'importo nel passaggio fondamen
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

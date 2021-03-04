@@ -57,3 +57,6 @@ Se non è disponibile alcuna riga nella griglia dei prezzi di ruolo per le dimen
 
 Se non viene ancora visualizzato un prezzo valido per l'effettivo vendita ora dopo aver eseguito i tre controlli descritti precedentemente, creare un ticket di supporto. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

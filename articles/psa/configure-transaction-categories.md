@@ -43,3 +43,6 @@ Imposta le categorie delle transazioni per definire un superset di categorie di 
   
 ### <a name="see-also"></a>Vedi anche  
  [Configurare Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -125,3 +125,6 @@ Prezzo fisso - percentuale di completamento
 Le regole del profilo dei costi e dei ricavi del progetto determinano il profilo dei costi e dei ricavi del progetto che deve essere utilizzato durante l'elaborazione delle transazioni di progetto fatturabili. Definisci le regole andando a **Gestione del progetto e contabilità** \> **Configura** \> **Registrazione** \> **Regole del profilo dei costi e dei ricavi del progetto**.
 
 Le regole possono essere definite dal contratto di progetto, dal gruppo di progetto o da un progetto specifico. Il sistema sceglierà sempre per prima la regola di granularità più alta.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

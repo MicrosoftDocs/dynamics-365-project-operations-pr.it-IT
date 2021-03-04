@@ -65,3 +65,6 @@ Prima di creare le pianificazioni di progetto, devi impostare un calendario di p
   
 ### <a name="see-also"></a>Vedi anche  
  [Configurare le risorse](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

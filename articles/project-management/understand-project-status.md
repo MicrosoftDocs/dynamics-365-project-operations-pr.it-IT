@@ -29,3 +29,6 @@ La sezione **Stato** nella pagina **Entità progetto** fornisce un riepilogo del
 - Il campo **Commenti** consente al responsabile di progetto di immettere specifici commenti sullo stato. 
 - Il campo **Data aggiornamento stato** non è modificabile. Il valore in questo campo è un timestamp che indica quando lo stato è stato aggiornato l'ultima volta.
 - I campi **Prestazioni di pianificazione** e **Prestazioni costo** sono impostati in base alla griglia di tracciabilità. Quando lo scostamento pianificazione e lo scostamento costo per il nodo radice nella vista **Tracciabilità risorse** sono positivi, questi campi vengono impostati su **In anticipo**. Quando lo scostamento pianificazione e lo scostamento costo per il nodo radice sono negativi, questi campi vengono impostati su **In ritardo**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

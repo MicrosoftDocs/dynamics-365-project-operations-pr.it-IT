@@ -52,3 +52,6 @@ Per ulteriori informazioni sulla creazione di report in PSA, vedi i seguenti arg
 - [Utilizzare il modello di dati di Project Service](reports-working-project-service-data-model.md)
 - [Dashboard](reports-dashboards.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

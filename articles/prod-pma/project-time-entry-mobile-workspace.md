@@ -113,3 +113,6 @@ Scarica e installa l'app per dispositivi mobili Finance and Operations:
 11. Seleziona la proprietà della riga.
 12. Facoltativo: immetti eventuali commenti esterni o interni.
 13. Seleziona **Fatto**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

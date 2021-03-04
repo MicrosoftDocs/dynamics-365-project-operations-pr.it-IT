@@ -45,3 +45,6 @@ Per creare fattori di quantità dalle proprietà del prodotto, segui questi pass
 6. Salva e chiude il modulo. Ripeti questi passaggi per tutte le proprietà da utilizzare per calcolare la quantità per la riga dell'offerta basata sul prodotto.
 
 Quando si crea una riga di offerta basata sul prodotto per un prodotto, la quantità della riga di offerta verrà bloccata. La quantità verrà calcolata come prodotto dei valori della proprietà immessi per quella riga dell'offerta.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

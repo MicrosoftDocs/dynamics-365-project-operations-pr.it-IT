@@ -20,3 +20,6 @@ ms.locfileid: "4514543"
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
 È possibile utilizzare le funzionalità fornite in Universal Resource Scheduling per Dynamics 365 Field Service per impostare gli stati di prenotazione per la tua organizzazione. Per informazioni su come completare questa configurazione, vedi [Configurare gli stati di prenotazione](https://docs.microsoft.com/dynamics365/field-service/set-up-booking-statuses).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -94,3 +94,6 @@ L'impostazione della priorità delle dimensioni consente a Project Service di ge
 
 - **Priorità costo**: il valore della priorità costo di una dimensione indica il peso di quella dimensione durante l'allineamento alla configurazione dei prezzi di costo. Il valore di **Priorità costo** deve essere univoco nelle dimensioni **applicabili al costo**.
 - **Priorità vendite**: il valore della priorità vendite di una dimensione indica il peso di quella dimensione durante l'allineamento alla configurazione dei prezzi di vendita o dei tassi di fatturazione. Il valore di **Priorità vendite** deve essere univoco nelle dimensioni **applicabili alle vendite**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

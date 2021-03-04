@@ -106,3 +106,6 @@ Quando espandi la riga per quel record del membro del team, puoi vedere assegnaz
 ### <a name="estimates-grid"></a>Griglia delle stime 
 
 Nella griglia **Stime**, entrambe le assegnazioni per la stessa risorsa hanno un prezzo diverso. Il prezzo dell'assegnazione per la risorsa nell'**Attività A** viene calcolato utilizzando il valore dell'attributo **Ruolo** di **Consulting Lead**. Il prezzo dell'assegnazione per la stessa risorsa nell' **Attività B** viene calcolato utilizzando il valore dell'attributo **Ruolo** di **Tecnico di rete**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -106,3 +106,6 @@ Quando vengono apportati uno o più aggiornamenti alla struttura di suddivisione
   - Sistema Project Operations
   - Sistema di progetto
   - Sistema di doppia scrittura di Project Operations (questo ruolo è richiesto se distribuisci lo scenario basato su risorse/materiali non stoccati di operazioni di progetto).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

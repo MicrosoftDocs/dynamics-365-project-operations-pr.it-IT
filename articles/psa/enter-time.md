@@ -61,3 +61,6 @@ Inserisci le ore almeno ogni settimana (oppure alla frequenza richiesta dai resp
   
 ### <a name="see-also"></a>Vedi anche  
  [Guida per tempo, spese e collaborazione](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

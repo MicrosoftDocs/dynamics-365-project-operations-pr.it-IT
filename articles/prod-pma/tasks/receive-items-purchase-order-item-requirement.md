@@ -56,3 +56,6 @@ Questa attività utilizza il set di dati USSI.
 21. Nel campo **Entrata prodotti** , digita un valore.
 22. Seleziona **OK**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

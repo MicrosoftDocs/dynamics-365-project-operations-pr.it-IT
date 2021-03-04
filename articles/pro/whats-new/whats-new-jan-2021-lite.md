@@ -41,3 +41,6 @@ Questo argomento si applica ai seguenti componenti e versioni di Dynamics 365 Pr
 | **Gestione delle opportunità** | 2040713 | Risolto l'errore di script che si verifica durante la creazione di una fattura da un contratto e Field Service è installato. |
 | **Pianificazione e rilevamento dei progetti** | 2090202 | Regole aziendali contrassegnate che non vengono più utilizzate come **Deprecato**. |
 | **Ore e spesa** | 2091249 | Controlli rafforzati in modo che gli utenti non possano modificare l'attività su un inserimento ore inviato o approvato. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

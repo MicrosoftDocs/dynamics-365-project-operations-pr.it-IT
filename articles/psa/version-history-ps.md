@@ -73,3 +73,6 @@ Per informazioni sugli aggiornamenti di Project Service, vedi i [Piani di rilasc
 >[!Note]
 > - Le date in tutte le aree geografiche eccetto Government Community Cloud (GCC) indicano i tempi del successivo aggiornamento automatico. Le date in GCC indicano la disponibilità della versione; in questo momento non è disponibile alcun aggiornamento automatico per queste aree geografiche.
 > - Per tutte le altre aree geografiche, sebbene la maggior parte degli aggiornamenti debba essere completa nella notte pianificata, gli aggiornamenti che richiedono più tempo potrebbero essere completati durante le ore notturne nel fine settimana indicato nella colonna **Data pianificata**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -69,3 +69,6 @@ Per abilitare il miglioramento delle prestazioni della pianificazione delle riso
 
 > [!NOTE]
 > Verranno distribuiti i dati generali della tabella **ResRollup** in tutte le società nel tuo ambiente, quindi il processo batch deve essere eseguito solo in una persona giuridica. Questo processo batch è necessario per tutte le visualizzazioni **Disponibilità delle risorse**. Se questo processo batch non viene eseguito, i dati **ResRollup** verranno generati istantaneamente, il che può richiedere tempo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

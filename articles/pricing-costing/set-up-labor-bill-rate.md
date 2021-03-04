@@ -55,3 +55,6 @@ Ad esempio, uno sviluppatore delle divisione v di Fabrikam India che lavora a un
     | Developer | Fabrikam US | Fabrikam US - Robotics | $150 |
 
 3. Collega il listino prezzi di vendita, **Tariffe di fatturazione Fabrikam US** al listino prezzi di progetto del contratto di progetto o a un determinato conto.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -89,3 +89,6 @@ I parametri controllano il comportamento generale della gestione delle spese.
 | <strong>Messaggio anticorruzione per autore dell'invio</strong> |                                                                                             Immetti il testo che verrà visualizzato al dipendente durante la creazione di una nuova nota spese. Fai clic sul pulsante <strong>Traduzioni</strong> per inserire un testo specifico per la lingua che verrà mostrato in base alla lingua dell'utente.                                                                                             |
 | <strong>Messaggio anticorruzione per approvatore</strong>  |                                                                                             Immetti il testo che verrà visualizzato al responsabile approvazione durante la creazione di una nuova nota spese. Fai clic sul pulsante <strong>Traduzioni</strong> per inserire un testo specifico per la lingua che verrà mostrato in base alla lingua dell'utente.                                                                                             |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

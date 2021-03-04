@@ -105,3 +105,6 @@ Inserisci le spese almeno ogni settimana (oppure alla frequenza richiesta dai re
  [Panoramica di Project Service](../psa/overview.md)   
  [Guida per tempo, spese e collaborazione](../psa/time-expense-collaboration-guide.md)   
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

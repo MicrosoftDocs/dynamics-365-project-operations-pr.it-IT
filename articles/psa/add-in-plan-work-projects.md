@@ -242,3 +242,6 @@ La tabella seguente illustra come i dati dell'entità Dipendenze attività di pr
 
 ### <a name="additional-resources"></a>Risorse aggiuntive
  [Guida del responsabile di progetto](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

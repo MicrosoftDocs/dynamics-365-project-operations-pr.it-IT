@@ -77,3 +77,6 @@ Puoi creare dati per le dimensioni basate su entità manualmente oppure utilizza
 5. Ripeti i passaggi da 1 a 3 per creare un altro titolo standard, ovvero "Sistemista esperto".
 
 > ![Dati di esempio per l'entità Titolo standard](media/ST-data.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

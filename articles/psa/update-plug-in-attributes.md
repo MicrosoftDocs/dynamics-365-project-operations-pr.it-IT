@@ -68,3 +68,6 @@ La procedura seguente consente di eseguire la registrazione dei plug-in.
 
 9. Chiudi lo strumento per la registrazione di plug-in.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

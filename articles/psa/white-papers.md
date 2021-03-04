@@ -45,3 +45,6 @@ Questi white paper forniscono informazioni approfondite per [!INCLUDE[pn_crm_sho
 
 ### <a name="see-also"></a>Vedi anche
  [Panoramica di Project Service](../psa/overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

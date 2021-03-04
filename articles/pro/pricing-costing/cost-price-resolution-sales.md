@@ -36,3 +36,6 @@ Dopo che un listino prezzi di costo è stato risolto, i campo **Ruolo** e **Unit
 Le righe di stima per spesa si riferiscono ai dettagli della riga di offerta e contratto per le righe di stima di spesa e spese di un progetto.
 
 Dopo che un listino prezzi di costo è stato risolto, il sistema utilizza una combinazione dei campi **Categoria** e **Unità** nella riga della stima delle spese da confrontare con le righe **Prezzo di categoria** del listino prezzi risolto. Se il sistema trova una riga di prezzo di categoria con una tariffa di costo per la combinazione di campi **Categoria** e **Unità**, questa riga è la tariffa di costo predefinita. Se il sistema non può abbinare i valori **Categoria** e **Unità** o se è in grado di trovare una riga di prezzo della categoria corrispondente ma il metodo di determinazione del prezzo non è **Prezzo per unità**, il tasso di costo predefinito è zero (0).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

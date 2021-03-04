@@ -273,3 +273,6 @@ Un valore effettivo delle vendite fatturate per la riga di prodotto con la quant
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

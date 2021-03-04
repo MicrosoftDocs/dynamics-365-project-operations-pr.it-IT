@@ -56,3 +56,6 @@ Un'offerta esistente può essere collegata a un'opportunità. Completa i seguent
    Quando si sposta un'opportunità in questa fase, è possibile selezionare questa offerta da un elenco di offerte associate a questa opportunità. La selezione di questa offerta indica che stai andando avanti con essa.
 
    Tutte le altre offerte associate all'Opportunità saranno comunque disponibili e attive fino a quando una di esse non sarà acquisita. Puoi riportare il processo di vendita alla fase precedente **Qualifica** e scegliere un'altra offerta con cui andare avanti.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

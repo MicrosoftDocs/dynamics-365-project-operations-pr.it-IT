@@ -41,3 +41,6 @@ ms.locfileid: "5149728"
 Lo stato della richiesta del membro del team generico diventerà **Inviata**.
 
 Dopo che la richiesta viene soddisfatta dal responsabile delle risorse, la risorsa generica verrà sostituita da una risorsa denominata se il responsabile delle risorse soddisfa la richiesta con la prenotazione di una risorsa denominata. In caso contrario, la risorsa generica rimarrà nel team e lo stato della richiesta diventerà **Revisione necessaria**, se il responsabile delle risorse ha proposto una risorsa denominata.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

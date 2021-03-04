@@ -67,3 +67,6 @@ Dopo aver impostato i listini prezzi di progetto predefiniti dell'organizzazione
 
 1. In **Offerta di progetto**, nella scheda **Listino prezzi di progetto**, verifica nella griglia secondaria che non sia selezionato alcun record di listino prezzi specifico.
 2. Seleziona **Crea determinazione dei prezzi personalizzata**. Questo effettua delle copie di tutti i listini prezzi standard attualmente associati all'offerta e associa queste copie all'offerta. Le associazioni esistenti ai listini prezzi standard verranno rimosse. Il venditore può quindi iniziare a modificare i prezzi su queste copie. Questi prezzi modificati saranno applicabili solo a questa offerta di progetto.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

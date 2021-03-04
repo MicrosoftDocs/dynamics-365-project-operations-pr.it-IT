@@ -82,3 +82,6 @@ Le proprietà **N. di utenti** e **N. di mesi** possono essere contrassegnate co
 
 > ![Contrassegnare N. di utenti e N. di mesi come fattori di qualità](media/basic-guide-11.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

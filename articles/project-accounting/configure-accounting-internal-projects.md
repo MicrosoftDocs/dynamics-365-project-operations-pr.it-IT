@@ -32,3 +32,6 @@ Qualsiasi progetto non associato a un contratto in Dynamics 365 Project Operatio
 Dopo che le transazioni sono state registrate nel progetto, se il progetto è associato a un contratto di progetto, il sistema annulla tutte le transazioni accumulate e crea nuove transazioni fatturabili. Le transazioni fatturabili seguono le regole contabili definite nel rispettivo profilo di costi e ricavi del progetto.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -67,3 +67,6 @@ Quando si è pronti a modificare una risorsa membro del team prenotata provvisor
 2. Fare clic con il pulsante destro del mouse sulla prenotazione e in **Cambia stato** selezionare **Prenota definitivamente** \> **Definitiva**. Lo stato della prenotazione è ora **Definitiva**.
 3. Dopo la chiusura della scheda di pianificazione, ritornare al progetto e aprire la scheda **Team**, si noterà che le ore della risorsa sono passate dalla colonna **Ore prenotate provvisoriamente** alla colonna **Ore prenotate definitivamente** nella scheda **Team** della vista **Membri del team con nome**. Se la risorsa è stata assegnata alle attività, non mostrerà più un disavanzo di prenotazione nella scheda **Riconciliazione** in quanto le relative prenotazioni ora sono definitive.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

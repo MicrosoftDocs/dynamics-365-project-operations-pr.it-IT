@@ -43,3 +43,6 @@ Per fare una copia del listino prezzi, completa i seguenti passaggi.
 1. Nelle schede **Ruolo**, **Categoria** e **Voce di listino** di un listino prezzi, è possibile selezionare **Aggiorna prezzi** per applicare un ricarico su tutti i prezzi nella griglia secondaria. 
 2. Nella pagina di dialogo che si apre, inserisci un ricarico. Puoi anche inserire una percentuale di aumento negativa per diminuire i prezzi di una determinata percentuale. 
 3. Seleziona **OK** nella pagina di dialogo e quindi verifica che i prezzi nella griglia secondaria riflettano le modifiche apportate.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

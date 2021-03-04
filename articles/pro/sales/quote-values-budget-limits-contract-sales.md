@@ -41,3 +41,6 @@ Di seguito sono riportate le schede e gli indicatori KPI disponibili in un'offer
 | Analisi della redditività | Scheda sull'offerta | La scheda mostra le metriche seguenti:</br>- Costo addebitabile totale</br></br>- Costo non addebitabile totale</br>- Ricavi totali</br>- Ricavi totali (base)</br>- Margine lordo</br>- Margine lordo rettificato|
 | Confronto con aspettative cliente | Scheda sull'offerta | Questa scheda mostra le metriche seguenti:</br>- Completamento stimato</br>- Completamento richiesto</br>- Budget cliente</br>- Valore offerto |
 | Analisi offerta | Scheda sull'offerta | Questa scheda riepiloga i seguenti KPI principali per un'offerta di progetto</br>- Confronto con le aspettative dei clienti per budget e pianificazione</br>- Margine lordo</br>- Margine lordo rettificato |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

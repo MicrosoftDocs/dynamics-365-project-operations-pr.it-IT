@@ -98,3 +98,6 @@ Determina il miglior modello di distribuzione di Project Operations utilizzando 
 
 Per questa distribuzione, vedi [Iscriversi per gli abbonamenti in anteprima](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/finance/toc.json) e [Eseguire il provisioning di un nuovo ambiente](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment?toc=/dynamics365/finance/toc.json). 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Quando selezioni **OK** nella pagina della finestra di dialogo, il sistema crea 
 > - Riferimento del progetto nelle righe di offerta basate sul progetto - Informazioni sul budget del cliente
 >
 >Poiché queste informazioni sono molto specifiche per ogni offerta, questi campi e record non vengono copiati. Le righe di offerta per progetti e prodotti, le stime sui dettagli delle righe di offerta e i valori da non superare a livello di offerta vengono copiati. I valori predefiniti di prezzo e tasso di costo dipendono dall'opzione **Copia prezzi** selezionata nella pagina della finestra di dialogo **Copia parametri**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

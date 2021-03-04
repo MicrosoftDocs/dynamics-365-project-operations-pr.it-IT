@@ -61,3 +61,6 @@ Quando un team di progetto viene copiato dal progetto di origine, vengono copiat
 Quando il progetto viene copiato, le righe di stima delle risorse e delle spese vengono copiate dal progetto di origine. 
 
 Per informazioni su come accedere a livello di codice a Copia progetto, vedi [Sviluppare modelli di progetto con Copia progetto](dev-copy-project.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

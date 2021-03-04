@@ -35,3 +35,6 @@ Le risorse sono il cespite più importante di un'organizzazione di servizi. La c
 
 
 Puoi assegnare a un progetto un team di risorse generiche o denominate in Project Operations. Puoi utilizzare vari metodi per aggiungere e assegnare membri del team e per gestire le relative prenotazioni e assegnazioni. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

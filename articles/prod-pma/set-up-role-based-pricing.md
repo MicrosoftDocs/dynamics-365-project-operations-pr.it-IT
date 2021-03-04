@@ -34,3 +34,6 @@ Tutti i costi, le vendite e i prezzi di trasferimento possono essere configurati
 1. Nella pagina **Prezzo di vendita (ora)** , seleziona **Nuovo** e inserisci una data di validità.
 2. Nella colonna **Ruolo** seleziona un ruolo.
 3. Nella colonna **Prezzi** , inserisci un prezzo per il ruolo risorsa selezionato.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

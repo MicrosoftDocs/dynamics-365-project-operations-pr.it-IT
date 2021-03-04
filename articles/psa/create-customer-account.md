@@ -47,3 +47,6 @@ Crea un account per ogni client che stai utilizzando, sia se stai citando un pro
   
 ### <a name="see-also"></a>Vedi anche  
  [Guida per la gestione dell'account](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

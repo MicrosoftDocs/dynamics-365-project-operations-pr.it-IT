@@ -33,3 +33,6 @@ Dalla griglia **Membro del team**, un responsabile di progetto può evidenziare 
 ## <a name="schedule-board"></a>Scheda di pianificazione
 
 Dalla **Scheda di pianificazione**, il Resource Manager ha una visualizzazione del portfolio di tutte le prenotazioni di un'organizzazione. Da questa visualizzazione, il Resource manager può estendere, accorciare o spostare le prenotazioni esistenti in modo simile alle funzionalità offerte in **Gestisci prenotazioni**. Il Resource manager può anche sostituire le risorse esistenti assegnate a una prenotazione specifica facendo clic con il pulsante destro del mouse sulla prenotazione e selezionando **Sostituisci risorsa**. I Resource manager possono anche modificare i profili delle prenotazioni esistenti facendo clic con il pulsante destro del mouse sulla prenotazione e selezionando **Modifica**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

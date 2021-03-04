@@ -51,3 +51,6 @@ Ogni persona giuridica che utilizza Project Operations in Dynamics 365 Customer 
   - **Tipo di fatturazione predefinito**: Project Operations utilizza un set fisso di valori predefiniti per il tipo di fatturazione che devono essere associati alle proprietà della riga Finance. Crea un record per ogni tipo di fatturazione: **Non specificato**, **Addebitabile**, **Non addebitabile**, **Gratuito** e **Non disponibile**.
   - **Impostazioni predefinite della categoria di progetto**: seleziona le categorie di progetto predefinite da utilizzare per ogni tipo di transazione. Queste impostazioni predefinite verranno utilizzate nel **giornale dell'integrazione di Project Operations** e nelle stime in cui non è specificata alcuna categoria di transazione per il valore effettivo del progetto.
   - **Previsioni**: seleziona il modello previsionale da utilizzare per le stime di tempi e costi.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

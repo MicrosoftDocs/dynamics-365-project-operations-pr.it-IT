@@ -68,3 +68,6 @@ La **vista Riconciliazione** che consente al responsabile di progetto di visuali
 > [!NOTE]
 > Se si sposta un'attività a cui si sono assegnati personalmente dei profili, questi profili non vengono gestiti. I profili vengono rigenerati in base al calendario del progetto per includere le modifiche alle ore lavorative e alle festività. Questo comportamento è predefinito in quanto il sistema non conosce l'intenzione del profilo originale e non può determinare se è logico mantenerlo in un nuovo periodo di tempo. Poiché prenotazioni e attività non sono associate, le prenotazioni mantengono i profili di prenotazione originali. In tal caso, sarà necessario annullare e prenotare di nuovo il nuovo profilo di assegnazione.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

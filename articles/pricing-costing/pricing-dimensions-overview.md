@@ -71,3 +71,6 @@ L'esempio seguente presenta tassi di fatturazione configurati in base al ruolo e
 | ----------------|-------------|----------|----------:|----------|
 | Mia società_Fascia1 | Contoso US  |Hour | 145|USD     |
 | Mia società_Fascia2 | Contoso India |Hour|   67|USD     |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

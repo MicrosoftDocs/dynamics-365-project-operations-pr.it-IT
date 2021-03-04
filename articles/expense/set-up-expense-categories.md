@@ -61,3 +61,6 @@ Prima di poter iniziare il processo di configurazione, è necessario prendere le
 
     - Alcune delle sottocategorie sono escluse dal recupero IVA?
     - Qual è la fascia IVA articoli delle sottocategorie?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

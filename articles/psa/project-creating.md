@@ -149,3 +149,6 @@ Per impostazione predefinita, se un'attività del nodo foglia è priva di predec
 ### <a name="manual-scheduling"></a>Pianificazione manuale
 
 Se le regole di pianificazione automatica non soddisfano i requisiti, puoi impostare la modalità di attività per l'attività su **Pianificata manualmente**. Questa impostazione interrompe il calcolo dei valori di altri attributi di pianificazione da parte del motore di pianificazione. Indipendentemente dalla modalità di attività, l'impostazione di predecessori per le attività influenza sempre la data di inizio dell'attività dipendente.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

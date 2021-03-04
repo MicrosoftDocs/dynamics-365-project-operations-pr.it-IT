@@ -55,3 +55,6 @@ Sono stati risolti i seguenti problemi:
 - Viene generata un'eccezione di riferimento null quando il plug-in **GetEstimatesForProject** viene richiamato.
 - **Contrassegna come pronto per la fatturazione** sulla griglia passaggi fondamentali aggiorna solo parzialmente gli attributi, ad eccezione dell'attributo **InvoiceStatus** che viene aggiornato.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

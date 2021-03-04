@@ -47,3 +47,6 @@ Puoi creare, aggiornare o eliminare un cliente di contratto dalla scheda **Clien
 Puio modificare le percentuali di suddivisione della fatturazione modificandole nella griglia. Quando le percentuali di suddivisione della fatturazione non raggiungono il 100 percento viene visualizzato un errore. Dopo aver modificato una percentuale di suddivisione della fatturazione, aggiorna la pagina **Contratto di progetto** per rimuovere l'errore.
 
 Puoi anche selezionare **Distribuzione uniforme** sulla griglia secondaria dei clienti del contratto di progetto. Le suddivisioni di fatturazione vengono allocate uniformemente a tutti i clienti nel contratto di progetto. Se è presente un fattore di arrotondamento, il fattore verrà aggiunto al cliente con arrotondamento. Uno dei clienti di contratto ha sempre il flag **Arrotondamento** impostato su **Sì**. Quel cliente è il cliente con costi di arrotondamento. In genere, il cliente con costi di arrotondamento è anche il cliente principale del contratto, ma non è necessario.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -96,3 +96,6 @@ Fai clic su **Invia** per inviare il foglio presenze al flusso di lavoro di appr
 ## <a name="review-timesheets"></a>Rivedere i fogli presenze
 
 Nel menu è disponibile un elenco dei fogli presenze che devono essere rivisti. Questa opzione è disponibile solo se sei stato designato come approvatore del flusso di lavoro. Sono supportate sia l'intestazione che l'approvazione della riga. L'approvazione a livello di riga offre la possibilità di contrassegnare una o più righe per l'approvazione. Dopo aver esaminato le informazioni sulla scheda attività, fai clic su **Approva** , **Delega** o **Restituisci** per continuare il flusso di lavoro.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

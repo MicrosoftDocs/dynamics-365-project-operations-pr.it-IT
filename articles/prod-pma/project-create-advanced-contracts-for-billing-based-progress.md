@@ -103,3 +103,6 @@ Le categorie di budget vengono usate per calcolare automaticamente gli importi d
 8. Facoltativo: assegna la regola di fatturazione a progetti aggiuntivi. Nella scheda dettaglio **Progetto** nella sezione **Progetti disponibili** , seleziona un progetto, quindi seleziona il pulsante freccia destra per aggiungere il progetto alla sezione **Progetti selezionati**.
 9. Facoltativo: calcola l'importo percentuale che il cliente trattiene dai pagamenti su una fattura. Nella scheda dettaglio **Condizioni di trattenimento dei pagamenti** seleziona la fonte di finanziamento, quindi nel campo **Percentuale di trattenimento** inserisci la percentuale di trattenimento.
 10. Ripetere questi passaggi per creare regole di fatturazione aggiuntive per il contratto di progetto.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

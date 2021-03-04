@@ -83,3 +83,6 @@ Se devi utilizzare Power Query, segui queste linee guida:
 La figura seguente mostra un esempio dei mapping delle attività del modello in Integrazione dati. Il mapping mostra le informazioni sui campi che verranno sincronizzate da Project Service Automation a Finance.
 
 [![Mapping dei modelli](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -149,3 +149,6 @@ Nella tabella seguente sono riportati i record dell'entità Origine transazione 
 | Correzione bozza della fattura       | GUID della transazione riga fattura | Sostituzione          | msdyn_invoicelinetransaction | GUID delle vendite fatturate            | Originale           | msdyn_actual       |
 | Conferma correzione fattura     | GUID dello storno vendite fatturate    | Storno          | msdyn_actual                 | GUID delle vendite fatturate            | Originale           | msdyn_actual       |
 | Nuovo GUID del valore effettivo vendite non fatturate | Sostituzione                     | msdyn_actual       | GUID delle vendite fatturate            | Originale                     | msdyn_actual       |                    |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

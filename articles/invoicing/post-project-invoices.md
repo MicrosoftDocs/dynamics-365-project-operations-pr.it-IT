@@ -30,3 +30,6 @@ Il responsabile di progetto può rivedere le transazioni di vendita non fatturat
 Puoi [creare manualmente una fattura proforma](../proforma-invoicing/create-manual-proforma-invoice.md) o usare un [processo periodico](../proforma-invoicing/configure-automated-invoice-creation.md). Il responsabile di progetto può [modificare una bozza di fattura proforma](../proforma-invoicing/manage-proforma-invoice.md) secondo necessità e quindi confermarla.
 
 La fattura proforma confermata viene inviata al modulo **Gestione progetti e contabilità** in Finance. Il contabile di progetto formatta e aggiorna la proposta di fattura del progetto, quindi registra e stampa il documento. Le fatture di progetto registrate vengono registrate nella contabilità generale, nonché nei registri secondari del cliente e del progetto.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

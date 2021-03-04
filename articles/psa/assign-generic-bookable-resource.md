@@ -59,3 +59,6 @@ Puoi anche fare clic sul collegamento **Requisito di risorsa** nella griglia del
 
 ![Requisito di risorsa](media/RM-how-to-13.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

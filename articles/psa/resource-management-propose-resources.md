@@ -113,3 +113,6 @@ Poiché Dynamics 365 Project Service Automation utilizza il motore Universal Res
 Per visualizzare ulteriori dettagli su una singola risorsa, fai clic con il pulsante destro del mouse sulla stessa per aprire la scheda della risorsa.
 
 ![Scheda della risorsa](media/Resource-Management-image71.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

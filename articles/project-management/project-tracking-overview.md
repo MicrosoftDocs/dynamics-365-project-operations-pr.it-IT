@@ -80,3 +80,6 @@ La tracciabilità dei dati nelle viste **Tracciabilità risorse** e **Tracciabil
 Il campo **Stato di progetto generale** è un campo modificabile che mostra lo stato globale del progetto. Utilizza la codifica con colori, come verde, giallo e rosso, per indicare il rischio crescente. Il campo **Commenti** consente al responsabile di progetto di immettere specifici commenti sullo stato. Il campo **Data aggiornamento stato** non è modificabile e il valore è un timestamp che indica quando lo stato è stato aggiornato per l'ultima volta.
 
 I campi **Prestazioni di pianificazione** e **Prestazioni costo** sono impostati in base alla data di tracciabilità. Quando lo scostamento pianificazione e lo scostamento costo per il nodo radice nella vista **Tracciabilità risorse** sono positivi, puoi impostare questi campi su **In anticipo**. Quando lo scostamento pianificazione e lo scostamento costo per il nodo principale sono negativi, puoi impostarli su **In ritardo**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

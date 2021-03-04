@@ -116,3 +116,6 @@ Selezionare **Prenota** per la risorsa generica e utilizzare la scheda di pianif
 Quando la risorsa generica viene soddisfatta con una risorsa denominata, la risorsa generica viene rimossa dal team e le assegnazioni delle attività per la risorsa generica sono assegnate alla risorsa denominata che ha soddisfatto il requisito di risorsa della risorsa generica.
  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

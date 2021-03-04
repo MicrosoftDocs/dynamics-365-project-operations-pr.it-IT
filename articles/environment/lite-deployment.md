@@ -44,3 +44,6 @@ Project Operations supporta più modelli di distribuzione. Per determinare il mi
 2. Installa **Microsoft Dynamics 365 Project Operations** dall'elenco di distribuzione delle app Dynamics 365. Per ulteriori informazioni, vedi [Gestire le app Dynamics 365](https://docs.microsoft.com/power-platform/admin/manage-apps).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

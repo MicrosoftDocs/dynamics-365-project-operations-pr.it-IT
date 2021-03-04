@@ -20,3 +20,6 @@ ms.locfileid: "4514542"
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
 Puoi usare Dynamics 365 Field Service per creare risorse prenotabili da utilizzare nel tuo ambiente Dynamics 365 Project Operations. Per creare queste risorse, vedi [Configurare risorse prenotabili](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resources).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
