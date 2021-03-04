@@ -1,21 +1,38 @@
 ---
 title: Novità o modifiche nella versione di aggiornamento 26 di Project Service Automation V3
-ms.openlocfilehash: 849e7288ee91d3e9360c0b03f6b8b37ff29338e7
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+description: Questo argomento elenca le funzionalità e le correzioni disponibili nella versione di aggiornamento 26 di Project Service Automation V3.
+author: ruhercul
+manager: kfend
+ms.service: project-operations
+ms.custom: dyn365-projectservice
+ms.date: 01/12/2021
+ms.topic: article
+ms.author: ruhercul
+audience: Admin
+search.audienceType:
+- admin
+- customizer
+- enduser
+search.app:
+- D365CE
+- D365PS
+- ProjectOperations
+ms.openlocfilehash: 14fcccf5804e5da0926dbc69bdfa040229a7f068
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4643268"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5143563"
 ---
-<a name="project-service-automation-update-release-26-v3"></a>Versione di aggiornamento di Project Service Automation 26, V3
-================================================
+# <a name="project-service-automation-update-release-26-v3"></a>Versione di aggiornamento di Project Service Automation 26, V3
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Siamo lieti di annunciare l'ultimo aggiornamento per l'applicazione Project Service Automation per Dynamics 365. Questa versione include alcuni importanti miglioramenti in termini di qualità, prestazioni e usabilità. Questa versione è compatibile con Dynamics 365 9.x. Per eseguire l'aggiornamento a questa versione, visita l'interfaccia di amministrazione di Dynamics 365 online e vai alla pagina delle soluzioni per installare l'aggiornamento. Per ulteriori informazioni, vedere [Installare, aggiornare o rimuovere una soluzione preferita](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
 
 Questo argomento elenca le funzionalità e le correzioni nuove o modificate per l'aggiornamento rilascio 26 di Project Service Automation V3. Questa versione ha un numero di build di V3.10.44.59 ed è generalmente disponibile tramite un aggiornamento automatico a dicembre 2020.
 
-<a name="update-release-26"></a>Rilascio 26 dell'aggiornamento
------------------
+## <a name="update-release-26"></a>Rilascio 26 dell'aggiornamento
 
 ### <a name="bug-fixes"></a>Correzioni di bug
 
@@ -23,52 +40,37 @@ Questo argomento elenca le funzionalità e le correzioni nuove o modificate per 
 
 Sono stati risolti i seguenti problemi:
 
--   Gli utenti possono modificare l'attività su una voce di tempo che è stata approvata/inviata.
-
--   Errore "Riferimento oggetto non impostato" durante il salvataggio dell'immissione dell'ora.
-
--   L'importazione dell'inserimento ore dalle assegnazioni di risorse crea voci di ora con i valori DateTime non corretti.
-
--   Quando sono installate le app Project Service Automation e Field Service, il pulsante **Nuovo** viene visualizzato due volte sulla barra dei comandi per le voci di tempo nell'app Field Service.
-
--   Gli aggiornamenti alle celle **Consenti unità** e **Gruppo unità** ora funzionano nella griglia **Stime di spesa**.
-
--   Il modulo **Aggiorna modifica inserimento orario** include la **Sequenza temporale**.
-
--   L'approvazione del tempo per voci di orario non di progetto blocca il sistema durante la ricerca di un ruolo di approvazione del progetto.
+- Gli utenti possono modificare l'attività su una voce di tempo che è stata approvata/inviata.
+- Errore "Riferimento oggetto non impostato" durante il salvataggio dell'immissione dell'ora.
+- L'importazione dell'inserimento ore dalle assegnazioni di risorse crea voci di ora con i valori DateTime non corretti.
+- Quando sono installate le app Project Service Automation e Field Service, il pulsante **Nuovo** viene visualizzato due volte sulla barra dei comandi per le voci di tempo nell'app Field Service.
+- Gli aggiornamenti alle celle **Consenti unità** e **Gruppo unità** ora funzionano nella griglia **Stime di spesa**.
+- Il modulo **Aggiorna modifica inserimento orario** include la **Sequenza temporale**.
+- L'approvazione del tempo per voci di orario non di progetto blocca il sistema durante la ricerca di un ruolo di approvazione del progetto.
 
 **Gestione risorse**
 
 Sono stati risolti i seguenti problemi:
 
--   Aggiunta convalida nel plugin **PostProjectCreate** per verificare un requisito principale prima di crearne uno.
-
--   Il modulo di creazione rapida **Membro del team di progetto** genera un'eccezione di riferimento null se i campi vengono rimossi dal modulo.
-
--   La generazione di requisiti per 12 ore su 1 anno non funzionerà.
-
--   Migliorata l'eccezione di riferimento null del messaggio di errore durante la creazione del requisito della risorsa.
+- Aggiunta convalida nel plugin **PostProjectCreate** per verificare un requisito principale prima di crearne uno.
+- Il modulo di creazione rapida **Membro del team di progetto** genera un'eccezione di riferimento null se i campi vengono rimossi dal modulo.
+- La generazione di requisiti per 12 ore su 1 anno non funzionerà.
+- Migliorata l'eccezione di riferimento null del messaggio di errore durante la creazione del requisito della risorsa.
 
 **Gestione progetti**
 
 Sono stati risolti i seguenti problemi:
 
--   Convalida migliorata per affrontare l'eccezione di riferimento null generata nelplugin **PreProjectUpdate**.
-
--   I progetti pubblicati dal componente aggiuntivo desktop di Microsoft Project eliminano le assegnazioni non assegnate.
-
--   Aggiunta una nuova convalida quando il riferimento al progetto di un'attività non è valido a causa di un'eccezione di riferimento null nel plugin **PreValidateProjectTaskUpdate**.
-
--   La griglia dei membri del team non mostra assegnazioni distinte nel record del membro del team.
-
--   Aggiunta nuova convalida e messaggi di errore a causa di un'eccezione di riferimento null nel plugin **PreProjectTaskDelete**.
+- Convalida migliorata per affrontare l'eccezione di riferimento null generata nelplugin **PreProjectUpdate**.
+- I progetti pubblicati dal componente aggiuntivo desktop di Microsoft Project eliminano le assegnazioni non assegnate.
+- Aggiunta una nuova convalida quando il riferimento al progetto di un'attività non è valido a causa di un'eccezione di riferimento null nel plugin **PreValidateProjectTaskUpdate**.
+- La griglia dei membri del team non mostra assegnazioni distinte nel record del membro del team.
+- Aggiunta nuova convalida e messaggi di errore a causa di un'eccezione di riferimento null nel plugin **PreProjectTaskDelete**.
 
 **Sales**
 
 Sono stati risolti i seguenti problemi:
 
--   Quando si seleziona una riga basata su progetto nel preventivo o contratto, il pulsante **Suggerimento** dovrebbe essere visibile solo quando si seleziona una linea basata sul prodotto associata a un prodotto esistente.
-
--   Suddividi il privilegio **Create_Product** dal privilegio **Create_ProjectContract**.
-
--   L'eliminazione di una riga della fattura causa l'errore di riferimento null su **MarkReadyToInvoiceForProductContractLineAfterDeletingInvoice**.
+- Quando si seleziona una riga basata su progetto nel preventivo o contratto, il pulsante **Suggerimento** dovrebbe essere visibile solo quando si seleziona una linea basata sul prodotto associata a un prodotto esistente.
+- Suddividi il privilegio **Create_Product** dal privilegio **Create_ProjectContract**.
+- L'eliminazione di una riga della fattura causa l'errore di riferimento null su **MarkReadyToInvoiceForProductContractLineAfterDeletingInvoice**.

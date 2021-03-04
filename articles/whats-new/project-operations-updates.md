@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: acafb97b2bb20deaf12db12cd9238cf5ad0817a9
-ms.sourcegitcommit: 87dd3b9bb23384e4d0c3208f0341a3de295eefc8
+ms.openlocfilehash: b90de169bd9ed2c408f1fded20a6fe95f55ce230
+ms.sourcegitcommit: 625b5244aaadff5a24a79d9addff91f87c6b015a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "4689415"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "5141212"
 ---
 # <a name="project-operations-updates"></a>Aggiornamenti di Project Operations
 
@@ -26,36 +26,40 @@ _**Si applica a:** Project Operations per scenari basati su risorse/non stoccate
 
 Dynamics 365 Project Operations è costituito da due componenti:
 
-- Project Operations in ambiente Common Data Service (CDS) include capacità e processi dall'opportunità alla fatturazione proforma. CDS viene utilizzato nella distribuzione semplice e nella distribuzione di scenari di risorse/non stoccate di Project Operations.
+- Project Operations in ambiente Dataverse include capacità e processi dall'opportunità alla fatturazione proforma. Dataverse viene utilizzato nella distribuzione semplice e nella distribuzione di scenari di risorse/non stoccate di Project Operations.
 - Gestione progetti e contabilità in ambiente Dynamics 365 Finance include capacità di gestione delle spese, contabilità del progetto e riconoscimento dei ricavi. L'ambiente dell'app Finance and Operations viene usato in Project Operations per scenari basati su risorse/non stoccate e Project Operations per scenari di materiali stoccati basati sulla produzione.
 
 ## <a name="project-operations-latest-version"></a>Ultima versione di Project Operations
 
-| Project Operations in ambiente CDS | Gestione progetti e contabilità in ambienti di app Finance and Operations |
+| Project Operations in ambiente Dataverse | Gestione progetti e contabilità in ambienti di app Finance and Operations |
 | --- | --- |
-| 4.5.0.134 | 10.0.15 |
+| 4.7.0.95 | 10.0.16 |
 
-Dicembre 2020: note sulla versione di Project Operations per [risorse/materiali non stoccati](whats-new-dec-2020-resource-based.md).
+Note sulla versione di Project Operations di gennaio 2021 per [risorse/materiali non stoccati](whats-new-feb-2021-resource-based.md), [distribuzione semplice](../pro/whats-new/whats-new-feb-2021-lite.md) e [materiali stoccati basati sulla produzione](../prod-pma/whats-new/whats-new-jan-2021-stocked.md).
 
-## <a name="release-schedule-for-project-operations-on-cds-environment"></a>Pianificazione del rilascio per Project Operations in ambiente CDS
+## <a name="release-schedule-for-project-operations-on-dataverse-environment"></a>Pianificazione del rilascio per Project Operations in ambiente Dataverse
 
-Gli aggiornamenti per Project Operations in ambiente CDS sono disponibili mensilmente. 
+Gli aggiornamenti per Project Operations in ambiente Dataverse sono disponibili mensilmente. 
 
 | Stazione   | Area geografica        | Versione corrente | Prossima versione | Generalmente disponibile |
 |-----------|---------------|-----------------|--------------|---------------------|
+| Stazione 1 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
+|   &nbsp;  | Prima versione |  4.7.0.95       | Da definire     | 19 febbraio 2021           |
 | Stazione 2 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | America del Sud |  4.5.0.134       | Da definire     | 08-gen-21           |
-|    &nbsp; | Canada        |  4.5.0.134       | Da definire     | 08-gen-21          |
-|   &nbsp;  | India         |  4.5.0.134       | Da definire     | 08-gen-21           |
+|   &nbsp;  | America del Sud |  4.7.0.95       | Da definire     | 19 febbraio 2021           |
+|    &nbsp; | Canada        |  4.7.0.95       | Da definire     | 19 febbraio 2021           |
+|   &nbsp;  | India         |  4.7.0.95       | Da definire     | 19 febbraio 2021           |
+|   &nbsp;  | Francia         |  4.7.0.95       | Da definire     | 19 febbraio 2021           |
+|   &nbsp;  | Emirati Arabi Uniti         |  4.7.0.95       | Da definire     | 19 febbraio 2021           |
 | Stazione 3  |      &nbsp;   |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Giappone         |  4.5.0.134       | Da definire     | 15-gen-21           |
-|   &nbsp;  | Asia Pacifico  |  4.5.0.134       | Da definire     | 15-gen-21           |
-|   &nbsp;  | Gran Bretagna |  4.5.0.134       | Da definire     | 15-gen-21           |
-|   &nbsp;  | Oceania       |  4.5.0.134       | Da definire     | 15-gen-21           |
+|   &nbsp;  | Giappone         |  4.7.0.95       | Da definire     | 26 febbraio 2021           |
+|   &nbsp;  | Asia Pacifico  |  4.7.0.95       | Da definire     | 26 febbraio 2021           |
+|   &nbsp;  | Gran Bretagna |  4.7.0.95       | Da definire     | 26 febbraio 2021           |
+|   &nbsp;  | Oceania       |  4.7.0.95       | Da definire     | 26 febbraio 2021           |
 | Stazione 4 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Europa        |  4.4.0.70       | 4.5.0.134     | 11 dicembre 2020           |
+|   &nbsp;  | Europa        |  4.6.0.161       | 4.7.0.95     | 12 febbraio 2021           |
 | Stazione 5 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | America del Nord |  4.4.0.70       | 4.5.0.134     | 18-dic-20           |
+|   &nbsp;  | America del Nord |  4.6.0.161       | 4.7.0.95     | 19 febbraio 2021           |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Programma di rilascio per Gestione progetti e contabilità nell'ambiente delle app Finance and Operations
 
@@ -63,13 +67,13 @@ Gli aggiornamenti per Gestione progetti e contabilità vengono rilasciati otto v
 
 | Versione supportata | Generalmente disponibile (aggiornamento automatico) |
 | --- | --- |
+| 10.0.16 | 22 gennaio 2021 |
 | 10.0.15 | 4 Dicembre 2020 |
-| 10.0.14 | 23 ottobre 2020 |
+
 
 Le date di rilascio previste sono soggette a modifiche. Per ulteriori informazioni, vedi [Disponibilità degli aggiornamenti del servizio](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=/dynamics365/finance/toc.json).
 
 | Data di rilascio previste | Generalmente disponibile (aggiornamento automatico) |
 | --- | --- |
-| 10.0.16 | 22 gennaio 2021 |
-| 10.0.17 | 1 febbraio 2021 |
-
+| 10.0.17 | 19 marzo 2021 |
+| 10.0.18 | 16 aprile 2021 |

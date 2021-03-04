@@ -17,14 +17,17 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8a5c643745d8e10887965228da7abd8f56228006
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d9b25a768f892d83c09d37ce76291d6c8e75b1be
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078975"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145003"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Utilizzare una risorsa prenotabile come dimensione di determinazione dei prezzi
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 In questo argomento vengono fornite informazioni sull'utilizzo di una risorsa prenotabile come dimensione di determinazione dei prezzi. Prima di iniziare, crea una soluzione per le dimensioni di determinazione dei prezzi se non lo hai già fatto. Se disponi già di tale soluzione, puoi apportare le modifiche in quella soluzione. Se non hai ancora creato questa soluzione per l'organizzazione, completa le procedure nell'argomento [Creare campi ed entità personalizzati](create-custom-fields-entities.md).
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>Aggiungere una risorsa prenotabile a moduli e viste
@@ -48,18 +51,18 @@ Aprire Esplora soluzioni per la soluzione Dimensione di determinazione dei prezz
 
 ## <a name="set-up-bookable-resource-as-a-pricing-dimension"></a>Impostare una risorsa prenotabile come dimensione di determinazione dei prezzi
 
-1. Nell'interfaccia Web, seleziona **Project Service** > **Impostazioni** > **Parametri**. Nella pagina **Parametro** , nella scheda **Dimensioni di determinazione dei prezzi basate su importo** , nota che la griglia nella scheda mostra i record nell'entità Dimensioni di determinazione dei prezzi. 
+1. Nell'interfaccia Web, seleziona **Project Service** > **Impostazioni** > **Parametri**. Nella pagina **Parametro**, nella scheda **Dimensioni di determinazione dei prezzi basate su importo**, nota che la griglia nella scheda mostra i record nell'entità Dimensioni di determinazione dei prezzi. 
 2. Aggiungi **Risorsa prenotabile** a questo elenco di dimensioni di determinazione dei prezzi come **msdyn_bookableresource**. 
 3. Indica il contesto in cui la risorsa prenotabile viene utilizzata come dimensione di determinazione dei prezzi e imposta i valori **Costo applicabile a** e **Vendite applicabili a**.
-4. Nel campo **Tipo di dimensione** , seleziona **Basata su importo**. 
+4. Nel campo **Tipo di dimensione**, seleziona **Basata su importo**. 
 5. Seleziona la priorità di vendita e costo per la risorsa prenotabile. In genere, quando inclusa come dimensione di determinazione dei prezzi, una risorsa prenotabile ha la priorità più alta di conseguenza se si imposta **1** (o **0** a seconda di come si conta la priorità) si assicura tale comportamento.
 
 ## <a name="set-up-pricing-dimension-field-names"></a>Configurare nomi di campo di dimensioni di determinazione dei prezzi
 
 Quando il nome di campo di una dimensione di determinazione dei prezzi nella tabella **Prezzo ruolo** è diverso dal relativo nome di campo in una qualsiasi delle altre entità in cui si deve utilizzare la determinazione dei prezzi predefinita, è necessario indicare l'esistenza di nomi differenti nel record della dimensione di determinazione dei prezzi.    
-Per la risorsa prenotabile, l'entità **Membri del team di progetto** ha un nome di campo leggermente diverso ( **msdyn_bookableresourceid** ) da quello dell'entità **Prezzo ruolo** ( **msdyn_bookableresource** ). È necessario indicare questa differenza nel record della dimensione di determinazione dei prezzi di **msydn_bookableresource**. 
+Per la risorsa prenotabile, l'entità **Membri del team di progetto** ha un nome di campo leggermente diverso (**msdyn_bookableresourceid**) da quello dell'entità **Prezzo ruolo** (**msdyn_bookableresource**). È necessario indicare questa differenza nel record della dimensione di determinazione dei prezzi di **msydn_bookableresource**. 
 1. A tale scopo, fai doppio clic sulla riga nella griglia **Dimensioni di determinazione dei prezzi** per aprire la pagina di **msdyn_bookableresource**
-2. Nella pagina della dimensione, nella scheda **Elementi correlati** , fai clic su **Nomi campo dimensioni determinazione dei prezzi**.
+2. Nella pagina della dimensione, nella scheda **Elementi correlati**, fai clic su **Nomi campo dimensioni determinazione dei prezzi**.
 
  ![Scheda Nomi campo dimensioni determinazione dei prezzi](media/PD-fieldname.png)
 

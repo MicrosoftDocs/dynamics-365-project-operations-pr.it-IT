@@ -1,6 +1,6 @@
 ---
-title: Stima di vendite e costi del progetto quando una risorsa prenotabile ricopre più ruoli in un progetto
-description: Questo argomento fornisce informazioni su come utilizzare le dimensioni di determinazione dei prezzi per supportare prezzi e costi per una risorsa che ricopre più ruoli in un progetto.
+title: Stimare le vendite e i costi del progetto quando una risorsa prenotabile ricopre più ruoli per un progetto
+description: Questo argomento fornisce informazioni su come utilizzare le dimensioni dei prezzi per supportare la determinazione di prezzi e costi per una risorsa che ricopre più ruoli in un progetto.
 author: rumant
 manager: kfend
 ms.custom:
@@ -17,16 +17,18 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8ddc827a4170c5576c0a4350b51e6a119094ac50
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 67e24156e960b9b09cf92f7f0cd77f6c74a982b8
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078928"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145048"
 ---
-# <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-mulitple-roles-on-a-project"></a>Stima di vendite e costi del progetto quando una risorsa prenotabile ricopre più ruoli in un progetto 
+# <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-for-a-project"></a>Stimare le vendite e i costi del progetto quando una risorsa prenotabile ricopre più ruoli per un progetto 
 
-Le società basate su progetti hanno spesso la necessità di una risorsa per svolgere più ruoli in un progetto. Ognuno di questi ruoli potrebbe avere un prezzo e un costo diverso, il che significa che il tempo della stessa risorsa sul progetto potrebbe ottenere una stima finanziaria diversa a seconda del costo e delle tariffe per ciascuno dei ruoli. Project Service Automation consente l'impostazione dei valori nel record del membro del team per la risorsa denominata e consente sostituzioni diverse su ciascuna delle attività a cui è assegnato il membro del team.
+[!include [banner](../includes/psa-now-project-operations.md)]
+
+Le aziende basate su progetti hanno spesso la necessità di una risorsa che esegua più ruoli in un progetto. Ognuno di questi ruoli potrebbe avere un prezzo e un costo diverso, il che significa che il tempo della stessa risorsa sul progetto potrebbe ottenere una stima finanziaria diversa a seconda del costo e delle tariffe per ciascuno dei ruoli. Project Service Automation consente l'impostazione dei valori nel record del membro del team per la risorsa denominata e consente sostituzioni diverse su ciascuna delle attività a cui è assegnato il membro del team.
 
 L'esempio seguente spiega come la semplice sostituzione di questo valore consenta a una risorsa di avere più ruoli in un progetto con costi e tariffe di fatturazione differenti.
 
@@ -45,22 +47,22 @@ Ripeti questi passaggi per l'attività B e assicurati che il ruolo e l'unità or
 ## <a name="set-up-role-and-organization-unit-for-a-project-task"></a>Impostazione di ruolo e unità organizzativa per un'attività di progetto
 
 1. Dopo aver creato l'attività A, seleziona l'attività e quindi seleziona **Modifica attività**.
-2. Nella pagina **Dettagli attività** trova i campi **Ruolo** e **Unità organizzativa** , aggiungi i valori di una risorsa che eseguirà questa attività. 
+2. Nella pagina **Dettagli attività** trova i campi **Ruolo** e **Unità organizzativa**, aggiungi i valori di una risorsa che eseguirà questa attività. 
 
   > [!NOTE]
   > Se stai completando questi scenari utilizzando i dati demo di Project Service Automation, seleziona **Consulting Lead** per il ruolo e **Fabrikam US** come unità organizzativa.
 
 3. Seleziona l'attività B, quindi seleziona **Modifica attività**.
-4. Nella pagina **Dettagli attività** trova i campi **Ruolo** e **Unità organizzativa** , aggiungi i valori di una risorsa che eseguirà questa attività. Assicurati che i valori nei campi **Ruolo** e **Unità organizzativa** siano diversi per l'attività B da quelli per l'attività A. 
+4. Nella pagina **Dettagli attività** trova i campi **Ruolo** e **Unità organizzativa**, aggiungi i valori di una risorsa che eseguirà questa attività. Assicurati che i valori nei campi **Ruolo** e **Unità organizzativa** per l'attività B siano diversi dai valori per l'attività A. 
 
   > [!NOTE]
   > Se stai completando questi scenari utilizzando i dati demo di Project Service Automation, seleziona **Network Technician** per il ruolo e **Fabrikam US** come unità organizzativa.
 
 5. Salva e chiudi la pagina **Dettagli attività**. 
 
-## <a name="team-member-and-estimates-behaviour"></a>Membro del team e stima del comportamento 
+## <a name="team-member-and-estimates-behavior"></a>Membro del team e stima del comportamento 
 
-1. Nella pagina **Dettagli attività** seleziona in **Membro del team** i due membri del team generici e quindi seleziona **Genera requisiti**. Vengono generati i requisiti della risorsa. 
+1. Nella pagina **Dettagli attività** seleziona in **Membro del team** i due membri del team generici e quindi seleziona **Genera requisiti**. 
 2. Seleziona la riga del membro del team per **Consulting Lead** e poi seleziona **Prenota**. Viene visualizzata la scheda di pianificazione e viene prenotata una risorsa per quel requisito.
 3. Seleziona la riga del membro del team per **Network Technician** e poi seleziona **Prenota**. Viene visualizzata la scheda di pianificazione e viene prenotata la stessa risorsa per quel requisito.
 
@@ -71,8 +73,4 @@ Quando espandi la riga del record del membro del team puoi visualizzare assegnaz
 ### <a name="estimates-grid"></a>Griglia delle stime 
 Quando passi alla griglia **Stime** puoi notare che entrambe le assegnazioni per la stessa risorsa hanno un prezzo diverso.
 Il prezzo dell'assegnazione per la risorsa nell'attività A viene calcolato utilizzando il valore dell'attributo **Ruolo** di **Consulting Lead**. Il prezzo dell'assegnazione per la stessa risorsa nell'attività B viene calcolato utilizzando il valore dell'attributo **Ruolo** di **Network Technician**.
-
-
-
-
 

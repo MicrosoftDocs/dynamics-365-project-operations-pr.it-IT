@@ -2,6 +2,7 @@
 title: Considerazioni sull'aggiornamento - Da Microsoft Dynamics 365 Project Service Automation versione 2.x o 1.x alla versione 3
 description: In questo argomento vengono fornite informazioni sulle considerazioni che devi eseguire quando esegui l'aggiornamento da Project Service Automation versione 2.x o 1.x alla versione 3.
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -17,20 +18,23 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3c51726f71cfd0d4be98982d6a02268d64a70b91
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c0c1e07bacb4867254a12436cf3bff58989e117f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121718"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144172"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Considerazioni sull'aggiornamento - Da PSA versione 2.x o 1.x alla versione 3
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 ## <a name="project-service-automation-and-field-service"></a>Project Service Automation e Field Service
-Dynamics 365 Project Service Automation e Dynamics 365 Field Service utilizzano la soluzione URS (Universal Resourcing Scheduling) per la pianificazione delle risorse. Se nell'istanza sono presenti sia Project Service Automation che Field Service, è necessario pianificare l'aggiornamento di entrambe le soluzioni all'ultima versione (versione 3.x per Project Service Automation, versione 8.x per Field Service). L'aggiornamento di Project Service Automation o Field Service installerà l'ultima versione di URS, di conseguenza un comportamento incoerente è possibile se entrambe le soluzioni Project Service Automation e Field Service nella stessa istanza non vengono aggiornate all'ultima versione.
+Dynamics 365 Project Service Automation e Dynamics 365 Field Service utilizzano la soluzione URS (Universal Resourcing Scheduling) per la pianificazione delle risorse. Se hai Project Service Automation e Field Service nella tua istanza, aggiorna entrambe le soluzioni alla versione più recente. Per Project Service Automation, questa è la versione 3.x. Per Field Service, è la versione 8.x. L'aggiornamento di Project Service Automation o Field Service installerà l'ultima versione di URS. Se entrambe le soluzioni Project Service Automation e Field Service nella stessa istanza non vengono aggiornate alla versione più recente, potrebbe verificarsi un comportamento incoerente.
 
-## <a name="resource-assignments"></a>Assegnazioni di risorse
+## <a name="resource-assignments"></a>Assegnazioni risorse
 In Project Service Automation versione 2 e versione 1, le assegnazioni di attività erano archiviate come attività figlio (dette anche attività riga) nell'**entità Attività** e indirettamente correlate all'entità **Assegnazione risorse**. L'attività riga era visibile nella finestra popup di assegnazione nella Struttura di suddivisione del lavoro.
 
 ![Attività riga nella Struttura di suddivisione del lavoro in Project Service Automation versione 2 e versione 1](media/upgrade-line-task-01.png)
@@ -40,9 +44,9 @@ Nella versione 3 di Project Service Automation, lo schema sottostante di assegna
 Queste modifiche hanno un impatto sull'aggiornamento di qualsiasi progetto esistente che ha assegnazioni di risorse per le risorse prenotabili denominate e le risorse generiche in un team di progetto. In questo argomento vengono fornite informazioni che devono essere prese in considerazione per i progetti durante l'aggiornamento alla versione 3. 
 
 ### <a name="tasks-assigned-to-named-resources"></a>Attività assegnate a risorse denominate
-Con l'entità attività sottostante, le attività nella versione 2 e nella versione 1 consentivano ai membri del team di creare un ruolo diverso da quello definito predefinito. Ad esempio, a Teresa Fanucci, alla quale veniva assegnato, per impostazione predefinita, il ruolo di Program Manager, poteva essere assegnata un'attività con il ruolo di Sviluppatore. Nella versione 3, il ruolo di un membro del team denominato è sempre predefinito, quindi qualsiasi attività a cui Teresa Fanucci è assegnata utilizza il ruolo predefinito di Program Manager.
+Con l'entità attività sottostante, le attività nella versione 2 e nella versione 1 consentivano ai membri del team di creare un ruolo diverso da quello definito predefinito. Ad esempio, a Teresa Fanucci, alla quale veniva assegnato, per impostazione predefinita, il ruolo di Program Manager, poteva essere assegnata un'attività con il ruolo di Sviluppatore. Nella versione 3, il ruolo di un membro del team denominato è sempre predefinito, quindi qualsiasi attività a cui Teresa è assegnata utilizza il ruolo predefinito di Program Manager.
 
-Se hai assegnato una risorsa a un'attività al di fuori del relativo ruolo predefinito nella versione 2 e nella versione 1, quando esegui l'aggiornamento, alla risorsa denominata viene assegnato il ruolo predefinito per tutte le assegnazioni di attività, indipendentemente dall'assegnazione di ruolo nella versione 2. Ciò darà luogo a differenze nelle stime calcolate dalla versione 2 o versione 1 alla versione 3 in quanto le stime vengono calcolate in base al ruolo della risorsa e non all'assegnazione di attività riga. Ad esempio, nella versione 2, due attività sono state assegnate a Lucia Cattaneo. Il ruolo nell'attività riga per l'attività 1 è Sviluppatore e per l'attività 2 è Program Manager. Lucia Cattaneo ha il ruolo predefinito di Program Manager.
+Se hai assegnato una risorsa a un'attività al di fuori del relativo ruolo predefinito nella versione 2 e nella versione 1, quando esegui l'aggiornamento, alla risorsa denominata viene assegnato il ruolo predefinito per tutte le assegnazioni di attività, indipendentemente dall'assegnazione di ruolo nella versione 2. Questa assegnazione restituisce le differenze nelle stime calcolate dalla versione 2 o versione 1 alla versione 3 in quanto le stime vengono calcolate in base al ruolo della risorsa e non all'assegnazione di attività riga. Ad esempio, nella versione 2, due attività sono state assegnate a Lucia Cattaneo. Il ruolo nell'attività riga per l'attività 1 è Sviluppatore e per l'attività 2 è Program Manager. Lucia Cattaneo ha il ruolo predefinito di Program Manager.
 
 ![Molteplici ruoli assegnati a una risorsa](media/upgrade-multiple-roles-02.png)
 
@@ -56,7 +60,7 @@ Quando esegui l'aggiornamento alla versione 3, le attività riga vengono sostitu
 
 ![Assegnazioni di risorse](media/resource-assignment-v2-05.png)
 
-Poiché le stime sono basate sul ruolo predefinito della risorsa, le stime di costi e vendite possono cambiare. Nota che nell'illustrazione seguente, il ruolo **Sviluppatore** non è più visibile in quanto ora il ruolo è quello predefinito della risorsa prenotabile.
+Poiché le stime sono basate sul ruolo predefinito della risorsa, le stime di costi e vendite possono cambiare. Nell'illustrazione seguente, il ruolo **Sviluppatore** non è più visibile in quanto ora il ruolo è quello predefinito della risorsa prenotabile.
 
 ![Stime dei costi per ruoli predefiniti](media/resource-assignment-cost-estimate-06.png)
 ![Stima di vendita per ruoli predefiniti](media/resource-assignment-sales-estimate-07.png)
@@ -102,7 +106,7 @@ L'unità organizzativa è visualizzata nella vista Stime.
  
 Al termine dell'aggiornamento, l'unità organizzativa dell'attività riga che corrisponde al membro del team generico viene aggiunta al membro del team generico e l'attività riga viene rimossa. Per questo motivo, è consigliabile, prima di eseguire l'aggiornamento, di generare o rigenerare il team per ogni progetto contenente risorse generiche.
 
-Per le attività assegnate a un ruolo con un'unità organizzativa differente dall'unità organizzativa del progetto di contratto e se un team non è stato generato, l'aggiornamento creerà un membro del team generico per il ruolo, ma utilizzerà l'unità contratto del progetto per l'unità organizzativa del membro del team. Se consideriamo l'esempio con il Progetto Z, ciò significa che all'unità organizzativa di contratto Contoso US e alle attività di test del piano di progetto nella fase di implementazione è stato assegnato il ruolo Consulente Tecnico con l'unità organizzativa assegnata a Contoso India. L'attività di test di integrazione completata dopo la fase di implementazione è stata assegnata al ruolo Consulente Tecnico. L'unità organizzativa è Contoso US e un team non è stato generato. L'aggiornamento crea un membro del team generico, un Consulente Tecnico con le ore assegnate di tutte e tre le attività e un'unità organizzativa Contoso US, ovvero l'unità organizzativa di contratto del progetto.   
+Per le attività assegnate a un ruolo con un'unità organizzativa differente dall'unità organizzativa del progetto di contratto e se un team non è stato generato, l'aggiornamento creerà un membro del team generico per il ruolo, ma utilizzerà l'unità contratto del progetto per l'unità organizzativa del membro del team. Se consideriamo l'esempio con il Progetto Z, all'unità organizzativa di contratto Contoso US e alle attività di test del piano di progetto nella fase di implementazione è stato assegnato il ruolo Consulente Tecnico con l'unità organizzativa assegnata a Contoso India. L'attività di test di integrazione completata dopo la fase di implementazione è stata assegnata al ruolo Consulente Tecnico. L'unità organizzativa è Contoso US e un team non è stato generato. L'aggiornamento crea un membro del team generico, un Consulente Tecnico con le ore assegnate di tutte e tre le attività e un'unità organizzativa Contoso US, ovvero l'unità organizzativa di contratto del progetto.   
  
 La modifica dell'impostazione predefinita delle differenti unità organizzative di gestione risorse per i membri del team non generati è il motivo per cui consigliamo di generare o rigenerare il team per ogni progetto contenente risorse generiche prima di eseguire l'aggiornamento. In questo, non si perderanno le assegnazioni delle unità organizzative.
 

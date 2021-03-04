@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 442ff9cf2206bec307cea7ff30b9266502d8f77b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b9e32c8871a8986ba827f742baf4e4d5cd9dd235
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078945"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144868"
 ---
 # <a name="create-custom-fields-and-entities"></a>Creare campi ed entità personalizzati 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Completa i passaggi seguenti ogni volta che intendi creare un set di opzioni o un'entità personalizzato nella piattaforma Power Apps.  
 Le procedure illustrate in questo argomento devono essere completate tramite l'interfaccia Web di Project Service Automation (PSA).
@@ -61,9 +63,9 @@ Puoi creare due dimensioni basate su set di opzioni. Utilizza **Ubicazione lavor
 
 ## <a name="create-data-for-entity-based-dimensions"></a>Creare dati per le dimensioni basate su entità
 
-Puoi creare dati per le dimensioni basate su entità manualmente oppure utilizzando le chiamate di importazione o di servizio di Microsoft Excel. Utilizza i passaggi in questa procedura per creare due titoli standard, **Sistemista** e **Sistemista esperto** , a partire dalla dimensione basata su entità **Titolo standard**. Se intendi creare pochi dati, come illustrato nel seguente esempio, puoi utilizzare un modulo standard.
+Puoi creare dati per le dimensioni basate su entità manualmente oppure utilizzando le chiamate di importazione o di servizio di Microsoft Excel. Utilizza i passaggi in questa procedura per creare due titoli standard, **Sistemista** e **Sistemista esperto**, a partire dalla dimensione basata su entità **Titolo standard**. Se intendi creare pochi dati, come illustrato nel seguente esempio, puoi utilizzare un modulo standard.
 
-1. In PSA fai clic su **Ricerca avanzata**. Selezionar l'entità **Titolo standard** , quindi fai clic su **Risultati**. Tutte le righe nell'entità **Titolo standard** verranno visualizzate.
+1. In PSA fai clic su **Ricerca avanzata**. Selezionar l'entità **Titolo standard**, quindi fai clic su **Risultati**. Tutte le righe nell'entità **Titolo standard** verranno visualizzate.
 2. Fai clic su **Nuovo**. Nel campo **Nome** immetti "Sistemista" e quindi fai clic su **Salva**.
 3. Chiudere il modulo. 
 4. Ripeti i passaggi da 1 a 3 per creare un altro titolo standard, ovvero "Sistemista esperto".

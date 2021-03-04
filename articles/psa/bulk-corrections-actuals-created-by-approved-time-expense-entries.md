@@ -18,14 +18,16 @@ ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
 search.app:
 - ProjectOperations
-ms.openlocfilehash: 6d6c03cc74d47ca3ae7c2bd7d0aa0720bb2f3c01
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 063c4d017f5904f09c3c239bfa432a128872e4d7
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079052"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144958"
 ---
 # <a name="bulk-corrections-of-actuals-created-by-approved-time-and-expense-entries"></a>Correzioni in blocco di valori effettivi creati tramite voci di spesa e inserimenti ore approvati
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 In alcuni casi, è possibile che l'immissione di voci di spesa e inserimenti ore avvenga in modo errato. È ad esempio possibile che un consulente selezioni la data errata durante la creazione di un inserimento ora o che trasponga i numeri quando inserisce una spesa. Sebbene un consulente non possa effettuare aggiornamenti alle voci inviate, un amministratore può correggere direttamente la voce per un progetto.
 
@@ -35,7 +37,7 @@ Per completare le procedure in questo argomento, devi disporre delle autorizzazi
 
 Completa i seguenti passaggi per correggere uno o più inserimenti ore per un progetto.
 
-1. Nell'area **Vendite** seleziona **Transazioni** , quindi **Ora approvata**. 
+1. Nell'area **Vendite** seleziona **Transazioni**, quindi **Ora approvata**. 
 
 2. In **Ora approvata** elenca, individua e seleziona uno o più inserimenti ore approvate da correggere. Puoi utilizzare il filtro per individuare voci correlate. Ad esempio, puoi filtrare in base a un ID progetto e selezionare tutti gli inserimenti ore approvati con tale ID progetto.
 
@@ -51,7 +53,7 @@ Completa i seguenti passaggi per correggere uno o più inserimenti ore per un pr
 
 7. Se le correzioni vengono visualizzate come previsto, seleziona **Conferma**. Nella finestra di dialogo seleziona **OK**.
 
-8. Torna all'area **Vendite** , seleziona **Progetti** e quindi apri il progetto per il quale hai appena aggiornato gli inserimenti ore. 
+8. Torna all'area **Vendite**, seleziona **Progetti** e quindi apri il progetto per il quale hai appena aggiornato gli inserimenti ore. 
 
 9. Nella pagina **Progetti** visualizza le modifiche che hai apportato nella scheda **Valori effettivi**. 
 
@@ -72,7 +74,7 @@ Completa i seguenti passaggi per correggere una o più voci di spesa.
 
 2. Nell'elenco **Spese approvate** seleziona il progetto che desideri correggere, quindi seleziona **Voci corrette**. Verrà automaticamente creato un nuovo giornale di registrazione correzione, con il tipo **Correzione di spesa** assegnato. 
 
-3. Nella pagina **Nuovo giornale di registrazione** inserisci in **Descrizione** del testo per la correzione e nella scheda **Correzione di spese** seleziona in **Nuovi valori per le spese** i campi dati che desideri correggere per le righe di spesa selezionate. Puoi ad esempio assegnare la spesa a un altro **Progetto** o correggere i valori di **Categoria di spesa** , **Data spesa** o **Risorsa prenotabile**.
+3. Nella pagina **Nuovo giornale di registrazione** inserisci in **Descrizione** del testo per la correzione e nella scheda **Correzione di spese** seleziona in **Nuovi valori per le spese** i campi dati che desideri correggere per le righe di spesa selezionate. Puoi ad esempio assegnare la spesa a un altro **Progetto** o correggere i valori di **Categoria di spesa**, **Data spesa** o **Risorsa prenotabile**.
 
 4. Seleziona **Anteprima**. Nella finestra di dialogo seleziona **OK**. 
 

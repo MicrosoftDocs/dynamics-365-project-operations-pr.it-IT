@@ -3,6 +3,7 @@ title: Abilitare le funzionalità dell'app Project Finder Mobile
 description: Come abilitare le funzionalità dell'app Project Finder Mobile per Project Service
 author: JohnPBurrows
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -18,22 +19,24 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: af267b5adc48b6edec57de196f91e338c058558c
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 1b70182125d607aa17528ef3dc4ea2345b76acd1
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4132968"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144553"
 ---
 # <a name="enable-project-finder-mobile-app-features-project-service"></a>Abilitare le funzionalità dell'app Project Finder Mobile (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 Le risorse possono utilizzare l'app Project Finder Mobile nei telefoni con [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] per cercare nuovi progetti da utilizzare e per aggiornare il set di competenze.  
   
  L'app è disponibile per telefoni [!INCLUDE[tn_Apple_iphone](../includes/tn-apple-iphone.md)], [!INCLUDE[tn_android](../includes/tn-android.md)] e [!INCLUDE[pn_windows_phone](../includes/pn-windows-phone.md)].  
-  
- Devi impostare una coppia di opzioni nei parametri per l'unità organizzativa per consentire agli utenti di visualizzare i requisiti di risorsa dei progetti e aggiornare le proprie competenze.  
+    
+ Per consentire agli utenti di visualizzare i requisiti delle risorse del progetto e aggiornare le competenze, devi selezionare le opzioni nelle impostazioni dei parametri per l'unità organizzativa.
   
 > [!NOTE]
 >  L'app Project Finder Mobile funziona solo con [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] (non con installazioni locali).  
@@ -55,10 +58,10 @@ Le risorse possono utilizzare l'app Project Finder Mobile nei telefoni con [!INC
 ## <a name="email-notifications"></a>Notifiche tramite posta elettronica  
  [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] invia i messaggi di posta elettronica relativi alle richieste di risorse ai destinatari seguenti nei momenti indicati:  
   
-|Destinatario|Eventi|  
+|Destinatario|Evento|  
 |---------------|-----------|  
-|Responsabile di progetto|-   Quando una risorsa si iscrive a un progetto con l'app Project Finder Mobile.|  
-|Risorsa|-   Quando il lavoro del progetto per cui la risorsa si è iscritta è già stato eseguito da un'altra risorsa.<br />-   Quando la propria richiesta di approvazione di competenze è stata approvata o rifiutata.<br />-   Quando la richiesta di iscrizione al progetto è stata approvata o rifiutata.|  
+|Responsabile di progetto|- Una risorsa si iscrive a un progetto con l'app Project Finder Mobile.|  
+|Risorsa|- Il lavoro del progetto per cui la risorsa si è iscritta è già stato eseguito da un'altra risorsa.<br />- La propria richiesta di approvazione di competenze è stata approvata o rifiutata.<br />- La richiesta di iscrizione al progetto è stata approvata o rifiutata.|  
   
 ## <a name="privacy-notice"></a>Informativa sulla privacy  
  [!INCLUDE[cc_privacy_crm_project_finder_mobile_app](../includes/cc-privacy-crm-project-finder-mobile-app.md)]  

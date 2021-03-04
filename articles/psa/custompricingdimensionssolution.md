@@ -17,20 +17,22 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3e437fce5b9f1fb330a713788e24100a4fe02948
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3810df9b875d017a8d639b5253b96275571898f3
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078885"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144644"
 ---
 # <a name="create-custom-solutions-for-pricing-dimensions"></a>Creare soluzioni personalizzate per le dimensioni di determinazione dei prezzi
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 > [!IMPORTANT]
 > Tutte le modifiche alle dimensioni di determinazione dei prezzi personalizzate devono essere contenute in una soluzione separata. Questo procedura consigliata importante fornisce flessibilità per aggiornamenti o rimozioni future delle modifiche, agevola il riutilizzo del lavoro e semplifica il trasferimento di tali modifiche a un'altra istanza. Dopo aver apportato tutte le modifiche necessarie, esporta la soluzione come **Soluzione gestita** e importala in altre istanze per riutilizzare la configurazione per la determinazione dei prezzi.
 
 1. Seleziona **Impostazioni** > **Soluzioni** e quindi seleziona **Nuovo**. 
-2. Assegna un nome alla soluzione, **dimensioni di determinazione dei prezzi di \<your organization name>** , immetti le informazioni richieste e quindi seleziona **Salva**.
+2. Assegna un nome alla soluzione, **dimensioni di determinazione dei prezzi di \<your organization name>**, immetti le informazioni richieste e quindi seleziona **Salva**.
 
 > ![Creare una soluzione personalizzata per le dimensioni di determinazione dei prezzi](media/Creation-of-custom-pricing-dimension-solution.PNG)
   
@@ -39,7 +41,7 @@ Devi aggiungere le seguenti entità di Project Service alla soluzione per la det
 
 1. Seleziona **Impostazioni** > **Soluzioni** e quindi fai doppio clic su **dimensioni di determinazione dei prezzi di \<your organization name>**. 
 2. In Esplora soluzioni, nel riquadro di spostamento a sinistra, seleziona **Aggiungi record esistente** > **Entità**.
-3. Nella finestra di dialogo **Componenti della soluzione** , seleziona le seguenti entità:
+3. Nella finestra di dialogo **Componenti della soluzione**, seleziona le seguenti entità:
 
 - Effettiva
 - Risorsa prenotabile

@@ -16,18 +16,20 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 57d4b9aad433af6d3e73369c76f2793f349c6965
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 31986efed81892cc5722cb8f5e292cde14d8843d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079070"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144598"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>Aggiungere nuovi moduli di entità personalizzate (Project Service Automation 2.x)
 
+[!include [banner](../../includes/psa-now-project-operations.md)]
+
 ## <a name="type-field"></a>Campo Tipo 
 
-Dynamics 365 Project Service Automation utilizza il campo **Tipo** ( **msdyn\_ordertype** ) delle entità Opportunità, Offerta, Ordine e Fattura per distinguere le versioni **basate su lavoro** di queste entità dalle versioni **basate su articolo** e **basate su servizio**. Le versioni basate su lavoro di queste entità sono gestite da PSA. Molte delle regole di business sul lato client e sul lato server della soluzione dipendono dal campo **Tipo**. Pertanto, è importante che il campo sia inizializzato con un valore corretto alla creazione delle entità. Un valore errato può causare comportamenti inappropriati e alcune regole di business potrebbero non essere eseguite correttamente.
+Dynamics 365 Project Service Automation utilizza il campo **Tipo** (**msdyn\_ordertype**) delle entità Opportunità, Offerta, Ordine e Fattura per distinguere le versioni **basate su lavoro** di queste entità dalle versioni **basate su articolo** e **basate su servizio**. Le versioni basate su lavoro di queste entità sono gestite da PSA. Molte delle regole di business sul lato client e sul lato server della soluzione dipendono dal campo **Tipo**. Pertanto, è importante che il campo sia inizializzato con un valore corretto alla creazione delle entità. Un valore errato può causare comportamenti inappropriati e alcune regole di business potrebbero non essere eseguite correttamente.
 
 ## <a name="automatic-form-switching"></a>Commutazione automatica dei moduli
 
@@ -37,7 +39,7 @@ La logica di commutazione automatica dei moduli si basa sul mapping tra il valor
 
 ## <a name="add-custom-forms-and-turn-on-the-form-switching-logic"></a>Aggiungere moduli personalizzati e attivare la logica di commutazione dei moduli
 
-Nell'esempio seguente viene illustrato come aggiungere un modulo personalizzato, **Informazioni di progetto personali** , di modo che sia utilizzabile con le opportunità basate su lavoro. La stessa procedura viene utilizzata per aggiungere moduli personalizzati di modo che siano utilizzati con offerte, ordini e fatture.
+Nell'esempio seguente viene illustrato come aggiungere un modulo personalizzato, **Informazioni di progetto personali**, di modo che sia utilizzabile con le opportunità basate su lavoro. La stessa procedura viene utilizzata per aggiungere moduli personalizzati di modo che siano utilizzati con offerte, ordini e fatture.
 
 Segui la procedura esposta di seguito per creare una versione personalizzata del modulo **Informazioni sul progetto**.
 
@@ -47,7 +49,7 @@ Segui la procedura esposta di seguito per creare una versione personalizzata del
     > [!IMPORTANT]
     > Non rimuovere gli script. In caso contrario, alcuni dati potrebbero essere inizializzati in modo errato.
 
-3. Verifica che il campo **Tipo** ( **msdyn\_ordertype** ) sia presente nel modulo. 
+3. Verifica che il campo **Tipo** (**msdyn\_ordertype**) sia presente nel modulo. 
 
     > [!IMPORTANT]
     > Non rimuovere questo campo. In caso contrario, gli script di inizializzazione avranno esito negativo.
