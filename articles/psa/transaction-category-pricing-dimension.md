@@ -17,14 +17,17 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0019571a1d37d3b6a503e7221db3c3b51365c236
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 00214aa2b514da71b331073cd0eeb5320c03e7d7
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078960"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150763"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Utilizzare una categoria di transazione come dimensione di determinazione dei prezzi
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 In questo argomento viene descritto come utilizzare una categoria di transazione come dimensione di determinazione dei prezzi. Prima di iniziare, crea una soluzione per le dimensioni di determinazione dei prezzi se non lo hai già fatto. Se disponi già di tale soluzione, puoi apportare le modifiche in quella soluzione. Se non hai ancora creato questa soluzione per l'organizzazione, completa le procedure nell'argomento [Creare campi ed entità personalizzati](create-custom-fields-entities.md).
 
 ## <a name="add-transaction-category-to-forms-and-views"></a>Aggiungere una categoria di transazione a moduli e viste
@@ -47,6 +50,6 @@ La tabella seguente è un elenco completo di moduli e viste predefinite, elencat
 ## <a name="set-up-transaction-category-as-a-pricing-dimension"></a>Impostare una categoria di transazione come dimensione di determinazione dei prezzi
 
 1. Nell'interfaccia Web, seleziona **Project Service** > **Impostazioni** > **Parametri**. 
-2. Nella pagina **Parametri** , nella scheda **Dimensioni di determinazione dei prezzi basate su importo** , nota che la griglia nella scheda mostra i record nell'entità **Dimensioni di determinazione dei prezzi**.
+2. Nella pagina **Parametri**, nella scheda **Dimensioni di determinazione dei prezzi basate su importo**, nota che la griglia nella scheda mostra i record nell'entità **Dimensioni di determinazione dei prezzi**.
 3. Aggiungi **Categoria di transazione** a questo elenco e imposta i campi **Costo applicabile a** **Vendite applicabili a** su **Sì**.
-4. Nel campo **Tipo di dimensione** , seleziona **Basata su importo** e quindi seleziona la priorità per **Categoria di transazione** relativa a costo e vendite.
+4. Nel campo **Tipo di dimensione**, seleziona **Basata su importo** e quindi seleziona la priorità per **Categoria di transazione** relativa a costo e vendite.

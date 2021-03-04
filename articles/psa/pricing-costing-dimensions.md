@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 515a2e2e518614884b414ca43702e8bfea2c6919
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 65516784c6787fa5f3c08297f4d161d52c2ea4a9
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078917"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151303"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Home page delle dimensioni di determinazione di prezzi e costi
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Le dimensioni utilizzate per impostare i prezzi e i costi della manodopera nelle organizzazioni basate su progetto sono influenzate dai seguenti attributi:
 
@@ -33,12 +35,12 @@ Le dimensioni utilizzate per impostare i prezzi e i costi della manodopera nelle
 
 Data la natura tipica di questi attributi del lavoro e le persone richieste per eseguire il lavoro, ci sono due tipi di valori di dimensione di determinazione dei prezzi disponibili in Project Service Automation: 
 
-- **Set di opzioni** : attributi che sono enumerazioni fisse per un set di valori.
-- **Valori basati su entità** : attributi che possono avere una serie variabile di valori che sono finiti ma possono cambiare nel tempo.
+- **Set di opzioni**: attributi che sono enumerazioni fisse per un set di valori.
+- **Valori basati su entità**: attributi che possono avere una serie variabile di valori che sono finiti ma possono cambiare nel tempo.
 
 ## <a name="pricing-dimensions"></a>Dimensioni di determinazione dei prezzi
 
-PSA include un set predefinito di dimensioni di determinazione dei prezzi. Puoi visualizzare queste dimensioni selezionando **Project Service** > **Parametri**. Nel record del parametro, nella scheda **Dimensione di determinazione dei prezzi basata su importo** , verifica che i campi **Vendite applicabili a** e **Costo applicabile a** del ruolo **msdyn_resourcecategory** e dell'unità organizzativa di gestione risorse **msdyn_organizationalunit** siano impostati su **Sì**. Ciò ti consentirà di impostare il prezzo e il costo di ogni combinazione di unità organizzativa e ruolo.
+PSA include un set predefinito di dimensioni di determinazione dei prezzi. Puoi visualizzare queste dimensioni selezionando **Project Service** > **Parametri**. Nel record del parametro, nella scheda **Dimensione di determinazione dei prezzi basata su importo**, verifica che i campi **Vendite applicabili a** e **Costo applicabile a** del ruolo **msdyn_resourcecategory** e dell'unità organizzativa di gestione risorse **msdyn_organizationalunit** siano impostati su **Sì**. Ciò ti consentirà di impostare il prezzo e il costo di ogni combinazione di unità organizzativa e ruolo.
 
 ![Screenshot dei parametri di Project Service con il campo "Vendite applicabili a" evidenziato](media/PS-OOB-parameters.png)
 
@@ -55,7 +57,7 @@ Se devi determinare il prezzo o il costo delle risorse utilizzando ulteriori att
 ## <a name="pricing-human-resource-time"></a>Determinare il prezzo del tempo delle risorse umane
 Il modo in cui un'organizzazione determina il prezzo del tempo delle risorse umane è spesso un fattore strategico importante che influenza direttamente la redditività dell'organizzazione. Collabora con i team finanziari e i responsabili delle procedure quando l'organizzazione è pronta per identificare il modo in cui configurare tassi di fatturazione e di costo per il tempo delle risorse umane.
 
-Altre considerazioni per la determinazione dei prezzi includono se riutilizzare campi o entità che non sono al momento dimensioni di determinazione dei prezzi, ma che vengono applicate come tali per l'organizzazione. I campi come **Categoria di transazione** ( **msdyn_transactioncategory** ) e **Risorsa prenotabile** ( **bookableresource** ) sono esempi di possibili dimensioni. 
+Altre considerazioni per la determinazione dei prezzi includono se riutilizzare campi o entità che non sono al momento dimensioni di determinazione dei prezzi, ma che vengono applicate come tali per l'organizzazione. I campi come **Categoria di transazione** (**msdyn_transactioncategory**) e **Risorsa prenotabile** (**bookableresource**) sono esempi di possibili dimensioni. 
 
 Considera se la dimensione di determinazione dei prezzi deve essere una tabella o un set di opzioni. Se prevedi modifiche ai valori di una dimensione superiori a 10 o 12 e necessiti di ulteriori attributi per questi valori, crea un'entità anziché un set di opzioni. La gestione di un set di opzioni, ad esempio l'aggiunta o la rimozione di valori, richiede un amministratore o uno sviluppatore mentre l'aggiunta di nuove righe a una tabella può essere eseguita dalla maggior parte degli utenti aziendali.
 
