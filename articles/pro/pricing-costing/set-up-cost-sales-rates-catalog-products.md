@@ -5,23 +5,24 @@ author: rumant
 manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 135b182af73bdab7a3520589431332ad059ec497
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 5e851193df8151821e112e01a9f33df5afee7df7
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176706"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764558"
 ---
 # <a name="set-up-cost-and-sales-rates-for-catalog-products---lite"></a>Impostare le tariffe di vendita e costi per i prodotti del catalogo - semplice
 
 _**Si applica a:** Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
 
-L'impostazione dei prezzi per gli articoli del catalogo prodotti in Dynamics 365 Project Operations è uguale a quella di Dynamics 365 Sales.
+L'impostazione dei prezzi per gli articoli del catalogo prodotti in Dynamics 365 Project Operations è uguale all'impostazione in Dynamics 365 Sales.
 
-Poiché i prodotti non possono essere stimati o utilizzati nei progetti in Project Operations, non è necessario impostare i prezzi del catalogo prodotti sui listini prezzi di progetto per offerte e contratti.
+In Project Operations, i prodotti non possono essere stimati o utilizzati nei progetti, quindi non è necessario impostare i prezzi del catalogo prodotti sui listini prezzi del progetto per offerte e contratti.
 
-I prezzi del catalogo prodotti devono essere impostati nel campo **Prezzo prodotto** di un'offerta, un contratto o un conto. Non impostare i prezzi del catalogo prodotti nei listini prezzi di progetto per queste entità. I listini prezzi di progetto sono esclusivi di Project Operations. Esiste una logica aziendale specifica dell'applicazione che copia i listini prezzi da un'offerta a un contratto. Il risultato è un listino prezzi di progetto specifico del contratto. L'operazione di copia può ritardare il processo di acquisizione dell'offerta se il listino prezzi di progetto dell'offerta diventa troppo grande. I listini prezzi dei prodotti non vengono copiati per creare listini prezzi personalizzati nei contratti. Ciò significa che i listini prezzi dei prodotti non influiscono sulle prestazioni del processo di acquisizione dell'offerta.
+Usa il campo **Prezzo del prodotto** di un'offerta, un contratto o un conto per impostare i prezzi del catalogo prodotti. Non impostare i prezzi del catalogo prodotti nei listini prezzi del progetto. I listini prezzi di progetto sono esclusivi di Project Operations. La logica aziendale specifica dell'applicazione copia i listini prezzi da un'offerta a un contratto. Il risultato è un listino prezzi di progetto specifico del contratto. L'operazione di copia può ritardare il processo di acquisizione dell'offerta se il listino prezzi di progetto dell'offerta diventa troppo grande. I listini prezzi dei prodotti non vengono copiati per creare listini prezzi personalizzati nei contratti. Poiché non è coinvolta la copia, le prestazioni del processo di offerta non vengono influenzate.

@@ -15,16 +15,14 @@ ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 31c08ea264e6caec3217f4b424275495f39123e3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 64901610144f9dfe274bd4c2294ab32659743a1a
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079034"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960297"
 ---
 # <a name="expense-receipt-processing"></a>Elaborazione della ricevuta spesa
-
-[!include [banner](../includes/banner.md)]
 
 L'immissione delle spese è stata migliorata grazie all'introduzione dell'elaborazione del riconoscimento ottico dei caratteri (OCR) per le ricevute. Questa funzionalità è progettata per migliorare l'esperienza dell'utente durante la creazione di ricevute spesa.
 
@@ -45,11 +43,11 @@ Per allegare automaticamente le ricevute che includono transazioni con carta di 
 
 Per creare una spesa o abbinare una spesa da una ricevuta, esegui i seguenti passaggi:
 
-  1. In una nota spese, nella scheda **Ricevute** , allega una ricevuta selezionando **Aggiungi ricevute**.
+  1. In una nota spese, nella scheda **Ricevute**, allega una ricevuta selezionando **Aggiungi ricevute**.
   2. Sotto l'immagine caricata della ricevuta, nota le opzioni **Crea** e **Abbina**.
 
       - Seleziona **Crea** per creare una transazione di spesa inserita manualmente e compilare i valori estratti dalla ricevuta.
-      - Se selezioni **Abbina** , il sistema cerca di abbinare una spesa esistente alla ricevuta.
+      - Se selezioni **Abbina**, il sistema cerca di abbinare una spesa esistente alla ricevuta.
 
 ## <a name="installation"></a>Installazione
 
@@ -65,7 +63,7 @@ Per utilizzare queste funzionalità avanzate di spesa, installa il componente ag
 6. Segui la guida all'installazione e accetta le condizioni.
 7. Seleziona **Installa**.
 
-Nell'area di lavoro **Gestione delle funzionalità** , attiva le seguenti funzionalità:
+Nell'area di lavoro **Gestione delle funzionalità**, attiva le seguenti funzionalità:
 
 - Note spese riprogettate
 - Abbina automaticamente e crea spesa dalla ricevuta

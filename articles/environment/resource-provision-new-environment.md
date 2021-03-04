@@ -3,17 +3,18 @@ title: Effettuare il provisioning di un nuovo ambiente
 description: Questo argomento fornisce informazioni su come effettuare il provisioning di un nuovo ambiente Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/26/2020
+ms.date: 12/11/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 09af2a7693c45d1d0b9c75420d018cc50d2cc0fa
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642981"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727795"
 ---
 # <a name="provision-a-new-environment"></a>Effettuare il provisioning di un nuovo ambiente
 
@@ -60,17 +61,15 @@ Utilizza i passaggi seguenti per abilitare il flusso di provisioning automatizza
 
 ![Consenso distribuzione](./media/2DeploymentConsent.png)
 
-7. Completa i restanti campi obbligatori nella procedura guidata e conferma la distribuzione. Il tempo di provisioning dell'ambiente varia in base al tipo di ambiente. Il provisioning potrebbe richiedere fino a sei ore.
+7. Facoltativo: applica i dati demo all'ambiente. Vai a **Impostazioni avanzate** seleziona **Personalizza configurazione database SQL** e imposta **Specificare un set di dati per il database dell'applicazione** su **Demo**.
+
+8. Completa i restanti campi obbligatori nella procedura guidata e conferma la distribuzione. Il tempo per il provisioning dell'ambiente varia in base al tipo di ambiente. Il provisioning potrebbe richiedere fino a sei ore.
 
   Dopo il completamento della distribuzione, l'ambiente verrà visualizzato come **Distribuito**.
 
-8. Per confermare che l'ambiente è stato distribuito correttamente, seleziona **Accedi** e accedi all'ambiente per confermare.
+9. Per confermare che l'ambiente è stato distribuito correttamente, seleziona **Accesso** e accedi all'ambiente per confermare.
 
 ![Dettagli degli ambienti ](./media/3EnvironmentDetails.png)
-
-## <a name="apply-project-operations-finance-demo-data-optional-step"></a>Applicare i dati dimostrativi di Project Operations Finance (passaggio facoltativo)
-
-Applica i dati dimostrativi di Project Operations Finance all'ambiente ospitato su cloud versione del servizio 10.0.13 come descritto in [questo articolo](resource-apply-finance-demo-data.md).
 
 ## <a name="apply-updates-to-the-finance-environment"></a>Applicare gli aggiornamenti all'ambiente Finance
 
@@ -151,6 +150,21 @@ Dopo l'applicazione delle entità, tutti i mapping disponibili vengono elencati 
 L'aggiornamento richiederà circa 20 minuti. Riceverai un avviso quando sarà completo.
 
 ![Conferma dell'aggiornamento](./media/19RefreshConfirmation.png)
+
+## <a name="update-security-settings-on-project-operations-on-dataverse"></a>Aggiornare le impostazioni di sicurezza su Project Operations su Dataverse
+
+1. Vai Project Operations nell'ambiente Dataverse. 
+2. Passa a **Impostazioni** > **Sicurezza** > **Ruoli di sicurezza**. 
+3. Nella pagina **Ruoli di sicurezza** nell'elenco dei ruoli, seleziona **utente app a doppia scrittura** e seleziona la scheda **Entità personalizzate**.  
+4. Verifica che il ruolo abbia le autorizzazioni **Lettura** e **Aggiungi a** per:
+      
+      - **Tipo di tasso di cambio valuta**
+      - **Piano dei conti**
+      - **Calendario fiscale**
+      - **Libro mastro**
+
+5. Dopo aver aggiornato ruolo di sicurezza, vai a **Impostazioni** > **Sicurezza** > **Team** e seleziona il team predefinito nella visualizzazione team **Proprietario azienda locale**.
+6. Seleziona **Gestisci ruoli** e verifica che il privilegio di sicurezza **utente app a doppia scrittura** sia applicato a questo team.
 
 ## <a name="run-project-operations-dual-write-maps"></a>Eseguire il mapping doppia scrittura di Project Operations
 

@@ -17,16 +17,14 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 080c086dc4059d8efe5075162aabf70ac1068a21
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b6d577861a6ebfae55b64a8a06143256e0f1ff40
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079035"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960477"
 ---
 # <a name="expense-management-mobile-workspace"></a>Area di lavoro per dispositivi mobili Gestione delle spese
-
-[!include [banner](../includes/banner.md)]
 
 In questo argomento vengono fornite informazioni sull'area di lavoro per dispositivi **Gestione delle spese**. Questa area di lavoro consente agli utenti di acquisire e caricare una ricevuta, in modo da poterla allegare a una nota spese in un secondo momento. Gli utenti possono anche creare rapidamente una riga di spesa utilizzando una ricevuta allegata e creare e gestire le proprie note spese. Inoltre, gli approvatori possono utilizzare l'area di lavoro per dispositivi mobili **Gestione delle spese** per visualizzare le note spese loro assegnate e approvarle o rifiutarle.
 
@@ -115,12 +113,12 @@ Scarica e installa l'app per dispositivi mobili Dynamics 365 Unified Ops:
 3. Seleziona **Scatta foto** o **Scegli immagine**.
 4. Segui uno di questi passaggi:
 
-    - Se hai selezionato **Scatta foto** , segui questi passaggi:
+    - Se hai selezionato **Scatta foto**, segui questi passaggi:
 
         1. Viene aperta la fotocamera del tuo dispositivo mobile, in modo da poter scattare una foto della ricevuta. Quando hai finito di scattare la foto, seleziona **OK** per accettare la foto.
         2. Facoltativo: inserisci un nome per la foto e inserisci eventuali note.
 
-    - Se hai selezionato **Scegli immagine** , segui questi passaggi:
+    - Se hai selezionato **Scegli immagine**, segui questi passaggi:
 
         1. Seleziona un'immagine dall'elenco.
         2. Facoltativo: inserisci un nome per l'immagine e inserisci eventuali note.
@@ -138,8 +136,8 @@ Scarica e installa l'app per dispositivi mobili Dynamics 365 Unified Ops:
 8. Seleziona **Scatta foto** o **Scegli immagine**.
 9. Segui uno di questi passaggi:
 
-    - Se hai selezionato **Scatta foto** , viene aperta la fotocamera del tuo dispositivo mobile, in modo da poter scattare una foto della ricevuta. Quando hai finito di scattare la foto, seleziona **OK** per accettare la foto.
-    - Se hai selezionato **Scegli immagine** , seleziona un'immagine dall'elenco.
+    - Se hai selezionato **Scatta foto**, viene aperta la fotocamera del tuo dispositivo mobile, in modo da poter scattare una foto della ricevuta. Quando hai finito di scattare la foto, seleziona **OK** per accettare la foto.
+    - Se hai selezionato **Scegli immagine**, seleziona un'immagine dall'elenco.
 
 10. Seleziona **Fatto**.
 
@@ -177,24 +175,24 @@ Scarica e installa l'app per dispositivi mobili Dynamics 365 Unified Ops:
     1. Seleziona **Acquisisci ricevuta** o **Allega ricevuta**.
     2. Segui uno di questi passaggi:
 
-        - Se hai selezionato **Acquisisci ricevuta** , segui questi passaggi:
+        - Se hai selezionato **Acquisisci ricevuta**, segui questi passaggi:
 
             1. Seleziona **Scatta foto** o **Scegli immagine**.
             2. Segui uno di questi passaggi:
 
-                - Se hai selezionato **Scatta foto** , segui questi passaggi:
+                - Se hai selezionato **Scatta foto**, segui questi passaggi:
 
                     1. Viene aperta la fotocamera del tuo dispositivo mobile, in modo da poter scattare una foto della ricevuta. Quando hai finito di scattare la foto, seleziona **OK** per accettare la foto.
                     2. Facoltativo: inserisci un nome per la foto e inserisci eventuali note.
 
-                - Se hai selezionato **Scegli immagine** , segui questi passaggi:
+                - Se hai selezionato **Scegli immagine**, segui questi passaggi:
 
                     1. Seleziona un'immagine dall'elenco.
                     2. Facoltativo: inserisci un nome per l'immagine e inserisci eventuali note.
 
             3.  Seleziona **Fatto**.
 
-        - Se hai selezionato **Allega ricevuta** , segui questi passaggi:
+        - Se hai selezionato **Allega ricevuta**, segui questi passaggi:
 
             1.  Nell'elenco seleziona una o più immagini.
             2.  Seleziona **Fatto**.
@@ -203,22 +201,22 @@ Scarica e installa l'app per dispositivi mobili Dynamics 365 Unified Ops:
 
 18. Se i criteri aziendale richiedono gli ospiti per la spesa, seleziona **Guest** e quindi segui questi passaggi:
 
-    1. Seleziona **Guest** , **Guest precedenti** o **Colleghi**.
+    1. Seleziona **Guest**, **Guest precedenti** o **Colleghi**.
     2. Segui uno di questi passaggi:
 
-        - Se hai selezionato **Guest** , segui questi passaggi:
+        - Se hai selezionato **Guest**, segui questi passaggi:
 
             1. Immettere il nome del guest.
             2. Facoltativo: inserisci l'organizzazione e/o il paese del guest.
             3. Facoltativo: immetti la posizione del guest.
             4. Seleziona **Fatto**.
 
-        - Se hai selezionato **Guest precedenti** , segui questi passaggi:
+        - Se hai selezionato **Guest precedenti**, segui questi passaggi:
 
             1. Seleziona uno o più guest precedenti nell'elenco. Viene visualizzato un elenco dei guest precedenti che hai aggiunto alle note spese precedenti caricate nella tua app per l'utilizzo offline. Per impostazione predefinita, vengono caricati 50 elementi, ma uno sviluppatore può modificare questo numero. Per altre informazioni, gli sviluppatori possono fare riferimento a [Piattaforma per dispositivi mobili](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Se il guest precedente non è nell'elenco, seleziona **Cerca** per eseguire una ricerca online. Cerca per nome o passa alla ricerca per organizzazione, paese o posizione.
             2. Seleziona **Fatto**.
 
-        - Se hai selezionato **Collaboratori** , segui questi passaggi:
+        - Se hai selezionato **Collaboratori**, segui questi passaggi:
 
             1. Seleziona uno o più collaboratori nell'elenco. Viene visualizzato l'elenco dei collaboratori caricati nella tua app per l'utilizzo offline. Per impostazione predefinita, vengono caricati 50 elementi, ma uno sviluppatore può modificare questo numero. Per altre informazioni, gli sviluppatori possono fare riferimento a [Piattaforma per dispositivi mobili](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Se il collaboratore non è nell'elenco, seleziona **Cerca** per eseguire una ricerca online. Cerca per nome o passa alla ricerca per società o posizione.
             2. Seleziona **Fatto**.

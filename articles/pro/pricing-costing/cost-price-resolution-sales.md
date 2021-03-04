@@ -5,15 +5,16 @@ author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3fedf7b577e2372fb10ea85ea1e3caa9bf2f5ad0
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: d2afaa2231f4044dbcbfa24b91aec39289275a91
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176796"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764598"
 ---
 # <a name="resolve-cost-prices-on-estimates-and-actuals---lite"></a>Risoluzione dei prezzi di costo in stime e valori effettivi - semplice
 
@@ -25,7 +26,7 @@ Per risolvere i prezzi di costo e il listino prezzi di costo per le stime e i va
 
 Le righe di stima per tempo si riferiscono ai dettagli della riga di offerta e contratto per le assegnazioni di tempo e risorse di un progetto.
 
-Dopo che un listino prezzi di costo è stato risolto, il sistema utilizza i campi **Ruolo** e **Unità gestione risorse** nella riga di stima affinché il tempo corrisponda alle righe di prezzo del ruolo nel listino prezzi. Questa corrispondenza presuppone che tu stia utilizzando dimensioni di determinazione del prezzo predefinite per il costo del lavoro. Se hai configurato il sistema per abbinare i campi al posto o in aggiunta a **Ruolo** e **Unità gestione risorse**, verrà utilizzata una combinazione diversa per recuperare una riga di prezzo del ruolo corrispondente. Se l'applicazione trova una riga di prezzo del ruolo con una tariffa di costo per la combinazione **Ruolo** e **Unità gestione risorse**, questa riga è la tariffa di costo predefinita. Se l'applicazione non può corrispondere ai valori **Ruolo** e **Unità gestione risorse** recupera le righe di prezzo del ruolo con un ruolo corrispondente, eccetto i valori nulli di **Unità gestione risorse**. Quando un record di prezzo del ruolo corrispondente è disponibile, la tariffa di costo viene impostata per impostazione predefinita da quel record. 
+Dopo che un listino prezzi di costo è stato risolto, i campo **Ruolo** e **Unità risorse** nella riga di stima per Ora vengono confrontati con le righe di prezzo del ruolo nel listino prezzi. Questa corrispondenza presuppone che tu stia utilizzando le dimensioni di prezzo standard per il costo del lavoro. Se hai configurato il sistema per abbinare i campi al posto o in aggiunta a **Ruolo** e **Unità gestione risorse**, verrà utilizzata una combinazione diversa per recuperare una riga di prezzo del ruolo corrispondente. Se l'applicazione trova una riga di prezzo del ruolo con una tariffa di costo per la combinazione **Ruolo** e **Unità gestione risorse**, questa riga è la tariffa di costo predefinita. Se l'applicazione non può corrispondere ai valori **Ruolo** e **Unità gestione risorse** recupera le righe di prezzo del ruolo con un ruolo corrispondente, eccetto i valori nulli di **Unità gestione risorse**. Quando un record di prezzo del ruolo corrispondente è disponibile, la tariffa di costo viene impostata per impostazione predefinita da quel record. 
 
 > [!NOTE]
 > Se configuri una diversa priorità di **Ruolo** e **Unità gestione risorse** oppure se hai altre dimensioni con priorità più alta, questo comportamento cambia di conseguenza. Il sistema recupera i record del prezzo del ruolo con i valori che corrispondono a ciascuno dei valori della dimensione del prezzo in ordine di priorità con le righe che hanno valori nulli per quelle dimensioni che arrivano per ultime.
@@ -34,4 +35,4 @@ Dopo che un listino prezzi di costo è stato risolto, il sistema utilizza i camp
 
 Le righe di stima per spesa si riferiscono ai dettagli della riga di offerta e contratto per le righe di stima di spesa e spese di un progetto.
 
-Dopo che un listino prezzi di costo è stato risolto, il sistema utilizza una combinazione dei campi **Categoria** e **Unità** nella riga di stima per affinché una spesa corrisponda alle righe **Prezzo categoria** nel listino prezzi risolto. Se il sistema trova una riga di prezzo di categoria con una tariffa di costo per la combinazione di campi **Categoria** e **Unità**, questa riga è la tariffa di costo predefinita. Se il sistema non può abbinare il valori **Categoria** e **Unità** o se è in grado di trovare una riga di prezzo di categoria corrispondente ma il metodo di determinazione del prezzo non è **Prezzo per unità**, per impostazione predefinita la tariffa di costo è impostata su zero (0).
+Dopo che un listino prezzi di costo è stato risolto, il sistema utilizza una combinazione dei campi **Categoria** e **Unità** nella riga della stima delle spese da confrontare con le righe **Prezzo di categoria** del listino prezzi risolto. Se il sistema trova una riga di prezzo di categoria con una tariffa di costo per la combinazione di campi **Categoria** e **Unità**, questa riga è la tariffa di costo predefinita. Se il sistema non può abbinare i valori **Categoria** e **Unità** o se è in grado di trovare una riga di prezzo della categoria corrispondente ma il metodo di determinazione del prezzo non è **Prezzo per unità**, il tasso di costo predefinito è zero (0).

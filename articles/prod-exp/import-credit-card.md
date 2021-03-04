@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 6cec15e436bc699e361577c970dd5845c6c68908
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 7bf75c13bb190c7b992aa516f1593d886dfa604d
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079029"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960432"
 ---
 # <a name="import-and-maintain-credit-card-transactions"></a>Importare e gestire le transazioni con carta di credito
-
-[!include [banner](../includes/banner.md)]
 
 Le transazioni con carta di credito relative alle spese possono essere impostate in modo che vengano importate automaticamente in base a una pianificazione ricorrente. In alternativa, le transazioni possono essere importate manualmente in base alle necessità. Le transazioni con carta di credito vengono importate tramite l'entità di dati Transazioni con carta di credito.
 
@@ -38,7 +36,7 @@ Per ulteriori informazioni sulle entità dati vedi [Entità dati](https://docs.m
 1. Nella pagina **Transazioni con carta di credito** seleziona **Importa transazioni**. Se stai aprendo la gestione dei dati per la prima volta, il sistema deve aggiornare l'elenco delle entità di dati prima di poter continuare.
 2. Nella campo **Nome** immetti una descrizione univoca per il processo di importazione.
 3. Nel campo **Formato dei dati di origine** seleziona il formato del file che contiene le transazioni della carta di credito da importare.
-4. Seleziona **Carica** , quindi trova e seleziona il file da importare.
+4. Seleziona **Carica**, quindi trova e seleziona il file da importare.
 5. Dopo che il file è stato caricato, convalida la mappatura del file di transazione della carta di credito e le colonne dell'entità di dati delle transazioni della carta di credito selezionando il collegamento **Visualizza mappa** sul riquadro. Se sono presenti errori di mappatura o se è necessario modificare la mappatura, apporta le modifiche alla mappatura dalla scheda **Visualizzazione della mappatura** o dalla scheda **Dettagli della mappatura**.
 6. Per automatizzare le transazioni con carta di credito, seleziona **Crea processo dati ricorrente**. Quindi puoi impostare la ricorrenza che definisce la frequenza con cui devono essere importate le transazioni con carta di credito. Al termine, seleziona **OK**.
 7. Per importare ora il file selezionato, seleziona **Importa**.

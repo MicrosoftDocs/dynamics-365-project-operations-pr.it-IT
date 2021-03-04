@@ -16,16 +16,14 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 825b6c131c8a65b99d5b7ebdadcd6389886f2d11
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d6b9d4fa0f69b4b0fe4bd1786958d22e5580a321
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079025"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960882"
 ---
 # <a name="personal-expenses-on-an-expense-report"></a>Spese personali in una nota spese
-
-[!include [banner](../includes/banner.md)]
 
 Durante i viaggi di lavoro, i lavoratori a volte potrebbero addebitare le spese personali sulle loro carte di credito aziendali. Se non si definisce un processo per la gestione delle spese personali, il processo di approvazione per le note spese potrebbe essere interrotto quando i lavoratori inviano le proprie note spese dettagliate. 
 

@@ -1,9 +1,9 @@
 ---
-title: Sincronizzare i progetti e i contratti del progetto direttamente da Project Service Automation a Finance and Operations
+title: Sincronizzare i contratti di progetto e i progetti direttamente da Project Service Automation a Finance
 description: Questo argomento descrive il modello e le attività sottostanti che vengono utilizzati per sincronizzare i progetti e i contratti del del progetto direttamente da Microsoft Dynamics 365 Project Service Automation a Dynamics 365 Finance.
 author: Yowelle
 manager: AnnBe
-ms.date: 09/09/2019
+ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 0b3bc159fff25c4f6e5b1ed1b2eabbba675fb0f5
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 1a470fd86ceccd7b6058da6972399a6d6be2a991
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642638"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764824"
 ---
-# <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Sincronizzare i progetti e i contratti del progetto direttamente da Project Service Automation a Finance and Operations
+# <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Sincronizzare i contratti di progetto e i progetti direttamente da Project Service Automation a Finance 
 
 [!include[banner](../includes/banner.md)]
 
@@ -53,24 +53,24 @@ Per accedere ai modelli disponibili, nell'interfaccia di amministrazione di Micr
 I modelli seguenti e le attività sottostanti vengono utilizzati per sincronizzare i progetti e i contratti di progetto da Project Service Automation a Finance:
 
 ### <a name="integrating-with-dynamics-365-project-service-automation-v2x"></a>Integrazione con Dynamics 365 Project Service Automation v2.x
-- **Nome del modello in Integrazione dati:** Progetti e contratti (da PSA a Fin e Ops)
+- **Nome del modello in Integrazione dati:** Progetti e contratti (da Project Service Automation a Finance)
 - **Nome delle attività nel progetto:**
 
-    - Contratti di progetto PSA con Fin e Ops
-    - Progetti PSA con Fin e Ops
-    - Voci di contratto di progetto PSA con Fin e Ops
-    - Fasi di voci di contratto di progetto PSA con Fin e Ops
+    - Contratti di progetto da Project Service Automation a Finance
+    - Progetti da Project Service Automation a Finance
+    - Righe di contratto di progetto da Project Service Automation a Finance
+    - Passaggi fondamentali righe di contratto di progetto da Project Service Automation a Finance
   
 ### <a name="integrating-with-dynamics-365-project-service-automation-v3x"></a>Integrazione con Dynamics 365 Project Service Automation v3.x
 È stata apportata una modifica allo schema in Project Service Automation che influisce sul modello di fase della riga del contratto di progetto e l'utilizzo della versione v2 del modello è necessario per integrare Project Service Automation v3.x con Dynamics 365.
 
-- **Nome del modello in Integrazione dati:** Progetti e contratti (da PSA 3.x a Fin e Ops) - v2
+- **Nome del modello in Integrazione dati:** Progetti e contratti (da Project Service Automation 3.x a Finance) - v2
 - **Nome delle attività nel progetto:**
 
-    - Contratti di progetto PSA con Fin e Ops
-    - Progetti PSA con Fin e Ops
-    - Voci di contratto di progetto PSA con Fin e Ops
-    - Fasi di voci di contratto di progetto PSA con Fin e Ops
+    - Contratti di progetto da Project Service Automation a Finance
+    - Progetti da Project Service Automation a Finance
+    - Righe di contratto di progetto da Project Service Automation a Finance
+    - Passaggi fondamentali righe di contratto di progetto da Project Service Automation a Finance
 
 Prima di sincronizzare i contratti di progetto e i progetti, è necessario sincronizzare gli account.
 
@@ -87,7 +87,8 @@ Prima di sincronizzare i contratti di progetto e i progetti, è necessario sincr
 
 I contratti di progetto vengono gestiti in Project Service Automation e vengono sincronizzati con Finance come contratti di progetto. Come parte del modello di integrazione, puoi impostare l'origine dell'integrazione in Finance per il contratto di progetto.
 
-I progetti di tempistica e materiali e i progetti a prezzo fisso vengono gestiti in Project Service Automation e vengono sincronizzati con Finance come progetti. Come parte dell'integrazione del modello, puoi impostare l'origine dell'integrazione in Finance per il progetto.
+I progetti tempi e materiali e prezzo fisso vengono gestiti in Project Service Automation e sincronizzati con Finance come progetti. Come parte dell'integrazione del modello, puoi impostare l'origine dell'integrazione per il progetto in Finance. Attualmente, sono supportati solo progetti tempo e materiali e prezzo fisso.
+
 
 Le voci di contratto di progetto vengono gestite in Project Service Automation e vengono sincronizzate con Finance come regole di fatturazione del contratto di progetto. Se il metodo di fatturazione è diverso dal tipo di progetto predefinito, la sincronizzazione aggiorna il tipo di progetto per il progetto della voce di contratto e il gruppo di progetti.
 
@@ -122,7 +123,7 @@ Quando viene applicata la soluzione di integrazione da Project Service Automatio
 
 ## <a name="power-query"></a>Power Query
 
-Dev iutilizzare Microsoft Power Query per Excel per filtrare i dati se sono soddisfatte le seguenti condizioni:
+Utilizza Microsoft Power Query per Excel per filtrare i dati se sono soddisfatte le seguenti condizioni:
 
 - Hai ordini cliente in Dynamics 365 Sales.
 - Hai più unità organizzative in Project Service Automation e queste unità organizzative verranno associate a più persone giuridiche in Finance.
@@ -130,7 +131,7 @@ Dev iutilizzare Microsoft Power Query per Excel per filtrare i dati se sono sodd
 Se devi utilizzare Power Query, segui queste linee guida:
 
 - Il modello Progetti e contratti (da PSA a Fin e Ops) ha un filtro predefinito che include solo gli ordini di vendita del tipo **Elemento di di lavoro (msdyn\_ordertype = 192350001)**. Questo filtro consente di garantire che i contratti di progetto non vengano creati per gli ordini di vendita in Finance. Se crei il tuo modello, devi aggiungere questo filtro.
-- Devi creare un filtro Power Query che includa solo le organizzazioni contrattuali che devono essere sincronizzate con la persona giuridica del set di connessione di integrazione. Ad esempio, i contratti di progetto che hai con l'unità organizzativa del contratto di Contoso US devono essere sincronizzati con la persona giuridica USSI, ma i contratti di progetto che hai con l'unità organizzativa del contratto di Contoso Global devono essere sincronizzati con la persona giuridica USMF. Se non aggiungi questo filtro al mapping delle attività, tutti i contratti di progetto verranno sincronizzati con la persona giuridica definita per il set di connessione, indipendentemente dall'unità organizzativa del contratto.
+- Crea un filtro Power Query che includa solo le organizzazioni di contratto che devono essere sincronizzate con la persona giuridica del set di connessione di integrazione. Ad esempio, i contratti di progetto che hai con l'unità organizzativa del contratto di Contoso US devono essere sincronizzati con la persona giuridica USSI, ma i contratti di progetto che hai con l'unità organizzativa del contratto di Contoso Global devono essere sincronizzati con la persona giuridica USMF. Se non aggiungi questo filtro al mapping delle attività, tutti i contratti di progetto verranno sincronizzati con la persona giuridica definita per il set di connessione, indipendentemente dall'unità organizzativa del contratto.
 
 ## <a name="template-mapping-in-data-integration"></a>Mapping dei modelli nell'integrazione dei dati
 

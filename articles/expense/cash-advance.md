@@ -3,19 +3,19 @@ title: Anticipo in contanti
 description: In questo argomento vengono fornite informazioni sugli anticipi di contanti.
 author: suvaidya
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 02/01/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c5839fbdab58903555936324139b76f4c94b6c35
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 58864790720824cecad8ce1ff7ff0a335a42cc03
+ms.sourcegitcommit: 7aa0b7fb22213d8baa2d69efece9a636d9f62493
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122754"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "5098889"
 ---
 # <a name="cash-advance"></a>Anticipo in contanti
 
@@ -24,8 +24,9 @@ _**Si applica a:** Project Operations per scenari basati su risorse/materiali no
 Un anticipo in contanti consente ai dipendenti di prendere in prestito denaro dalla propria azienda prima di sostenere eventuali spese. Quando un anticipo in contanti richiesto viene approvato e pagato, il dipendente può utilizzare il denaro per le spese aziendali che potrebbero essere in procinto di sostenere. 
 
 ## <a name="create-and-submit-a-cash-advance-request"></a>Creare e inviare una richiesta di anticipo contanti
+Per creare un nuovo anticipo in contanti e inviare una richiesta di anticipo in contanti, procedi come segue: 
 
-1. In **Le mie spese**, seleziona **Anticipi contanti** > **Nuovo** per creare un nuovo anticipo contanti. 
+1. Sotto **Spese personali**, seleziona **Anticipi in contati** > **Nuovo**. 
 2. Nella pagina **Nuova richiesta di anticipo contanti**, inserisci lo scopo della spesa e seleziona la posizione in cui verrà sostenuta la spesa.
 3. Immetti l'importo e la valuta richiesti, quindi seleziona **Salva**. 
 4. Quando sei pronto per inviare la richiesta di anticipo contanti, nella pagina **Richiesta di anticipo contanti**, seleziona **Flusso di lavoro** > **Invia**.
@@ -34,7 +35,7 @@ Un anticipo in contanti consente ai dipendenti di prendere in prestito denaro da
 
 È possibile modificare una richiesta di anticipo contanti se non è stata inviata per l'approvazione.
 
-1. In **Le mie spese: anticipi in contanti** individua e seleziona l'anticipo in contanti che si desidera modificare.
+1. Sotto **Spese personali: Anticipi in contanti** individua e selezion l'anticipo in contanti che vuoi modificare.
 2. Seleziona **Modifica** e apporta le modifiche necessarie alla richiesta di anticipo in contanti. 
 3. Seleziona **Salva e chiudi**.
 
@@ -57,7 +58,8 @@ La procedura seguente viene in genere completata da un contabile o un utente con
 
 ## <a name="submit-an-expense-report-against-a-paid-cash-advance"></a>Inviare una nota spese a fronte di un anticipo contanti pagato 
 
-Quando crei e invii una nota spese per l'anticipo contanti che hai già ricevuto, le spese verranno automaticamente adeguate a tale anticipo. Se il tuo anticipo in contanti è maggiore dell'importo speso, devi restituire il saldo alla società utilizzando la categoria di spesa **Restituisci anticipi contanti**. Se l'anticipo contanti pagato dall'azienda è inferiore all'importo che hai speso, l'azienda deve rimborsarti il saldo. 
+Quando crei e invii una nota spese per l'anticipo in contanti che hai già ricevuto, le spese verranno automaticamente adeguate all'anticipo. Se il tuo anticipo in contanti è maggiore dell'importo speso, devi restituire il saldo alla società utilizzando la categoria di spesa **Restituisci anticipi contanti**. Se l'anticipo in contanti pagato dall'azienda è inferiore all'importo che hai speso, l'azienda deve rimborsarti il saldo. 
 
 ### <a name="example"></a>Esempio
-Stai pianificando di viaggiare per una conferenza da Seattle a New York City. Crei una richiesta di anticipo contanti per 3000,00 USD poiché hai stimato che il costo del biglietto della conferenza, dei voli, dell'hotel, del vitto e del taxi sia approssimativamente questo importo. Non verrai pagato a meno che il tuo responsabile non abbia approvato questa richiesta. Dopo che il tuo responsabile ha approvato, l'anticipo in contanti richiesto viene pagato come 3000,00 USD sul tuo conto bancario. Quindi partecipi alla conferenza. Dopo aver completato il tuo viaggio, scopri che la spesa totale era solo 2790,00 USD. Seleziona **Contanti** nel campo **Metodo di pagamento** e invia la tua spesa per 2790,00 USD. L'importo della spesa inviato viene rettificato automaticamente in base all'anticipo in contanti di 3000,00 USD che ti è stato prestato. Ora devi un saldo di 210,00 USD (3000,00-2790,00) all'azienda, che puoi restituire utilizzando la categoria di spesa **Restituisci anticipi contanti**. 
+Hai intenzione di viaggiare da Seattle a New York City per una conferenza. Crei una richiesta di anticipo in contanti per 3000,00 USD in base al costo stimato del biglietto della conferenza, dei voli, dell'hotel, dei pasti e del taxi. Non verrai pagato a meno che il tuo manager non approvi questa richiesta. Dopo che il tuo responsabile ha approvato, l'anticipo in contanti richiesto viene pagato come 3000,00 USD sul tuo conto bancario. Quindi partecipi alla conferenza. Dopo aver completato il tuo viaggio, scopri che la spesa totale era solo 2790,00 USD. Seleziona **Contante** nel campo **Metodo di pagamento** e invia la tua spesa per 2790,00 USD. L'importo della spesa inviato viene rettificato automaticamente in base all'anticipo in contanti di 3000,00 USD che ti è stato prestato. Ora devi un saldo di 210,00 USD (3000,00 - 2790,00), che puoi restituire all'azienda utilizzando la categoria di spesa **Restituisci contante**.
+

@@ -5,22 +5,23 @@ author: stsporen
 manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 6c5ef2a45e8141bda38baf3eaf0a403d6db95e48
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d946a8dcbf3b2369631d83e80788eed4904be95d
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122842"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764914"
 ---
 # <a name="expense-home-page"></a>Home page di Spesa
 
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
 
-Dynamics 365 Project Operations supporta la possibilità di elaborare le spese. L'elaborazione delle spese avviene con o senza progetti utilizzando un flusso di lavoro personalizzabile di criteri, categorie di transazioni e approvazioni.
+Dynamics 365 Project Operations supporta la capacità di elaborare le spese. L'elaborazione delle spese avviene con o senza progetti utilizzando un flusso di lavoro personalizzabile di criteri, categorie di transazioni e approvazioni.
 
 In Project Operations, sono disponibili due modelli di distribuzione supportati per spesa: 
 
@@ -28,7 +29,7 @@ In Project Operations, sono disponibili due modelli di distribuzione supportati 
 - **Di base**: la distribuzione di base è disponibile per **Project Operations per scenari basati su risorse/materiali non stoccati** e **Distribuzione semplice: dalla transazione alla fatturazione proforma**.
 
 ## <a name="full"></a>Completa 
-La distribuzione completa della spesa garantisce la piena applicazione dei criteri che include la possibilità di creare criteri, come:
+L'implementazione Spesa completa fornisce un'applicazione completa dei criteri che include la possibilità di creare criteri, come:
 
   - Limiti di categoria di spesa
   - Viaggi
