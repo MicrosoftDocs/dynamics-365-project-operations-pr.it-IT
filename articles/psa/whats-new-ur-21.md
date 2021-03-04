@@ -17,14 +17,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 799be481c365e82e8ffb59ba242e30378644008b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b1194c1cf1997b68030fe88360c6ebb756c715fd
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4126713"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147028"
 ---
 # <a name="project-service-automation-update-release-21-v3"></a>Versione di aggiornamento di Project Service Automation 21, V3
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Siamo lieti di annunciare l'ultimo aggiornamento per l'applicazione Project Service Automation per Dynamics 365. Questa versione include alcuni importanti miglioramenti in termini di qualità, prestazioni e usabilità. Questa versione è compatibile con Dynamics 365 9.x. Per eseguire l'aggiornamento a questa versione, visita l'interfaccia di amministrazione di Dynamics 365 online e vai alla pagina delle soluzioni per installare l'aggiornamento. Per ulteriori informazioni, vedere [Installare, aggiornare o rimuovere una soluzione preferita](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
 
