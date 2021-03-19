@@ -16,12 +16,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 13c429763fa805fae5324e4dcf1bf7669e842281
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 6a94bd143b0d0dad2a08511a34e592a057b6d2a1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4126310"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5291804"
 ---
 # <a name="actuals"></a>Valori effettivi 
 
@@ -70,7 +70,7 @@ La voce basata su categoria dei prezzi predefiniti unitari nelle voci di spesa n
 Puoi utilizzare i giornali di registrazione per registrare costi o ricavi nelle classi di materiali, imposte, tempo, spese o transazioni fiscali. I giornali di registrazione possono per gli scopi seguenti:
 
 - Registra il costo effettivo dei materiali e le vendite in un progetto.
-- Sposta i valori effettivi della transazione da un altro sistema a Microsoft Dynamics 365 Project Operations.
+- Sposta i valori effettivi di transazioni da un altro sistema in Microsoft Dynamics 365 Project Operations.
 - Registra i costi che si sono verificati in un altro sistema. Questi costi possono includere costi di approvvigionamento o subappalto.
 
 > [!IMPORTANT]

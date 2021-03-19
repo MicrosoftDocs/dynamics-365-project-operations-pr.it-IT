@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6f4360b7febab57b97df0776ef9148d2a38f16a7
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 44edf2613ea4b26dadbd9edc47c784c488c577de
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175896"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5290049"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Iscriversi a un abbonamento di anteprima - semplice 
 
-Questo argomento spiega come iscriversi all'offerta per i partner di anteprima e applicare la distribuzione semplice di Dynamics 365 Project Operations: accordo per la fatturazione proforma.
+Questo argomento spiega come iscriversi all'offerta di anteprima per i partner e implementare la distribuzione semplice Dynamics 365 Project Operations: dalla transazione alla fatturazione proforma.
 
 > [!NOTE]
 > Questo processo cambierà nelle prossime versioni di Project Operations.
@@ -32,17 +32,17 @@ Questo argomento spiega come iscriversi all'offerta per i partner di anteprima e
 
 Quando ricevi l'approvazione per una [richiesta di anteprima](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u), riceverai due offerte da Microsoft tramite e-mail. Queste offerte consentono di distribuire l'anteprima di Project Operations:
 
-- Dynamics 365 Project Operations (CRM): versione di valutazione di anteprima
+- Versione di valutazione di Dynamics 365 Project Operations (CRM).
 - Office 365 Project Operations - Versione di valutazione di anteprima
 
 > [!IMPORTANT]
 > Solo una persona, l'amministratore del tenant, in un'organizzazione deve eseguire questa attività. Se non sei abbonato a questa versione, attendi fino a quando la tua organizzazione non è stata iscritta e hai ricevuto le credenziali utente.
 
-### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM): versione di valutazione di anteprima 
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Versione di valutazione di Dynamics 365 Project Operations (CRM). 
 
 Prima di iniziare, assicurati di aver effettuato l'accesso a un browser con l'account utente di lavoro nel tenant in cui desideri l'anteprima di Project Operations.
 
-1. Riscatta il primo codice dell'offerta, **Dynamics 365 Project Operations (CRM) - Versione di valutazione di anteprima** incollandolo nell'URL del browser.
+1. Riscatta il primo codice offerta,**Dynamics 365 Project Operations (CRM) - Versione di valutazione** incollandolo nell'URL del browser.
 
 ![Riscattare l'offerta](./media/16RedeemFirstOfferNew.png)
 
@@ -71,7 +71,7 @@ Ripeti gli stessi passaggi del primo codice dell'offerta. Assicurati di aggiunge
 
 ![Assegnare licenze](./media/15AssignLicenses.png)
 
-3. Verifica che le licenze **Anteprima di Dynamics 365 Project Operations (CRM)** e **Office 365 Project Operations - Anteprima** siano selezionate. 
+3. Verifica che le licenze **Dynamics 365 Project Operations (CRM) Anteprima** e **Office 365 Project Operations - Anteprima** siano selezionate. 
 4. Seleziona **Salva modifiche**.
 
 ## <a name="create-a-new-cds-environment"></a>Creare un nuovo ambiente CDS
