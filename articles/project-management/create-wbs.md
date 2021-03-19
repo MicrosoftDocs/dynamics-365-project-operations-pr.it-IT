@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d7fa645e78d2206e333d9f85fcec0f7a9c213c23
-ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
+ms.openlocfilehash: 695bbc2ae1ba1e762472b5f5fa853c89017d2f52
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4841358"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287018"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Creare una struttura di suddivisione del lavoro
 
@@ -92,6 +92,8 @@ La tabella seguente mostra gli attributi di pianificazione aggiuntivi.
 | Venga avviato | Data e ora di inizio. |
 | Nome | Nome dell'attività. |
 | ID | L'ID dell'attività nella struttura di suddivisione del lavoro. |
+
+In qualità di amministratore, puoi definire campi personalizzati nell'entità dell'attività. Tuttavia, i campi non possono essere visualizzati nella griglia di pianificazione. Per vedere i tuoi campi personalizzati, aggiungili alla pagina dei dettagli **Attività di progetto**.
 
 ## <a name="staffing-attributes"></a>Attributi di assegnazione del personale
 

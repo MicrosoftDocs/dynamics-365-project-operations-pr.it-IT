@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: ffe3373184c8cd776bf3705fd674bedf221d9b77
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 0021147530d1aa9f82cc54ca8c92b9977c1eea2c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4133371"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287243"
 ---
 # <a name="integration-journal-in-project-operations"></a>Giornale di registrazione integrazione in Project Operations
 
@@ -30,7 +30,7 @@ I record nel giornale di registrazione integrazione Project Operations vengono c
 Quando viene eseguito il processo periodico, vengono trovati tutti i valori effettivi che non sono stati ancora aggiunti al giornale di registrazione di integrazione Project Operations. Viene creata una riga di giornale di registrazione per ogni transazione effettiva.
 Il sistema raggruppa le righe del giornale di registrazione in giornali separati in base al valore selezionato nel campo **Unità periodo nel giornale di registrazione di integrazione Project Operations** (**Finance** > **Gestione progetti e contabilità** > **Configurazione** > **Gestione progetti e parametri contabili**, scheda **Project Operations in Dynamics 365 Customer Engagement**). I valori possibili per questo campo includono:
 
-  - _*Giorni**: i valori effettivi sono raggruppati per data di transazione. Per ogni giorno viene creato un giornale di registrazione separato.
+  - **Giorni**: i valori effettivi sono raggruppati per data di transazione. Per ogni giorno viene creato un giornale di registrazione separato.
   - **Mesi**: i valori effettivi sono raggruppati per mese di calendario. Per ogni mese viene creato un giornale di registrazione separato.
   - **Anni**: i valori effettivi sono raggruppati per anno di calendario. Per ogni anno viene creato un giornale di registrazione separato.
   - **Tutto**: tutte le transazioni effettive sono incluse nello stesso giornale di registrazione di integrazione. Se il giornale di registrazione non è disponibile durante l'esecuzione del processo periodico, ad esempio se il giornale di registrazione è in fase di registrazione delle transazioni, viene creato un nuovo giornale di registrazione.

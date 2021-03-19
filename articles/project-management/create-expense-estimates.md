@@ -8,17 +8,17 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 10872366453985561bda0c07e50cff7f5f6d333e
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 3f0429366c69346113003355679c055cd2c74ca3
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131708"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287063"
 ---
 # <a name="expense-estimates"></a>Stime di spesa
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
-Oltre a definire le stime basate sulle risorse, Dynamics 365 Project Operations consente ai Project manager di definire le spese basate sul progetto per ogni progetto. Ogni voce di spesa può essere associata a una specifica attività di progetto o categoria di spesa. Le categorie di spesa sono generalmente definite a livello organizzativo. I prezzi per ciascuna categoria di spesa sono generalmente definiti nella seguente gerarchia:
+Oltre a definire stime basate su risorse, Dynamics 365 Project Operations consente ai responsabili di progetto di definire le spese basate su progetto per ogni progetto. Ogni voce di spesa può essere associata a una specifica attività di progetto o categoria di spesa. Le categorie di spesa sono generalmente definite a livello organizzativo. I prezzi per ciascuna categoria di spesa sono generalmente definiti nella seguente gerarchia:
 
 - Azienda
 - Cliente

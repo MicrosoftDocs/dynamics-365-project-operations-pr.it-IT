@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 47bb5671c7b80c0e96f3f65e9c4d25f6da8184a5
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 4398ef44d4211a2921270bebe38fc92f18503854
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131978"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287648"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Configurare la contabilità per i progetti fatturabili
 
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
-Dynamics 365 Project Operations supporta varie opzioni di contabilità per progetti fatturabili che includono transazioni di tempo, materiale e prezzo fisso.
+Dynamics 365 Project Operations supporta varie opzioni di contabilità per progetti fatturabili che includono transazioni di tempistica e materiali e prezzo fisso.
 
 - **Transazioni temporali e materiali**: queste transazioni vengono fatturate man mano che il lavoro procede in base al consumo di ore, spese, articoli o commissioni sul progetto. Questi costi di transazione possono essere associati ai ricavi di ciascuna transazione e il progetto viene fatturato man mano che il lavoro procede. I ricavi del progetto possono inoltre essere maturati anche nel momento in cui si verifica la transazione. Durante la fatturazione, i ricavi vengono riconosciuti e, se applicabile, i ratei attivi vengono stornati.
 - **Transazioni a prezzo fisso**: queste transazioni vengono fatturate in base a un programma di fatturazione basato sul contratto di progetto. I ricavi per transazioni a prezzo fisso possono essere riconosciuti alla fatturazione o calcolati e registrati periodicamente, in base ai metodi **Contratto completato** o **Percentuale completata**.
