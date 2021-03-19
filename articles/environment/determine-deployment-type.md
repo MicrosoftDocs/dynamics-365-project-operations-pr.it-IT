@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: e9d3a5d8e6e1daafac72a3b4c0380b679d1869bd
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.openlocfilehash: 2da6af3240d8e561d01b1fcd8d32b657dbac1588
+ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401223"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5479569"
 ---
 # <a name="determine-your-deployment-type"></a>Determinare il tipo di distribuzione
 
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
 > [!IMPORTANT]
-> Dopo aver acquistato la licenza, inizia qui per determinare il miglior modello di distribuzione di Dynamics 365 Project Operations utilizzando il [flusso di installazione guidata](https://aka.ms/provisionprojectoperations).
+> Dopo aver acquistato la licenza, inizia da qui per determinare il miglior modello di distribuzione di Dynamics 365 Project Operations usando il [Flusso di installazione guidato](https://aka.ms/provisionprojectoperations).
 > Dopo aver completato il flusso di installazione guidata, verrai indirizzato al portale di gestione corretto per completare l'installazione. Vedi i dettagli di distribuzione per completare l'installazione.
 
 
@@ -31,6 +31,9 @@ Project Operations include le funzionalità fornite con Project Service Automati
 
 I clienti esistenti di Finance che utilizzano la funzionalità Gestione progetti e contabilità possono continuare a utilizzarlo così com'è. Vedi [Project Operations per scenari di materiali stoccati/ordini di produzione](#pma).
 
+
+## <a name="deployment-regions"></a>Aree di distribuzione
+Per determinare quali aree supportano la distribuzione di Project Operations, vedi [Disponibilità geografica per report Dynamics 365 e Power Platform](https://dynamics.microsoft.com/en-us/geographic-availability/). Seleziona **Visualizza report** ed espandi **Dynamics 365 > App per le operazioni > Dynamics 365 Project Operations** per visualizzare le aree supportate.
 
 ## <a name="deployment-types"></a>Tipi di distribuzione
 Project Operations supporta più opzioni di distribuzione per soddisfare le tue esigenze. Che tu sia un cliente Dynamics 365 nuovo o esistente, Project Operations può supportare le tue esigenze.

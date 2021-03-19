@@ -3,17 +3,17 @@ title: Comportamento dell'interfaccia utente per l'inserimento ore
 description: In questo argomento vengono fornite informazioni sul comportamento dell'interfaccia utente per l'inserimento ore.
 author: stsporen
 manager: AnnBe
-ms.date: 10/05/2020
+ms.date: 03/03/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 8719e2f9ee4867f17ed75142eca2115f61e37999
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b552266eddc4efc1b41fc500d157239388ad219b
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124508"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499619"
 ---
 # <a name="time-entry-ui-behavior"></a>Comportamento dell'interfaccia utente per l'inserimento ore
 
@@ -21,6 +21,19 @@ _**Si applica a:** Project Operations per scenari basati su risorse/materiali no
 
 
 La griglia **Inserimento ore settimanale** è un controllo personalizzato con due sezioni principali, **Dimensioni** e **Durata**.
+
+## <a name="keyboard-shortcuts"></a>Scelte rapide da tastiera
+| Azione        | Collegamento                  |
+|------------   |------------------------   |
+| Nuovo elemento           | ALT + MAIUSC + N           |
+| Copia riga      | ALT + MAIUSC + C           |
+| Modifica inserimento    | ALT + MAIUSC + E           |
+| Modifica riga      | ALT + MAIUSC + CTROL + E    |
+| Apri inserimento    | ALT + MAIUSC + O           |
+| Invio        | ALT + MAIUSC + S           |
+| Richiamo        | ALT + MAIUSC + R           |
+| CANC        | ALT + MAIUSC + D           |
+| Copia settimana     | ALT + MAIUSC + W           |
 
 ## <a name="dimensions"></a>Dimensioni
 La sezione **Dimensioni** visualizza le dimensioni per le quali è possibile inserire le ore. Le seguenti dimensioni sono supportate per impostazione predefinita:

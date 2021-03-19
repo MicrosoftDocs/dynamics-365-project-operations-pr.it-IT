@@ -1,9 +1,9 @@
 ---
 title: Note spese riprogettate
-description: Questo argomento fornisce informazioni sull'esperienza riprogettata e reinventata per l'inserimento della nota spese.
+description: Questo argomento illustra l'esperienza riprogettata e reinventata per l'inserimento della nota spese.
 author: suvaidya
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 03/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 18d7407681906361f3f818225efb8510ac981d98
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: aaa7dd24915982cf137b5959f2f4c244b9c1e012
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122799"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499721"
 ---
 # <a name="expense-reports-reimagined"></a>Note spese riprogettate
 
@@ -59,25 +59,22 @@ Il video [Esperienza di spesa in Dynamics 365 for Finance and Operations](https:
 | Riduzione dei messaggi nella barra dei messaggi| Il numero di messaggi Infolog è stato ridotto e in molti casi è stato fatto uno sforzo per impedire la visualizzazione di messaggi duplicati. |
 | Azioni comuni raggruppate | L'interfaccia è stata ripulita con l'aggiunta di un nuovo pulsante di azioni per la maggior parte delle azioni comuni a livello di riga e l'aggiunta di un pulsante con i puntini di sospensione (...) per l'intestazione e altre azioni meno frequenti. |
 | Nuova area di lavoro per aumentare la visibilità | Una nuova area di lavoro unifica funzionalità e collegamenti che consentono agli utenti di spostarsi in aree diverse. |
-| Aggiungere le spese e le ricevute esistenti durante la creazione delle spese | Quando si creano note spese, è possibile aggiungere le spese e le ricevute selezionate o tutte. |
+| Aggiungere le spese e le ricevute esistenti durante la creazione delle spese | Quando crei le note spese, puoi aggiungere tutte le spese o selezionare le spese non associate. Le spese non collegate sono spese importate dal feed della carta di credito aziendale oppure spese che hai creato manualmente ma non associato a una nota spese.|
 | Calcolatore del tasso di cambio | Viene aggiunto un calcolatore del tasso di cambio che consente di calcolare il tasso di cambio per le transazioni multivaluta vive. |
 | Salvare e aggiungere nuove righe di spesa | I pulsanti **Salva** e **Nuovo** sono disponibili quando vengono inserite nuove spese, per aiutarti a inserire rapidamente le righe di spesa. |
 | Migliore visibilità nelle righe suddivise e dettagliate | Le righe dettagliate e suddivise vengono aggiunte direttamente all'elenco delle spese per aumentare la visibilità e aiutarti a determinare facilmente se ci sono errori. |
 | Mostrare le ricevute durante la classificazione | Le ricevute possono essere mostrate durante la classificazione. |
+| Selezione anticipo in contanti | Seleziona uno o più anticipi in contanti per completare una singola transazione di spesa. |
+| Saldo anticipo in contanti | Esamina il saldo dell'anticipo in contati in tempo reale quando crei una voce di spesa a fronte di anticipi in contanti approvati e pagati. |
 
 La versione iniziale si concentra sugli scenari di registrazione delle spese. Qualsiasi scenario di revisione o approvazione della nota spese continuerà a utilizzare la pagina di registrazione delle spese esistente.
 
-Le seguenti funzionalità sono presenti nella pagina esistente ma non sono ancora presenti nella nuova pagina. Queste funzionalità verranno reintrodotte nelle prossime versioni:
+Le seguenti funzionalità non sono supportate nell'area di lavoro di spesa riprogettata:
 
-- Approvazioni
-- Approvazione contabilità fornitori e possibilità di modificare la contabilità
-- Più punti di ingresso
 - Integrazione della richiesta di viaggio
-- Entità di dati per la visibilità del campo di spesa
-- Inserimento delle spese giornaliere
-- Flusso di lavoro a livello di riga
+- Immissione delle spese giornaliere
 - Supporto per approvatori provvisori
-- Classificazione avanzata
+- Possibilità di visualizzare la cronologia del flusso di lavoro
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
