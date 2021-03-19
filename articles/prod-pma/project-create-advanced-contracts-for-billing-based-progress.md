@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 1a83785a9db4dffc4585acf11ef971c08594f312
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b1de330df8cf85ed30c0ee4e4f2f2fe74d05dbff
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079005"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289509"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Creare contratti avanzati per la fatturazione in base allo stato di avanzamento
 [!include [banner](../includes/banner.md)]
@@ -94,13 +94,13 @@ Le categorie di budget vengono usate per calcolare automaticamente gli importi d
 ## <a name="create-billing-rules-for-progress-billings"></a>Creare regole di fatturazione per la fatturazione in corso
 
 1. Vai a **Gestione progetti e contabilità** \> **Progetti** \> **Contratti di progetto**.
-2. Nella pagina elenco **Contratti di progetto** , seleziona e apri un contratto di progetto.
+2. Nella pagina elenco **Contratti di progetto**, seleziona e apri un contratto di progetto.
 3. Nella pagina del contratto di progetto, nella scheda dettaglio **Regole di fatturazione** seleziona **Aggiungi**.
 4. Nella pagina **Regola di fatturazione** nel campo **Tipo di riga** seleziona **Avanzamento**.
 5. Nella scheda dettaglio **Dettagli riga regola di fatturazione** nel campo **Valore di contratto** immetti il valore totale del contratto.
 6. Nel campo **Categoria** seleziona la categoria in cui registrare la transazione relativa alle commissioni.
 7. Nel campo **Progetto** seleziona il progetto che utilizza questa regola di fatturazione.
-8. Facoltativo: assegna la regola di fatturazione a progetti aggiuntivi. Nella scheda dettaglio **Progetto** nella sezione **Progetti disponibili** , seleziona un progetto, quindi seleziona il pulsante freccia destra per aggiungere il progetto alla sezione **Progetti selezionati**.
+8. Facoltativo: assegna la regola di fatturazione a progetti aggiuntivi. Nella scheda dettaglio **Progetto** nella sezione **Progetti disponibili**, seleziona un progetto, quindi seleziona il pulsante freccia destra per aggiungere il progetto alla sezione **Progetti selezionati**.
 9. Facoltativo: calcola l'importo percentuale che il cliente trattiene dai pagamenti su una fattura. Nella scheda dettaglio **Condizioni di trattenimento dei pagamenti** seleziona la fonte di finanziamento, quindi nel campo **Percentuale di trattenimento** inserisci la percentuale di trattenimento.
 10. Ripetere questi passaggi per creare regole di fatturazione aggiuntive per il contratto di progetto.
 

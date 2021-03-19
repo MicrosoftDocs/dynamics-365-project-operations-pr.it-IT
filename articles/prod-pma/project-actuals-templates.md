@@ -1,6 +1,6 @@
 ---
 title: Sincronizzare i valori effettivi del progetto direttamente da Project Service Automation con il giornale di registrazione dell'integrazione del progetto per la registrazione in Finance and Operations
-description: Questo argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare i valori effettivi del progetto direttamente da Microsoft Dynamics 365 Project Service Automation a Finance and Operations.
+description: Questo argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare i valori effettivi del progetto direttamente da Microsoft Dynamics 365 Project Service Automation con Finance and Operations.
 author: Yowelle
 manager: AnnBe
 ms.date: 07/20/2018
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: cff62e739e88dc45e7c3d1ea044875f0600f2bc1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11ccbd64c37341b2969e10e9a737f1aa4b4a61f9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079008"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289689"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Sincronizzare i valori effettivi del progetto direttamente da Project Service Automation con il giornale di registrazione dell'integrazione del progetto per la registrazione in Finance and Operations
 
@@ -50,7 +50,7 @@ La figura seguente mostra come i dati vengono sincronizzati tra Project Service 
 
 ### <a name="template-and-tasks"></a>Modelli e attività
 
-Per accedere ai modelli disponibili, nell'interfaccia di amministrazione di Microsoft Power Apps, seleziona **Progetti** , quindi, nell'angolo in alto a destra, seleziona **Nuovo progetto** per selezionare modelli pubblici.
+Per accedere ai modelli disponibili, nell'interfaccia di amministrazione di Microsoft Power Apps, seleziona **Progetti**, quindi, nell'angolo in alto a destra, seleziona **Nuovo progetto** per selezionare modelli pubblici.
 
 Il modello seguente e le attività sottostanti vengono utilizzati per sincronizzare i valori effettivi di progetto da Project Service Automation a Finance:
 
@@ -88,7 +88,7 @@ Nel modello dei valori effetti di progetto, è necessario utilizzare Microsoft P
 #### <a name="contract-organizational-unit"></a>Unità organizzativa del contratto
 Per aggiornare la colonna condizionale inserita nel modello, fai clic sula freccia **Mappa** per aprire il mapping. Seleziona il collegamento **Filtro e query avanzati** per aprire Power Query.
 
-- Se stai utilizzando il modello di valori effettivi del progetto predefinito (da PSA a Fin e Ops), in Power Query seleziona l'ultima **Condizione inserita** dalla sezione **Passaggi applicati**. Nella voce **Funzione** , sostituisci **USSI** con il nome della persona giuridica da utilizzare con l'integrazione. Aggiungi condizioni aggiuntive alla voce **Funzione** come richiesto e aggiorna la condizione **else** da **USMF** alla persona giuridica corretta.
+- Se stai utilizzando il modello di valori effettivi del progetto predefinito (da PSA a Fin e Ops), in Power Query seleziona l'ultima **Condizione inserita** dalla sezione **Passaggi applicati**. Nella voce **Funzione**, sostituisci **USSI** con il nome della persona giuridica da utilizzare con l'integrazione. Aggiungi condizioni aggiuntive alla voce **Funzione** come richiesto e aggiorna la condizione **else** da **USMF** alla persona giuridica corretta.
 - Se stai creando un nuovo modello, devi aggiungere la colonna per supportare i tempi e le spese interaziendali. Seleziona **Aggiungi colonna condizionale** e inserisci un nome per la nuova colonna, ad esempio **LegalEntity**. Immetti una condizione per la colonna, dove, se **msdyn\_contractorganizationalunitid.msdyn\_name** è \<organizational unit\>, quindi \<enter the legal entity\>; in caso contrario null.
 
 ### <a name="template-mapping-in-data-integration"></a>Mapping dei modelli nell'integrazione dei dati

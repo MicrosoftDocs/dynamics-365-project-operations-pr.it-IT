@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 26e013ab99e9a0aeafe25916715ce0ee024df3f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1f601be072e84fc04246cd55a260c8004f6fb3e5
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079009"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289734"
 ---
 # <a name="transfer-project-budgets-at-fiscal-year-end"></a>Trasferire i budget di progetto alla fine dell'anno fiscale
 
@@ -59,17 +59,17 @@ Quando elabori gli importi di budget residuo, puoi creare transazioni nella cont
 2. Nella pagina **Processo di riporto in avanti di budget di progetto** seleziona **Fine anno** e quindi abilita **Riporto in avanti degli importi rimanenti di budget del progetto** e **Crea voci del registro di budget nella contabilità generale**. 
 3. Nella scheda **Parametri** nel gruppo di campi **Parametri di progetto** seleziona quanto segue:
 
-   - **Anno budget di progetto** : seleziona l'inizio dell'anno fiscale per cui desideri visualizzare gli importi di budget residuo. 
-   - **Profitti e perdite** : crea transazioni di profitti e perdite nella contabilità generale. 
-   -  **WIP** : crea transazioni WIP (Work in Progress) nella contabilità generale.
-   -  **Retribuzioni** : crea transazioni di allocazione retribuzioni nella contabilità generale. 
+   - **Anno budget di progetto**: seleziona l'inizio dell'anno fiscale per cui desideri visualizzare gli importi di budget residuo. 
+   - **Profitti e perdite**: crea transazioni di profitti e perdite nella contabilità generale. 
+   -  **WIP**: crea transazioni WIP (Work in Progress) nella contabilità generale.
+   -  **Retribuzioni**: crea transazioni di allocazione retribuzioni nella contabilità generale. 
 
-5. Nel gruppo di campi **Contabilità generale** , immetti le seguenti informazioni: 
+5. Nel gruppo di campi **Contabilità generale**, immetti le seguenti informazioni: 
 
    - Nel campo **Apertura anno fiscale** seleziona l'anno fiscale a cui desideri trasferire l'importo di budget residuo per i progetti. Il valore predefinito è un anno dopo il valore del campo **Anno budget di progetto**.
    -  Nel campo **Periodo riporto in avanti** seleziona il periodo per il quale vuoi creare i dettagli del registro di budget nella contabilità generale. Questo è in genere il primo periodo dell'apertura anno fiscale.
 
-6. Nel gruppo di campi **Copia da/a** , immetti le seguenti informazioni:
+6. Nel gruppo di campi **Copia da/a**, immetti le seguenti informazioni:
 
    - Nel campo **Da modello di previsione** seleziona il modello di previsione di budget del progetto associato agli importi di budget residuo che vuoi trasferire per i progetti. 
    - Nel campo **A modello di budget di contabilità generale** seleziona il modello di budget di contabilità generale associato agli importi che vuoi trasferire alla contabilità generale. 
@@ -89,7 +89,7 @@ Quando elabori gli importi di budget residuo, puoi creare transazioni nella cont
 1. Vai a **Gestione progetti e contabilità** > **Periodico** > **Budget** > **Riporto in avanti di budget**.
 2. Nella pagina **Processo di riporto in avanti di budget di progetto** nel campo **Opzioni fine anno** seleziona **Riporto in avanti degli importi rimanenti di budget del progetto**.
 3. Nel gruppo **Parametri** nel campo **Anno budget di progetto** seleziona l'anno fiscale per cui desideri visualizzare gli importi di budget residuo.
-4. Nel gruppo **Copia da/a** , immetti le seguenti informazioni:
+4. Nel gruppo **Copia da/a**, immetti le seguenti informazioni:
 
    - Nel campo **Da modello di previsione** seleziona il modello di previsione di budget del progetto associato agli importi di budget residuo che vuoi trasferire per i progetti. 
    - Seleziona **Mostra rimanenti a zero** per includere progetti che soddisfano i criteri selezionati ma non hanno importi di budget residuo.

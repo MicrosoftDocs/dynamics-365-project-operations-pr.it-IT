@@ -20,12 +20,12 @@ ms.search.industry: public sector
 ms.author: andchoi
 ms.search.validFrom: 2020-4-01
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: eaf523ab147cbe974fed6e7eab21967404583fe6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 70dff12c106723dda801668412cfd084c462db4b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078860"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288969"
 ---
 # <a name="schedule-of-expenditures-of-federal-awards-inquiry"></a>Richiesta Schedule of Expenditures of Federal Awards
 
@@ -62,7 +62,7 @@ La richiesta include le sovvenzioni con le date di proiezione comprese nell'inte
 ## <a name="set-up-grants-to-report-for-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Impostare sovvenzioni da dichiarare per la richiesta Schedule of Expenditures of Federal Awards
 
 1. Vai a **Gestione progetti e contabilità \> Sovvenzioni \> Sovvenzioni** e seleziona una sovvenzione esistente.
-2. Nella scheda dettaglio **Impostazione** nel campo **Catalog of Federal Domestic Assistance** assegna il numero CFDA. Il numero CFDA sulla sovvenzione determina il cluster CFDA per la dichiarazione.
+2. Nella scheda dettaglio **Impostazione** nel campo **Catalog of Federal Domestic Assistance** assegna il numero CFDA. Il numero CFDA sulla sovvenzione determina il cluster CFDA per la dichiarazione.
 3. Nella scheda dettaglio **Informazioni sul contatto** immetti le informazioni sul concedente procedendo nel seguente modo:
 
     1. Nel campo **Cliente sovvenzione** inserisci il cliente responsabile della sovvenzione. Per una sovvenzione esistente, queste informazioni potrebbero essere già state inserite.
@@ -79,8 +79,8 @@ Il governo federale ha finanziato un progetto infrastrutturale per uno stato. Il
 
 ## <a name="exclude-grants-from-sefa-reporting-based-on-the-grant-type"></a>Escludere le sovvenzioni dalla dichiarazione SEFA in base al tipo di sovvenzione
 
-1. Vai a **Gestione progetti e contabilità \> Imposta \> Concessioni \> Tipi di concessione**.
-2. Nella scheda dettaglio **Informazioni predefinite** seleziona la casella di controllo **Escludi da Schedule of Expenditures of Federal Awards**.
+1. Vai a **Gestione progetti e contabilità \> Imposta \> Concessioni \> Tipi di concessione**.
+2. Nella scheda dettaglio **Informazioni predefinite** seleziona la casella di controllo **Escludi da Schedule of Expenditures of Federal Awards**.
 3. Selezionare **Salva** per salvare le modifiche.
 
 ## <a name="run-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Eseguire la richiesta Schedule of Expenditures of Federal Awards

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7eec8ad5d78019219b2e04ca75eeaa5a3c8a748f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0bf146c3bfb2fd558c471d8a9e980834cb1b87df
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079048"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288744"
 ---
 # <a name="set-up-project-resources"></a>Configurare le risorse di progetto
 
@@ -37,11 +37,11 @@ Le seguenti procedure spiegano come configurare un lavoratore come risorsa di pr
 
 ## <a name="set-up-a-worker-as-a-project-resource"></a>Configurare un lavoratore come risorsa del progetto
 
-1. Nella pagina **Lavoratori** pagina, nell'elenco **Lavoratori** , seleziona il lavoratore che stai aggiungendo come risorsa del progetto e apri il record del lavoratore.
+1. Nella pagina **Lavoratori** pagina, nell'elenco **Lavoratori**, seleziona il lavoratore che stai aggiungendo come risorsa del progetto e apri il record del lavoratore.
 2. Nel riquadro azioni seleziona **Progetto**&gt; **Imposta** &gt;**Impostazione progetto**.
 3. Seleziona un calendario e quindi chiudi la pagina.
 
-Puoi inoltre specificare progetti predefiniti per una risorsa come tipo di pre-assegnazione. Le pre-assegnazioni possono essere utilizzate quando il responsabile delle risorse o il project manager sa in anticipo su quali progetti lavorerà la risorsa. Le pre-assegnazioni possono anche essere basate sulla richiesta di uno sponsor del progetto o di un cliente. Per pre-assegnare un progetto, nella pagina **Assegna progetti** , nella scheda **Progetti** , nell'elenco **Progetti rimanenti** , seleziona il progetto appropriato.
+Puoi inoltre specificare progetti predefiniti per una risorsa come tipo di pre-assegnazione. Le pre-assegnazioni possono essere utilizzate quando il responsabile delle risorse o il project manager sa in anticipo su quali progetti lavorerà la risorsa. Le pre-assegnazioni possono anche essere basate sulla richiesta di uno sponsor del progetto o di un cliente. Per pre-assegnare un progetto, nella pagina **Assegna progetti**, nella scheda **Progetti**, nell'elenco **Progetti rimanenti**, seleziona il progetto appropriato.
 
 ## <a name="set-up-an-intercompany-resource"></a>Configurare una risorsa interaziendale
 
@@ -50,16 +50,16 @@ Quando si configura un lavoratore come risorsa interaziendale, devi completare l
 ### <a name="in-the-lending-company"></a>Nella società mutuante
 
 1. In Finance, verifica che la società mutuante sia selezionata, quindi completa la procedura nella sezione precedente, "Configurare un lavoratore come risorsa di progetto".
-2. Nella pagina **Contabilità interaziendale** , seleziona **Nuovo**.
-3. Nel campo **ID persona giuridica** , seleziona la società mutuante. Compila i campi rimanenti come necessario e quindi seleziona **Salva**.
-4. Nella pagina **Prezzo di trasferimento** , seleziona **Nuovo**.
-5. Nel campo **Persona giuridica richiedente** , seleziona la società appropriata.
-6. Per prestare alla società mutuataria solo la risorsa che hai creato all'inizio di questa sezione, nel campo **Risorsa** , seleziona il nome della risorsa che hai creato. Per rendere disponibili alla società mutuataria tutte le risorse della società mutuante, lascia vuoto il campo **Risorsa**.
-7. Nella pagina **Parametri Gestione progetti e contabilità** , nella scheda **Interaziendale** , imposta l'opzione **Abilita programmazione risorse interaziendale e fogli presenze** su **Sì**.
+2. Nella pagina **Contabilità interaziendale**, seleziona **Nuovo**.
+3. Nel campo **ID persona giuridica**, seleziona la società mutuante. Compila i campi rimanenti come necessario e quindi seleziona **Salva**.
+4. Nella pagina **Prezzo di trasferimento**, seleziona **Nuovo**.
+5. Nel campo **Persona giuridica richiedente**, seleziona la società appropriata.
+6. Per prestare alla società mutuataria solo la risorsa che hai creato all'inizio di questa sezione, nel campo **Risorsa**, seleziona il nome della risorsa che hai creato. Per rendere disponibili alla società mutuataria tutte le risorse della società mutuante, lascia vuoto il campo **Risorsa**.
+7. Nella pagina **Parametri Gestione progetti e contabilità**, nella scheda **Interaziendale**, imposta l'opzione **Abilita programmazione risorse interaziendale e fogli presenze** su **Sì**.
 
 ### <a name="in-the-borrowing-company"></a>Nella società mutuataria
 
-- Nella pagina **Elenco risorse** , nel filtro di ricerca, inserisci il nome della risorsa che hai creato per la società mutuante, per verificare che il nome sia incluso nell'elenco delle risorse per la società mutuataria.
+- Nella pagina **Elenco risorse**, nel filtro di ricerca, inserisci il nome della risorsa che hai creato per la società mutuante, per verificare che il nome sia incluso nell'elenco delle risorse per la società mutuataria.
 
 ## <a name="request-project-resources"></a>Richiedere risorse di progetto
 La funzionalità per la pianificazione delle risorse di progetto consente solo ai responsabili delle risorse di distribuire le risorse con personale su impegni o progetti. Per abilitare questa funzionalità, completa le seguenti attività o verifica che siano state completate:

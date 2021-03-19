@@ -18,18 +18,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: ec0d53e9d294b12be9af9bb03885a45b68fb3388
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9952336c395d98eb776190f92062fffcfb31556b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078852"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288098"
 ---
 # <a name="transfer-a-quotation-to-a-project"></a>Trasferire un'offerta a un progetto
 
 [!include [banner](../includes/banner.md)]
 
-Quando un'offerta di progetto ha lo stato **Confermato** , puoi trasferire alcune o tutte le righe di offerta a un progetto nuovo o esistente utilizzando la procedura guidata **Trasferisci al progetto**. 
+Quando un'offerta di progetto ha lo stato **Confermato**, puoi trasferire alcune o tutte le righe di offerta a un progetto nuovo o esistente utilizzando la procedura guidata **Trasferisci al progetto**. 
 
 Per usare la procedura guidata, segui questi passaggi.
 

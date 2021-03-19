@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: b9cbd84ecb0d71a99982e158d7e0ea1e236fb369
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: db035bfd555d724f80156d0b50df7c0d0bfaff27
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079049"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288834"
 ---
 # <a name="project-timesheet-mobile-application"></a>Applicazione per dispositivi mobili Foglio presenze progetto
 
@@ -60,11 +60,11 @@ Se esiste un foglio presenze per la data corrente, verrà visualizzato. Se devi 
 
 Puoi inserire le informazioni sul progetto facendo clic sull'azione **Aggiungi tempo** o l'azione **Copia tempo da**. L'azione **Copia tempo da** copierà le informazioni sulla riga del progetto, ma non le ore. Il menu **Copia tempo da** include le seguenti opzioni:
 
-- **Copia da foglio presenze esistente** : copia le righe del foglio presenze da un foglio presenze esistente.
+- **Copia da foglio presenze esistente**: copia le righe del foglio presenze da un foglio presenze esistente.
 
-- **Copia dai preferiti** : crea nuove righe del foglio presenze utilizzando le impostazioni del foglio presenze selezionate come preferiti.
+- **Copia dai preferiti**: crea nuove righe del foglio presenze utilizzando le impostazioni del foglio presenze selezionate come preferiti.
 
-- **Copia da assegnazione** : crea nuove righe del foglio presenze dai progetti assegnati.
+- **Copia da assegnazione**: crea nuove righe del foglio presenze dai progetti assegnati.
 
 Le informazioni sul progetto visualizzate dipendono dai parametri mobili definiti nella pagina **Parametri Gestione progetti e contabilità**.
 
@@ -72,17 +72,17 @@ Nel campo **Persona giuridica** seleziona la persona giuridica per la quale è s
 
 Seleziona il cliente associato al progetto per il foglio presenze. Per la versione iniziale su Android, l'immissione per cliente non è supportata, poiché è necessario prima selezionare il progetto. Se hai selezionato prima il progetto, il campo **Cliente** viene compilato automaticamente.
 
-Nel campo **Progetto** , seleziona il progetto per il quale stai immettendo l'ora. Il campo **Cliente** viene compilato automaticamente.
+Nel campo **Progetto**, seleziona il progetto per il quale stai immettendo l'ora. Il campo **Cliente** viene compilato automaticamente.
 
 Le ricerche di clienti e progetti consentono la ricerca tra clienti e progetti.
 
-Seleziona le informazioni nei campi **Categoria** , **Impegno** , **Proprietà riga** , **Gruppo IVA** e **Gruppo IVA articolo** in base alle esigenze. Questi campi possono essere sovrascritti.
+Seleziona le informazioni nei campi **Categoria**, **Impegno**, **Proprietà riga**, **Gruppo IVA** e **Gruppo IVA articolo** in base alle esigenze. Questi campi possono essere sovrascritti.
 
 Il campo **Proprietà riga** verrà impostato su un valore predefinito, in base ai paramteri di gestione del progetto e contabili. Quando i parametri progetto/categoria e categoria/risorsa sono abilitati, il valore **Proprietà riga** verrà impostato sul valore predefinito definito per questa convalida. Quando i parametri progetto/categoria e categoria/risorsa non sono abilitati, il valore **Proprietà riga** sarà predefinito in base al campi **Abilita proprietà riga predefinite** nella pagina **Parametri Gestione progetti e contabilità**. Il valore **Proprietà riga** può essere sovrascritto.
 
 Seleziona un giorno per aggiungere tempo. Immetti il numero di ore lavorate ogni giorno.
 
-Per aggiungere commenti sulle ore immesse, fai clic su **Aggiungi commenti** , quindi inserisci i commenti per un gruppo di destinatari interno, gruppo di destinatari del cliente o entrambi.
+Per aggiungere commenti sulle ore immesse, fai clic su **Aggiungi commenti**, quindi inserisci i commenti per un gruppo di destinatari interno, gruppo di destinatari del cliente o entrambi.
 I commenti interni possono essere visualizzati dai project manager. I commenti dei clienti sono inclusi nelle fatture.
 
 Per salvare la riga come preferita, seleziona la casella di controllo e quindi fai clic su **Salva come preferito**.
@@ -95,7 +95,7 @@ Fai clic su **Invia** per inviare il foglio presenze al flusso di lavoro di appr
 
 ## <a name="review-timesheets"></a>Rivedere i fogli presenze
 
-Nel menu è disponibile un elenco dei fogli presenze che devono essere rivisti. Questa opzione è disponibile solo se sei stato designato come approvatore del flusso di lavoro. Sono supportate sia l'intestazione che l'approvazione della riga. L'approvazione a livello di riga offre la possibilità di contrassegnare una o più righe per l'approvazione. Dopo aver esaminato le informazioni sulla scheda attività, fai clic su **Approva** , **Delega** o **Restituisci** per continuare il flusso di lavoro.
+Nel menu è disponibile un elenco dei fogli presenze che devono essere rivisti. Questa opzione è disponibile solo se sei stato designato come approvatore del flusso di lavoro. Sono supportate sia l'intestazione che l'approvazione della riga. L'approvazione a livello di riga offre la possibilità di contrassegnare una o più righe per l'approvazione. Dopo aver esaminato le informazioni sulla scheda attività, fai clic su **Approva**, **Delega** o **Restituisci** per continuare il flusso di lavoro.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

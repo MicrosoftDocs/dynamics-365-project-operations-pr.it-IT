@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.14
 ms.search.validFrom: 2020-09-01
-ms.openlocfilehash: c3f219ce0635545976a6a4639233f166e18468af
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 34c31570778f9b64c23387112cf56fa1139cd0fd
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078859"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289014"
 ---
 # <a name="project-resource-scheduling-performance"></a>Prestazioni della pianificazione delle risorse di progetto
 
@@ -34,7 +34,7 @@ ms.locfileid: "4078859"
 I problemi di prestazioni relativi alla pianificazione delle risorse possono verificarsi quando il numero di progetti raggiunge le migliaia. Per migliorare le prestazioni della pianificazione delle risorse, è disponibile una funzione che consente agli utenti di ridurre il tempo necessario per aprire il modulo di disponibilità delle risorse. In particolare, viene rimosso il processo di sincronizzazione di roll-up della capacità delle risorse e viene utilizzata la tabella **ResProjectResource** per velocizzare la ricerca delle risorse. Nota che la tabella **ResRollup** non verrà più utilizzata.
 
 > [!IMPORTANT]
-> Se esiste una dipendenza dal processo di sincronizzazione di roll-up della capacità delle risorse o dalla tabella **ResProjectResource** , non utilizzare questa funzione.
+> Se esiste una dipendenza dal processo di sincronizzazione di roll-up della capacità delle risorse o dalla tabella **ResProjectResource**, non utilizzare questa funzione.
 
 ## <a name="enable-resource-scheduling-performance-enhancement"></a>Abilitare il miglioramento delle prestazioni della pianificazione delle risorse
 Per abilitare il miglioramento delle prestazioni della pianificazione delle risorse, completa i seguenti passaggi.
@@ -54,7 +54,7 @@ Per abilitare il miglioramento delle prestazioni della pianificazione delle riso
  > [!NOTE]
  > Verranno distribuiti i dati generali della tabella **ResCalendarCapacity** in tutte le società nel tuo ambiente, quindi il processo batch deve essere eseguito solo in una persona giuridica. I dati in questo processo batch sono necessari per calcolare la capacità delle risorse tramite il calendario associato.
 
-8. Vai a **Gestione progetti e contabilità** > **Periodico** > **Risorse di progetto** > **Popola risorse di progetto in tutte le società** e poi seleziona **OK**. Questo è lo script di aggiornamento dei dati per i dati generali nelle tabelle **ResProjectResource** , **ResCalendarDateTimeRange** e **ResEffectiveDateTimeRange**. Anche i valori per il campo **PSAPRojSchedRole.RootActivity** vengono aggiornati. Se lo script non viene eseguito, riceverai un avviso quando proverai a eseguire le operazioni di pianificazione delle risorse.
+8. Vai a **Gestione progetti e contabilità** > **Periodico** > **Risorse di progetto** > **Popola risorse di progetto in tutte le società** e poi seleziona **OK**. Questo è lo script di aggiornamento dei dati per i dati generali nelle tabelle **ResProjectResource**, **ResCalendarDateTimeRange** e **ResEffectiveDateTimeRange**. Anche i valori per il campo **PSAPRojSchedRole.RootActivity** vengono aggiornati. Se lo script non viene eseguito, riceverai un avviso quando proverai a eseguire le operazioni di pianificazione delle risorse.
  
 ## <a name="turn-off-resource-scheduling-performance-enhancement"></a>Disattivare il miglioramento delle prestazioni della pianificazione delle risorse
 

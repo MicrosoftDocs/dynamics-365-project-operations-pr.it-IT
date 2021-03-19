@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 89801696d6a2924d78c85f6e9b4281409222dbb0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: dfd91e859244cc03b9b358b057bded79eeea0182
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079057"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289374"
 ---
 # <a name="project-grants"></a>Concessioni di progetto
 
@@ -77,7 +77,7 @@ Puoi creare una concessione inserendo tutti i dettagli in un nuovo record oppure
 
 1. Vai a **Gestione progetti e contabilità** \> **Concessioni** \> **Concessioni**.
 2. Seleziona la concessione da modificare.
-3. Nel riquadro azioni, nella scheda **Concessione** , nel gruppo **Mantieni** , seleziona **Modifica**.
+3. Nel riquadro azioni, nella scheda **Concessione**, nel gruppo **Mantieni**, seleziona **Modifica**.
 4. Rivedi i dettagli della concessione e apporta le modifiche necessarie.
 
 

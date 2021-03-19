@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: e872c4a2d35cef4cddc6851615c6c4d73b4e9d9a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f2469c8396eb4867b435f70b046aa421552d0fa1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078855"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288606"
 ---
 # <a name="set-up-and-use-pay-when-paid-vendor-payments"></a>Impostare e utilizzare i pagamenti del fornitore con pagamento su pagamento
 
@@ -50,11 +50,11 @@ Quando imposti le condizioni di pagamento su pagamento per un progetto, devi spe
 1. Vai a **Gestione progetti e contabilità** \> **Progetti** \> **Tutti i progetti**.
 2. Trova e apri il progetto per il quale desideri impostare le condizioni di pagamento su pagamento.
 3. Nella scheda dettaglio **Contratti fornitori** seleziona **Aggiungi riga**.
-3. Nel campo **Codice conto** , seleziona una delle seguenti opzioni:
+3. Nel campo **Codice conto**, seleziona una delle seguenti opzioni:
 
-    - **Tabella** : le condizioni di pagamento su pagamento si applicano a un singolo fornitore.
-    - **Gruppo** : le condizioni di pagamento su pagamento si applicano a tutti i fornitori in un gruppo di fornitori.
-    - **Tutto** : le condizioni di pagamento su pagamento si applicano a tutti i fornitori.
+    - **Tabella**: le condizioni di pagamento su pagamento si applicano a un singolo fornitore.
+    - **Gruppo**: le condizioni di pagamento su pagamento si applicano a tutti i fornitori in un gruppo di fornitori.
+    - **Tutto**: le condizioni di pagamento su pagamento si applicano a tutti i fornitori.
 
 4. Se hai selezionato **Tabella** o **Gruppo** nel passaggio precedente, in **Fornitore/Gruppo di fornitori** seleziona il fornitore o il gruppo di fornitori a cui si applicano le condizioni di pagamento su pagamento. Se hai selezionato **Tutti** nel passaggio precedente, il campo **Fornitore/Gruppo di fornitori** non può essere modificato.
 5. Se le condizioni di conservazione del fornitore sono impostate per il fornitore nel progetto, nel campo **Condizioni di conservazione fornitore** seleziona l'ID regola per le condizioni di conservazione.
@@ -77,7 +77,7 @@ Quando registri una fattura da un fornitore, se il fornitore è soggetto alle co
 Quando un fornitore completa il suo lavoro su un progetto e ti invia una fattura, devi rivedere lo stato del progetto e le fatture del cliente per determinare se le condizioni di pagamento su pagamento sono stati rispettati per il progetto. Se le condizioni di pagamento su pagamento per il fornitore sono stati soddisfatte, è possibile determinare quali righe della fattura fornitore pagare, in base ai pagamenti del cliente per il progetto. Se decidi di pagare il fornitore anche se le condizioni di pagamento su pagamento non sono stati rispettate, puoi sovrascrivere le condizioni di pagamento su pagamento nella pagina **Fattura fornitore con condizioni di pagamento su pagamento**.
 
 1. Vai a **Gestione progetti e contabilità** \> **Richieste e report** \> **Richieste di conservazione** \> **Fattura fornitore con pagamento su pagamento**.
-2. Nella pagina **Fatture fornitore con pagamento su pagamento** , nel campo di ricerca, immetti i valori per trovare la fattura fornitore che desideri esaminare, quindi seleziona **Cerca**.
+2. Nella pagina **Fatture fornitore con pagamento su pagamento**, nel campo di ricerca, immetti i valori per trovare la fattura fornitore che desideri esaminare, quindi seleziona **Cerca**.
 3. Nella scheda dettaglio **Righe fattura fornitore** seleziona le righe che vuoi modificare.
 4. Se le condizioni di **pagamento su pagamento** sono soddisfatte per la riga della fattura, seleziona **Rilascia pagamento fornitore**. L'opzione **Pagamento su pagamento** viene deselezionata e il valore del campo **Pronto per il pagamento** viene modificato in **Sì**.
 

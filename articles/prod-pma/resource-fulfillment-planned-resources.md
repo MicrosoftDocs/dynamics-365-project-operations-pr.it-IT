@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d849e7bdd020b0a2f5f35a627e28434ea77e5fb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 4200d74a18c706a492ebd0e5383d5957ce6ab6c8
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079047"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288789"
 ---
 # <a name="resource-fulfillment-for-planned-resources"></a>Soddisfazione delle risorse per le risorse pianificate
 
@@ -31,15 +31,15 @@ ms.locfileid: "4079047"
 
 Un project manager può pianificare i ruoli delle risorse richieste per un progetto. Il responsabile delle risorse vedrà queste risorse pianificate come richieste nella pagina **Possibilità di soddisfare la capacità delle risorse** e può assegnare risorse effettive.
 
-1. Nella pagina **Tutti i progetti** , seleziona il progetto **Fase di aggiornamento XYZ 2**.
+1. Nella pagina **Tutti i progetti**, seleziona il progetto **Fase di aggiornamento XYZ 2**.
 2. Seleziona **Progetto** e quindi seleziona **Modifica**.
-3. Nella scheda **Team progetto e programmazione** , seleziona **Aggiungi**.
-4. Nella finestra di dialogo **Aggiungi ruoli** , seleziona il ruolo **Sviluppatore software**.
+3. Nella scheda **Team progetto e programmazione**, seleziona **Aggiungi**.
+4. Nella finestra di dialogo **Aggiungi ruoli**, seleziona il ruolo **Sviluppatore software**.
 5. Seleziona **Crea** e quindi chiudi la pagina del progetto.
-6. Nella pagina **Soddisfazione risorse** , seleziona **Sviluppatore software 1** per il progetto **Progetto di aggiornamento XYZ Fase 2**.
+6. Nella pagina **Soddisfazione risorse**, seleziona **Sviluppatore software 1** per il progetto **Progetto di aggiornamento XYZ Fase 2**.
 7. Seleziona un ruolo di lavoro e quindi seleziona **Assegna**.
 8. Verifica che la riga per **Sviluppatore software 1** sia stata rimossa per il progetto **Progetto di aggiornamento XYZ Fase 2**.
-9. Nella scheda **Team progetto e programmazione** , per il progetto **Aggiornamento XYZ fase 2** , verifica che il ruolo di lavoro selezionato nel passaggio precedente sia stato aggiunto come **Sviluppatore software**.
+9. Nella scheda **Team progetto e programmazione**, per il progetto **Aggiornamento XYZ fase 2**, verifica che il ruolo di lavoro selezionato nel passaggio precedente sia stato aggiunto come **Sviluppatore software**.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

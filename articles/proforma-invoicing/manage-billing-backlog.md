@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bec6afe04a705d4f55ac3a7de93a64b47021fbb4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c3752abd26e760d27320d2b86079d84a967d53cf
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122348"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287738"
 ---
 # <a name="manage-the-billing-backlog"></a>Gestire il backlog di fatturazione
 
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
-Dynamics 365 Project Operations dispone di due visualizzazioni dedicate per aiutarti a lavorare e gestire il backlog di fatturazione. Le visualizzazioni sono **Passaggi fondamentali prezzo fisso** e **Backlog di fatturazione tempo e materiale**. Per selezionare una visualizzazione, nell'area **Vendite** di Project Operations, nella pagina di spostamento a sinistra, seleziona **Fatturazione**. I collegamenti del backlog di fatturazione vengono memorizzati qui.
+Dynamics 365 Project Operations dispone di due viste dedicate per aiutarti a utilizzare e gestire il backlog di fatturazione. Le visualizzazioni sono **Passaggi fondamentali prezzo fisso** e **Backlog di fatturazione tempo e materiale**. Per selezionare una visualizzazione, nell'area **Vendite** di Project Operations, nella pagina di spostamento a sinistra, seleziona **Fatturazione**. I collegamenti del backlog di fatturazione vengono memorizzati qui.
 
 ## <a name="fixed-price-milestones"></a>Passaggi fondamentali prezzo fisso
 

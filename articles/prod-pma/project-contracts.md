@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b7d15523f1b22bb8813a47f9f822f12bc4162104
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b53eb6ff3f98e7efc3d6b997cd4d877025225936
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079007"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289554"
 ---
 # <a name="project-contracts"></a>Contratti di progetto
 
@@ -252,15 +252,15 @@ Quando negozi un contratto di progetto con un cliente, definisci come e quando p
 
 Puoi configurare i seguenti tipi di regole di fatturazione:
 
--   **Unità di consegna** : fattura un cliente quando completi un'unità di consegna. Le unità di consegna vengono definite nel contratto.
--   **Progresso** : fattura un cliente quando completi una determinata percentuale del progetto. Puoi configurare una regola di fatturazione per calcolare automaticamente la percentuale di lavoro completato oppure è possibile calcolare manualmente la percentuale di lavoro completato e l'importo da fatturare al cliente.
--   **A fasi** : fattura a un cliente l'intero importo di una fase del progetto quando viene raggiunta.
--   **Commissione** : fattura un cliente per i tuoi servizi più una commissione di gestione, che in genere è una percentuale del costo dei servizi.
--   **Tempo e materiale** : fattura a un cliente il valore del tempo e dei materiali utilizzati in un progetto.
+-   **Unità di consegna**: fattura un cliente quando completi un'unità di consegna. Le unità di consegna vengono definite nel contratto.
+-   **Progresso**: fattura un cliente quando completi una determinata percentuale del progetto. Puoi configurare una regola di fatturazione per calcolare automaticamente la percentuale di lavoro completato oppure è possibile calcolare manualmente la percentuale di lavoro completato e l'importo da fatturare al cliente.
+-   **A fasi**: fattura a un cliente l'intero importo di una fase del progetto quando viene raggiunta.
+-   **Commissione**: fattura un cliente per i tuoi servizi più una commissione di gestione, che in genere è una percentuale del costo dei servizi.
+-   **Tempo e materiale**: fattura a un cliente il valore del tempo e dei materiali utilizzati in un progetto.
 
 Per tutti i tipi di regole di fatturazione, puoi specificare una percentuale di conservazione che viene detratta dalle fatture del cliente fino a quando un progetto non raggiunge una fase concordata. La percentuale di trattenuta del pagamento è specificata nel contratto di progetto. L'importo viene calcolato in base al e sottratto dal valore totale delle righe in una fattura cliente. 
 
-Per le regole di fatturazione **Tempo e materiale** e **Progresso** , puoi assegnare categorie addebitabili. Le categorie addebitabili indicano le transazioni che dovrebbero essere incluse nelle fatture dei clienti. 
+Per le regole di fatturazione **Tempo e materiale** e **Progresso**, puoi assegnare categorie addebitabili. Le categorie addebitabili indicano le transazioni che dovrebbero essere incluse nelle fatture dei clienti. 
 
 Quando sei pronto per fatturare al cliente, l'importo da fatturare per il progetto viene calcolato in base alle regole di fatturazione e viene generata una proposta di fattura progetto. 
 
@@ -289,8 +289,8 @@ La tua organizzazione, una società di consulenza software, stipula un accordo c
 
 La tua organizzazione, una società di sviluppo software, accetta di sviluppare un pacchetto di contabilità salari per un cliente per 30.000. Il cliente accetta di pagare alla tua organizzazione in base alla percentuale di lavoro completato. Stimi che i costi del progetto siano 20.000. Il contratto di progetto specifica le categorie di lavoro che utilizzi nel processo di fatturazione. Configuri regole di fatturazione che calcolano automaticamente gli importi delle fatture per la percentuale di lavoro completata per ciascuna categoria. Hai configurato un budget per ogni categoria:
 
--   **Sviluppo** : costo di 15.000 e ricavi di 20.000
--   **Installazione** : costo di 5.000 e ricavi di 10.000
+-   **Sviluppo**: costo di 15.000 e ricavi di 20.000
+-   **Installazione**: costo di 5.000 e ricavi di 10.000
 
 Quando crei una fattura cliente per la prima volta, l'importo della fattura viene calcolato automaticamente in base alle seguenti informazioni:
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 732b72d9819fc149c4b2c783b3dc7f7eec3f0393
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e93d23559d1f3aca9022cd97dae3b0726bb5ca05
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078937"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289329"
 ---
 # <a name="microsoft-project-client-integration"></a>Integrazione con Microsoft Project Client
 
@@ -35,14 +35,14 @@ La pianificazione e la gestione di una pianificazione del progetto possono esser
 > Se stai usando l'aggiornamento di luglio (versione 10.0.4), devi installare KB 4054797 e 4055884.
 
 ## <a name="configure-the-microsoft-project-client-add-in"></a>Configurare il componente aggiuntivo di Microsoft Project Client
-Per abilitare l'integrazione con Microsoft Project Client, è necessario installare un componente aggiuntivo di Microsoft Dynamics 365 nell'applicazione client Microsoft Project dell'utente. Questo viene fatto aprendo l' **area di lavoro per la gestione dei progetti**.
+Per abilitare l'integrazione con Microsoft Project Client, è necessario installare un componente aggiuntivo di Microsoft Dynamics 365 nell'applicazione client Microsoft Project dell'utente. Questo viene fatto aprendo l'**area di lavoro per la gestione dei progetti**.
 
 •   Fai clic su **Configura componente aggiuntivo client di progetto** dalla sezione **Collegamenti** > **Imposta** dell'area di lavoro.
 
-•   Fai clic su **Apri** , quindi fai clic su **Esegui** quando richiesto.
+•   Fai clic su **Apri**, quindi fai clic su **Esegui** quando richiesto.
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>Aprire e modificare una bozza di struttura di suddivisione del lavoro esistente in Microsoft Project Client
-Se un progetto in Dynamics 365 Finance ha già una struttura di suddivisione del lavoro creata, la struttura di suddivisione del lavoro può essere aperta nell'applicazione Microsoft Project Client se la struttura di suddivisione del lavoro è in uno stato di bozza. Per aprire dalla pagina **Progetto** , fai clic sul collegamento **Apri in Microsoft Project** dalla scheda **Piano**. Questa pagina può essere aperta anche dall'interno dell'applicazione Microsoft Project Client facendo clic su **Apri** nella scheda **Microsoft Dynamics 365**. Seleziona **Persona giuridica** e **Progetto** dall'elenco.
+Se un progetto in Dynamics 365 Finance ha già una struttura di suddivisione del lavoro creata, la struttura di suddivisione del lavoro può essere aperta nell'applicazione Microsoft Project Client se la struttura di suddivisione del lavoro è in uno stato di bozza. Per aprire dalla pagina **Progetto**, fai clic sul collegamento **Apri in Microsoft Project** dalla scheda **Piano**. Questa pagina può essere aperta anche dall'interno dell'applicazione Microsoft Project Client facendo clic su **Apri** nella scheda **Microsoft Dynamics 365**. Seleziona **Persona giuridica** e **Progetto** dall'elenco.
 
 > [!NOTE]
 > Se stai usando Internet Explorer come browser, dovrai fare clic su **Salva** per aprire manualmente dalla posizione in cui viene scaricato il file. Oppure fai clic su **Salva e apri** per aprire il file in Microsoft Project Client. Non rinominare il nome del file durante il salvataggio.
@@ -99,7 +99,7 @@ Per creare una nuova struttura di suddivisione del lavoro utilizzando Microsoft 
 
 2.  Crea la pianificazione in Microsoft Project Client.
 
-3.  Nella scheda **Microsoft Dynamics 365** , fai clic su **Salva modifiche** > **Sostituisci progetto esistente**.
+3.  Nella scheda **Microsoft Dynamics 365**, fai clic su **Salva modifiche** > **Sostituisci progetto esistente**.
 
 4.  Selezionare la **persona giuridica** per il progetto.
 
@@ -114,15 +114,15 @@ Per creare una nuova struttura di suddivisione del lavoro utilizzando Microsoft 
 
 2.  Crea la pianificazione in Microsoft Project Client.
 
-3.  Nella scheda **Microsoft Dynamics 365** , fai clic su **Salva modifiche** > **Salva su nuovo progetto**.
+3.  Nella scheda **Microsoft Dynamics 365**, fai clic su **Salva modifiche** > **Salva su nuovo progetto**.
 
 4.  Selezionare la **persona giuridica** per il progetto.
 
-5.  Immetti l' **ID progetto** , se necessario.
+5.  Immetti l'**ID progetto**, se necessario.
 
 6.  Immetti il **Nome progetto**.
 
-7.  Seleziona un valore per **Tipo di progetto** , **Gruppo di progetto** e **ID contratto di progetto**. In alternativa, puoi creare un nuovo contratto di progetto facendo clic su **Nuovo**.
+7.  Seleziona un valore per **Tipo di progetto**, **Gruppo di progetto** e **ID contratto di progetto**. In alternativa, puoi creare un nuovo contratto di progetto facendo clic su **Nuovo**.
 
 8.  Seleziona il **Calendario** da utilizzare per le risorse.
 

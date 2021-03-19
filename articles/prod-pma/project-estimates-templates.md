@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 336de474c859d30d1ec07ae34bf0c3d578faeef1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 58e204b2c1238e00ffb16533cc82dad69fbf77a9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079004"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289464"
 ---
 # <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Sincronizzare le stime del progetto direttamente da Project Service Automation a Finance and Operations
 
@@ -46,7 +46,7 @@ La figura seguente mostra come i dati vengono sincronizzati tra Project Service 
 
 ### <a name="template-and-tasks"></a>Modelli e attività
 
-Per accedere ai modelli disponibili, nell'interfaccia di amministrazione di Microsoft Power Apps, seleziona **Progetti** , quindi, nell'angolo in alto a destra, seleziona **Nuovo progetto** per selezionare modelli pubblici.
+Per accedere ai modelli disponibili, nell'interfaccia di amministrazione di Microsoft Power Apps, seleziona **Progetti**, quindi, nell'angolo in alto a destra, seleziona **Nuovo progetto** per selezionare modelli pubblici.
 
 Il modello seguente e le attività sottostanti vengono utilizzati per sincronizzare le stime delle ore di progetto da Project Service Automation a Finance:
 
@@ -82,7 +82,7 @@ Nel modello delle stime delle ore di progetto, è necessario utilizzare Microsof
 
 Per aggiornare l'ID modello di previsione predefinito nel modello, fai clic sula freccia **Mappa** per aprire il mapping. Quindi seleziona il collegamento **Filtro e query avanzati**.
 
-- Se stai utilizzando il modello di stima delle ore di progetto predefinito (da PSA a Fin e Ops), seleziona **Condizione inserita** nell'elenco di **Passaggi applicati**. Nella voce **Funzione** , sostituisci **O\_previsione** con il nome dell'ID del modello di previsione da utilizzare con l'integrazione. Il modello predefinito ha un ID modello di previsione dai dati demo.
+- Se stai utilizzando il modello di stima delle ore di progetto predefinito (da PSA a Fin e Ops), seleziona **Condizione inserita** nell'elenco di **Passaggi applicati**. Nella voce **Funzione**, sostituisci **O\_previsione** con il nome dell'ID del modello di previsione da utilizzare con l'integrazione. Il modello predefinito ha un ID modello di previsione dai dati demo.
 - Se stai creando un nuovo modello, devi aggiungere questa colonna. In Power Query, seleziona **Aggiungi colonna condizionale** e inserisci un nome per la nuova colonna, ad esempio **ModelID**. Immetti la condizione per la colonna, dove, se Project task è null, quindi \<enter the forecast model ID\>; in caso contrario null.
 
 #### <a name="filter-out-resource-specific-records"></a>Filtrare i record specifici delle risorse
@@ -137,18 +137,18 @@ Nel modello delle stime di spesa del progetto, è necessario utilizzare Power Qu
 
 #### <a name="filter-to-include-only-expense-estimate-lines"></a>Filtrare per includere solo le righe di stima di spesa
 
-Il modello Stime di spesa del progetto (da PSA a Fin e Ops) ha un filtro predefinito che include solo le righe di spesa nell'integrazione. Se crei il tuo modello, devi aggiungere questo filtro. Seleziona l'attività **Relazioni transazione** , quindi fai clic sulla freccia **Mapping** per aprire il mapping. Seleziona il collegamento **Filtro e query avanzati**. Filtra la colonna **msdyn\_transactiontype1** in modo da includere solo **msdyn\_estimateline**.
+Il modello Stime di spesa del progetto (da PSA a Fin e Ops) ha un filtro predefinito che include solo le righe di spesa nell'integrazione. Se crei il tuo modello, devi aggiungere questo filtro. Seleziona l'attività **Relazioni transazione**, quindi fai clic sulla freccia **Mapping** per aprire il mapping. Seleziona il collegamento **Filtro e query avanzati**. Filtra la colonna **msdyn\_transactiontype1** in modo da includere solo **msdyn\_estimateline**.
 
 #### <a name="set-the-default-forecast-model-id"></a>Impostare l'ID modello di previsione predefinito
 
-Per aggiornare l'ID modello di previsione predefinito nel modello, seleziona l'attività **Stime di spesa** , quindi fai clic sula freccia **Mappa** per aprire il mapping. Seleziona il collegamento **Filtro e query avanzati**.
+Per aggiornare l'ID modello di previsione predefinito nel modello, seleziona l'attività **Stime di spesa**, quindi fai clic sula freccia **Mappa** per aprire il mapping. Seleziona il collegamento **Filtro e query avanzati**.
 
-- Se stai utilizzando il modello di stima di spesa di progetto predefinito (da PSA a Fin e Ops), in Power Query seleziona la prima **Condizione inserita** dalla sezione **Passaggi applicati**. Nella voce **Funzione** , sostituisci **O\_previsione** con il nome dell'ID del modello di previsione da utilizzare con l'integrazione. Il modello predefinito ha un ID modello di previsione dai dati demo.
+- Se stai utilizzando il modello di stima di spesa di progetto predefinito (da PSA a Fin e Ops), in Power Query seleziona la prima **Condizione inserita** dalla sezione **Passaggi applicati**. Nella voce **Funzione**, sostituisci **O\_previsione** con il nome dell'ID del modello di previsione da utilizzare con l'integrazione. Il modello predefinito ha un ID modello di previsione dai dati demo.
 - Se stai creando un nuovo modello, devi aggiungere questa colonna. In Power Query, seleziona **Aggiungi colonna condizionale** e inserisci un nome per la nuova colonna, ad esempio **ModelID**. Immetti la condizione per la colonna, dove, se ID riga di stima è null, quindi \<enter the forecast model ID\>; in caso contrario null.
 
 #### <a name="transform-the-billing-types"></a>Trasformare i tipi di fatturazione
 
-Il modello Stime di spesa del progetto (da PSA a Fin e Ops) include una colonna condizionale utilizzata per trasformare i tipi di fatturazione ricevuti da Project Service Automation durante l'integrazione. Se crei il tuo modello, devi aggiungere questa colonna condizionale. Seleziona il collegamento **Filtro e query avanzati** , quindi seleziona **Aggiungi colonna condizionale**. Immetti un nome per la nuova colonna, ad esempio **BillingType**. Quindi, immetti la condizione seguente:
+Il modello Stime di spesa del progetto (da PSA a Fin e Ops) include una colonna condizionale utilizzata per trasformare i tipi di fatturazione ricevuti da Project Service Automation durante l'integrazione. Se crei il tuo modello, devi aggiungere questa colonna condizionale. Seleziona il collegamento **Filtro e query avanzati**, quindi seleziona **Aggiungi colonna condizionale**. Immetti un nome per la nuova colonna, ad esempio **BillingType**. Quindi, immetti la condizione seguente:
 
 If **msdyn\_billingtype** = 192350000, then **NonChargeable**  
 else if **msdyn\_billingtype** = 192350001, then **Chargeable**  
@@ -157,7 +157,7 @@ else **NotAvailable**
 
 #### <a name="transform-the-transaction-types"></a>Trasformare i tipi di transazione
 
-Il modello Stime di spesa del progetto (da PSA a Fin e Ops) include una colonna condizionale utilizzata per trasformare i tipi di transazione ricevuti da Project Service Automation durante l'integrazione. Se crei il tuo modello, devi aggiungere questa colonna condizionale. Seleziona il collegamento **Filtro e query avanzati** , quindi seleziona **Aggiungi colonna condizionale**. Immetti un nome per la nuova colonna, ad esempio **TransactionType**. Quindi, immetti la condizione seguente:
+Il modello Stime di spesa del progetto (da PSA a Fin e Ops) include una colonna condizionale utilizzata per trasformare i tipi di transazione ricevuti da Project Service Automation durante l'integrazione. Se crei il tuo modello, devi aggiungere questa colonna condizionale. Seleziona il collegamento **Filtro e query avanzati**, quindi seleziona **Aggiungi colonna condizionale**. Immetti un nome per la nuova colonna, ad esempio **TransactionType**. Quindi, immetti la condizione seguente:
 
 If **msdyn\_transactiontypecode** = 192350000, then **Cost**  
 else if **msdyn\_transactiontypecode** = 192350005, then **Sales**  

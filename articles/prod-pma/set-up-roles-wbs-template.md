@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 143f1094c653fb7ac0e026b7875aa162a3eb83f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6a8363c1f94a974881df984869ee56bfc198ac5c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078856"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288654"
 ---
 # <a name="set-up-roles-on-work-breakdown-structure-templates"></a>Impostare i ruoli sui modelli di struttura di suddivisione del lavoro
 
@@ -79,7 +79,7 @@ Sono state aggiunte ulteriori opzioni nella struttura di suddivisione del lavoro
 </tbody>
 </table>
 
-1. Nella pagina **Tutti i progetti** , seleziona il progetto **Fase di aggiornamento XYZ 2**.
+1. Nella pagina **Tutti i progetti**, seleziona il progetto **Fase di aggiornamento XYZ 2**.
 2. Seleziona **Piano** > **Impegni** > **Struttura di suddivisione del lavoro**.
 3. Seleziona **Nuovo** per aggiungere le seguenti attività di primo livello alla struttura di suddivisione del lavoro:
 
@@ -93,20 +93,20 @@ Sono state aggiunte ulteriori opzioni nella struttura di suddivisione del lavoro
 
     [![Impostazione delle date e dell'impegno](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
 
-5. Seleziona la riga attività **Avvio** , quindi, nel campo **Ruolo** , seleziona **Senior Project Manager**.
+5. Seleziona la riga attività **Avvio**, quindi, nel campo **Ruolo**, seleziona **Senior Project Manager**.
 6. Seleziona **Pubblica**.
-7. Sulla stessa riga, nel campo **Risorsa** , seleziona **Daniel Goldschmidt** e quindi seleziona **Accetta**.
-8. Seleziona la riga attività **Pianificazione** , quindi, nel campo **Ruolo** , selezionare **Analista aziendale**.
+7. Sulla stessa riga, nel campo **Risorsa**, seleziona **Daniel Goldschmidt** e quindi seleziona **Accetta**.
+8. Seleziona la riga attività **Pianificazione**, quindi, nel campo **Ruolo**, selezionare **Analista aziendale**.
 9. Seleziona **Pubblica** e quindi seleziona **Generare automaticamente il team**.
 10. Nella finestra del messaggio che verrà visualizzata, seleziona **Sì**.
-11. Nel campo **Risorsa** , verifica che il valore sia **Analista aziendale 1**.
-12. Per la risorsa **Analista aziendale 1** , apri la ricerca e seleziona **Avvia assegnazioni di risorse**. Quindi seleziona un lavoratore per l'attività.
+11. Nel campo **Risorsa**, verifica che il valore sia **Analista aziendale 1**.
+12. Per la risorsa **Analista aziendale 1**, apri la ricerca e seleziona **Avvia assegnazioni di risorse**. Quindi seleziona un lavoratore per l'attività.
 13. Seleziona **Assegnazione temporanea** &gt; **Piena capacità**.
 
     > [!NOTE] 
     > Non ricevi un avviso che la risorsa specificata è ora 2, perché il numero di risorse rimane 1.
 
-14. Nella pagina **Struttura di suddivisione del lavoro** , convalida l'assegnazione delle risorse sulla struttura di suddivisione del lavoro, quindi seleziona **Salva**.
+14. Nella pagina **Struttura di suddivisione del lavoro**, convalida l'assegnazione delle risorse sulla struttura di suddivisione del lavoro, quindi seleziona **Salva**.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

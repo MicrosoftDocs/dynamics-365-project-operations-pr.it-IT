@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 634e35f7bd399d3d97659b4bd6f2f3a6dbd5839f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ff423e2ae2d6a2ac48196ce2784baf3606f6575b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079019"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289779"
 ---
 # <a name="project-management-and-accounting-overview"></a>Panoramica della contabilità e della gestione dei progetti
 
@@ -148,10 +148,10 @@ Un ordine di produzione correlato a un progetto può essere collegato a un ordin
 
 In base alle combinazioni di questi fattori, utilizza uno dei seguenti metodi:
 
-- **Articolo finito/collegamento all'ordine** : collega il progetto a un ordine di vendita o un requisito articolo. Quando si utilizza questo metodo, i costi di progetto effettivi vengono registrati quando l'ordine cliente viene fatturato o quando il documento di trasporto viene aggiornato per il requisito articolo. Il costo viene registrato come articolo finito.
-- **Articolo finito/nessun collegamento all'ordine** : i costi effettivi non possono essere registrati finché il ciclo di produzione di un articolo non ha uno stato **Terminato**. Il costo dell'articolo finito viene registrato come singola transazione.
-- **Articolo utilizzato/collegamento all'ordine** : collega il progetto a un ordine di vendita o un requisito articolo. Utilizzando questo metodo, puoi visualizzare i costi effettivi del progetto quando la produzione ha uno stato di **Iniziato** o è segnalato come finito. I costi vengono registrati come più transazioni di articoli di progetto per le materie prime e le ore utilizzate per la produzione. Quando il documento di trasporto viene aggiornato per il requisito articolo, non viene registrato alcun costo di progetto. Puoi inoltre definire il livello nella gerarchia della distinta base (BOM) in cui vengono tracciati i progetti nella produzione.
-- *<strong><em>Articolo utilizzato/nessuncollegamento all'ordine</em></strong>* : collega il progetto a un ordine di vendita o un requisito articolo. Utilizzando questo metodo, puoi visualizzare i costi effettivi del progetto quando la produzione ha uno stato di <strong>Iniziato</strong> o è segnalato come finito. I costi vengono registrati come più transazioni di articoli di progetto per le materie prime e le ore utilizzate per la produzione. Puoi inoltre definire il livello nella gerarchia della distinta base in cui vengono tracciati i progetti nella produzione.
+- **Articolo finito/collegamento all'ordine**: collega il progetto a un ordine di vendita o un requisito articolo. Quando si utilizza questo metodo, i costi di progetto effettivi vengono registrati quando l'ordine cliente viene fatturato o quando il documento di trasporto viene aggiornato per il requisito articolo. Il costo viene registrato come articolo finito.
+- **Articolo finito/nessun collegamento all'ordine**: i costi effettivi non possono essere registrati finché il ciclo di produzione di un articolo non ha uno stato **Terminato**. Il costo dell'articolo finito viene registrato come singola transazione.
+- **Articolo utilizzato/collegamento all'ordine**: collega il progetto a un ordine di vendita o un requisito articolo. Utilizzando questo metodo, puoi visualizzare i costi effettivi del progetto quando la produzione ha uno stato di **Iniziato** o è segnalato come finito. I costi vengono registrati come più transazioni di articoli di progetto per le materie prime e le ore utilizzate per la produzione. Quando il documento di trasporto viene aggiornato per il requisito articolo, non viene registrato alcun costo di progetto. Puoi inoltre definire il livello nella gerarchia della distinta base (BOM) in cui vengono tracciati i progetti nella produzione.
+- *<strong><em>Articolo utilizzato/nessuncollegamento all'ordine</em></strong>*: collega il progetto a un ordine di vendita o un requisito articolo. Utilizzando questo metodo, puoi visualizzare i costi effettivi del progetto quando la produzione ha uno stato di <strong>Iniziato</strong> o è segnalato come finito. I costi vengono registrati come più transazioni di articoli di progetto per le materie prime e le ore utilizzate per la produzione. Puoi inoltre definire il livello nella gerarchia della distinta base in cui vengono tracciati i progetti nella produzione.
 
 ### <a name="procure-products-and-services"></a>Approvvigiona prodotti e servizi
 
@@ -205,7 +205,7 @@ Puoi ordinare articoli dall'inventario dell'azienda per l'utilizzo in un progett
 
 Il modo in cui ordini gli articoli dipende da dove li stai ordinando:
 
--   Per ordinare articoli dall'inventario dell'azienda, devi immettere l'ordine come requisito articolo. Se utilizzi la pagina **Requisiti articolo** è possibile configurare il requisito in modo da ricevere gli articoli come consegne parziali. Pertanto, puoi posticipare l'utilizzo di una quantità di articoli fino a quando gli articoli non sono obbligatori.
+-   Per ordinare articoli dall'inventario dell'azienda, devi immettere l'ordine come requisito articolo. Se utilizzi la pagina **Requisiti articolo** è possibile configurare il requisito in modo da ricevere gli articoli come consegne parziali. Pertanto, puoi posticipare l'utilizzo di una quantità di articoli fino a quando gli articoli non sono obbligatori.
 -   Per ordinare articoli da un fornitore esterno, devi creare l'ordine come ordine di acquisto nella pagina **Ordine di acquisto**.
 
 > [!NOTE] 
@@ -232,7 +232,7 @@ Per ulteriori informazioni su come elaborare le fatture di progetto, vedi [Fattu
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Calcolare il costo per completare un progetto
 
-Quando crei un preventivo, puoi scegliere il metodo utilizzato per calcolare il costo per completare il progetto. Seleziona un metodo nel campo **Metodo costi di completamento** della pagina **Crea stima**. Il metodo scelto viene applicato separatamente a ciascuna riga dei costi nella stima dei costi. Mentre una riga ha uno stato di **Creato** , puoi modificare il metodo applicato ad esso nella pagina **Stima dei costi**. 
+Quando crei un preventivo, puoi scegliere il metodo utilizzato per calcolare il costo per completare il progetto. Seleziona un metodo nel campo **Metodo costi di completamento** della pagina **Crea stima**. Il metodo scelto viene applicato separatamente a ciascuna riga dei costi nella stima dei costi. Mentre una riga ha uno stato di **Creato**, puoi modificare il metodo applicato ad esso nella pagina **Stima dei costi**. 
 
 La tabella seguente descrive i metodi per calcolare il costo per completare un progetto.
 
@@ -300,7 +300,7 @@ In base alla configurazione, puoi prevedere i flussi di cassa in entrata per un 
 -   **Data progetto:** 5 marzo 2012.
 -   **Data fattura:** 31 marzo 2012. Questa data è determinata in base alla frequenza di fatturazione. Per questo esempio, si imposta la frequenza di fatturazione sul mese corrente. Pertanto, tutte le transazioni registrate nel mese di marzo vengono fatturate l'ultimo giorno del mese.
 -   **Scadenza:** 14 aprile 2012. Questa data viene determinata in base ai termini di pagamento stabiliti per il progetto. Per questo esempio, hai selezionato termini di pagamento di 14 giorni. Pertanto, vengono aggiunti 14 giorni alla data di fatturazione per arrivare alla data di scadenza del 14 aprile 2012.
--   **Data prevista per il pagamento delle vendite:** 27 aprile 2012. Questa data viene calcolata aggiungendo il numero di giorni nel campo **Giorni di tolleranza generali** nella pagina **Parametri Gestione progetti e contabilità** al numero di giorni nel campo **Giorni di tolleranza particolare** nella pagina **Contratti di progetto** , quindi aggiungendo il totale al numero di giorni nel campo **Scadenza**. Per questo esempio, hai inserito **3** nel campo **Giorni di tolleranza generali** e **10** nel campo **Giorni di tolleranza particolare**. Pertanto, vengono aggiunti 13 giorni alla data di scadenza per arrivare alla data di pagamento delle vendite prevista: del 27 aprile 2012.
+-   **Data prevista per il pagamento delle vendite:** 27 aprile 2012. Questa data viene calcolata aggiungendo il numero di giorni nel campo **Giorni di tolleranza generali** nella pagina **Parametri Gestione progetti e contabilità** al numero di giorni nel campo **Giorni di tolleranza particolare** nella pagina **Contratti di progetto**, quindi aggiungendo il totale al numero di giorni nel campo **Scadenza**. Per questo esempio, hai inserito **3** nel campo **Giorni di tolleranza generali** e **10** nel campo **Giorni di tolleranza particolare**. Pertanto, vengono aggiunti 13 giorni alla data di scadenza per arrivare alla data di pagamento delle vendite prevista: del 27 aprile 2012.
 
 I giorni di tolleranza generale possono sostituire i giorni di tolleranza particolare essere aggiunti ai giorni di tolleranza particolare:
 
@@ -323,9 +323,9 @@ In base ai giorni definiti, la data di pagamento del costo può differire dalla 
 
 Ad esempio, la data del progetto della transazione è il 5 marzo 2012 e vengono impostati i seguenti termini di pagamento:
 
--   **Ore:** mese corrente ( **M** )
--   **Spese:** 14 giorni ( **D14** )
--   **Elementi:** 30 giorni ( **D30** )
+-   **Ore:** mese corrente (**M**)
+-   **Spese:** 14 giorni (**D14**)
+-   **Elementi:** 30 giorni (**D30**)
 
 In base a queste impostazioni, ecco la data di pagamento del costo per ogni tipo di transazione:
 
@@ -364,37 +364,37 @@ Puoi monitorare i costi sostenuti dalla tua organizzazione durante un progetto n
 
 #### <a name="viewing-the-remaining-budgeted-amounts"></a>Visualizzazione degli importi preventivati rimanenti
 
-Se **Budget rimanente** è selezionato come metodo di controllo dei costi nella pagina **Parametri Gestione progetti e contabilità** , la pagina **Controllo costi** calcola i costi che non sono stati registrati come effettivi o contrassegnati come impegnati. In particolare, gli importi nella scheda **Generale** nel riquadro inferiore della pagina **Controllo costi** vengono calcolati nei seguenti modi:
+Se **Budget rimanente** è selezionato come metodo di controllo dei costi nella pagina **Parametri Gestione progetti e contabilità**, la pagina **Controllo costi** calcola i costi che non sono stati registrati come effettivi o contrassegnati come impegnati. In particolare, gli importi nella scheda **Generale** nel riquadro inferiore della pagina **Controllo costi** vengono calcolati nei seguenti modi:
 
--   **Costo effettivo** : l'importo totale che è stato speso per il progetto per la riga dei costi selezionata. L'importo del costo effettivo viene calcolato nella pagina **Aggiornamenti contabili**.
--   **Costo impegnato** : l'importo aggiuntivo delle spese che la persona giuridica si è impegnata a pagare. Gli importi dei costi impegnati specifici sono calcolati nella pagina **Costi impegnati**.
--   **Budget rimanente** : l'importo dell'importo preventivato originale ancora disponibile per la riga dei costi selezionata. L'importo del budget rimanente viene calcolato nella pagina **Anteprima Contabilità generale**.
--   **Costo totale** : la somma del costo effettivo, del costo impegnato e degli importi di budget rimanenti.
+-   **Costo effettivo**: l'importo totale che è stato speso per il progetto per la riga dei costi selezionata. L'importo del costo effettivo viene calcolato nella pagina **Aggiornamenti contabili**.
+-   **Costo impegnato**: l'importo aggiuntivo delle spese che la persona giuridica si è impegnata a pagare. Gli importi dei costi impegnati specifici sono calcolati nella pagina **Costi impegnati**.
+-   **Budget rimanente**: l'importo dell'importo preventivato originale ancora disponibile per la riga dei costi selezionata. L'importo del budget rimanente viene calcolato nella pagina **Anteprima Contabilità generale**.
+-   **Costo totale**: la somma del costo effettivo, del costo impegnato e degli importi di budget rimanenti.
 
-Nella pagina **Controllo costi** , nella scheda **Deviazione** , puoi visualizzare un confronto del costo totale previsto con il budget originale. Questo confronto mostra eventuali differenze tra questi importi. Pertanto, puoi vedere dove i dati non corrispondono. Gli importi di deviazione vengono calcolati nei seguenti modi:
+Nella pagina **Controllo costi**, nella scheda **Deviazione**, puoi visualizzare un confronto del costo totale previsto con il budget originale. Questo confronto mostra eventuali differenze tra questi importi. Pertanto, puoi vedere dove i dati non corrispondono. Gli importi di deviazione vengono calcolati nei seguenti modi:
 
--   **Budget originale** : l'importo originariamente preventivato per la riga dei costi selezionata. L'importo del budget originale viene calcolato nella pagina **Anteprima Contabilità generale**.
--   **Costo totale** : la somma del costo effettivo, del costo impegnato e degli importi di budget rimanenti, come riportato nella scheda **Generale**.
--   **Deviazione** : la differenza tra il costo totale e il budget originale.
--   **Scostamento in base alla quantità** : la differenza totale tra la previsione originale e la previsione totale. Questa differenza può essere espressa matematicamente come (Quantità prevista totale) × (Prezzo medio originale - Prezzo medio totale). Questo calcolo si applica solo alle ore di progetto.
--   **Scostamento in base al prezzo** : la differenza totale tra la previsione originale e la previsione totale. Questa differenza può essere espressa matematicamente come (Prezzo previsto totale) × (Quantità prevista originale - Quantità previsione totale). Questo calcolo si applica solo alle ore di progetto.
+-   **Budget originale**: l'importo originariamente preventivato per la riga dei costi selezionata. L'importo del budget originale viene calcolato nella pagina **Anteprima Contabilità generale**.
+-   **Costo totale**: la somma del costo effettivo, del costo impegnato e degli importi di budget rimanenti, come riportato nella scheda **Generale**.
+-   **Deviazione**: la differenza tra il costo totale e il budget originale.
+-   **Scostamento in base alla quantità**: la differenza totale tra la previsione originale e la previsione totale. Questa differenza può essere espressa matematicamente come (Quantità prevista totale) × (Prezzo medio originale - Prezzo medio totale). Questo calcolo si applica solo alle ore di progetto.
+-   **Scostamento in base al prezzo**: la differenza totale tra la previsione originale e la previsione totale. Questa differenza può essere espressa matematicamente come (Prezzo previsto totale) × (Quantità prevista originale - Quantità previsione totale). Questo calcolo si applica solo alle ore di progetto.
 
 #### <a name="viewing-the-total-budgeted-amounts"></a>Visualizzazione degli importi preventivati totali
 
-Se **Budget totale** è selezionato come metodo di controllo dei costi nella pagina **Parametri Gestione progetti e contabilità** , la pagina **Controllo costi** calcola i costi effettivi e i costi totali del progetto per aiutarti a rilevare eventuali differenze tra i due. In particolare, nella pagina **Controllo costi** , gli importi nelle colonne del riquadro inferiore della scheda **Generale** vengono calcolati nei seguenti modi:
+Se **Budget totale** è selezionato come metodo di controllo dei costi nella pagina **Parametri Gestione progetti e contabilità**, la pagina **Controllo costi** calcola i costi effettivi e i costi totali del progetto per aiutarti a rilevare eventuali differenze tra i due. In particolare, nella pagina **Controllo costi**, gli importi nelle colonne del riquadro inferiore della scheda **Generale** vengono calcolati nei seguenti modi:
 
--   **Costo preventivato totale** : l'importo preventivato totale per la riga dei costi selezionata.
--   **Costo effettivo** : l'importo totale dei costi sostenuti per il progetto finora per le righe dei costi selezionate.
--   **Costo impegnato** : l'importo totale che è stato impegnato per la riga dei costi selezionata.
--   **Varianza** : la differenza tra la somma dei costi effettivi e impegnati e il costo totale. La varianza mostra se è necessario specificare costi aggiuntivi per il budget totale.
+-   **Costo preventivato totale**: l'importo preventivato totale per la riga dei costi selezionata.
+-   **Costo effettivo**: l'importo totale dei costi sostenuti per il progetto finora per le righe dei costi selezionate.
+-   **Costo impegnato**: l'importo totale che è stato impegnato per la riga dei costi selezionata.
+-   **Varianza**: la differenza tra la somma dei costi effettivi e impegnati e il costo totale. La varianza mostra se è necessario specificare costi aggiuntivi per il budget totale.
 
-Nella pagina **Controllo costi** , nella scheda **Deviazione** , puoi visualizzare la differenza tra il budget totale e il budget originale esaminando i seguenti campi:
+Nella pagina **Controllo costi**, nella scheda **Deviazione**, puoi visualizzare la differenza tra il budget totale e il budget originale esaminando i seguenti campi:
 
--   **Budget originale** : l'importo originariamente preventivato per la riga dei costi. Il budget originale viene calcolato nella pagina **Anteprima Contabilità generale**.
--   **Costo preventivato totale** : il costo totale originariamente preventivato per la riga dei costi. Il costo preventivato totale viene calcolato nella pagina **Anteprima Contabilità generale**.
--   **Deviazione** : la deviazione per la riga dei costi. Questo importo viene calcolato sottraendo il costo totale dal budget originale.
--   **Scostamento in base alla quantità** : la differenza totale tra il budget originale e il budget totale. Questo importo viene calcolato sottraendo le ore del budget totale dalle ore del budget originale e quindi moltiplicando la differenza per il prezzo di costo preventivato originale. Questa differenza può essere espressa matematicamente come (Prezzo di costo preventivato originale) × (Ore budget originale - Ore budget totale). Questo calcolo si applica solo alle ore di progetto.
--   **Scostamento in base al prezzo** : questo importo viene calcolato sottraendo le ore del budget totale dalle ore del budget originale e quindi moltiplicando la differenza per il numero totale di ore di utilizzo. Questa differenza può essere espressa matematicamente come (Ore di utilizzo totali) × (Ore budget originale - Ore budget totale). Questo calcolo si applica solo alle ore di progetto.
+-   **Budget originale**: l'importo originariamente preventivato per la riga dei costi. Il budget originale viene calcolato nella pagina **Anteprima Contabilità generale**.
+-   **Costo preventivato totale**: il costo totale originariamente preventivato per la riga dei costi. Il costo preventivato totale viene calcolato nella pagina **Anteprima Contabilità generale**.
+-   **Deviazione**: la deviazione per la riga dei costi. Questo importo viene calcolato sottraendo il costo totale dal budget originale.
+-   **Scostamento in base alla quantità**: la differenza totale tra il budget originale e il budget totale. Questo importo viene calcolato sottraendo le ore del budget totale dalle ore del budget originale e quindi moltiplicando la differenza per il prezzo di costo preventivato originale. Questa differenza può essere espressa matematicamente come (Prezzo di costo preventivato originale) × (Ore budget originale - Ore budget totale). Questo calcolo si applica solo alle ore di progetto.
+-   **Scostamento in base al prezzo**: questo importo viene calcolato sottraendo le ore del budget totale dalle ore del budget originale e quindi moltiplicando la differenza per il numero totale di ore di utilizzo. Questa differenza può essere espressa matematicamente come (Ore di utilizzo totali) × (Ore budget originale - Ore budget totale). Questo calcolo si applica solo alle ore di progetto.
 
 ### <a name="analyze-utilization"></a>Analizzare l'utilizzo
 
@@ -404,22 +404,22 @@ Il tasso di utilizzo di un lavoratore viene calcolato dividendo il numero di ore
 
 Quando calcoli il tasso di utilizzo di un lavoratore, puoi calcolare il tasso fatturabile o il tasso di efficienza:
 
--   **Tasso fatturabile** : la differenza tra le ore fatturabili e le ore non fatturabili o le ore normali.
--   **Tasso di efficienza** : la differenza tra le ore produttive e le ore non produttive o le ore normali. Le ore produttive sono le ore che il lavoratore trascorre contribuendo a un progetto specifico. Le ore produttive vengono generalmente fatturate ai clienti, tranne nel caso di progetti interni. Le ore non produttive non vengono mai fatturate a un cliente.
+-   **Tasso fatturabile**: la differenza tra le ore fatturabili e le ore non fatturabili o le ore normali.
+-   **Tasso di efficienza**: la differenza tra le ore produttive e le ore non produttive o le ore normali. Le ore produttive sono le ore che il lavoratore trascorre contribuendo a un progetto specifico. Le ore produttive vengono generalmente fatturate ai clienti, tranne nel caso di progetti interni. Le ore non produttive non vengono mai fatturate a un cliente.
 
 Calcola i tassi di utilizzo nella pagina **Utilizzo ore**. I calcoli si basano sulle preferenze predefinite. Queste preferenze specificano anche come vengono calcolate le ore mediante assegnazione di **Utilizzo** o **Improduttività** a ogni tipo di progetto. Ciò si applica ai calcoli della tariffa fatturabile e ai calcoli del tasso di efficienza.
 
--   **Utilizzo** : le ore riportate per il tipo di progetto selezionato sono sempre considerate per l'utilizzo fatturabile o per efficienza.
--   **Improduttività** : le ore riportate per il tipo di progetto selezionato sono sempre considerate per l'utilizzo non fatturabile o per mancata efficienza.
--   **In base a proprietà riga** : le proprietà della riga di una determinata transazione oraria determinano se le ore sono considerate per l'utilizzo fatturabile o per efficienza.
--   **Non incluse** : le ore non vengono prese in considerazione nel calcolo dell'utilizzo fatturabile o dell'efficienza.
+-   **Utilizzo**: le ore riportate per il tipo di progetto selezionato sono sempre considerate per l'utilizzo fatturabile o per efficienza.
+-   **Improduttività**: le ore riportate per il tipo di progetto selezionato sono sempre considerate per l'utilizzo non fatturabile o per mancata efficienza.
+-   **In base a proprietà riga**: le proprietà della riga di una determinata transazione oraria determinano se le ore sono considerate per l'utilizzo fatturabile o per efficienza.
+-   **Non incluse**: le ore non vengono prese in considerazione nel calcolo dell'utilizzo fatturabile o dell'efficienza.
 
-Nella pagina **Utilizzo ore** , oltre alla percentuale del tasso di utilizzo complessivo per un lavoratore o un progetto, puoi visualizzare il numero di ore utilizzate per i calcoli del tasso di utilizzo per ciascuno dei seguenti tipi di ore:
+Nella pagina **Utilizzo ore**, oltre alla percentuale del tasso di utilizzo complessivo per un lavoratore o un progetto, puoi visualizzare il numero di ore utilizzate per i calcoli del tasso di utilizzo per ciascuno dei seguenti tipi di ore:
 
--   **Ore non incluse** : queste ore non sono incluse nel tasso di utilizzo delle ore.
--   **Ore incluse** : queste ore sono calcolate sommando le ore di utilizzo e le ore di improduttività. Queste ore sono incluse nel tasso di utilizzo.
--   **Ore improduttive** : se stai calcolando una tariffa fatturabile, queste ore sono uguali alle ore non addebitabili. Se stai calcolando un tasso di efficienza, queste ore sono uguali alle ore non produttive.
--   **Ore di utilizzo** : se stai calcolando una tariffa fatturabile, queste ore sono uguali alle ore addebitabili. Se stai calcolando un tasso di efficienza, queste ore sono uguali alle ore produttive.
+-   **Ore non incluse**: queste ore non sono incluse nel tasso di utilizzo delle ore.
+-   **Ore incluse**: queste ore sono calcolate sommando le ore di utilizzo e le ore di improduttività. Queste ore sono incluse nel tasso di utilizzo.
+-   **Ore improduttive**: se stai calcolando una tariffa fatturabile, queste ore sono uguali alle ore non addebitabili. Se stai calcolando un tasso di efficienza, queste ore sono uguali alle ore non produttive.
+-   **Ore di utilizzo**: se stai calcolando una tariffa fatturabile, queste ore sono uguali alle ore addebitabili. Se stai calcolando un tasso di efficienza, queste ore sono uguali alle ore produttive.
 
 Quando calcoli il tasso di utilizzo di un lavoratore, puoi utilizzare le ore normali o le ore incluse. Se utilizzi le ore incluse, devi assicurarti che i lavoratori registrino tutto il loro orario di lavoro per i periodi della scheda attività, poiché il calcolo è espresso come percentuale delle ore immesse. Quando calcoli il tasso di utilizzo delle ore per un progetto, un contratto di progetto, un record del cliente o una categoria, è necessario utilizzare le ore incluse per il calcolo.
 
@@ -432,14 +432,14 @@ Puoi creare un rendiconto di progetto per visualizzare una rapida istantanea del
 -   Data progetto/data libro mastro
 -   Dati
 
-Dopo che il rendiconto è stato calcolato, puoi visualizzare le seguenti informazioni nelle varie schede della pagina **Rendiconti di progetto** :
+Dopo che il rendiconto è stato calcolato, puoi visualizzare le seguenti informazioni nelle varie schede della pagina **Rendiconti di progetto**:
 
--   **Generale** : informazioni generali sulla struttura di base di profitti e perdite del progetto.
--   **Profitti e perdite** : informazioni sui ricavi maturati.
--   **WIP** : informazioni sui saldi dei conti WIP.
--   **Consumo** : informazioni sul consumo di ore, articoli, spese e transazioni sui salari.
--   **Fattura** : informazioni su fatture e fatturazione acconti.
--   **Tariffa oraria** : le tariffe orarie per le ore registrate nei conti ricavi e costi.
+-   **Generale**: informazioni generali sulla struttura di base di profitti e perdite del progetto.
+-   **Profitti e perdite**: informazioni sui ricavi maturati.
+-   **WIP**: informazioni sui saldi dei conti WIP.
+-   **Consumo**: informazioni sul consumo di ore, articoli, spese e transazioni sui salari.
+-   **Fattura**: informazioni su fatture e fatturazione acconti.
+-   **Tariffa oraria**: le tariffe orarie per le ore registrate nei conti ricavi e costi.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

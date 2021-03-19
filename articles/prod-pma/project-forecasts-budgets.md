@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f99c00effbb0678f1f55e5068a7128cbfb86f5ce
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2685e99800ef6fd0b613377271259da0da805aad
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078989"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289419"
 ---
 # <a name="project-forecasts-and-budgets"></a>Previsioni e budget di progetto
 
@@ -61,9 +61,9 @@ I modelli di previsione possono utilizzare la riduzione delle previsioni come me
 
 Puoi rivedere, copiare, eliminare o trasferire previsioni di progetto in un budget di contabilità generale. Tuttavia, non esiste alcun controllo del processo. Qualsiasi ruolo di lavoro che dispone dell'autorizzazione per un modulo di previsione può efettuare revisioni senza rivedere.
 
--   **Rivedi** : puoi rivedere una transazione di previsione negli stessi modui in cui sono state create le voci originali.
--   **Copia o elimina** ; quando copi le transazioni di previsione, copi le righe di transazione di un modello previsionale in un altro modello di previsione. Quando elimini una previsione, elimini le transazioni di previsione da un modello di previsione. Per limitare le transazioni previste che vengono copiate o eliminate, seleziona tipi di transazione e date specifici. Ciò consente di copiare o eliminare solo parti specifiche di una previsione.
--   **Trasferisci** : quando trasferisci una previsione di progetto a un budget di contabilità generale, trasferisci le transazioni di previsione di un modello di previsione su un budget di contabilità generale. Puoi sovrascrivere qualsiasi transazione trasferita in precedenza nel budget di contabilità generale in cui trasferisci la previsione di progetto.
+-   **Rivedi**: puoi rivedere una transazione di previsione negli stessi modui in cui sono state create le voci originali.
+-   **Copia o elimina**; quando copi le transazioni di previsione, copi le righe di transazione di un modello previsionale in un altro modello di previsione. Quando elimini una previsione, elimini le transazioni di previsione da un modello di previsione. Per limitare le transazioni previste che vengono copiate o eliminate, seleziona tipi di transazione e date specifici. Ciò consente di copiare o eliminare solo parti specifiche di una previsione.
+-   **Trasferisci**: quando trasferisci una previsione di progetto a un budget di contabilità generale, trasferisci le transazioni di previsione di un modello di previsione su un budget di contabilità generale. Puoi sovrascrivere qualsiasi transazione trasferita in precedenza nel budget di contabilità generale in cui trasferisci la previsione di progetto.
 
 ## <a name="project-budgets"></a>Budget di progetto
 Il budget di progetto è un metodo più semplice rispetto alla previsione, sebbene si integri con i modelli previsionali. Utilizza un unico modulo di immissione per i dettagli e le revisioni del budget originale e consente proiezioni basate solo su importo, categoria o attività. 
