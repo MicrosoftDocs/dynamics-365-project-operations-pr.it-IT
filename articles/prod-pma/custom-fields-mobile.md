@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 1ea1ca002a8f68f86808831b398e452244471322
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078930"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270998"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Implementare campi personalizzati per l'app per dispositivi mobili Microsoft Dynamics 365 Project Timesheet  su iOS e Android
 
@@ -44,8 +44,8 @@ Questo argomento è destinato agli sviluppatori che stanno integrando i propri c
 
 La classe **TSTimesheetCustomField** è la classe del contratto dati X++ che rappresenta le informazioni su un campo personalizzato per la funzionalità del foglio presenze. Gli elenchi degli oggetti campo personalizzati vengono passati sia al contratto dati TSTimesheetDetails che al contratto dati TSTimesheetEntry per mostrare i campi personalizzati nell'app per dispositivi mobili.
 
-- **TSTimesheetDetails** : il contratto dell'intestazione del foglio presenze.
-- **TSTimesheetEntry** : il contratto di transazione del foglio presenze. I gruppi di questi oggetti che hanno le stesse informazioni sul progetto e il valore **timesheetLineRecId** costituiscono una riga.
+- **TSTimesheetDetails**: il contratto dell'intestazione del foglio presenze.
+- **TSTimesheetEntry**: il contratto di transazione del foglio presenze. I gruppi di questi oggetti che hanno le stesse informazioni sul progetto e il valore **timesheetLineRecId** costituiscono una riga.
 
 ### <a name="fieldbasetype-types"></a>fieldBaseType (Tipi)
 
@@ -61,11 +61,11 @@ La proprietà **FieldBaseType** sull'oggetto **TsTimesheetCustom** determina il 
 | 15          | GUID              | |
 | 16          | Int64             | |
 
-- Se la proprietà **stringOptions** non è specificata nell'oggetto **TSTimesheetCustomField** , all'utente viene fornito un campo di testo libero.
+- Se la proprietà **stringOptions** non è specificata nell'oggetto **TSTimesheetCustomField**, all'utente viene fornito un campo di testo libero.
 
     La proprietà **stringLength** può essere utilizzata per impostare la lunghezza massima della stringa che gli utenti possono immettere.
 
-- Se la proprietà **stringOptions** viene specificata sull'oggetto **TSTimesheetCustomField** , quegli elementi dell'elenco sono gli unici valori che gli utenti possono selezionare utilizzando i pulsanti di opzione (pulsanti di opzione).
+- Se la proprietà **stringOptions** viene specificata sull'oggetto **TSTimesheetCustomField**, quegli elementi dell'elenco sono gli unici valori che gli utenti possono selezionare utilizzando i pulsanti di opzione (pulsanti di opzione).
 
     In questo caso, il campo stringa può fungere da valore enum ai fini dell'immissione dell'utente. Per salvare il valore nel database come enum, mappa manualmente il valore della stringa di nuovo al valore enum prima di salvare nel database utilizzando la catena di comando (vedi la sezione "Utilizzare la catena di comando sulla classe TSTimesheetEntryService per salvare un inserimento del foglio presenze dall'app al database" più avanti in questo argomento per un esempio).
 
@@ -73,8 +73,8 @@ La proprietà **FieldBaseType** sull'oggetto **TsTimesheetCustom** determina il 
 
 Puoi utilizzare questa proprietà per formattare i valori reali come valuta. Questo approccio è applicabile solo quando il valore **fieldBaseType** è **Reale**.
 
-- **TSCustomFieldExtendedType:None** : nessuna formattazione applicata.
-- **TSCustomFieldExtendedType::Currency** : il valore viene formattato come valuta.
+- **TSCustomFieldExtendedType:None**: nessuna formattazione applicata.
+- **TSCustomFieldExtendedType::Currency**: il valore viene formattato come valuta.
 
     Quando la formattazione della valuta è attiva, il campo **stringValue** può essere utilizzato per passare il codice valuta che dovrebbe essere mostrato nell'app. Il valore è un valore di sola lettura.
 
@@ -84,8 +84,8 @@ Puoi utilizzare questa proprietà per formattare i valori reali come valuta. Que
 
 Puoi utilizzare questa proprietà per specificare dove deve essere visualizzato il campo personalizzato nell'app.
 
-- **TSCustomFieldSection::Header** : il campo verrà visualizzato nella sezione **Visualizza altri dettagli** dell'app. Questi campi sono sempre di sola lettura.
-- **TSCustomFieldSection::Line** : il campo verrà visualizzato dopo i campi riga predefiniti tra le voci del foglio presenze. Questi campi possono essere modificabili o di sola lettura.
+- **TSCustomFieldSection::Header**: il campo verrà visualizzato nella sezione **Visualizza altri dettagli** dell'app. Questi campi sono sempre di sola lettura.
+- **TSCustomFieldSection::Line**: il campo verrà visualizzato dopo i campi riga predefiniti tra le voci del foglio presenze. Questi campi possono essere modificabili o di sola lettura.
 
 ### <a name="fieldname-fieldnameshort"></a>fieldName (FieldNameShort)
 
@@ -125,31 +125,31 @@ Questa proprietà controlla l'ordine in cui i campi personalizzati vengono visua
 
 ### <a name="booleanvalue-boolean"></a>booleanValue (boolean)
 
-Per i campi di tipo **Booleano** , questa proprietà passa il valore booleano del campo tra il server e l'app.
+Per i campi di tipo **Booleano**, questa proprietà passa il valore booleano del campo tra il server e l'app.
 
 ### <a name="guidvalue-guid"></a>guidValue (guid)
 
-Per i campi di tipo **GUID** , questa proprietà passa il valore dell'identificatore univoco globale (GUID) del campo tra il server e l'app.
+Per i campi di tipo **GUID**, questa proprietà passa il valore dell'identificatore univoco globale (GUID) del campo tra il server e l'app.
 
 ### <a name="int64value-int64"></a>int64Value (int64)
 
-Per i campi di tipo **Int64** , questa proprietà passa il valore int64 del campo tra il server e l'app.
+Per i campi di tipo **Int64**, questa proprietà passa il valore int64 del campo tra il server e l'app.
 
 ### <a name="intvalue-int"></a>intValue (int)
 
-Per i campi di tipo **Int** , questa proprietà passa il valore int del campo tra il server e l'app.
+Per i campi di tipo **Int**, questa proprietà passa il valore int del campo tra il server e l'app.
 
 ### <a name="realvalue-real"></a>realValue (real)
 
-Per i campi di tipo **Reale** , questa proprietà passa il valore reale del campo tra il server e l'app.
+Per i campi di tipo **Reale**, questa proprietà passa il valore reale del campo tra il server e l'app.
 
 ### <a name="stringvalue-str"></a>stringValue (str)
 
-Per i campi di tipo **Stringa** , questa proprietà passa il valore stringa del campo tra il server e l'app. Viene utilizzato anche per i campi di tipo **Reale** formattati come valuta. Per questi campi, la proprietà viene utilizzata per passare il codice della valuta all'app.
+Per i campi di tipo **Stringa**, questa proprietà passa il valore stringa del campo tra il server e l'app. Viene utilizzato anche per i campi di tipo **Reale** formattati come valuta. Per questi campi, la proprietà viene utilizzata per passare il codice della valuta all'app.
 
 ### <a name="datevalue-date"></a>dateValue (date)
 
-Per i campi di tipo **Data** , questa proprietà passa il valore data del campo tra il server e l'app.
+Per i campi di tipo **Data**, questa proprietà passa il valore data del campo tra il server e l'app.
 
 ## <a name="show-and-save-a-custom-field-in-the-timesheet-entry-section"></a>Mostra e salva un campo personalizzato nella sezione di immissione del foglio presenze
 
@@ -179,9 +179,9 @@ Di seguito è riportato uno screenshot da Visual Studio dell'albero degli oggett
 
 Questo codice controlla le impostazioni di visualizzazione per il campo nell'app. Ad esempio, controlla il tipo di campo, l'etichetta, se il campo è obbligatorio e in quale sezione viene visualizzato il campo.
 
-L'esempio seguente mostra un campo stringa sugli inserimenti ore. Questo campo ha due opzioni, **Prima opzione** e **Seconda opzione** , disponibili tramite pulsanti di opzione (pulsanti di opzione). Il campo nell'app è associato al campo **TestLineString** aggiunto alla tabella TSTimesheetLine.
+L'esempio seguente mostra un campo stringa sugli inserimenti ore. Questo campo ha due opzioni, **Prima opzione** e **Seconda opzione**, disponibili tramite pulsanti di opzione (pulsanti di opzione). Il campo nell'app è associato al campo **TestLineString** aggiunto alla tabella TSTimesheetLine.
 
-Nota l'uso del metodo **TSTimesheetCustomField::newFromMetatdata()** per semplificare l'inizializzazione delle proprietà del campo personalizzato: **fieldBaseType** , **tableName** , **fieldname** , **label** , **isEditable** , **isMandatory** , **stringLength** e **numberOfDecimals**. Puoi anche impostare questi parametri manualmente, come preferisci.
+Nota l'uso del metodo **TSTimesheetCustomField::newFromMetatdata()** per semplificare l'inizializzazione delle proprietà del campo personalizzato: **fieldBaseType**, **tableName**, **fieldname**, **label**, **isEditable**, **isMandatory**, **stringLength** e **numberOfDecimals**. Puoi anche impostare questi parametri manualmente, come preferisci.
 
 ```xpp
 ...
@@ -248,7 +248,7 @@ Per salvare un campo personalizzato di nuovo nel database nell'utilizzo tipico, 
 - Il metodo **populateTimesheetWeekFromEntry** può essere esteso anche se il campo personalizzato mappato all'oggetto **TSTimesheetEntry** deve essere scritto nuovamente nella tabella del database TSTimesheetLineweek.
 
 > [!NOTE]
-> L'esempio seguente salva il valore **firstOption** o **secondOption** che l'utente seleziona nel database come valore stringa non elaborato. Se il campo del database è un campo di tipo **Enum** , questi valori possono essere mappati manualmente a un valore enum e quindi salvati in un campo enum nella tabella del database.
+> L'esempio seguente salva il valore **firstOption** o **secondOption** che l'utente seleziona nel database come valore stringa non elaborato. Se il campo del database è un campo di tipo **Enum**, questi valori possono essere mappati manualmente a un valore enum e quindi salvati in un campo enum nella tabella del database.
 
 ```xpp
 ...
@@ -410,7 +410,7 @@ La logica esistente per la funzionalità del foglio presenze a livello di databa
 
 - Se **validateWrite** nella tabella TSTimesheetLine restituisce **false** durante un'operazione di salvataggio per una riga del foglio presenze, viene visualizzato un messaggio di errore app per dispositivi mobili.
 - Se **validateSubmit** nella tabella TSTimesheetTable restituisce **false** durante un'operazione di invio del foglio presenze nell'app, viene visualizzato un messaggio di errore app all'utente.
-- La logica che compila i campi (ad esempio, **Proprietà riga** ) durante il metodo di **inserimento** nella tabella TSTimesheetLine verrà comunque eseguita.
+- La logica che compila i campi (ad esempio, **Proprietà riga**) durante il metodo di **inserimento** nella tabella TSTimesheetLine verrà comunque eseguita.
 
 ### <a name="hiding-and-marking-out-of-box-fields-as-read-only-via-configuration"></a>Nascondere e contrassegnare i campi predefiniti come di sola lettura tramite la configurazione
 

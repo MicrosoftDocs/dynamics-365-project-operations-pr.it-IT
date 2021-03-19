@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: f446e24f3a61914a46a552fdc38b986d8b924747
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124643"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277163"
 ---
 # <a name="extending-time-entries"></a>Estensione degli inserimenti ore
 
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
-Dynamics 365 Project Operations include un controllo personalizzato di inserimenti ore estendibile. Questo controllo include le seguenti funzionalità:
+Dynamics 365 Project Operations include un controllo personalizzato di inserimento ore estendibile. Questo controllo include le seguenti funzionalità:
 
 - Immissione delle ore in orizzontale su una settimana
 - Totali per giorno, riga o settimana

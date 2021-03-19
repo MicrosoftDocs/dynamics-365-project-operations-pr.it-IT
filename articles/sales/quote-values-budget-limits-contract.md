@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8d5a49febf02310f1e6c26798fc0ba1aa3b8d1f1
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 7be5f0824bfc4a58f3caabdde70a0b5b11c6f14c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180242"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277568"
 ---
 # <a name="project-quote-settings"></a>Impostazioni dell'offerta di progetto
 
@@ -22,7 +22,7 @@ _**Si applica a:** Project Operations per scenari basati su risorse/materiali no
 
 Questo articolo spiega le informazioni che si applicano a un'offerta di progetto. Queste includono le impostazioni che influiscono su tutte le righe dell'offerta e le informazioni sull'offerta che vengono riepilogate in tutte le voci per guidare i KPI dell'offerta di progetto.
 
-La tabella seguente elenca i campi delle informazioni di riepilogo su un'offerta di progetto che sono univoci per Dynamics 365 Project Operations o presentano alcune importanti modifiche nel comportamento rispetto alle offerte di Dynamics 365 Sales.
+La tabella seguente elenca i campi con le informazioni di riepilogo di una offerta di progetto che sono univoci per Dynamics 365 Project Operations o hanno alcune importanti modifiche nel comportamento rispetto alle offerte in Dynamics 365 Sales.
 
 | **Campo** | **Luogo** | **Descrizione** | **Impatto downstream** |
 | --- | --- | --- | --- |

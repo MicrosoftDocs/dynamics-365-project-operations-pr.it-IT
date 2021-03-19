@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f16634a87780c23d699d9ad535dd5e6d4ecb895d
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 967e2170aac72de629ebb930e485b8cd6560b6ca
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180961"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272438"
 ---
 # <a name="summary-information-on-a-project-quote---lite"></a>Informazioni di riepilogo su un'offerta di progetto - semplice
 
@@ -21,7 +21,7 @@ _**Si applica a:** Distribuzione semplice: dalla transazione alla fatturazione p
 
 Questo articolo spiega le informazioni che si applicano a un'offerta di progetto. Queste includono le impostazioni che influiscono su tutte le righe dell'offerta e le informazioni sull'offerta che vengono riepilogate in tutte le voci per guidare i KPI dell'offerta di progetto.
 
-La tabella seguente elenca i campi delle informazioni di riepilogo su un'offerta di progetto che sono univoci per Dynamics 365 Project Operations o presentano alcune importanti modifiche nel comportamento rispetto alle offerte di Dynamics 365 Sales.
+La tabella seguente elenca i campi con le informazioni di riepilogo di una offerta di progetto che sono univoci per Dynamics 365 Project Operations o hanno alcune importanti modifiche nel comportamento rispetto alle offerte in Dynamics 365 Sales.
 
 | **Campo** | **Luogo** | **Descrizione** | **Impatto downstream** |
 | --- | --- | --- | --- |

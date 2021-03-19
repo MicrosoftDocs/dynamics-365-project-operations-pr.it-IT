@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 34a3ea3dda64969fe66248e295cd3dd8bbe72a05
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: db96ffc5fdd6bc759cd35fff0a39a64d9854a4f0
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078901"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270638"
 ---
 # <a name="manage-resource-competencies"></a>Gestire le competenze delle risorse
 
@@ -39,19 +39,19 @@ Per configurare le competenze per un lavoratore, puoi utilizzare la pagina elenc
 
 ## <a name="set-up-competencies-certificates"></a>Configurare le competenze: certificati
 
-1. Nella pagina elenco **Lavoratori** , seleziona la riga per il lavoratore per cui aggiungere le informazioni sul certificato.
-2. Nel riquadro azioni, nella scheda **Lavoratore** , nel gruppo **Competenze** , seleziona **Certificati**.
-3. Seleziona **Nuovo** , quindi, nel campo **Tipo di certificato** , seleziona **PMP**.
-4. Nel campo **Data d'inizio** , seleziona **10/1/2015** e seleziona **Salva**.
+1. Nella pagina elenco **Lavoratori**, seleziona la riga per il lavoratore per cui aggiungere le informazioni sul certificato.
+2. Nel riquadro azioni, nella scheda **Lavoratore**, nel gruppo **Competenze**, seleziona **Certificati**.
+3. Seleziona **Nuovo**, quindi, nel campo **Tipo di certificato**, seleziona **PMP**.
+4. Nel campo **Data d'inizio**, seleziona **10/1/2015** e seleziona **Salva**.
 
 ## <a name="set-up-competencies-skills"></a>Configurare le competenze: competenze
 
-1. Nella pagina elenco **Lavoratori** , assicurati che il lavoratore che hai utilizzato nella procedura precedente sia ancora selezionato. Quindi, nel riquadro azioni, nella scheda **Lavoratore** , nel gruppo **Competenze** , seleziona **Competenze**.
+1. Nella pagina elenco **Lavoratori**, assicurati che il lavoratore che hai utilizzato nella procedura precedente sia ancora selezionato. Quindi, nel riquadro azioni, nella scheda **Lavoratore**, nel gruppo **Competenze**, seleziona **Competenze**.
 2. Seleziona **Nuovo**.
-3. Nel campo **Competenza** , seleziona **Gestione dei progetti**.
-4. Nel campo **Livello** , seleziona **5 Esperto**.
-5. Nel campo **Data livello** , seleziona **1-/14/2014**.
-6. Nel campo **Anni di esperienza** , inserisci **10**.
+3. Nel campo **Competenza**, seleziona **Gestione dei progetti**.
+4. Nel campo **Livello**, seleziona **5 Esperto**.
+5. Nel campo **Data livello**, seleziona **1-/14/2014**.
+6. Nel campo **Anni di esperienza**, inserisci **10**.
 7. Seleziona **Salva** e quindi chiudi la pagina.
 
 

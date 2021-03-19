@@ -1,6 +1,6 @@
 ---
 title: Panoramica delle modalità di gestione delle risorse
-description: Questo argomento fornisce informazioni sulla funzionalità Gestione delle risorse in Dynamics 365 Project Operations.
+description: In questo argomento vengono fornite informazioni sulla funzionalità di gestione delle risorse in Dynamics 365 Project Operations.
 author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 73ba6190e2e366f22372102d14d26f6d71ba0bc1
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 872f4f2878f474e16674932f23fe192c6a8de6eb
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118523"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279458"
 ---
 # <a name="resource-management-modes-overview"></a>Panoramica delle modalità di gestione delle risorse
 
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
 
-Dynamics 365 Project Operations supporta due modalità per eseguire il flusso di prenotazione complessivo. La modalità di gestione è definita come un parametro del progetto e può essere modificata se le esigenze aziendali cambiano.    
+Dynamics 365 Project Operations supporta due modalità per poter eseguire l'intero flusso di prenotazione. La modalità di gestione è definita come un parametro del progetto e può essere modificata se le esigenze aziendali cambiano.    
 
 ## <a name="central-mode"></a>Modalità centrale
 Per le organizzazioni che centralizzano l'allocazione delle risorse ai progetti, la modalità centrale fornisce un modo per garantire che i responsabili di progetto possano definire i requisiti di risorsa a livello di progetto. L'evasione dei requisiti di risorsa è delegato a un responsabile delle risorse. I responsabili di progetto possono accettare o rifiutare le risorse proposte dal responsabile delle risorse.

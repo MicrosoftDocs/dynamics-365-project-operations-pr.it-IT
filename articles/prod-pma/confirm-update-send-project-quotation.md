@@ -18,18 +18,18 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: f9d76c65cb6732a96cd0bd6c4c36a2a73a65a2b6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 7794f9b620165b3ce914e42693faa792e3918854
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079014"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270818"
 ---
 # <a name="confirm-update-and-send-a-project-quotation"></a>Confermare, aggiornare e inviare un'offerta di progetto
 
 [!include [banner](../includes/banner.md)]
 
-Dopo aver creato e inviato un'offerta di progetto a un cliente, è necessario ottenere la conferma dal cliente prima di aggiornare lo stato dell'offerta su **Inviato**. Eventuali modifiche richieste dal cliente possono essere aggiornate nell'offerta. Dopo aver aggiornato lo stato dell'offerta su **Inviato** , non puoi più modificarlo. La procedura seguente descrive le opzioni per inviare un'offerta per la conferma, effettuare aggiornamenti in base al feedback e quindi inviare l'offerta.
+Dopo aver creato e inviato un'offerta di progetto a un cliente, è necessario ottenere la conferma dal cliente prima di aggiornare lo stato dell'offerta su **Inviato**. Eventuali modifiche richieste dal cliente possono essere aggiornate nell'offerta. Dopo aver aggiornato lo stato dell'offerta su **Inviato**, non puoi più modificarlo. La procedura seguente descrive le opzioni per inviare un'offerta per la conferma, effettuare aggiornamenti in base al feedback e quindi inviare l'offerta.
 
 ## <a name="send-a-project-quotation-confirmation"></a>Inviare un'offerta di progetto per la conferma  
 
@@ -39,8 +39,8 @@ Dopo aver creato e inviato un'offerta di progetto a un cliente, è necessario ot
 2. Nella pagina **Offerta di progetto** seleziona l'offerta che vuoi inviare per la conferma. 
 3. Nella scheda **Completamento** nel gruppo **Genera** seleziona **Conferma**. 
 4. Nella pagina **Conferma offerta** imposta i parametri richiesti. Ad esempio, per stampare la conferma, sotto le opzioni **Stampa** attiva **Stampa conferma** e seleziona **OK**.
-5. Nella pagina **Invia offerta** seleziona **Opzioni** e nella pagina **Impostazioni della destinazione di stampa** , seleziona se desideri inviare l'offerta tramite **Schermo** , **E-mail** , **File** , **Archivio di stampa** o **Stampante** , quindi apporta le modifiche desiderate nell'area **Specifica** per instradare l'offerta.
-6. Nella pagina **Impostazioni della destinazione di stampa** , seleziona **OK**.  
+5. Nella pagina **Invia offerta** seleziona **Opzioni** e nella pagina **Impostazioni della destinazione di stampa**, seleziona se desideri inviare l'offerta tramite **Schermo**, **E-mail**, **File**, **Archivio di stampa** o **Stampante**, quindi apporta le modifiche desiderate nell'area **Specifica** per instradare l'offerta.
+6. Nella pagina **Impostazioni della destinazione di stampa**, seleziona **OK**.  
 
 ## <a name="update-a-project-quotation"></a>Aggiornare un'offerta di progetto
 

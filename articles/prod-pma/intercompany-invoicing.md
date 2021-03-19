@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4604708dbd7c835c8df1cf48f67e645952f49774
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 76eba87e7cc78dcc14510a8fb53677d626bf204f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078902"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270773"
 ---
 # <a name="intercompany-invoicing"></a>Fatturazione interaziendale
 
@@ -31,7 +31,7 @@ ms.locfileid: "4078902"
 
 Questo articolo fornisce informazioni ed esempi sulla fatturazione interaziendale per i progetti.
 
-La tua organizzazione potrebbe avere più divisioni, filiali e altre persone giuridiche che trasferiscono prodotti e servizi tra loro per i progetti. La persona giuridica che fornisce il servizio o il prodotto è denominata *entità giuridica mutuante* , mentre la persona giuridica che riceve il servizio o il prodotto è denominata *persona giuridica mutuataria*. 
+La tua organizzazione potrebbe avere più divisioni, filiali e altre persone giuridiche che trasferiscono prodotti e servizi tra loro per i progetti. La persona giuridica che fornisce il servizio o il prodotto è denominata *entità giuridica mutuante*, mentre la persona giuridica che riceve il servizio o il prodotto è denominata *persona giuridica mutuataria*. 
 
 La seguente illustrazione mostra uno scenario tipico in cui due persone giuridiche, SI FR (la persona giuridica mutuante) e SI USA (la persona giuridica mutuataria) condividono le risorse per consegnare un progetto per il cliente A. Per questo scenario, SI FR è incaricata di fornire il lavorare al cliente A. 
 
@@ -44,12 +44,12 @@ L'obiettivo è rendere più flessibili e avanzati il controllo dei costi, il ric
 -   Differisci il riconoscimento dei ricavi in una persona giuridica mutuataria e quando una persona giuridica mutuante deve rilevare il costo.
 -   Accumula i ricavi del lavoro in corso (WIP) nella persona giuridica mutuataria.
 -   Imposta i prezzi di trasferimento che possono essere basati su vari modelli di prezzo. Di seguito sono riportati alcuni esempi.
-    -   **Quantità** : l'importo che inserisci nel campo **Prezzi** è il costo effettivo per quantità o unità.
-    -   **Importo spese** : il prezzo/costo per transazione più l'importo delle spese che inserisci nel campo **Prezzi**.
-    -   **Percentuale spese** : il prezzo di trasferimento è il prezzo/costo per transazione moltiplicato per la percentuale di spese che inserisci nel campo **Prezzi**.
-    -   **Percentuale del prezzo di vendita** : la percentuale del prezzo di vendita che viene trasferita alla persona giuridica mutuante.
-    -   **Importo inferiore al prezzo di vendita** : l'importo trattenuto dalla persona giuridica mutuataria dai prezzi di vendita prima del trasferimento alla persona giuridica mutuante.
-    -   **Rapporto di contribuzione** : il numero che immetti nel campo **Prezzi** è il rapporto di contribuzione, espresso come percentuale del prezzo di vendita.
+    -   **Quantità**: l'importo che inserisci nel campo **Prezzi** è il costo effettivo per quantità o unità.
+    -   **Importo spese**: il prezzo/costo per transazione più l'importo delle spese che inserisci nel campo **Prezzi**.
+    -   **Percentuale spese**: il prezzo di trasferimento è il prezzo/costo per transazione moltiplicato per la percentuale di spese che inserisci nel campo **Prezzi**.
+    -   **Percentuale del prezzo di vendita**: la percentuale del prezzo di vendita che viene trasferita alla persona giuridica mutuante.
+    -   **Importo inferiore al prezzo di vendita**: l'importo trattenuto dalla persona giuridica mutuataria dai prezzi di vendita prima del trasferimento alla persona giuridica mutuante.
+    -   **Rapporto di contribuzione**: il numero che immetti nel campo **Prezzi** è il rapporto di contribuzione, espresso come percentuale del prezzo di vendita.
 
 ## <a name="example-1-set-up-parameters-for-intercompany-invoicing"></a>Esempio 1: configurare i parametri per la fatturazione interaziendale
 In questo esempio, USSI è una persona giuridica mutuante e le sue risorse riferiscono il tempo a fronte della persona giuridica mutuataria, FRSI, proprietaria del contratto con il cliente finale. Le ore e le spese riportate dai dipendenti USSI possono essere incluse nella fattura del progetto generata da FRSI. Inoltre, esiste una terza fonte di transazioni che può avere origine dall'entità giuridica mutuante (USSI in questo esempio) quando fornisce servizi di fornitori condivisi alle filiali (come FRSI) e quindi trasferisce tali costi ai progetti all'interno di tali filiali. Tutti i documenti di fatturazione e i calcoli delle imposte corrispondenti vengono completati da Finance. 
@@ -65,7 +65,7 @@ Per questo esempio, FRSI deve essere un cliente della persona giuridica USSI e U
    |  C   |                                  In FRSI, apri il record fornitore appena creato.                                  | Nel riquadro azioni, nella scheda <strong>Generale</strong>, nel gruppo <strong>Configura</strong>, seleziona <strong>Interaziendale</strong>. Nella pagina <strong>Interaziendale</strong>, nella scheda <strong>Relazione commerciale</strong>, imposta l'opzione <strong>Attivo</strong> su <strong>Sì</strong>. Nel campo <strong>Società cliente</strong>, seleziona il record del cliente creato nel passaggio A. |
 
 
-2. Fai cli su **Gestione progetti e contabilità** &gt; **Imposta** &gt; **Parametri Gestione progetti e contabilità** , quindi fai clic sulla scheda **Interaziendale**. Il modo in cui configuri i parametri dipende dal fatto che tu sia la persona giuridica mutuataria o la persona giuridica mutuante.
+2. Fai cli su **Gestione progetti e contabilità** &gt; **Imposta** &gt; **Parametri Gestione progetti e contabilità**, quindi fai clic sulla scheda **Interaziendale**. Il modo in cui configuri i parametri dipende dal fatto che tu sia la persona giuridica mutuataria o la persona giuridica mutuante.
    -   Se sei la persona giuridica mutuataria, seleziona la categoria di approvvigionamento da utilizzare per abbinare le fatture fornitore, che vengono generate automaticamente.
    -   Se sei la persona giuridica mutuante, per ciascuna persona giuridica mutuataria, seleziona una categoria di progetto predefinita per ogni tipo di transazione. Le categorie di progetto vengono utilizzate per la configurazione fiscale quando la categoria fatturata nelle transazioni interaziendali esiste solo nella persona giuridica mutuataria. Puoi scegliere di maturare ricavi per le transazioni interaziendali. Questo accantonamento viene effettuato quando le transazioni vengono registrate e viene quindi stornato quando viene registrata la fattura interaziendale.
 
@@ -78,7 +78,7 @@ USSI, la persona giuridica mutuante, deve creare e registrare il foglio presenze
 
 | Passaggio | Punto di accesso                                                                       | Descrizione                                                                                                                                                                                       |
 |------|-----------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| A    | **Gestione progetti e contabilità** &gt; **Fogli presenze** &gt; **Tutti i fogli presenze** | Crea un nuovo foglio presenze. Nella riga del foglio presenze, nel campo **Persona giuridica** , seleziona **FRSI**. Nel campo **ID progetto** , seleziona il progetto in FRSI. Immetti le ore per ogni giorno della settimana. |
+| A    | **Gestione progetti e contabilità** &gt; **Fogli presenze** &gt; **Tutti i fogli presenze** | Crea un nuovo foglio presenze. Nella riga del foglio presenze, nel campo **Persona giuridica**, seleziona **FRSI**. Nel campo **ID progetto**, seleziona il progetto in FRSI. Immetti le ore per ogni giorno della settimana. |
 | G    | Pagina **Foglio presenze**                                                                | Al termine del flusso di lavoro, registra il foglio presenze e prendi nota del numero del giustificativo.                                                                                                               |
 
 ## <a name="example-3-create-and-post-an-intercompany-vendor-invoice"></a>Esempio 3: creare e registrare una fattura fornitore interaziendale
@@ -87,7 +87,7 @@ USSI, la persona giuridica mutuante, deve creare e registrare la fattura fornito
 | Passaggio | Punto di accesso                                                                                      | Descrizione                                                                                                                                                                                                                                                                          |
 |------|--------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | A    | **Contabilità fornitori** &gt; **Fatture** &gt; **Fatture fornitore aperte** &gt; **Nuova fattura fornitore** | Crea una nuova fattura fornitore e immetti i servizi che sono stati acquistati per conto del progetto FRSI.                                                                                                                                                                                  |
-| G    | Pagina **Fattura fornitore**                                                                      | Immetti le righe che rappresentano i servizi esternalizzati per conto di FRSI. Nella Scheda dettaglio **Dettagli riga** , nella scheda **Progetto** per la riga fattura, nel campo **Società di progetto** , inserisci **FRSI**. Immetti il progetto e le informazioni corrispondenti. Quindi registra la la fattura fornitore. |
+| G    | Pagina **Fattura fornitore**                                                                      | Immetti le righe che rappresentano i servizi esternalizzati per conto di FRSI. Nella Scheda dettaglio **Dettagli riga**, nella scheda **Progetto** per la riga fattura, nel campo **Società di progetto**, inserisci **FRSI**. Immetti il progetto e le informazioni corrispondenti. Quindi registra la la fattura fornitore. |
 
 ## <a name="example-4-create-and-post-the-intercompany-invoice"></a>Esempio 4: creare e registrare la fattura interaziendale
 USSI, la persona giuridica mutuante, deve creare e registrare la fattura interaziendale. Esistono due punti di ingresso per i passaggi necessari per questa attività.
@@ -95,7 +95,7 @@ USSI, la persona giuridica mutuante, deve creare e registrare la fattura interaz
 | Passaggio | Punto di accesso                                                                                             | Descrizione                                                                                                                                      |
 |------|---------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
 | A    | **Gestione progetti e contabilità** &gt; **Fatture di progetto** &gt; **Fattura cliente interaziendale**  | Fai clic su **Nuovo** per aprire la pagina **Crea fattura interaziendale**.                                                                                  |
-| G    | **Gestione progetti e contabilità** &gt; **Fatture di progetto** &gt; **Fatture cliente interaziendale** | Nella pagina **Crea fattura interaziendale** , immetti la persona giuridica, specifica la transazione da includere, quindi fai clic su **Cerca**. |
+| G    | **Gestione progetti e contabilità** &gt; **Fatture di progetto** &gt; **Fatture cliente interaziendale** | Nella pagina **Crea fattura interaziendale**, immetti la persona giuridica, specifica la transazione da includere, quindi fai clic su **Cerca**. |
 | C    | **Gestione progetti e contabilità** &gt; **Fatture di progetto** &gt; **Fatture cliente interaziendale** | Seleziona le transazioni da fatturare o fai clic su **Seleziona tutto** per fatturare tutte le transazioni nell'elenco, quindi fai clic su **OK**.                  |
 | D    | Pagina **Fattura interaziendale**                                                                       | Viene visualizzata la proposta di fattura cliente interaziendale.                                                                                             |
 | E    | Pagina **Fattura interaziendale**                                                                       | Fai clic su **Post**.                                                                                                                                  |

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 28dfb256eb75ca9484161f053969c205fcd60965
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 870a583a4f7c9ed461207f65f267b529580cf02b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180918"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272483"
 ---
 # <a name="project-contract-settings---lite"></a>Impostazioni del contratto di progetto - semplice
 
@@ -21,7 +21,7 @@ _**Si applica a:** Distribuzione semplice: dalla transazione alla fatturazione p
 
 Questo argomento fornisce informazioni sui campi che si applicano all'intero contratto di progetto, comprese le impostazioni che influiscono su tutte le voci di contratto. Sono incluse anche le informazioni sul contratto che vengono riepilogate in tutte le voci per guidare i KPI del contratto di progetto.
 
-La tabella seguente elenca i campi su un contratto di progetto che sono univoci per Dynamics 365 Project Operations o presentano alcune importanti modifiche nel comportamento rispetto agli ordini di vendita in Dynamics 365 Sales.
+La tabella seguente elenca i campi di un contratto di progetto che sono univoci per Dynamics 365 Project Operations o hanno alcune importanti modifiche nel comportamento rispetto agli ordini di vendita in Dynamics 365 Sales.
 
 | Campo | Ufficio | Descrizione | Impatto downstream |
 | --- | --- | --- | --- |

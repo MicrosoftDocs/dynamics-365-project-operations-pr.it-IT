@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2ff830c63f7acf4cc23ac75d44afa9c3553b8724
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: d48da44f382e329a978a8ceee59c354d009f2114
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175986"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273023"
 ---
 # <a name="manage-project-price-lists-on-project-quotes---lite"></a>Gestire i listini prezzi di progetto sulle offerte di progetto - semplice
 
 _**Si applica a:** Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
-Le offerte di progetto sono progettate per supportare listini prezzi di vendita con più date di validità. Con Dynamics 365 Project Operations, viene aggiunta una nuova entità associata denominata **Listini prezzi di progetto**. Questa entità ha una relazione 1-a-molti con un'offerta di progetto.
+Le offerte di progetto sono progettate per supportare listini prezzi di vendita con più date di validità. Con Dynamics 365 Project Operations, una nuova entità associata chiamata **Listini prezzi di progetto** è stata aggiunta. Questa entità ha una relazione 1-a-molti con un'offerta di progetto.
 
 I listini prezzi di progetto vengono utilizzati per calcolare le transazioni di spesa e tempistica su un progetto. Quando un'offerta dispone di uno o più listini prezzi di progetto, questi listini prezzi vengono utilizzati per calcolare le stime di spesa e tempistica e i valori effettivi per i progetti associati all'offerta tramite la riga dell'offerta.
 

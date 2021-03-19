@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: de73dac28046ec98ed201e129be6511f894223fd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: cacf3913c3893dd09509cd02361c4a21bed59825
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121538"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5280088"
 ---
 # <a name="add-team-members-from-the-team-member-grid"></a>Aggiungere membri del team dalla griglia dei membri del team
 
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
-Dynamics 365 Project Operations include una dashboard Resource Manager che fornisce una panoramica visiva della domanda e dell'utilizzo delle risorse nell'organizzazione. Puoi utilizzare i grafici di questo dashboard per visualizzare le informazioni seguenti:
+Dynamics 365 Project Operations include un dashboard per i responsabili delle risorse che fornisce una panoramica visiva della domanda e dell'utilizzo delle risorse nell'organizzazione. Puoi utilizzare i grafici di questo dashboard per visualizzare le informazioni seguenti:
 
 - **Richiesta di risorse**: il grafico **Richieste risorse attive** visualizza le risorse che sono state inviate. Le risorse sono aggregate per ruolo o progetto.
 - **Richiesta di risorse non inviata**: il grafico **Richiesta di risorse non inviata** visualizza tutti i requisiti di risorsa che non sono stati inviati. Questo grafico Consente ai responsabili delle risorse di visualizzare la richiesta che non è definitiva e che può essere inviata tramite una richiesta di risorse.

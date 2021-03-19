@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 727d287c571b2a64bf10b2393a87567093a420d2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9b29340dc88aea888ea2f5ea975eaea59d014279
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079011"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270728"
 ---
 # <a name="create-a-new-project"></a>Crea un nuovo progetto
 
@@ -31,7 +31,7 @@ ms.locfileid: "4079011"
 
 Completa i passaggi seguenti per creare un nuovo progetto.
 
-1. Nella pagina **Gestione dei progetti** , seleziona **Nuovo progetto** , quindi immetti i valori seguenti:
+1. Nella pagina **Gestione dei progetti**, seleziona **Nuovo progetto**, quindi immetti i valori seguenti:
 
     - **Tipo di progetto:** tempo e materiale
     - **Nome progetto:** fase di aggiornamento XYZ 2
@@ -42,10 +42,10 @@ Completa i passaggi seguenti per creare un nuovo progetto.
 
 ## <a name="assign-a-resource-to-a-project"></a>Assegnare una risorsa a un progetto
 
-1. Nella pagina **Lavoratori** pagina, nell'elenco **Lavoratori** , seleziona il record per il lavoratore per cui hai impostato in precedenza le competenze e apri il record del lavoratore.
-2. Nel riquadro azioni, nella scheda **Progetto** , nel gruppo **Imposta** , seleziona **Assegna progetti**.
-3. Nella pagina **Assegnazioni di progetti di convalida delle risorse** , nella scheda **Progetti** , nel campo **Aggiungi il progetto ai progetti selezionati** , filtra nel progetto **Fase di aggiornamento XYZ 2**.
-4. Nel riquadro **Progetti rimanenti** , seleziona un progetto, quindi seleziona il pulsante freccia per aggiungerlo al riquadro **Progetti selezionati**.
+1. Nella pagina **Lavoratori** pagina, nell'elenco **Lavoratori**, seleziona il record per il lavoratore per cui hai impostato in precedenza le competenze e apri il record del lavoratore.
+2. Nel riquadro azioni, nella scheda **Progetto**, nel gruppo **Imposta**, seleziona **Assegna progetti**.
+3. Nella pagina **Assegnazioni di progetti di convalida delle risorse**, nella scheda **Progetti**, nel campo **Aggiungi il progetto ai progetti selezionati**, filtra nel progetto **Fase di aggiornamento XYZ 2**.
+4. Nel riquadro **Progetti rimanenti**, seleziona un progetto, quindi seleziona il pulsante freccia per aggiungerlo al riquadro **Progetti selezionati**.
 
 Puoi inoltre assegnare categorie a una risorsa in base alle tue esigenze. Il tipo di categoria è **Costo** o **Ricavi**. Il tipo di categoria è determinato dalla tua organizzazione. Se nessuna categoria è assegnata a una risorsa, Finance cerca la categoria predefinita sui prezzi orari per costi e ricavi.
 
@@ -59,26 +59,26 @@ Un project manager può utilizzare la funzionalità di assegnazione delle risors
 
 I passaggi seguenti mostrano come il responsabile delle risorse può configurare il ruolo di Senior project manager e associarvi le caratteristiche della risorsa. Successivamente, il ruolo può essere utilizzato per cercare le risorse disponibili che corrispondono alle competenze delle risorse richieste.
 
-1. Nella pagina **Configura ruoli** , seleziona **Nuovo** , quindi immetti i valori seguenti:
+1. Nella pagina **Configura ruoli**, seleziona **Nuovo**, quindi immetti i valori seguenti:
 
     - **ID ruolo:** Senior Project Manager
     - **Descrizione:** Senior Project Manager
 
 2. Seleziona **Crea**.
-3. Seleziona il ruolo **Senior Project Manager** , quindi seleziona **Configura caratteristiche**.
-4. Nel campo **Tipo di caratteristiche** , seleziona **Competenza**.
-5. Nel campo **Caratteristiche disponibili** , immetti la competenza da cercare.
-6. Nel campo **Tipo di caratteristica** , seleziona **Certificato**.
-7. Nel campo **Caratteristiche disponibili** , immetti il tipo di certificato da cercare.
+3. Seleziona il ruolo **Senior Project Manager**, quindi seleziona **Configura caratteristiche**.
+4. Nel campo **Tipo di caratteristiche**, seleziona **Competenza**.
+5. Nel campo **Caratteristiche disponibili**, immetti la competenza da cercare.
+6. Nel campo **Tipo di caratteristica**, seleziona **Certificato**.
+7. Nel campo **Caratteristiche disponibili**, immetti il tipo di certificato da cercare.
 
 ## <a name="assign-a-project-resource-to-a-project"></a>Assegnare una risorsa di progetto a un progetto
 
-1. Nella pagina **Tutti i progetti** , seleziona il progetto **Fase di aggiornamento XYZ 2**.
-2. Nella scheda **Team progetto e programmazione** , seleziona **Aggiungi**.
-3. Nel campo **Ruolo** , seleziona **Membro del team**.
+1. Nella pagina **Tutti i progetti**, seleziona il progetto **Fase di aggiornamento XYZ 2**.
+2. Nella scheda **Team progetto e programmazione**, seleziona **Aggiungi**.
+3. Nel campo **Ruolo**, seleziona **Membro del team**.
 4. Seleziona **Prenota da calendario**.
-5. Nella pagina **Disponibilità risorse** , seleziona **Visualizza impostazioni**.
-6. Nella pagina **Modifica impostazioni visualizzazione** , immetti i seguenti valori:
+5. Nella pagina **Disponibilità risorse**, seleziona **Visualizza impostazioni**.
+6. Nella pagina **Modifica impostazioni visualizzazione**, immetti i seguenti valori:
 
     - **Formato per la visualizzazione dell'intervallo di date:** giornaliero
     - **Visualizza descrizioni disponibili:** Sì
@@ -95,15 +95,15 @@ Durante la prenotazione delle risorse, i project manager possono filtrare le ris
 
 **Scenario:** è stato avviato un progetto approvato e il ruolo di Senior project manager è stato riservato come risorsa pianificata durante la fase di pianificazione del progetto. Il responsabile delle risorse ha ora acquisito una risorsa per svolgere il ruolo di Senior project manager.
 
-1. Nella pagina **Elenco risorse** , seleziona **Daniel Goldschmidt**.
-2. Nella pagina **Ruolo risorsa** , seleziona **Nuovo** , quindi immetti i valori seguenti:
+1. Nella pagina **Elenco risorse**, seleziona **Daniel Goldschmidt**.
+2. Nella pagina **Ruolo risorsa**, seleziona **Nuovo**, quindi immetti i valori seguenti:
 
     - **Validità:** immetti la data corrente.
     - **Scadenza:** immetti **Mai**.
     - **Ruolo:** immetti **Senior Project Manager**.
 
 3. Seleziona **Salva** e quindi chiudi la pagina.
-4. Nella scheda **Competenze** , aggiungi la competenza **ProjectMgmt** e il certificato **PMP**.
+4. Nella scheda **Competenze**, aggiungi la competenza **ProjectMgmt** e il certificato **PMP**.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

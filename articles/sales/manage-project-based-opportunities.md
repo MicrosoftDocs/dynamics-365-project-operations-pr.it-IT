@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c5a8bfea5540432a62d7075443cf237571bfa4de
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 2d1f9b29e0e9516ff78517e47694a2385c083ec7
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118478"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277838"
 ---
 # <a name="manage-project-based-opportunities"></a>Gestire opportunità basate su progetto
 
@@ -21,7 +21,7 @@ _**Si applica a:** Project Operations per scenari basati su risorse/materiali no
 
 Le società basate su progetti in genere includono operazioni per la consegna distribuite in più paesi e aree geografiche. Il costo dell'esecuzione e della consegna del progetto può variare in base all'area geografica o alla divisione che gestisce la consegna. A sua volta, questo può influire sui margini della transazione. La consegna di servizi basati su progetti comporta in genere grandi quantità di tempo in termini di risorse umane, spese considerevoli per viaggi, costi dei materiali e altre spese.
 
-Le opportunità basate su progetto in Dynamics 365 Project Operations sono progettate con estensioni per Dynamics 365 Sales. Questo argomento fornisce i dettagli sui diversi campi e sulla logica di business inclusi nella funzionalità aggiuntiva richiesta dalle società basate su progetti per gestire le opportunità basate su progetti.
+Le opportunità basate su progetto in Dynamics 365 Project Operations sono progettate con estensioni a Dynamics 365 Sales. Questo argomento fornisce i dettagli sui diversi campi e sulla logica di business inclusi nella funzionalità aggiuntiva richiesta dalle società basate su progetti per gestire le opportunità basate su progetti.
 
 ## <a name="view-all-project-based-opportunities"></a>Visualizzare tutte le opportunità basate su progetto
 

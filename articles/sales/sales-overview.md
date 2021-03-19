@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5da29d2959a6e49defa185630f45d280dba283c4
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 8300887e7c5fbd78343d16d191775a67e43138e2
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177606"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277388"
 ---
 # <a name="sales-process-overview"></a>Panoramica del processo di vendita
 
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
-I processi di vendita utilizzati in un'organizzazione basata su progetto differiscono dai processi di vendita utilizzati in un'organizzazione basata su prodotto. Questo perché i cicli di vendita per le organizzazioni basate su progetto sono più lunghi e richiedono tecniche di stima personalizzate per analizzare e creare offerte per ogni transazione. Dynamics 365 Project Operations utilizza alcune delle seguenti funzionalità utilizzate in un processo di vendita:
+I processi di vendita utilizzati in un'organizzazione basata su progetto differiscono dai processi di vendita utilizzati in un'organizzazione basata su prodotto. Questo perché i cicli di vendita per le organizzazioni basate su progetto sono più lunghi e richiedono tecniche di stima personalizzate per analizzare e creare offerte per ogni transazione. Dynamics 365 Project Operations utilizza alcune delle seguenti funzionalità usate in un processo di vendita:
 
 - Un record Lead è utilizzato per tenere traccia del processo di vendita.
 - I lead potenziali sono registrati come opportunità.

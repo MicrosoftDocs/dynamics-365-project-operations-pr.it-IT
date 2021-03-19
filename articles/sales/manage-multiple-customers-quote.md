@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 67e927962feb248aa7f07a69463b433e1ec89761
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 2b57d052d6b50ee420249cf5441077b092b4e13f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181997"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277883"
 ---
 # <a name="manage-multiple-customers-on-a-project-quote"></a>Gestire più clienti in un'offerta di progetto
 
@@ -23,7 +23,7 @@ Le offerte di progetto supportano lo scenario in cui la proposta coinvolge più 
 
 Tutti i clienti dell'offerta nella scheda **Clienti** dell'offerta di progetto vengono impostati in modo predefinito come clienti della riga dell'offerta in qualsiasi **nuova** riga dell'offerta basata sul progetto creata per l'offerta. Eventuali righe dell'offerta basate sul progetto esistenti non erediteranno i nuovi record cliente dell'offerta creati successivamente.
 
-I clienti dell'offerta e quelli della riga dell'offerta possono essere aggiunti, aggiornati o eliminati in qualsiasi momento prima che l'offerta venga acquisita. Un cliente valido nell'offerta deve essere configurato come cliente nella società proprietaria o persona giuridica nella pagina **Clienti**. Le persone giuridiche vengono configurate nel modulo **Gestione progetti e contabilità** di Dynamics 365 Project Operations e sono disponibili come aziende nei moduli **Vendite e consegna del progetto** di Project Operations.
+I clienti dell'offerta e quelli della riga dell'offerta possono essere aggiunti, aggiornati o eliminati in qualsiasi momento prima che l'offerta venga acquisita. Un cliente valido nell'offerta deve essere configurato come cliente nella società proprietaria o persona giuridica nella pagina **Clienti**. Le persone giuridiche sono costituite nel modulo **Contabilità e gestione di progetti** di Dynamics 365 Project Operations e sono disponibili come società nei moduli **Vendite di progetto e consegna** di Project Operations.
 
 ## <a name="concept-of-a-primary-customer"></a>Concetto di cliente primario
 

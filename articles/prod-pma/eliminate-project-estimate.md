@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 8bda8a7357e883b948449b2a19bea476996dde3c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 000eabdac41f30a6e7dd37e34b8fd91d7c51f6c4
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078929"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270683"
 ---
 # <a name="eliminate-a-project-estimate"></a>Eliminare una stima di progetto
 
@@ -37,15 +37,15 @@ Il progetto di stima deve essere completo per poter essere eliminato. I passaggi
 2. Nella scheda **Gestione** seleziona **Stime** e nella pagina **Stima** seleziona **Elimina**.
 3. Nella pagina **Elimina stima** nella scheda **Generale** imposta le seguenti opzioni:
 
-   - **Codice periodo** : Seleziona il codice del periodo per scegliere i progetti di stima appropriati. 
-   - **Data di stima** : Seleziona la data di stima appropriata per l'eliminazione.
-   - **Elimina con gli avvisi WIP** : Abilita questa opzione per fornire una notifica quando una stima collegata a un lavoro in corso (WIP) verrà eliminata. Quando questa opzione non è abilitata, l'eliminazione non può continuare se esistono transazioni non stimate. 
+   - **Codice periodo**: Seleziona il codice del periodo per scegliere i progetti di stima appropriati. 
+   - **Data di stima**: Seleziona la data di stima appropriata per l'eliminazione.
+   - **Elimina con gli avvisi WIP**: Abilita questa opzione per fornire una notifica quando una stima collegata a un lavoro in corso (WIP) verrà eliminata. Quando questa opzione non è abilitata, l'eliminazione non può continuare se esistono transazioni non stimate. 
    > [!NOTE]
    > Questa opzione è disponibile solo quando l'eliminazione viene applicata a un progetto di stima. Non è disponibile se usi le registrazioni periodiche. Questa impostazione funziona con le impostazioni nella scheda **Stima** della pagina **Parametri di progetto** nel gruppo di campi **Consenti eliminazione quando esistono transazioni non stimate**.
-   - **Imposta la fase su Finito** : Abilita questa opzione per impostare la fase del progetto di stima su **Finito** dopo aver eseguito l'eliminazione.
-   - **Stampa elenco stime** : Seleziona le informazioni da includere quando viene stampato l'elenco delle stime.
-   - **Mostra infolog** : Abilita questa opzione per visualizzare l'infolog.
-   - **Data registrazione** : Scegli la data di registrazione contabile della stima.
+   - **Imposta la fase su Finito**: Abilita questa opzione per impostare la fase del progetto di stima su **Finito** dopo aver eseguito l'eliminazione.
+   - **Stampa elenco stime**: Seleziona le informazioni da includere quando viene stampato l'elenco delle stime.
+   - **Mostra infolog**: Abilita questa opzione per visualizzare l'infolog.
+   - **Data registrazione**: Scegli la data di registrazione contabile della stima.
 
 4.  Seleziona **OK**.
 5. Una volta completato il processo di eliminazione, il progetto di stima eliminato viene visualizzato con un valore negativo. 

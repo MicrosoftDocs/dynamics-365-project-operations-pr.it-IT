@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ee3be43da401af405ab329b9b5a724a2e95c0219
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: db416343ac9ac2591007e83be80493a48f9ae904
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147118"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5280673"
 ---
 # <a name="project-service-automation-update-release-20-v3"></a>Versione di aggiornamento di Project Service Automation 20, V3
 
@@ -42,7 +42,7 @@ Sono stati risolti i seguenti problemi:
 
 - L'importazione dei membri del team di progetto con un metodo di allocazione che richiede ore genera un messaggio di errore non chiaro quando le ore specificate sono zero.
 - Gli utenti ricevono un errore non corretto quando il numero massimo di caratteri è stato inserito nel campo **Descrizione** per un'attività di progetto.
-- La pagina **download del componente aggiuntivo Microsoft Dynamics 365 Project Service Automation** reindirizza alla pagina di download in inglese quando le impostazioni della lingua dell'utente sono impostate sul giapponese.
+- La pagina di **download del componente aggiuntivo Microsoft Dynamics 365 Project Service Automation** reindirizza alla pagina di download in inglese quando le impostazioni della lingua dell'utente sono impostate sul giapponese.
 - Quando si verifica un errore del server, l'etichetta di sincronizzazione sulla scheda **Pianifica** del modulo **Progetti** a volte rimane.
 - Gli aggiornamenti delle attività ridondanti vengono inviati al server quando un'attività viene modificata.
 

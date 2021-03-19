@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b518c9eda00bef4d342dd66677344af516012749
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: ee52daae18c5f9f0b630e54359021fffe1759274
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180287"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274913"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Impostare tariffe di vendita e costo per le spese
 
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
-Puoi impostare i prezzi di costo e di vendita per le categorie di transazione in Dynamics 365 Project Operations. Poiché i prezzi di costo e di vendita sono progettati per le spese, anche ciascuna categoria di transazione che le include deve essere impostata come categoria di spesa. Questa configurazione garantisce la precisione nella funzionalità downstream. I prezzi di vendita e di costo per le categorie di transazione possono essere elencati solo in una valuta, che deve essere la valuta nell'intestazione del listino prezzi.
+Puoi impostare i prezzi di costo e di vendita per le categorie di transazioni in Dynamics 365 Project Operations. Poiché i prezzi di costo e di vendita sono progettati per le spese, anche ciascuna categoria di transazione che le include deve essere impostata come categoria di spesa. Questa configurazione garantisce la precisione nella funzionalità downstream. I prezzi di vendita e di costo per le categorie di transazione possono essere elencati solo in una valuta, che deve essere la valuta nell'intestazione del listino prezzi.
 
 Per impostare le tariffe di vendita e costo per le categorie di transazione, completa i seguenti passaggi. 
 

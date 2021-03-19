@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2e79dde867833fb952349c073ce8975381029dcf
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: e6b1265e5e4d29ccc3f620da364fc9554285a176
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180724"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274373"
 ---
 # <a name="set-up-labor-cost-rates---lite"></a>Impostare le tariffe per il costo del lavoro - semplice
 
@@ -38,7 +38,7 @@ La tabella seguente include alcuni dei campi importanti quando si creano le tari
 
 ## <a name="transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity"></a>Trasferire prezzi e costi per risorse esterne alla divisione o alla persona giuridica
 
-Nelle aziende basate su progetti, è comune utilizzare dipendenti di diverse entità legali o divisioni sui progetti. Un progetto può essere eseguito da una persona giuridica, ma i dipendenti o i consulenti che lavorano al progetto potrebbero provenire dalla stessa persona giuridica o da un'altra, oppure potrebbe esserci una combinazione di entrambi. In Dynamics 365 Project Operations, la persona giuridica proprietaria della consegna del progetto è la **società proprietaria** e la divisione proprietaria della consegna è l'**unità contraente**. Altre persone giuridiche che forniscono risorse sono le **società di gestione risorse** e le divisioni che forniscono risorse sono le **unità di gestione risorse**. Nella maggior parte dei paesi, le società sono tenute a garantire che la persona giuridica o la divisione che fornisce le risorse addebiti alla società proprietaria e all'unità contraente l'utilizzo delle risorse.
+Nelle aziende basate su progetti, è comune utilizzare dipendenti di diverse entità legali o divisioni sui progetti. Un progetto può essere eseguito da una persona giuridica, ma i dipendenti o i consulenti che lavorano al progetto potrebbero provenire dalla stessa persona giuridica o da un'altra, oppure potrebbe esserci una combinazione di entrambi. In Dynamics 365 Project Operations, la persona giuridica proprietaria della consegna del progetto è la **Società proprietaria** e la divisione proprietaria della consegna è l'**Unità contraente**. Altre persone giuridiche che forniscono risorse sono le **società di gestione risorse** e le divisioni che forniscono risorse sono le **unità di gestione risorse**. Nella maggior parte dei paesi, le società sono tenute a garantire che la persona giuridica o la divisione che fornisce le risorse addebiti alla società proprietaria e all'unità contraente l'utilizzo delle risorse.
 
 Ad esempio, la società Fabrikam deve garantire che Fabrikam India-Robotics abbia negoziato un tariffario dei costi con Fabrikam US-Robotics o Fabrikam UK-Robotics.
 

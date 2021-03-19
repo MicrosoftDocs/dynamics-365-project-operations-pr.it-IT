@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bba555003b76e3e87412679b274f74f68ac7203b
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: cac6125abc7269ee95667ae589d5a748b3d4190c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181010"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272528"
 ---
 # <a name="project-based-opportunity-lines---lite"></a>Righe di opportunità basate su progetto - semplice
 
@@ -27,7 +27,7 @@ Di seguito sono riportati i campi in una riga di opportunità basata su progetto
 
 | **Campo** | **Luogo** | **Descrizione** | **Impatto downstream** |
 | --- | --- | --- | --- |
-| Tipo di prodotto | Scheda Generale (nascosta) | Puoi selezionare una delle opzioni seguenti:</br>- Servizio basato sul progetto (disponibile solo quando è installato Dynamics 365 Project Operations)</br>- Prodotto (disponibile solo quando sono installati Project Operations e Dynamics 365 Sales) | Il valore di questo campo è impostato su **Servizio basato sul progetto** quando si crea una riga di opportunità basata su progetto dalla griglia delle righe basate su progetto nell'opportunità. <br> Se modifichi o sostituisci questo valore, la funzionalità del progetto non sarà abilitata sulle voci basate su progetto. |
+| Tipo di prodotto | Scheda Generale (nascosta) | Puoi selezionare una delle opzioni seguenti:</br>- Servizio basato su progetto (disponibile solo quando Dynamics 365 Project Operations è installato)</br>- Prodotto (disponibile solo quando sono installati Project Operations e Dynamics 365 Sales) | Il valore di questo campo è impostato su **Servizio basato sul progetto** quando si crea una riga di opportunità basata su progetto dalla griglia delle righe basate su progetto nell'opportunità. <br> Se modifichi o sostituisci questo valore, la funzionalità del progetto non sarà abilitata sulle voci basate su progetto. |
 | Opportunità | Scheda Generale | Questo campo è di sola lettura e fa riferimento al record di opportunità padre a cui appartiene questa voce. | Non vi è alcun impatto downstream da questo campo. |
 | Nome | Scheda Generale | Questo campo di testo modificabile può essere utilizzato per assegnare una breve identità alla voce. | Questo valore viene riportato nella riga dell'offerta quando si crea un'offerta da questa opportunità. |
 | Budget cliente | Scheda Generale | Questo campo di valuta modificabile può essere utilizzato per tenere traccia dell'importo che il cliente è disposto a spendere per questa voce. | Questo valore viene riportato nel campo corrispondente della riga dell'offerta quando si crea un'offerta da questa opportunità. |

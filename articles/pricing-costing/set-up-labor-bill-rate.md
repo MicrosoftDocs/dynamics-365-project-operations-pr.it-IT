@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 501458510efca6434a51577aacd1f09d1a4faa25
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: b4d09f4bf6788f93c028f084965faa6aac41a22d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180703"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274823"
 ---
 # <a name="set-up-labor-bill-rates"></a>Impostare le tariffe per la fatturazione del lavoro
 
 _ **Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati
 
-Ogni listino prezzi ha una serie di prezzi di ruolo, o tariffe di manodopera che sono valide per il contenuto e la data di validità inclusa nell'intestazione del listino prezzi. Le tariffe di fatturazione per il tempo in Dynamics 365 Project Operations possono essere impostati in una sola valuta, che è la valuta nell'intestazione del listino prezzi.
+Ogni listino prezzi ha una serie di prezzi di ruolo, o tariffe di manodopera che sono valide per il contenuto e la data di validità inclusa nell'intestazione del listino prezzi. I tassi di fatturazione per il tempo in Dynamics 365 Project Operations possono essere impostati in una sola valuta, che è la valuta nell'intestazione del listino prezzi.
 
 1. Per impostare le tariffe di fatturazione della manodopera per un listino prezzi di vendita, crea un listino prezzi basato sull'intestazione del listino prezzi. 
 2. Nella scheda **Prezzo del ruolo**, nella griglia secondaria, seleziona **+ Nuovo prezzo ruolo**. 

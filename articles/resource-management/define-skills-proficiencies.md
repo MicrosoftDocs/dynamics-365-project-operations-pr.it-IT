@@ -17,18 +17,18 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8738a4743554704ef76807c81fdefcd74e668e1b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d1ef50a3aa297ef439b54d37de629414ca66c820
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124778"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279683"
 ---
 # <a name="define-skills-and-proficiencies"></a>Definire le competenze e i livelli di preparazione
 
 _**Si applica a:** Project Operations per scenari basati su risorse/non stoccate, Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
-Le competenze sono caratteristiche delle risorse condivise tra Dynamics 365 Project Operations e se presente Dynamics 365 Field Service. 
+Le competenze sono caratteristiche delle risorse condivise tra Dynamics 365 Project Operations e, se presente, Dynamics 365 Field Service. 
 
 - Per gestire l'archivio delle competenze in Project Operations, seleziona **Risorse** \> **Competenze risorse**. 
 
