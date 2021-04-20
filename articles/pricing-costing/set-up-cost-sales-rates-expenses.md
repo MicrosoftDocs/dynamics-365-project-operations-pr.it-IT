@@ -3,17 +3,17 @@ title: Impostare tariffe di vendita e costo per le spese
 description: Questo argomento fornisce informazioni su come configurare le tariffe di costo e vendita per le categorie di spesa e transazione.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ee52daae18c5f9f0b630e54359021fffe1759274
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 34e3c24ae1aa999954af9b347633820d265ac0c3
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274913"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877225"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Impostare tariffe di vendita e costo per le spese
 
@@ -23,9 +23,10 @@ Puoi impostare i prezzi di costo e di vendita per le categorie di transazioni in
 
 Per impostare le tariffe di vendita e costo per le categorie di transazione, completa i seguenti passaggi. 
 
-1. Crea un listino prezzi in base all'intestazione del listino prezzi. 
-2. In **Prezzi di categoria**, nel menu della griglia secondaria, seleziona **+ Nuovo prezzo di categoria**. 
-3. Nella pagina **Creazione rapida** inserisci la categoria di transazione e l'unità per cui stai creando il nuovo prezzo.
+1. Vai a **Vendite** > **Clienti** > **Listini prezzi**.
+2. Per creare un nuovo listino prezzi, seleziona **Nuovo**. 
+3. In **Prezzi categoria**, nel menu della griglia secondaria, seleziona **Nuovo prezzo di categoria**. 
+4. Nella pagina **Creazione rapida** inserisci la categoria di transazione e l'unità per cui stai creando il nuovo prezzo.
 
 La tabella seguente elenca i campi della scheda **Generale** e nella pagina **Creazione rapida** di una riga di prezzo di categoria che devi tenere a mente quando crei i prezzi di categoria in un listino prezzi di vendita o costo:
 
@@ -48,13 +49,13 @@ Quando imposti i prezzi di categoria rilevanti solo nel contesto del prezzo di s
 - **Ricarico sul costo**
 
 ### <a name="price-per-unit"></a>Prezzo unitario
-Quando questo metodo di determinazione dei prezzi viene selezionato su una riga di prezzo di categoria collegata a un listino prezzi di vendita, il prezzo è predefinito per la combinazione di categoria e unità sia nella stima che nel valore effettivo. La stima si riferisce alle righe di stima di progetto per le spese, ai dettagli della riga di offerta e ai dettagli della voce di contratto per le spese.
+Quando questo metodo di determinazione dei prezzi viene selezionato su una riga di prezzo di categoria collegata a un listino prezzi di vendita, il prezzo è predefinito per la combinazione di categoria e unità sia nella stima che nel valore effettivo. La stima si riferisce alle righe di stima di progetto per le spese, al dettaglio della riga di offerta e al dettaglio della voce di contratto per le spese.
 
 ### <a name="at-cost"></a>Al costo
-Quando questo metodo di determinazione dei prezzi viene selezionato sulla riga di prezzo di categoria collegata a un listino prezzi di vendita, il prezzo è predefinito per la combinazione di categoria e unità solo nel valore effettivo di spesa. Ad esempio, i valori effettivi delle vendite non fatturate per la classe di transazione di spesa. Il prezzo unitario viene impostato sulle vendite effettive non fatturate dal prezzo unitario sul costo effettivo per quella spesa. L'impostazione predefinita del prezzo in base al costo non viene eseguita sulle stime di progetto per le spese o sui dettagli della riga dell'offerta e della voce del contratto per le spese.
+Quando questo metodo di determinazione dei prezzi viene selezionato sulla riga di prezzo di categoria collegata a un listino prezzi di vendita, il prezzo è predefinito per la combinazione di categoria e unità solo nel valore effettivo di spesa. Ad esempio, i valori effettivi delle vendite non fatturate per la classe di transazione di spesa. Il prezzo unitario viene impostato sulle vendite effettive non fatturate dal prezzo unitario sul costo effettivo per quella spesa. L'impostazione predefinita del prezzo in base al costo non viene eseguita sulle stime di progetto per le spese o sui dettagli della riga di offerta e della voce del contratto per le spese.
 
 ### <a name="markup-over-cost"></a>Ricarico sul costo
-Quando questo metodo di determinazione dei prezzi viene selezionato sulla riga di prezzo di categoria collegata a un listino prezzi di vendita, il prezzo è predefinito per la combinazione di categoria e unità solo in un valore effettivo di spesa. Ad esempio, i valori effettivi delle vendite non fatturate per la classe di transazione di spesa. Questo prezzo unitario viene impostato sulle vendite non fatturate effettive su un valore calcolato dal prezzo unitario sul costo effettivo per quella spesa dopo l'applicazione della percentuale di ricarico definita. L'impostazione predefinita del prezzo in base al costo non viene eseguita nelle stime di progetto per le spese o sui dettagli della riga dell'offerta e della voce del contratto per le spese.
+Quando questo metodo di determinazione dei prezzi viene selezionato sulla riga di prezzo di categoria collegata a un listino prezzi di vendita, il prezzo è predefinito per la combinazione di categoria e unità solo in un valore effettivo di spesa. Ad esempio, i valori effettivi delle vendite non fatturate per la classe di transazione di spesa. Questo prezzo unitario viene impostato sulle vendite non fatturate effettive su un valore calcolato dal prezzo unitario sul costo effettivo per quella spesa dopo l'applicazione della percentuale di ricarico definita. L'impostazione predefinita del prezzo in base al costo non viene eseguita nelle stime di progetto per le spese o sui dettagli della riga di offerta e della voce del contratto per le spese.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

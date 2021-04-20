@@ -3,50 +3,53 @@ title: Panoramica delle approvazioni
 description: Questo argomento fornisce informazioni su come utilizzare le approvazioni in Project Operations.
 author: stsporen
 manager: Annbe
-ms.date: 10/05/2020
+ms.date: 03/31/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: a7573b95998387453b72dbcb73c3de977ed7d913
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: b2da22e10cf6c40a2c84bcd32437b2830f830d07
+ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290364"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5852504"
 ---
 # <a name="approvals-overview"></a>Panoramica delle approvazioni
 
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
-Gli invii di tempo e spese passano attraverso un flusso di lavoro di approvazione. Dopo l'approvazione degli inserimenti, le transazioni vengono registrate in valori effettivi o viene prenotata un'ora nella pianificazione.
+Gli invii di tempo, spese e utilizzo di materiale passano attraverso un flusso di lavoro per le approvazioni. Dopo l'approvazione degli inserimenti, le transazioni vengono registrate in valori effettivi o viene prenotata un'ora nella pianificazione.
 
 ## <a name="approvals-workflow"></a>Flusso di lavoro per le approvazioni
-Quando crei e invii una voce di tempo o di spesa, viene creata una voce di approvazione. L'approvatore del progetto o il tuo responsabile esamina e approva il tuo inserimento. Se la voce è correlata a un progetto, quando viene approvata, verranno creati i valori effettivi. Ciò consente di monitorare il costo e la fatturazione. 
+Quando si crea e si invia una voce di tempo, spesa o utilizzo di materiale, viene creato un record approvazione. Il revisore o il responsabile del progetto esamina e approva la voce. Se la voce è correlata a un progetto, i valori effettivi verranno creati al momento dell'approvazione. Ciò consente di monitorare il costo e la fatturazione.
 
 ## <a name="approve-an-entry"></a>Approvare una voce
-Il modulo **Approvazioni** consente di passare da una visualizzazione all'altra in modo da poter visualizzare i diversi tipi di approvazioni.
+La pagina **Approvazioni** consente di passare da una visualizzazione all'altra in modo da poter visualizzare i diversi tipi di approvazioni.
   
-1. Vai al modulo **Approvazioni** e seleziona **Spese**, **Tempo** o **Ricorda**.
+1. Vai alla pagina **Approvazioni** e seleziona **Spese**, **Tempo**, **Utilizzo di materiale** o **Richiami**.
 2. Rivedi ogni approvazione e seleziona quelle che desideri approvare.
 3. Seleziona **Approva** per approvare le voci selezionate.
-Il sistema elaborerà queste voci e creerà valori effettivi o una prenotazione.
+Il sistema elabora queste voci e crea valori effettivi.
 
 ## <a name="reject-an-entry"></a>Rifiutare una voce
 In qualità di approvatore del progetto, potrebbe essere necessario inviare una voce a un utente per la correzione.
   
-1. Vai al modulo **Approvazioni** e seleziona la voce da rifiutare. 
+1. Vai alla pagina **Approvazioni** e seleziona la voce da rifiutare. 
 2. Seleziona **Rifiuta**.
 3. Facoltativo: aggiungi un commento nella finestra di dialogo **Commenti rifiuto** per informare l'utente del motivo per cui la voce è stata rifiutata.
 4. Seleziona **OK**. La voce verrà restituita all'utente.
   
-## <a name="recall-entries"></a>Richiamare le voci
-Ad un certo punto, potrebbe essere necessario richiamare una voce inviata. Se la voce non è stata approvata, verrà restituita immediatamente. Tuttavia, una voce approvata può avere un impatto sostanziale. L'approvatore del progetto è tenuto ad approvare il richiamo per stornare la transazione in Valori effettivi.
+## <a name="cancel-approval"></a>Annulla approvazione
+In alcuni casi, potrebbe essere necessario annullare una voce precedentemente approvata. L'annullamento di una voce precedentemente approvata avrà un impatto finanziario. 
+
+## <a name="approving-recall-requests"></a>Approvare richieste di richiamo
+In alcuni casi, un consulente potrebbe dover richiamare una voce precedentemente approvata. L'annullamento di una voce precedentemente approvata avrà un impatto finanziario. L'approvatore del progetto deve approvare il richiamo per stornare la transazione in Valori effettivi.
 
 ## <a name="specify-project-approvers"></a>Specificare gli approvatori di progetto
 Ogni progetto ha un numero di membri del team di progetto. È possibile specificare quali membri del team sono anche approvatori del progetto.
 
-1. Vai al modulo **Progetti** e apri il progetto dall'elenco.
+1. Vai alla pagina **Progetti** e apri il progetto dall'elenco.
 2. Nella scheda **Team**, seleziona il membro del team che sarà un approvatore del progetto, quindi seleziona **Modifica**.
 3. Imposta il campo **Responsabile approvazione di progetto** su **Sì**.
 4. Seleziona **Salva**.

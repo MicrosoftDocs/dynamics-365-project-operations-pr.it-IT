@@ -1,42 +1,27 @@
 ---
-title: Creare una fattura proforma manuale
-description: Questo argomento fornisce informazioni sulla creazione di una fattura proforma.
+title: Fatture proforma
+description: Questo argomento fornisce informazioni sulle fatture proforma in Project Operations.
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3289b8bcaddaebe1a3657b5902c1d324f9e0fd53
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.author: rumant
+ms.openlocfilehash: b143ba286f25ecb23fea09a85bca06543f7f55ff
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287783"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866866"
 ---
-# <a name="create-a-manual-proforma-invoice"></a>Creare una fattura proforma manuale
+# <a name="proforma-invoices"></a>Fatture proforma
 
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati_
 
-La fatturazione offre ai responsabili di progetto un secondo livello di approvazione prima della creazione di fatture per i clienti. Il primo livello di approvazione viene completato quando le voci di spesa e gli inserimenti ore inviati dai membri del team di progetto sono approvate.
+La fatturazione proforma fornisce ai responsabili di progetto un secondo livello di approvazione prima della creazione di fatture per i clienti. Il primo livello di approvazione viene completato quando le voci di tempo, spesa e materiale inviate dai membri del team di progetto sono approvate. Le fatture proforma confermate sono disponibili nel modulo Contabilità di progetto di Project Operations. I contabili del progetto possono eseguire aggiornamenti aggiuntivi come IVA, contabilità e layout delle fatture.
 
-Dynamics 365 Project Operations non è progettato per generare fatture per i clienti, per i motivi seguenti:
-
-- Non contiene informazioni fiscali.
-- Non può convertire altre valute nella valuta di fatturazione utilizzando tassi di cambio configurati correttamente.
-- Non può formattare le fatture correttamente in modo da poterle stampare.
-
-In alternativa, puoi utilizzare un sistema finanziario o di contabilità per creare fatture per i clienti che utilizzano le informazioni delle proposte di fatturazione generate.
 
 ## <a name="creating-project-invoices"></a>Creare fatture di progetto
 
@@ -50,7 +35,7 @@ Segui questa procedura per creare una fattura per uno specifico contratto di pro
 
 - Nella pagina elenco **Contratti di progetto**, apri un contratto di progetto e quindi seleziona **Crea fattura**.
 
-    Una fattura viene generata per tutte le transazioni del contratto di progetto selezionato il cui stato è **Pronto per la fatturazione**. Queste transazioni includono voci di contratto basate su prodotto, tempo, spese e passaggi fondamentali.
+    Una fattura viene generata per tutte le transazioni del contratto di progetto selezionato il cui stato è **Pronto per la fatturazione**. Queste transazioni includono tempi, spese, materiali, passaggi fondamentali e altre righe giornale di registrazione vendite non fatturate.
 
 Segui questa procedura per creare fatture in blocco.
 
@@ -60,7 +45,7 @@ Segui questa procedura per creare fatture in blocco.
 
 2. Seleziona **OK** per chiudere la finestra del messaggio.
 
-    Una fattura viene generata per tutte le transazioni in una voce di contratto il cui stato è **Pronto per la fatturazione**. Queste transazioni includono voci di contratto basate su prodotto, tempo, spese e passaggi fondamentali.
+    Una fattura viene generata per tutte le transazioni in una voce di contratto il cui stato è **Pronto per la fatturazione**. Queste transazioni includono tempi, spese, materiali, passaggi fondamentali e altre righe giornale di registrazione vendite non fatturate.
 
 3. Per visualizzare le fatture generate, seleziona **Sales** \> **Fatturazione** \> **Fatture**. Viene visualizzata una fattura per ogni contratto di progetto.
 
@@ -93,11 +78,10 @@ Il processo batch per la creazione di fatture è un processo ricorrente. Se ques
  
 ### <a name="edit-a-draft-invoice"></a>Modificare una bozza di fattura
 
-Quando crei una bozza di fattura di progetto, tutte le transazioni di vendita non fatturate create all'approvazione delle voci di spesa e degli inserimenti ore tempo sono inseriti nella fattura. Puoi eseguire le seguenti rettifiche quando la fattura è ancora nello stato bozza:
+Quando crei una bozza di fattura di progetto, tutte le transazioni di vendita non fatturate create all'approvazione delle voci di tempo, spesa e utilizzo di materiale sono inseriti nella fattura. Puoi eseguire le seguenti rettifiche quando la fattura è ancora nello stato bozza:
 
 - Eliminare o modificare dettagli di riga fattura.
 - Modificare e rettificare la quantità e il tipo di fatturazione.
-- Aggiungere direttamente tempo, spese e imposte come transazioni nella fattura. Puoi utilizzare questa funzionalità se la riga fattura viene mappata a una voce di contratto che consente queste classi di transazioni.
 
 Seleziona **Conferma** per confermare una fattura. L'azione Conferma è unidirezionale. Quando selezioni **Conferma**, il sistema rende la fattura di sola lettura e crea valori effettivi di vendite fatturate da ogni dettaglio di ogni riga fattura. Se il dettaglio di riga fattura fa riferimento a un valore effettivo di vendite non fatturate, il sistema storna anche questo valore. (qualsiasi dettaglio di riga fattura creato da una voce di spesa o un inserimento ore farà riferimento a un valore effettivo di vendite non fatturate). I sistemi di integrazione di contabilità generale possono utilizzare questo storno per stornare il lavoro in corso del progetto per scopi di contabilità.
 
@@ -107,7 +91,7 @@ Le fatture confermate possono essere modificate (corrette). Quando correggi una 
 
 Se alcune transazioni non richiedono la correzione, puoi rimuoverle dalla bozza di fattura correttiva. Se desideri stornare o restituire solo una quantità parziale, puoi modificare il campo **Quantità** nel dettaglio della riga. Se apri il dettaglio di riga fattura, puoi vedere la quantità della fattura originale. Puoi quindi modificare la quantità della fattura corrente di modo che sia inferiore o superiore alla quantità della fattura originale.
 
-Quando confermi una fattura correttiva, il valore effettivo delle vendite fatturate originali viene stornato e viene creato un nuovo valore effettivo di vendite fatturate. Se la quantità è stata ridotta, la differenza genererà anche la creazione di un nuovo valore effettivo delle vendite. Ad esempio, se lea vendita fatturata originale era per otto ore e il dettaglio di riga di fattura correttiva presenta una quantità ridotta di sei ore, la riga delle vendite fatturate originali viene stornata e due nuovi valori effettivi vengono creati:
+Quando confermi una fattura correttiva, il valore effettivo delle vendite fatturate originali viene stornato e viene creato un nuovo valore effettivo di vendite fatturate. Se la quantità è stata ridotta, la differenza genererà anche la creazione di un nuovo valore effettivo delle vendite. Ad esempio, se lea vendita fatturata originale era per otto ore e il dettaglio di riga fattura correttiva presenta una quantità ridotta di sei ore, la riga delle vendite fatturate originali viene stornata e due nuovi valori effettivi vengono creati:
 
 - Un valore effettivo delle vendite fatturate per sei ore.
 - Un valore effettivo delle vendite non fatturate per le due ore rimanenti. Questa transazione può essere fatturata successivamente o contrassegnata come non addebitale, a seconda delle negoziazioni con il cliente.

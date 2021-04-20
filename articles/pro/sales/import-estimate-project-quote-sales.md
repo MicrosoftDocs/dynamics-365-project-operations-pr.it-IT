@@ -8,20 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f3f18644a51d87cf3bb5b4effba2236eaf3d81a9
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 0aedaa2ec77bb54031fccd0db2872e0aa5fea5e0
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273428"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858253"
 ---
-# <a name="import-estimates-for-a-project-to-a-project-based-quote-line---lite"></a>Importare stime per un progetto in una riga di offerta basata su progetto - semplice
+# <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>Importare stime per un progetto in una riga di offerta basata su progetto 
 
-_**Si applica a:** Distribuzione semplice: dalla transazione alla fatturazione proforma_
+_**Si applica a:** Distribuzione semplice: dalla transazione alla fatturazione proforma, Project Operations per scenari basati su risorse/materiali non stoccati_
 
 Se un progetto viene creato durante la fase di prevendita, è possibile scegliere di importare la stima finanziaria dal progetto sulla riga di basata sul progetto.
 
-1. Assicurati che la riga dell'offerta basata sul progetto contenga le informazioni sul progetto nel campo **Progetto**.
+1. Assicurati che la riga di offerta basata su progetto contenga le informazioni sul progetto nel campo **Progetto**.
 2. Nella scheda **Dettagli riga di offerta**, seleziona **Importa da stima di progetto**.
 3. Nella finestra di dialogo che si apre, seleziona una delle opzioni di riepilogo seguenti.
 
@@ -30,11 +30,11 @@ Se un progetto viene creato durante la fase di prevendita, è possibile sceglier
   - **Ruolo** 
   - **Attività di progetto**
 
-In base alla selezione, viene copiata la stima dal progetto per tutte le classi di transazione incluse in questa riga di offerta. Per verificare quali classi di transazione sono incluse, seleziona la scheda **Generale** nella riga dell'offerta basata sul progetto e controlla i valori per **Includi tempo**, **Includi spese** e **Includi commissioni**.  Per verificare quali attività sono incluse, seleziona la scheda **Attività addebitabili** nella riga di offerta.
+In base alla selezione, viene copiata la stima dal progetto per tutte le classi di transazione incluse in questa riga di offerta. Per verificare quali classi di transazioni sono incluse, seleziona la scheda **Generale** nella riga di offerta basata su progetto e controlla i valori per **Includi tempo**, **Includi spese**, **Includi materiali** e **Includi commissioni**.  Per verificare quali attività sono incluse, seleziona la scheda **Attività addebitabili** nella riga di offerta.
 
 A seconda delle attività associate e delle classi di transazione incluse, le stime per tali combinazioni di attività e classi di transazione vengono importate nella riga di offerta.
 
-Quando si importano le stime, il sistema imposterà il prezzo in base ai listini prezzi di progetto allegati all'offerta e al tipo di fatturazione impostato nella riga dell'offerta basata sul progetto. Se un'attività, un ruolo o una categoria è configurato nella riga dell'offerta basata su progetto come non addebitabile, la riga della stima importata verrà impostata come non addebitabile e non si sommerà al valore quotato della riga dell'offerta.
+Quando si importano le stime, il sistema imposterà il prezzo in base ai listini prezzi di progetto allegati all'offerta e al tipo di fatturazione impostato nella riga di offerta basata su progetto. Se un'attività, un ruolo o una categoria è configurato nella riga dell'offerta basata su progetto come non addebitabile, la riga della stima importata verrà impostata come non addebitabile e non si sommerà al valore quotato della riga dell'offerta.
 
 Quando una riga di offerta include dettagli, i campi **Valore offerta** e **Imposta stimata** sulla riga dell'offerta vengono riepilogati e non possono essere modificati.
 

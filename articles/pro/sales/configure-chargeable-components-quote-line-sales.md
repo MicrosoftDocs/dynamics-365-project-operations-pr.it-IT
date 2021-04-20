@@ -1,23 +1,23 @@
 ---
-title: Configurare i componenti addebitabili di una riga di offerta - semplice
+title: Configurare i componenti addebitabili di una riga di offerta
 description: Questo argomento fornisce informazioni sulla configurazione dei componenti addebitabili e non addebitabili di una riga di offerta basata su progetto.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0e293587adf15d0523bef6b7e688fdc883aba0fa
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1a9e1851bd8c5a4070df2774c945d1f3eabaaa8a
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273878"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858298"
 ---
-# <a name="configure-the-chargeable-components-of-a-quote-line---lite"></a>Configurare i componenti addebitabili di una riga di offerta - semplice
+# <a name="configure-the-chargeable-components-of-a-quote-line"></a>Configurare i componenti addebitabili di una riga di offerta 
 
-_**Si applica a:** Distribuzione semplice: dalla transazione alla fatturazione proforma_
+_**Si applica a:** Distribuzione semplice: dalla transazione alla fatturazione proforma, Project Operations per scenari basati su risorse/materiali non stoccati_
 
 Una riga di offerta basata su progetto ha il concetto di componenti *inclusi* e *addebitabili*.
 
@@ -42,7 +42,7 @@ L'esigibilità è definita nelle categorie di transazione per una riga di offert
 
 ### <a name="update-a-project-task-to-be-chargeable-or-non-chargeable"></a>Aggiornare un'attività di progetto in modo che sia addebitabile o non addebitabile
 
-Un'attività di progetto può essere addebitabile o non addebitabile nel contesto di una specifica riga di offerta basata su progetto, il che rende possibile la seguente configurazione:
+Un'attività di progetto può essere addebitabile o non addebitabile nel contesto di una specifica riga di offerta basata su progetto, il che rende possibile la seguente configurazione.
 
 Se una riga di offerta basata su progetto include **Tempo** e l'attività **T1**, l'attività è associata alla riga di offerta come addebitabile. Se è presente una seconda riga di offerta che include **Spese**, puoi associare l'attività **T1** nella riga di offerta come non addebitabile. Il risultato è che tutto il tempo registrato sull'attività è addebitabile e tutte le spese registrate sull'attività non sono addebitabili.
 
@@ -61,22 +61,575 @@ Una categoria di transazione può essere addebitabile o non addebitabile su una 
 Il tipo di fatturazione di una transazione può essere configurato nella scheda **Categorie addebitabili** di una riga di offerta aggiornando il campo **Tipo di fatturazione** nella griglia secondaria **Categorie addebitabili**.
 
 ### <a name="resolve-chargeability"></a>Risolvere l'esigibilità
-Una stima o un valore effettivo creato per il tempo sarà considerato addebitabile solo se il **tempo** è incluso nella voce di contratto e se l'**attività** e il **ruolo** sono configurati come addebitabili nella riga di offerta.
+Una stima o un valore effettivo creato per il tempo sarà considerato addebitabile solo se:
 
-Una stima o un valore effettivo creato per la spesa sarà considerato addebitabile solo se la **spesa** è inclusa nella riga di offerta e se l'**attività** e la **categoria di transazioni** sono configurati come addebitabili nella riga di offerta.
+   - **Tempo** è incluso nella riga di offerta.
+   - **Ruolo** è configurato come addebitabile nella riga di offerta.
+   - **Attività incluse** è impostato su **Attività selezionate** nella riga di offerta. 
 
-| Include il tempo | Include la spesa | Attività incluse | Ruolo | Categoria. | Attività | Fatturazione |
-| --- | --- | --- | --- | --- | --- | --- |
-| Sì | Sì | Progetto intero | Addebitabile | Addebitabile | Non può essere impostato | Fatturazione in base all'ora effettiva: addebitabile </br>Tipo di fatturazione su un valore effettivo di spesa: addebitabile |
-| Sì | Sì | Solo le attività selezionate | Addebitabile | Addebitabile | Addebitabile | Fatturazione in base all'ora effettiva: addebitabile</br>Tipo di fatturazione su un valore effettivo di spesa: addebitabile |
-| Sì | Sì | Solo le attività selezionate | Non addebitabile | Addebitabile | Addebitabile | Fatturazione in base all'ora effettiva: non addebitabile</br>Tipo di fatturazione su un valore effettivo di spesa: addebitabile |
-| Sì | Sì | Solo le attività selezionate | Addebitabile | Addebitabile | Non addebitabile | Fatturazione in base all'ora effettiva: non addebitabile</br> Tipo di fatturazione su un valore effettivo di spesa: non addebitabile |
-| Sì | Sì | Solo le attività selezionate | Non addebitabile | Addebitabile | Non addebitabile | Fatturazione in base all'ora effettiva: non addebitabile</br> Tipo di fatturazione su un valore effettivo di spesa: non addebitabile |
-| Sì | Sì | Solo le attività selezionate | Non addebitabile | Non addebitabile | Addebitabile | Fatturazione in base all'ora effettiva: non addebitabile</br> Tipo di fatturazione su un valore effettivo di spesa: non addebitabile |
-| No | Sì | Progetto intero | Non può essere impostato | Addebitabile | Non può essere impostato | Fatturazione in base all'ora effettiva: non disponibile </br>Tipo di fatturazione su un valore effettivo di spesa: addebitabile |
-| No | Sì | Progetto intero | Non può essere impostato | Non addebitabile | Non può essere impostato | Fatturazione in base all'ora effettiva: non disponibile </br>Tipo di fatturazione su un valore effettivo di spesa: non addebitabile |
-| Sì | No | Progetto intero | Addebitabile | Non può essere impostato | Non può essere impostato | Fatturazione in base all'ora effettiva: addebitabile</br>Tipo di fatturazione su un valore effettivo di spesa: non disponibile |
-| Sì | No | Progetto intero | Non addebitabile | Non può essere impostato | Non può essere impostato | Fatturazione in base all'ora effettiva: non addebitabile </br>Tipo di fatturazione su un valore effettivo di spesa: non disponibile |
+Se queste tre condizioni sono soddisfatte, anche l'**Attività** è configurata come addebitabile. 
+
+Una stima o un valore effettivo creato per le spese è considerato addebitabile solo se: 
+
+   - **Spesa** è incluso nella riga di offerta.
+   - **Categoria di transazione** è configurato come addebitabile nella riga di offerta.
+   - **Attività incluse** è impostato su **Attività selezionate** nella riga di offerta.
+
+Se queste tre condizioni sono soddisfatte, anche l'**Attività** è configurata come addebitabile. 
+
+Una stima o un valore effettivo creato per il materiale sarà considerato addebitabile solo se:
+
+   - **Materiali** è incluso nella riga di offerta.
+   - **Attività incluse** è impostato su **Attività selezionate** nella riga di offerta.
+
+Se queste due condizioni sono soddisfatte, anche l'**Attività** deve essere configurata come addebitabile. 
+
+
+<table border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Include Tempo</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>Include Spesa</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>Include Materiali</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+                    <strong>Attività incluse</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Ruolo</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Categoria.</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Attività</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+                    <strong>Impatto esigibilità</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Sì </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Sì </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Sì </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Progetto intero </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Addebitabile </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Addebitabile </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Non può essere impostato </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fatturazione in base a valore effettivo tempo: addebitabile </p>
+                <p>
+Tipo di fatturazione in base a valore effettivo spesa: addebitabile </p>
+                <p>
+Tipo di fatturazione in base a valore effettivo materiale: addebitabile </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Sì </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Sì </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Sì </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Solo le attività selezionate </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Addebitabile </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Addebitabile </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Addebitabile </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fatturazione in base a valore effettivo tempo: addebitabile </p>
+                <p>
+Tipo di fatturazione in base a valore effettivo spesa: addebitabile </p>
+                <p>
+Tipo di fatturazione in base a valore effettivo materiale: addebitabile </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Sì </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Sì </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Sì </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Solo le attività selezionate </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Non addebitabile</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Addebitabile </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Addebitabile </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fatturazione in base a valore effettivo tempo: <strong>non addebitabile</strong>
+                </p>
+                <p>
+Tipo di fatturazione in base a valore effettivo spesa: addebitabile </p>
+                <p>
+Tipo di fatturazione in base a valore effettivo materiale: addebitabile </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Sì </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Sì </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Sì </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Solo le attività selezionate </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Addebitabile </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Addebitabile </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Non addebitabile</strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fatturazione in base a valore effettivo tempo: <strong>non addebitabile</strong>
+                </p>
+                <p>
+Tipo di fatturazione in base a valore effettivo spesa: <strong>non addebitabile</strong>
+                </p>
+                <p>
+Tipo di fatturazione in base a valore effettivo materiale: <strong>non addebitabile</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Sì </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Sì </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Sì </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Solo le attività selezionate </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Non addebitabile</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Addebitabile </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Non addebitabile</strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fatturazione in base a valore effettivo tempo: <strong>non addebitabile</strong>
+                </p>
+                <p>
+Tipo di fatturazione in base a valore effettivo spesa: <strong>non addebitabile</strong>
+                </p>
+                <p>
+Tipo di fatturazione in base a valore effettivo materiale: <strong>non addebitabile</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Sì </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Sì </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Sì </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Solo le attività selezionate </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Non addebitabile</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Non addebitabile</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Addebitabile </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fatturazione in base a valore effettivo tempo: <strong>non addebitabile</strong>
+                </p>
+                <p>
+Tipo di fatturazione in base a valore effettivo spesa: <strong>non addebitabile</strong>
+                </p>
+                <p>
+Tipo di fatturazione in base a valore effettivo materiale: addebitabile </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Sì </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Sì </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Progetto intero </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Non può essere impostato </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Addebitabile</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Non può essere impostato </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fatturazione in base a valore effettivo tempo: <strong>non disponibile</strong>
+                </p>
+                <p>
+Tipo di fatturazione in base a valore effettivo spesa: addebitabile </p>
+                <p>
+Tipo di fatturazione in base a valore effettivo materiale: addebitabile </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Sì </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Sì </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Progetto intero </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Non può essere impostato </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Non addebitabile</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Non può essere impostato </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fatturazione in base a valore effettivo tempo: <strong>non disponibile</strong>
+                </p>
+                <p>
+Tipo di fatturazione in base a valore effettivo spesa: <strong>non addebitabile</strong>
+                </p>
+                <p>
+Tipo di fatturazione in base a valore effettivo materiale: addebitabile </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Sì </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Sì </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Progetto intero </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Addebitabile </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Non può essere impostato </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Non può essere impostato </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fatturazione in base a valore effettivo tempo: addebitabile </p>
+                <p>
+Tipo di fatturazione in base a valore effettivo spesa: <strong>non disponibile</strong>
+                </p>
+                <p>
+Tipo di fatturazione in base a valore effettivo materiale: addebitabile </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Sì </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Sì </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Progetto intero </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Non addebitabile</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Non può essere impostato </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Non può essere impostato </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fatturazione in base a valore effettivo tempo: <strong>non addebitabile</strong>
+                </p>
+                <p>
+Tipo di fatturazione in base a valore effettivo spesa: <strong>non disponibile</strong>
+                </p>
+                <p>
+Tipo di fatturazione in base a valore effettivo materiale: addebitabile </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Sì </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Sì </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Progetto intero </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Addebitabile </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Addebitabile </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Non può essere impostato </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fatturazione in base a valore effettivo tempo: addebitabile </p>
+                <p>
+Tipo di fatturazione in base a valore effettivo spesa: addebitabile </p>
+                <p>
+Tipo di fatturazione in base a valore effettivo materiale: <strong>non disponibile</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Sì </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Sì </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Progetto intero </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Non addebitabile</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Non addebitabile</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Non può essere impostato </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Fatturazione in base a valore effettivo tempo: <strong>non addebitabile</strong>
+                </p>
+                <p>
+Tipo di fatturazione in base a valore effettivo spesa: <strong>non addebitabile</strong>
+                </p>
+                <p>
+Tipo di fatturazione in base a valore effettivo materiale: <strong>non disponibile</strong>
+                </p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

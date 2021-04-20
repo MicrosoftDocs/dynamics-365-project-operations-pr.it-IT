@@ -3,17 +3,17 @@ title: Determinare il tipo di distribuzione
 description: Questo argomento fornisce informazioni per determina il tipo di distribuzione di Project Operations giusto per la tua azienda.
 author: stsporen
 manager: Annbe
-ms.date: 11/05/2020
+ms.date: 03/15/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 2da6af3240d8e561d01b1fcd8d32b657dbac1588
-ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
+ms.openlocfilehash: 715b117cae5418fc743ea870772278450fff5ae9
+ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5479569"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5663599"
 ---
 # <a name="determine-your-deployment-type"></a>Determinare il tipo di distribuzione
 
@@ -44,7 +44,7 @@ Il nostro [Questionario sulla distribuzione](https://aka.ms/provisionprojectoper
 - [Project Operations per scenari di risorse/materiali non stoccati](#integrated)
 - [Project Operations per scenari di materiali stoccati/ordini di produzione](#pma)
 
-Project Operations supporta scenari di materiali stoccati/ordini di produzione e scenari basati su risorse/materiali non stoccati nello stesso ambiente tramite configurazioni a livello di persona giuridica. Ad esempio, Contoso può utilizzare le funzionalità di materiali stoccati/ordini di produzione nel proprio stabilimento di produzione negli Stati Uniti (persona giuridica = Contoso Manufacturing United States). Contoso può utilizzare le funzionalità basate su risorse/materiali non stoccati nella struttura di assistenza Contoso Robotics Arms nel Regno Unito (persona giuridica = Contoso Robotics United Kingdom).
+Project Operations supporta scenari di materiali stoccati/ordini di produzione e scenari basati su risorse/materiali non stoccati nello stesso ambiente tramite configurazioni a livello di persona giuridica. Ad esempio, Contoso può utilizzare le funzionalità per materiali stoccati/ordini di produzione nel proprio stabilimento di produzione negli Stati Uniti (Persona giuridica = Contoso Manufacturing United States). Contoso può utilizzare le funzionalità per materiali non stoccati/basate su risorse disponibili nello stabilimento Contoso Robotics Arms nel Regno Unito (Persona giuridica = Contoso Robotics - Regno Unito).
 
 ### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Distribuzione semplice: dalla transazione alla fatturazione proforma
 
@@ -56,7 +56,7 @@ La distribuzione semplice include le seguenti funzionalità:
 - Gestione delle risorse unificata
 - Registrazione del tempo
 - Spesa di base
-- Fatturazione proforma e per il cliente 
+- Fatturazione proforma per la revisione e le modifiche del responsabile del progetto 
 
 #### <a name="deployment-steps"></a>Passaggi per la distribuzione
 Determina il miglior modello di distribuzione di Project Operations utilizzando il [questionario sulla distribuzione](https://aka.ms/provisionprojectoperations).
@@ -87,14 +87,14 @@ Per questa distribuzione, vedi [Iscriversi per gli abbonamenti in anteprima](res
 ### <a name="project-operations-for-stockedproduction-order-scenarios"></a><a name="pma"></a>Project Operations per scenari di materiali stoccati/ordini di produzione
 
 - Pianificazione di un progetto tramite la struttura di suddivisione del lavoro
-- Gestione risorse
+- Gestione delle risorse
 - Registrazione del tempo
 - Spesa completa
 - OCR ricevuta
-- Fattura completa
+- Fatturazione completa
 - Riconoscimento ricavi
 - Ordini di produzione
-- Supporto materiali
+- Supporto materiali stoccati con inventario
 
 #### <a name="deployment-steps"></a>Passaggi per la distribuzione
 Determina il miglior modello di distribuzione di Project Operations utilizzando il [questionario sulla distribuzione](https://aka.ms/provisionprojectoperations).

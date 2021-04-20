@@ -3,17 +3,17 @@ title: Configurare la contabilità per i progetti fatturabili
 description: Questo argomento fornisce informazioni sulle opzioni di contabilità per i progetti fatturabili.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4398ef44d4211a2921270bebe38fc92f18503854
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 629e3fc2f9069d104d459d0b4a6fa46c37f5c6f2
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287648"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858658"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Configurare la contabilità per i progetti fatturabili
 
@@ -44,7 +44,7 @@ Completa i seguenti passaggi per creare un nuovo profilo di costi e ricavi del p
 2. Seleziona **Nuovo** per creare un nuovo profilo di costi e ricavi di progetto.
 3. Nel campo **Nome**, immetti il nome e una breve descrizione del profilo.
 4. Nel campo **Metodo di fatturazione**, seleziona **Tempistica e materiali** o **Prezzo fisso**.
-5. Espandi la Scheda dettaglio **Contabilità generale**. I campi di questa scheda definiscono i principi contabili utilizzati quando le transazioni di progetto vengono inserite nel giornale di registrazioneil giornale di integrazione di Project Operations e quindi fatturate tramite la proposta di fattura progetto.
+5. Espandi la Scheda dettaglio **Contabilità generale**. I campi di questa scheda definiscono i principi contabili utilizzati quando le transazioni di progetto vengono inserite nel giornale di registrazione utilizzando il giornale di integrazione di Project Operations e quindi fatturate tramite la proposta di fatturazione progetto.
 6. Seleziona le informazioni appropriate nei seguenti campi della Shceda dettaglio **Contabilità generale**:
 
     - **Registra costi: ora**:
@@ -58,13 +58,25 @@ Completa i seguenti passaggi per creare un nuovo profilo di costi e ricavi del p
 
          - **Saldo**: durante la registrazione del giornale di integrazione di Project Operations, il costo della transazione di spesa verrà addebitato al tipo di conto CoGe *WIP - Valore di costo* come definito nella scheda **Costo** della pagina **Impostazione registrazione contabile** e accreditato sul conto di contropartita nella riga del giornale di registrazione. I conti di contropartita predefiniti per le spese sono definiti in **Gestione del progetto e contabilità** > **Configura** \> **Registrazione** \> **Conto di contropartita predefinito per le spese**. Il contabile utilizzerà la funzione **Registra costi** per spostare periodicamente questo costo da un conto Saldo a un conto Profitti e perdite.
         - **Profitti e perdite**: durante la registrazione del giornale di integrazione di Project Operations, il costo della transazione di spesa verrà addebitato al tipo di conto CoGe *Costo* come definito nella scheda **Costo** della pagina **Impostazione registrazione contabile** e accreditato sul conto di contropartita nella riga del giornale di registrazione. I conti di contropartita predefiniti per le spese sono definiti in **Gestione del progetto e contabilità** \> **Configura** \> **Registrazione** \> **Conto di contropartita predefinito per le spese**.
+      
+    - **Registra costi - articolo**:
+
+         - **Saldo**: durante la registrazione del giornale di registrazione integrazione Project Operations, il costo della transazione dell'articolo verrà addebitato al tipo di conto CoGe *WIP - Valore costo - articolo* come definito nella scheda **Costo** della pagina **Impostazione registrazione contabile** e accreditato come segue:
+    
+              - Per l'utilizzo del tipo di documento: sul conto **Costo - articolo** in **Impostazione registrazione contabile**.  
+              - Per il documento di tipo Acquisto: **Conto di integrazione approvvigionamento** in **Parametri di contabilità e gestione di progetti**.
+           Il contabile utilizzerà la funzione **Registra costi** per spostare periodicamente questo costo da un conto Saldo a un conto Profitti e perdite.
+        - **Profitti e perdite**: durante la registrazione del giornale di registrazione integrazione Project Operations, il costo della transazione dell'articolo verrà addebitato al tipo di conto CoGe *Costo* come definito nella scheda **Costo** della pagina **Impostazione registrazione contabile** e accreditato come segue:
+         
+             - Per l'utilizzo del tipo di documento: sul conto **Costo - articolo** in **Impostazione registrazione contabile**.  
+             - Per il documento di tipo Acquisto: **Conto di integrazione approvvigionamento** in **Parametri di contabilità e gestione di progetti**.
        
     - **Fatturazione acconti**:
 
-        - **Saldo**: durante la registrazione della proposta di fattura progetto, una transazione in acconto (passaggio fondamentale di fatturazione) verrà accreditata al tipo di conto CoGe *WIP fatturato - in acconto* come definito nella scheda **Ricavi** della pagina **Impostazione registrazione contabile** e addebitato sul conto del saldo del cliente.
-         - **Profitti e perdite**: durante la registrazione della proposta di fattura progetto, una transazione in acconto (passaggio fondamentale di fatturazione) verrà accreditata al tipo di conto CoGe *Ricavi fatturati - in acconto* come definito nella scheda **Ricavi** della pagina **Impostazione registrazione contabile** e addebitato sul conto del saldo del cliente. I conti del saldo del cliente sono definiti in **Contabilità clienti** \> **Configura** \> **Profili di registrazione dei clienti**.
+        - **Saldo**: durante la registrazione della proposta di fatturazione progetto, una transazione in acconto (passaggio fondamentale di fatturazione) verrà accreditata al tipo di conto CoGe *WIP fatturato - in acconto* come definito nella scheda **Ricavi** della pagina **Impostazione registrazione contabile** e addebitato sul conto del saldo del cliente.
+         - **Profitti e perdite**: durante la registrazione della proposta di fatturazione progetto, una transazione in acconto (passaggio fondamentale di fatturazione) verrà accreditata al tipo di conto CoGe *Ricavi fatturati - in acconto* come definito nella scheda **Ricavi** della pagina **Impostazione registrazione contabile** e addebitato sul conto del saldo del cliente. I conti del saldo del cliente sono definiti in **Contabilità clienti** \> **Configura** \> **Profili di registrazione dei clienti**.
 
-   Quando si definiscono i profili di registrazione per i metodi di fatturazione tempistica e materiali, è possibile maturare ricavi per tipo di transazione (ora, spesa e commissione). Se l'opzione **Accumula ricavi** è impostata su **Sì**, le transazioni di vendita non fatturate nel giornale di registrazione dell'integrazione di Project Operations verranno registrate nella contabilità generale. Il valore di vendita viene addebitato sul conto **WIP - conto del valore delle vendite** e accreditato sul conto **Ricavi maturati - valore delle vendite** che è stato configurato nella pagina **Impostazione registrazione contabile**, nella scheda **Ricavi**. 
+   Quando definisci i profili di registrazione per i metodi di fatturazione tempo e materiali, hai la possibilità di maturare ricavi per tipo di transazione (ora, spesa, articolo e commissione). Se l'opzione **Accumula ricavi** è impostata su **Sì**, le transazioni di vendita non fatturate nel giornale di registrazione dell'integrazione di Project Operations verranno registrate nella contabilità generale. Il valore di vendita viene addebitato al conto **WIP - conto del valore delle vendite** e accreditato sul conto **Ricavi maturati - valore delle vendite** che è stato configurato nella pagina **Impostazione registrazione contabile**, nella scheda **Ricavi**. 
   
   > [!NOTE]
   > L'opzione **Accumula ricavi** è disponibile solo quando il rispettivo tipo di transazione **Costo** viene registrato nel conto profitti e perdite.

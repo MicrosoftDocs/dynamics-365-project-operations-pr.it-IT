@@ -3,17 +3,17 @@ title: Gestire convalide e stato da non superare
 description: Questo argomento fornisce informazioni sui controlli del limite da non superare eseguiti in Project Operations.
 author: rumant
 manager: Annbe
-ms.date: 10/22/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c5c491d4014ffc2568d7df72b542761ec9b1a90b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7026ff654a9db8e8a22bcef544b043af39865559
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274029"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866732"
 ---
 # <a name="manage-not-to-exceed-status-and-validations"></a>Gestire convalide e stato da non superare 
 
@@ -21,7 +21,7 @@ _**Si applica a:** Project Operations per scenari basati su risorse/materiali no
 
 ## <a name="not-to-exceed-on-approvals"></a>Limiti da non superare nelle approvazioni
 
-Quando viene inviata una voce di tempo o di spesa, viene creato un record di approvazione. Se l'approvazione è addebitabile ed è mappata a una voce di contratto relativa a tempi e materiali, il sistema completa una verifica di convalida dei limiti da non superare ai seguenti livelli:
+Quando si invia una voce di tempo, spesa o utilizzo di materiale, viene creato un record approvazione. Se l'approvazione è addebitabile ed è mappata a una voce di contratto relativa a tempi e materiali, il sistema completa una verifica di convalida dei limiti da non superare ai seguenti livelli:
 
   - Verifica del limite impostato per il cliente nella voce di contratto di progetto
   - Verifica del limite impostato per la voce di contratto
@@ -34,11 +34,11 @@ Se il controllo viene superato, all'approvazione viene assegnato uno stato di co
 
 Se il controllo non viene superato, all'approvazione viene assegnato uno stato di convalida di **Non riuscito**. Il dettaglio della convalida del limite da non superare informerà l'utente a quale livello la convalida non è riuscita.
 
-Quando la voce di tempo o spesa inviata è considerata non addebitabile, lo stato di convalida del limite da non superare è impostato su **Non applicabile** con il dettaglio di convalida pari a **Non applicabile**.
+Quando la voce di tempo, spesa o utilizzo di materiale inviata è considerata non addebitabile, lo stato di convalida da non superare è **Non applicabile** con il dettaglio di convalida **Non applicabile**.
 
 ## <a name="not-to-exceed-on-unbilled-sales-actuals"></a>Limite da non superare per i valori effettivi delle vendite non fatturate
 
-Quando una voce di tempo o di spesa viene approvata, vengono creati i record dei costi effettivi e delle vendite non fatturate. Se il valore di vendita effettivo non fatturata creato è addebitabile ed è mappato a una voce di contratto relativa a tempi e materiali, l'applicazione esegue una verifica di convalida dei limiti da non superare ai seguenti livelli:
+Quando una voce di tempo, spesa o utilizzo di materiale viene approvata, vengono creati record di valori effettivi di costo e vendite non fatturate. Se il valore di vendita effettivo non fatturata creato è addebitabile ed è mappato a una voce di contratto relativa a tempi e materiali, l'applicazione esegue una verifica di convalida dei limiti da non superare ai seguenti livelli:
 
   - Verifica del limite impostato per il cliente della voce di contratto di progetto
   - Verifica del limite impostato per la voce di contratto
@@ -47,17 +47,17 @@ Quando una voce di tempo o di spesa viene approvata, vengono creati i record dei
 
 Le verifiche a ciascun livello garantiscono che l'importo del valore delle vendite nel valore effettivo non violerà il limite da non superare a quel livello dopo aver contabilizzato l'importo del backlog di fatturazione già registrato e l'importo fatturato fino alla data a quel livello.
 
-Se il controllo viene superato, alle vendite effettive non fatturate viene assegnato uno stato di limite da non superare **Confermato**.
+Se il controllo viene superato, al valore effettivo di vendite non fatturate viene assegnato uno stato di limite da non superare **Confermato**.
 
-Se il controllo non viene superato, alle vendite effettive non fatturate viene assegnato uno stato di limite da non superare **Non riuscito**. Il dettaglio della convalida informa l'utente a quale livello la convalida non è riuscita.
+Se il controllo non viene superato, al valore effettivo di vendite non fatturate viene assegnato uno stato di limite da non superare **Non riuscito**. Il dettaglio della convalida informa l'utente a quale livello la convalida non è riuscita.
 
-Quando le vendite effettive non fatturate sono considerate non addebitabili o gratuite, se non è stato impostato un limite da non superare in nessuno dei quattro livelli o se il valore effettivo creato è Costo, Acconto, Unità gestione risorse o Vendite interorganizzative, i campi **Stato da non superare** e **Dettagli convalida limite da non superare** devono essere impostati su **Non applicabile**.
+Quando il valore effettivo di vendite non fatturate è considerato non addebitabile o gratuito, se non è stato impostato un limite da non superare in nessuno dei quattro livelli o se il valore effettivo creato è Costo, Acconto, Unità gestione risorse o Vendite interorganizzative, i campi **Stato da non superare** e **Dettagli convalida limite da non superare** devono essere impostati su **Non applicabile**.
 
 ## <a name="reset-the-not-to-exceed-status"></a>Reimpostare lo stato da non superare
 
-È possibile eseguire un ripristino in blocco dello stato da non superare. Ciò consente ai responsabili di progetto di regolare la convalida dei limiti da non superare per dare priorità alla fatturazione di un particolare lavoro, tempo o spesa rispetto ad altri che sono già confermati dall'importo non da superare disponibile.
+È possibile eseguire un ripristino in blocco dello stato da non superare. I responsabili di progetto possono regolare la convalida da non superare per dare la priorità alla fatturazione di un particolare corpo di lavoro, tempo, spesa o utilizzo di materiale rispetto ad altri già confermati dall'importo da non superare disponibile.
 
-Dopo che lo stato da non superare viene reimpostato sulle vendite effettive non fatturate, l'importo confermato viene ridotto. Il responsabile di progetto può selezionare un altro lavoro, tempo o spesa che in precedenza non ha superato la convalida del limite da non superare e rivalutarlo. Con la riduzione dell'importo confermato, questi valori effettivi supereranno la convalida. Ciò consente al responsabile di progetto di esercitare una maggiore influenza e controllo sulle transazioni fatturabili per quel periodo.
+Dopo che lo stato da non superare viene reimpostato sui valori effettivi di vendite non fatturate, l'importo confermato viene ridotto. Il responsabile di progetto può selezionare un'altra voce di corpo di lavoro, tempo, spesa o utilizzo di materiale che in precedenza non ha superato la convalida da non superare ed eseguire una nuova valutazione. Con la riduzione dell'importo confermato, questi valori effettivi ora superano la convalida che aiuta il responsabile di progetto a esercitare una maggiore influenza e controllo sulle transazioni fatturabili per quel periodo.
 
 Per reimpostare lo stato da non superare, seleziona uno o più valori effettivi dalla visualizzazione **Backlog di fatturazione tempo e materiale** o **Valori effettivi** quindi seleziona **Reimposta stato da non superare**.
 

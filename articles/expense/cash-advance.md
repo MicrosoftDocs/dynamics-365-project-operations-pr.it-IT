@@ -3,19 +3,19 @@ title: Anticipo in contanti
 description: In questo argomento vengono fornite informazioni sugli anticipi di contanti.
 author: suvaidya
 manager: AnnBe
-ms.date: 02/01/2021
+ms.date: 03/25/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6da50ac5611fcbd54aef8d8591ee112200468177
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5ac8956720deac9e9c9191cefb870a7fbbeedcca
+ms.sourcegitcommit: 9ebf7dd501898053bfa824f732adabf3f273613b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276713"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "5715565"
 ---
 # <a name="cash-advance"></a>Anticipo in contanti
 
@@ -60,7 +60,22 @@ La procedura seguente viene in genere completata da un contabile o un utente con
 
 Quando crei e invii una nota spese per l'anticipo in contanti che hai già ricevuto, le spese verranno automaticamente adeguate all'anticipo. Se il tuo anticipo in contanti è maggiore dell'importo speso, devi restituire il saldo alla società utilizzando la categoria di spesa **Restituisci anticipi contanti**. Se l'anticipo in contanti pagato dall'azienda è inferiore all'importo che hai speso, l'azienda deve rimborsarti il saldo. 
 
-### <a name="example"></a>Esempio
+### <a name="select-cash-advances-that-apply-to-your-expenses"></a>Selezionare anticipi in contanti che si applicano alle spese
+Prima di inviare una nota spese, puoi selezionare l'anticipo in contanti che si allinea alle transazioni di spesa nel report. Per utilizzare questa funzionalità, le seguenti due funzionalità devono essere abilitate dall'area di lavoro **Gestione funzionalità**:
+
+  - Note spese riprogettate
+  - Possibilità di mappare anticipi in contanti a righe di spesa
+ 
+ Quando queste funzionalità sono abilitate:
+ 
+  - È possibile aggiungere uno o più anticipi in contanti per ogni riga di spesa.
+  - Il saldo disponibile di un anticipo in contanti è visibile in tempo reale quando viene salvata una nota spese. Ciò ti consente di elaborare le transazioni di spesa e di restituire la transazione in contanti allo stesso tempo.
+  - Puoi selezionare più anticipi in contanti per una transazione di spesa.
+  - I dati di riconciliazione dell'anticipo in contanti sono disponibili utilizzando una query. 
+ 
+Se non utilizzi queste funzionalità, la funzionalità rimarrà la stessa, con gli anticipi in contanti esistenti ridotti automaticamente dopo l'invio di una spesa.
+
+### <a name="example"></a>Esempio 
 Hai intenzione di viaggiare da Seattle a New York City per una conferenza. Crei una richiesta di anticipo in contanti per 3000,00 USD in base al costo stimato del biglietto della conferenza, dei voli, dell'hotel, dei pasti e del taxi. Non verrai pagato a meno che il tuo manager non approvi questa richiesta. Dopo che il tuo responsabile ha approvato, l'anticipo in contanti richiesto viene pagato come 3000,00 USD sul tuo conto bancario. Quindi partecipi alla conferenza. Dopo aver completato il tuo viaggio, scopri che la spesa totale era solo 2790,00 USD. Seleziona **Contante** nel campo **Metodo di pagamento** e invia la tua spesa per 2790,00 USD. L'importo della spesa inviato viene rettificato automaticamente in base all'anticipo in contanti di 3000,00 USD che ti è stato prestato. Ora devi un saldo di 210,00 USD (3000,00 - 2790,00), che puoi restituire all'azienda utilizzando la categoria di spesa **Restituisci contante**.
 
 

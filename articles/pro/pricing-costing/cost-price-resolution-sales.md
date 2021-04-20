@@ -1,22 +1,22 @@
 ---
-title: Risoluzione dei prezzi di costo in stime e valori effettivi - semplice
-description: Questo argomento fornisce informazioni su come vengono risolti i prezzi di costo su stime e valori effettivi.
+title: Risolvere i prezzi di costo in valori effettivi e stime di progetto
+description: Questo argomento fornisce informazioni su come vengono risolti i prezzi di costo nei valori effettivi e nelle stime di progetto.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bbb79fdc5c68d67530b5aa34fe6105211eff1768
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9f20631f41c560f1a4047aaaa624fa4e8651c687
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274554"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877270"
 ---
-# <a name="resolve-cost-prices-on-estimates-and-actuals---lite"></a>Risoluzione dei prezzi di costo in stime e valori effettivi - semplice
+# <a name="resolve-cost-prices-on-project-estimates-and-actuals"></a>Risolvere i prezzi di costo in valori effettivi e stime di progetto 
 
 _**Si applica a:** Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
@@ -36,6 +36,12 @@ Dopo che un listino prezzi di costo è stato risolto, i campo **Ruolo** e **Unit
 Le righe di stima per spesa si riferiscono ai dettagli della riga di offerta e contratto per le righe di stima di spesa e spese di un progetto.
 
 Dopo che un listino prezzi di costo è stato risolto, il sistema utilizza una combinazione dei campi **Categoria** e **Unità** nella riga della stima delle spese da confrontare con le righe **Prezzo di categoria** del listino prezzi risolto. Se il sistema trova una riga di prezzo di categoria con una tariffa di costo per la combinazione di campi **Categoria** e **Unità**, questa riga è la tariffa di costo predefinita. Se il sistema non può abbinare i valori **Categoria** e **Unità** o se è in grado di trovare una riga di prezzo della categoria corrispondente ma il metodo di determinazione del prezzo non è **Prezzo per unità**, il tasso di costo predefinito è zero (0).
+
+## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-material"></a>Risoluzione dei tassi di costo nelle righe effettive e di stima per Materiale
+
+Le righe di stima per Materiale si riferiscono ai dettagli delle righe di offerta e delle voci di contratto per i materiali e alle righe di stima del materiale in un progetto.
+
+Dopo che un listino prezzi di costo viene risolto, il sistema utilizza una combinazione dei campi **Prodotto** e **Unità** nella riga di stima per una stima del materiale da abbinare alle righe **Voci di listino** del listino risolto. Se il sistema trova una riga di prezzo del prodotto con un tasso di costo per la combinazione dei campi **Prodotto** e **Unità**, il tasso di costo viene impostato automaticamente. Se il sistema non può abbinare i valori **Prodotto** e **Unità** o se è in grado di trovare una riga di voce di listino corrispondente, ma il metodo di determinazione dei prezzi è basato su Costo medio o Costo corrente e nessuno è definito nel prodotto, il costo unitario sarà zero.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

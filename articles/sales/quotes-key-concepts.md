@@ -17,14 +17,14 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 899279b33f4fe8780d110d7c18a097407bd8d839
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 488c57527e6cc153093014438453001170f311dc
+ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277523"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5663699"
 ---
-# <a name="quotes---key-concepts"></a>Concetti chiave: offerte
+# <a name="concepts-unique-to-project-based-quotes"></a>Concetti esclusivi delle offerte basate su progetto
 
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
@@ -50,7 +50,7 @@ L'importo di un'offerta è il totale delle righe basate su prodotto e delle righ
 > [!NOTE]
 > Offerte e righe di offerta non sono necessarie in Project Operations. Puoi avviare il processo di progetto con un contratto di progetto (progetto venduto). Tuttavia, un'opportunità è sempre necessaria, indipendentemente se si inizia con un'offerta o un con contratto di progetto.
 
-## <a name="project-based-quote-lines"></a>Righe dell'offerta basate sul progetto
+## <a name="project-based-quote-lines"></a>Righe di offerta basate su progetto
 
 Una riga di offerta basata su progetto in Project Operations ha i seguenti metodi di fatturazione:
 

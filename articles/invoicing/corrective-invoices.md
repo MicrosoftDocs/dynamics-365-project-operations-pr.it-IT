@@ -1,6 +1,6 @@
 ---
-title: Fatture basate su progetto correttive
-description: Questo argomento fornisce informazioni su come creare e confermare fatture correttive basate su progetto in Project Operations.
+title: Creare fatture basate su progetto correttive
+description: Questo argomento fornisce informazioni sulle fatture correttive in Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 03/29/2021
@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fc96bb40f5207efc381986d46a3e37dfc1dc111c
-ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
+ms.openlocfilehash: 32772d64b3fc77f0af9618edff40e3b295593454
+ms.sourcegitcommit: 504c09365bf404c1f1aa9b5034c1e1e5bc9d0d54
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5867046"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5788868"
 ---
-# <a name="corrective-project-based-invoices"></a>Fatture basate su progetto correttive
+# <a name="create-corrective-project-based-invoices"></a>Creare fatture basate su progetto correttive 
 
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati_
 
@@ -24,18 +24,19 @@ Una fattura di progetto confermata può essere corretta per elaborare modifiche 
 Per apportare modifiche a una fattura confermata, apri la fattura confermata e seleziona **Correggi questa fattura**. 
 
 > [!NOTE]
-> Questa selezione non è disponibile a meno che una fattura di progetto non venga confermata o la fattura basata su progetto non contenga anticipi o acconti o riconciliazioni di anticipi o acconti.
+> Questa selezione non è disponibile se la fattura di progetto non è confermata.
 
-Viene creata una nuova fattura in bozza dalla fattura confermata. Tutti i dettagli della riga della fattura confermata in precedenza vengono copiati nella nuova bozza. Di seguito sono riportati alcuni dei punti chiave da comprendere sui dettagli della riga sulla nuova fattura corretta:
+Viene creata una nuova fattura in bozza dalla fattura confermata. Tutti i dettagli della riga della fattura confermata in precedenza vengono copiati nella nuova bozza. Di seguito sono riportati alcuni punti chiave per aiutarti a comprendere meglio i dettagli della riga nella nuova fattura corretta:
 
-- Tutte le quantità vengono aggiornate a zero. Dynamics 365 Project Operations presuppone che tutti gli articoli fatturati siano completamente accreditati. Se necessario puoi aggiornare manualmente queste quantità per riflettere la quantità che viene fatturata e non la quantità che viene accreditata. In base alla quantità immessa, l'applicazione calcola la quantità accreditata. Questo importo si riflette nei valori effettivi creati quando la fattura corretta viene confermata. Se stai apportando modifiche all'importo delle imposte, devi immettere l'importo delle imposte corretto e non l'importo delle imposte che viene accreditato.
+- Tutte le quantità vengono aggiornate a zero. Ciò presuppone che tutti gli articoli fatturati siano completamente accreditati. Se necessario puoi aggiornare manualmente queste quantità per riflettere la quantità che viene fatturata e non la quantità che viene accreditata. In base alla quantità immessa, l'applicazione calcola la quantità accreditata. Questo importo si riflette nei valori effettivi creati quando la fattura corretta viene confermata. Se stai apportando modifiche all'importo delle imposte, devi immettere l'importo delle imposte corretto e non l'importo delle imposte che viene accreditato.
 - Le correzioni fondamentali vengono sempre elaborate come crediti completi.
-
+- Gli importi di acconto o anticipo possono essere corretti se al cliente è stato fatturato un importo errato.
+- Le riconciliazioni di acconti e anticipi possono essere corrette se è stato utilizzato un importo errato per la riconciliazione con gli addebiti di una fattura precedentemente confermata.
 
 > [!IMPORTANT]
-> Per i dettagli della riga fattura che sono correzioni ad altri addebiti già fatturati, il campo **Correzione** è impostato su **Sì**. Per le fatture con dettagli della riga fattura corretti, il campo **Include correzioni** è impostato su **Sì**.
+> Per i dettagli della riga fattura che sono correzioni ad altri addebiti già fatturati, il campo **Correzione** è impostato su **Sì**. Le fatture con i dettagli della riga fattura corretti hanno anche un campo chiamato **Include correzioni** impostato su **Sì**.
 
-## <a name="actuals-created-when-a-corrective-invoice-is-confirmed"></a>Valori effettivi creati quando una fattura correttiva viene confermata
+## <a name="actuals-created-on-confirmation-of-a-corrective-invoice"></a>Valori effettivi creati alla conferma di una fattura correttiva
 
 La tabella seguente elenca i valori effettivi creati quando viene confermata una fattura correttiva.
 
@@ -50,6 +51,72 @@ La tabella seguente elenca i valori effettivi creati quando viene confermata una
             <td width="808" valign="top">
                 <p>
                     <strong>Valori effettivi creati alla conferma</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="4" valign="top">
+                <p>
+Conferma la correzione di un anticipo o un acconto fatturato.<strong></strong>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Uno storno delle vendite non fatturate dell'acconto o dell'anticipo creato per la riconciliazione. Questo importo è positivo perché ha lo scopo di annullare il negativo che è stato creato al momento della fatturazione dell'acconto o dell'anticipo.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Viene creato un valore effettivo di storno delle vendite fatturate per l'importo dell'acconto o dell'anticipo per stornare le vendite fatturate originali.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Viene creato un nuovo valore effettivo di vendite fatturate per l'importo corretto nella riga fattura corretta basata sull'anticipo o sull'acconto.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Un valore effettivo delle vendite non fatturate dell'importo negativo della riga fattura corretta basata sull'acconto o sull'anticipo che verrà utilizzata per la riconciliazione.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="4" valign="top">
+                <p>
+Una conferma della correzione di un acconto o un anticipo precedentemente riconciliato.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Uno storno delle vendite non fatturate dell'acconto o dell'anticipo creato per la riconciliazione. Questo importo è positivo e ha lo scopo di annullare il negativo che è stato creato al momento della precedente riconciliazione.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Un valore effettivo di storno delle vendite fatturate per l'importo della fattura precedente.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Un nuovo valore effettivo di vendite fatturate per l'importo dell'acconto corretto applicato nella fattura corretta.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Un valore effettivo delle vendite non fatturate con un importo negativo dell'acconto o dell'anticipo corretto rimanente che verrà utilizzato per la riconciliazione di fatture successive.
                 </p>
             </td>
         </tr>
@@ -143,51 +210,6 @@ Un nuovo valore effettivo delle vendite non fatturate addebitabile per la quanti
                 </p>
             </td>
         </tr>
-                <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
-Fatturazione dell'intero credito di una transazione materiale precedentemente fatturata.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Uno storno vendite fatturate per la quantità e l'importo nel dettaglio della riga fattura originale per il materiale.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Un nuovo valore effettivo di vendita non fatturata per la quantità e l'importo nel dettaglio della riga fattura originale per il materiale.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="3" valign="top">
-                <p>
-Fatturazione dell'accredito parziale in una transazione materiale.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Uno storno vendite fatturate per la quantità e l'importo fatturato nel dettaglio della riga fattura originale per il materiale.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Un nuovo valore effettivo delle vendite non fatturate addebitabile per la quantità e l'importo nel dettaglio della riga fattura modificata, un relativo storno e un valore effettivo delle vendite fatturate equivalente.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Un nuovo valore effettivo delle vendite non fatturate addebitabile per la quantità e l'importo rimanente dopo aver dedotto le cifre corrette nel dettaglio della riga fattura.
-                </p>
-            </td>
-        </tr>
         <tr>
             <td width="216" rowspan="2" valign="top">
                 <p>
@@ -237,7 +259,7 @@ La fatturazione del credito completo di un passaggio fondamentale precedentement
 Uno storno delle vendite fatturate per l'importo nel dettaglio della riga fattura originale per il passaggio fondamentale.
                 </p>
                 <p>
-Lo stato della fattura del passaggio fondamentale viene aggiornato da <b>Fattura cliente registrata</b> a <b>Pronto per la fatturazione</b>.
+Lo stato della fattura nel passaggio fondamentale viene aggiornato da <b>Fattura cliente registrata</b> a <b>Pronto per la fatturazione</b>.
                 </p>
             </td>
         </tr>
@@ -249,10 +271,9 @@ La fatturazione del credito parziale di un passaggio fondamentale precedentement
             </td>
             <td width="408" valign="top">
                 <p>
-Questo scenario non è supportato.
-                </p>
+Non supportato </p>
             </td>
-        </tr>       
+        </tr>        
     </tbody>
 </table>
 

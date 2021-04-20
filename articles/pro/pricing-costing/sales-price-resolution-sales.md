@@ -1,21 +1,21 @@
 ---
-title: Risolvere i prezzi di vendita per stime e valori effettivi - semplice
-description: Questo argomento fornisce informazioni su come vengono risolti i prezzi di vendita su stime e valori effettivi.
+title: Risolvere i prezzi di vendita per stime e valori effettivi di progetto
+description: Questo argomento fornisce informazioni sulla risoluzione dei prezzi di vendita nei valori effettivi e nelle stime di progetto.
 author: rumant
 manager: Annbe
-ms.date: 10/19/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 25620704570fa702e1e5e09c83005be50f98f20a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3bf4686b414300370e6b364834b33edad98b7f39
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274508"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877361"
 ---
-# <a name="resolve-sales-prices-for-estimates-and-actuals---lite"></a>Risolvere i prezzi di vendita per stime e valori effettivi - semplice
+# <a name="resolve-sales-prices-for-project-estimates-and-actuals"></a>Risolvere i prezzi di vendita per stime e valori effettivi di progetto
 
 _**Si applica a:** Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
@@ -55,5 +55,14 @@ Dopo che un listino prezzi per le vendite è stato risolto, il sistema completa 
 
 4. Se il sistema non è in grado di abbinare i valori dei campi **Categoria** e **Unità** la tariffa di vendita è impostata su zero (0).
 
+## <a name="resolving-sales-rates-on-actual-and-estimate-lines-for-material"></a>Risoluzione delle tariffe di vendita nelle righe effettive e di stima per Materiale
+
+In Project Operations, le righe di stima per Materiale sono utilizzate per denotare la riga di offerta e dettagli delle voci di contratto per i materiali e le righe di stima materiale nel progetto.
+
+Dopo che un listino prezzi per le vendite è stato risolto, il sistema completa i seguenti passaggi per impostare il prezzo unitario di vendita.
+
+1. Il sistema utilizza la combinazione dei campi **Prodotto** e **Unità** nella riga di stima per la corrispondenza del materiale con le righe di voci di listino prezzi nel listino prezzi che è stato risolto.
+2. Se il sistema trova una riga di voce di listino prezzi con una tariffa di vendita per la combinazione di campi **Prodotto** e **Unità** e il metodo di determinazione dei prezzi è **Importo valuta**, viene utilizzato il prezzo di vendita specificato nella riga del listino prezzi.
+3. In caso di non corrispondenza con i valori dei campi **Prodotto** e **Unità**, il valore predefinito della tariffa di vendita è zero.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

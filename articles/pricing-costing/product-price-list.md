@@ -3,7 +3,7 @@ title: Listini prezzi del prodotto
 description: Questo argomento fornisce informazioni sui listini prezzi nei prezzi del catalogo utilizzati per offerte e contratti di progetto.
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -14,23 +14,21 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: suvaidya
+ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c0f30bec159254c078024549b7b0dd0c048ef65d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e37f0bf9eef946ab4ebd658cef4e1269cbaf686d
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275363"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877495"
 ---
 # <a name="product-price-lists"></a>Listini prezzi del prodotto
 
-_**Si applica a:** Project Operations per scenari basati su risorse/non stoccate, Distribuzione semplice: dalla transazione alla fatturazione proforma_
+_**Si applica a:** Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
-Le entità Listini prezzi e Voce di listino supportano i prezzi del catalogo prodotti. In genere, questa funzionalità è utilizzata per le righe basate su catalogo delle offerte e dei contratti di progetto.
-
-Per le righe basate su progetto, un contratto rappresenta la transazione dopo che questa è stata acquisita. Poiché il processo di negoziazione in genere precede l'acquisizione, i prezzi associati all'offerta sono sempre copiati così come sono in un nuovo listino prezzi e associati al contratto. Questo nuovo listino prezzi non può essere modificato al di fuori dall'ambito del contratto. Questa limitazione consente di proteggere il tariffario pubblicitario concordato da qualsiasi modifica dei prezzi apportata nel listino prezzi master.
+ In Project Operations, **Listini prezzi del prodotto** e le entità delle voci di listino correlate supportano la funzionalità per la determinazione dei prezzi dei prodotti nelle righe di offerta e nelle voci di contratto basate su progetto. Per i prodotti utilizzati nei progetti, vengono utilizzati i record delle voci di listino per i listini prezzi di progetto. 
 
 I prodotti devono essere configurati in modo da avere costo e listini prezzi predefiniti nel catalogo prodotti. Utilizza il prezzo di listino, il costo standard e il costo corrente per configurare il costo e i prezzi di listino predefiniti. I prezzi di listino predefiniti sono utilizzati in una riga di offerta o in una voce di contratto di progetto solo quando il sistema non trova una riga di listino prezzi per quel prodotto nel listino prezzi prodotto dell'offerta o del contratto di progetto.
 
@@ -40,9 +38,7 @@ Il prezzo di costo delle righe del catalogo prodotti può essere modificato tra 
 
 Puoi aggiungere prodotti da un catalogo prodotti a differenti listini prezzi. Le righe di listino prezzi dei prodotti fanno sempre riferimento a una specifica unità. I prezzi di un prodotto nelle voci di listino possono essere configurati come importi in valuta. In alternativa, possono essere configurati come funzione di prezzo di listino, costo corrente o costo standard.
 
-PSA supporta varie opzioni di arrotondamento quando i prezzi sono configurati come funzione di prezzo di listino, costo standard o costo corrente. Oltre a beneficiare di vari metodi di determinazione dei prezzi e delle opzioni di arrotondamento, puoi associare elenchi sconti a voci di listino. 
-
-Quando crei un nuovo listino prezzi personalizzato per un'offerta selezionando **Crea determinazione dei prezzi personalizzata** nella pagina **Offerta di progetto**, viene creata una copia del listino prezzi e il campo **Entità** nell'intestazione del nuovo listino prezzi è impostato su **Entità vendite**. Il nome del nuovo listino prezzi viene aggiunto al nome dell'offerta e a un timestamp. Puoi anche utilizzare il nome del nuovo listino prezzi e il nome dell'offerta in flussi di lavoro personalizzati per avviare ulteriori analisi e approvazioni delle offerte che utilizzano prezzi personalizzati.
+La funzionalità di determinazione dei prezzi supporta varie opzioni di arrotondamento quando i prezzi dei prodotti sono configurati come funzione di prezzo di listino, costo standard o costo corrente. Oltre a beneficiare di vari metodi di determinazione dei prezzi e delle opzioni di arrotondamento, puoi associare elenchi sconti a voci di listino. 
 
  
 ## <a name="default-product-price-list"></a>Listino prezzi prodotto predefinito
@@ -57,7 +53,7 @@ Le entità Opportunità, Offerta e Contratto di progetto utilizzano l'ordine seg
 
 Per impostazione predefinita, il campo **Prodotto** nella riga di offerta elenca tutti i prodotti attivi nel listino prezzi prodotto dell'offerta. Se un prodotto è stato disattivato, o se è un prodotto bozza, non è elencato anche se è presente nel listino prezzi. 
 
-Le righe del catalogo prodotti vengono aggiunte come righe fattura nella prima fattura creata per un contratto di progetto. In una bozza di fattura, queste righe fattura possono essere eliminate. In tal caso, le righe sono visualizzate in una fattura successiva fino a che non vengono fatturate o fino a che la fattura non viene inviata al cliente. Non è possibile fatturare una quantità parziale di una riga fattura prodotto. Quando le righe prodotto del contratto di progetto sono fatturate, vengono creati dei valori effettivi. Tuttavia, questi valori effettivi non sono collegati all'entità progetto correlata. In altre parole le voci di contratto di progetto basate su prodotto sono indipendenti da qualsiasi utilizzo basato su progetto. Non viene tenuta traccia del consumo dei materiali nei progetti.
+Le righe del catalogo prodotti vengono aggiunte come righe fattura nella prima fattura creata per un contratto di progetto. In una bozza di fattura, queste righe fattura possono essere eliminate. In tal caso, le righe sono visualizzate in una fattura successiva fino a che non vengono fatturate o fino a che la fattura non viene inviata al cliente. Non è possibile fatturare una quantità parziale di una riga fattura prodotto. Quando le righe prodotto del contratto di progetto sono fatturate, vengono creati dei valori effettivi. Tuttavia, questi valori effettivi non sono collegati all'entità progetto correlata. In altre parole le voci di contratto di progetto basate su prodotto sono indipendenti da qualsiasi utilizzo basato su progetto. 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

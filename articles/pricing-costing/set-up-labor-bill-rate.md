@@ -3,17 +3,17 @@ title: Impostare le tariffe della fatturazione del lavoro
 description: Questo argomento fornisce informazioni su come impostare le tariffe della fatturazione del lavoro in Project Operations.
 author: rumant
 manager: Annbe
-ms.date: 10/16/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b4d09f4bf6788f93c028f084965faa6aac41a22d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f0267fce673bbd0080022a8abf2dd0020cc8b662
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274823"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877405"
 ---
 # <a name="set-up-labor-bill-rates"></a>Impostare le tariffe per la fatturazione del lavoro
 
@@ -21,8 +21,8 @@ _ **Si applica a:** Project Operations per scenari basati su risorse/materiali n
 
 Ogni listino prezzi ha una serie di prezzi di ruolo, o tariffe di manodopera che sono valide per il contenuto e la data di validità inclusa nell'intestazione del listino prezzi. I tassi di fatturazione per il tempo in Dynamics 365 Project Operations possono essere impostati in una sola valuta, che è la valuta nell'intestazione del listino prezzi.
 
-1. Per impostare le tariffe di fatturazione della manodopera per un listino prezzi di vendita, crea un listino prezzi basato sull'intestazione del listino prezzi. 
-2. Nella scheda **Prezzo del ruolo**, nella griglia secondaria, seleziona **+ Nuovo prezzo ruolo**. 
+1. Per impostare le tariffe di fatturazione del lavoro per un listino prezzi di vendita, vai a **Vendita** > **Clienti** > **Listini prezzi** e seleziona **Nuovo** per creare un nuovo listino prezzi. 
+2. Nella scheda **Prezzi ruolo**, nella griglia secondaria, seleziona **Nuovo prezzo ruolo**. 
 3. Nel riquadro **Creazione rapida** immetti la combinazione di ruolo e unità organizzativa per cui è necessario impostare la tariffa di fatturazione.
 
    La tabella seguente include i campi della scheda **Generale** e nel riquadro **Creazione rapida** di una riga di prezzo del ruolo che devi tenere a mente quando crei i prezzi del ruolo in un listino prezzi di vendita:

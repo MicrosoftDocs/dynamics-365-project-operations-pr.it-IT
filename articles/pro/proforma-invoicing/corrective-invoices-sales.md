@@ -1,21 +1,21 @@
 ---
-title: Fatture corrette - semplice
-description: Questo argomento fornisce informazioni sulle fatture corrette in Project Operations
+title: Fatture di progetto correttive
+description: Questo argomento fornisce informazioni su come creare e confermare fatture correttive in Project Operations.
 author: rumant
 manager: Annbe
-ms.date: 10/15/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: eb949ff3a53bcba19d44e1c3d6fe08a6b368108d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ae6d881e4e68b9f467478afe9735fc3186e6b0a8
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274238"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866596"
 ---
-# <a name="corrected-invoices---lite"></a>Fatture corrette - semplice
+# <a name="corrective-project-invoices"></a>Fatture di progetto correttive
 
 _**Si applica a:** Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
@@ -37,9 +37,9 @@ Viene creata una nuova fattura in bozza dalla fattura confermata. Tutti i dettag
 > [!IMPORTANT]
 > I dettagli della riga fattura che sono correzioni ad altri addebiti già fatturati hanno il campo **Correzione** impostato su **Sì**. Le fatture con i dettagli della riga fattura corretti hanno anche un campo chiamato **Include correzioni** impostato su **Sì**.
 
-## <a name="actuals-created-on-confirmation-of-a-corrective-invoice"></a>I valori effettivi creati alla conferma di una fattura correttiva:
+## <a name="actuals-created-when-a-corrective-invoice-is-confirmed"></a>Valori effettivi creati quando una fattura correttiva viene confermata
 
-Di seguito sono riportati i valori effettivi creati dall'applicazione alla conferma di una correzione in base alle operazioni eseguite sulla bozza di fattura correttiva prima della conferma.
+La tabella seguente elenca i valori effettivi creati quando viene confermata una fattura correttiva.
 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>
@@ -129,14 +129,14 @@ La fatturazione del credito completo di una transazione temporale precedentement
             </td>
             <td width="408" valign="top">
                 <p>
-Uno storno delle vendite fatturate per le ore e l'importo nei dettagli della riga fattura originale per il tempo.
+Uno storno delle vendite fatturate per le ore e l'importo nel dettaglio della riga fattura originale per il tempo.
                 </p>
             </td>
         </tr>
         <tr>
             <td width="408" valign="top">
                 <p>
-Un nuovo valore effettivo delle vendite non fatturate per le ore e l'importo nei dettagli della riga fattura originale per il tempo.
+Un nuovo valore effettivo delle vendite non fatturate per le ore e l'importo nel dettaglio della riga fattura originale per il tempo.
                 </p>
             </td>
         </tr>
@@ -148,21 +148,21 @@ La fatturazione dell'accredito parziale su una transazione temporale.
             </td>
             <td width="408" valign="top">
                 <p>
-Uno storno delle vendite fatturate per le ore e l'importo fatturato nei dettagli della riga fattura originale per il tempo.
+Uno storno delle vendite fatturate per le ore e l'importo fatturato nel dettaglio della riga fattura originale per il tempo.
                 </p>
             </td>
         </tr>
         <tr>
             <td width="408" valign="top">
                 <p>
-Un nuovo valore effettivo delle vendite non fatturate addebitabile per le ore e l'importo nei dettagli della riga fattura modificata, uno storno di essa e un valore effettivo delle vendite fatturate equivalente.
+Un nuovo valore effettivo delle vendite non fatturate addebitabile per le ore e l'importo nel dettaglio della riga fattura modificata, uno storno di essa e un valore effettivo delle vendite fatturate equivalente.
                 </p>
             </td>
         </tr>
         <tr>
             <td width="408" valign="top">
                 <p>
-Un nuovo valore effettivo delle vendite non fatturate addebitabile per le ore e l'importo rimanente dopo aver dedotto le cifre corrette nei dettagli della riga fattura.
+Un nuovo valore effettivo delle vendite non fatturate addebitabile per le ore e l'importo rimanente dopo aver dedotto le cifre corrette nel dettaglio della riga fattura.
                 </p>
             </td>
         </tr>
@@ -174,14 +174,14 @@ La fatturazione del credito completo di una transazione di spesa precedentemente
             </td>
             <td width="408" valign="top">
                 <p>
-Uno storno delle vendite fatturate per la quantità e l'importo nei dettagli della riga fattura originale per la spesa.
+Uno storno delle vendite fatturate per la quantità e l'importo nel dettaglio della riga fattura originale per la spesa.
                 </p>
             </td>
         </tr>
         <tr>
             <td width="408" valign="top">
                 <p>
-Un nuovo valore effettivo delle vendite non fatturate per la quantità e l'importo nei dettagli della riga fattura originale per la spesa.
+Un nuovo valore effettivo delle vendite non fatturate per la quantità e l'importo nel dettaglio della riga fattura originale per la spesa.
                 </p>
             </td>
         </tr>
@@ -193,21 +193,66 @@ La fatturazione del credito parziale di una transazione di spesa precedentemente
             </td>
             <td width="408" valign="top">
                 <p>
-Uno storno delle vendite fatturate per la quantità e l'importo fatturato nei dettagli della riga fattura originale per una spesa.
+Uno storno delle vendite fatturate per la quantità e l'importo fatturato nel dettaglio della riga fattura originale per una spesa.
                 </p>
             </td>
         </tr>
         <tr>
             <td width="408" valign="top">
                 <p>
-Un nuovo valore effettivo delle vendite non fatturate addebitabile per la quantità e l'importo nei dettagli della riga fattura corretta, uno storno di essa e un valore effettivo delle vendite fatturate equivalente.
+Un nuovo valore effettivo delle vendite non fatturate addebitabile per la quantità e l'importo nel dettaglio della riga fattura corretta, uno storno di essa e un valore effettivo delle vendite fatturate equivalente.
                 </p>
             </td>
         </tr>
         <tr>
             <td width="408" valign="top">
                 <p>
-Un nuovo valore effettivo delle vendite non fatturate addebitabile per la quantità e l'importo rimanente dopo aver dedotto le cifre corrette nei dettagli della riga fattura.
+Un nuovo valore effettivo delle vendite non fatturate addebitabile per la quantità e l'importo rimanente dopo aver dedotto le cifre corrette nel dettaglio della riga fattura.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Fatturazione dell'intero credito di una transazione materiale precedentemente fatturata.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Uno storno vendite fatturate per la quantità e l'importo nel dettaglio della riga fattura originale per il materiale.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Un nuovo valore effettivo di vendita non fatturata per la quantità e l'importo nel dettaglio della riga fattura originale per il materiale.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+Fatturazione dell'accredito parziale in una transazione materiale.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Uno storno vendite fatturate per la quantità e l'importo fatturato nel dettaglio della riga fattura originale per il materiale.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Un nuovo valore effettivo delle vendite non fatturate addebitabile per la quantità e l'importo nel dettaglio della riga fattura modificata, un relativo storno e un valore effettivo delle vendite fatturate equivalente.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Un nuovo valore effettivo delle vendite non fatturate addebitabile per la quantità e l'importo rimanente dopo aver dedotto le cifre corrette nel dettaglio della riga fattura.
                 </p>
             </td>
         </tr>
@@ -219,14 +264,14 @@ La fatturazione del credito completo di una transazione di commissione precedent
             </td>
             <td width="408" valign="top">
                 <p>
-Uno storno delle vendite fatturate per la quantità e l'importo nei dettagli della riga fattura originale per la commissione.
+Uno storno delle vendite fatturate per la quantità e l'importo nel dettaglio della riga fattura originale per la commissione.
                 </p>
             </td>
         </tr>
         <tr>
             <td width="408" valign="top">
                 <p>
-Un nuovo valore effettivo delle vendite non fatturate per la quantità e l'importo nei dettagli della riga fattura originale per la commissione.
+Un nuovo valore effettivo delle vendite non fatturate per la quantità e l'importo nel dettaglio della riga fattura originale per la commissione.
                 </p>
             </td>
         </tr>
@@ -238,14 +283,14 @@ La fatturazione del credito parziale di una transazione di commissione precedent
             </td>
             <td width="408" valign="top">
                 <p>
-Uno storno delle vendite fatturate per la quantità e l'importo fatturato nei dettagli della riga fattura originale per la commissione.
+Uno storno delle vendite fatturate per la quantità e l'importo fatturato nel dettaglio della riga fattura originale per la commissione.
                 </p>
             </td>
         </tr>
         <tr>
             <td width="408" valign="top">
                 <p>
-Un nuovo valore effettivo delle vendite non fatturate addebitabile per la quantità e l'importo nei dettagli della riga fattura correttiva modificata, uno storno di essa e un valore effettivo delle vendite fatturate equivalente.
+Un nuovo valore effettivo delle vendite non fatturate addebitabile per la quantità e l'importo nel dettaglio della riga fattura correttiva modificata, uno storno di essa e un valore effettivo delle vendite fatturate equivalente.
                 </p>
             </td>
         </tr>
@@ -257,10 +302,10 @@ La fatturazione del credito completo di un passaggio fondamentale precedentement
             </td>
             <td width="408" valign="top">
                 <p>
-Uno storno delle vendite fatturate per l'importo nei dettagli della riga fattura originale per il passaggio fondamentale.
+Uno storno delle vendite fatturate per l'importo nel dettaglio della riga fattura originale per il passaggio fondamentale.
                 </p>
                 <p>
-La fattura del passaggio fondamentale o lo stato di fatturazione nella riga contratto di progetto viene aggiornato su **Pronto per la fatturazione**.
+Lo stato della fattura del passaggio fondamentale viene aggiornato da <b>Fattura cliente registrata</b> a <b>Pronto per la fatturazione</b>.
                 </p>
             </td>
         </tr>

@@ -3,17 +3,17 @@ title: Risolvere i prezzi di vendita per stime e valori effettivi
 description: Questo argomento fornisce informazioni su come risolvere le tariffe di vendita per stime e valori effettivi.
 author: rumant
 manager: Annbe
-ms.date: 10/19/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6e89e23189fa65057d7b955897924057c440ccd8
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f9ce095723e8ac300caf7d11ae37b5c721b57795
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274958"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877450"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals"></a>Risolvere i prezzi di vendita per stime e valori effettivi
 
@@ -54,6 +54,17 @@ Dopo che un listino prezzi per le vendite è stato risolto, il sistema completa 
     | &nbsp; | Ricarico sul costo | Applicando un ricarico come definito dalla riga del prezzo della categoria sulla tariffa di costo unitario del costo effettivo correlato |
 
 4. Se il sistema non è in grado di abbinare i valori dei campi **Categoria** e **Unità** la tariffa di vendita è impostata su zero (0).
+
+## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-material"></a>Risolvere tariffe di vendita nelle righe effettive e di stima per Materiale
+
+In Project Operations, le righe di stima per Materiale sono utilizzate per denotare la riga di offerta e dettagli delle voci di contratto per i materiali e le righe di stima materiale nel progetto.
+
+Dopo che un listino prezzi per le vendite è stato risolto, il sistema completa i seguenti passaggi per impostare il prezzo unitario di vendita.
+
+1. Il sistema utilizza la combinazione dei campi **Prodotto** e **Unità** nella riga di stima per la corrispondenza del materiale con le righe di voci di listino prezzi nel listino prezzi che è stato risolto.
+2. Se il sistema trova una riga di voce di listino prezzi con una tariffa di vendita per la combinazione di campi **Prodotto** e **Unità** e il metodo di determinazione dei prezzi è **Importo valuta**, viene utilizzato il prezzo di vendita specificato nella riga del listino prezzi.
+3. In caso di non corrispondenza con i valori dei campi **Prodotto** e **Unità**, il valore predefinito della tariffa di vendita è zero.
+
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

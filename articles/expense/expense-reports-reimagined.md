@@ -3,7 +3,7 @@ title: Note spese riprogettate
 description: Questo argomento illustra l'esperienza riprogettata e reinventata per l'inserimento della nota spese.
 author: suvaidya
 manager: AnnBe
-ms.date: 03/01/2021
+ms.date: 03/26/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: aaa7dd24915982cf137b5959f2f4c244b9c1e012
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.openlocfilehash: 79e6a407689813f8c87fdffba0cda84df10d3b83
+ms.sourcegitcommit: 46726e5c8c994735c1e570e08d6ed8f9c9341319
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499721"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "5717700"
 ---
 # <a name="expense-reports-reimagined"></a>Note spese riprogettate
 
@@ -41,11 +41,7 @@ Per attivare la nuova esperienza, utilizza l'area di lavoro **Gestione delle fun
 - Nessuna voce di menu esistente per le note spese (la pagina esistente) o i campi della nota spese viene rimossa.
 - I flussi di lavoro e le eventuali approvazioni ti portano comunque alla pagina delle note spese esistenti.
 
-## <a name="getting-started-video-for-new-users"></a>Video di informazioni generali per i nuovi utenti
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
-
-Il video [Esperienza di spesa in Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (mostrato sopra) è incluso nella [playlist di Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponibile su YouTube.
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4IQFM]
 
 ## <a name="new-features"></a>Nuove funzionalità
 
