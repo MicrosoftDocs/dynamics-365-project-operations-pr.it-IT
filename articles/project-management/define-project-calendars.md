@@ -1,9 +1,9 @@
 ---
 title: Definire i calendari del progetto
-description: Questo argomento fornisce informazioni sull'utilizzo di un calendario di progetto per tenere traccia della pianificazione del progetto.
+description: Questo argomento fornisce informazioni su come applicare un modello di calendario a un progetto per tenere traccia della pianificazione del progetto.
 author: ruhercul
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -17,38 +17,49 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e25b11b6b947627ca2ac88952e74aecccc346c89
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1d5642d7a2246dc878b2bc4f504f138b71d29a69
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286973"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981305"
 ---
 # <a name="define-project-calendars"></a>Definire i calendari del progetto
 
-_**Si applica a:** Project Operations per scenari basati su risorse/non stoccate, Distribuzione semplice: dalla transazione alla fatturazione proforma_
+_**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
-Per creare una pianificazione di progetto, creai un modello di calendario di progetto che definisce il numero di ore lavorative giornaliere e le chiusure aziendali. Per creare un modello di calendario di progetto, associ un modello di lavoro al campo **Modello calendario** del progetto. Segui questi passaggi per creare un modello di lavoro.
+Per creare e gestire un progetto, è necessario applicare un modello di calendario al progetto. Il modello di calendario definisce i seguenti attributi del progetto:
 
-1. Seleziona **Risorse** nel riquadro di spostamento di sinistra. 
-2. Nella pagina elenco **Risorse**, apri un record utente, quindi seleziona **Mostra ore lavorative**.
+- Orario lavorative, inclusa l'ora di inizio e di fine
+- Giorni lavorativi
+- Eccezioni di calendario come giorni non lavorativi
 
-  > [!NOTE]
-  > Verifica che le finestre pop-up siano consentite nella pagina del browser. Ciò consente di visualizzare le ore lavorative impostate per la risorsa.
-  
-3. Nella scheda **Vista mensile**, seleziona **Configura**. Viene visualizzato un elenco con tre opzioni: 
+Il modello di calendario applicato a un progetto è una copia del modello di calendario definito nelle impostazioni dell'organizzazione.
 
-  - Nuova pianificazione settimanale
-  - Pianificazione lavorativa per un giorno
-  - Indisponibilità
+> [!NOTE]
+> Se modifichi il modello di calendario, tali modifiche non si propagano alle ore lavorative del progetto. Per modificare le ore lavorative del progetto, è necessario applicare un nuovo modello.
 
-4. Seleziona **Nuova pianificazione settimanale** e quindi imposta le opzioni per questa pianificazione delle risorse. Puoi impostare una pianificazione settimanale ricorrente, parametri orari giornalieri, chiusure aziendali e altro ancora.
-5. Imposta l'intervallo di date, seleziona **Salva** e quindi seleziona **Chiudi**. 
-6. Torna alla pagina elenco **Risorse** e seleziona la risorsa per la quale imposti le ore lavorative. 
-7. Seleziona **Imposta calendario come** per impostare il modello di lavoro. 
-8. Nella finestra di dialogo **Modello di lavoro**, immetti un nome per il modello di lavoro e quindi seleziona **Applica**. 
+Per creare un modello di calendario per la tua organizzazione, ci sono due requisiti chiave:
+
+- Definisci le ore lavorative desiderate del modello utilizzando una risorsa prenotabile nuova o esistente.
+- Crea un nuovo modello di calendario e associa il modello alla risorsa prenotabile.
+
+**Definisci le ore lavorative del modello**
+
+1. Seleziona **Risorse** \> **Risorse**.
+2. Crea una nuova risorsa a cui fare riferimento nel modello di calendario o seleziona una risorsa esistente.
+3. Seleziona la scheda **Ore lavorative** della risorsa e completa le istruzioni in [Impostare le ore lavorative per una risorsa](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) per configurare le regole del calendario.
+
+**Creare un nuovo modello di calendario**
+
+1. Vai a **Impostazioni** \> **Modello di calendario**.
+2. Seleziona **Nuovo** e inserisci un nome, una descrizione e una risorsa modello.
+
+> [!NOTE]
+> Quando si fa riferimento a una risorsa in un modello di calendario, una copia del calendario della risorsa viene associata al modello di calendario. Se le ore lavorative del modello copiato cambiano, tali modifiche non verranno propagate al modello di calendario.
 
 Ora puoi associare il modello di lavoro a un modello di calendario di progetto.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+
