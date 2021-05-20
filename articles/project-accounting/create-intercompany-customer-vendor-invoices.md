@@ -3,17 +3,17 @@ title: Creare fatture interaziendali per clienti e fornitori
 description: Questo argomento fornisce informazioni su come creare fatture fornitori e clienti interaziendali.
 author: sigitac
 manager: tfehr
-ms.date: 11/19/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: dd9aa1a4d167d556206a487e79983090b3f4592a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 92d08537fe0c2a1deba486974db53e7ebe1ff2d8
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287468"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948400"
 ---
 # <a name="create-intercompany-customer-and-vendor-invoices"></a>Creare fatture interaziendali per clienti e fornitori
 
@@ -25,7 +25,9 @@ Il contabile di progetto per la persona giuridica che effettua la concessione pu
 
 ## <a name="manually-create-an-intercompany-customer-invoice-for-project-transactions"></a>Creare manualmente una fattura cliente interaziendale per le transazioni di progetto 
 
-Utilizzare questa procedura per creare manualmente una fattura cliente interaziendale per le transazioni di progetto. Cerca le ore registrate dai lavoratori sui progetti nelle persone giuridiche che effettuano la concessione e le spese sostenute dalla persona giuridica per conto delle persone giuridiche richiedenti. È possibile eseguire la ricerca per nome della persona giuridica, numero di contratto di progetto, numero di progetto, intervallo di date o qualsiasi combinazione di queste opzioni. Nei risultati della ricerca selezionare le transazioni da aggiungere a una fattura interaziendale.
+Utilizzare questa procedura per creare manualmente una fattura cliente interaziendale per le transazioni di progetto. Cerca le ore registrate dai lavoratori sui progetti nelle persone giuridiche che effettuano la concessione e le spese sostenute dalla persona giuridica per conto delle persone giuridiche richiedenti. È possibile eseguire la ricerca per nome della persona giuridica, numero di contratto di progetto, numero di progetto, intervallo di date o qualsiasi combinazione di queste opzioni. Nei risultati della ricerca selezionare le transazioni da aggiungere a una fattura interaziendale. 
+
+I seguenti passaggi devono essere eseguiti nella persona giuridica che concede il prestito. 
 
 1. In Dynamics 365 Finance, vai a **Contabilità e gestione dei progetti** > **Fatture di progetto** > **Fatture cliente interaziendale**. Nella pagina dell'elenco **Fatture clienti interaziendali**, nel riquadro azioni selezionare **Nuovo**.
 2. Nella pagina **Crea fattura interaziendale**, nel campo **Entità legale**, selezionare una persona giuridica richiedente.
@@ -35,9 +37,9 @@ Utilizzare questa procedura per creare manualmente una fattura cliente interazie
 6. Nei risultati della ricerca, seleziona le transazioni da includere nella proposta di fatturazione interaziendale, quindi seleziona **OK**.
 7. Nella pagina **Fattura cliente interaziendale**, vengono visualizzate le transazioni del progetto interaziendale selezionate dai risultati della ricerca. Per modificare le transazioni prima di inviare la fattura alla persona giuridica richiedente, effettuare le seguenti operazioni:
   
-    1. Aprire la pagina **Crea proposta di fattura**. Seleziona ulteriori transazioni interaziendali per la fattura corrente, quindi seleziona **Aggiungi riga**.
+    1. Nella pagina **Fattura cliente interaziendale**, apri i dettagli della fattura, quindi seleziona **Aggiungi riga**.
     2. Per rimuovere una riga, selezionarla, quindi selezionare **Rimuovi**.
-    3. Visualizza commenti, motivi, dimensioni finanziarie e altre informazioni su una selezionata nella scheda dettaglio **Righe fattura**.
+    3. Visualizza commenti, motivi, dimensioni finanziarie e altre informazioni su una riga selezionata nei dettagli della riga fattura.
     
 8. Per registrare la fattura cliente interaziendale, nel riquadro azioni, seleziona **Registra**.
 
@@ -52,7 +54,7 @@ Puoi creare più fatture interaziendali contemporaneamente per tutte le persone 
 2. Nella pagina **Crea fatture cliente interaziendali**, nel campo **Azienda**, selezionare una persona giuridica da fatturare. Se non si seleziona una società, tutte le transazioni che soddisfano i criteri di ricerca vengono visualizzate per tutte le persone giuridiche che effettuano la concessione.
 3. In **Crea una fattura per**, seleziona se creare una fattura per transazioni interaziendali basate su un progetto o su una persona giuridica richiedente.
 4. Facoltativo: per selezionare un progetto specifico e un contratto di progetto per cui creare fatture interaziendali, fare clic su **Seleziona**. Nella pagina **Richiesta di informazioni**, nel campo **Criteri**, seleziona il contratto di progetto, il numero di progetto o entrambi, quindi seleziona **OK**.
-5. Nella scheda **Batch**, imposta un processo batch per creare fatture interaziendali su base ricorrente. Per ulteriori informazioni, vedi [Invia un processo di elaborazione batch da un modulo](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/submit-a-batch-processing-job-from-a-form).
+5. Nella scheda **Batch**, imposta un processo batch per creare fatture interaziendali su base ricorrente. Per ulteriori informazioni, vedi [Invia un processo di elaborazione batch da un modulo](/dynamicsax-2012/appuser-itpro/submit-a-batch-processing-job-from-a-form).
 6. Per registrare le fatture interaziendali, nel riquadro azioni, seleziona **Registra**.
 
 > [!NOTE]

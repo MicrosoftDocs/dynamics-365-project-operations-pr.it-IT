@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 0021147530d1aa9f82cc54ca8c92b9977c1eea2c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4a5f4d524530594bd3118f9b320acf4033c5d503
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287243"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948335"
 ---
 # <a name="integration-journal-in-project-operations"></a>Giornale di registrazione integrazione in Project Operations
 
@@ -38,7 +38,7 @@ Il sistema raggruppa le righe del giornale di registrazione in giornali separati
 Le righe di giornale di registrazione vengono create in base ai valori effettivi del progetto. Il seguente elenco include alcune delle regole predefinite e di trasformazione più importanti:
 
   - Ogni transazione effettiva del progetto ha una riga nel giornale di registrazione di integrazione Project Operations. Le transazioni di costo e di vendita non fatturate per il tipo di fatturazione di tempo e materiale vengono visualizzate su righe separate.
-  - Il campo **Data** rappresenta la data della transazione. Il campo **Data contabile** rappresenta la data in cui la transazione viene registrata nel libro mastro. Se la data contabile è in un [periodo finanziario chiuso](https://docs.microsoft.com/dynamics365/finance/general-ledger/close-general-ledger-at-period-end) e il parametro **Imposta automaticamente la data contabile per aprire il periodo contabile** è impostato nella scheda **Finanziario** della pagina **Gestione progetti e parametri contabili**, il sistema adatterà la data contabile della transazione alla prima data nel successivo periodo di libro mastro aperto.
+  - Il campo **Data** rappresenta la data della transazione. Il campo **Data contabile** rappresenta la data in cui la transazione viene registrata nel libro mastro. Se la data contabile è in un [periodo finanziario chiuso](/dynamics365/finance/general-ledger/close-general-ledger-at-period-end) e il parametro **Imposta automaticamente la data contabile per aprire il periodo contabile** è impostato nella scheda **Finanziario** della pagina **Gestione progetti e parametri contabili**, il sistema adatterà la data contabile della transazione alla prima data nel successivo periodo di libro mastro aperto.
   - Il campo **Giustificativo** mostra il numero del giustificativo per ogni transazione effettiva. La sequenza del numero del giustificativo è definita nella scheda **Sequenze numeriche** della pagina **Gestione progetti e parametri contabili**. Ad ogni riga viene assegnato un nuovo numero. Dopo aver registrato il giustificativo, è possibile visualizzare la correlazione tra il costo e la transazione di vendita non fatturata selezionando **Giustificativi correlati** nella pagina **Transazione giustificativo**.
   - Il campo **Categoria** rappresenta una transazione di progetto e le impostazioni predefinite in base alla categoria di transazione per il valore effettivo di progetto correlato.
     - Se **Categoria di transazione** è impostato nel valore effettivo di progetto e una **categoria di progetto** correlata esiste in una determinata persona giuridica, la categoria predefinita è questa categoria di progetto.

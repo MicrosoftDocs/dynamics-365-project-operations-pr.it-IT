@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5eb9c2bdc9274edbc55e730fd844d46477cd19f4
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: dc4693981194b8e8c22bfd9bbfda3f77af3e8f99
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285218"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948199"
 ---
 # <a name="create-a-project-opportunity-project-service"></a>Crea un'opportunità di progetto (Project Service)
 
@@ -39,7 +39,7 @@ Le opportunità sono lead di livello medio da parte di clienti interessati a sot
   
 3.  Nell'area **Riepilogo** immetti la società dell'opportunità e altre informazioni.  
   
-4.  Aggiungere eventuali note e impegni, ad esempio telefonate o e-mail, relativi al lead. Per ulteriori informazioni su come aggiungere note e impegni, vedere [Tenere traccia delle note, delle attività, delle chiamate, o della posta elettronica con gli impegni](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/work-with-activities).  
+4.  Aggiungere eventuali note e impegni, ad esempio telefonate o e-mail, relativi al lead. Per ulteriori informazioni su come aggiungere note e impegni, vedere [Tenere traccia delle note, delle attività, delle chiamate, o della posta elettronica con gli impegni](/dynamics365/customerengagement/on-premises/basics/work-with-activities).  
   
 5.  Per aggiungere le parti interessate, nell'area **Parti interessate**, fai clic su **+**.  
   

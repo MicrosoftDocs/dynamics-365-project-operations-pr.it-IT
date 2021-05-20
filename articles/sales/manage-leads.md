@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 526f2ab1fd186877f32a2d11bd92ee8c26a19139
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 31613936d48f785eeba4ec7c066761c8f69924cf
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278063"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947884"
 ---
 # <a name="manage-leads"></a>Gestire i lead
 
@@ -55,7 +55,7 @@ I lead che hanno il valore **Tipo** impostato su **Basato su lavoro** sono chiam
 - Un record del contatto associato all'account in base ai valori nei campi **Nome** e **Cognome** sul lead.
 - Un'opportunità basata su progetto che ha il campo **Tipo** impostato su **Basato su lavoro**.
 
-Per informazioni più dettagliate sulla qualificazione dei lead, vedi [Qualificare o convertire i lead](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
+Per informazioni più dettagliate sulla qualificazione dei lead, vedi [Qualificare o convertire i lead](/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 
 ## <a name="lead-qualification-and-legal-entity-information"></a>Qualifica lead e informazioni sulla persona giuridica 
 

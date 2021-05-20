@@ -3,18 +3,18 @@ title: Novità di aprile 2021 - Project Operations per scenari basati su risorse
 description: Questo argomento fornisce informazioni sugli aggiornamenti di qualità disponibili nella versione di aprile 2021 di Project Operations per scenari basati su risorse/materiali non stoccati.
 author: sigitac
 manager: tfehr
-ms.date: 04/05/2021
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 359d39898ed60c7253b122cb884465fbd9605e0c
-ms.sourcegitcommit: 8ff9fe396db6dec581c21cd6bb9acc2691c815b0
+ms.openlocfilehash: 339a488908add09c5e4f62568bb83b78450e7082
+ms.sourcegitcommit: 69fadd3ce475d6aed2e1ed81a15becb28f020eb9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5867998"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935479"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novità di aprile 2021 - Project Operations per scenari basati su risorse/materiali non stoccati
 
@@ -33,8 +33,26 @@ In questa release sono incluse le seguenti funzionalità:
   - Stima e prezzo dei materiali non stoccati durante il ciclo di vendita di un progetto. Per ulteriori informazioni, vedi [Impostare le tariffe di vendita e costi per i prodotti del catalogo - semplice](../pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md).
   - Monitoraggio dell'utilizzo di materiali non stoccati durante la consegna del progetto. Per ulteriori informazioni, vedi [Registrare l'utilizzo di materiale in progetti e attività di progetto](../material/material-usage-log.md).
   - La fatturazione ha utilizzato costi di materiali non stoccati. Per ulteriori informazioni, vedi [Gestire il backlog di fatturazione](../proforma-invoicing/manage-billing-backlog.md).
+  - Per informazioni su come configurare questa funzione, vedi [Configurare materiali non stoccati e fatture fornitore in sospeso](../procurement/configure-materials-nonstocked.md)
 - Fatturazione basata su attività: aggiunta la possibilità di associare attività di progetto a voci di contratto di progetto, sottoponendole così allo stesso metodo di fatturazione, frequenza di fatturazione e clienti della voce di contratto. Questa associazione garantisce fatturazione, contabilità, stima dei ricavi e riconoscimento accurati affinché siano conformi a questa impostazione nelle attività di progetto.
 - Nuove API in Dynamics 365 Dataverse consentono l'esecuzione di operazioni di creazione, aggiornamento ed eliminazione con **Entità di pianificazione**. Per ulteriori informazioni, vedi [Utilizzare le API di pianificazione per eseguire operazioni con le entità di pianificazione](../project-management/schedule-api-preview.md).
+
+## <a name="project-operations-dual-write-maps-updates"></a>Aggiornamenti delle mappe a doppia scrittura di Project Operations
+
+Il seguente elenco mostra le mappe a doppia scrittura che sono state modificate o aggiunte nella versione Project Operations di aprile 2021.
+
+| **Mapping entità** | **Versione aggiornata** | **Commenti** |
+| --- | --- | --- |
+| Valori effettivi dell'integrazione di Project Operations (msdyn\_actuals) | 1.0.0.14 | Mappa modificata per sincronizzare i valori effettivi del progetto materiale. |
+| Entità di integrazione di Project Operations per le stime di spesa (msdyn\_estimateslines) | 1.0.0.2 | Aggiunta la sincronizzazione della riga del contratto di progetto alle app Finance and Operations per il supporto della fatturazione basata su attività. |
+| Entità di integrazione di Project Operations per le stime delle ore (msdyn\_resourceassignments) | 1.0.0.5 | Aggiunta la sincronizzazione della riga del contratto di progetto alle app Finance and Operations per il supporto della fatturazione basata su attività. |
+| Tabella di integrazione Project Operations per le stime dei materiali (msdyn\_estimatelines) | 1.0.0.0 | Nuova mappa della tabella per sincronizzare le stime dei materiali da Dataverse alle app Finance and Operations. |
+| Entità di esportazione fattura fornitore progetto integrazione Project Operations (msdyn\_projectvendorinvoices) | 1.0.0.0 | Nuova mappa della tabella per sincronizzare le intestazioni della fattura fornitore dalle app Finance and Operations a Dataverse. |
+| Entità di esportazione riga fattura fornitore progetto integrazione Project Operations (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Nuova mappa della tabella per sincronizzare le righe della fattura fornitore dalle app Finance and Operations a Dataverse. |
+
+È necessario eseguire sempre la versione più recente della mappa nel proprio ambiente e abilitare tutte le mappe delle tabelle correlate durante l'aggiornamento della soluzione Project Operations Dataverse e della versione della soluzione Finance and Operations. Alcune funzionalità e capacità potrebbero non funzionare correttamente se l'ultima versione della mappa non è attivata. Puoi vedere la versione attiva della mappa nella colonna **Versione** della pagina **Doppia scrittura**. Puoi attivare una nuova versione della mappa selezionando **Versioni mappa tabella** e quindi selezionando l'ultima versione e salvando la versione selezionata. Se hai personalizzato una mappa di tabella predefinita, riapplica le modifiche. Per ulteriori informazioni, vedi [Gestione del ciclo di vita di un'applicazione](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+
+Se riscontri un problema con l'avvio della mappa, segui le istruzioni nella sezione [Problema di colonne di tabella mancanti sulle mappe](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) della guida alla risoluzione dei problemi di doppia scrittura.
 
 ## <a name="quality-updates"></a>Aggiornamenti di qualità
 
@@ -67,7 +85,7 @@ In questa release sono incluse le seguenti funzionalità:
 
 | **Area funzionalità** | **Numero di riferimento** | **Aggiornamento di qualità** |
 | --- | --- | --- |
-| Contabilità e gestione dei progetti | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | L'eliminazione della stima inversa non funziona in **Periodico**.  |
+| Contabilità e gestione dei progetti | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | L'eliminazione della stima stornata non funziona nella sezione **Periodico**.  |
 | Contabilità e gestione dei progetti | [509773](https://fix.lcs.dynamics.com/Issue/Details/?bugId=509773) | La funzionalità **Adeguamento contabile** crea un problema con i conti CoGe per i quali l'opzione **Non consentire immissione manuale** è selezionato. |
 | Contabilità e gestione dei progetti | [510728](https://fix.lcs.dynamics.com/Issue/Details/?bugId=5109728) | Aggiunta logica di business per elaborare fatture di correzione, incluso l'importo dell'acconto o l'importo dell'acconto applicato. |
 | Contabilità e gestione dei progetti | [514364](https://fix.lcs.dynamics.com/Issue/Details/?bugId=514364) | WIP: il valore delle vendite che si registra nella fatturazione del progetto interaziendale preleva da un conto imprevisto. |

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2d1f9b29e0e9516ff78517e47694a2385c083ec7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5ce9ad1458d338d63469c3d6fddb98b9cbbced31
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277838"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948425"
 ---
 # <a name="manage-project-based-opportunities"></a>Gestire opportunità basate su progetto
 
@@ -64,7 +64,7 @@ Il processo di vendita opportunità in Project Operations è un'estensione del f
 >
 > Se il contratto basato su progetto è iniziato con un'opportunità, il processo di vendita opportunità ha la precedenza.
 
-Puoi modificare il flusso di processo aziendale del prodotto o creare i tuoi flussi di processi aziendali per monitorare il processo di vendita secondo necessità. Per ulteriori informazioni sul flusso di processi aziendali, vedi [Panoramica dei processi aziendali](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview).
+Puoi modificare il flusso di processo aziendale del prodotto o creare i tuoi flussi di processi aziendali per monitorare il processo di vendita secondo necessità. Per ulteriori informazioni sul flusso di processi aziendali, vedi [Panoramica dei processi aziendali](/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

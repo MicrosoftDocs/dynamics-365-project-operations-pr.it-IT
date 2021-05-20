@@ -3,17 +3,17 @@ title: Aggiungere una sottoscrizione di Azure a un progetto LCS
 description: Questo argomento fornisce informazioni su come connettere la sottoscrizione di Azure a un progetto LCS.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: ad1ddd69cbb8db7780b8277a7ed7533d3ea3d053
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a80c926ba67a1620e39d8c7677a05678454e6340
+ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289914"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880543"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>Aggiungere una sottoscrizione di Azure a un progetto LCS
 
@@ -62,7 +62,7 @@ L'autorizzazione è ora completa.
 3. Nel campo **Configura per l'utilizzo di Azure Resource Manager**, seleziona **Sì**.
 4. Assicurati che il dominio tenant AAD della sottoscrizione di Azure corrisponda alla sottoscrizione di Azure proprietaria del dominio che stai utilizzando e seleziona **Avanti**.
 5. Nella schermata **Impostazione di Microsoft Azure**, seleziona **Avanti** per confermare. Se ricevi un errore in questa schermata, torna alla sezione [Fornire l'accesso a Servizi di distribuzione Dynamics alla sottoscrizione di Azure](#provide) in questo argomento e assicurati di aver completato tutti i passaggi.
-6. Scarica il certificato di gestione di Azure in una cartella locale nel computer e quindi caricalo nel portale di gestione di Azure andando a **Impostazioni** > **Certificati di gestione**. Questo certificato consentirà a LCS di comunicare con Azure. Puoi saltare questo passaggio se il tuo utente ha accesso alla sottoscrizione.
+6. Scarica il certificato di gestione di Azure in una cartella locale sul tuo computer. Chiedi all'amministratore della tua sottoscrizione di Azure di caricare il certificato nel portale di gestione di Azure selezionando la sottoscrizione e andando in **Impostazioni** > **Certificati di gestione**. Questo certificato consente a LCS di comunicare con Azure per tuo conto. Puoi saltare questo passaggio se il tuo utente ha accesso alla sottoscrizione.
 7. Seleziona **Avanti**.
 8. Seleziona l'area di Azure in cui eseguire la distribuzione e seleziona un data center vicino al luogo in cui prevedi di utilizzare questo sistema.
 9.  Seleziona **Connetti**.

@@ -3,17 +3,17 @@ title: Creare transazioni interaziendali
 description: Questo argomento fornisce informazioni su come creare transazioni interaziendali.
 author: sigitac
 manager: tfehr
-ms.date: 11/19/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6d23e45d99be61e93d98a8377ff5fa05b3febb6b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: b8b35e8875ac4aff1ae9690c4d4afabe25af8dc9
+ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287423"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880453"
 ---
 # <a name="create-intercompany-transactions"></a>Creare transazioni interaziendali
 
@@ -62,7 +62,7 @@ Molly Clark, sviluppatore impiegato in GBPM registra 10 ore di lavoro contro un 
     4. Impostare la valuta su **USD**.
     5. Salvare il record.
 3. Vai a **Vendite** > **Contratti di progetto** e crea un nuovo contratto di progetto per Adventure Works.
-    1. Imposta la società proprietaria su **USPM** e l'unità appaltante su **Contoso Robotics US**.
+    1. Imposta la società proprietaria su **USPM** e l'unità contratto su **Contoso Robotics US**.
     2. Seleziona Adventure Works come cliente.
     3. Seleziona un listino prezzi del prodotto e salva il record.
     4. Nella scheda **Voci di contratto**, crea una nuova voce di contratto. Imposta un nome e seleziona **Tempistica e materiali** come metodo di fatturazione.
@@ -94,7 +94,7 @@ Molly Clark, sviluppatore impiegato in GBPM registra 10 ore di lavoro contro un 
     Questa vendita non fatturata è ora pronta per la fatturazione. La fattura per il cliente Adventure Works può essere registrata finanziariamente quando necessario.
 
 10. Accedi come contabile **GBPM**. Apri l'istanza Finance di Project Operations e apri l'azienda **GBPM**. 
-11. Vai a **Contabilità e gestione dei progetti** > **Periodico** > **Project Operations su Customer Engagement** > **Importa da staging** ed esegui il processo periodico per compilare il giornale di integrazione di Project Operations.
+11. Vai a **Gestione progetti e contabilità** > **Periodico** > **Integrazione di Project Operations** > **Importa dalla tabella di gestione temporanea** ed esegui il processo periodico per compilare il giornale di integrazione di Project Operations.
 12. Vai a **Gestione del progetto e contabilità** > **Giornali** > **Giornale di integrazione di Project Operations** e rivedere le righe. Il sistema crea le seguenti righe.
 
     | **Tipo di transazione** | **Prezzo** | **Valuta delle transazioni** | **Importo** |

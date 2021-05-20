@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e27cc0919272784a030374f457d1ab1dccc1f9f1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2450c00bae9eeb31d3b4bb14e6255e0681997672
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283778"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948152"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Manuale dell'utente dell'Hub risorse di progetto
 
@@ -48,7 +48,7 @@ Esistono due versioni di [!INCLUDE[pn_dyn_365_project_service_auto](../includes/
 ## <a name="install-the-mobile-app"></a>Installare l'app mobile
 Prima di poter iniziare a utilizzare l'app Hub di risorse per Project, devi installare l'app per dispositivi mobili sul tuo dispositivo. 
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Installare Dynamics 365 per telefoni e tablet](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets).
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Installare Dynamics 365 per telefoni e tablet](/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets).
 
 ## <a name="basic-navigation"></a>Spostamento di base
 1.  Quando accedi all'app per dispositivi mobili, vedrai la pagina MyApps con un elenco delle app cui hai accesso. 
@@ -99,7 +99,7 @@ Inserisci le spese almeno ogni settimana (oppure alla frequenza richiesta dai re
 5. Continua a inserire le spese della settimana. Al termine, quando tutto sembra corretto, tocca **Invia**. Un responsabile rivedrà e approverà le spese.
 
 ## <a name="general-information-on-how-to-use-the-mobile-app"></a>Informazioni generali su come utilizzare l'app mobile 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manuale delle nozioni di base mobile](https://docs.microsoft.com/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manuale delle nozioni di base mobile](/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).
 
 ### <a name="see-also"></a>Vedi anche  
  [Panoramica di Project Service](../psa/overview.md)   
