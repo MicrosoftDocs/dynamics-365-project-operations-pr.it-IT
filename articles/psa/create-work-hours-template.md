@@ -1,6 +1,6 @@
 ---
 title: Creare un modello di ore lavorative
-description: Come creare un modello delle ore lavorative in Project Service
+description: Questo argomento descrive come creare un modello delle ore lavorative in Project Service.
 author: ruhercul
 manager: kfend
 ms.service: project-operations
@@ -18,51 +18,51 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5e859a58f86d8cd98fa429beeeb99cf397a207cf
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 525f601ad6fee902cb6d5c128b596cc2d33f30c4
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285038"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981260"
 ---
 # <a name="create-a-work-hours-template-project-service"></a>Creare un modello delle ore lavorative (Project Service)
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Prima di creare le pianificazioni di progetto, devi impostare un calendario di progetto che definisce il numero di ore lavorative da sistemare ogni giorno nella pianificazione e in tutte le chiusure aziendali. Questo si ottiene con un modello di ore lavorative, contenente dettagli sulle ore lavorative per giorni, giorni di ferie, e altre chiusure aziendali.  
-  
- Quando crei un progetto, associa un modello di lavoro al calendario di progetto per applicare la pianificazione per il progetto.  
-  
- Ci sono due modi per creare un modello delle ore lavorative:  
-  
--   Crea un modello delle ore lavorative in base al calendario della risorsa.  
-  
--   Crea un nuovo modello di ore lavorative.  
-  
-#### <a name="to-create-a-work-hours-template-based-on-a-resources-calendar"></a>Per creare un modello delle ore lavorative in base al calendario della risorsa  
-  
-1.  Passa a **Project Service > Risorse**.  
-  
-2.  Seleziona la risorsa su cui desideri basare le ore lavorative.  
-  
-3.  Fai clic su **Salva calendario con nome**, inserisci un nome per il modello delle ore lavorative e quindi fai clic su **Salva**.  
-  
-4.  Una volta completata la modifica delle opzioni, fai clic su **Salva e chiudi**.  
-  
-5.  Fai clic sul pulsante **Salva** nell'angolo in basso a destra dello schermo.  
-  
-#### <a name="to-create-a-new-work-hours-template"></a>Per creare un nuovo modello di ore lavorative  
-  
-1.  Passa a **Project Service > Modelli ore lavorative**.  
-  
-2.  Fare clic su **Nuovo**.  
-  
-3.  Immetti un nome per il modello ore lavorative.  
-  
-4.  Seleziona una risorsa su cui basare le ore lavorative a e quindi fai clic su **Salva**.  
-  
+Per creare e gestire un progetto, è necessario applicare un modello di calendario al progetto. Il modello di calendario definisce i seguenti attributi del progetto:
+
+- Orario lavorative, inclusa l'ora di inizio e di fine
+- Giorni lavorativi
+- Eccezioni di calendario come giorni non lavorativi
+
+Il modello di calendario applicato a un progetto è una copia del modello di calendario definito nelle impostazioni dell'organizzazione.
+
+> [!NOTE]
+> Se modifichi il modello di calendario, tali modifiche non si propagano alle ore lavorative del progetto. Per modificare le ore lavorative del progetto, è necessario applicare un nuovo modello.
+
+Per creare un modello di calendario per la tua organizzazione, ci sono due requisiti chiave:
+
+- Definisci le ore lavorative desiderate del modello utilizzando una risorsa prenotabile nuova o esistente.
+- Crea un nuovo modello di calendario e associa il modello alla risorsa prenotabile.
+
+**Definisci le ore lavorative del modello**
+
+1. Seleziona **Risorse** \> **Risorse**.
+2. Crea una nuova risorsa a cui fare riferimento nel modello di calendario o seleziona una risorsa esistente.
+3. Seleziona la scheda **Ore lavorative** della risorsa e completa le istruzioni in [Impostare le ore lavorative per una risorsa](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) per configurare le regole del calendario.
+
+**Creare un nuovo modello di calendario**
+
+1. Vai a **Impostazioni** \> **Modello di calendario**.
+2. Seleziona **Nuovo** e inserisci un nome, una descrizione e una risorsa modello.
+
+
+> [!NOTE]
+> Quando si fa riferimento a una risorsa in un modello di calendario, una copia del calendario della risorsa viene associata al modello di calendario. Se le ore lavorative del modello copiato cambiano, tali modifiche non verranno propagate al modello di calendario.
+
+
 ### <a name="see-also"></a>Vedi anche  
  [Configurare le risorse](../psa/set-up-resources.md)
 

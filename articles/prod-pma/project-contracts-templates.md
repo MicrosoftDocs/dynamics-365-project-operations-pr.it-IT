@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 319000e6a826580049e8575def5790ab595a3165
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 85722f61a672cc55cd2b511dc80ebfbe4807b957
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289599"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950404"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Sincronizzare i contratti di progetto e i progetti direttamente da Project Service Automation a Finance 
 
@@ -109,8 +109,8 @@ Quando viene applicata la soluzione di integrazione da Project Service Automatio
 ## <a name="prerequisites-and-mapping-setup"></a>Configurazione di prerequisiti e mapping
 
 - Prima di sincronizzare i contratti di progetto e i progetti, è necessario sincronizzare gli account.
-- Nel set di connessione, aggiungi un mapping del campo della chiave di integrazione per **msdyn\_organizationalunits** su **msdyn\_name\[Nome \]**. Potrebbe essere necessario prima aggiungere un progetto al set di connessione. Per altre informazioni, vedi [Integrare i dati in Common Data Service per le app](https://docs.microsoft.com/powerapps/administrator/data-integrator).
-- Nel set di connessione, aggiungi un mapping del campo della chiave di integrazione per **msdyn\_projects** su **msdynce\_projectnumber\[Numero di progetto\]**. Potrebbe essere necessario prima aggiungere un progetto al set di connessione. Per altre informazioni, vedi [Integrare i dati in Common Data Service per le app](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+- Nel set di connessione, aggiungi un mapping del campo della chiave di integrazione per **msdyn\_organizationalunits** su **msdyn\_name\[Nome \]**. Potrebbe essere necessario prima aggiungere un progetto al set di connessione. Per altre informazioni, vedi [Integrare i dati in Common Data Service per le app](/powerapps/administrator/data-integrator).
+- Nel set di connessione, aggiungi un mapping del campo della chiave di integrazione per **msdyn\_projects** su **msdynce\_projectnumber\[Numero di progetto\]**. Potrebbe essere necessario prima aggiungere un progetto al set di connessione. Per altre informazioni, vedi [Integrare i dati in Common Data Service per le app](/powerapps/administrator/data-integrator).
 - **SourceDataID** per i contratti di progetto e i progetti possono essere aggiornati su un valore diverso o rimossi dal mapping. Il valore del modello predefinito è **Project Service Automation**.
 - Il mapping **PaymentTerms** deve essere aggiornato in modo che rifletta i termini di pagamento validi in Finance. Puoi inoltre rimuovere il mapping dall'attività del progetto. Il mapping di valori predefinito ha valori predefiniti per i dati demo. La tabella seguente mostra i valori in Project Service Automation.
 

@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 7eae471cf42f02e64844a4682cc8ed02cbb14c34
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 78bb696a39a6ec126d7de01f170edbd07677a314
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288879"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950179"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Area di lavoro per dispositivi mobili Immissione ora progetto
 
@@ -48,7 +48,7 @@ In particolare, nell'area di lavoro per dispositivi mobili **Immissione ora prog
 I prerequisiti differiscono, in base alla versione di Microsoft Dynamics 365 che è stata distribuita per la tua organizzazione.
 
 ### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Prerequisiti se usi Dynamics 365 Finance
-Se Finance è stato distribuito per la tua organizzazione, l'amministratore di sistema deve pubblicare l'area di lavoro per dispositivi mobili **Immissione ora progetto**. Per istruzioni, vedi [Pubblicare un'area di lavoro per dispositivi mobili](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
+Se Finance è stato distribuito per la tua organizzazione, l'amministratore di sistema deve pubblicare l'area di lavoro per dispositivi mobili **Immissione ora progetto**. Per istruzioni, vedi [Pubblicare un'area di lavoro per dispositivi mobili](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Prerequisiti se utilizzi la versione 1611 con Platform update 3 o successiva
 Se la versione 1611 con Platform update 3 o successiva è stata distribuita per la tua organizzazione, l'amministratore di sistema deve completare i seguenti prerequisiti. 
@@ -68,17 +68,17 @@ Se la versione 1611 con Platform update 3 o successiva è stata distribuita per 
 <td>Amministratore di sistema</td>
 <td>KB 4018050 è un aggiornamento X++ o un hotfix dei metadati che contiene l'area di lavoro per dispositivi mobili <strong>Immissione ora progetto</strong>. Per implementare KB 4018050, l'amministratore di sistema deve seguire questi passaggi.
 <ol>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Scarica l'aggiornamento rapido dei metadati da Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Installa l'hotfix per i metadati</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Crea un pacchetto distribuibile</a> che contiene i modelli <strong>ApplicationSuite</strong> e <strong>ProjectMobile</strong>, quindi carica il pacchetto distribuibile su LCS.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Applica il pacchetto distribuibile</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Scarica l'aggiornamento rapido dei metadati da Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Installa l'hotfix per i metadati</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Crea un pacchetto distribuibile</a> che contiene i modelli <strong>ApplicationSuite</strong> e <strong>ProjectMobile</strong>, quindi carica il pacchetto distribuibile su LCS.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Applica il pacchetto distribuibile</a>.</li>
 
 </ol></td>
 </tr>
 <tr class="even">
 <td>Pubblica l'area di lavoro per dispositivi mobili <strong>Immissione ora progetto</strong>.</td>
 <td>Amministratore di sistema</td>
-<td>Vedi <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Pubblicare un'area di lavoro per dispositivi mobili</a>.</td>
+<td>Vedi <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Pubblicare un'area di lavoro per dispositivi mobili</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -103,11 +103,11 @@ Scarica e installa l'app per dispositivi mobili Finance and Operations:
 2.  Seleziona **Inserimento ore**. Vengono visualizzate le date del calendario per la settimana corrente.
 3.  Per una data selezionata, seleziona **Azioni** &gt; **Nuovo inserimento**.
 4.  Immetti il numero di ore da registrare.
-5.  Seleziona il progetto per l'inserimento ore. Un elenco mostra i progetti caricati nella tua app per l'utilizzo offline. Per impostazione predefinita, vengono caricati 50 elementi, ma uno sviluppatore può modificare questo numero. Per altre informazioni, vedi [Piattaforma per dispositivi mobili](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
+5.  Seleziona il progetto per l'inserimento ore. Un elenco mostra i progetti caricati nella tua app per l'utilizzo offline. Per impostazione predefinita, vengono caricati 50 elementi, ma uno sviluppatore può modificare questo numero. Per altre informazioni, vedi [Piattaforma per dispositivi mobili](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
 6.  Se il tuo progetto non è nell'elenco, seleziona **Cerca**. Cerca per nome o passa alla ricerca per nome progetto o cliente.
-7.  Seleziona una categoria. Un elenco mostra le categorie caricate nella tua app per l'utilizzo offline. Per impostazione predefinita, vengono caricati 50 elementi, ma uno sviluppatore può modificare questo numero. Per altre informazioni, vedi [Piattaforma per dispositivi mobili](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
+7.  Seleziona una categoria. Un elenco mostra le categorie caricate nella tua app per l'utilizzo offline. Per impostazione predefinita, vengono caricati 50 elementi, ma uno sviluppatore può modificare questo numero. Per altre informazioni, vedi [Piattaforma per dispositivi mobili](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
 8.  Se la tua categoria non è nell'elenco, seleziona **Cerca**. Cerca per categoria o passa alla ricerca per nome della categoria.
-9.  Selezionare un impegno. Un elenco mostra gli impegni caricati nella tua app per l'utilizzo offline. Per impostazione predefinita, vengono caricati 50 elementi, ma uno sviluppatore può modificare questo numero. Per altre informazioni, vedi [Piattaforma per dispositivi mobili](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
+9.  Selezionare un impegno. Un elenco mostra gli impegni caricati nella tua app per l'utilizzo offline. Per impostazione predefinita, vengono caricati 50 elementi, ma uno sviluppatore può modificare questo numero. Per altre informazioni, vedi [Piattaforma per dispositivi mobili](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
 10. Se il tuo impegno non è nell'elenco, seleziona **Cerca**. Cerca per numero di attività o passa alla ricerca per scopo.
 
 11. Seleziona la proprietà della riga.

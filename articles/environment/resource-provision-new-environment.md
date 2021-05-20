@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 50e623d3716c9dd03ce34ec293ba57b5d966d39e
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9ee9e4c31d1972e3a75ad214071b31527f0ca826
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276893"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950539"
 ---
 # <a name="provision-a-new-environment"></a>Effettuare il provisioning di un nuovo ambiente
 
@@ -36,7 +36,7 @@ Utilizza i passaggi seguenti per abilitare il flusso di provisioning automatizza
 
 ## <a name="provision-a-project-operations-environment"></a>Effettuare il provisioning di un ambiente Project Operations
 
-1. Apri una nuova distribuzione di [ambiente demo](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) o [ambiente di produzione/sandbox](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) di Dynamics 365 Finance. 
+1. Apri una nuova distribuzione di [ambiente demo](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) o [ambiente di produzione/sandbox](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) di Dynamics 365 Finance. 
 2. Segui la procedura guidata **Provisioning ambiente**. 
 
 > [!IMPORTANT]

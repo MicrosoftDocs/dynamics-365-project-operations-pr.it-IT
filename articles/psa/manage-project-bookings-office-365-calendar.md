@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1df4864ca8dbf6948ca88a7c82a6c0a676e3bd53
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f9ebfadf8a331fd6a8a86a9cc040dc8957db3b82
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275048"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950314"
 ---
 # <a name="manage-projects-and-bookings-in-your-calendar-project-service"></a>Gestire progetti e prenotazioni nel calendario (Project Service)
 
@@ -52,7 +52,7 @@ Visualizza gli appuntamenti, le prenotazioni di progetto- lavoro e le assegnazio
   
 - È necessario disporre delle credenziali di amministratore globale [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] o di amministratore di sistema .  
   
-- L'amministratore dovrà configurare il profilo di server e-mail e ogni utente dovrà configurare la propria cassetta postale. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configurare l'elaborazione dei messaggi e-mail tramite la sincronizzazione lato server](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
+- L'amministratore dovrà configurare il profilo di server e-mail e ogni utente dovrà configurare la propria cassetta postale. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configurare l'elaborazione dei messaggi e-mail tramite la sincronizzazione lato server](/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
   
 ## <a name="turn-on-synchronization-for-your-organization-admin-task"></a>Abilitare la sincronizzazione per l'organizzazione (attività di amministrazione)  
   

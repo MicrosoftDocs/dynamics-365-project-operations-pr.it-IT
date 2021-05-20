@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 82787d13c6c2e662841a4f8eebe5638933f0958d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 43816d1dbcbea608eb675b037f8956cd44e8a063
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288053"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950854"
 ---
 # <a name="whats-new-or-changed-in-project-operations-january-2021-for-stockedproduction-based-scenarios"></a>Novità o modifiche di Project Operations gennaio 2021 per scenari di materiali stoccati basati sulla produzione
 
@@ -144,7 +144,7 @@ Questo argomento si applica ai seguenti componenti e versioni di Dynamics 365 Pr
 | Viaggi e spesa                  | [525106](https://fix.lcs.dynamics.com/Issue/Details/?bugId=525106) | In Project Operations, l'ora con attività interaziendali in Dataverse non può essere creato o approvato.                                                                                                                                                                                             |
 
 ### <a name="regulatory-updates"></a>Aggiornamenti normativi
-Per informazioni sugli aggiornamenti normativi per le app Finance and Operations, vedi [Aggiornamenti normativi](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). È inoltre possibile accedere a LCS e visualizzare gli aggiornamenti normativi pianificati utilizzando lo strumento di ricerca dei problemi. La ricerca dei problemi ti consente di cercare per paese, tipo di funzionalità e versione.
+Per informazioni sugli aggiornamenti normativi per le app Finance and Operations, vedi [Aggiornamenti normativi](/dynamics365/finance/localizations/regulatory-updates). È inoltre possibile accedere a LCS e visualizzare gli aggiornamenti normativi pianificati utilizzando lo strumento di ricerca dei problemi. La ricerca dei problemi ti consente di cercare per paese, tipo di funzionalità e versione.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

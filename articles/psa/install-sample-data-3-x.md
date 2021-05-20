@@ -11,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 377e50fc5772c4dc146ccee098bf2806bbc8c6b7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c521fb4000b4856fc5c2fbf3275bf3b3e0dfa458
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275093"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950584"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Installazione di dati di esempio per l'applicazione Project Service
 
@@ -149,7 +149,7 @@ Il pacchetto di dati dimostrativi richiede sei utenti. Affinché il pacchetto ve
 
 5. Il calendario del primo utente (nel tag **userstocreateandconfigure** ) viene utilizzato per inserire le ore lavorative per tutte le risorse prenotabili durante l'importazione dei dati dimostrativi. Accedi a **Impostazioni** > **Sicurezza** > **Utenti**, trova l'utente "Spencer Low", quindi apri l'ozpione "Ore lavorative". Modifica le ore lavorative esistenti, selezionando l'opzione **Intera pianificazione settimanale**. Verifica che le **ore lavorative siano impostate su 8 - 17 (9 ore), da Lunedì a Venerdì con il fuso orario impostato su Ora pacifico (USA e Canada)**. Ciò è necessario per garantire che la scheda di pianificazione e di progetto venga visualizzata come previsto.
 
-**Raccomandazione:** considerare la possibilità di creare un backup dell'organizzazione ora, nel caso sia necessario ritornare al punto di partenza a seguito di problemi durante l'installazione dei dati di esempio. Per ulteriori informazioni, vedere [Backup e ripristino di istanze](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
+**Raccomandazione:** considerare la possibilità di creare un backup dell'organizzazione ora, nel caso sia necessario ritornare al punto di partenza a seguito di problemi durante l'installazione dei dati di esempio. Per ulteriori informazioni, vedere [Backup e ripristino di istanze](/dynamics365/customer-engagement/admin/backup-restore-instances).
 
 ## <a name="run-the-package-deployer"></a>Eseguire Package Deployer
 

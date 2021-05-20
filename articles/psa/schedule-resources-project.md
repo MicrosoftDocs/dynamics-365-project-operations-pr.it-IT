@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f0a234f96419bac58cd932a082010da672e7dcb5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 329923e6d47fd36881aea8db8eba41a868829220
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282653"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951439"
 ---
 # <a name="schedule-resources-for-a-project-project-service"></a>Pianificare le risorse per un progetto (Project Service)
 
@@ -35,7 +35,7 @@ Puoi verificare la disponibilità di una risorsa per ottenere una visione global
   
 Nella scheda di pianificazione sono visualizzati l'elenco di risorse e le relative disponibilità. Seleziona la modalità di visualizzazione per vedere la disponibilità in base a **Ore**, **Giorno**, **Settimana** o **Mese**.  
   
-Prima di utilizzare la scheda di pianificazione, è importante configurarla. Per ulteriori informazioni, vedi [Configurare la scheda di pianificazione (Field Service, Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board).
+Prima di utilizzare la scheda di pianificazione, è importante configurarla. Per ulteriori informazioni, vedi [Configurare la scheda di pianificazione (Field Service, Project Service Automation)](/dynamics365/field-service/configure-schedule-board).
   
 Se utilizzi una versione precedente, per la disponibilità delle risorse, vedi [Visualizzare la disponibilità delle risorse](../psa/view-resource-availability.md).  
 

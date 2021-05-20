@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1e66177e92e701c2dc09bed005f748ca19ae980d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ad5c5deca1964d57f22459c129f9936be0c30fde
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283373"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951529"
 ---
 # <a name="dashboards"></a>Dashboard
 
@@ -35,7 +35,7 @@ Dynamics 365 Project Service Automation include due dashboard di sistema: **Resp
 
 ## <a name="practice-manager"></a>Responsabile operativo 
 
-Il dashboard **Responsabile operativo** offre ai responsabili operativi un'esperienza dashboard grafica per il rilevamento di costi, vendite, margine lordo e utilizzo. Consente inoltre di suddividere le informazioni in sezioni in base a diverse dimensioni, ad esempio cliente, progetto o ruolo risorsa. Per ulteriori informazioni su come creare e personalizzare dashboard, vedere [Creare e modificare dashboard](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards).
+Il dashboard **Responsabile operativo** offre ai responsabili operativi un'esperienza dashboard grafica per il rilevamento di costi, vendite, margine lordo e utilizzo. Consente inoltre di suddividere le informazioni in sezioni in base a diverse dimensioni, ad esempio cliente, progetto o ruolo risorsa. Per ulteriori informazioni su come creare e personalizzare dashboard, vedere [Creare e modificare dashboard](/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards).
 
 ## <a name="resource-manager"></a>Gestione risorse 
 

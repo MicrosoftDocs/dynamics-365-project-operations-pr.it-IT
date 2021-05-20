@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ff423e2ae2d6a2ac48196ce2784baf3606f6575b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2f6ceabe1809cc94357a31f1d57c445593f0f788
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289779"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950449"
 ---
 # <a name="project-management-and-accounting-overview"></a>Panoramica della contabilità e della gestione dei progetti
 
@@ -227,7 +227,7 @@ Il tipo di progetto determina quale procedura di fatturazione deve essere applic
 Prima di creare una fattura cliente per un progetto, puoi creare una fattura preliminare o una proposta di fatturazione. In una proposta di fatturazione, puoi selezionare le transazioni di progetto da includere in una fattura di progetto. Puoi quindi rivedere i dettagli della fattura prima di registrare la fattura del progetto e inviarla al cliente o ad un'altra fonte di finanziamento. 
 
 
-Per ulteriori informazioni su come elaborare le fatture di progetto, vedi [Fatturazione del progetto](https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing).
+Per ulteriori informazioni su come elaborare le fatture di progetto, vedi [Fatturazione del progetto](/dynamics365/finance/accounts-payable/project-invoicing).
 
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Calcolare il costo per completare un progetto

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 872f4f2878f474e16674932f23fe192c6a8de6eb
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4d132bcbef5421202d2f4899091f0dc75166dd66
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279458"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949954"
 ---
 # <a name="resource-management-modes-overview"></a>Panoramica delle modalità di gestione delle risorse
 
@@ -29,11 +29,11 @@ Per le organizzazioni che centralizzano l'allocazione delle risorse ai progetti,
 
 Per gestire le risorse con la modalità centrale, vedi:
 
-- [Assegnare risorse prenotabili generiche a un'attività e generare requisiti di risorsa](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
-- [Prenotare risorse denominate da requisiti di risorsa](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
-- [Inviare una richiesta di risorsa](https://docs.microsoft.com/dynamics365/project-service/submit-resource-request)
-- [Soddisfare una richiesta di risorse](https://docs.microsoft.com/dynamics365/project-service/resource-management-fulfill-requests)
-- [Accettare o rifiutare una risorsa di progetto proposta da una richiesta di risorsa](https://docs.microsoft.com/dynamics365/project-service/accept-reject-proposed-resource)
+- [Assegnare risorse prenotabili generiche a un'attività e generare requisiti di risorsa](/dynamics365/project-service/assign-generic-bookable-resource)
+- [Prenotare risorse denominate da requisiti di risorsa](/dynamics365/project-service/book-named-resource)
+- [Inviare una richiesta di risorsa](/dynamics365/project-service/submit-resource-request)
+- [Soddisfare una richiesta di risorse](/dynamics365/project-service/resource-management-fulfill-requests)
+- [Accettare o rifiutare una risorsa di progetto proposta da una richiesta di risorsa](/dynamics365/project-service/accept-reject-proposed-resource)
 
 ## <a name="hybrid-mode"></a>Modalità ibrida
 Per le organizzazioni che richiedono flessibilità nell'allocazione delle risorse, la modalità ibrida consente sia ai responsabili di progetto che ai responsabili delle risorse di prenotare le risorse.
@@ -43,11 +43,11 @@ Per le organizzazioni che richiedono flessibilità nell'allocazione delle risors
 Oltre al processo in modalità centrale supportato, vedi i seguenti argomenti per gestire tutti gli altri flussi di prenotazione supportati in modalità ibrida:
 
 Prenota una risorsa direttamente per un progetto:
-- [Prenotare risorse prenotabili denominate per un team di progetto e assegnarvi attività](https://docs.microsoft.com/dynamics365/project-service/assign-named-bookable-resource)
+- [Prenotare risorse prenotabili denominate per un team di progetto e assegnarvi attività](/dynamics365/project-service/assign-named-bookable-resource)
 
 Prenota una risorsa da un requisito di risorsa:
-- [Assegnare risorse prenotabili generiche a un'attività e generare requisiti di risorsa](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
-- [Prenotare risorse denominate da requisiti di risorsa](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+- [Assegnare risorse prenotabili generiche a un'attività e generare requisiti di risorsa](/dynamics365/project-service/assign-generic-bookable-resource)
+- [Prenotare risorse denominate da requisiti di risorsa](/dynamics365/project-service/book-named-resource)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f5927a638fe8e454aecc9ce8dfc0871ed51d09f5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e7c252ba01a4665bd09423e9b2b250622a149beb
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291939"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951034"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novità di dicembre 2020 - Project Operations per scenari basati su risorse/non stoccate
 
@@ -108,7 +108,7 @@ In questa release sono incluse le seguenti funzionalità:
 | Viaggi e spesa                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | Il flusso di lavoro di registrazione automatica della nota spese è stato completato ma la fattura non viene registrata                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>Aggiornamenti normativi
-Per informazioni sugli aggiornamenti normativi per le app Finance and Operations, vedi [Aggiornamenti normativi](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). È inoltre possibile accedere a LCS e visualizzare gli aggiornamenti normativi pianificati utilizzando lo strumento di ricerca dei problemi. La ricerca dei problemi ti consente di cercare per paese, tipo di funzionalità e versione.
+Per informazioni sugli aggiornamenti normativi per le app Finance and Operations, vedi [Aggiornamenti normativi](/dynamics365/finance/localizations/regulatory-updates). È inoltre possibile accedere a LCS e visualizzare gli aggiornamenti normativi pianificati utilizzando lo strumento di ricerca dei problemi. La ricerca dei problemi ti consente di cercare per paese, tipo di funzionalità e versione.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

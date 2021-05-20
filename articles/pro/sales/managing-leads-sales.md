@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1d3a54a9fcb0b0cef9461219e22305afbf5266e5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5e51920e3a95e89fe923d59ecd2498ba243f895f
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272843"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949729"
 ---
 # <a name="manage-leads---lite"></a>Gestire i lead - semplice
 
@@ -55,7 +55,7 @@ I lead che hanno il valore **Tipo** impostato su **Basato su lavoro** sono chiam
 - Un record del contatto associato all'account in base ai valori nei campi **Nome** e **Cognome** sul lead.
 - Un'opportunità basata su progetto che ha il campo **Tipo** impostato su **Basato su lavoro**.
 
-Per informazioni più dettagliate sulla qualificazione dei lead, vedi [Qualificare o convertire i lead](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
+Per informazioni più dettagliate sulla qualificazione dei lead, vedi [Qualificare o convertire i lead](/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 
 ## <a name="business-process-flow-for-project-based-deals"></a>Processo aziendale per transazioni basate su progetti
 

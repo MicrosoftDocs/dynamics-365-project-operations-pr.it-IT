@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f8e9bce6612e617785264470b7946ffc4795a621
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: fa6530a0eefb1ae6a84a662c6131182d97d49aeb
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291849"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950944"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novità di novembre 2020 - Project Operations per scenari basati su risorse/non stoccate
 
@@ -67,7 +67,7 @@ Questo argomento si applica ai seguenti componenti e versioni di Dynamics 365 Pr
 | Contabilità di progetto  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | Abilitando la funzione, non è possibile utilizzare le righe di contratto multiple senza l'integrazione di CDS.                                                                                   |
 
 ### <a name="regulatory-updates"></a>Aggiornamenti normativi
-Per informazioni sugli aggiornamenti normativi per le app Finance and Operations, vedi [Aggiornamenti normativi](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). È inoltre possibile accedere a LCS e visualizzare gli aggiornamenti normativi pianificati utilizzando lo strumento di ricerca dei problemi. La ricerca dei problemi ti consente di cercare per paese, tipo di funzionalità e versione.
+Per informazioni sugli aggiornamenti normativi per le app Finance and Operations, vedi [Aggiornamenti normativi](/dynamics365/finance/localizations/regulatory-updates). È inoltre possibile accedere a LCS e visualizzare gli aggiornamenti normativi pianificati utilizzando lo strumento di ricerca dei problemi. La ricerca dei problemi ti consente di cercare per paese, tipo di funzionalità e versione.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

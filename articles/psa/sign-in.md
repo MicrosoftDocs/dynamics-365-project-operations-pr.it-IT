@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 92c4cb3e1661f0415d49b84c9a59aba4bda38f20
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d52caf0739ee55c25598318608f0c235107c85f3
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282293"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951394"
 ---
 # <a name="sign-in-to-project-service-automation"></a>Accedere a Project Service Automation
 
@@ -39,7 +39,7 @@ Quando si accede alle app Dynamics 365, è necessario ottenere le seguenti infor
   
 - Password  
   
-  È probabile che tu abbia ricevuto tali informazioni in un messaggio e-mail dell'amministratore. Se non disponi di tutte le informazioni o se hai problemi di accesso [Contatta l'amministratore o il personale di supporto](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/find-administrator-support).  
+  È probabile che tu abbia ricevuto tali informazioni in un messaggio e-mail dell'amministratore. Se non disponi di tutte le informazioni o se hai problemi di accesso [Contatta l'amministratore o il personale di supporto](/dynamics365/customerengagement/on-premises/basics/find-administrator-support).  
   
 ## <a name="set-your-personal-options-to-allow-email"></a>Impostare le opzioni personali per consentire la posta elettronica  
  È necessario configurare le impostazioni di posta elettronica per concedere ad altri di inviare la posta elettronica per proprio conto, in modo che [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] possa inviare notifiche e-mail per tuo conto quando ci sono orari e spese da approvare o progetti a cui iscriversi.  

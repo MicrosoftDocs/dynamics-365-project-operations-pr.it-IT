@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 2d257ced3dadb320c501bfd5f64dcd8f21c1a4d3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cc19297131937949fe6f7eed00ee66fb5e3bff13
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272033"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950484"
 ---
 # <a name="expense-management-mobile-workspace"></a>Area di lavoro per dispositivi mobili Gestione delle spese
 
@@ -58,7 +58,7 @@ Puoi utilizzare anche le funzionalità per:
 I prerequisiti variano in base alla versione che è stata distribuita per la tua organizzazione.
 
 ### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Prerequisiti se usi Dynamics 365 Finance 
-Se Finance è stato distribuito per la tua organizzazione, l'amministratore di sistema deve pubblicare l'area di lavoro per dispositivi mobili **Gestione delle spese**. Per istruzioni, vedi [Pubblicare aree di lavoro per dispositivi mobili](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
+Se Finance è stato distribuito per la tua organizzazione, l'amministratore di sistema deve pubblicare l'area di lavoro per dispositivi mobili **Gestione delle spese**. Per istruzioni, vedi [Pubblicare aree di lavoro per dispositivi mobili](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Prerequisiti se utilizzi la versione 1611 con Platform update 3 o successiva
 Se la versione 1611 con Platform update 3 o successiva è stata distribuita per la tua organizzazione, l'amministratore di sistema deve completare i seguenti prerequisiti. 
@@ -77,16 +77,16 @@ Se la versione 1611 con Platform update 3 o successiva è stata distribuita per 
 <td>Amministratore di sistema</td>
 <td>KB 4019015 è un aggiornamento X++ o un hotfix dei metadati che contiene l'area di lavoro per dispositivi mobili <strong>Gestione delle spese</strong>. Per implementare KB 4019015, l'amministratore di sistema deve seguire questi passaggi.
 <ol>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package#download-the-hotfix-from-lcs">Scarica l'aggiornamento rapido dei metadati da Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package#install-the-metadata-hotfix-package">Installa l'hotfix per i metadati</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Crea un pacchetto distribuibile</a> che contiene i modelli <strong>ApplicationSuite</strong> e <strong>ExpenseMobile</strong>, quindi carica il pacchetto distribuibile su LCS.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Applica il pacchetto distribuibile</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package#download-the-hotfix-from-lcs">Scarica l'aggiornamento rapido dei metadati da Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package#install-the-metadata-hotfix-package">Installa l'hotfix per i metadati</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Crea un pacchetto distribuibile</a> che contiene i modelli <strong>ApplicationSuite</strong> e <strong>ExpenseMobile</strong>, quindi carica il pacchetto distribuibile su LCS.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Applica il pacchetto distribuibile</a>.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>Pubblica l'area di lavoro per dispositivi mobili <strong>Gestione delle spese</strong>.</td>
 <td>Amministratore di sistema</td>
-<td>Vedi <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Pubblicare un'area di lavoro per dispositivi mobili</a>.</td>
+<td>Vedi <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Pubblicare un'area di lavoro per dispositivi mobili</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -128,11 +128,11 @@ Scarica e installa l'app per dispositivi mobili Dynamics 365 Unified Ops:
 ## <a name="quickly-enter-expenses-by-using-the-expense-management-mobile-workspace"></a>Immettere rapidamente le spese utilizzando l'area di lavoro per dispositivi mobili Gestione delle spese
 1. Sul tuo dispositivo mobile, apri l'area di lavoro **Gestione delle spese**.
 2. Seleziona **Immissione rapida spese**.
-3. Seleziona la categoria per la spesa. Viene visualizzato l'elenco delle categorie di spesa caricate nella tua app per l'utilizzo offline. Per impostazione predefinita, vengono caricati 50 elementi, ma uno sviluppatore può modificare questo numero. Per altre informazioni, gli sviluppatori possono fare riferimento a [Piattaforma per dispositivi mobili](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Se la tua categoria non è nell'elenco, seleziona **Cerca** per eseguire una ricerca online. Cerca per categoria di spesa o passa alla ricerca per tipo di spesa.
+3. Seleziona la categoria per la spesa. Viene visualizzato l'elenco delle categorie di spesa caricate nella tua app per l'utilizzo offline. Per impostazione predefinita, vengono caricati 50 elementi, ma uno sviluppatore può modificare questo numero. Per altre informazioni, gli sviluppatori possono fare riferimento a [Piattaforma per dispositivi mobili](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Se la tua categoria non è nell'elenco, seleziona **Cerca** per eseguire una ricerca online. Cerca per categoria di spesa o passa alla ricerca per tipo di spesa.
 4. Immetti la data di transazione della spesa.
 5. Facoltativo: inserisci il commerciante per la spesa.
 6. Immetti l'importo della spesa.
-7. Seleziona la valuta della spesa. Viene visualizzato l'elenco dei codici valuta caricati nella tua app per l'utilizzo offline. Per impostazione predefinita, vengono caricate 400 valute, ma uno sviluppatore può modificare questo numero. Per altre informazioni, gli sviluppatori possono fare riferimento a [Piattaforma per dispositivi mobili](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Se la tua valuta non è nell'elenco, seleziona **Cerca** per eseguire una ricerca online. Cerca per valuta o passa alla ricerca per nome.
+7. Seleziona la valuta della spesa. Viene visualizzato l'elenco dei codici valuta caricati nella tua app per l'utilizzo offline. Per impostazione predefinita, vengono caricate 400 valute, ma uno sviluppatore può modificare questo numero. Per altre informazioni, gli sviluppatori possono fare riferimento a [Piattaforma per dispositivi mobili](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Se la tua valuta non è nell'elenco, seleziona **Cerca** per eseguire una ricerca online. Cerca per valuta o passa alla ricerca per nome.
 8. Seleziona **Scatta foto** o **Scegli immagine**.
 9. Segui uno di questi passaggi:
 
@@ -163,11 +163,11 @@ Scarica e installa l'app per dispositivi mobili Dynamics 365 Unified Ops:
 7. Seleziona nell'elenco una o più spese.
 8. Seleziona **Fatto**.
 9. Per aggiungere una nuova spesa alla nota spese, seleziona **Nuova spesa**.
-10. Seleziona la categoria per la spesa. Viene visualizzato l'elenco delle categorie di spesa caricate nella tua app per l'utilizzo offline. Per impostazione predefinita, vengono caricati 50 elementi, ma uno sviluppatore può modificare questo numero. Per altre informazioni, gli sviluppatori possono fare riferimento a [Piattaforma per dispositivi mobili](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Se la tua categoria non è nell'elenco, seleziona **Cerca** per eseguire una ricerca online. Cerca per categoria di spesa o passa alla ricerca per tipo di spesa.
+10. Seleziona la categoria per la spesa. Viene visualizzato l'elenco delle categorie di spesa caricate nella tua app per l'utilizzo offline. Per impostazione predefinita, vengono caricati 50 elementi, ma uno sviluppatore può modificare questo numero. Per altre informazioni, gli sviluppatori possono fare riferimento a [Piattaforma per dispositivi mobili](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Se la tua categoria non è nell'elenco, seleziona **Cerca** per eseguire una ricerca online. Cerca per categoria di spesa o passa alla ricerca per tipo di spesa.
 11. Facoltativo: inserisci il commerciante per la spesa.
 12. Immetti la data di transazione della spesa.
 13. Immetti l'importo della spesa.
-14. Seleziona la valuta della spesa. Viene visualizzato l'elenco dei codici valuta caricati nella tua app per l'utilizzo offline. Per impostazione predefinita, vengono caricate 400 valute, ma uno sviluppatore può modificare questo numero. Per altre informazioni, gli sviluppatori possono fare riferimento a [Piattaforma per dispositivi mobili](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Se la tua valuta non è nell'elenco, seleziona **Cerca** per eseguire una ricerca online. Cerca per valuta o passa alla ricerca per nome.
+14. Seleziona la valuta della spesa. Viene visualizzato l'elenco dei codici valuta caricati nella tua app per l'utilizzo offline. Per impostazione predefinita, vengono caricate 400 valute, ma uno sviluppatore può modificare questo numero. Per altre informazioni, gli sviluppatori possono fare riferimento a [Piattaforma per dispositivi mobili](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Se la tua valuta non è nell'elenco, seleziona **Cerca** per eseguire una ricerca online. Cerca per valuta o passa alla ricerca per nome.
 15. Seleziona **Fatto**.
 16. Per aggiungere ulteriori dettagli alla spesa, seleziona **Aggiungi altri dettagli**. I campi disponibili dipendono dalla configurazione della gestione delle spese per la tua azienda.
 17. Se i criteri aziendale richiedono una ricevuta per la spesa, seleziona **Ricevute** e quindi segui questi passaggi:
@@ -213,12 +213,12 @@ Scarica e installa l'app per dispositivi mobili Dynamics 365 Unified Ops:
 
         - Se hai selezionato **Guest precedenti**, segui questi passaggi:
 
-            1. Seleziona uno o più guest precedenti nell'elenco. Viene visualizzato un elenco dei guest precedenti che hai aggiunto alle note spese precedenti caricate nella tua app per l'utilizzo offline. Per impostazione predefinita, vengono caricati 50 elementi, ma uno sviluppatore può modificare questo numero. Per altre informazioni, gli sviluppatori possono fare riferimento a [Piattaforma per dispositivi mobili](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Se il guest precedente non è nell'elenco, seleziona **Cerca** per eseguire una ricerca online. Cerca per nome o passa alla ricerca per organizzazione, paese o posizione.
+            1. Seleziona uno o più guest precedenti nell'elenco. Viene visualizzato un elenco dei guest precedenti che hai aggiunto alle note spese precedenti caricate nella tua app per l'utilizzo offline. Per impostazione predefinita, vengono caricati 50 elementi, ma uno sviluppatore può modificare questo numero. Per altre informazioni, gli sviluppatori possono fare riferimento a [Piattaforma per dispositivi mobili](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Se il guest precedente non è nell'elenco, seleziona **Cerca** per eseguire una ricerca online. Cerca per nome o passa alla ricerca per organizzazione, paese o posizione.
             2. Seleziona **Fatto**.
 
         - Se hai selezionato **Collaboratori**, segui questi passaggi:
 
-            1. Seleziona uno o più collaboratori nell'elenco. Viene visualizzato l'elenco dei collaboratori caricati nella tua app per l'utilizzo offline. Per impostazione predefinita, vengono caricati 50 elementi, ma uno sviluppatore può modificare questo numero. Per altre informazioni, gli sviluppatori possono fare riferimento a [Piattaforma per dispositivi mobili](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Se il collaboratore non è nell'elenco, seleziona **Cerca** per eseguire una ricerca online. Cerca per nome o passa alla ricerca per società o posizione.
+            1. Seleziona uno o più collaboratori nell'elenco. Viene visualizzato l'elenco dei collaboratori caricati nella tua app per l'utilizzo offline. Per impostazione predefinita, vengono caricati 50 elementi, ma uno sviluppatore può modificare questo numero. Per altre informazioni, gli sviluppatori possono fare riferimento a [Piattaforma per dispositivi mobili](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Se il collaboratore non è nell'elenco, seleziona **Cerca** per eseguire una ricerca online. Cerca per nome o passa alla ricerca per società o posizione.
             2. Seleziona **Fatto**.
 
     3. Seleziona il pulsante **Indietro** per tornare ai dettagli della spesa.
@@ -227,7 +227,7 @@ Scarica e installa l'app per dispositivi mobili Dynamics 365 Unified Ops:
 
     1. Seleziona la prima data da dettagliare.
     2. Seleziona **Aggiungi dettaglio**.
-    3. Seleziona la sottocategoria per il dettaglio spesa. Viene visualizzato l'elenco delle sottocategorie di spesa caricate nella tua app per l'utilizzo offline. Per impostazione predefinita, vengono caricati 50 elementi, ma uno sviluppatore può modificare questo numero. Per altre informazioni, gli sviluppatori possono fare riferimento a [Piattaforma per dispositivi mobili](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Se la tua sottocategoria non è nell'elenco, seleziona **Cerca** per eseguire una ricerca online. Cerca per nome della sottocategoria di spesa.
+    3. Seleziona la sottocategoria per il dettaglio spesa. Viene visualizzato l'elenco delle sottocategorie di spesa caricate nella tua app per l'utilizzo offline. Per impostazione predefinita, vengono caricati 50 elementi, ma uno sviluppatore può modificare questo numero. Per altre informazioni, gli sviluppatori possono fare riferimento a [Piattaforma per dispositivi mobili](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Se la tua sottocategoria non è nell'elenco, seleziona **Cerca** per eseguire una ricerca online. Cerca per nome della sottocategoria di spesa.
     4. Immetti l'importo della transazione per il dettaglio.
     5. Modifica la data della transazione, se necessario.
     6. Seleziona **Fatto**.

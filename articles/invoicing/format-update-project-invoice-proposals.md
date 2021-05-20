@@ -3,17 +3,17 @@ title: Gestire le proposte di fattura di progetto
 description: Questo argomento fornisce dettagli sull'elaborazione delle fatture rivolte ai clienti con Project Operations per scenari di risorse/materiali non stoccati.
 author: sigitac
 manager: Annbe
-ms.date: 01/29/2021
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4e663a9a0ca5b197e556d8c36233ab25affda876
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 6b8eacf2b43219a9adad897637b78a9c94351554
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275858"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950719"
 ---
 # <a name="manage-project-invoice-proposals"></a>Gestire le proposte di fattura di progetto
 
@@ -80,7 +80,8 @@ I valori predefiniti di **Gruppo IVA** e **Gruppo IVA articolo** vengono ricavat
     - **Cliente**: L'impostazione predefinita sarà sempre la fascia IVA di fatturazione del cliente.
     - **Ricerca**: Cercherà in tutte le entità di cui sopra nell'elenco e selezionerà il primo valore disponibile. La ricerca inizia con l'entità **Progetto** quindi l'entità **Contratto di progetto** e quindi l'entità **Cliente**.
 
-- La **fascia IVA articolo del passaggio fondamentale prezzo fisso** viene utilizzata per impostare il valore predefinito sul campo **Gruppo IVA articolo**.
+- **Gruppo IVA articolo passaggio fondamentale prezzo fisso** viene utilizzato come valore predefinito nel campo **Gruppo IVA articolo** per il passaggio fondamentale di fatturazione. Il contabile può rivedere e modificare questo valore nella pagina **Transazioni in acconto**. Il sistema utilizza il valore della transazione in acconto durante la creazione di una riga proposta di fattura progetto.
+ 
 
 ### <a name="financial-dimensions"></a>Dimensioni finanziarie
 
@@ -132,7 +133,7 @@ La pagina **Formatta proposte di fatturazione** consente di visualizzare le tran
 
 La gestione della stampa utilizza diversi file di report per stampare, specificare le destinazioni e personalizzare il testo del piè di pagina per la fattura. La gestione della stampa può essere configurata a livello di modulo, tuttavia queste impostazioni possono essere sovrascritte per un cliente, un contratto o una proposta di fattura specifici. Per accedere a questa funzione nella pagina **Proposta di fattura di progetto** seleziona **Stampa** > **Gestione stampa**.
 
-L'impostazione della gestione della stampa viene visualizzata come una visualizzazione ad albero, in cui ogni livello di nodo visualizza i documenti disponibili da regolare. Puoi assegnare stampe personalizzate a livello di documento di modulo, cliente, contratto o proposta di fattura. Per modificare la stampa del documento originale, espandi il nodo desiderato e seleziona **Elemento originale**. Nel campo **Formato report** seleziona il formato del report da utilizzare per la stampa. Puoi utilizzare formati di report personalizzati usando il [Framework di gestione dei documenti aziendali](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
+L'impostazione della gestione della stampa viene visualizzata come una visualizzazione ad albero, in cui ogni livello di nodo visualizza i documenti disponibili da regolare. Puoi assegnare stampe personalizzate a livello di documento di modulo, cliente, contratto o proposta di fattura. Per modificare la stampa del documento originale, espandi il nodo desiderato e seleziona **Elemento originale**. Nel campo **Formato report** seleziona il formato del report da utilizzare per la stampa. Puoi utilizzare formati di report personalizzati usando il [Framework di gestione dei documenti aziendali](/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
 
 ## <a name="post-invoice-proposals"></a>Registrare le proposte di fattura
 
