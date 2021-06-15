@@ -52,6 +52,8 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Novità
       items:
+        - name: Maggio 2021 - Project Operations per scenari basati su risorse/materiali non stoccati
+          href: whats-new/whats-new-may-2021-resource-based.md
         - name: Aprile 2021 - Project Operations per scenari basati su risorse/materiali non stoccati
           href: whats-new/whats-new-apr-2021-resource-based.md
         - name: Marzo 2021 - Project Operations per scenari basati su risorse/materiali non stoccati
@@ -374,6 +376,8 @@
               href: expense/set-up-credit-card-integration.md
             - name: Configurare le categorie di spesa
               href: expense/set-up-expense-categories.md
+            - name: Configurare il chilometraggio utilizzando i livelli di tariffa chilometrica
+              href: expense/set-up-mileage.md
         - name: Spese personali
           href: expense/personal-expenses-expense-report.md
         - name: Spese interaziendali
@@ -508,6 +512,8 @@
           href: environment/security-model.md
     - name: Novità
       items:
+        - name: Novità di maggio 2021 - distribuzione semplice
+          href: pro/whats-new/whats-new-may-2021-lite.md
         - name: Novità di aprile 2021 - distribuzione semplice
           href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: Novità di marzo 2021 - distribuzione semplice
@@ -1028,6 +1034,8 @@
       items:
         - name: Pianificazione del rilascio dell'aggiornamento per Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Novità o modifiche dell''aggiornamento versione 32, V3'
+          href: psa/whats-new-ur-32.md
         - name: 'Novità o modifiche dell''aggiornamento versione 31, V3'
           href: psa/whats-new-ur-31.md
         - name: 'Novità o modifiche dell''aggiornamento versione 30, V3'
@@ -1266,6 +1274,8 @@
               href: psa/time-entry-calendar.md
             - name: Personalizzare l'inserimento ore settimanale
               href: psa/time-entry-extensibility-v3.md
+            - name: Set di approvazioni
+              href: psa/approval-set.md
     - name: Domande frequenti e risoluzione dei problemi (3.x)
       items:
         - name: Perché il prezzo viene impostato automaticamente su zero per gli effettivi costo spese?
