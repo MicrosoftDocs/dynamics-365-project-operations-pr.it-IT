@@ -2,8 +2,6 @@
 title: Come si assegna una risorsa prenotabile a un'attività nell'app Web
 description: Una panoramica dei modi in cui è possibile assegnare risorse prenotabili.
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b4296837cabd4c6f7e2d2924079658e45ce8b87c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 32a04ddef901515cd77262b5ae6be2458cb6b00c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286298"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993303"
 ---
 # <a name="how-do-i-assign-a-bookable-resource-to-a-task-in-the-web-app-project-service-app-v2x"></a>Come si assegna una risorsa prenotabile a un'attività nell'app Web (app Project Service v2.x)?
 
