@@ -2,8 +2,6 @@
 title: Visualizzare l‘utilizzo addebitabile per le risorse
 description: In questo argomento vengono fornite informazioni sulla vista utilizzo risorse.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,88 +16,88 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b07af573bc8d312c45ee4aef50c95942401294fa
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e1c123854209b3cb5c310e3bbcb242c9219279a8
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285938"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5992839"
 ---
-# <a name="view-chargeable-utilization-for-resources"></a><span data-ttu-id="d2f14-103">Visualizzare l‘utilizzo addebitabile per le risorse</span><span class="sxs-lookup"><span data-stu-id="d2f14-103">View chargeable utilization for resources</span></span>
+# <a name="view-chargeable-utilization-for-resources"></a><span data-ttu-id="c7cf9-103">Visualizzare l‘utilizzo addebitabile per le risorse</span><span class="sxs-lookup"><span data-stu-id="c7cf9-103">View chargeable utilization for resources</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
  
-<span data-ttu-id="d2f14-104">La **vista utilizzo** nella pagina **Utilizzo risorse di Project Service** mostra l'utilizzo addebitabile per ogni risorsa prenotabile.</span><span class="sxs-lookup"><span data-stu-id="d2f14-104">The **Utilization View** on the **Project Service Resource Utilization** page shows the chargeable utilization for each bookable resource.</span></span> <span data-ttu-id="d2f14-105">Poiché la vista è basata sulla scheda di pianificazione, include molte delle funzionalità di quella scheda.</span><span class="sxs-lookup"><span data-stu-id="d2f14-105">Because the view is based on the schedule board, you’ll find many of the same functions.</span></span>
+<span data-ttu-id="c7cf9-104">La **vista utilizzo** nella pagina **Utilizzo risorse di Project Service** mostra l'utilizzo addebitabile per ogni risorsa prenotabile.</span><span class="sxs-lookup"><span data-stu-id="c7cf9-104">The **Utilization View** on the **Project Service Resource Utilization** page shows the chargeable utilization for each bookable resource.</span></span> <span data-ttu-id="c7cf9-105">Poiché la vista è basata sulla scheda di pianificazione, include molte delle funzionalità di quella scheda.</span><span class="sxs-lookup"><span data-stu-id="c7cf9-105">Because the view is based on the schedule board, you’ll find many of the same functions.</span></span>
 
 > ![Vista Utilizzo](media/FAQ-utilization-1.png)
  
 
-<span data-ttu-id="d2f14-107">Il calcolo dell'utilizzo addebitabile viene eseguito in questo modo:</span><span class="sxs-lookup"><span data-stu-id="d2f14-107">The chargeable utilization calculation works as follows:</span></span>
+<span data-ttu-id="c7cf9-107">Il calcolo dell'utilizzo addebitabile viene eseguito in questo modo:</span><span class="sxs-lookup"><span data-stu-id="c7cf9-107">The chargeable utilization calculation works as follows:</span></span>
 
-   <span data-ttu-id="d2f14-108">Utilizzo addebitabile = (ore effettive addebitabili)/(capacità della risorsa).</span><span class="sxs-lookup"><span data-stu-id="d2f14-108">Chargeable utilization = (Chargeable actual hours) / (resource capacity)</span></span>
+   <span data-ttu-id="c7cf9-108">Utilizzo addebitabile = (ore effettive addebitabili)/(capacità della risorsa).</span><span class="sxs-lookup"><span data-stu-id="c7cf9-108">Chargeable utilization = (Chargeable actual hours) / (resource capacity)</span></span>
 
-<span data-ttu-id="d2f14-109">Le celle rappresentano l'utilizzo addebitabile calcolato per il periodo selezionato (giorni, settimane, o mesi).</span><span class="sxs-lookup"><span data-stu-id="d2f14-109">The cells represent the calculated chargeable utilization for the selected period (days, weeks, or months).</span></span>
+<span data-ttu-id="c7cf9-109">Le celle rappresentano l'utilizzo addebitabile calcolato per il periodo selezionato (giorni, settimane, o mesi).</span><span class="sxs-lookup"><span data-stu-id="c7cf9-109">The cells represent the calculated chargeable utilization for the selected period (days, weeks, or months).</span></span>
 
-<span data-ttu-id="d2f14-110">I colori in ogni cella mostrano l'utilizzo addebitabile per una risorsa rispetto al relativo utilizzo addebitabile di destinazione.</span><span class="sxs-lookup"><span data-stu-id="d2f14-110">The colors in each cell show the chargeable utilization for a resource as compared to their target chargeable utilization.</span></span> 
+<span data-ttu-id="c7cf9-110">I colori in ogni cella mostrano l'utilizzo addebitabile per una risorsa rispetto al relativo utilizzo addebitabile di destinazione.</span><span class="sxs-lookup"><span data-stu-id="c7cf9-110">The colors in each cell show the chargeable utilization for a resource as compared to their target chargeable utilization.</span></span> 
 
-<span data-ttu-id="d2f14-111">L'utilizzo di destinazione può essere impostato nel ruolo predefinito della risorsa o nella singola risorsa stessa.</span><span class="sxs-lookup"><span data-stu-id="d2f14-111">The target utilization can be set on the resource’s default role or on the individual resource itself.</span></span> <span data-ttu-id="d2f14-112">Il calcolo considera dapprima la persona per la destinazione e quindi il ruolo predefinito della risorsa.</span><span class="sxs-lookup"><span data-stu-id="d2f14-112">The calculation looks at the individual for the target first, and then to the resource’s default role.</span></span>
+<span data-ttu-id="c7cf9-111">L'utilizzo di destinazione può essere impostato nel ruolo predefinito della risorsa o nella singola risorsa stessa.</span><span class="sxs-lookup"><span data-stu-id="c7cf9-111">The target utilization can be set on the resource’s default role or on the individual resource itself.</span></span> <span data-ttu-id="c7cf9-112">Il calcolo considera dapprima la persona per la destinazione e quindi il ruolo predefinito della risorsa.</span><span class="sxs-lookup"><span data-stu-id="c7cf9-112">The calculation looks at the individual for the target first, and then to the resource’s default role.</span></span>
 
-## <a name="set-target-on-a-resource"></a><span data-ttu-id="d2f14-113">Impostare la destinazione in una risorsa</span><span class="sxs-lookup"><span data-stu-id="d2f14-113">Set target on a resource</span></span>
+## <a name="set-target-on-a-resource"></a><span data-ttu-id="c7cf9-113">Impostare la destinazione in una risorsa</span><span class="sxs-lookup"><span data-stu-id="c7cf9-113">Set target on a resource</span></span>
 
-1. <span data-ttu-id="d2f14-114">Seleziona **Risorse** \> **Risorse**.</span><span class="sxs-lookup"><span data-stu-id="d2f14-114">Go to **Resources** \> **Resources**.</span></span> 
-2. <span data-ttu-id="d2f14-115">Selezionare una risorsa per aprire il record.</span><span class="sxs-lookup"><span data-stu-id="d2f14-115">Select a resource to open the record.</span></span> 
-3. <span data-ttu-id="d2f14-116">Nella scheda **Project Service**, è possibile impostare l'utilizzo di destinazione della risorsa.</span><span class="sxs-lookup"><span data-stu-id="d2f14-116">On the **Project Service** tab, you can set the resource’s target utilization.</span></span>
+1. <span data-ttu-id="c7cf9-114">Seleziona **Risorse** \> **Risorse**.</span><span class="sxs-lookup"><span data-stu-id="c7cf9-114">Go to **Resources** \> **Resources**.</span></span> 
+2. <span data-ttu-id="c7cf9-115">Selezionare una risorsa per aprire il record.</span><span class="sxs-lookup"><span data-stu-id="c7cf9-115">Select a resource to open the record.</span></span> 
+3. <span data-ttu-id="c7cf9-116">Nella scheda **Project Service**, è possibile impostare l'utilizzo di destinazione della risorsa.</span><span class="sxs-lookup"><span data-stu-id="c7cf9-116">On the **Project Service** tab, you can set the resource’s target utilization.</span></span>
 
 > ![Utilizzo della scheda Project Service per impostare l'utilizzo di destinazione](media/FAQ-utilization-2.png)
  
-## <a name="set-target-utilization-on-a-role"></a><span data-ttu-id="d2f14-118">Impostare l'utilizzo di destinazione in un ruolo</span><span class="sxs-lookup"><span data-stu-id="d2f14-118">Set target utilization on a role</span></span>
+## <a name="set-target-utilization-on-a-role"></a><span data-ttu-id="c7cf9-118">Impostare l'utilizzo di destinazione in un ruolo</span><span class="sxs-lookup"><span data-stu-id="c7cf9-118">Set target utilization on a role</span></span>
 
-1. <span data-ttu-id="d2f14-119">Selezionare **Risorse** \> **Ruoli risorsa**.</span><span class="sxs-lookup"><span data-stu-id="d2f14-119">Go to **Resources** \> **Resource Roles**.</span></span> 
-2. <span data-ttu-id="d2f14-120">Selezionare un ruolo e aprire il record.</span><span class="sxs-lookup"><span data-stu-id="d2f14-120">Select a role and open the record.</span></span> 
-3. <span data-ttu-id="d2f14-121">Impostare l'utilizzo di destinazione per il ruolo.</span><span class="sxs-lookup"><span data-stu-id="d2f14-121">Set the target utilization for the role.</span></span>
+1. <span data-ttu-id="c7cf9-119">Selezionare **Risorse** \> **Ruoli risorsa**.</span><span class="sxs-lookup"><span data-stu-id="c7cf9-119">Go to **Resources** \> **Resource Roles**.</span></span> 
+2. <span data-ttu-id="c7cf9-120">Selezionare un ruolo e aprire il record.</span><span class="sxs-lookup"><span data-stu-id="c7cf9-120">Select a role and open the record.</span></span> 
+3. <span data-ttu-id="c7cf9-121">Impostare l'utilizzo di destinazione per il ruolo.</span><span class="sxs-lookup"><span data-stu-id="c7cf9-121">Set the target utilization for the role.</span></span>
 
 > ![Utilizzo di Ruoli risorsa per impostare l'utilizzo di destinazione](media/FAQ-utilization-3.png)
  
-## <a name="calculate-chargeable-utilization-for-a-resource"></a><span data-ttu-id="d2f14-123">Calcolare un utilizzo addebitabile per una risorsa</span><span class="sxs-lookup"><span data-stu-id="d2f14-123">Calculate chargeable utilization for a resource</span></span>
+## <a name="calculate-chargeable-utilization-for-a-resource"></a><span data-ttu-id="c7cf9-123">Calcolare un utilizzo addebitabile per una risorsa</span><span class="sxs-lookup"><span data-stu-id="c7cf9-123">Calculate chargeable utilization for a resource</span></span>
 
-<span data-ttu-id="d2f14-124">Per calcolare l'utilizzo addebitabile per una risorsa, è necessario completare alcuni prerequisiti.</span><span class="sxs-lookup"><span data-stu-id="d2f14-124">To calculate chargeable utilization for a resource, you will need to complete some pre-requisites.</span></span> 
+<span data-ttu-id="c7cf9-124">Per calcolare l'utilizzo addebitabile per una risorsa, è necessario completare alcuni prerequisiti.</span><span class="sxs-lookup"><span data-stu-id="c7cf9-124">To calculate chargeable utilization for a resource, you will need to complete some pre-requisites.</span></span> 
 
-### <a name="set-default-role-for-individual-resource"></a><span data-ttu-id="d2f14-125">Impostare il ruolo predefinito per una singola risorsa</span><span class="sxs-lookup"><span data-stu-id="d2f14-125">Set default role for individual resource</span></span>
+### <a name="set-default-role-for-individual-resource"></a><span data-ttu-id="c7cf9-125">Impostare il ruolo predefinito per una singola risorsa</span><span class="sxs-lookup"><span data-stu-id="c7cf9-125">Set default role for individual resource</span></span>
 
-<span data-ttu-id="d2f14-126">Innanzi tutto, l'utilizzo di destinazione deve essere impostato sulla singola risorsa o sui ruoli risorsa.</span><span class="sxs-lookup"><span data-stu-id="d2f14-126">First, the target utilization must be set on either the individual resource or on resource roles.</span></span> <span data-ttu-id="d2f14-127">Se si utilizzano i ruoli delle risorse per le destinazioni, ogni singola risorsa deve avere un ruolo predefinito.</span><span class="sxs-lookup"><span data-stu-id="d2f14-127">If you are using resource roles for targets, each individual resource must have a default role.</span></span> 
+<span data-ttu-id="c7cf9-126">Innanzi tutto, l'utilizzo di destinazione deve essere impostato sulla singola risorsa o sui ruoli risorsa.</span><span class="sxs-lookup"><span data-stu-id="c7cf9-126">First, the target utilization must be set on either the individual resource or on resource roles.</span></span> <span data-ttu-id="c7cf9-127">Se si utilizzano i ruoli delle risorse per le destinazioni, ogni singola risorsa deve avere un ruolo predefinito.</span><span class="sxs-lookup"><span data-stu-id="c7cf9-127">If you are using resource roles for targets, each individual resource must have a default role.</span></span> 
 
-1. <span data-ttu-id="d2f14-128">A questo proposito, selezionare **Risorse** \> **Risorse**.</span><span class="sxs-lookup"><span data-stu-id="d2f14-128">To set this, go to **Resources** \> **Resources**.</span></span> 
-2. <span data-ttu-id="d2f14-129">Selezionare una risorsa, aprire il record e quindi selezionare la scheda **Project Service**.</span><span class="sxs-lookup"><span data-stu-id="d2f14-129">Select a resource, open the record, and then select the **Project Service** tab.</span></span> 
-3. <span data-ttu-id="d2f14-130">Nella griglia **Ruolo risorsa**, assicurarsi che è presente un ruolo per la risorsa e che **Predefinito** è impostato su **Sì**.</span><span class="sxs-lookup"><span data-stu-id="d2f14-130">In the **Resource Role** grid, make sure there’s one role for the resource and **Is Default** is set to **Yes**.</span></span>
+1. <span data-ttu-id="c7cf9-128">A questo proposito, selezionare **Risorse** \> **Risorse**.</span><span class="sxs-lookup"><span data-stu-id="c7cf9-128">To set this, go to **Resources** \> **Resources**.</span></span> 
+2. <span data-ttu-id="c7cf9-129">Selezionare una risorsa, aprire il record e quindi selezionare la scheda **Project Service**.</span><span class="sxs-lookup"><span data-stu-id="c7cf9-129">Select a resource, open the record, and then select the **Project Service** tab.</span></span> 
+3. <span data-ttu-id="c7cf9-130">Nella griglia **Ruolo risorsa**, assicurarsi che è presente un ruolo per la risorsa e che **Predefinito** è impostato su **Sì**.</span><span class="sxs-lookup"><span data-stu-id="c7cf9-130">In the **Resource Role** grid, make sure there’s one role for the resource and **Is Default** is set to **Yes**.</span></span>
  
-### <a name="change-billing-type-for-resource-role"></a><span data-ttu-id="d2f14-131">Modificare il tipo di fatturazione per il ruolo risorsa</span><span class="sxs-lookup"><span data-stu-id="d2f14-131">Change billing type for resource role</span></span>
+### <a name="change-billing-type-for-resource-role"></a><span data-ttu-id="c7cf9-131">Modificare il tipo di fatturazione per il ruolo risorsa</span><span class="sxs-lookup"><span data-stu-id="c7cf9-131">Change billing type for resource role</span></span>
 
-<span data-ttu-id="d2f14-132">I ruoli risorsa devono essere impostati per avere un tipo di fatturazione **Addebitabile**.</span><span class="sxs-lookup"><span data-stu-id="d2f14-132">The resource roles must be set to have a billing type of **Chargeable**.</span></span> 
+<span data-ttu-id="c7cf9-132">I ruoli risorsa devono essere impostati per avere un tipo di fatturazione **Addebitabile**.</span><span class="sxs-lookup"><span data-stu-id="c7cf9-132">The resource roles must be set to have a billing type of **Chargeable**.</span></span> 
 
-1. <span data-ttu-id="d2f14-133">Selezionare **Risorse** \> **Ruoli risorsa**.</span><span class="sxs-lookup"><span data-stu-id="d2f14-133">Go to **Resources** \> **Resource Roles**.</span></span> 
-2. <span data-ttu-id="d2f14-134">Aprire il record che si intende aggiornare e quindi impostare il tipo di fatturazione predefinito su **Addebitabile**.</span><span class="sxs-lookup"><span data-stu-id="d2f14-134">Open the record you want to update, and then set the billing type default to **Chargeable**.</span></span>
+1. <span data-ttu-id="c7cf9-133">Selezionare **Risorse** \> **Ruoli risorsa**.</span><span class="sxs-lookup"><span data-stu-id="c7cf9-133">Go to **Resources** \> **Resource Roles**.</span></span> 
+2. <span data-ttu-id="c7cf9-134">Aprire il record che si intende aggiornare e quindi impostare il tipo di fatturazione predefinito su **Addebitabile**.</span><span class="sxs-lookup"><span data-stu-id="c7cf9-134">Open the record you want to update, and then set the billing type default to **Chargeable**.</span></span>
 
-### <a name="set-working-hours-for-resource-role"></a><span data-ttu-id="d2f14-135">Impostare le ore lavorative per il ruolo risorsa</span><span class="sxs-lookup"><span data-stu-id="d2f14-135">Set working hours for resource role</span></span>
+### <a name="set-working-hours-for-resource-role"></a><span data-ttu-id="c7cf9-135">Impostare le ore lavorative per il ruolo risorsa</span><span class="sxs-lookup"><span data-stu-id="c7cf9-135">Set working hours for resource role</span></span>
  
-<span data-ttu-id="d2f14-136">La risorsa deve avere delle ore lavorative per il calcolo della capacità.</span><span class="sxs-lookup"><span data-stu-id="d2f14-136">The resource must have working hours for the capacity calculation.</span></span> 
+<span data-ttu-id="c7cf9-136">La risorsa deve avere delle ore lavorative per il calcolo della capacità.</span><span class="sxs-lookup"><span data-stu-id="c7cf9-136">The resource must have working hours for the capacity calculation.</span></span> 
 
-1. <span data-ttu-id="d2f14-137">Seleziona **Risorse** \> **Risorse**.</span><span class="sxs-lookup"><span data-stu-id="d2f14-137">Go to **Resources** \> **Resources**.</span></span> 
-2. <span data-ttu-id="d2f14-138">Selezionare una risorsa per aprire il record, quindi selezionare **Mostra ore lavorative**.</span><span class="sxs-lookup"><span data-stu-id="d2f14-138">Select a resource to open the record, and then select **Show Work Hours**.</span></span> 
-3. <span data-ttu-id="d2f14-139">È possibile aggiornare in blocco l'elenco delle risorse applicando un **modello di ore lavorative** dalla vista **Elenco risorse**.</span><span class="sxs-lookup"><span data-stu-id="d2f14-139">You can bulk-update the list of resources by applying a **Work Hour Template** from the **Resource List** view.</span></span>
+1. <span data-ttu-id="c7cf9-137">Seleziona **Risorse** \> **Risorse**.</span><span class="sxs-lookup"><span data-stu-id="c7cf9-137">Go to **Resources** \> **Resources**.</span></span> 
+2. <span data-ttu-id="c7cf9-138">Selezionare una risorsa per aprire il record, quindi selezionare **Mostra ore lavorative**.</span><span class="sxs-lookup"><span data-stu-id="c7cf9-138">Select a resource to open the record, and then select **Show Work Hours**.</span></span> 
+3. <span data-ttu-id="c7cf9-139">È possibile aggiornare in blocco l'elenco delle risorse applicando un **modello di ore lavorative** dalla vista **Elenco risorse**.</span><span class="sxs-lookup"><span data-stu-id="c7cf9-139">You can bulk-update the list of resources by applying a **Work Hour Template** from the **Resource List** view.</span></span>
 
-## <a name="troubleshooting-chargeable-actual-hours"></a><span data-ttu-id="d2f14-140">Risoluzione dei problemi relativi alle ore effettive addebitabili</span><span class="sxs-lookup"><span data-stu-id="d2f14-140">Troubleshooting chargeable actual hours</span></span>
+## <a name="troubleshooting-chargeable-actual-hours"></a><span data-ttu-id="c7cf9-140">Risoluzione dei problemi relativi alle ore effettive addebitabili</span><span class="sxs-lookup"><span data-stu-id="c7cf9-140">Troubleshooting chargeable actual hours</span></span>
 
-<span data-ttu-id="d2f14-141">Le ore effettive addebitabili provengono dall'entità **Valori effettivi**.</span><span class="sxs-lookup"><span data-stu-id="d2f14-141">The chargeable actual hours are sourced from the **Actuals** entity.</span></span> <span data-ttu-id="d2f14-142">I valori effettivi con un tipo di fatturazione **Addebitabile** sono inclusi nel calcolo e per questo motivo è necessario avere progetti dove i valori effettivi sono addebitabili.</span><span class="sxs-lookup"><span data-stu-id="d2f14-142">Actuals with a billing type of **Chargeable** are included in the calculation and, for this reason, you must have projects where the actuals that are chargeable.</span></span>
+<span data-ttu-id="c7cf9-141">Le ore effettive addebitabili provengono dall'entità **Valori effettivi**.</span><span class="sxs-lookup"><span data-stu-id="c7cf9-141">The chargeable actual hours are sourced from the **Actuals** entity.</span></span> <span data-ttu-id="c7cf9-142">I valori effettivi con un tipo di fatturazione **Addebitabile** sono inclusi nel calcolo e per questo motivo è necessario avere progetti dove i valori effettivi sono addebitabili.</span><span class="sxs-lookup"><span data-stu-id="c7cf9-142">Actuals with a billing type of **Chargeable** are included in the calculation and, for this reason, you must have projects where the actuals that are chargeable.</span></span>
 
-<span data-ttu-id="d2f14-143">Se non si sta visualizzando l'utilizzo addebitabile, di seguito sono elencati alcuni punti da verificare:</span><span class="sxs-lookup"><span data-stu-id="d2f14-143">If you are not seeing chargeable utilization, here are some things you can check:</span></span>
+<span data-ttu-id="c7cf9-143">Se non si sta visualizzando l'utilizzo addebitabile, di seguito sono elencati alcuni punti da verificare:</span><span class="sxs-lookup"><span data-stu-id="c7cf9-143">If you are not seeing chargeable utilization, here are some things you can check:</span></span>
 
-- <span data-ttu-id="d2f14-144">La risorsa ha ore lavorative definite per la capacità.</span><span class="sxs-lookup"><span data-stu-id="d2f14-144">The resource has working hours defined for capacity.</span></span>
-- <span data-ttu-id="d2f14-145">La risorsa ha una destinazione di utilizzo definita singolarmente o un ruolo predefinito.</span><span class="sxs-lookup"><span data-stu-id="d2f14-145">The resource has either an individually defined utilization target or has a default role assigned to it.</span></span> <span data-ttu-id="d2f14-146">Il ruolo ha una destinazione di utilizzo.</span><span class="sxs-lookup"><span data-stu-id="d2f14-146">The role has a utilization target defined for it.</span></span>
-- <span data-ttu-id="d2f14-147">I valori effettivi hanno un tipo di fatturazione **Addebitabile** per il periodo per cui si prevede un calcolo dell'utilizzo.</span><span class="sxs-lookup"><span data-stu-id="d2f14-147">Actuals have a billing type of **Chargeable** for the period you are expecting a utilization calculation for.</span></span> <span data-ttu-id="d2f14-148">Verificare quanto segue se sono visualizzati valori effettivi con tipi di fatturazione differenti da Addebitabile:</span><span class="sxs-lookup"><span data-stu-id="d2f14-148">Check the following if you are seeing actuals with billing types other than chargeable:</span></span>
+- <span data-ttu-id="c7cf9-144">La risorsa ha ore lavorative definite per la capacità.</span><span class="sxs-lookup"><span data-stu-id="c7cf9-144">The resource has working hours defined for capacity.</span></span>
+- <span data-ttu-id="c7cf9-145">La risorsa ha una destinazione di utilizzo definita singolarmente o un ruolo predefinito.</span><span class="sxs-lookup"><span data-stu-id="c7cf9-145">The resource has either an individually defined utilization target or has a default role assigned to it.</span></span> <span data-ttu-id="c7cf9-146">Il ruolo ha una destinazione di utilizzo.</span><span class="sxs-lookup"><span data-stu-id="c7cf9-146">The role has a utilization target defined for it.</span></span>
+- <span data-ttu-id="c7cf9-147">I valori effettivi hanno un tipo di fatturazione **Addebitabile** per il periodo per cui si prevede un calcolo dell'utilizzo.</span><span class="sxs-lookup"><span data-stu-id="c7cf9-147">Actuals have a billing type of **Chargeable** for the period you are expecting a utilization calculation for.</span></span> <span data-ttu-id="c7cf9-148">Verificare quanto segue se sono visualizzati valori effettivi con tipi di fatturazione differenti da Addebitabile:</span><span class="sxs-lookup"><span data-stu-id="c7cf9-148">Check the following if you are seeing actuals with billing types other than chargeable:</span></span>
 
-  - <span data-ttu-id="d2f14-149">Il ruolo utilizzato per il valore effettivo ha un tipo di fatturazione predefinito differente da Addebitabile.</span><span class="sxs-lookup"><span data-stu-id="d2f14-149">The role used on the actual has a default billing type of something other than chargeable.</span></span>
-  - <span data-ttu-id="d2f14-150">Il ruolo nella voce di contratto di progetto che supporta il progetto è stato impostato come non addebitabile.</span><span class="sxs-lookup"><span data-stu-id="d2f14-150">The role on the project contract line backing the project has been set to non-chargeable.</span></span>
-  - <span data-ttu-id="d2f14-151">Il progetto non ha una voce di contratto associata.</span><span class="sxs-lookup"><span data-stu-id="d2f14-151">The project does not have an associated contract line.</span></span>
+  - <span data-ttu-id="c7cf9-149">Il ruolo utilizzato per il valore effettivo ha un tipo di fatturazione predefinito differente da Addebitabile.</span><span class="sxs-lookup"><span data-stu-id="c7cf9-149">The role used on the actual has a default billing type of something other than chargeable.</span></span>
+  - <span data-ttu-id="c7cf9-150">Il ruolo nella voce di contratto di progetto che supporta il progetto è stato impostato come non addebitabile.</span><span class="sxs-lookup"><span data-stu-id="c7cf9-150">The role on the project contract line backing the project has been set to non-chargeable.</span></span>
+  - <span data-ttu-id="c7cf9-151">Il progetto non ha una voce di contratto associata.</span><span class="sxs-lookup"><span data-stu-id="c7cf9-151">The project does not have an associated contract line.</span></span>
 
 
 
