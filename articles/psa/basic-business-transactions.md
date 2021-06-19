@@ -2,8 +2,6 @@
 title: Transazioni commerciali
 description: In questo argomento vengono fornite informazioni sulle transazioni commerciali.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 68506142c5cd046806bc085f297ac928b0c94440
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 33c27acc6747c94d76892f41031adc46150da0e0
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291219"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6011556"
 ---
 # <a name="business-transactions"></a>Transazioni commerciali
 
@@ -113,7 +111,7 @@ Nella tabella seguente vengono mostrati i record dell'entità Origine transazion
 | GUID del record Riga giornale di registrazione     | Riga giornale di registrazione             | GUID della transazione riga fattura     | Transazione riga fattura          |                          |
 | Conferma fattura         | GUID della riga fattura        | Riga fattura                      | GUID del record Vendite fatturate          | Valore effettivo                   |
 | GUID della fattura                 | Fattura                  | GUID del record Vendite fatturate          | Valore effettivo                            |                          |
-| GUID dei dettagli di riga fattura     | Dettagli di riga fattura      | GUID del record Vendite fatturate          | Valore effettivo                            |                          |
+| GUID dei dettagli di riga fattura     | Dettaglio di riga fattura      | GUID del record Vendite fatturate          | Valore effettivo                            |                          |
 | GUID del record Inserimento ore       | Inserimento ore               | GUID del record Vendite fatturate          | Valore effettivo                            |                          |
 | GUID del record Riga giornale di registrazione     | Riga giornale di registrazione             | GUID del record Vendite fatturate          | Valore effettivo                            |                          |
 | GUID del record Inserimento ore       | Inserimento ore               | GUID dello storno vendite non fatturate      | Valore effettivo                            |                          |
