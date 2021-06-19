@@ -2,11 +2,9 @@
 title: Configurare campi personalizzati come dimensioni di determinazione dei prezzi
 description: In questo argomento vengono fornite informazioni su come impostare le dimensioni di determinazione dei prezzi usando i campi personalizzati.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1468c3396a01c1bee1bc0f47eac1ee8b44eaa459
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d40a80f80bd766bfc19e831ea805a4043baf0030
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274868"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004716"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Configurare campi personalizzati come dimensioni di determinazione dei prezzi
 
@@ -73,14 +71,14 @@ Esistono due tipi di dimensioni di determinazione dei prezzi
    
    Nella tabella seguente viene illustrato il calcolo dei ricarichi del prezzo.
   
-| Ruolo        | Unità organizzativa    |Ubicazione lavoro      |Titolo standard      |Ore lavorative risorsa      |  Ricarico|
+| Ruolo        | Unità organizzativa    |Posizione lavoro      |Titolo standard      |Ore lavorative risorsa      |  Ricarico|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso India|In loco            |                    |Straordinario                 |15     |
 |             | Contoso India|Locale             |                    |Straordinario                 |10     |
-|             | Contoso US   |Locale             |                    |Straordinario                 |20     |
+|             | Contoso (USA)   |Locale             |                    |Straordinario                 |20     |
 
 
-Se una risorsa di Contoso India il cui tasso di base è 100 USD lavora in loco e registra 8 ore di lavoro normale e 2 ore di straordinario nell'inserimento ore, il motore di determinazione dei prezzi utilizza il tasso base 100 per 8 ore per registrare 800 USD. Per le 2 ore di straordinario, viene applicato un ricarico del 15% al tasso di base 100 per ottenere un prezzo unitario di 115 USD e un costo totale di 230 USD.
+Se una risorsa di Contoso India il cui tasso di base è 100 USD lavora in loco e registra 8 ore di lavoro normale e 2 ore di straordinario nell'inserimento ore, il motore di determinazione dei prezzi di Project Service utilizza il tasso base 100 per 8 ore per registrare 800 USD. Per le 2 ore di straordinario, viene applicato un ricarico del 15% al tasso di base 100 per ottenere un prezzo unitario di 115 USD e un costo totale di 230 USD.
 
 ### <a name="applicable-to-cost"></a>Costo applicabile a 
 Se questo campo è impostato su **Sì**, indica che il valore della dimensione nel contesto di input deve essere utilizzato per l'allineamento al **prezzo ruolo** e al **ricarico prezzo ruolo** quando si recuperano i tassi di costo e di ricarico.

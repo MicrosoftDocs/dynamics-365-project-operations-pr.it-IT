@@ -2,11 +2,9 @@
 title: Disattivare una dimensione di determinazione dei prezzi
 description: In questo argomento vengono fornite informazioni su come disattivare le dimensioni di determinazione dei prezzi.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d2e10c9ce782697fa4cbbe6eb63491ebb573a6f6
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7b7c1d1b3363c0d158fcf6fda532822354b852a3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274733"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004536"
 ---
 # <a name="turning-off-a-pricing-dimension"></a>Disattivare una dimensione di determinazione dei prezzi
 
@@ -40,11 +38,11 @@ Questo messaggio di errore indica che vi sono record di prezzi impostati precede
 
 | Titolo standard         | Unità organizzativa    |Unità   |Prezzo  |Valuta  |
 | -----------------------|-------------|-------|-------|----------|
-| Sistemista|Contoso US|Ora| 100|USD|
-| Sistemista esperto|Contoso US|Ora| 150| USD|
+| Sistemista|Contoso (USA)|Ora| 100|USD|
+| Sistemista esperto|Contoso (USA)|Ora| 150| USD|
 
 
-Quando si disattiva **Titolo standard** come dimensione di determinazione dei prezzi e il motore di determinazione dei prezzi cerca un prezzo, questo utilizzerà solo il valore **Unità organizzativa** del contesto di input. Se l'**unità organizzativa** del contesto di input è "Contoso US", il risultato sarà non deterministico in quanto entrambe le righe corrisponderanno. Per evitare questo scenario, quando si creano record **Prezzo ruolo**, il sistema verifica che la combinazione di dimensioni è univoca. Se la dimensione viene disattivata dopo la creazione dei record **Prezzo ruolo**, il vincolo può essere violato. Pertanto, prima di disattivare una dimensione, è necessario eliminare tutte le righe **Ricarico prezzo ruolo** e **Prezzo ruolo** in cui è presente il valore della dimensione.
+Quando si disattiva **Titolo standard** come dimensione di determinazione dei prezzi e il motore di determinazione dei prezzi cerca un prezzo, questo utilizzerà solo il valore **Unità organizzativa** del contesto di input. Se l'**Unità organizzativa** del contesto di input è "Contoso US", il risultato sarà non deterministico in quanto entrambe le righe corrisponderanno. Per evitare questo scenario, quando si creano record **Prezzo ruolo**, il sistema verifica che la combinazione di dimensioni è univoca. Se la dimensione viene disattivata dopo la creazione dei record **Prezzo ruolo**, il vincolo può essere violato. Pertanto, prima di disattivare una dimensione, è necessario eliminare tutte le righe **Ricarico prezzo ruolo** e **Prezzo ruolo** in cui è presente il valore della dimensione.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

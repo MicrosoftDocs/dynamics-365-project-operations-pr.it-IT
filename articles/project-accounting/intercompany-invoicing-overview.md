@@ -2,18 +2,16 @@
 title: Panoramica della fatturazione interaziendale
 description: Questo argomento fornisce informazioni ed esempi sulla fatturazione interaziendale per i progetti.
 author: sigitac
-manager: tfehr
 ms.date: 11/19/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3ad75089de1a2f99646f7aba213e199a2bec347d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 42af89105f8325f1c94df6d2133d2c329facf2b3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287333"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002646"
 ---
 # <a name="intercompany-invoicing-overview"></a>Panoramica della fatturazione interaziendale
 
@@ -21,7 +19,7 @@ _**Si applica a:** Project Operations per scenari basati su risorse/materiali no
 
 La tua organizzazione potrebbe avere più divisioni, filiali e altre persone giuridiche che trasferiscono prodotti e servizi tra loro per i progetti. L'entità giuridica che fornisce il servizio o il prodotto è denominata *persona giuridica che effettua la concessione*. L'entità giuridica che riceve il servizio o il prodotto è denominata *persona giuridica richiedente*.
 
-La figura seguente mostra uno scenario tipico in cui due persone giuridiche, Contoso Robotics USA (la persona giuridica richiedente) e Contoso Robotics UK (la persona giuridica che effettua la concessione) condividono le risorse per fornire un progetto per il cliente, Adventure Works. Per questo scenario, Contoso Robotics USA è incaricato di consegnare il lavoro ad Adventure Works.
+L'illustrazione seguente mostra uno scenario tipico in cui due persone giuridiche, Contoso Robotics USA (la persona giuridica mutuataria) e Contoso Robotics UK (la persona giuridica che concede il prestito) condivide le risorse per consegnare un progetto al cliente, Adventure Works. Per questo scenario, Contoso Robotics USA è incaricata di consegnare il lavoro ad Adventure Works.
 
 ![Fatturazione interaziendale](./media/IntercompanyScenario.png) 
 
