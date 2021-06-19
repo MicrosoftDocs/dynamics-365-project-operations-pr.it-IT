@@ -2,8 +2,6 @@
 title: Home page della gestione delle risorse di progetto
 description: In questo argomento vengono fornite informazioni sulle funzionalità di gestione delle risorse in Project Service Automation (PSA) per Dynamics 365.
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,41 +16,41 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7fb1e2fbe08c3b2885b690915904d172f14fdb54
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 6b806b111e579609092239518ebae14b1355941e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282878"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008631"
 ---
-# <a name="resourcing-projects-home-page"></a><span data-ttu-id="fecc3-103">Home page della gestione delle risorse di progetto</span><span class="sxs-lookup"><span data-stu-id="fecc3-103">Resourcing projects home page</span></span>
+# <a name="resourcing-projects-home-page"></a><span data-ttu-id="3b32e-103">Home page della gestione delle risorse di progetto</span><span class="sxs-lookup"><span data-stu-id="3b32e-103">Resourcing projects home page</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="fecc3-104">Le risorse sono il cespite più importante di un'organizzazione di servizi.</span><span class="sxs-lookup"><span data-stu-id="fecc3-104">Resources are the most important asset of a service-based organization.</span></span> <span data-ttu-id="fecc3-105">La capacità di trovare le risorse appropriate quando necessario, di prenotare tali risorse per i progetti e di mantenerle utilizzate, consente all'organizzazione di soddisfare gli obiettivi relativi ai ricavi e alla soddisfazione dei clienti.</span><span class="sxs-lookup"><span data-stu-id="fecc3-105">The ability to find the right resources at the right time, book those resources on projects and keep them utilized, helps the organization meet revenue targets and customer satisfaction goals.</span></span> <span data-ttu-id="fecc3-106">Puoi utilizzare la funzionalità di gestione delle risorse di progetto in Project Service Automation (PSA) per eseguire le operazioni seguenti:</span><span class="sxs-lookup"><span data-stu-id="fecc3-106">You can use the project resourcing functionality in Project Service Automation (PSA) to do the following:</span></span>
+<span data-ttu-id="3b32e-104">Le risorse sono il cespite più importante di un'organizzazione di servizi.</span><span class="sxs-lookup"><span data-stu-id="3b32e-104">Resources are the most important asset of a service-based organization.</span></span> <span data-ttu-id="3b32e-105">La capacità di trovare le risorse appropriate quando necessario, di prenotare tali risorse per i progetti e di mantenerle utilizzate, consente all'organizzazione di soddisfare gli obiettivi relativi ai ricavi e alla soddisfazione dei clienti.</span><span class="sxs-lookup"><span data-stu-id="3b32e-105">The ability to find the right resources at the right time, book those resources on projects and keep them utilized, helps the organization meet revenue targets and customer satisfaction goals.</span></span> <span data-ttu-id="3b32e-106">Puoi utilizzare la funzionalità di gestione delle risorse di progetto in Project Service Automation (PSA) per eseguire le operazioni seguenti:</span><span class="sxs-lookup"><span data-stu-id="3b32e-106">You can use the project resourcing functionality in Project Service Automation (PSA) to do the following:</span></span>
 
-- <span data-ttu-id="fecc3-107">Formare team di progetto prenotando risorse disponibili e qualificate.</span><span class="sxs-lookup"><span data-stu-id="fecc3-107">Form project teams by booking available and qualified resources.</span></span>
-- <span data-ttu-id="fecc3-108">Creare record di membri del team generici e definirne i ruoli nonché l'unità organizzativa delle risorse.</span><span class="sxs-lookup"><span data-stu-id="fecc3-108">Create generic team member records and define their roles and resource organization unit.</span></span>
-- <span data-ttu-id="fecc3-109">Generare requisiti di risorsa per membri del team generici a partire dalle relative assegnazioni di attività.</span><span class="sxs-lookup"><span data-stu-id="fecc3-109">Generate resource requirements for generic team members from their task assignments.</span></span>
-- <span data-ttu-id="fecc3-110">Trovare risorse disponibili con competenze corrispondenti a quelle definite nella domanda di risorse.</span><span class="sxs-lookup"><span data-stu-id="fecc3-110">Match skills by identifying the skills defined on the resource demand against available resource skills.</span></span>
-- <span data-ttu-id="fecc3-111">Sostituire risorse.</span><span class="sxs-lookup"><span data-stu-id="fecc3-111">Substitute resources.</span></span>
-- <span data-ttu-id="fecc3-112">Allineare assegnazioni di pianificazione di progetto e prenotazioni delle risorse.</span><span class="sxs-lookup"><span data-stu-id="fecc3-112">Align project schedule assignments and resource bookings.</span></span>
-- <span data-ttu-id="fecc3-113">Riconciliare differenze in prenotazioni e assegnazioni.</span><span class="sxs-lookup"><span data-stu-id="fecc3-113">Reconcile differences in bookings and assignments.</span></span>
-- <span data-ttu-id="fecc3-114">Modificare le prenotazioni delle risorse in risposta allo stato fuori sede.</span><span class="sxs-lookup"><span data-stu-id="fecc3-114">Change resource bookings in response to out-of-office status.</span></span>
-- <span data-ttu-id="fecc3-115">Collaborare tra responsabili di progetto e responsabili delle risorse.</span><span class="sxs-lookup"><span data-stu-id="fecc3-115">Collaborate between project managers and resource managers.</span></span>
-- <span data-ttu-id="fecc3-116">Visualizzare la cronologia di utilizzo delle risorse rispetto a un obiettivo, inclusa un'analisi sull'utilizzo del tempo delle risorse.</span><span class="sxs-lookup"><span data-stu-id="fecc3-116">View the history of resource utilization against a target, including a breakdown of how the resources' time was utilized.</span></span>
-- <span data-ttu-id="fecc3-117">Gestire un archivio di competenze e qualifiche.</span><span class="sxs-lookup"><span data-stu-id="fecc3-117">Maintain a skills and proficiency repository.</span></span>
+- <span data-ttu-id="3b32e-107">Formare team di progetto prenotando risorse disponibili e qualificate.</span><span class="sxs-lookup"><span data-stu-id="3b32e-107">Form project teams by booking available and qualified resources.</span></span>
+- <span data-ttu-id="3b32e-108">Creare record di membri del team generici e definirne i ruoli nonché l'unità organizzativa delle risorse.</span><span class="sxs-lookup"><span data-stu-id="3b32e-108">Create generic team member records and define their roles and resource organization unit.</span></span>
+- <span data-ttu-id="3b32e-109">Generare requisiti di risorsa per membri del team generici a partire dalle relative assegnazioni di attività.</span><span class="sxs-lookup"><span data-stu-id="3b32e-109">Generate resource requirements for generic team members from their task assignments.</span></span>
+- <span data-ttu-id="3b32e-110">Trovare risorse disponibili con competenze corrispondenti a quelle definite nella domanda di risorse.</span><span class="sxs-lookup"><span data-stu-id="3b32e-110">Match skills by identifying the skills defined on the resource demand against available resource skills.</span></span>
+- <span data-ttu-id="3b32e-111">Sostituire risorse.</span><span class="sxs-lookup"><span data-stu-id="3b32e-111">Substitute resources.</span></span>
+- <span data-ttu-id="3b32e-112">Allineare assegnazioni di pianificazione di progetto e prenotazioni delle risorse.</span><span class="sxs-lookup"><span data-stu-id="3b32e-112">Align project schedule assignments and resource bookings.</span></span>
+- <span data-ttu-id="3b32e-113">Riconciliare differenze in prenotazioni e assegnazioni.</span><span class="sxs-lookup"><span data-stu-id="3b32e-113">Reconcile differences in bookings and assignments.</span></span>
+- <span data-ttu-id="3b32e-114">Modificare le prenotazioni delle risorse in risposta allo stato fuori sede.</span><span class="sxs-lookup"><span data-stu-id="3b32e-114">Change resource bookings in response to out-of-office status.</span></span>
+- <span data-ttu-id="3b32e-115">Collaborare tra responsabili di progetto e responsabili delle risorse.</span><span class="sxs-lookup"><span data-stu-id="3b32e-115">Collaborate between project managers and resource managers.</span></span>
+- <span data-ttu-id="3b32e-116">Visualizzare la cronologia di utilizzo delle risorse rispetto a un obiettivo, inclusa un'analisi sull'utilizzo del tempo delle risorse.</span><span class="sxs-lookup"><span data-stu-id="3b32e-116">View the history of resource utilization against a target, including a breakdown of how the resources' time was utilized.</span></span>
+- <span data-ttu-id="3b32e-117">Gestire un archivio di competenze e qualifiche.</span><span class="sxs-lookup"><span data-stu-id="3b32e-117">Maintain a skills and proficiency repository.</span></span>
 
 
-<span data-ttu-id="fecc3-118">Puoi assegnare a un progetto un team di risorse generiche o denominate in PSA.</span><span class="sxs-lookup"><span data-stu-id="fecc3-118">You can staff your project with a team of generic or named resources in PSA.</span></span> <span data-ttu-id="fecc3-119">Puoi utilizzare vari metodi per aggiungere e assegnare membri del team e per gestire le relative prenotazioni e assegnazioni.</span><span class="sxs-lookup"><span data-stu-id="fecc3-119">You can use various methods to add and assign team members and to manage their bookings and assignments.</span></span> <span data-ttu-id="fecc3-120">Per ulteriori informazioni, vedi gli argomenti seguenti:</span><span class="sxs-lookup"><span data-stu-id="fecc3-120">For additional information, see the following topics:</span></span>
+<span data-ttu-id="3b32e-118">Puoi assegnare a un progetto un team di risorse generiche o denominate in PSA.</span><span class="sxs-lookup"><span data-stu-id="3b32e-118">You can staff your project with a team of generic or named resources in PSA.</span></span> <span data-ttu-id="3b32e-119">Puoi utilizzare vari metodi per aggiungere e assegnare membri del team e per gestire le relative prenotazioni e assegnazioni.</span><span class="sxs-lookup"><span data-stu-id="3b32e-119">You can use various methods to add and assign team members and to manage their bookings and assignments.</span></span> <span data-ttu-id="3b32e-120">Per ulteriori informazioni, vedi gli argomenti seguenti:</span><span class="sxs-lookup"><span data-stu-id="3b32e-120">For additional information, see the following topics:</span></span>
 
-- [<span data-ttu-id="fecc3-121">Prenotare risorse prenotabili denominate per un team di progetto e assegnarvi attività</span><span class="sxs-lookup"><span data-stu-id="fecc3-121">Book named bookable resources to a project team and assigning them tasks</span></span>](assign-named-bookable-resource.md)
-- [<span data-ttu-id="fecc3-122">Assegnare risorse prenotabili generiche a un'attività e generare requisiti di risorsa</span><span class="sxs-lookup"><span data-stu-id="fecc3-122">Assign generic bookable resources to a task and generate resource requirements</span></span>](assign-generic-bookable-resource.md)
-- [<span data-ttu-id="fecc3-123">Prenotare risorse denominate da requisiti di risorsa</span><span class="sxs-lookup"><span data-stu-id="fecc3-123">Book named resources from resource requirements</span></span>](book-named-resource.md)
-- [<span data-ttu-id="fecc3-124">Inviare una richiesta di risorse</span><span class="sxs-lookup"><span data-stu-id="fecc3-124">Submit a resource request</span></span>](submit-resource-request.md)
-- [<span data-ttu-id="fecc3-125">Accettare o rifiutare una risorsa di progetto proposta da una richiesta di risorsa</span><span class="sxs-lookup"><span data-stu-id="fecc3-125">Accept or reject a proposed project resource from a resource request</span></span>](accept-reject-proposed-resource.md)
+- [<span data-ttu-id="3b32e-121">Prenotare risorse prenotabili denominate per un team di progetto e assegnarvi attività</span><span class="sxs-lookup"><span data-stu-id="3b32e-121">Book named bookable resources to a project team and assigning them tasks</span></span>](assign-named-bookable-resource.md)
+- [<span data-ttu-id="3b32e-122">Assegnare risorse prenotabili generiche a un'attività e generare requisiti di risorsa</span><span class="sxs-lookup"><span data-stu-id="3b32e-122">Assign generic bookable resources to a task and generate resource requirements</span></span>](assign-generic-bookable-resource.md)
+- [<span data-ttu-id="3b32e-123">Prenotare risorse denominate da requisiti di risorsa</span><span class="sxs-lookup"><span data-stu-id="3b32e-123">Book named resources from resource requirements</span></span>](book-named-resource.md)
+- [<span data-ttu-id="3b32e-124">Inviare una richiesta di risorse</span><span class="sxs-lookup"><span data-stu-id="3b32e-124">Submit a resource request</span></span>](submit-resource-request.md)
+- [<span data-ttu-id="3b32e-125">Accettare o rifiutare una risorsa di progetto proposta da una richiesta di risorsa</span><span class="sxs-lookup"><span data-stu-id="3b32e-125">Accept or reject a proposed project resource from a resource request</span></span>](accept-reject-proposed-resource.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
