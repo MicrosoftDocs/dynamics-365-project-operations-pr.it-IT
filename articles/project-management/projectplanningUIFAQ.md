@@ -2,19 +2,17 @@
 title: Risolvere i problemi relativi alla griglia delle attività
 description: Questo argomento fornisce le informazioni sulla risoluzione dei problemi necessaria quando si utilizza la griglia delle attività.
 author: ruhercul
-manager: tfehr
 ms.date: 01/19/2021
 ms.topic: article
 ms.product: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: dedd989cc7c959d9ea97a0abfb13f8f1b2150a56
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a15a4752de7537b3f60d5ee3269c846257a1fe4a
+ms.sourcegitcommit: 72fa1f09fe406805f7009fc68e2f3eeeb9b7d5fc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286568"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6213405"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Risolvere i problemi relativi alla griglia delle attività 
 
@@ -57,7 +55,7 @@ Project Operations richiede che un parametro di progetto faccia riferimento all'
  ![Campo Endpoint PEX nel parametro di progetto](media/projectparameter.png)
 
 1. Aggiungi il campo **Endpoint PEX** alla pagina **Parametri di progetto**.
-2. Aggiorna il campo con il seguente valore: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=\<id>&type=2`
+2. Aggiorna il campo con il seguente valore: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=/<id>&type=2`
 3. Rimuovi il campo dalla pagina **Parametri di progetto**.
 
 ## <a name="privileges-for-project-for-the-web"></a>Privilegi per progetto per il Web

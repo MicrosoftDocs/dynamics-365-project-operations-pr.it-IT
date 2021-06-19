@@ -2,18 +2,16 @@
 title: Modalità di pianificazione
 description: In questo argomento vengono fornite informazioni sulle modalità di pianificazione.
 author: ruhercul
-manager: AnnBe
-ms.date: 05/04/2021
+ms.date: 05/28/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: fe54944999617b248ff925148a78601dd4be7aca
-ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
+ms.openlocfilehash: 508ff1df8f7e31066712fab6f8871dfdb107a43b
+ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5981440"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6116712"
 ---
 # <a name="scheduling-modes"></a>Modalità di pianificazione
 
@@ -25,12 +23,12 @@ Dynamics 365 Project Operations fornisce la possibilità alle organizzazioni di 
 Sono disponibili tre modalità di pianificazione in Project Operations:
 
   - Durata fissa (questa è la modalità predefinita)
-  - Lavoro fisso
+  - Lavoro fisso (*Lavoro*)
   - Unità fisse
 
 I valori influenzati dalla definizione di una specifica modalità di pianificazione sono determinati dalla seguente formula:
 
-  Risorse (*Lavoro*) = Durata x unità
+  Lavoro = Durata x Unità
 
 Quando definisci la modalità di pianificazione di un progetto, imposti uno di questi valori che poi non può più essere modificato. Mantenere questo valore come costante pone una priorità su quel valore, che notifica al sistema di non cambiarlo quando cambiano gli altri due valori. La tabella seguente fornisce informazioni sugli impatti della selezione di una modalità specifica.
 

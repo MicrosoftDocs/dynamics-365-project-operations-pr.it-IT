@@ -2,19 +2,17 @@
 title: Aggiornamenti di Project Operations
 description: Questo argomento fornisce informazioni sulle versioni rilasciate di Dynamics 365 Project Operations.
 author: sigitac
-manager: Annbe
-ms.date: 03/03/2021
+ms.date: 06/07/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6f7feb8c84441f97ad52016371284eb91b37478a
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: d19148c868aa5be77db59e70fcf1fb8b7de6868c
+ms.sourcegitcommit: 72fa1f09fe406805f7009fc68e2f3eeeb9b7d5fc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948244"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6213450"
 ---
 # <a name="project-operations-updates"></a>Aggiornamenti di Project Operations
 
@@ -30,60 +28,59 @@ Dynamics 365 Project Operations è costituito da due componenti:
 - Gestione progetti e contabilità in ambiente Dynamics 365 Finance include capacità di gestione delle spese, contabilità del progetto e riconoscimento dei ricavi. L'ambiente dell'app Finance and Operations viene usato in Project Operations per scenari basati su risorse/materiali non stoccati e Project Operations per scenari basati su materiali stoccati/produzione.
 
 ## <a name="project-operations-release-notes"></a>Note sulla versione di Project Operations
-- Note sulla versione più recenti di Project Operations per lo scenario [risorse/materiali non stoccati](whats-new-apr-2021-resource-based.md).
-- Note sulla versione più recenti di Project Operations per lo scenario [distribuzione semplice](../pro/whats-new/whats-new-apr-2021-lite.md).
-- Note sulla versione più recenti di Project Operations per lo scenario [materiali stoccati/produzione](../prod-pma/whats-new/whats-new-mar-2021-stocked.md).
+- Note sulla versione più recenti di Project Operations per lo scenario [risorse/materiali non stoccati](whats-new-may-2021-resource-based.md).
+- Note sulla versione più recenti di Project Operations per lo scenario [distribuzione semplice](../pro/whats-new/whats-new-may-2021-lite.md).
+- Note sulla versione più recenti di Project Operations per lo scenario [materiali stoccati/produzione](../prod-pma/whats-new/whats-new-apr-2021-stocked.md).
 
 ## <a name="project-operations-latest-version"></a>Ultima versione di Project Operations
 
 | Project Operations in ambiente Dataverse | Gestione progetti e contabilità in ambienti di app Finance and Operations | 
 | --- | --- |
-| 4.9.0.221 | 10.0.17 |
+| 4.10.0.186 | 10.0.18 |
 
-Per lo scenario basato su risorse/materiali non stoccati di Project Operations, si consiglia di utilizzare Dual Write Orchestration versione 2.2.2.50 o successiva.
+Per lo scenario basato su risorse/materiali non stoccati di Project Operations, si consiglia di utilizzare Dual Write Orchestration versione 2.2.2.60 o successiva.
 
 ## <a name="release-schedule-for-project-operations-on-dataverse-environment"></a>Pianificazione del rilascio per Project Operations in ambiente Dataverse
 
 Gli aggiornamenti per Project Operations in ambiente Dataverse sono disponibili mensilmente. 
 
-| Stazione   | Area geografica        | Versione corrente | Prossima versione | Generalmente disponibile |
-|-----------|---------------|-----------------|--------------|---------------------|
-| Stazione 1 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | Prima versione |  4.9.0.221       | Da definire     | 30-apr-21           |
-| Stazione 2 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | America del Sud |  4.9.0.221       | Da definire     | 30-apr-21           |
-|    &nbsp; | Canada        |  4.9.0.221       | Da definire     | 30-apr-21           |
-|   &nbsp;  | India         |  4.9.0.221       | Da definire     | 30-apr-21           |
-|   &nbsp;  | Francia         |  4.9.0.221       | Da definire     | 30-apr-21           |
-|   &nbsp;  | Emirati Arabi Uniti         |  4.9.0.221       | Da definire     | 30-apr-21           |
-|   &nbsp;  | Sudafrica         |  4.9.0.221       | Da definire     | 30-apr-21           |
-| Stazione 3  |      &nbsp;   |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Giappone         |  4.9.0.221       | Da definire     | 07-Maggio-21           |
-|   &nbsp;  | Asia Pacifico  |  4.9.0.221       | Da definire     | 07-Maggio-21           |
-|   &nbsp;  | Gran Bretagna |  4.9.0.221       | Da definire     | 07-Maggio-21           |
-|   &nbsp;  | Oceania       |  4.9.0.221       | Da definire     | 07-Maggio-21           |
-| Stazione 4 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Europa        |  4.9.0.221       | Da definire     | 14-Maggio-21           |
-| Stazione 5 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | America del Nord |  4.9.0.221       | Da definire     | 21-Maggio-21           |
+| Stazione | Area geografica | Numero versione corrente | Aggiornamenti automatici per la distribuzione Lite | Aggiornamenti automatici per la distribuzione di risorse/materiali non stoccati | Numero versione successiva | La versione successiva è generalmente disponibile |
+|-----------|-----------------------|-----------------|--------------|---------------------|---------------------|---------------------|
+| Stazione 1 |   &nbsp;              |    &nbsp;       | &nbsp;       |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | Prima versione         |  4.10.0.186     | Completamento     | Completamento            | Da definire                 | 28-Maggio-21           |
+| Stazione 2 |   &nbsp;              |    &nbsp;       | &nbsp;       |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | America del Sud         |  4.10.0.186     | Completamento     | Completamento            | Da definire                 | 28-Maggio-21           |
+|    &nbsp; | Canada                |  4.10.0.186     | Completamento     | Completamento            | Da definire                 | 28-Maggio-21           |
+|   &nbsp;  | India                 |  4.10.0.186     | Completamento     | Completamento            | Da definire                 | 28-Maggio-21           |
+|   &nbsp;  | Francia                |  4.10.0.186     | Completamento     | Completamento            | Da definire                 | 28-Maggio-21           |
+|   &nbsp;  | Emirati Arabi Uniti  |  4.10.0.186     | Completamento     | Completamento            | Da definire                 | 28-Maggio-21           |
+|   &nbsp;  | Sudafrica          |  4.10.0.186     | Completamento     | Completamento            | Da definire                 | 28-Maggio-21           |
+| Stazione 3 |      &nbsp;           |     &nbsp;      |     &nbsp;   |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | Giappone                 |  4.10.0.186     | Completamento     | Completamento            | Da definire                 | 04 giugno 21          |
+|   &nbsp;  | Asia Pacifico          |  4.10.0.186     | Completamento     | Completamento            | Da definire                 | 04 giugno 21          |
+|   &nbsp;  | Gran Bretagna         |  4.10.0.186     | Completamento     | Completamento            | Da definire                 | 04 giugno 21          |
+|   &nbsp;  | Oceania               |  4.10.0.186     | Completamento     | Completamento            | Da definire                 | 04 giugno 21          |
+| Stazione 4 |     &nbsp;            |     &nbsp;      |     &nbsp;   |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | Europa                |  4.10.0.186     | Completamento     | Completamento            | Da definire                 | 11 giugno 21          |
+| Stazione 5 |     &nbsp;            |     &nbsp;      |     &nbsp;   |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | America del Nord         |  4.10.0.186     | Completamento     | 11 giugno 21          | Da definire                 | 18 giugno 21          |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Programma di rilascio per Gestione progetti e contabilità nell'ambiente delle app Finance and Operations
 
 Gli aggiornamenti per Gestione progetti e contabilità vengono rilasciati otto volte all'anno.
 
-| Versione supportata | Generalmente disponibile (aggiornamento automatico) |
-| --- | --- |
-| 10.0.18 | 16 aprile 2021 |
-| 10.0.17 | 19 marzo 2021 |
-| 10.0.16 | 22 gennaio 2021 |
-
+|          Versione supportata          | Disponibilità anteprima (PEAP) | Generalmente disponibile (aggiornamento automatico) | Data di inizio della produzione del programma di aggiornamento automatico (tramite le impostazioni di aggiornamento LCS) |   Fine del servizio   |
+|:-------------------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
+|          10.0.18          |        5 marzo 2021        |           16 aprile 2021          |                            30 aprile 2021                            |    16 luglio 2021   |
+|          10.0.17          |       1 febbraio 2021      |           19 marzo 2021          |                             2 aprile 2021                            |    11 giugno 2021   |
 
 Le date di rilascio previste sono soggette a modifiche. Per ulteriori informazioni, vedi [Disponibilità degli aggiornamenti del servizio](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 
-| Data di rilascio previste | Generalmente disponibile (aggiornamento automatico) |
-| --- | --- |
-| 10.0.19 | 18 giugno 2021 |
-| 10.0.20 | 16 luglio 2021 |
+|          Versione di destinazione          | Disponibilità anteprima (PEAP) | Generalmente disponibile (aggiornamento automatico) | Data di inizio della produzione del programma di aggiornamento automatico (tramite le impostazioni di aggiornamento LCS) |   Fine del servizio   |
+|:-------------------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
+|          10.0.19          |        23 aprile 2021       |            18 giugno 2021           |                             2 luglio 2021                             | 17 settembre 2021 |
+|          10.0.20          |         28 Maggio 2021        |           16 luglio 2021           |                             30 luglio 2021                             |  22 ottobre 2021  |
+
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,19 +2,17 @@
 title: Utilizzare le spese personali in una nota spese
 description: Questo argomento fornisce informazioni su come utilizzare le spese personali sostenute dai dipendenti durante i viaggi per motivi di lavoro.
 author: suvaidya
-manager: tfehr
-ms.date: 11/18/2020
+ms.date: 05/11/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: d2d558ad4f1a35f83af93d37e377db66d7f70e4f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ae25eca08089d224f1e17e95eeb571054de8a5c0
+ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276226"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6025689"
 ---
 # <a name="work-with-personal-expenses-on-an-expense-report"></a>Utilizzare le spese personali in una nota spese
 
@@ -28,6 +26,15 @@ Esistono due metodi che puoi utilizzare per gestire le spese personali di un dip
   - **Pagato dalla società**: La tua organizzazione paga l'intero conto della carta di credito aziendale, quindi addebita le spese personali sul conto del lavoratore.
 
 È possibile selezionare il metodo utilizzato dalla propria organizzazione nella pagina **Parametri di gestione spese**.
+
+
+## <a name="enable-split-expense-function-when-personal-amount-field-has-value-defined"></a>Abilita la funzione di suddivisione delle spese quando il campo dell'importo personale ha un valore definito
+
+La caratteristica, **Abilita la funzione di suddivisione delle spese quando il campo dell'importo personale ha un valore definito** si applica solo alle note spese approvate utilizzando un flusso di lavoro a livello di riga. I report vengono approvati andando su **Elabora note spese** > **Note spese assegnate a me** > **Apri nota spese**. 
+
+Per abilitare questa funzione, vai ad **Aree di lavoro** > **Gestione funzionalità**, seleziona **Abilita la funzione di suddivisione delle spese quando il campo dell'importo personale ha un valore definito**, quindi seleziona **Abilita ora**. 
+
+Quando la funzionalità è abilitata, le righe di spesa che utilizzano questa funzionalità generano due righe quando viene inviato il report. Vengono generate due righe in modo che l'approvatore possa approvare ciascuna riga separatamente.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
