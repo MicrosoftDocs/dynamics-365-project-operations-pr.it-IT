@@ -2,8 +2,6 @@
 title: Avanzamento del progetto e consumo dei costi
 description: In questo argomento vengono fornite informazioni sul rilevamento dell'avanzamento dei progetti e del consumo dei costi.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/21/2020
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 73b23aad2976c8ccbb542fc2dda1d96dd9f5714b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4fe6adf1a16c1eafc5e37dbd8878dda44cbca230
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283643"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009036"
 ---
 # <a name="project-progress-and-cost-consumption"></a>Avanzamento del progetto e consumo dei costi
 
@@ -64,7 +62,7 @@ Ognuno di questi approcci genera un nuovo calcolo di stima di completamento, sti
 - La stima di completamento, la stima al completamento e la percentuale di avanzamento dell'attività vengono calcolate.
 - La nuova stima al completamento viene distribuita alle attività figlio nella stessa proporzione della stima al completamento originale dell'attività.
 - La nuova stima al completamento di ogni singola attività fino alle attività del nodo foglia viene calcolata. 
-- La stima di completamento e la percentuale di avanzamento delle attività figlio interessate fino ai nodi foglia vengono ricalcolate in base al valore della stima al completamento. Ciò comporta una nuova proiezione per lo scostamento risorse dell'attività. 
+- La stima di completamento e la percentuale di avanzamento delle attività figlio interessate fino ai nodi foglia vengono ricalcolate in base al valore della stima al completamento. Ciò comporta una nuova proiezione per lo scostamento del lavoro richiesto dell'attività. 
 - Le stime al completamento delle attività di riepilogo fino al nodo foglia vengono ricalcolate.
 
 ### <a name="cost-tracking-view"></a>Vista Registrazione costi 
@@ -97,7 +95,7 @@ La tracciabilità dei dati nelle viste **Tracciabilità risorse** e **Tracciabil
 
 Il campo **Stato di progetto generale** è un campo modificabile che mostra lo stato globale del progetto. Utilizza la codifica con colori, come verde, giallo e rosso, per indicare il rischio crescente. Il campo **Commenti** consente al responsabile di progetto di immettere specifici commenti sullo stato. Il campo **Data aggiornamento stato** non è modificabile e il valore è un timestamp che indica quando lo stato è stato aggiornato per l'ultima volta.
 
-I campi **Prestazioni di pianificazione** e **Prestazioni costo** sono impostati in base alla data di tracciabilità. Quando lo scostamento pianificazione e lo scostamento costo per il nodo radice nella vista **Tracciabilità risorse** sono positivi, puoi impostare questi campi su **In anticipo**. Quando lo scostamento pianificazione e lo scostamento costo per il nodo principale sono negativi, puoi impostarli su **In ritardo**.
+I campi **Prestazioni di pianificazione** e **Prestazioni costo** sono impostati in base alla data di registrazione. Quando lo scostamento pianificazione e lo scostamento costo per il nodo radice nella vista **Registrazione lavoro richiesto** sono positivi, puoi impostare questi campi su **In anticipo**. Quando lo scostamento pianificazione e lo scostamento costo per il nodo principale sono negativi, puoi impostarli su **In ritardo**.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

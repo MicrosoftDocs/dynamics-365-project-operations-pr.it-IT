@@ -2,12 +2,10 @@
 title: Home page delle dimensioni di determinazione di prezzi e costi
 description: In questo argomento viene fornita una panoramica delle dimensioni di determinazione dei prezzi.
 author: rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 137fee27dd2302d47ae12faccde1682cff43db93
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9a2e2f7ed394229bbc553af9e616a6f322857195
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284138"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009261"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Home page delle dimensioni di determinazione di prezzi e costi
 
@@ -67,16 +65,16 @@ L'esempio seguente presenta tassi di fatturazione configurati in base al ruolo e
 
 | Ruolo        | Unità organizzativa    |Unità      |Prezzo      |Valuta  |
 | ------------|-------------|----------|----------:|----------|
-| Sviluppatore   | Contoso US  |Hour | 200|USD     |
-| Sviluppatore   | Contoso India |Hour|   112|USD     |
+| Developer   | Contoso (USA)  |Ora | 200|USD     |
+| Developer   | Contoso India |Ora|   112|USD     |
 
 
 **Tassi di costo di esempio**
 
 | Fascia salariale     | Unità organizzativa    |Unità      |Prezzo      |Valuta  |
 | ----------------|-------------|----------|----------:|----------|
-| Mia società_Fascia1 | Contoso US  |Hour | 145|USD     |
-| Mia società_Fascia2 | Contoso India |Hour|   67|USD     |
+| Mia società_Fascia1 | Contoso (USA)  |Ora | 145|USD     |
+| Mia società_Fascia2 | Contoso India |Ora|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Consentire a un altro utente di immettere la voce di tempo o spesa
 description: Come consentire ad altri utenti di immettere le ore o le spese in Project Service per il proprio conto
 author: revathiMuthiah
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 252fff0b60d221233c881e68db176e6763cdcdc0
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 04c4dc7826a3e288e672e0226d5f436904d92e1b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291579"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009531"
 ---
 # <a name="allow-someone-else-to-enter-your-time-entry-or-expense-project-service"></a>Consentire l'immissione delle proprie ore o spese da parte di un altro utente (Project Service)
 

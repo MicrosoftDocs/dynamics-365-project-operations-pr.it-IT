@@ -2,11 +2,9 @@
 title: Creare stime in una riga dell'offerta
 description: Questo argomento fornisce informazioni su come creare una stima su una riga di offerta per un progetto.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d525bd86621178761346221306dfc83e13e720d2
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f4010f7599b66c9ad9e49943c1c0d7d165493d60
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278468"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6010296"
 ---
 # <a name="create-estimates-on-a-quote-line"></a>Creare stime in una riga dell'offerta
 
@@ -40,7 +38,7 @@ Se hai utilizzato un'offerta Project Operations alla creazione di un contratto b
 
 Le stime possono essere eseguite direttamente in un contratto di progetto nonché in un'offerta di progetto. Per un'offerta di progetto, la stima viene eseguita utilizzando voci di contratto e dettagli di voce di contratto. I dettagli di voce di contratto possono anche essere generati da un piano di progetto creato utilizzando l'approccio con stima bottom-up.
 
-I dettagli di voce di contratto possono essere utilizzati per stimare tempo, spese o imposte. Gli importi stimati delle imposte possono anche essere immessi in un dettaglio di voce di contratto.
+I dettagli di voce di contratto possono essere utilizzati per stimare tempo, spese o imposte. Gli importi stimati delle imposte possono anche essere immessi nel dettaglio di una voce di contratto.
 
 Le stime materiale non sono consentite per i dettagli di voce di contratto.
 
@@ -67,8 +65,8 @@ Utilizza la tabella seguente come guida per comprendere la logica di business ne
 | Scenario                                                                                                                                                                                                                                                                                                                                          | Record dell'entità                                                                                                                                                                                                       | Tipo di transazione | Classe di transazione | Informazioni aggiuntive                                                            |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|-------------|-----------------------------------------------------------------------------------|
 | Se devi stimare il valore di vendita del tempo per un'offerta                                                                                                                                                                                                                                                                                    | Viene creato il record Dettagli riga di offerta                                                                                                                                                                               | Contratto di progetto | Time        | Il campo Origine transazione nella riga dei dettagli di riga sul lato vendite fa riferimento ai dettagli di riga di offerta sul lato costi |
-|                                                                                                                                                                                                                                                                                     | Un secondo record Dettagli riga di offerta viene creato dal sistema per memorizzare i valori di costo corrispondenti. Tutti i campi di tipo non money vengono copiati dai dettagli riga di offerta di vendita nei dettagli riga di offerta di costo.                                                                                                                                                                               | Costo | Time        | Il campo Origine transazione nella riga dei dettagli di riga sul lato vendite fa riferimento ai dettagli di riga di offerta sul lato costi |
-| Se devi stimare il valore di vendita del tempo per un contratto                                                                                                                                                                                                                                                                                 | Viene creato il record Dettagli voce di contratto di progetto                                                                                                                                                                    | Contratto di progetto | Time        | Il campo Origine transazione nei dettagli di voce di contratto sul lato vendite fa riferimento ai dettagli di voce di contratto sul lato costi      |
+|                                                                                                                                                                                                                                                                                     | Un secondo record Dettagli riga di offerta viene creato dal sistema per memorizzare i valori di costo corrispondenti. Tutti i campi di tipo non money vengono copiati dai dettagli riga di offerta di vendita nei dettagli riga di offerta di costo.                                                                                                                                                                               | Costo | Time        | Il campo Origine transazione nel dettaglio della riga di offerta sul lato vendite fa riferimento ai dettagli di riga di offerta sul lato costi |
+| Se devi stimare il valore di vendita del tempo per un contratto                                                                                                                                                                                                                                                                                 | Viene creato il record Dettagli di voce di contratto di progetto                                                                                                                                                                    | Contratto di progetto | Time        | Il campo Origine transazione nei dettagli di voce di contratto sul lato vendite fa riferimento ai dettagli di voce di contratto sul lato costi      |
 |                                                                                                                                                                                                                                                                                  | Un secondo record Dettagli voce di contratto viene creato dal sistema per memorizzare i valori di costo corrispondenti. Tutti i campi di tipo non money vengono copiati dai dettagli voce di contratto lato vendita nei dettagli voce di contratto lato costo.                                                                                                                                                                    | Costo | Time        | Il campo Origine transazione nei dettagli di voce di contratto sul lato vendite fa riferimento ai dettagli di voce di contratto sul lato costi      |
 | Quando l'utente descrive una risorsa per un'attività di progetto                                                                                                                                                                                                                                                                                            | Un record di riga di stima per visualizzare il valore di vendita dell'attività viene creato quando un'attività viene creata con tutte le dimensioni di determinazione dei prezzi necessarie. Il ruolo e le unità organizzative sono le dimensioni di determinazione dei prezzi | Contratto di progetto | Ore        |                                                                                   |
 |     | Il record di riga di stima per visualizzare il valore di costo dell'attività viene creato quando un'attività viene creata con tutte le dimensioni di determinazione dei prezzi necessarie. Tutti i campi di tipo non money vengono copiati dal sistema dalla riga di stima di vendita nella riga di stima di costo. Il ruolo e l'unità organizzativa sono le dimensioni di determinazione dei prezzi per i tassi di costo e di fatturazione.                                                                                                                                                                                                                | Costo             | Ore           |                                                                                   |
@@ -77,7 +75,7 @@ Utilizza la tabella seguente come guida per comprendere la logica di business ne
 
 ## <a name="customize-the-quote-line-detail-and-contract-line-detail-entities"></a>Personalizzare le entità Dettagli riga di offerta e Dettagli voce di contratto
 
-Se hai aggiunto un campo personalizzato per i dettagli di riga di offerta e vuoi che il sistema immetta il valore del campo come valore predefinito nella riga dei costi correlata che crea, utilizza gli strumenti di registrazione del plug-in PreOperationContractLineDetailUpdate and PreOperationQuoteLineDetailUpdate . Questi plug-in devono essere registrati dopo la modifica dei dettagli di riga di offerta o dei dettagli di voce di contratto. Segui i passaggi seguenti per completare il processo:
+Se hai aggiunto un campo personalizzato per i dettagli di riga di offerta e vuoi che il sistema immetta il valore del campo come valore predefinito nella riga dei costi correlata che crea, utilizza gli strumenti di registrazione del plug-in PreOperationContractLineDetailUpdate and PreOperationQuoteLineDetailUpdate . Questi plug-in devono essere registrati dopo la modifica del dettaglio di riga di offerta o del dettaglio di voce di contratto. Segui i passaggi seguenti per completare il processo:
 
 1. Apri PluginRegistrationTool e connettiti all'istanza online.
 2. Seleziona **Cerca** e cerca il plug-in da aggiornare.
