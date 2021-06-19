@@ -2,8 +2,6 @@
 title: Scenari con più valute (versione 3.x)
 description: In questo argomento vengono fornite informazioni sugli scenari con più valute.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/26/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 33e44297dc80801c3e4416cd9fc3bedae5f3c4ba
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 70f27d29c74a82f0307bd0724347960e5755e3a8
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291714"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014796"
 ---
 # <a name="multiple-currency-scenarios"></a>Scenari con più valute
 
@@ -36,7 +34,7 @@ Microsoft Dynamics 365 comporta due concetti di valute:
 - **Valuta transazioni** - La valuta di una transazione. 
 - **Valuta di base** - La valuta dell'istanza di Dynamics 365. Questa valuta viene impostata durante il provisioning di Dynamics 365. e non può essere modificata.
 
-Ad esempio, Contoso US ha venduto 100 magliette a un cliente nel Regno Unito al costo di 15 sterline britanniche l'una. Nella tabella seguente viene mostrato come questa transazione viene registrata nell'entità Prodotto ordine.
+Ad esempio, Contoso US ha venduto 100 magliette a un cliente nel Regno Unito al costo di 15 sterline (GBP) l'una. Nella tabella seguente viene mostrato come questa transazione viene registrata nell'entità Prodotto ordine.
 
 | Prodotto | Quantità | Prezzo unitario | Valuta | Importo | Tasso di cambio | Prezzo unitario (base)| Importo (base)|
 |---------|----------|----------------|----------|--------|---------------|----------------------|--------------|

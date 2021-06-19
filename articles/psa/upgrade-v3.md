@@ -1,9 +1,7 @@
 ---
 title: "Considerazioni sull'aggiornamento: Microsoft Dynamics 365 Project Service Automation dalla versione 2.x o 1.x alla versione 3"
 description: In questo argomento vengono fornite informazioni sulle considerazioni che devi eseguire quando esegui l'aggiornamento da Project Service Automation versione 2.x o 1.x alla versione 3.
-manager: kfend
 ms.prod: ''
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/13/2018
@@ -18,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ff0777705c6d0e2c0d8aa4ed191f4ae6b1786100
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 04ae6aa3ef6a14a6f85dce3eaa5af01e0adce9ba
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281663"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014887"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Considerazioni sull'aggiornamento - Da PSA versione 2.x o 1.x alla versione 3
 
@@ -83,7 +81,7 @@ Prima di iniziare l'aggiornamento, è consigliabile rigenerare il team per ogni 
 
 Per le attività assegnate a membri del team generici generati con **Genera team**, l'aggiornamento manterrà la risorsa generica nel team e lascerà l'assegnazione a quel membro del team generico. È consigliabile generare il requisito di risorsa per il membro del team generico dopo l'aggiornamento ma prima di prenotare o inviare una richiesta di risorsa. Ciò preserverà qualsiasi assegnazione di unità organizzativa per i membri del team generici che è differente dall'unità organizzativa di contratto del progetto.
 
-Ad esempio, nel progetto Progetto Z, l'unità organizzativa di contratto è Contoso US. Nel piano di progetto, alle attività di test nella fase di implementazione è stato assegnato il ruolo Consulente Tecnico e l'unità organizzativa assegnata è Contoso India.
+Ad esempio, nel progetto Progetto Z, l'unità organizzativa di contratto è Contoso US. Nella pianificazione di progetto, alle attività di test nella fase di implementazione è stato assegnato il ruolo Consulente Tecnico e l'unità organizzativa assegnata è Contoso India.
 
 ![Assegnazione dell'organizzazione nella fase di implementazione](media/org-unit-assignment-09.png)
 
