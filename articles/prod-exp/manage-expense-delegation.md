@@ -2,11 +2,9 @@
 title: Gestire la delega di spesa
 description: Un utente con delega di spesa può creare e gestire le note spese per un altro dipendente dell'organizzazione.
 author: KimANelson
-manager: AnnBe
 ms.date: 01/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvParameters
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2020-01-10
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 9e3504a89f598c9acf3925e8b27930724ef2d3a5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7255f649a6f59105b05d80cfca172cd2d67d254e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271493"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6005526"
 ---
 # <a name="manage-expense-delegation"></a>Gestire la delega di spesa
 
