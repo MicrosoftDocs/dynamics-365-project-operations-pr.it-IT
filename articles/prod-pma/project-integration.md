@@ -2,7 +2,7 @@
 title: Integrazione con Microsoft Project Client
 description: La pianificazione e la gestione di una pianificazione del progetto possono essere complesse, quindi i project manager devono utilizzare strumenti che li aiutino a gestire questa attività. L'integrazione con Microsoft Project Client fornisce supporto per aprire e gestire una struttura di suddivisione del lavoro di progetto.
 author: Yowelle
-ms.date: 12/11/2017
+ms.date: 06/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 032d726bb6206c563b573f30d13fe2697a13c949
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b312ec5b1f4e6a98a2cbf1667b2f55b758b2d613
+ms.sourcegitcommit: 3a4b181be08ef0428104d72b54a3e61ac2782f14
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999451"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6269840"
 ---
 # <a name="microsoft-project-client-integration"></a>Integrazione con Microsoft Project Client
 
@@ -126,5 +126,12 @@ Per creare una nuova struttura di suddivisione del lavoro utilizzando Microsoft 
 
 11. Fare clic su **OK**.
 
+> [!NOTE]
+> Il componente aggiuntivo Project Client non supporta i seguenti caratteri nel formato dell'ID progetto:
+> 
+>   - Carattere di sottolineatura
+>   - Periodo
+>   - BARRA SPAZIATRICE
+>   - Barra
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

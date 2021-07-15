@@ -28,6 +28,8 @@
               href: environment/resource-apply-pro-setup-config-data.md
         - name: Distribuire ambienti
           items:
+            - name: Distribuire manualmente l'app Project Operations Dataverse con supporto doppia scrittura
+              href: environment/resource-manual-deploy-dataverse-dualwrite.md
             - name: Effettuare il provisioning di un nuovo ambiente
               href: environment/resource-provision-new-environment.md
             - name: Modello di sicurezza
@@ -52,6 +54,10 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Novità
       items:
+        - name: Luglio 2021 - Project Operations per scenari basati su risorse/materiali non stoccati
+          href: whats-new/whats-new-july-2021-resource-based.md
+        - name: Giugno 2021 - Project Operations per scenari basati su risorse/materiali non stoccati
+          href: whats-new/whats-new-june-2021-resource-based.md
         - name: Maggio 2021 - Project Operations per scenari basati su risorse/materiali non stoccati
           href: whats-new/whats-new-may-2021-resource-based.md
         - name: Aprile 2021 - Project Operations per scenari basati su risorse/materiali non stoccati
@@ -282,7 +288,7 @@
           items:
             - name: Sviluppare modelli di progetto con Copia progetto
               href: project-management/dev-copy-project.md
-            - name: Utilizzare le API di pianificazione (anteprima pubblica)
+            - name: Utilizzare le API di pianificazione di progetto (anteprima pubblica)
               href: project-management/schedule-api-preview.md
     - name: Gestione delle risorse
       items:
@@ -436,8 +442,6 @@
       items:
         - name: Panoramica del processo di fatturazione
           href: invoicing/post-project-invoices.md
-        - name: Gestire le proposte di fattura di progetto
-          href: invoicing/format-update-project-invoice-proposals.md
         - name: Fatturazione proforma
           items:
             - name: Gestire il backlog di fatturazione basato su progetto
@@ -456,20 +460,12 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: Configurare l'automazione della fattura basata su progetto
               href: proforma-invoicing/configure-automated-invoice-creation.md
-        - name: Gestire le proposte di fattura di progetto
-          href: invoicing/format-update-project-invoice-proposals.md
-    - name: Contabilità di progetto
-      items:
-        - name: Valori predefiniti della dimensione finanziaria
-          href: project-accounting/financial-dimension-defaults.md
-        - name: Configurare le categorie di progetto
-          href: project-accounting/configure-project-categories.md
-        - name: Configurare la contabilità per i progetti interni
-          href: project-accounting/configure-accounting-internal-projects.md
-        - name: Configurare la contabilità per i progetti fatturabili
-          href: project-accounting/configure-accounting-billable-projects.md
-        - name: Giornale di registrazione integrazione in Project Operations
-          href: project-accounting/project-operations-integration-journal.md
+        - name: Fatturazione cliente
+          items:
+            - name: Gestire le proposte di fattura di progetto
+              href: invoicing/format-update-project-invoice-proposals.md
+            - name: Correggere la contabilità sulle proposte di fattura di progetto in bozza
+              href: invoicing/correct-project-invoice-proposals.md
         - name: Fatturazione interaziendale
           items:
             - name: Panoramica della fatturazione interaziendale
@@ -480,6 +476,18 @@
               href: project-accounting/create-intercompany-transactions.md
             - name: Creare fatture interaziendali per clienti e fornitori
               href: project-accounting/create-intercompany-customer-vendor-invoices.md
+    - name: Contabilità di progetto
+      items:
+        - name: Valori predefiniti della dimensione finanziaria
+          href: project-accounting/financial-dimension-defaults.md
+        - name: Configurare categorie di progetto
+          href: project-accounting/configure-project-categories.md
+        - name: Configurare la contabilità per i progetti interni
+          href: project-accounting/configure-accounting-internal-projects.md
+        - name: Configurare la contabilità per i progetti fatturabili
+          href: project-accounting/configure-accounting-billable-projects.md
+        - name: Giornale di registrazione integrazione in Project Operations
+          href: project-accounting/project-operations-integration-journal.md
     - name: Riconoscimento ricavi
       items:
         - name: Panoramica del riconoscimento ricavi
@@ -512,6 +520,10 @@
           href: environment/security-model.md
     - name: Novità
       items:
+        - name: Novità di luglio 2021 - distribuzione semplice
+          href: pro/whats-new/whats-new-july-2021-lite.md
+        - name: Novità di giugno 2021 - distribuzione semplice
+          href: pro/whats-new/whats-new-june-2021-lite.md
         - name: Novità di maggio 2021 - distribuzione semplice
           href: pro/whats-new/whats-new-may-2021-lite.md
         - name: Novità di aprile 2021 - distribuzione semplice
@@ -762,7 +774,7 @@
           items:
             - name: Sviluppare modelli di progetto con Copia progetto
               href: project-management/dev-copy-project.md
-            - name: Utilizzare le API di pianificazione (anteprima pubblica)
+            - name: Utilizzare le API di pianificazione di progetto (anteprima pubblica)
               href: project-management/schedule-api-preview.md
     - name: Gestione delle risorse
       items:
@@ -882,6 +894,10 @@
   items:
     - name: Novità
       items:
+        - name: Novità di luglio 2021 - Project Operations per scenari di materiali stoccati basati sulla produzione
+          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
+        - name: Novità di maggio 2021 - Project Operations per scenari di materiali stoccati basati sulla produzione
+          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
         - name: Novità di aprile 2021 - Project Operations per scenari di materiali stoccati basati sulla produzione
           href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: Novità di marzo 2021 - Project Operations per scenari di materiali stoccati basati sulla produzione
@@ -1034,6 +1050,10 @@
       items:
         - name: Pianificazione del rilascio dell'aggiornamento per Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Novità o modifiche dell''aggiornamento versione 33, V3'
+          href: psa/whats-new-ur-33.md
+        - name: 'Novità o modifiche dell''aggiornamento versione 32.5, V3'
+          href: psa/whats-new-ur-32-5.md
         - name: 'Novità o modifiche dell''aggiornamento versione 32, V3'
           href: psa/whats-new-ur-32.md
         - name: 'Novità o modifiche dell''aggiornamento versione 31, V3'
@@ -1206,7 +1226,7 @@
               href: psa/bulk-corrections-actuals-created-by-approved-time-expense-entries.md
             - name: Verificare il backlog di fatturazione progetto
               href: psa/review-invoicing-backlog.md
-            - name: Fattura
+            - name: Fatturazione
               href: psa/invoicing.md
             - name: Scenari con più valute
               href: psa/advanced-currency.md
