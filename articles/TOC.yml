@@ -832,6 +832,16 @@
           items:
             - name: Panoramica dell'utilizzo della risorsa
               href: resource-management/resource-utilization-overview.md
+    - name: Gestione dei conti lavoro in Project Operations
+      items:
+        - name: Panoramica della gestione dei conti lavoro
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Concetti chiave del conto lavoro
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: Gestione dei fornitori e dei listini prezzi di progetto
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: Terzisti come risorse prenotabili
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
     - name: Ore
       items:
         - name: Panoramica delle ore
@@ -1050,6 +1060,8 @@
       items:
         - name: Pianificazione del rilascio dell'aggiornamento per Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Novità o modifiche dell''aggiornamento versione 34, V3'
+          href: psa/whats-new-ur-34.md
         - name: 'Novità o modifiche dell''aggiornamento versione 33, V3'
           href: psa/whats-new-ur-33.md
         - name: 'Novità o modifiche dell''aggiornamento versione 32.5, V3'
