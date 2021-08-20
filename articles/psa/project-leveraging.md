@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 49d109be3d55e7f208edb2698e420f40bb7843df
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1dac342ead487c50d14f3b2fa39e60314d13b0047b77fe6df8f32dee29b09422
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998416"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995181"
 ---
 # <a name="sales-estimates-and-projects"></a>Progetti e stime di vendita
 
@@ -35,11 +35,11 @@ Durante il processo di vendita, puoi creare stime di vendita collegando un proge
 
 Quando crei una riga di offerta basata su progetto, puoi creare un nuovo progetto o associare un progetto esistente nella pagina **Riga di offerta**. 
 
-> ![Modulo Riga di offerta](media/project-8.png)
+> ![Modulo Riga di offerta.](media/project-8.png)
  
 Quando crei un nuovo progetto a partire dai dettagli della riga di offerta, puoi utilizzare i modelli di progetto. I modelli di progetto sono progetti che rappresentano i piani di progetto standard e stime finanziarie tipici di un'organizzazione. Possono anche rappresentare copie di stime e piani di progetto di progetti passati.
 
-> ![Dettagli riga di offerta](media/project-9.png)
+> ![Dettagli riga di offerta.](media/project-9.png)
   
 Quando crei il progetto a partire dall'offerta, questo viene automaticamente associato alla riga di offerta.
 

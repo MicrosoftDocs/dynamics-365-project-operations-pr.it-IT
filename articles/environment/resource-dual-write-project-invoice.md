@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7407c98aad79806dcbaf25e81ff3e08397b41ffe
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 37549080d76e3bffd7cb002aee8e3c46b9eeb18e3cec915cd971881b69747534
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5996571"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993246"
 ---
 # <a name="project-invoice-integration"></a>Integrazione di fatture di progetto
 
@@ -20,7 +20,7 @@ Questo argomento fornisce informazioni sull'integrazione a doppia scrittura di P
 
 In Project Operations, il responsabile di progetto gestisce il backlog di fatturazione del progetto e crea una fattura proforma per il cliente in Microsoft Dataverse. In base a questa fattura proforma, l'addetto alla contabilità clienti o il contabile del progetto crea una fattura per il cliente. L'integrazione della doppia scrittura garantisce che i dettagli della fattura proforma siano sincronizzati con le app Finance and Operations. Dopo che la fattura destinata al cliente è stata registrata, il sistema aggiorna i valori effettivi del progetto rilevanti in Dataverse con il dettaglio contabile. Il grafico seguente fornisce una panoramica concettuale di alto livello di questa integrazione.
 
-   ![Integrazione di fatture di progetto](./media/DW5Invoicing.png)
+   ![Integrazione di fatture di progetto.](./media/DW5Invoicing.png)
 
 Dopo che il responsabile di progetto conferma la fattura proforma in Dataverse, le informazioni sull'intestazione della fattura proforma vengono sincronizzate con le app Finance and Operations utilizzando la mappa della tabella a doppia scrittura **Proposta di fattura di progetto V2 (invoices)**. È un'integrazione unidirezionale da Dataverse alle app Finance and Operations. La creazione o l'eliminazione di proposte di fatturazione di progetto direttamente nelle app Finance and Operations non è supportata.
 

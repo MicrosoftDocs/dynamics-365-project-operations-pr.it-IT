@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3be18adfa1d346bdabae7e89375ca2c5a2dbda95
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: dccb01e5d1c032039cac980061d93b443ef0f9e1296cdd2d8efd7b1bf7338ce0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009621"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005081"
 ---
 # <a name="organizational-units"></a>Unità organizzative 
 
@@ -53,7 +53,7 @@ L'unità organizzativa svolge due ruoli in PSA:
 - **Unità contratto** - L'unità organizzativa che rappresenta la divisione o gruppo dell'azienda che è il responsabile principale dell'acquisizione della vendita e della gestione della fornitura del lavoro e dei servizi al cliente. L'unità contratto è identificata dal campo **Unità contratto** nella sezione dell'intestazione delle pagine **Opportunità**, **Offerta**, **Contratto di progetto** e **Progetto**.
 - **Unità gestione risorse** - L'unità organizzativa a cui una risorsa appartiene o è assegnata. Questa unità organizzativa può fornire le proprie risorse per alcuni ruoli nelle descrizioni dei lavori e nei progetti di proprietà dell'unità contratto.
 
-> ![Unità contratto e unità di gestione risorse](media/advanced-1.png)
+> ![Unità contratto e unità di gestione risorse.](media/advanced-1.png)
 
 ## <a name="organizational-unit-faqs"></a>Domande frequenti sulle unità organizzative
 

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bc58c805bfe1a3087600b8d4a6be2d1bcdd18188
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 95f064e0f83d2052ac4ae9673b4fcdcd16a2574246d3320e1ed3798cd6ff062b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997921"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007016"
 ---
 # <a name="soft-book-requirements"></a>Prenotare provvisoriamente requisiti
 
@@ -29,30 +29,30 @@ ms.locfileid: "5997921"
 
 Un requisito di risorsa può essere prenotato definitivamente. Una prenotazione definitiva crea una proposta che consuma la capacità di una risorsa. La proposta viene quindi rispedita al richiedente per l'approvazione. Una prenotazione provvisoria aggiunge una risorsa a un team di progetto e ha uno stato differente nella scheda di pianificazione, ma non consuma la capacità della risorsa. Per prenotare provvisoriamente una risorsa nella scheda di pianificazione, imposta il campo **Stato di prenotazione** su **Provvisoria**.
 
-![Stato di prenotazione impostato su Provvisoria](media/Resource-Management-image77.png)
+![Stato di prenotazione impostato su Provvisoria.](media/Resource-Management-image77.png)
 
 Quando la scheda **Team** è visualizzata nella vista **Membri del team con nome**, la risorsa è visualizzata in quella scheda. Le ore prenotate provvisoriamente sono indicate nella colonna **Ore prenotate provvisoriamente**.
 
-![Ore prenotate provvisoriamente nella vista Membri del team con nome](media/Resource-Management-image78.png)
+![Ore prenotate provvisoriamente nella vista Membri del team con nome.](media/Resource-Management-image78.png)
 
 I membri del team prenotati provvisoriamente possono essere assegnati ad attività.
 
-![Membro del team prenotato provvisoriamente assegnato a un'attività](media/Resource-Management-image79.png)
+![Membro del team prenotato provvisoriamente assegnato a un'attività.](media/Resource-Management-image79.png)
 
 Nella scheda **Riconciliazione**, le prenotazioni di una risorsa prenotata provvisoriamente non sono visualizzate in quanto la scheda **Riconciliazione** considera solo le prenotazioni definitive.
 
-![Risorsa prenotata provvisoriamente senza prenotazioni nella scheda Riconciliazione](media/Resource-Management-image80.png)
+![Risorsa prenotata provvisoriamente senza prenotazioni nella scheda Riconciliazione.](media/Resource-Management-image80.png)
 
 > [!NOTE]
 > Non è possibile prenotare provvisoriamente una risorsa a partire da un requisito generato da un membro del team generico.
 
 Nella scheda di pianificazione, le prenotazioni provvisorie per una risorsa sono indicate con un colore differente.
 
-![Prenotazioni provvisorie nella scheda di pianificazione](media/Resource-Management-image81.png)
+![Prenotazioni provvisorie nella scheda di pianificazione.](media/Resource-Management-image81.png)
 
 Per convertire una prenotazione provvisoria in una definitiva, nella scheda di pianificazione fai clic con il pulsante destro del mouse sulla prenotazione provvisoria e quindi scegli **Cambia stato** \> **Prenota definitivamente** \> **Definitiva**.
 
-![Modificare lo stato della prenotazione in Definitiva](media/Resource-Management-image82.png)
+![Modificare lo stato della prenotazione in Definitiva.](media/Resource-Management-image82.png)
 
 La prenotazione e lo stato vengono modificati nella scheda di pianificazione. Poiché lo stato della prenotazione è ora **Definitiva**, la risorsa è visualizzata come prenotata e le relative capacità e disponibilità vengono rettificate.
 
@@ -60,7 +60,7 @@ Puoi utilizzare lo stesso metodo per annullare una prenotazione definitiva o pro
 
 Per convertire una risorsa prenotata provvisoriamente in una prenotata definitivamente nella scheda **Team** del progetto, seleziona la risorsa e quindi **Conferma**.
 
-![Comando Conferma](media/Resource-Management-image83.png)
+![Comando Conferma.](media/Resource-Management-image83.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

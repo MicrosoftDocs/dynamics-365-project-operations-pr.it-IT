@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: db63413456e4b91d308af9c1103000d5cdc693f7
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 85b6c07464e919e363f28d8bc62115e8fb4c72ea6631269b98fd00f324a01cba
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999901"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988116"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Sincronizzare i valori effettivi del progetto direttamente da Project Service Automation con il giornale di registrazione dell'integrazione del progetto per la registrazione in Finance and Operations
 
@@ -42,7 +42,7 @@ La soluzione di integrazione da Project Service Automation a Finance utilizza la
 
 La figura seguente mostra come i dati vengono sincronizzati tra Project Service Automation e Finance.
 
-[![Flusso di dati per l'integrazione di Project Service Automation con Finance and Operations](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Flusso di dati per l'integrazione di Project Service Automation con Finance and Operations.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>Valori effettivi di progetto da Project Service Automation
 
@@ -93,9 +93,9 @@ Per aggiornare la colonna condizionale inserita nel modello, fai clic sula frecc
 
 Le figure seguenti mostrano un esempio del mapping delle attività del modello in Integrazione dati. Il mapping mostra le informazioni sui campi che verranno sincronizzate da Project Service Automation a Finance.
 
-[![Mappatura dei modelli - Valori effettivi](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
+[![Mappatura dei modelli - Valori effettivi.](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
 
-[![Mappatura dei modelli - Connessioni di transazione](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
+[![Mappatura dei modelli - Connessioni di transazione.](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
 
 ## <a name="import-from-staging-table-after-integration-from-project-service-automation"></a>Importazione dalla tabella di staging dopo l'integrazione da Project Service Automation
 
@@ -135,9 +135,9 @@ Nel modello di aggiornamento dei valori effetti di progetto, è necessario utili
 
 La figura seguente mostra esempi di mapping delle attività del modello in Integrazione dati. Il mapping mostra le informazioni sui campi che verranno sincronizzate da Finance a Project Service Automation.
 
-[![Mappatura dei modelli - Aggiornamento dei valori effettivi](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
+[![Mappatura dei modelli - Aggiornamento dei valori effettivi.](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
-[![Mappatura dei modelli - Aggiornamento della transazione](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+[![Mappatura dei modelli - Aggiornamento della transazione.](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

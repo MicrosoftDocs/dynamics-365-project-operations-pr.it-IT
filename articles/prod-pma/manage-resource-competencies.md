@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 21721a9b0af820df10c4fa965d000e85098e0dea
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: f93fbda0ad6435c627eb7e580f92fd90481034cae2236b9a636195883470ca5c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999046"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007421"
 ---
 # <a name="manage-resource-competencies"></a>Gestire le competenze delle risorse
 
@@ -29,7 +29,7 @@ ms.locfileid: "5999046"
 
 Le competenze delle risorse sono una parte essenziale della gestione delle risorse. Le competenze possono essere utilizzate come base per determinare le risorse che hanno il corretto equilibrio tra competenze, istruzione, certificazione ed esperienza di progetto. È consigliabile configurare queste informazioni per ciascuna risorsa e aggiornarle regolarmente. In questo modo, puoi massimizzare le capacità quando le competenze specifiche delle risorse vengono abbinate durante l'assegnazione delle risorse del progetto.
 
-[![Esempi di competenze, certificazioni, istruzione ed esperienza di progetto](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
+[![Esempi di competenze, certificazioni, istruzione ed esperienza di progetto.](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
 
 Le seguenti procedure spiegano come configurare alcune delle competenze per una risorsa.
 

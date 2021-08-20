@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ae7f22b9cb092e956d0f1eaf1f1997c8e97392f4
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 4dea80d8e4645675d3e89e846532ca7c0f292faa328c45938941c50dc15486fc
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012321"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995271"
 ---
 # <a name="create-custom-solutions-for-pricing-dimensions"></a>Creare soluzioni personalizzate per le dimensioni di determinazione dei prezzi
 
@@ -32,7 +32,7 @@ ms.locfileid: "6012321"
 1. Seleziona **Impostazioni** > **Soluzioni** e quindi seleziona **Nuovo**. 
 2. Assegna un nome alla soluzione, **dimensioni di determinazione dei prezzi di \<your organization name>**, immetti le informazioni richieste e quindi seleziona **Salva**.
 
-> ![Creare una soluzione personalizzata per le dimensioni di determinazione dei prezzi](media/Creation-of-custom-pricing-dimension-solution.PNG)
+> ![Creare una soluzione personalizzata per le dimensioni di determinazione dei prezzi.](media/Creation-of-custom-pricing-dimension-solution.PNG)
   
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>Aggiungere tutte le entità necessarie e i componenti correlati alla soluzione per le dimensioni di determinazione dei prezzi
 Devi aggiungere le seguenti entità di Project Service alla soluzione per la determinazione dei prezzi. Completa i passaggi in questa procedura per apportare alcune importanti modifiche allo schema nella soluzione per la determinazione dei prezzi di modo che le entità siano consapevoli delle nuove dimensioni di determinazione dei prezzi.
@@ -54,9 +54,9 @@ Devi aggiungere le seguenti entità di Project Service alla soluzione per la det
 - Prezzo ruolo 
 - Inserimento ore 
 
-> ![Aggiungere entità esistenti alla soluzione per le dimensioni di determinazione dei prezzi](media/Existing-entities-to-PD-solution.png)
+> ![Aggiungere entità esistenti alla soluzione per le dimensioni di determinazione dei prezzi.](media/Existing-entities-to-PD-solution.png)
 
-> ![Selezionare componenti di soluzione](media/Dimension-Components.png)
+> ![Seleziona componenti soluzione.](media/Dimension-Components.png)
 
 > [!NOTE]
 > Assicurati di includere tutti i moduli e tutte le viste per ogni entità selezionata.

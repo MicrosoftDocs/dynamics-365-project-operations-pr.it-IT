@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 7b7c1d1b3363c0d158fcf6fda532822354b852a3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 3d9f0cb2a054941b07809b61ca14a3145c6d6d06acd6ca40255d5ec9de92be22
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6004536"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994506"
 ---
 # <a name="turning-off-a-pricing-dimension"></a>Disattivare una dimensione di determinazione dei prezzi
 
@@ -32,7 +32,7 @@ Per disattivare la dimensione di determinazione dei prezzi, indipendentemente da
 
 Tuttavia, quando esegui questa operazione, potresti ricevere il messaggio di errore **La dimensione di determinazione dei prezzi non può essere aggiornata o eliminata se sono presenti record di prezzo associati.**
 
-![Errore processo aziendale probabile quando si disattiva una dimensione di determinazione dei prezzi](media/Business-Process-Error.png)
+![Errore processo aziendale probabile quando si disattiva una dimensione di determinazione dei prezzi.](media/Business-Process-Error.png)
 
 Questo messaggio di errore indica che vi sono record di prezzi impostati precedentemente per la dimensione che si sta disattivando. Tutti i record **Prezzo ruolo** e **Ricarico prezzo ruolo** che fanno riferimento a una dimensione devono essere eliminati prima di impostare l'applicabilità della dimensione su **No**. Tale regola si applica alle dimensioni di determinazione dei prezzi predefinite e a quelle personalizzate eventualmente create. Il motivo di questa convalida è dovuto al fatto che ogni record **Prezzo ruolo** deve avere una combinazione univoca di dimensioni. Ad esempio, in un listino denominato **Tasso di costo USA 2018**, si hanno le seguenti righe **Prezzo ruolo**. 
 

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 976650cc71b0cdb75d5ce2d7532cd78bd91d3670
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 73509fda4a715a4131781645736e49cfb02115da2c3650c5a966e35360e7703f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008676"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990501"
 ---
 # <a name="skills-and-proficiency-models"></a>Competenze e modelli del livello di preparazione
 
@@ -33,7 +33,7 @@ Le competenze sono caratteristiche delle risorse condivise tra Dynamics 365 Proj
 
 Per gestire l'archivio delle competenze in Project Service Automation, seleziona **Risorse** . \> **Competenze risorse** 
 
-> ![Competenze delle risorse](media/Resource-Management-image84.png)
+> ![Competenze di risorse.](media/Resource-Management-image84.png)
 
 ## <a name="use-proficiency-models-to-rate-resources"></a>Utilizzare modelli del livello di preparazione per valutare le risorse
 
@@ -43,7 +43,7 @@ Le competenze delle risorse vengono valutate mediante modelli del livello di pre
 2. Nel nuovo modello di valutazione, specificare il valore di valutazione minimo, quello massimo e l'entità che viene valutata.
 3. Nella griglia secondaria **Valori di valutazione**, puoi definire diversi valori di valutazione, da quello minimo a quello massimo.
 
-> ![Valutazioni minime e massime definite](media/Resource-Management-image85.png)
+> ![Valutazioni minime e massime definite.](media/Resource-Management-image85.png)
 
 Questi valori di valutazione sono visualizzati nei filtri **Requisiti di risorse**, **Scheda di pianificazione** e **Assistente di pianificazione**.
 

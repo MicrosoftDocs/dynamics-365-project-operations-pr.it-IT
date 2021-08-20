@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b24a20d47eefa43b2e4e184a377decdb280d436d
-ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
+ms.openlocfilehash: c8bc389c83eaf2a7720ef3fa969c677eed11e7959199b5f0083df5bf3b43ea43
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025779"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003821"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Versioni della mappa a doppia scrittura di Project Operations
 
@@ -30,9 +30,9 @@ Le mappe seguenti sono prerequisiti obbligatori per la soluzione Project Operati
 | Clienti V3 (accounts) | Non obbligatorio per il provisioning. |
 | Fornitori V2 (msdyn_vendors) | Non obbligatorio per il provisioning. |
 
-1. Dall'elenco dei mapping, seleziona la mappa Libro mastro **(msdyn\_ledgers)** con tutti i prerequisiti e seleziona la casella di controllo **Sincronizzazione iniziale**. Nel campo **Master per la sincronizzazione iniziale** seleziona **App Finance and Operations** sia per la mappa del libro mastro che per tutte le mappe obbligatorie. Seleziona **Esegui**.
+1. Dall'elenco dei mapping, seleziona la mappa Libro mastro **(msdyn\_ledgers)** con tutti i prerequisiti e seleziona la casella di controllo **Sincronizzazione iniziale**. Nel campo **Master per la sincronizzazione iniziale** seleziona **App Finance and Operations** sia per la mappa del libro mastro che per tutte le mappe obbligatorie. Selezionare **Esegui**.
 
-![Sincronizzazione dei mapping del libro mastro](media/DW6.png)
+![Sincronizzazione dei mapping del libro mastro.](media/DW6.png)
 
 2. Segui gli stessi passaggi per tutte le mappe della tabella rimanenti elencate nella tabella sopra. Non selezionare la casella di controllo **Sincronizzazione iniziale** durante l'esecuzione di tali mappe.
 
@@ -65,7 +65,7 @@ Completa i seguenti passaggi per eseguire le mappe elencate.
 
 1. Abilita i ruoli delle risorse di progetto per la mappa della tabella **Tutte le società (bookableresourcecategories)** poiché questa mappa richiede la sincronizzazione iniziale. Nel campo **Master per la sincronizzazione iniziale** seleziona **Common Data Service**. 
 
- ![Sincronizzazione della mappa della tabella dei ruoli di risorse](media/6ResourceInitialSync.jpg)
+ ![Sincronizzazione della mappa della tabella dei ruoli di risorse.](media/6ResourceInitialSync.jpg)
 
  Attendi fino a quando lo stato della mappa è **In esecuzione** prima di passare alla fase successiva.
 

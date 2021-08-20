@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e0dc911bb0ca72af547262a5716ef1091ea81c81
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 58259c05939cfe870ce5e36b4a0221cd93b8e8d2b4be582efc9167e82579699e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015066"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985506"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Fatturazione in Project Service Automation
 
@@ -50,7 +50,7 @@ Segui questa procedura per creare una fattura per uno specifico contratto di pro
 
 - Nella pagina elenco **Contratti di progetto**, apri un contratto di progetto e quindi seleziona **Crea fattura**.
 
-    ![Creare fatture di progetto per uno specifico contratto di progetto](media/CreateProjectInvoicesOneByOne.png)
+    ![Creare fatture di progetto per uno specifico contratto di progetto.](media/CreateProjectInvoicesOneByOne.png)
 
     Una fattura viene generata per tutte le transazioni del contratto di progetto selezionato il cui stato è **Pronto per la fatturazione**. Queste transazioni includono voci di contratto basate su prodotto, tempo, spese e passaggi fondamentali.
 
@@ -58,7 +58,7 @@ Segui questa procedura per creare fatture in blocco.
 
 1. Nella pagina elenco **Contratti di progetto**, seleziona uno o più contratti di progetto per i quali devi creare una fattura per e quindi seleziona **Crea fatture di progetto**.
 
-    ![Creare fatture di progetto in blocco](media/CreateProjectInvoicesBulk.png)
+    ![Creare fatture di progetto in blocco.](media/CreateProjectInvoicesBulk.png)
 
     Un messaggio di avviso informa che la creazione delle fatture può richiedere un certo tempo. Il processo viene anche visualizzato.
 

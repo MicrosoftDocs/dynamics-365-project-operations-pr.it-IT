@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bbd6e8c711f6c15221143514efdd43a388ef4e7f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5e4516d13a30ddfb5763fe600b0c1fc675ba6cf980730912e1795cc3d6f4991f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998056"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998241"
 ---
 # <a name="use-the-schedule-board-to-book-project-resources"></a>Utilizzare la scheda di pianificazione per prenotare risorse di progetto
 
@@ -34,23 +34,23 @@ Prima di eseguire prenotazioni nella scheda di pianificazione, è necessario cre
 1. Se il riquadro **Requisiti prenotazione** nella parte inferiore della pagina è compresso, seleziona il controllo dell'espansore per espanderlo.
 2. Nel riquadro **Requisiti prenotazione**, nella scheda **Progetto**, seleziona il requisito da prenotare.
 
-    ![Requisito selezionato nella scheda Progetto](media/Resource-Management-image73.png)
+    ![Requisito selezionato nella scheda Progetto.](media/Resource-Management-image73.png)
 
 3. Seleziona **Trova disponibilità** per filtrare le risorse prenotabili e visualizzare le risorse disponibili. 
 4. Seleziona una o più risorse nella scheda di pianificazione. 
 5. Nel riquadro **Crea prenotazione risorsa** sul lato destro della pagina, immetti le informazioni di prenotazione e quindi seleziona **Prenota ed esci**.
 
-    ![Riquadro Crea prenotazione risorsa per la risorsa prenotabile selezionata](media/Resource-Management-image74.png)
+    ![Riquadro Crea prenotazione risorsa per la risorsa prenotabile selezionata.](media/Resource-Management-image74.png)
 
 6. Quando il requisito è selezionato nel riquadro **Crea prenotazione risorsa**, seleziona una o più celle di una risorsa per creare la prenotazione.
 
-    ![Molteplici celle selezionate per una risorsa](media/Resource-Management-image75.png)
+    ![Molteplici celle selezionate per una risorsa.](media/Resource-Management-image75.png)
 
 7. Seleziona **Prenota**.
 
 Il requisito viene soddisfatto utilizzando la risorsa selezionata. Nel riquadro **Requisiti prenotazione**, nota che il requisito è stato aggiornato e che la risorsa è visualizzata come prenotata nel progetto.
 
-![Risorsa prenotata nel progetto](media/Resource-Management-image76.png)
+![Risorsa prenotata nel progetto.](media/Resource-Management-image76.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

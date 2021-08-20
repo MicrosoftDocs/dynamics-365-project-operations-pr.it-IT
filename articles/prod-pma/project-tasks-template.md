@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 16cd38f2f190414d7be9c93e8ab90d55006f47e1
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 45846d7a6dd7b84fe28f0a78ccc103679236917ea506180c5b383fd2828624eb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009981"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992796"
 ---
 # <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Sincronizzare le attività di progetto direttamente da Project Service Automation a Finance and Operations
 
@@ -39,7 +39,7 @@ La soluzione di integrazione da Project Service Automation a Finance utilizza la
 
 La figura seguente mostra come i dati vengono sincronizzati tra Project Service Automation e Finance.
 
-[![Flusso di dati per l'integrazione di Project Service Automation con Finance](./media/ProjectTasksFlow.png)](./media/ProjectTasksFlow.png)
+[![Flusso di dati per l'integrazione di Project Service Automation con Finance.](./media/ProjectTasksFlow.png)](./media/ProjectTasksFlow.png)
 
 ## <a name="template-and-task"></a>Modello e attività
 
@@ -80,7 +80,7 @@ Se devi utilizzare Power Query, segui queste linee guida:
 
 La figura seguente mostra un esempio dei mapping delle attività del modello in Integrazione dati. Il mapping mostra le informazioni sui campi che verranno sincronizzate da Project Service Automation a Finance.
 
-[![Mapping dei modelli](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
+[![Mapping dei modelli.](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
 ms.custom: intro-internal
-ms.openlocfilehash: 0eab33c8640f665555cf5ec5b0f188e5af65a493
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 804d42f7e8bfd103b9143dc0f5c7ddecdee9e66e6072c3e7bf76b2a8c549cf55
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369021"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003776"
 ---
 # <a name="invoicing-process-overview"></a>Panoramica del processo di fatturazione
 
@@ -20,7 +20,7 @@ _**Si applica a:** Project Operations per scenari basati su risorse/materiali no
 
 Project Operations per scenari basati su risorse/non stoccate offre funzionalità complete su misura per soddisfare le esigenze sia del Project manager che dell'addetto alla contabilità clienti/ contabile di progetto. Per il processo di fatturazione, il responsabile di progetto gestisce il backlog di fatturazione del progetto e l'addetto alla contabilità clienti/contabile di progetto crea un documento fattura conforme e accurato rivolto al cliente.
 
-![Diagramma del flusso di fatturazione](./media/invoicing-flow.png)
+![Diagramma del flusso di fatturazione.](./media/invoicing-flow.png)
 
 La riga del contratto di progetto definisce il metodo di fatturazione per le transazioni di progetto associate. Quando il responsabile di progetto approva le transazioni di tempo e spese, il sistema registra le transazioni nell'entità **Valori effettivi di progetto** e invia le informazioni al modulo **Gestione progetti e contabilità** in Dynamics 365 Finance. Il contabile del progetto quindi rivede e registra i record utilizzando il [giornale Integrazione Project Operations](../project-accounting/project-operations-integration-journal.md). Questo giornale di registrazione include importanti dettagli contabili per i valori effettivi del progetto, come fatturazione, fascia IVA, fascia IVA articoli di fatturazione e dimensioni finanziarie.
 

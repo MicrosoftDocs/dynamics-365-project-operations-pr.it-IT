@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 37c7b15daa75cc3ba53ff6a3bcc0ab54717aa62d
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 375850b893b7afead8371824606b422d3f36c36de4da908fdf76666bd1b415ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008811"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002426"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Utilizzo del modello di dati di Project Service Automation
 
@@ -53,7 +53,7 @@ PSA aggiunge inoltre nuove entità correlate all'offerta al modello di dati di D
 
 Altre entità aggiunte da PSA per le offerte sono **Listino prezzi di progetto riga di offerta**, **Categoria di risorsa riga di offerta** e **Categoria di transazione riga di offerta**.
 
-![Diagramma che mostra l'offerta, la riga di offerta e le relazioni del progetto](media/PS-Reporting-image2.png "Diagramma che mostra l'offerta, la riga di offerta e le relazioni del progetto")
+![Diagramma che mostra l'offerta, la riga di offerta e le relazioni del progetto.](media/PS-Reporting-image2.png "Diagramma che mostra l'offerta, la riga di offerta e le relazioni del progetto")
 
 ## <a name="reporting-on-project-contracts"></a>Creazione di report su contratti di progetto
 
@@ -69,7 +69,7 @@ PSA aggiunge inoltre nuove entità progettate per i contratti di progetto. Di se
 
 Altre entità aggiunte da PSA per i contratti sono **Listino prezzi di progetto voce di contratto di progetto**, **Categoria di risorsa voce di contratto di progetto** e **Categoria di transazione voce di contratto di progetto**.
 
-![Diagramma che mostra l'ordine, la riga dell'ordine e le relazioni del progetto](media/PS-Reporting-image3.png "Diagramma che mostra l'ordine, la riga dell'ordine e le relazioni del progetto")
+![Diagramma che mostra l'ordine, la riga dell'ordine e le relazioni del progetto.](media/PS-Reporting-image3.png "Diagramma che mostra l'ordine, la riga dell'ordine e le relazioni del progetto")
 
 ## <a name="reporting-on-projects"></a>Creazione di report su progetti
 
@@ -81,7 +81,7 @@ L'entità **Progetti** e le relative entità correlate sono esclusive di PSA. **
 - **Requisito di risorsa** - Questa entità contiene i requisiti di tutti i membri del team di risorse generiche.
 - **Stima** e **Riga di stima** - Queste entità hanno una relazione intestazione/riga e contengono stime di spesa per il progetto. Le stime di attività si trovano nell'entità **Stima basata su risorsa**.
 
-![Diagramma che mostra il requisito risorsa e le relazioni del progetto](media/PS-Reporting-image4.png "Diagramma che mostra il requisito risorsa e le relazioni del progetto")
+![Diagramma che mostra il requisito risorsa e le relazioni del progetto.](media/PS-Reporting-image4.png "Diagramma che mostra il requisito risorsa e le relazioni del progetto")
 
 ## <a name="reporting-on-resources"></a>Creazione di report su risorse
 
@@ -92,7 +92,7 @@ Le risorse di progetto utilizzano le entità **Risorsa prenotabile** di Universa
 - **Categoria di risorsa prenotabile** - Questa entità rappresenta il ruolo della risorsa prenotabile.
 - **Prenotazioni risorse prenotabili** - Questa entità rappresenta il tempo prenotato nei progetti per la risorsa. Ogni prenotazione include un'entità intestazione e entità riga e ogni riga ha uno stato che rappresenta lo stato della prenotazione.
 
-![Diagramma che mostra le relazioni delle caratteristiche delle risorse prenotabili](media/PS-Reporting-image5.png "Diagramma che mostra le relazioni delle caratteristiche delle risorse prenotabili")
+![Diagramma che mostra le relazioni delle caratteristiche delle risorse prenotabili.](media/PS-Reporting-image5.png "Diagramma che mostra le relazioni delle caratteristiche delle risorse prenotabili")
 
 ## <a name="reporting-on-actual-transactions"></a>Creazione di report su transazioni effettive
 
@@ -120,7 +120,7 @@ Quando utilizzi l'entità **Valore effettivo**, è importante comprendere quali 
 
 L'entità **Origine transazione** registra l'origine del record **Valore effettivo** e l'entità entità **Connessione della transazione** registra i record correlati per il record **Valore effettivo**. Inoltre, il record **Valore effettivo** contiene riferimenti al progetto, il contratto di progetto (ordine), la risorsa prenotabile e il cliente.
 
-![Diagramma che mostra la connessione della transazione, l'origine e le relazioni effettive](media/PS-Reporting-image6.png "Diagramma che mostra la connessione della transazione, l'origine e le relazioni effettive")
+![Diagramma che mostra la connessione della transazione, l'origine e le relazioni effettive.](media/PS-Reporting-image6.png "Diagramma che mostra la connessione della transazione, l'origine e le relazioni effettive")
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

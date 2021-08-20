@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 41c57690fecbc3bee2a1eb5d26f8a6aa56d8bea9
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 40a6a4173cb0e4d7ea5bcf24c8954fe9d7e079d1e9ecf4aac252b5133f12d3ff
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000531"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003641"
 ---
 # <a name="create-custom-fields-and-entities-as-pricing-dimensions"></a>Creare campi ed entità personalizzati come dimensioni di determinazione dei prezzi
 
@@ -44,7 +44,7 @@ Per creare dimensioni basate su entità, segui questi passaggi:
 3. Seleziona **Nuovo** per creare una nuova entità denominata **Titolo standard**. 
 4. Immetti le altre informazioni e quindi seleziona **Salva**.
 
-> ![Definizione dell'entità Titolo standard](media/Standard-Title-entity-definition.png)
+> ![Definizione dell'entità Titolo standard.](media/Standard-Title-entity-definition.png)
 
 ### <a name="option-set-based-dimensions"></a>Dimensioni basate su set di opzioni 
 Puoi creare due dimensioni basate su set di opzioni. 
@@ -54,11 +54,11 @@ Puoi creare due dimensioni basate su set di opzioni.
 
 Il grafico seguente fornisce una visualizzazione della dimensione **Ubicazione lavoro risorsa**. 
 
-> ![Set di opzioni basato sulla dimensione di determinazione dei prezzi denominata Ubicazione lavoro risorsa](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![Set di opzioni basato sulla dimensione di determinazione dei prezzi denominata Ubicazione lavoro risorsa.](media/Option-set-PD-called-Resource-Work-Location.png)
 
 Il grafico seguente fornisce una visualizzazione della dimensione **Ore lavoro risorsa**. 
 
-> ![Set di opzioni basato sulla dimensione di determinazione dei prezzi denominata Ore lavorative risorsa](media/Option-set-PD-called-Resource-Work-Hours.png)
+> ![Set di opzioni basato sulla dimensione di determinazione dei prezzi denominata Ore lavorative risorsa.](media/Option-set-PD-called-Resource-Work-Hours.png)
 
 1. Vai a **Impostazioni** > **Soluzioni** e fai doppio clic su **dimensioni di determinazione dei prezzi di \<your organization name>**. 
 2. In Esplora soluzioni, nel riquadro di spostamento a sinistra, seleziona **Set di opzioni**. 
@@ -74,7 +74,7 @@ Puoi creare dati per le dimensioni basate su entità manualmente oppure utilizza
 4. Chiudi la pagina. 
 5. Ripeti i passaggi da 1 a 3 per creare un altro titolo standard, ovvero "Sistemista esperto".
 
-> ![Dati di esempio per l'entità Titolo standard](media/ST-data.png)
+> ![Dati di esempio per l'entità Titolo standard.](media/ST-data.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 48f313b15f788645b88a4d878e3bece419d63126
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fe51af8adb7c3831a57494b8359def2a0176b552efe16feb53a2a265f5ffcb0c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009171"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002561"
 ---
 # <a name="project-costs-and-revenue"></a>Costi e ricavi di progetto
 
@@ -31,7 +31,7 @@ ms.locfileid: "6009171"
 
 Le stime di progetto forniscono una vista finanziaria del il lavoro stimato e pianificato nella pianificazione di progetto. La scheda **Stime** nella pagina **Progetti** mostra l'impatto di ricavi e costi del lavoro che si pianifica. Fornisce inoltre informazioni su molte dimensioni predefinite. 
 
-> ![Scheda Stime](media/project-5.png)
+> ![Scheda Stime.](media/project-5.png)
 
 ## <a name="cost-and-sales-values-of-the-project"></a>Valori di costi e vendite del progetto
 
@@ -66,13 +66,13 @@ Se il sistema non trova un prezzo per il ruolo, il prezzo di vendita nella riga 
 
 La scheda **Stime** include una vista griglia che mostra le righe di stima. La griglia include colonne per unità, prezzo di costo totale e prezzo di vendita totale, come illustrato nella figura seguente. 
 
-> ![Vista Griglia nella scheda Stime](media/project-6.png)
+> ![Vista Griglia nella scheda Stime.](media/project-6.png)
 
 ## <a name="time-phased-view-of-project-estimates"></a>Visualizzazione su scala cronologica delle stime di progetto
 
 La vista su scala cronologica delle stime di progetto visualizza i dati delle stime della vista griglia nella sequenza temporale, secondo una scala temporale che hai selezionato. Per impostazione predefinita, i dati delle stime sono basati sulla dimensione **Ruolo**.
 
-> ![Vista su scala cronologica delle stime di progetto](media/project-7.png)
+> ![Vista su scala cronologica delle stime di progetto.](media/project-7.png)
 
 ## <a name="allocating-estimated-effort-based-on-the-task-mode"></a>Allocare il lavoro richiesto stimato in base alla modalità attività
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ec952021f9da4d83520d29d68d040675f7933df7
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c84015c46f0a8c9d3d48be1b995d4bdd7fd8ee25b240f455bbe2031f42adc0f5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997606"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008906"
 ---
 # <a name="set-up-roles-on-work-breakdown-structure-templates"></a>Impostare i ruoli sui modelli di struttura di suddivisione del lavoro
 
@@ -89,7 +89,7 @@ Sono state aggiunte ulteriori opzioni nella struttura di suddivisione del lavoro
 
 4. Imposta le date e lo sforzo (ore), come mostrato nell'illustrazione seguente.
 
-    [![Impostazione delle date e dell'impegno](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
+    [![Impostazione delle date e dell'impegno.](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
 
 5. Seleziona la riga attività **Avvio**, quindi, nel campo **Ruolo**, seleziona **Senior Project Manager**.
 6. Seleziona **Pubblica**.

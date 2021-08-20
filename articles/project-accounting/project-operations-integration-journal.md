@@ -6,12 +6,12 @@ ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f4428bac8e82bdfc848c199b0e294486b9fde82e
-ms.sourcegitcommit: 639ec8a41fda15dedfd6918702d33ea406999ba6
+ms.openlocfilehash: c5cc3254c52750b35be2c66137b6c57bbd9acbfbc89dedc6559059a89c8e2393
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6304261"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987936"
 ---
 # <a name="integration-journal-in-project-operations"></a>Giornale di registrazione integrazione in Project Operations
 
@@ -19,7 +19,7 @@ _**Si applica a:** Project Operations per scenari basati su risorse/materiali no
 
 Le voci di tempi e spese creano transazioni di **valori effettivi** che rappresentano la visione operativa del lavoro completato rispetto a un progetto. Dynamics 365 Project Operations fornisce ai contabili uno strumento per rivedere le transazioni e modificare gli attributi di contabilità secondo necessità. Dopo aver completato la revisione e le rettifiche, le transazioni vengono registrate nella contabilità secondaria del progetto e nella contabilità generale. Un contabile può eseguire queste attività utilizzando il giornale di registrazione **Integrazione Project Operations** (**Dynamics 365 Finance** > **Gestione progetti e contabilità** > **Giornali di registrazione** > **Integrazione Project Operations**).
 
-![Flusso del giornale di registrazione integrazione](./media/IntegrationJournal.png)
+![Flusso del giornale di registrazione integrazione.](./media/IntegrationJournal.png)
 
 ### <a name="create-records-in-the-project-operations-integration-journal"></a>Creare record nel giornale di registrazione integrazione Project Operations
 

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 33c27acc6747c94d76892f41031adc46150da0e0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 28555f29e65c11255c8966f3d4b900512aa01c30fef0a9cef3a3794edaf92a0b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011556"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987531"
 ---
 # <a name="business-transactions"></a>Transazioni commerciali
 
@@ -88,7 +88,7 @@ Con l'utilizzo combinato delle entità Origine transazione e Connessione della t
 
 Nell'esempio seguente viene illustrata l'elaborazione tipica degli inserimenti ore in un ciclo di vita di progetto di PSA.
 
-> ![Elaborare inserimenti ore in un ciclo di vita di Project Service](media/basic-guide-17.png)
+> ![Elaborare inserimenti ore in un ciclo di vita di Project Service.](media/basic-guide-17.png)
  
 1. L'invio di un inserimento ore comporta la creazione di due righe di giornale di registrazione: una per il costo e una per le vendite non fatturate.
 2. L'eventuale approvazione dell'inserimento ore comporta la creazione di due valori effettivi: uno per il costo e uno per le vendite non fatturate.

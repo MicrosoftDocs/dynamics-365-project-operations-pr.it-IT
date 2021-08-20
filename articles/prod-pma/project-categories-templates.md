@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 2816d363dbfe6ef2d98a584b214f72d9b30c49bb
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 52c79f8b641d4b2df3b30964331633f2487402f8f8d229b540f9544c0f848557
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999856"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001121"
 ---
 # <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Sincronizzare le categorie di spesa del progetto tra Finance and Operations e Project Service Automation
 
@@ -56,7 +56,7 @@ Se le categorie di spesa del progetto vengono gestite in Project Service Automat
 
 La figura seguente mostra come i dati vengono sincronizzati tra Project Service Automation e Finance.
 
-[![Flusso di dati per l'integrazione di Project Service Automation con Finance](./media/ProjectExpenseCategoriesFlow.png)](./media/ProjectExpenseCategoriesFlow.png)
+[![Flusso di dati per l'integrazione di Project Service Automation con Finance.](./media/ProjectExpenseCategoriesFlow.png)](./media/ProjectExpenseCategoriesFlow.png)
 
 ## <a name="project-expense-category-synchronization-from-finance-to-project-service-automation"></a>Sincronizzazione delle categorie di spesa del progetto tra Finance e Project Service Automation
 
@@ -93,7 +93,7 @@ Quando esegui la sincronizzazione con Project Service Automation, devi utilizzar
 
 La figura seguente mostra un esempio del mapping delle attività del modello in Integrazione dati. Il mapping mostra le informazioni sui campi che verranno sincronizzate da Finance a Project Service Automation.
 
-[![Mapping di modello della categoria di spesa del progetto a Project Service Automation](./media/ProjectExpenseCategoriesToPSAMapping.jpg)](./media/ProjectExpenseCategoriesToPSAMapping.jpg)
+[![Mapping di modello della categoria di spesa del progetto a Project Service Automation.](./media/ProjectExpenseCategoriesToPSAMapping.jpg)](./media/ProjectExpenseCategoriesToPSAMapping.jpg)
 
 ## <a name="project-expense-category-synchronization-from-project-service-automation-to-finance"></a>Sincronizzazione delle categorie di spesa del progetto tra Project Service Automation e Finance
 
@@ -121,7 +121,7 @@ La figura seguente mostra un esempio del mapping delle attività del modello in 
 > [!NOTE]
 > Il mapping mostra le informazioni sui campi che verranno sincronizzate da Project Service Automation a Finance.
 
-[![Mapping di modello da Project Service Automation a Finance](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
+[![Mapping di modello da Project Service Automation a Finance.](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

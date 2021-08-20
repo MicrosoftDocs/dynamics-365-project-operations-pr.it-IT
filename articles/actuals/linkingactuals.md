@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9fc49211f3c2c79e18f6dd18e9a687091793cad0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b5a70d2c2b3f98028b4e4998ed25ab73a275c66e4b8137eb573b943658a1a41e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5996751"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991761"
 ---
 # <a name="link-actuals-to-original-records"></a>Collegare valori effettivi a record originali
 
@@ -77,7 +77,7 @@ Con l'utilizzo combinato delle entità **Origine transazione** e **Connessione d
 
 Nell'esempio seguente viene illustrata l'elaborazione tipica degli inserimenti ore in un ciclo di vita di progetto di Project Operations.
 
-> ![Elaborare inserimenti ore in un ciclo di vita di Project Service](media/basic-guide-17.png)
+> ![Elaborare inserimenti ore in un ciclo di vita di Project Service.](media/basic-guide-17.png)
  
 1. L'invio di un inserimento ore comporta la creazione di due righe di giornale di registrazione: una per il costo e una per le vendite non fatturate.
 2. L'eventuale approvazione dell'inserimento ore comporta la creazione di due valori effettivi: uno per il costo e uno per le vendite non fatturate.

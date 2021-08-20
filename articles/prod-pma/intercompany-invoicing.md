@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d1debf8f67b7dbe7752075c6f8e5f2cdd37a3ae
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 7c201ccec2069869707409ff6a9236e81e125f06b391c67202927f5c038787d8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002781"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995811"
 ---
 # <a name="intercompany-invoicing"></a>Fatturazione interaziendale
 
@@ -33,7 +33,7 @@ La tua organizzazione potrebbe avere più divisioni, filiali e altre persone giu
 
 La seguente illustrazione mostra uno scenario tipico in cui due persone giuridiche, SI FR (la persona giuridica mutuante) e SI USA (la persona giuridica mutuataria) condividono le risorse per consegnare un progetto per il cliente A. Per questo scenario, SI FR è incaricata di fornire il lavorare al cliente A. 
 
-[![Esempio di fatturazione interaziendale](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
+[![Esempio di fatturazione interaziendale.](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
 
 L'obiettivo è rendere più flessibili e avanzati il controllo dei costi, il riconoscimento dei ricavi, le tasse e il prezzo di trasferimento per le transazioni di progetti interaziendali. Inoltre, vengono fornite le seguenti funzionalità:
 

@@ -2,17 +2,17 @@
 title: Risolvere i problemi relativi alla griglia delle attività
 description: Questo argomento fornisce le informazioni sulla risoluzione dei problemi necessaria quando si utilizza la griglia delle attività.
 author: ruhercul
-ms.date: 01/19/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.product: ''
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a15a4752de7537b3f60d5ee3269c846257a1fe4a
-ms.sourcegitcommit: 72fa1f09fe406805f7009fc68e2f3eeeb9b7d5fc
+ms.openlocfilehash: 07e7bd42db48842edee17fdfdd22fdcd8207644c1751f453ec29c3194aac625e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6213405"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989106"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Risolvere i problemi relativi alla griglia delle attività 
 
@@ -24,7 +24,7 @@ Questa argomento descrive come risolvere i problemi che potresti riscontrare men
 
 Project Operations richiede che i cookie di terze parti siano abilitati per eseguire il rendering della struttura di suddivisione del lavoro. Quando i cookie di terze parti non sono abilitati, invece di visualizzare le attività, vedrai una pagina vuota quando selezioni la scheda **Attività** nella pagina **Progetto**.
 
-![Scheda vuota quando i cookie di terze parti non sono abilitati](media/blankschedule.png)
+![Scheda vuota quando i cookie di terze parti non sono abilitati.](media/blankschedule.png)
 
 
 ### <a name="workaround"></a>Soluzione alternativa
@@ -52,11 +52,22 @@ Per Microsoft Edge o Google Chrome, le seguenti procedure delineano come aggiorn
 Project Operations richiede che un parametro di progetto faccia riferimento all'endpoint PEX. Questo endpoint è necessario per comunicare con il servizio utilizzato per il rendering della struttura di suddivisione del lavoro. Se il parametro non è abilitato, riceverai l'errore "Il parametro del progetto non è valido". 
 
 ### <a name="workaround"></a>Soluzione alternativa
- ![Campo Endpoint PEX nel parametro di progetto](media/projectparameter.png)
 
 1. Aggiungi il campo **Endpoint PEX** alla pagina **Parametri di progetto**.
-2. Aggiorna il campo con il seguente valore: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=/<id>&type=2`
-3. Rimuovi il campo dalla pagina **Parametri di progetto**.
+2. Identifica il tipo di prodotto che stai utilizzando.. Questo valore viene utilizzato quando è impostato l'endpoint PEX. Al momento del recupero, il tipo di prodotto è già definito nell'endpoint PEX. Mantieni quel valore. 
+   
+    ![Campo Endpoint PEX nel parametro di progetto.](media/pex-endpoint.png)
+
+3. Aggiorna il campo con il seguente valore: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=<id>&type=2`.
+
+   
+   | Tipo di prodotto                         | Parametro del tipo |
+   |--------------------------------------|----------------|
+   | Project for the Web sull'organizzazione predefinita   | tipo=0         |
+   | Project for the Web sull'organizzazione con nome CDS | tipo=1         |
+   | Project Operations                   | tipo=2         |
+   
+4. Rimuovi il campo dalla pagina **Parametri di progetto**.
 
 ## <a name="privileges-for-project-for-the-web"></a>Privilegi per progetto per il Web
 
@@ -67,7 +78,7 @@ Project Operations si basa su un servizio di pianificazione esterno. Il servizio
 
 1. Vai a **Impostazioni > Sicurezza > Utenti > Utenti dell'applicazione**.  
 
-   ![Lettore dell'applicazione](media/applicationuser.jpg)
+   ![Lettore dell'applicazione.](media/applicationuser.jpg)
    
 2. Fai doppio clic sul record dell'utente dell'applicazione per verificare quanto segue:
 
@@ -76,7 +87,7 @@ Project Operations si basa su un servizio di pianificazione esterno. Il servizio
  
 3. Se l'utente non esiste, puoi crearne un nuovo record utente. Seleziona **Nuovi utenti**. Modifica il modulo di immissione su **Utente dell'applicazione**, quindi aggiungi l'**ID applicazione**.
 
-   ![Dettagli utente dell'applicazione](media/applicationuserdetails.jpg)
+   ![Dettagli utente dell'applicazione.](media/applicationuserdetails.jpg)
 
 4. Verifica che all'utente sia stata assegnata la licenza corretta e che il servizio sia abilitato nei dettagli dei piani di servizio della licenza.
 5. Verifica che l'utente possa aprire project.microsoft.com.

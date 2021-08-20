@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d85a180aa094a048b4422605b25151d10785f67d
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011061"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986766"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Aggiornare Project Operations nel tuo ambiente Finance
 
@@ -33,7 +33,7 @@ Questo argomento fornisce informazioni su come aggiornare Dynamics 365 Project O
 4. Verifica che l'ambiente sia in esecuzione. Se non è avviato, avvia l'ambiente.
 5. Nella sezione **Nuova versione** sotto **Aggiornamenti disponibili**, seleziona **Visualizza aggiornamento** per 10.0.15.
 
-![Pulsante Visualizza aggiornamento](media/view-update.png)
+![Pulsante Visualizza aggiornamento.](media/view-update.png)
 
 6. Nella pagina **Aggiornamenti binari** seleziona **Salva pacchetto**.
 7. Nella pagina **Esamina e salva aggiornamenti** seleziona **Salva pacchetto**.
@@ -47,11 +47,11 @@ Questo argomento fornisce informazioni su come aggiornare Dynamics 365 Project O
 2. Dall'elenco, seleziona il pacchetto che hai salvato in precedenza, quindi seleziona **Applica**.
 3. Seleziona **Sì** per confermare che desideri distribuire il pacchetto.
 
-![Finestra di dialogo Conferma distribuzione del pacchetto](media/confirm-package-deployment.png)
+![Finestra di dialogo Conferma distribuzione del pacchetto.](media/confirm-package-deployment.png)
 
 4. Seleziona **Sì** per confermare che desideri aggiornare l'applicazione.
 
-![Finestra di dialogo Conferma aggiornamento dell'applicazione](media/confirm-application-update.png)
+![Finestra di dialogo Conferma aggiornamento dell'applicazione.](media/confirm-application-update.png)
 
 La distribuzione e l'aggiornamento dell'applicazione verranno avviati. 
 
@@ -84,7 +84,7 @@ I seguenti aggiornamenti ai privilegi di sicurezza per le entità sono richiesti
 
 1. Nell'ambiente Dataverse vai a **Impostazioni** e nel gruppo **Sistema** seleziona **Sicurezza**.
 
-![Impostazioni dell'ambiente Dataverse](media/Picture21.png)
+![Impostazioni dell'ambiente Dataverse.](media/Picture21.png)
 
 2. Seleziona **Ruoli di sicurezza**.
 3. Seleziona **utente app a doppia scrittura** e seleziona la scheda **Entità personalizzate**. 
@@ -121,7 +121,7 @@ I seguenti aggiornamenti ai privilegi di sicurezza per le entità sono richiesti
 6. Dall'elenco dei mapping, seleziona il mapping **Libro mastro (msdyn_ledgers)** con tutti i prerequisiti e seleziona la casella di controllo **Sincronizzazione iniziale**. 
 7. Nel campo **Master per la sincronizzazione iniziale** seleziona **App Finance and Operations** e poi seleziona **Esegui**.
  
- ![Sincronizzazione dei mapping del libro mastro](media/DW6.png)
+ ![Sincronizzazione dei mapping del libro mastro.](media/DW6.png)
  
 
 

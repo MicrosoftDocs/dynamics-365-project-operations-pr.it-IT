@@ -6,12 +6,12 @@ ms.date: 11/09/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 86f4cd2c26ebfca621d1b226b571d220d3b2441e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 753f0c4496bafd43d7e4a399cedeb355c2163c7ce56d932b2c786d5f2e672b6b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6010341"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992211"
 ---
 # <a name="create-a-solution-for-custom-pricing-dimensions"></a>Creare una soluzione per le dimensioni di determinazione dei prezzi personalizzate
 
@@ -26,7 +26,7 @@ ms.locfileid: "6010341"
 2.  Assegna un nome alla soluzione, *dimensioni dei prezzi di <your organization name>*.
 3. Immetti le altre informazioni e quindi seleziona **Salva**.
 
-  ![Creazione di una soluzione di determinazione dei prezzi personalizzata](./media/Creation-of-custom-pricing-dimension-solution.png)
+  ![Creazione di una soluzione di determinazione dei prezzi personalizzata.](./media/Creation-of-custom-pricing-dimension-solution.png)
  
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>Aggiungere tutte le entità necessarie e i componenti correlati alla soluzione per le dimensioni di determinazione dei prezzi
 
@@ -49,19 +49,19 @@ Aggiungi le seguenti entità di Project Service alla tua soluzione tariffaria pe
    - **Prezzo ruolo**
    - **Inserimento ore**
  
-   ![Aggiungi entità esistenti alla soluzione per le dimensioni di determinazione dei prezzi](./media/Existing-entities-to-PD-solution.png)
+   ![Aggiungi entità esistenti alla soluzione per le dimensioni di determinazione dei prezzi.](./media/Existing-entities-to-PD-solution.png)
  
  4. Per ciascuna entità, rivedere i componenti aggiunti e l'elenco finale delle risorse dell'entità per ciascuna entità. 
 
    >[!NOTE]
    > Include tutti i moduli e tutte le viste per ogni entità selezionata.
 
-  ![Entità aggiunta](./media/solution-component-selection.png)
+  ![Entità aggiunta.](./media/solution-component-selection.png)
 
 
 5.  Quando viene richiesto di includere eventuali entità dipendenti per le entità selezionate, seleziona **No, non includere i componenti richiesti.**
 
-    ![Comprese le entità dipendenti](./media/Do-not-include-required.png)
+    ![Comprese le entità dipendenti.](./media/Do-not-include-required.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

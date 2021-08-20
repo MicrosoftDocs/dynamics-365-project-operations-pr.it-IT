@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.custom: intro-internal
-ms.openlocfilehash: 41265534661e51565bf31105ef69cec9b3b181c3
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 5c0f98a6f08129ebef9b6d3fed1cc85969aa347c815a643d3c8dd639b42c0e8c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6367896"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008231"
 ---
 # <a name="resource-management-modes-overview"></a>Panoramica delle modalità di gestione delle risorse
 
@@ -24,7 +24,7 @@ Dynamics 365 Project Operations supporta due modalità per poter eseguire l'inte
 ## <a name="central-mode"></a>Modalità centrale
 Per le organizzazioni che centralizzano l'allocazione delle risorse ai progetti, la modalità centrale fornisce un modo per garantire che i responsabili di progetto possano definire i requisiti di risorsa a livello di progetto. L'evasione dei requisiti di risorsa è delegato a un responsabile delle risorse. I responsabili di progetto possono accettare o rifiutare le risorse proposte dal responsabile delle risorse.
 
-![Modalità centrale](./media/resource-management-central.png)
+![Modalità centrale.](./media/resource-management-central.png)
 
 Per gestire le risorse con la modalità centrale, vedi:
 
@@ -37,7 +37,7 @@ Per gestire le risorse con la modalità centrale, vedi:
 ## <a name="hybrid-mode"></a>Modalità ibrida
 Per le organizzazioni che richiedono flessibilità nell'allocazione delle risorse, la modalità ibrida consente sia ai responsabili di progetto che ai responsabili delle risorse di prenotare le risorse.
 
-![Modalità ibrida](./media/resource-management-hybrid.png)
+![Modalità ibrida.](./media/resource-management-hybrid.png)
 
 Oltre al processo in modalità centrale supportato, vedi i seguenti argomenti per gestire tutti gli altri flussi di prenotazione supportati in modalità ibrida:
 

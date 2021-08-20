@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 24032a77834005c444972f8d234d3acb33d19135
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5f6fec091c50f35589e333fce4b3a296dd736d10dd2f56b6c11209a55b493836
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998326"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996936"
 ---
 # <a name="project-settings"></a>Impostazioni di progetto
 
@@ -47,7 +47,7 @@ Per creare una pianificazione di progetto, creai un modello di calendario di pro
   - Pianificazione lavorativa per un giorno
   - Indisponibilità
 
-> ![Opzioni di Configura](media/project-13.png)
+> ![Opzioni di Configura.](media/project-13.png)
 
 4. Seleziona **Nuova pianificazione settimanale** e quindi imposta le opzioni per questa pianificazione delle risorse. Puoi impostare una pianificazione settimanale ricorrente, parametri orari giornalieri, chiusure aziendali e altro ancora.
 5. Imposta l'intervallo di date, seleziona **Salva** e quindi fai clic su **Chiudi**. 

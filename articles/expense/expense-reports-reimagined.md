@@ -2,7 +2,7 @@
 title: Note spese riprogettate
 description: Questo argomento illustra l'esperienza riprogettata e reinventata per l'inserimento della nota spese.
 author: suvaidya
-ms.date: 06/14/2021
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f8c44f86ff7c00e2d5b927bbe6878be7ab6d7758
-ms.sourcegitcommit: e93f436afbb92a312fc71b6371866f01927e49d5
+ms.openlocfilehash: dba30d16283d820d04d3a1b2fec0acbf30252e87b86c899686ef4df0985ae6ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "6251009"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997836"
 ---
 # <a name="expense-reports-reimagined"></a>Note spese riprogettate
 
@@ -57,12 +57,13 @@ Per attivare la nuova esperienza, usa l'area di lavoro **Gestione delle funziona
 | Calcolatore del tasso di cambio | Viene aggiunto un calcolatore del tasso di cambio che consente di calcolare il tasso di cambio per le transazioni multivaluta vive. |
 | Salvare e aggiungere nuove righe di spesa | I pulsanti **Salva** e **Nuovo** sono disponibili quando vengono inserite nuove spese, per aiutarti a inserire rapidamente le righe di spesa. |
 | Migliore visibilità nelle righe suddivise e dettagliate | Le righe dettagliate e suddivise vengono aggiunte direttamente all'elenco delle spese per aumentare la visibilità e aiutarti a determinare facilmente se ci sono errori. |
-| Visualizzare i dettagli della sottocategoria nelle righe dettagliate | Le righe dettagliate di una spesa principale mostrano le etichette delle sottocategorie della nota spese, il che aiuta a esaminare i dettagli a colpo d'occhio.|
+| Visualizzare i dettagli della sottocategoria nelle righe dettagliate | Le righe dettagliate di una spesa principale mostrano le etichette delle sottocategorie nella nota spese. Il dettaglio delle righe consente di rivedere i dettagli granulari in modo immediato.|
 | Mostrare le ricevute durante la classificazione | Le ricevute possono essere mostrate durante la classificazione. |
 | Selezione anticipo in contanti | Seleziona uno o più anticipi in contanti per completare una singola transazione di spesa. |
 | Saldo anticipo in contanti | Esamina il saldo dell'anticipo in contati in tempo reale quando crei una voce di spesa a fronte di anticipi in contanti approvati e pagati. |
 
 La versione iniziale si concentra sugli scenari di registrazione delle spese. Qualsiasi scenario di revisione o approvazione della nota spese continuerà a utilizzare la pagina di registrazione delle spese esistente.
+
 
 Le seguenti funzionalità non sono supportate nell'area di lavoro riprogettata Note spese, ma sono pianificate per le versioni future: 
 

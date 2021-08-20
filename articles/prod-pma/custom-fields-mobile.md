@@ -16,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 23b002559dcbb9118ccb2b36d70707ccb37b19ad
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9f19a6d069c4f825be8515a6d26739c50d3b064698fc1872ede07a4e74ee4dcb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6003042"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005756"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Implementare campi personalizzati per l'app per dispositivi mobili Microsoft Dynamics 365 Project Timesheet  su iOS e Android
 
@@ -153,13 +153,13 @@ Per i campi di tipo **Data**, questa proprietà passa il valore data del campo t
 
 Di seguito è riportato uno screenshot dall'app per dispositivi mobili della creazione di una voce del foglio presenze. Mostra i campi predefiniti e un campo personalizzato nella sezione "Inserimento ora" chiamato "Stringa di prova" con un valore di enum di "Seconda opzione" già impostato.
 
-![Campo personalizzato della stringa di prova nell'app](media/timesheet-entry.jpg)
+![Campo personalizzato della stringa di prova nell'app.](media/timesheet-entry.jpg)
 
 
 
 Di seguito è riportato uno screenshot dall'app per dispositivi mobili dell'utente che seleziona una delle opzioni di enumerazione disponibili per il campo personalizzato "Stringa di prova".  Le due opzioni sono "Prima opzione" e "Seconda opzione" mostrate come pulsanti di opzione. La seconda opzione è attualmente selezionata.
 
-![Pulsanti di opzione (pulsanti di opzione) per il campo personalizzato Stringa di prova](media/enum-option.jpg)
+![Pulsanti di opzione (pulsanti di opzione) per il campo personalizzato Stringa di prova.](media/enum-option.jpg)
 
 
 
@@ -171,7 +171,7 @@ Tieni presente che i campi personalizzati non devono avere alcun record del data
 
 Di seguito è riportato uno screenshot da Visual Studio dell'albero degli oggetti dell'applicazione. Mostra un'estensione della tabella TSTimesheetLine con il campo TestLineString aggiunto come campo personalizzato.
 
-![Stringa della riga](media/b6756b4a3fc5298093327a088a7710fd.png)
+![Stringa della riga.](media/b6756b4a3fc5298093327a088a7710fd.png)
 
 ### <a name="use-chain-of-command-on-the-buildcustomfieldlist-method-of-the-tstimesheetsettings-class-to-show-a-field-in-the-timesheet-entry-section"></a>Utilizzare la catena di comando sul metodo buildCustomFieldList della classe TSTimesheetSettings per mostrare un campo nella sezione di immissione del foglio presenze
 
@@ -317,11 +317,11 @@ final class TSTimesheetEntryService_Extension
 
 Di seguito è riportato uno screenshot dall'app per dispositivi mobili di un utente che visualizza un foglio presenze. Il pulsante "Altre informazioni" è stato selezionato nell'angolo in alto a destra per mostrare l'opzione "Visualizza altri dettagli".  
 
-![Comando Visualizza altri dettagli](media/show-more.png)
+![Comando Visualizza altri dettagli.](media/show-more.png)
 
 Di seguito è riportato uno screenshot dall'app per dispositivi mobili che mostra la sezione "Altro" di un foglio presenze. Un campo personalizzato denominato "Tasso di utilizzo di questo foglio presenze (campo personalizzato calcolato)" è stato aggiunto alla sezione dell'intestazione del foglio presenze. Un valore di sola lettura di "0,667" è impostato nel campo personalizzato.
 
-![Sezione Altro](media/more-section.jpg)
+![Sezione Altro.](media/more-section.jpg)
 
 ### <a name="extend-the-tstimesheettable-table-so-that-it-has-a-custom-field"></a>Estendere la tabella TSTimesheetTable in modo che abbia un campo personalizzato
 
@@ -414,7 +414,7 @@ La logica esistente per la funzionalità del foglio presenze a livello di databa
 
 Dai parametri del progetto, puoi rendere i campi predefiniti di sola lettura o nascosti nell'app per dispositivi mobili. Imposta le opzioni nella sezione **Fogli presenze per dispositivi mobili** nella scheda **Foglio presenze** della pagina **Parametri Gestione progetti e contabilità**.
 
-![Parametri del progetto](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
+![Parametri progetto.](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
 
 ### <a name="changing-the-activities-that-are-available-for-selection-via-extensions"></a>Modifica delle attività disponibili per la selezione tramite estensioni
 

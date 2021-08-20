@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fcb3c85af092667cc5a473ab4674c3be47e33327
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: ebb59d2b38bf99aed15206646e77c74003aba2a92a6d8d262e6e7b2017285ed3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007596"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992391"
 ---
 # <a name="estimates"></a>Stime
 
@@ -83,24 +83,24 @@ Se hai aggiunto un campo personalizzato per i dettagli di riga di offerta e vuoi
 1. Apri PluginRegistrationTool e connettiti all'istanza online.
 2. Seleziona **Cerca** e cerca il plug-in da aggiornare.
 
-    ![Finestra di dialogo Albero ricerca](media/basic-guide-19.png)
+    ![Finestra di dialogo Albero ricerca.](media/basic-guide-19.png)
 
 3. Seleziona il plug-in e quindi, nella pagina principale, seleziona **Seleziona**.
 4. Seleziona il passaggio del plug-in da aggiornare, fai clic con il pulsante destro del mouse e quindi scegli **Aggiorna**.
 
-    ![Selezionare un passaggio nel plug-in](media/basic-guide-20.png)
+    ![Selezionare un passaggio nel plug-in.](media/basic-guide-20.png)
 
 5. Nella finestra di dialogo **Aggiorna passaggio esistente**, nel campo **Attributi filtro**, seleziona il pulsante con i puntini di sospensione (**...**):
  
-    ![Finestra di dialogo Aggiorna passaggio esistente](media/basic-guide-21.png)
+    ![Finestra di dialogo Aggiorna passaggio esistente.](media/basic-guide-21.png)
 
 6. Nella finestra di dialogo **Seleziona attributi**, seleziona le caselle di controllo relative agli attributi personalizzati.
 
-    ![Finestra di dialogo Seleziona attributi](media/basic-guide-22.png)
+    ![Finestra di dialogo Seleziona attributi.](media/basic-guide-22.png)
 
 7. Seleziona **OK** per chiudere la finestra di dialogo e quindi seleziona **Aggiorna passaggio**.
  
-    ![Pulsante Aggiorna passaggio](media/basic-guide-23.png)
+    ![Pulsante Aggiorna passaggio.](media/basic-guide-23.png)
 
 8. Ripeti i passaggi da 1 a 7 per il secondo plug-in.
 9. Chiudi PluginRegistrationTool.

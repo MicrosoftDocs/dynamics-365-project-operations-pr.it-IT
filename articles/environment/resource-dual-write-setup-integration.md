@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 1e9ca9407404274648f359be42d350137775ae55
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 6d263f7c5ef0d562edde6a603340a3b8746195df190fdb527bfa40297f68eed2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6001071"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986541"
 ---
 # <a name="project-operations-setup-and-configuration-data-integration"></a>Configurazione di Project Operations e integrazione dei dati di configurazione
 
@@ -24,7 +24,7 @@ Questo argomento fornisce informazioni sull'integrazione a doppia scrittura di P
 
 I contratti di progetto, le righe di contratto e i progetti vengono creati in Dataverse e sincronizzati con le app Finance and Operations per la contabilità aggiuntiva. I record in queste entità possono essere creati ed eliminati solo in Dataverse. Tuttavia, è possibile aggiungere gli attributi contabili come i valori predefiniti della fascia IVA o le dimensioni finanziarie a questi record nelle app Finance and Operations.
 
-  ![Concetti di integrazione del contratto di progetto](./media/1ProjectContract.jpg)
+  ![Concetti di integrazione del contratto di progetto.](./media/1ProjectContract.jpg)
 
 I lead, le opportunità e le offerte di impegni di vendita vengono tracciati in Dataverse e non sincronizzati con le app Finance and Operations perché non esiste una contabilità a valle associata a questo impegno.
 
@@ -51,7 +51,7 @@ Le righe di contratto di progetto possono essere riviste dal contabile del proge
 
 Le righe di contratto di progetto che utilizzano il metodo di fatturazione a prezzo fisso vengono fatturate tramite i passaggi fondamentali di fatturazione. I passaggi fondamentali di fatturazione vengono sincronizzati per proiettare le transazioni in acconto nelle app Finance and Operations utilizzando la mappa della tabella **Passaggi fondamentali della riga di contratto di interazione di Project Operations (msdyn\_contractlinescheduleofvalues)**.
 
-  ![Integrazione dei passaggi fondamentali di fatturazione](./media/2Milestones.jpg)
+  ![Integrazione dei passaggi fondamentali di fatturazione.](./media/2Milestones.jpg)
 
 Il contabile può esaminare le transazioni in acconto e modificare gli attributi contabili per tali transazioni accedendo in **Gestione progetti e contabilità** > **Contratti di progetto** > **Gestisci** > **Transazioni in acconto** o **Gestione progetti e contabilità** > **Tutti i progetti** > **Gestisci** > **Transazioni in acconto**.
 
@@ -61,13 +61,13 @@ Quando crei per la prima volta un passaggio fondamentale di fatturazione per una
 
 Le attività del progetto vengono sincronizzate nelle app Finance and Operations tramite la mappa della tabella **Attività di progetto (msdyn\_projecttasks)** solo a scopo di riferimento. Le operazioni di creazione, aggiornamento ed eliminazione non sono supportate tramite le app Finance and Operations.
 
-  ![Integrazione di attività di progetto](./media/3Tasks.jpg)
+  ![Integrazione di attività di progetto.](./media/3Tasks.jpg)
 
 ## <a name="project-resources"></a>Risorse di progetto
 
 L'entità **Ruoli di risorse di progetto** è sincronizzata con le app Finance and Operations utilizzando la mappa di tabella **Ruoli di risorse di progetto per tutte le società (bookableresourcecategories)** solo a scopo di riferimento. Dal momento che i ruoli di risorse in Dataverse non sono specifici dell'azienda, il sistema crea automaticamente i rispettivi record dei ruoli di risorse specifici dell'azienda nelle app Finance and Operations automaticamente per tutte le persone giuridiche incluse nell'ambito dell'integrazione a doppia scrittura.
 
-![Integrazione di ruoli di risorse](./media/5Resources.jpg)
+![Integrazione di ruoli di risorse.](./media/5Resources.jpg)
 
 Le risorse di progetto in Project Operations vengono gestite in Dataverse e non sono sincronizzate con le app Finance and Operations.
 
@@ -75,6 +75,6 @@ Le risorse di progetto in Project Operations vengono gestite in Dataverse e non 
 
 Le categorie di transazione vengono mantenute in Dataverse e sincronizzate con le app Finance and Operations utilizzando la mappa della tabella **Categorie di transazione di progetto (msdyn\_transactioncategories)**. Dopo che il record della categoria di transazione è stato sincronizzato, il sistema crea automaticamente quattro record di categoria condivisi. Ogni record corrisponde a un tipo di transazione nelle app Finance and Operations e lo collega al record della categoria di transazione.
 
-![Integrazione di categorie di transazione](./media/4TransactionCategories.jpg)
+![Integrazione di categorie di transazione.](./media/4TransactionCategories.jpg)
 
 L'utilizzo delle categorie di transazione per le stime e i valori effettivi richiede che il contabile del progetto o l'amministratore di sistema crei le categorie di progetto corrispondenti in ogni persona giuridica. Per ulteriori informazioni, vedi [Configurare le categorie di progetto](../project-accounting/configure-project-categories.md).

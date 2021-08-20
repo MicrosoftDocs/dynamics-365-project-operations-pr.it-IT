@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
 ms.custom: intro-internal
-ms.openlocfilehash: c1dcf642f79ce64cb83285ac6dc6d7eaf815145c
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369381"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005396"
 ---
 # <a name="intercompany-invoicing-overview"></a>Panoramica della fatturazione interaziendale
 
@@ -22,7 +22,7 @@ La tua organizzazione potrebbe avere più divisioni, filiali e altre persone giu
 
 L'illustrazione seguente mostra uno scenario tipico in cui due persone giuridiche, Contoso Robotics USA (la persona giuridica mutuataria) e Contoso Robotics UK (la persona giuridica che concede il prestito) condivide le risorse per consegnare un progetto al cliente, Adventure Works. Per questo scenario, Contoso Robotics USA è incaricata di consegnare il lavoro ad Adventure Works.
 
-![Fatturazione interaziendale](./media/IntercompanyScenario.png) 
+![Fatturazione interaziendale.](./media/IntercompanyScenario.png) 
 
 Dynamics 365 Project Operations utilizza il flusso seguente per elaborare le transazioni interaziendali:
 
@@ -35,7 +35,7 @@ Dynamics 365 Project Operations utilizza il flusso seguente per elaborare le tra
 
 Il diagramma seguente illustra la fatturazione interaziendale in quanto si riferisce a eventi contabili e registrazioni previste nella contabilità generale.
 
-![Flusso interaziendale](./media/IntercompanyFlow.png)
+![Flusso interaziendale.](./media/IntercompanyFlow.png)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

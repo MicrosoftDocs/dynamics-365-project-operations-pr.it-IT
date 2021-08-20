@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f01ba14baa0a2378b0a230a46aed3a682342ce6
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 58d5aa68dd5af7fc2b39caac429948e55bbc94c39dfb7fc9ae15a37cc3c92ce6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014211"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000536"
 ---
 # <a name="sales-processes"></a>Processi di vendita
 
@@ -39,7 +39,7 @@ I processi di vendita utilizzati in un'organizzazione basata su progetto differi
 
 Nella figura seguente viene illustrato un processo di vendita tipico in un'organizzazione basata su progetto.
 
-> ![Processo di vendita in un'organizzazione basata su progetto](media/basic-guide-1.png)
+> ![Processo di vendita in un'organizzazione basata su progetto.](media/basic-guide-1.png)
 
 ## <a name="estimating-a-sale"></a>Stima di una vendita
 Il valore di una vendita può essere stimato in base a progetti completati precedentemente e alla complessità degli stessi. Per i progetti che comportano estensioni a progetti precedenti, o progetti dove l'esperienza del fornitore è alta e si utilizzano modelli di lavoro noti, puoi utilizzare un processo di stima più semplice. I progetti più complessi hanno in genere un processo di acquisto più lungo. Pertanto, vi sono più fasi nel processo di stima di vendite. All'inizio del processo, il team di vendita utilizza l'input di account manager ed esperti in materia per iniziare a creare una stima di alto livello per ogni componente distinto del lavoro richiesto. Questi componenti di lavoro sono rappresentati da righe di offerta. 
@@ -50,7 +50,7 @@ Puoi creare molteplici offerte per un progetto e raggrupparle in un unico tipo d
 
 Puoi anche creare offerte alternative in un tipo di entità Opportunità o configurare il sistema di modo che un contratto di progetto sia creato quando si acquisisce un'offerta. In questo caso, puoi allegare un documento di Word che rappresenta la descrizione dei lavori al record del contratto di progetto.
 
-![Chiudere un'offerta per creare un contratto di progetto](media/basic-guide-2.png)
+![Chiudere un'offerta per creare un contratto di progetto.](media/basic-guide-2.png)
 
 ## <a name="configuring-the-sales-process"></a>Configurare il processo di vendita
 Puoi utilizzare i processi aziendali in Microsoft Dynamics 365 per configurare il processo di vendita. I processi aziendali forniscono al personale di vendita un interfaccia visiva guidata che possono utilizzare per spostare le transazioni nelle fasi successive tipiche della propria azienda.
@@ -66,7 +66,7 @@ Ad esempio, la tua azienda potrebbe includere le sei fasi seguenti nel processo 
 
 Queste sei fasi sono rappresentate da frecce di espansione (\>) che selezioni per espandere ogni tipo di entità Opportunità creata.
 
-![Configurazione del processo aziendale in Dynamics 365](media/basic-guide-3.png)
+![Configurazione del processo aziendale in Dynamics 365.](media/basic-guide-3.png)
  
 La tua organizzazione potrebbe utilizzare entità differenti per rappresentare la stessa transazione durante l'evoluzione della stessa. All'inizio del processo di vendita, una transazione è rappresentata dall'entità Opportunità. Con il passare del tempo e quando emergono nuovi dettagli, potresti utilizzare stime generali per creare una o più offerte. Se una di queste offerte viene esaminata dalle parti interessate interne e dei clienti, l'entità Offerta rappresenta la transazione. Dopo l'accettazione dell'offerta da parte del cliente, un contratto di progetto o una descrizione dei lavori rappresenta la transazione. Per supportare questo comportamento, i processi aziendali sono strutturati di modo che ogni fase del processo sia collegata a una tabella di database differente.
 
@@ -77,7 +77,7 @@ Durante lo spostamento delle transazioni da una fase all'altra, ti viene richies
 > [!NOTE]
 > PSA include pagine specifiche per le entità Opportunità, Offerta, Ordine e Fattura. Devi creare opportunità, offerte, ordini e fatture di Project Service utilizzando le pagine di informazioni di progetto per queste entità. Se utilizzi un'altra pagina per creare un record, non potrai aprire il record dalla pagina **Informazioni sul progetto**. Se desideri aprire un record dalla pagina **Informazioni sul progetto**, devi eliminare il record e ricrearlo utilizzando la pagina **Informazioni di progetto**. Nella pagina **Informazioni di progetto**, la logica di business di ognuna di queste entità assicura la corretta impostazione del campo **Tipo** del record e la corretta inizializzazione di tutti i concetti obbligatori.
 
-> ![Informazioni sul progetto per un nuovo ordine](media/basic-guide-4.png)
+> ![Informazioni sul progetto per un nuovo ordine.](media/basic-guide-4.png)
  
 ## <a name="differences-between-project-service-automation-and-sales"></a>Differenze tra Project Service Automation e Sales
 Sebbene il processo di vendita in PSA utilizzi le funzionalità di base del processo di vendita in Sales, vi sono alcune differenze a causa delle variazioni nelle procedure aziendali delle organizzazioni basate su progetto. Di seguito sono riportati alcuni esempi.

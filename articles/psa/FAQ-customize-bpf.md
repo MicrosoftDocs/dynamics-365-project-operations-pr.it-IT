@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2e6c60fe67aea908013077bde40c2faeabc2f39e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 15540f524fb8fca8f69a2249f783289ba683cad7dabbf58ecbf620d147e5d491
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993151"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002966"
 ---
 # <a name="how-do-i-customize-the-project-stages-business-process-flow"></a>Come si personalizza il processo aziendale Fasi del progetto?
 
@@ -60,11 +60,11 @@ Se l'aggiornamento non è possibile, è possibile personalizzare il processo azi
 1. Aggiungere fasi supplementari alla configurazione predefinita, mantenendo nel contempo i nomi di fase inglesi per **Quote**, **Plan** e **Close**.
 
 
-![Aggiunta di fasi alla configurazione predefinita](media/FAQ-Customize-BPF-1.png)
+![Aggiunta di fasi alla configurazione predefinita.](media/FAQ-Customize-BPF-1.png)
  
 2. Creare il proprio processo aziendale e impostarlo come processo aziendale principale per l'entità di progetto, in modo da poter utilizzare i nomi di fase desiderati. Tuttavia, se si intende utilizzare le fasi di progetto standard **Quote**, **Plan** e **Close**, è necessario effettuare alcune modifiche. La logica più complessa è quella relativa alla chiusura del progetto, che è ancora possibile eseguire disattivando il record del progetto.
 
-![Personalizzazione del flusso del processo aziendale](media/FAQ-Customize-BPF-2.png)
+![Personalizzazione BPF.](media/FAQ-Customize-BPF-2.png)
 
 ### <a name="additional-considerations-for-project-service-app-version-24430-or-earlier-on-platform-90"></a>Ulteriori considerazioni per l'app Project Service versione 2.4.4.30 o precedente sulla piattaforma 9.0
 
@@ -80,11 +80,11 @@ Per creare un processo aziendale personalizzato per l'entità di progetto, proce
 
 1. Andare a **Impostazioni** > **Centro processi**. Non copiare il processo aziendale Fasi del progetto in quanto vengono copiate anche le regole business di Project Service.
 
-  ![Creare processi](media/FAQ-Customize-BPF-3.png)
+  ![Crea un processo.](media/FAQ-Customize-BPF-3.png)
 
 2. Utilizzare lo strumento di progettazione dei processi per creare i nomi di fase desiderati. Se si desidera la stessa funzionalità delle fasi predefinite **Quote**, **Plan** e **Close**, è necessario crearla in base ai nomi di fase del processo aziendale personalizzato.
 
-   ![Strumento di progettazione dei processi utilizzato per personalizzare il processo aziendale](media/FAQ-Customize-BPF-4.png) 
+   ![Strumento di progettazione dei processi utilizzato per personalizzare il processo aziendale.](media/FAQ-Customize-BPF-4.png) 
 
 3. Nello strumento di progettazione dei processi, fare clic su **Flusso di elaborazione ordine** e spostare il processo aziendale personalizzato sopra il processo aziendale Fasi del progetto affinché sia il processo aziendale principale.
 
@@ -95,15 +95,15 @@ Per creare un processo aziendale personalizzato per l'entità di progetto, proce
 
 4. Aggiungere un nuovo campo personalizzato all'entità di progetto per acquisire le fasi personalizzate nel processo aziendale personalizzato. Sarà necessario aggiungere delle regole business (plug-in/flusso di lavoro) per aggiornare questo campo quando la fase del processo aziendale personalizzato viene aggiornata.
 
-   ![Personalizzazione dell'entità di progetto](media/FAQ-Customize-BPF-6-720.png)
+   ![Personalizzazione dell'entità di progetto.](media/FAQ-Customize-BPF-6-720.png)
 
 5. Modificare il grafico **Progetto per fase** per utilizzare il nuovo campo personalizzato per le fasi.
 
-   ![Utilizzo del grafico Progetto per fase](media/FAQ-Customize-BPF-7-720.png)
+   ![Utilizzo del grafico Progetto per fase.](media/FAQ-Customize-BPF-7-720.png)
 
 6. Modificare tutte le viste per l'entità di progetto per includere il campo personalizzato per le fasi.
 
-   ![Modifica delle viste nell'entità di progetto](media/FAQ-Customize-BPF-8-720.png)
+   ![Modifica delle viste nell'entità di progetto.](media/FAQ-Customize-BPF-8-720.png)
 
 
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8d3d39aa28565692bf894ff8d4fc8f8c3c5542d4
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1ab8ae045852a75a7a39a4eccfa86a114a34273581c98631975bcbfac5a7a343
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6006201"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005801"
 ---
 # <a name="create-a-project-team"></a>Creare un team di progetto
 
@@ -33,7 +33,7 @@ Le impostazioni di visualizzazione possono anche essere personalizzate per forni
 
 Il project manager può selezionare un ruolo nella pagina e quindi, se è disponibile una risorsa che soddisfa il requisito, selezionare per prenotare una risorsa per ricoprire il ruolo. Tieni presente che le risorse non devono essere prenotate a questo punto della fase di pianificazione. Quando crei una struttura di suddivisione del lavoro, puoi sostituire i ruoli con risorse di personale per il progetto. Se i ruoli vengono sostituiti con risorse con personale nella struttura di suddivisione del lavoro, la configurazione delle risorse aggiorna automaticamente l'elenco e la pianificazione del team di progetto.
 
-[![Elenco del team di progetto che include sia i ruoli che le risorse effettive](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
+[![Elenco del team di progetto che include sia i ruoli che le risorse effettive.](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
 
 Il project manager ha varie opzioni per prenotare una risorsa per un progetto, ad esempio **Capacità rimanente**, **Piena capacità**, **Percentuale di capacità** e **Specifica orari**. Queste opzioni di prenotazione possono essere annullate in qualsiasi momento se le assegnazioni delle risorse cambiano. Sono supportati due tipi di prenotazione:
 

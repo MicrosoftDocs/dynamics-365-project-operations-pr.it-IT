@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d8aa1541a3560db175acead1d000895312b299db
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c558ab1eb5070f6d1a2db06b630e8807cc67819f9bdd57c15ec346f484e04fe9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000036"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006296"
 ---
 # <a name="project-estimates-and-actuals-integration"></a>Integrazione di stime e valori effettivi di progetto
 
@@ -30,7 +30,7 @@ La creazione di stime richiede una configurazione contabile valida per il proget
 
 Le stime di manodopera vengono create dal responsabile di progetto o dal responsabile delle risorse che assegna una risorsa generica o denominata all'attività del progetto. I record di assegnazione delle risorse possono essere esaminati nella scheda **Assegnazioni risorse** della pagina **Dettagli progetto** in Dataverse. I record di assegnazione delle risorse in Dataverse creano record di previsioni orarie nelle app Finance and Operations utilizzando **Entità di integrazione di Project Operations per le stime delle ore (msdyn\_resourceassignments)**.
 
-   ![Integrazione di stime di manodopera](./Media/DW4LaborEstimates.png)
+   ![Integrazione di stime di manodopera.](./Media/DW4LaborEstimates.png)
 
 La doppia scrittura sincronizza i record di assegnazione delle risorse alla tabella di gestione temporanea (**ProjCDSEstimateHoursImport**), quindi utilizza la logica aziendale per creare e aggiornare i record delle previsioni orarie (**ProjForecastEmpl**).
 
@@ -40,7 +40,7 @@ Il contabile del progetto esamina i record delle ore di previsione creati nelle 
 
 Le stime di spesa vengono create dal responsabile di progetto nella scheda **Stime di spesa** della pagina **Dettagli progetto** in Dataverse. I record delle stime di spesa vengono archiviati nell'entità **Riga di stima** in Dataverse. Questi record di stima hanno la classe di transazione **Spese** e vengono sincronizzati con i record delle previsioni di spesa nelle app Finance and Operations utilizzando **Entità di integrazione di Project Operations per le stime di spesa (msdyn\_estimatelines)**.
 
-   ![Integrazione di stime di spesa](./Media/DW4ExpenseEstimates.png)
+   ![Integrazione di stime di spesa.](./Media/DW4ExpenseEstimates.png)
 
 La doppia scrittura sincronizza i record di stima di spesa alla tabella di gestione temporanea **ProjCDSEstimateExpenseImport**, quindi utilizza la logica aziendale per creare e aggiornare i record delle previsioni di spesa (**ProjForecastCost**). Le righe di stima memorizzano la stima delle vendite e i record della stima dei costi separatamente. La logica aziendale nelle app Finance and Operations popola un singolo record di previsione di spesa utilizzando questo dettaglio nella tabella di gestione temporanea.
 
@@ -50,7 +50,7 @@ Il contabile del progetto può esaminare i record di previsione di spesa creati 
 
 Le stime di materiale vengono create dal responsabile di progetto nella scheda **Stime di materiale** della pagina **Dettagli progetto** in Dataverse. I record delle stime di materiale vengono archiviati nell'entità **Riga di stima** in Dataverse. Questi record di stima hanno la classe di transazione **materiale** e vengono sincronizzati con i record delle previsioni di articolo nelle app Finance and Operations utilizzando **Tabella di integrazione di Project Operations per le stime di materiale (msdyn\_estimatelines)**.
 
-   ![Integrazione di stime di materiale](./Media/DW4MaterialEstimates.png)
+   ![Integrazione di stime di materiale.](./Media/DW4MaterialEstimates.png)
 
 La doppia scrittura sincronizza i record di stima di materiale alla tabella di gestione temporanea **ProjForecastSalesImpor**, quindi utilizza la logica aziendale per creare e aggiornare i record delle previsioni di articolo (**ForecastSales**). Le righe di stima memorizzano la stima delle vendite e i record della stima dei costi separatamente. La logica aziendale nelle app Finance and Operations popola un singolo record di previsione di articolo utilizzando questo dettaglio nella tabella di gestione temporanea.
 
@@ -60,7 +60,7 @@ Il contabile del progetto può esaminare i record di previsione di articolo crea
 
 I valori effettivi di progetto vengono creati in Dataverse, in base a tempo, spesa, materiale e attività di fatturazione. Tutti gli attributi operativi di queste transazioni, tra cui quantità, prezzo di costo, prezzo di vendita e progetto, vengono acquisiti in questa entità Dataverse. Per ulteriori informazioni, vedi [Valori effettivi](../actuals/actuals-overview.md). I record di valori effettivi vengono sincronizzati con le app Finance and Operations utilizzando la mappa della tabella a doppia scrittura **Valori effettivi dell'integrazione di Project Operations (msdyn\_actuals)** per la contabilità a valle.
 
-   ![Integrazione di valori effettivi](./Media/DW4Actuals.png)
+   ![Integrazione di valori effettivi.](./Media/DW4Actuals.png)
 
 La mappa della tabella **Valori effettivi di integrazione di Project Operations** sincronizza tutti i record dall'entità **Valori effettivi** in Dataverse, con l'attributo **Ignora sincronizzazione (solo per uso interno)** impostato su **Falso**. Questo valore dell'attributo è impostato in Dataverse automaticamente quando viene creato il record. Esempi in cui questo attributo è impostato su **Vero** sono:
 

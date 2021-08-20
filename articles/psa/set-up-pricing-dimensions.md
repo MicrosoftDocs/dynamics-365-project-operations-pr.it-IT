@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cce3a3fe6aef247380f6284f58d49337f969c38c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008316"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002336"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Configurare campi personalizzati come dimensioni di determinazione dei prezzi 
 
@@ -41,11 +41,11 @@ Affinché un campo diventi una dimensione di determinazione dei costi, deve esse
 - Creato come campo nelle entità **Prezzo ruolo** e **Ricarichi prezzo ruolo**. Per ulteriori informazioni su come eseguire questa operazione, vedi [Aggiungere campi personalizzati alla configurazione dei prezzi e ad entità transazionali](field-references.md).
 - Creato come riga nella tabella **Dimensione di determinazione dei prezzi**. Ad esempio, aggiungi righe come dimensioni di determinazione dei prezzi come mostrato nell'illustrazione seguente. 
 
-![Righe di dimensioni di determinazione dei prezzi basate su importo](media/Amt-based-PD.png)
+![Righe di dimensioni di determinazione dei prezzi basate su importo.](media/Amt-based-PD.png)
 
 Nota che il campo Ore lavorative della risorsa (**msdyn_resourceworkhours**) è stato aggiunto come dimensione basata su ricarico e alla griglia nella scheda **Dimensione di determinazione dei prezzi basata su ricarico**.
 
-![Righe di dimensioni di determinazione dei prezzi basate su ricarico](media/Markup-based-PD.png)
+![Righe di dimensioni di determinazione dei prezzi basate su ricarico.](media/Markup-based-PD.png)
 
 > [!IMPORTANT]
 > Tutte le modifiche ai dati nuovi o esistenti delle dimensioni di determinazione dei prezzi in questa tabella vengono propagate alla regole di business per la determinazione dei prezzi di Project Service solo dopo l'aggiornamento della cache. L'aggiornamento della cache può durare fino a 10 minuti. Utilizza questo tempo per dare un'occhiata alle modifiche alla logica di impostazione predefinita dei prezzi che deve risultare dalle modifiche ai dati di Dimensione di determinazione dei prezzi.

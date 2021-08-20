@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0ffbb1f7aa25e723c7842259f1c0127b3d2e26d6
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c551673708ae2d965979136e92326be98252304a601964c1fbc52a329c592712
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012096"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988971"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Utilizzare una risorsa prenotabile come dimensione di determinazione dei prezzi
 
@@ -62,18 +62,18 @@ Per la risorsa prenotabile, l'entità **Membri del team di progetto** ha un nome
 1. A tale scopo, fai doppio clic sulla riga nella griglia **Dimensioni di determinazione dei prezzi** per aprire la pagina di **msdyn_bookableresource**
 2. Nella pagina della dimensione, nella scheda **Elementi correlati**, fai clic su **Nomi campo dimensioni determinazione dei prezzi**.
 
- ![Scheda Nomi campo dimensioni determinazione dei prezzi](media/PD-fieldname.png)
+ ![Scheda Nomi campo dimensioni determinazione dei prezzi.](media/PD-fieldname.png)
 
 4. Nella vista associata che viene aperta, fai clic su **Aggiungi nuovo nome campo dimensioni determinazione dei prezzi**.
 
- ![Aggiungi nuovo nome campo dimensioni determinazione dei prezzi](media/Add-NewPD-fieldname.png)
+ ![Aggiungi nuovo nome campo dimensioni determinazione dei prezzi.](media/Add-NewPD-fieldname.png)
 
 
 Viene aperta la pagina **Nuovo nome campo dimensioni di determinazione dei prezzi** per **msdyn_bookableresource**. 
 
 5. Aggiungi **msdyn_projectteam** al campo **Nome logico entità** e **msdyn_bookableresourceid** al campo **Nome campo**. Salvare il record.
 
- ![Modulo Nuovo nome campo dimensioni di determinazione dei prezzi](media/PD-fieldname-Added.png)
+ ![Modulo Nuovo nome campo dimensioni di determinazione dei prezzi.](media/PD-fieldname-Added.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

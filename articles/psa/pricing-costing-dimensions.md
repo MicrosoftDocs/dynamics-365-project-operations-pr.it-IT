@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5c8c28839f5e7b3259afbea4ab400d0c4fca95fd
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368886"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998466"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Home page delle dimensioni di determinazione di prezzi e costi
 
@@ -41,7 +41,7 @@ Data la natura tipica di questi attributi del lavoro e le persone richieste per 
 
 PSA include un set predefinito di dimensioni di determinazione dei prezzi. Puoi visualizzare queste dimensioni selezionando **Project Service** > **Parametri**. Nel record del parametro, nella scheda **Dimensione di determinazione dei prezzi basata su importo**, verifica che i campi **Vendite applicabili a** e **Costo applicabile a** del ruolo **msdyn_resourcecategory** e dell'unità organizzativa di gestione risorse **msdyn_organizationalunit** siano impostati su **Sì**. Ciò ti consentirà di impostare il prezzo e il costo di ogni combinazione di unità organizzativa e ruolo.
 
-![Screenshot dei parametri di Project Service con il campo "Vendite applicabili a" evidenziato](media/PS-OOB-parameters.png)
+![Screenshot dei parametri di Project Service con il campo "Vendite applicabili a" evidenziato.](media/PS-OOB-parameters.png)
 
 > [!IMPORTANT]
 > Se hai utilizzato i campi predefiniti di ruolo e unità organizzativa come dimensioni di determinazione dei prezzi prima della versione 3 di PSA, non vi sono differenze. Puoi continuare a utilizzare Project Service come di consueto. 

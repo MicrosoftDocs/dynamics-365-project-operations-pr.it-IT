@@ -16,12 +16,12 @@ ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
 search.app:
 - ProjectOperations
-ms.openlocfilehash: c6d849e4be9e3687396cd6a0c4158d92f25c7879
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 88706946e5c5c59be996640f4c7b37e958c1cf1d9fd14c72c0c6dc854a77dab4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012051"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995406"
 ---
 # <a name="bulk-corrections-of-actuals-created-by-approved-time-and-expense-entries"></a>Correzioni in blocco di valori effettivi creati tramite voci di spesa e inserimenti ore approvati
 
@@ -62,7 +62,7 @@ Completa i seguenti passaggi per correggere uno o più inserimenti ore per un pr
 
 Il grafico seguente contiene ad esempio due voci con una quantità pari a 8,00, con i relativi addebiti elencati nella colonna Importo. Sono inoltre presenti due voci con una quantità pari a -8,00, i cui importi accreditati sono mostrati nella colonna Importo. Il risultato di queste correzioni è una quantità pari a zero.
 
-![Elenco Visualizzazione associata valore effettivo](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement-pr/blob/bulk-corrections-actuals-created-by-approved-time-expense-entries.md/time-actuals.png)
+![Elenco Visualizzazione associata valore effettivo.](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement-pr/blob/bulk-corrections-actuals-created-by-approved-time-expense-entries.md/time-actuals.png)
  
 ## <a name="correct-approved-expense-entries"></a>Correggere le voci di spesa approvate
 
@@ -87,7 +87,7 @@ Completa i seguenti passaggi per correggere una o più voci di spesa.
 
 8. Nella pagina del progetto, nella scheda **Valori effettivi** controlla **Visualizzazione associata valore effettivo**. Viene visualizzato un elenco delle voci originali e di quelle corrette. Il grafico seguente mostra gli importi delle voci di spesa originali e gli importi delle voci di spesa corretti corrispondenti. 
 
-![Expense_actuals](https://user-images.githubusercontent.com/60806505/77122219-4cd52900-69fa-11ea-8349-ccd2ffebf640.png)
+![Expense_actuals.](https://user-images.githubusercontent.com/60806505/77122219-4cd52900-69fa-11ea-8349-ccd2ffebf640.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

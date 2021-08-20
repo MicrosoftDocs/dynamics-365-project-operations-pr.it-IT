@@ -10,12 +10,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 19fae15bf309936cab415c2a71a414ab37837fce
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 01e2f1f6b29e040d5c72af402031e13a867736405c4ee161e49b74a30e4b506e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007281"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985551"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Installazione di dati di esempio per l'applicazione Project Service
 
@@ -86,7 +86,7 @@ Il protocollo di installazione presuppone quanto segue per l'istanza di destinaz
 La funzione screen saver del computer deve essere disattivata. In caso contrario, è possibile la perdita delle credenziali della sessione per l'installazione quando la funzione screen saver viene attivata (a meno che la sessione non viene mantenuta sempre attiva).
 
 > [!div class="mx-imgBorder"]
-> ![Schermata delle impostazioni di screen saver con tale funzione disattivata](media/sample-data-1.png)
+> ![Schermata delle impostazioni di screen saver con tale funzione disattivata.](media/sample-data-1.png)
 
 ## <a name="download-and-unpack"></a>Scaricare e decomprimere
 
@@ -142,7 +142,7 @@ Il pacchetto di dati dimostrativi richiede sei utenti. Affinché il pacchetto ve
 3. Apri **PkgFolder**, quindi individua ed apri **ImportUserMapFile.xml**. Aggiorna i campi **Nuovo=** sugli indirizzi e-mail degli utenti corrispondenti nel sistema.
 
    > [!div class="mx-imgBorder"]
-   > ![Schermata di UserMapFile](media/sample-data-7.png)
+   > ![Schermata di UserMapFile.](media/sample-data-7.png)
 
 4. Se l'utente con il nome completo "Spencer Low" ha un ID utente diverso da **"spencerl"**, devi aggiornare un file aggiuntivo. Apri **DemoDataPreImportConfig.xml**, quindi trova il tag **userstocreateandconfigure**. Aggiorna il tag **\<login\>** con il loginId (con distinzione tra maiuscole e minuscole). 
 
@@ -172,7 +172,7 @@ Il pacchetto di dati dimostrativi richiede sei utenti. Affinché il pacchetto ve
 5. Selezionare **Avanti** finché non viene visualizzata la finestra di dialogo **Installazione dati dimostrativi**.
 
    > [!div class="mx-imgBorder"]
-   > ![Schermata della finestra di stato del programma di installazione di dati dimostrativi](media/sample-data-3.png)
+   > ![Schermata della finestra di stato del programma di installazione di dati dimostrativi.](media/sample-data-3.png)
 
 6. Prima di continuare, notare che l'installazione di dati di esempio può richiedere fino a un'ora (normalmente ~10 minuti). È necessario assicurarsi che il computer sia acceso e collegato a una rete durante il processo di installazione e che la sessione rimanga attiva.   
 
@@ -191,10 +191,10 @@ Dopo il completamento del caricamento dei dati di esempio, accedere come Spencer
 - Se l'applicazione Field Service è installata, accedere a **Project Service** > **Impostazioni** > **Listini prezzi**. Confermare che i tassi di fatturazione e di costo esistono. Selezionare **Field Service** > **Impostazioni** > **Listini prezzi** e verificare l'esistenza di tassi di fatturazione e di costo, con la valuta appropriata, per ogni paese/area geografica nel set di dati.
 
   > [!div class="mx-imgBorder"]
-  > ![Schermata dei listini prezzi attivi](media/sample-data-4.png)
+  > ![Schermata dei listini prezzi attivi.](media/sample-data-4.png)
 
   > [!div class="mx-imgBorder"]
-  > ![Schermata delle unità organizzative attive](media/sample-data-5.png)
+  > ![Schermata delle unità organizzative attive.](media/sample-data-5.png)
 
 ## <a name="technical-notes"></a>Note tecniche
 
@@ -295,7 +295,7 @@ Se è necessario modificare le ore lavorative per le risorse prenotabili di esem
 Selezionare un utente (ad esempio, Spencer Low) e sostituire le ore lavorative di Spencer con le ore che si intende applicare a più utenti. Vai a **Universal Resource Scheduling** > **Impostazioni** > **Modelli di ore lavorative** e modifica il record **Modello di lavoro predefinito**. Nel campo **Risorsa Modello**, selezionare un utente con le ore lavorative che si desidera applicare ad altre risorse. Vai a **Universal Resource Scheduling** > **Pianificazione** > **Risorse** > .**Risorse prenotabili attive**. Selezionare le risorsa che si desidera modificare e quindi selezionare **Imposta calendario**. Nell'elenco a discesa **Modello di lavoro**, selezionare il modello **Ore lavorative predefinite** o un altro modello con la risorsa corretta. Quando accedi alla scheda di pianificazione, potrai vedere che le ore lavorative delle risorse sono state aggiornate.
 
 > [!div class="mx-imgBorder"]
-> ![Schermata delle risorse prenotabili attive](media/sample-data-6.png)
+> ![Schermata delle risorse prenotabili attive.](media/sample-data-6.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

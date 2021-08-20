@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d0712d9d5dfc6c35ccd07142ff5948f50e6a254c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fd98ec360cbd89c9fb7e49bfa11cfffeffca541441e641c973a23c141c922cd2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995491"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988566"
 ---
 # <a name="provision-a-new-environment"></a>Effettuare il provisioning di un nuovo ambiente
 
@@ -52,12 +52,12 @@ Utilizza i passaggi seguenti per abilitare il flusso di provisioning automatizza
 
 6. Seleziona il tipo di ambiente per la distribuzione. Una versione di valutazione basata su abbonamento ti consentirà di distribuire un ambiente CDS per 30 giorni. 
 
-![Impostazioni di distribuzione](./media/1DeploymentSettings.png)
+![Impostazioni di distribuzione.](./media/1DeploymentSettings.png)
 
 > [!IMPORTANT]
 > Seleziona **Accetto** per accettare le condizioni d'uso e quindi seleziona **Fatto** per tornare alle impostazioni di distribuzione.
 
-![Consenso distribuzione](./media/2DeploymentConsent.png)
+![Consenso distribuzione.](./media/2DeploymentConsent.png)
 
 7. Facoltativo: applica i dati demo all'ambiente. Vai a **Impostazioni avanzate** seleziona **Personalizza configurazione database SQL** e imposta **Specificare un set di dati per il database dell'applicazione** su **Demo**.
 
@@ -67,7 +67,7 @@ Utilizza i passaggi seguenti per abilitare il flusso di provisioning automatizza
 
 9. Per confermare che l'ambiente è stato distribuito correttamente, seleziona **Accesso** e accedi all'ambiente per confermare.
 
-![Dettagli degli ambienti ](./media/3EnvironmentDetails.png)
+![Dettagli ambiente.](./media/3EnvironmentDetails.png)
 
 ## <a name="apply-updates-to-the-finance-environment"></a>Applicare gli aggiornamenti all'ambiente Finance
 
@@ -77,19 +77,19 @@ Potrebbe essere necessario applicare aggiornamenti di qualità all'ambiente Fina
 
 1. In LCS, nella pagina **Dettagli ambiente**, nella sezione **Aggiornamenti disponibili**, seleziona **Visualizza aggiornamento**.
 
-![Visualizzare gli aggiornamenti](./media/5ViewUpdates.png)
+![Visualizzare gli aggiornamenti.](./media/5ViewUpdates.png)
 
 2. Nella pagina **Aggiornamenti binari**, seleziona **Salva pacchetto**.
 
-![Salvare il pacchetto](./media/6SavePackage.png)
+![Salvare il pacchetto.](./media/6SavePackage.png)
 
 3. Fai clic su **Seleziona tutto** e quindi seleziona **Salva pacchetto**.
 
-![Verificare e salvare gli aggiornamenti](./media/7ReviewAndSaveUpdates.png)
+![Verificare e salvare gli aggiornamenti.](./media/7ReviewAndSaveUpdates.png)
 
 4. Immetti un nome e una descrizione del pacchetto, quindi seleziona **Salva**. A seconda della connessione Internet, questo processo potrebbe richiedere del tempo.
 
-![Caricare il pacchetto nella raccolta di risorse](./media/8UploadPackageToAssetsLibrary.png)
+![Caricare il pacchetto nella raccolta di risorse.](./media/8UploadPackageToAssetsLibrary.png)
 
 5. Dopo aver salvato il pacchetto, seleziona **Fatto** e salva questo pacchetto nella raccolta di risorse nel progetto LCS.
 
@@ -97,15 +97,15 @@ Il salvataggio e la convalida del pacchetto potrebbero richiedere circa 15 minut
 
 6. Per applicare l'aggiornamento, passa alla pagina **Dettagli ambiente** in LCS e seleziona **Gestisci** > **Applica aggiornamenti**.
 
-![Gestire gli ambienti](./media/9MaintainEnvironment.png)
+![Gestire gli ambienti.](./media/9MaintainEnvironment.png)
 
 7. Nell'elenco degli aggiornamenti seleziona il pacchetto che hai creato e seleziona **Applica**.
 
-![Applicare gli aggiornamenti](./media/10ApplyUpdates.png)
+![Applicare gli aggiornamenti.](./media/10ApplyUpdates.png)
 
 La manutenzione dell'ambiente richiederà del tempo. Al termine, l'ambiente tornerà a uno stato distribuito.
 
-![Ambiente distribuito](./media/11EnvironmentDeployed.png)
+![Ambiente distribuito.](./media/11EnvironmentDeployed.png)
 
 ## <a name="establish-a-dual-write-connection"></a>Stabilire una connessione a Doppia scrittura 
 
@@ -113,41 +113,41 @@ La manutenzione dell'ambiente richiederà del tempo. Al termine, l'ambiente torn
 2. In **Informazioni sull'ambiente Common Data Service**, seleziona **Collega a CDS per app**.
 3. Dopo aver completato il collegamento, seleziona di nuovo **Collega a CDS per app**. Verrai reindirizzato a Doppia scrittura in Finance.
 
-![Collegamento a CDS](./media/12LinktoCDS.png)
+![Collegamento a CDS.](./media/12LinktoCDS.png)
 
 4. Seleziona **Applica soluzione** per accedere alle entità che verranno mappate nell'integrazione.
 
-![Applica soluzioni](./media/13ApplySolutions.png)
+![Applicare soluzioni.](./media/13ApplySolutions.png)
 
 5. Seleziona entrambe le soluzioni, **Dynamics 365 Finance and Operations Dual Write Entity Map** e **Dynamics 365 Project Operations Dual Write Entity Maps** e quindi seleziona **Applica**.
 
-![Confermare le soluzioni](./media/14ConfirmSolutions.png)
+![Confermare le soluzioni.](./media/14ConfirmSolutions.png)
 
 Dopo aver applicato le soluzioni, le entità doppia scrittura vengono applicate all'ambiente.
 
-![Applicazione delle soluzioni](./media/15ApplyingSolutions.png)
+![Applicazione delle soluzioni.](./media/15ApplyingSolutions.png)
 
 Dopo l'applicazione delle entità, tutti i mapping disponibili vengono elencati nell'ambiente.
 
-![Mapping doppia scrittura](./media/15DWMappings.png)
+![Mapping doppia scrittura.](./media/15DWMappings.png)
 
 ## <a name="refresh-the-data-entities-after-the-update"></a>Aggiornare le entità di dati dopo l'aggiornamento
 
 1. In Finance, vai all'area di lavoro **Gestione dati**.
 
-![Area di lavoro Gestione dati](./media/16DataManagement.png)
+![Area di lavoro Gestione dati.](./media/16DataManagement.png)
 
 2. Seleziona il riquadro **Parametri framework**.
 
-![Parametri framework](./media/17FrameworkParameters.png)
+![Parametri framework.](./media/17FrameworkParameters.png)
 
 3. Nella pagina **Impostazioni entità**, seleziona **Aggiorna elenco di entità**.
 
-![Aggiornare l'elenco di entità](./media/18RefreshEntityList.png)
+![Aggiornare l'elenco di entità.](./media/18RefreshEntityList.png)
 
 L'aggiornamento richiederà circa 20 minuti. Riceverai un avviso quando sarà completo.
 
-![Conferma dell'aggiornamento](./media/19RefreshConfirmation.png)
+![Conferma dell'aggiornamento.](./media/19RefreshConfirmation.png)
 
 ## <a name="update-security-settings-on-project-operations-on-dataverse"></a>Aggiornare le impostazioni di sicurezza su Project Operations su Dataverse
 
@@ -188,17 +188,17 @@ L'aggiornamento richiederà circa 20 minuti. Riceverai un avviso quando sarà co
 4. Per aggiornare l'entità, seleziona il nome del mapping, quindi seleziona **Aggiorna entità**. 
 
 
-![Aggiornare il mapping](./media/20RefreshMapping.png)
+![Aggiornare il mapping.](./media/20RefreshMapping.png)
 
 5. Esegui il mapping al termine dell'aggiornamento. Prima di abilitare il mapping successivo, verificare che il mapping nella tabella sia in uno stato **In esecuzione**. L'esecuzione di mapping con un numero maggiore di prerequisiti potrebbe richiedere del tempo.
 
 Per eseguire un mapping con prerequisiti, abilita l'interruttore **Mostra mapping entità correlate**. Se la tabella indica che **Sincronizzazione iniziale prerequisiti** è **No**, verifica che il contrassegno **Sincronizzazione iniziale** sia **Disattivato** in tutti i mapping di prerequisiti prima di eseguirlo.
 
-![Eseguire il mapping](./media/21RunMap.png)
+![Eseguire il mapping.](./media/21RunMap.png)
 
 6. Conferma che tutti i mapping relativi al progetto siano in stato di esecuzione.
 
-![Tutti i mapping in esecuzione](./media/22AllMapsRunning.png)
+![Tutti i mapping in esecuzione.](./media/22AllMapsRunning.png)
 
 
 ## <a name="apply-configuration-data-in-cds-for-project-operations-optional"></a>Applicare i dati di configurazione in CDS per Project Operations (facoltativo)

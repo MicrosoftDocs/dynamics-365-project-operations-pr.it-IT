@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f7f116877340e9efec1aa7b3af875920f38fcdce
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: dfbfb59547f295e5fb275264b9222bfa20517f6278144ca013e14a99454b6840
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014976"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000581"
 ---
 # <a name="project-pricing"></a>Determinazione dei prezzi di progetto 
 
@@ -46,7 +46,7 @@ L'entità Listino prezzi include tre tabelle correlate che archiviano i prezzi:
   - **Prezzo categoria di transazione** - Questa tabella archivia i prezzi per categoria di transazione ed è utilizzata per configurare i prezzi delle categorie di spese.
   - **Voci di listino** - Questa tabella archivia i prezzi dei prodotti in catalogo.
 
-> ![Configurare prezzi utilizzando un listino prezzi](media/basic-guide-12.png)
+> ![Configurare prezzi utilizzando un listino prezzi.](media/basic-guide-12.png)
  
 Il listino prezzi è un tariffario pubblicitario. Un tariffario pubblicitario è una combinazione dell'entità Listino prezzi e delle righe correlate nelle tabelle Prezzo ruolo, Prezzo categoria di transazione e Voci di listino.
 
@@ -58,7 +58,7 @@ Il tempo delle risorse umane viene in genere stimato in base al ruolo di una ris
 
 L'unità di vendita **Tempo** viene creata all'installazione di PSA. L'unità predefinita è **Ora**. Non puoi eliminare, rinominare, o modificare gli attributi dell'unità di vendita **Tempo** o dell'unità **Ora**. Puoi tuttavia aggiungere altre unità all''unità di vendita **Tempo**. Se cerchi di eliminare l'unità di vendita **Tempo** o l'unità **Ora**, è possibile che si verifichino errori nelle logica di business di PSA.
 
-> ![Configurare prezzi per ruolo](media/basic-guide-13.png)
+> ![Configurare prezzi per ruolo.](media/basic-guide-13.png)
  
 ## <a name="transaction-categories-and-expense-categories"></a>Categorie di transazioni e di spese
 
@@ -68,7 +68,7 @@ Le spese di viaggio e altre spese dei consulenti per un progetto sono in genere 
 - **Percentuale ricarico** - La percentuale sul costo effettivo viene fatturata al cliente. 
 - **Prezzo unitario** - Un prezzo di fatturazione viene impostato per ogni unità della categoria di spese. L'importo fatturato al cliente viene calcolato in base al numero di unità di spesa segnalato dal consulente. Per Indennità trasferta viene utilizzato il metodo di determinazione dei prezzi Prezzo unitario. Ad esempio, la categoria di spesa Indennità trasferta può essere configurata per 30 dollari USA (USD) al giorno o 2 USD per miglio. Quando un consulente segnala il chilometraggio per un progetto, l'importo da fatturare viene calcolato in base al numero di miglia indicato dal consulente.
 
-> ![Configurare la determinazione dei prezzi per le categorie di spesa](media/basic-guide-14.png)
+> ![Configurare la determinazione dei prezzi per le categorie di spesa.](media/basic-guide-14.png)
  
 ## <a name="project-sales-pricing-and-overrides"></a>Determinazione dei prezzi di vendita di progetto e sostituzioni
 
@@ -114,7 +114,7 @@ Tuttavia, in un'offerta, puoi utilizzare un listino prezzi master. In alternativ
 
 Quando crei un listino prezzi di progetto personalizzato, solo i componenti di progetto del listino prezzi vengono copiati. In altre parole un nuovo listino prezzi creato come copia del listino prezzi di progetto esistente viene associato all'offerta e questo nuovo listino prezzi include solo i prezzi per ruolo e i prezzi per categoria di transazione correlati.
 
-> ![Visualizzare e configurare la determinazione dei prezzi personalizzata per un contratto di progetto](media/basic-guide-15.png)
+> ![Visualizzare e configurare la determinazione dei prezzi personalizzata per un contratto di progetto.](media/basic-guide-15.png)
   
 ## <a name="tracking-costs"></a>Tenere traccia dei costi
 

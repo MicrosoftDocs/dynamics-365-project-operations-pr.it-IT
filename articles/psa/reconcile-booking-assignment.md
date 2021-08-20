@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 73cbc89ae4350cbd568f1bb978825ff53da07afb
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 264271a5be63cb2e51f175595a48bef5fbff0a42a37795c85dd5b4725deec35e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008901"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995136"
 ---
 # <a name="reconcile-bookings-and-assignments"></a>Riconciliare prenotazioni e assegnazioni
 
@@ -51,11 +51,11 @@ In alcuni casi, quando il campo **Scala cronologica** è impostato su un livello
 
 Quando visualizzi livelli di tempo superiori, nelle celle della scheda **Riconciliazione** viene visualizzato un indicatore che informa dell'esistenza di differenze nei livelli di tempo inferiori. Ad esempio, nell'illustrazione seguente, un indicatore di cella è visualizzato nella cella del mese di ottobre 2018 per la risorsa Elisa Lombardi. Pertanto, puoi vedere che, anche se le prenotazioni e le assegnazioni della risorsa sono uguali quando vengono aggregate al livello **Mese**, non corrispondono ai livelli inferiori.
 
-![Prenotazioni e assegnazioni non corrispondenti a livello di mese](media/reconcile-assignments-01.JPG)
+![Prenotazioni e assegnazioni non corrispondenti a livello di mese.](media/reconcile-assignments-01.JPG)
 
 Fai doppio clic su una cella per eseguire uno zoom avanti fino al livello inferiore successivo e visualizzare la differenza. Ad esempio, se fai doppio clic sulla differenza di ottobre 2018 per Elisa Lombardi, esegui il drill-down fino al livello **Settimana**. Puoi quindi osservare che la risorsa ha prenotazioni di 16 ore ma nessuna assegnazione nelle prime due settimane di ottobre e 16 ore di assegnazioni ma nessuna prenotazione nella terza settimana di ottobre.
 
-![Prenotazioni e assegnazioni non corrispondenti a livello di settimana](media/reconcile-assignments-02.JPG)
+![Prenotazioni e assegnazioni non corrispondenti a livello di settimana.](media/reconcile-assignments-02.JPG)
 
 Puoi fare clic con il pulsante destro del mouse su una cella per eseguire uno zoom indietro fino al livello superiore successivo. Puoi inoltre disattivare l'indicatore di cella selezionando il pulsante **Impostazioni**. 
 
@@ -68,13 +68,13 @@ Per garantire risultati accurati e prevedibili quando si utilizza Estendi prenot
 
 - L'utente deve configurare il fuso orario del proprio dispositivo affinché corrisponda al fuso orario definito nelle impostazioni di personalizzazione del sistema.
  
-  ![Impostazioni di fuso orario in Windows 10](media/reconcile-assignments-03.png)
+  ![Impostazioni di fuso orario in Windows 10.](media/reconcile-assignments-03.png)
 
-  ![Impostazioni di fuso orario nelle impostazioni di personalizzazione](media/reconcile-assignments-04.png)
+  ![Impostazioni di fuso orario nelle impostazioni di personalizzazione.](media/reconcile-assignments-04.png)
  
 - La risorsa prenotabile deve avere almeno un minuto di orario di lavoro che si sovrappone ai profili utilizzati per definire l'estensione richiesta. Ad esempio, l'esempio seguente mostra le risorse di revisione con orari di lavoro che cadono tra le 9:00 e le 19:00. 
 
-  ![Confronto dei profili delle risorse](media/reconcile-assignments-05.png)
+  ![Confronto dei profili delle risorse.](media/reconcile-assignments-05.png)
 
 La tabella seguente mostra:
 
@@ -83,22 +83,22 @@ La tabella seguente mostra:
 - Risorse B: questa risorsa si trova in un fuso orario diverso rispetto al progetto e pertanto inizia alle 7:00 nel suo fuso orario. Tuttavia, le prenotazioni inizieranno alle 9:00 in quanto è il primo orario di inizio del profilo dell'assegnazione.
 - Risorse C e D: le risorse si trovano in fusi orari diversi, entrambi diversi tra loro e dal progetto e le prenotazioni iniziano non prima dei rispettivi orari di inizio disponibili.
 
-|Entità  |Calendario  |
+|Entity  |Calendari  |
 |-|-|
-|Modello di calendario di progetto   | ![calendario di progetto](media/reconcile-assignments-06.png) |
-|Risorsa A  | ![Calendario della risorsa A](media/reconcile-assignments-06.png) |
-|Risorsa B  |  ![Calendario della risorsa B](media/reconcile-assignments-07.png) |
-|Risorsa C  |  ![Calendario della risorsa C](media/reconcile-assignments-08.png) |
-|Risorsa D  | ![Calendario della risorsa D](media/reconcile-assignments-09.png)  |
+|Modello di calendario di progetto   | ![calendario di progetto.](media/reconcile-assignments-06.png) |
+|Risorsa A  | ![Calendario della risorsa A.](media/reconcile-assignments-06.png) |
+|Risorsa B  |  ![Calendario della risorsa B.](media/reconcile-assignments-07.png) |
+|Risorsa C  |  ![Calendario della risorsa C.](media/reconcile-assignments-08.png) |
+|Risorsa D  | ![Calendario della risorsa D.](media/reconcile-assignments-09.png)  |
  
 Quando si accede alla visualizzazione di riconciliazione, verranno visualizzate le assegnazioni delle risorse e le relative insufficienze di prenotazione.
- ![Visualizzazione di riconciliazione prima dell'estensione](media/reconcile-assignments-10.png)
+ ![Visualizzazione di riconciliazione prima dell'estensione.](media/reconcile-assignments-10.png)
 
 Dopo che la funzionalità di estensione della prenotazione è stata eseguita su ciascuna risorsa, le prenotazioni vengono estese correttamente per ogni risorsa. Questo perché le ore lavorative di ciascuna risorsa si sovrappongono ai profili dell'insufficienza.
- ![Visualizzazione di riconciliazione dopo l'estensione della prenotazione](media/reconcile-assignments-11.png) 
+ ![Visualizzazione di riconciliazione dopo l'estensione della prenotazione.](media/reconcile-assignments-11.png) 
 
 Tuttavia, uno sguardo più attento ai dettagli delle prenotazioni mostra differenze nell'orario di inizio delle prenotazioni. Le prenotazioni inizieranno non prima dell'orario di inizio del profilo di assegnazione e non prima dell'orario di inizio disponibile della risorsa.
- ![Nuove prenotazioni delle risorse nella scheda di pianificazione](media/reconcile-assignments-12.png)
+ ![Nuove prenotazioni delle risorse nella scheda di pianificazione.](media/reconcile-assignments-12.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

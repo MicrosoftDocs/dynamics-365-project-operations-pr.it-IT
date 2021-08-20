@@ -6,12 +6,12 @@ ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d46d4659a5f60226f80b29f3dd8607249cb91ac2
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1e8487d3d32acab294bb2de16fb0278f357f774e62b553eb0c1ebd5b6246e332
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011196"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996261"
 ---
 # <a name="use-a-bookable-resource-as-a-pricing-dimension"></a>Utilizzare una risorsa prenotabile come dimensione di determinazione dei prezzi
 
@@ -64,18 +64,18 @@ Per una risorsa prenotabile, l'entità **Membri del team di progetto** ha un nom
 1. Fai doppio clic sulla riga nella griglia **Dimensioni di determinazione dei prezzi** per aprire la pagina di **msdyn_bookableresource**.
 2. Nella pagina della dimensione, nella scheda **Elementi correlati**, seleziona **Nomi campo dimensioni determinazione dei prezzi**.
 
-  ![Scheda Nomi campo dimensioni determinazione dei prezzi](media/PD-fieldname.png)
+  ![Scheda Nomi campo dimensioni determinazione dei prezzi.](media/PD-fieldname.png)
 
 3. Nella vista associata che viene aperta, seleziona **Aggiungi nuovo nome campo dimensioni determinazione dei prezzi**.
 
-  ![Aggiungi nuovo nome campo dimensioni determinazione dei prezzi](media/Add-NewPD-fieldname.png)
+  ![Aggiungi nuovo nome campo dimensioni determinazione dei prezzi.](media/Add-NewPD-fieldname.png)
 
   Viene aperta la pagina **Nuovo nome campo dimensioni di determinazione dei prezzi** per **msdyn_bookableresource**. 
 
 4. Nella pagina **Nuovo nome campo dimensione determinazione prezzo**, aggiungi **msdyn_projectteam** per **Nome locale dell'entità**.
 5. Aggiungi **msdyn_bookableresourceid** a **Nome campo**.
 
- ![Modulo Nuovo nome campo dimensioni di determinazione dei prezzi](media/PD-fieldname-Added.png)
+ ![Modulo Nuovo nome campo dimensioni di determinazione dei prezzi.](media/PD-fieldname-Added.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

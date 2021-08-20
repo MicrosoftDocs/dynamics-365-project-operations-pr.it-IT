@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da7add25634cd1d7ff36c7a9b57b1efa6ad765d7
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369696"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007511"
 ---
 # <a name="project-management-and-accounting-overview"></a>Panoramica della contabilità e della gestione dei progetti
 
@@ -34,14 +34,14 @@ Un progetto è un gruppo di attività progettate per fornire un servizio, produr
 ## <a name="projects-across-industries"></a>Progetti in tutti i settori
 La funzionalità di gestione dei progetti e contabilità può essere utilizzata in più settori, come mostrato nell'illustrazione seguente.
 
-[![Progetti in tutti i settori](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+[![Progetti in tutti i settori.](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 In un call center, un ticket può essere utilizzato per descrivere l'insieme di azioni necessarie per risolvere una chiamata. Le società di consulenza, come le organizzazioni di consulenza tecnica o gestionale o le agenzie pubblicitarie, si riferiscono alle loro attività come progetti. Nel marketing, una campagna rappresenta un insieme di attività lavorative che devono essere eseguite. Nella produzione basata su progetto, un ordine di produzione si riferisce ai vari lavori che devono essere eseguiti per produrre alcuni prodotti finiti. Qualunque sia il nome utilizzato per loro, questi progetti coinvolgono risorse, programmi e costi e la funzionalità di contabilità e gestione dei progetti può aiutare con la pianificazione, l'esecuzione e l'analisi di questi progetti.
 
 ## <a name="project-phases"></a>Fasi del progetto
 Sebbene il flusso di processo seguente sia rivolto a progetti esterni o progetti completati per uno o più clienti, la funzionalità si applica anche a progetti interni a solo costo. 
 
-![3 fasi di un progetto](./media/3-stages-of-a-project.png) 
+![3 fasi di un progetto.](./media/3-stages-of-a-project.png) 
 
 Come mostrato nell'illustrazione precedente, la gestione del progetto e la contabilità possono essere suddivise in tre fasi:
 
@@ -50,7 +50,7 @@ Come mostrato nell'illustrazione precedente, la gestione del progetto e la conta
 3.  Analizza
 
 ## <a name="initiate-the-project"></a>Avviare il progetto
-Durante l'avvio del progetto, si verificano diversi processi chiave. Puoi utilizzare un'offerta di progetto per comunicare al cliente la manodopera, le spese e i materiali stimati. Puoi registrare i termini di fatturazione, i limiti e gli accordi in un contratto di progetto. Puoi utilizzare una struttura di suddivisione del lavoro (WBS) per pianificare e stimare il lavoro. Puoi configurar previsioni e budget per guidare l'esecuzione del progetto. La figura seguente mostra la struttura di un progetto.[![struttura del progetto](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
+Durante l'avvio del progetto, si verificano diversi processi chiave. Puoi utilizzare un'offerta di progetto per comunicare al cliente la manodopera, le spese e i materiali stimati. Puoi registrare i termini di fatturazione, i limiti e gli accordi in un contratto di progetto. Puoi utilizzare una struttura di suddivisione del lavoro (WBS) per pianificare e stimare il lavoro. Puoi configurar previsioni e budget per guidare l'esecuzione del progetto. La figura seguente mostra la struttura di un progetto.[![struttura del progetto.](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
 
 ### <a name="create-project-quotations"></a>Creare offerte di progetto
 

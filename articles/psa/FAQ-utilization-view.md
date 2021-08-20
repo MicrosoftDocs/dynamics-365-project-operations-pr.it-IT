@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e1c123854209b3cb5c310e3bbcb242c9219279a8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 32dba5acd95c1d192556153240ebd51343112be53aa3db93e5e6f127c2d960e9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5992839"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007151"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>Visualizzare l‘utilizzo addebitabile per le risorse
 
@@ -29,7 +29,7 @@ ms.locfileid: "5992839"
  
 La **vista utilizzo** nella pagina **Utilizzo risorse di Project Service** mostra l'utilizzo addebitabile per ogni risorsa prenotabile. Poiché la vista è basata sulla scheda di pianificazione, include molte delle funzionalità di quella scheda.
 
-> ![Vista Utilizzo](media/FAQ-utilization-1.png)
+> ![Vista Utilizzo.](media/FAQ-utilization-1.png)
  
 
 Il calcolo dell'utilizzo addebitabile viene eseguito in questo modo:
@@ -48,7 +48,7 @@ L'utilizzo di destinazione può essere impostato nel ruolo predefinito della ris
 2. Selezionare una risorsa per aprire il record. 
 3. Nella scheda **Project Service**, è possibile impostare l'utilizzo di destinazione della risorsa.
 
-> ![Utilizzo della scheda Project Service per impostare l'utilizzo di destinazione](media/FAQ-utilization-2.png)
+> ![Utilizzo della scheda Project Service per impostare l'utilizzo di destinazione.](media/FAQ-utilization-2.png)
  
 ## <a name="set-target-utilization-on-a-role"></a>Impostare l'utilizzo di destinazione in un ruolo
 
@@ -56,7 +56,7 @@ L'utilizzo di destinazione può essere impostato nel ruolo predefinito della ris
 2. Selezionare un ruolo e aprire il record. 
 3. Impostare l'utilizzo di destinazione per il ruolo.
 
-> ![Utilizzo di Ruoli risorsa per impostare l'utilizzo di destinazione](media/FAQ-utilization-3.png)
+> ![Utilizzo di Ruoli risorsa per impostare l'utilizzo di destinazione.](media/FAQ-utilization-3.png)
  
 ## <a name="calculate-chargeable-utilization-for-a-resource"></a>Calcolare un utilizzo addebitabile per una risorsa
 
