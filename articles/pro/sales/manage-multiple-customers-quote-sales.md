@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c9b3c1a1b958de0fc5d58199b8229ea5b3b221d01efe6602eecffdd100f13cae
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ec5cd77318afdbfb01af2f1dc9ad151849374593
+ms.sourcegitcommit: bbcfb917667e319247f6e57143f87a3e89fa5077
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001661"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440782"
 ---
 # <a name="manage-multiple-customers-on-project-quotes---lite"></a>Gestire più clienti nelle offerte di progetto - semplice
 
@@ -37,7 +37,7 @@ Un cliente dell'offerta può essere creato, aggiornato o eliminato dalla scheda 
 
 | **Campo** | **Luogo** | **Descrizione** | **Impatto downstream** |
 | --- | --- | --- | --- |
-| Conto | Griglia modificabile nella scheda **Clienti offerta** e i moduli **Principale** e **Creazione rapida** per un cliente dell'offerta. | Elenca tutti gli account attivi. Questo campo è bloccato dopo la creazione del record. Se desideri aggiornarlo, elimina il record e ricrealo. Se sono stati registrati valori effettivi o se il record del cliente dell'offerta è un cliente primario, sarà possibile eliminare il record. | I clienti dell'offerta vengono copiati come clienti della riga dell'offerta quando viene creata una riga dell'offerta. I clienti dell'offerta vengono copiati anche nei clienti del contratto di progetto quando un'offerta viene acquisita. |
+| Conto | Griglia modificabile nella scheda **Clienti offerta** e i moduli **Principale** e **Creazione rapida** per un cliente dell'offerta. | Elenca tutti gli account attivi. Questo campo è bloccato dopo la creazione del record. Se desideri aggiornarlo, elimina il record e ricrealo. Se hai registrato effettivi o se il record del cliente preventivo è un cliente primario, non ti sarà consentito eliminare il record. | I clienti dell'offerta vengono copiati come clienti della riga dell'offerta quando viene creata una riga dell'offerta. I clienti dell'offerta vengono copiati anche nei clienti del contratto di progetto quando un'offerta viene acquisita. |
 | Percentuale di suddivisione fatturazione | Griglia modificabile nella scheda **Clienti offerta** e i moduli **Principale** e **Creazione rapida** per un cliente dell'offerta. | Rappresenta la percentuale di ciascuna transazione di vendita non fatturata che verrà attribuita a questo cliente dell'offerta. | Copiato nelle nuove righe dell'offerta e nei clienti del contratto di progetto. |
 | Nome contatto fatturazione | Griglia modificabile nella scheda **Clienti offerta** e i moduli **Principale** e **Creazione rapida** per un cliente dell'offerta. | Questo è un campo di testo e deve essere utilizzato per identificare la persona di contatto per le fatture per questo cliente. Questi sono impostati in modo predefinito dal record dell'account correlato | Copiato nei clienti del contratto di progetto quando viene acquisita un'offerta e nel campo del nome del contatto di fatturazione sulla fattura generata per questo cliente. |
 | Nome fatturazione | Griglia modificabile nella scheda **Clienti offerta** e i moduli **Principale** e **Creazione rapida** per un cliente dell'offerta. | Questo campo di testo deve essere utilizzato per identificare la persona di contatto per le fatture per questo cliente. | Copiato nei clienti del contratto di progetto quando viene acquisita un'offerta e nel campo **Nome contatto fatturazione** sulla fattura generata per questo cliente. |

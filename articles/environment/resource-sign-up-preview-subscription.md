@@ -6,12 +6,12 @@ ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 75ee31e67018fe2a7655d8a8f11e40b433a9a5db6f8f2addac27844f18fffe8d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f47d5a29c0e40a49aed7b3e52c5d52a9c27b8dbc
+ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007871"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7323421"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Iscriversi per gli abbonamenti in anteprima a Project Operations per scenari basati su risorse/non stoccate
 
@@ -23,7 +23,7 @@ Questo argomento spiega come sottoscrivere l'offerta della versione di valutazio
 
 ## <a name="prerequisites"></a>Prerequisiti
 - L'utente che distribuisce l'anteprima deve disporre dei diritti di amministratore globale del tenant di Azure. Puoi creare un tenant durante il primo riscatto dell'offerta. 
-- La distribuzione di un ambiente Finance richiede una sottoscrizione di Azure valida che verrà fatturata in base all'ambiente. Puoi utilizzare la sottoscrizione esistente della tua organizzazione o utilizzare una [versione di valutazione di Azure](https://azure.microsoft.com/en-us/free/) per iniziare. L'ambiente CDS verrà fornito gratuitamente per un periodo limitato di 30 giorni.
+- La distribuzione di un ambiente Finance richiede una sottoscrizione di Azure valida che verrà fatturata in base all'ambiente. Puoi utilizzare la sottoscrizione esistente della tua organizzazione o utilizzare una [versione di valutazione di Azure](https://azure.microsoft.com/free/) per iniziare. L'ambiente CDS verrà fornito gratuitamente per un periodo limitato di 30 giorni.
 
 > [!IMPORTANT]
 > Solo una persona, l'amministratore del tenant, in un'organizzazione deve eseguire questa attività. Se non sei abbonato a questa versione, attendi fino a quando la tua organizzazione non è stata iscritta e hai ricevuto le credenziali utente.

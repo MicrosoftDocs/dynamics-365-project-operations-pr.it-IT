@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a7b398bae07956f4c3de15ec53a860fca15422dd9f2a977086669ebf2fcdb240
-ms.sourcegitcommit: 17353ff3f4aeb42a64bac5e1db000ac6def91d07
+ms.openlocfilehash: aef0a7f7c143cc144257397e5223c0efd4b297ee
+ms.sourcegitcommit: c2d57a8cd6638c08dbf1aa53e3819e6a736ad118
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/09/2021
-ms.locfileid: "7024788"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474498"
 ---
 # <a name="project-operations-updates"></a>Aggiornamenti di Project Operations
 
@@ -28,15 +28,15 @@ Dynamics 365 Project Operations è costituito da due componenti:
 - Gestione progetti e contabilità in ambiente Dynamics 365 Finance include capacità di gestione delle spese, contabilità del progetto e riconoscimento dei ricavi. L'ambiente dell'app Finance and Operations viene usato in Project Operations per scenari basati su risorse/materiali non stoccati e Project Operations per scenari basati su materiali stoccati/produzione.
 
 ## <a name="project-operations-release-notes"></a>Note sulla versione di Project Operations
-- Note sulla versione più recenti di Project Operations per lo scenario [risorse/materiali non stoccati](whats-new-july-2021-resource-based.md).
-- Note sulla versione più recenti di Project Operations per lo scenario [distribuzione semplice](../pro/whats-new/whats-new-july-2021-lite.md).
+- Note sulla versione più recenti di Project Operations per lo scenario [risorse/materiali non stoccati](whats-new-august-2021-resource-based.md).
+- Note sulla versione più recenti di Project Operations per lo scenario [distribuzione semplice](../pro/whats-new/whats-new-august-2021-lite.md).
 - Note sulla versione più recenti di Project Operations per lo scenario [materiali stoccati/produzione](../prod-pma/whats-new/whats-new-jul-2021-stocked.md).
 
 ## <a name="project-operations-latest-version"></a>Ultima versione di Project Operations
 
 | Project Operations in ambiente Dataverse | Gestione progetti e contabilità in ambienti di app Finance and Operations | 
 | --- | --- |
-| 4.13.0.152 | 10.0.20 |
+| 4.14.0.99 | 10.0.20 |
 
 Per lo scenario basato su risorse/materiali non stoccati di Project Operations, si consiglia di utilizzare Dual Write Orchestration versione 2.2.2.83 o successiva.
 
@@ -47,27 +47,24 @@ Gli aggiornamenti per Project Operations in ambiente Dataverse sono disponibili 
 | Stazione | Area geografica | Numero versione corrente | Aggiornamenti automatici per la distribuzione Lite | Aggiornamenti automatici per la distribuzione di risorse/materiali non stoccati | Numero versione successiva | La versione successiva è generalmente disponibile |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Stazione 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Prima versione         |  4.13.0.152     | Completamento           | 13 agosto 2021     | Da definire                 | 27 agosto 2021     |
+|   &nbsp;  | Prima versione         |  4.14.0.99      | Completamento           | 10 settembre 2021  | Da definire                 | 01 ottobre 2021    |
 | Stazione 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | America del Sud         |  4.13.0.152     | 13 agosto 2021    | 20 agosto 2021     | Da definire                 | 27 agosto 2021     |
-|    &nbsp; | Canada                |  4.13.0.152     | 13 agosto 2021    | 20 agosto 2021     | Da definire                 | 27 agosto 2021     |
-|   &nbsp;  | India                 |  4.13.0.152     | 13 agosto 2021    | 20 agosto 2021     | Da definire                 | 27 agosto 2021     |
-|   &nbsp;  | Francia                |  4.13.0.152     | 13 agosto 2021    | 20 agosto 2021     | Da definire                 | 27 agosto 2021     |
-|   &nbsp;  | Emirati Arabi Uniti  |  4.13.0.152     | 13 agosto 2021    | 20 agosto 2021     | Da definire                 | 27 agosto 2021     |
-|   &nbsp;  | Sudafrica          |  4.13.0.152     | 13 agosto 2021    | 20 agosto 2021     | Da definire                 | 27 agosto 2021     |
+|   &nbsp;  | America del Sud         |  4.14.0.152     | 10 settembre 2021 | 17 settembre 2021  | Da definire                 | 01 ottobre 2021    |
+|    &nbsp; | Canada                |  4.14.0.152     | 10 settembre 2021 | 17 settembre 2021  | Da definire                 | 01 ottobre 2021    |
+|   &nbsp;  | India                 |  4.14.0.152     | 10 settembre 2021 | 17 settembre 2021  | Da definire                 | 01 ottobre 2021    |
+|   &nbsp;  | Francia                |  4.14.0.152     | 10 settembre 2021 | 17 settembre 2021  | Da definire                 | 01 ottobre 2021    |
+|   &nbsp;  | Emirati Arabi Uniti  |  4.14.0.152     | 10 settembre 2021 | 17 settembre 2021  | Da definire                 | 01 ottobre 2021    |
+|   &nbsp;  | Sudafrica          |  4.14.0.152     | 10 settembre 2021 | 17 settembre 2021  | Da definire                 | 01 ottobre 2021    |
 | Stazione 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Giappone                 |  4.12.0.152     | Completo*          | Completamento            | 4.13.0.152          | 13 agosto 2021     |
-|   &nbsp;  | Asia Pacifico          |  4.12.0.152     | Completo*          | Completamento            | 4.13.0.152          | 13 agosto 2021     |
-|   &nbsp;  | Gran Bretagna         |  4.12.0.152     | Completo*          | Completamento            | 4.13.0.152          | 13 agosto 2021     |
-|   &nbsp;  | Oceania               |  4.12.0.152     | Completo*          | Completamento            | 4.13.0.152          | 13 agosto 2021     |
+|   &nbsp;  | Giappone                 |  4.13.0.152     | Completamento           | Completamento            | 4.14.0.152          | 10 settembre 2021  |
+|   &nbsp;  | Asia Pacifico          |  4.13.0.152     | Completamento           | Completamento            | 4.14.0.152          | 10 settembre 2021  |
+|   &nbsp;  | Gran Bretagna         |  4.13.0.152     | Completamento           | Completamento            | 4.14.0.152          | 10 settembre 2021  |
+|   &nbsp;  | Oceania               |  4.13.0.152     | Completamento           | Completamento            | 4.14.0.152          | 10 settembre 2021  |
 | Stazione 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europa                |  4.12.0.152     | Completamento           | Completamento            | 4.13.0.152          | 20 agosto 2021     |
+|   &nbsp;  | Europa                |  4.13.0.152     | Completamento           | 03 settembre 2021  | 4.14.0.152          | 17 settembre 2021  |
 | Stazione 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | America del Nord         |  4.12.0.152     | 13 agosto 2021    | 20 agosto 2021     | 4.13.0.152          | 27 agosto 2021     |
+|   &nbsp;  | America del Nord         |  4.13.0.152     | 03 settembre 2021 | 10 settembre 2021  | 4.14.0.152          | 24 settembre 2021  |
 
-
-> [!NOTE]
-> La distribuzione automatica per la versione 4.12.0.148 è stata completata. Non è prevista alcuna distribuzione automatica per la versione aggiornata della versione di luglio 2021.
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Programma di rilascio per Gestione progetti e contabilità nell'ambiente delle app Finance and Operations
 
