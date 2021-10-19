@@ -2,27 +2,26 @@
 title: Utilizzare le API di pianificazione del progetto per eseguire operazioni con entità di pianificazione
 description: Questo argomento fornisce informazioni ed esempi per l'utilizzo delle API di pianificazione del progetto.
 author: sigitac
-ms.date: 06/22/2021
+ms.date: 09/09/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 55bd9020275fbb72761b45ba09294f57266b418c0e5b506ba55a2a498aff24e5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6be35b1c52996f4f94dc429974ef47343a027c8c
+ms.sourcegitcommit: bbe484e58a77efe77d28b34709fb6661d5da00f9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008771"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "7487690"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Utilizzare le API di pianificazione del progetto per eseguire operazioni con entità di pianificazione
 
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
-> [!IMPORTANT] 
-> L'intera funzionalità, o una sua parte, descritta in questo articolo è disponibile nella versione di anteprima. Il contenuto e la funzionalità sono soggetti a modifiche. 
+
 
 ## <a name="scheduling-entities"></a>Entità di pianificazione
 
-Le API di pianificazione del progetto offrono la possibilità di eseguire operazioni di creazione, aggiornamento ed eliminazione con **entità di pianificazione**. Queste entità vengono gestite tramite il motore di pianificazione in Project per il Web. Le operazioni di creazione, aggiornamento ed eliminazione con **Entità di pianificazione** erano limitate nelle versioni precedenti di Dynamics 365 Project Operations.
+Le API di pianificazione del progetto offrono la possibilità di eseguire operazioni di creazione, aggiornamento ed eliminazione con **entità di pianificazione**. Queste entità vengono gestite tramite il motore di pianificazione in Project for the Web. Le operazioni di creazione, aggiornamento ed eliminazione con **Entità di pianificazione** erano limitate nelle versioni precedenti di Dynamics 365 Project Operations.
 
 La tabella seguente fornisce un elenco completo delle entità di pianificazione del progetto.
 

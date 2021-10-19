@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c8bc389c83eaf2a7720ef3fa969c677eed11e7959199b5f0083df5bf3b43ea43
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 452f9f16bfbae2d547afb9fcf4fc51595ea49890
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003821"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547114"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Versioni della mappa a doppia scrittura di Project Operations
 
@@ -49,9 +49,9 @@ Le mappe seguenti sono obbligatorie per una soluzione Project Operations. Le ver
 | Tabella di integrazione Project Operations per le stime dei materiali (msdyn\_estimatelines) | 1.0.0.0 | Non obbligatorio per il provisioning. |
 | Proposte di fattura di progetto V2 (invoices) | 1.0.0.3 | Non obbligatorio per il provisioning. |
 | Valori effettivi dell'integrazione di Project Operations (msdyn_actuals) | 1.0.0.14 | Non obbligatorio per il provisioning. |
-| Passaggi fondamentali della voce di contratto dell'integrazione di Project Operations (msdyn_contractlinesscheduleofvalues) | 1.0.0.4 | Non obbligatorio per il provisioning. |
-| Entità di integrazione di Project Operations per le stime di spesa (msdyn_estimateslines) | 1.0.0.2 | Non obbligatorio per il provisioning. |
-| Entità di integrazione di Project Operations per le stime delle ore (msdyn_resourceassignments) | 1.0.0.5 | Non obbligatorio per il provisioning. |
+| Passaggi fondamentali delle righe del contratto per l'integrazione di Project Operations (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Non obbligatorio per il provisioning. |
+| Entità dell'integrazione di Project Operations per stime delle spese (msdyn_estimatelines) | 1.0.0.2 | Non obbligatorio per il provisioning. |
+| Entità di integrazione per stime orarie di Project Operations (msdyn_estimateslines) | 1.0.0.5 | Non obbligatorio per il provisioning. |
 | Entità di esportazione categorie delle spese di progetto di integrazione di Project Operations (msdyn_expensecategories) | 1.0.0.1 | Non obbligatorio per il provisioning. |
 | Entità di esportazione delle spese di progetto di integrazione di Project Operations (msdyn_expenses) | 1.0.0.2 | Non obbligatorio per il provisioning. |
 | Entità di esportazione fattura fornitore progetto integrazione Project Operations (msdyn_projectvendorinvoices) | 1.0.0.0 | Non obbligatorio per il provisioning. |

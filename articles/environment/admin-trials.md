@@ -2,16 +2,16 @@
 title: Iscrizione alle versioni di valutazione di Project Operations
 description: In questo argomento vengono fornite informazioni su come distribuire una versione di prova di Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 08/19/2021
+ms.date: 10/04/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e9c0d81591061f0ff01200dd5fd634a4a9ff31e4
-ms.sourcegitcommit: 0e5de344f2040075ba431918a4499a80510458d9
+ms.openlocfilehash: 1c8ae111acffb45fef1c2e6435849471ae331796
+ms.sourcegitcommit: 05ee415093d152b5b9e1203c3db0ea7f0c5a75a5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "7418462"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "7599218"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Iscrizione alle versioni di valutazione di Project Operations 
 
@@ -85,15 +85,9 @@ Prima di iniziare, accedi a un browser con l'account di lavoro dell'utente nel t
 
    Dopo l'avvio del provisioning, verrai reindirizzato all'elenco degli ambienti nell'interfaccia di amministrazione di Power Platform. Durante il provisioning, lo stato del tuo ambiente è **PreparingInstance**.
  
-  Al termine del provisioning, lo stato del tuo ambiente è **Pronto**.
+  Al termine del provisioning, lo stato del tuo ambiente è **Pronto**. Il provisioning dell'ambiente include la distribuzione di dati dimostrativi.
  
-4.  Una volta completato il provisioning, seleziona l'URL Microsoft Dataverse corrispondente e gli URL dell'app Finance and Operations per convalidare la distribuzione.
-
-## <a name="demo-data-installation"></a>Installazione dei dati dimostrativi
-
-Utilizzare i seguenti collegamenti per accedere ai pacchetti di dati dimostrativi sia per i materiali non stoccati sia per gli scenari di distribuzione lite. 
-- [Dati dimostrativi per i materiali non stoccati](resource-apply-pro-setup-config-data.md)
-- [Dati dimostrativi lite](lite-apply-demo-setup-config-data.md)
+4.  Seleziona il rispettivo URL Microsoft Dataverse e gli URL delle app Finance and Operations per convalidare la distribuzione.
 
 ## <a name="configuring-dual-write"></a>Configurazione della doppia scrittura
 Solo per le distribuzioni di materiali non stoccati, configura le mappature a doppia scrittura. Per ulteriori informazioni, vedi [Versioni della mappa a doppia scrittura di Project Operations](resource-dual-write-maps.md).

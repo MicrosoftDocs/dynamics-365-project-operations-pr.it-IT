@@ -56,6 +56,10 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: Novità
       items:
+        - name: Ottobre 2021 - Project Operations per scenari basati su risorse/materiali non stoccati
+          href: whats-new/whats-new-oct-2021-resource-based.md
+        - name: Settembre 2021 - Project Operations per scenari basati su risorse/materiali non stoccati
+          href: whats-new/whats-new-sept-2021-resource-based.md
         - name: Agosto 2021 - Project Operations per scenari basati su articoli non stoccati/risorse
           href: whats-new/whats-new-august-2021-resource-based.md
         - name: Luglio 2021 - Project Operations per scenari basati su articoli non stoccati/risorse
@@ -292,7 +296,7 @@
           items:
             - name: Sviluppare modelli di progetto con Copia progetto
               href: project-management/dev-copy-project.md
-            - name: Utilizzare le API di pianificazione di progetto (anteprima pubblica)
+            - name: Usare le API di pianificazione dei progetti
               href: project-management/schedule-api-preview.md
     - name: Gestione delle risorse
       items:
@@ -444,6 +448,14 @@
           href: procurement/configure-materials-nonstocked.md
         - name: Approvvigionamento di materiali non stoccati per progetti che utilizzano fatture fornitore in sospeso
           href: procurement/pending-vendor-invoices.md
+        - name: Ordinare materiali non stoccati per i progetti utilizzando gli ordini di acquisto per un progetto
+          href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Fidelizzazione del fornitore
+          items:
+            - name: Panoramica sulla fidelizzazione del fornitore
+              href: procurement/vendor-retention-overview.md
+            - name: Impostazione della fidelizzazione del fornitore
+              href: procurement/set-up-vendor-retention.md
     - name: Fatturazione
       items:
         - name: Panoramica del processo di fatturazione
@@ -528,6 +540,10 @@
       items:
         - name: Accesso in anteprima alle novità 2021 ciclo 2 - distribuzione lite
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Novità di ottobre 2021 - distribuzione semplice
+          href: pro/whats-new/whats-new-oct-2021-lite.md
+        - name: Novità di settembre 2021 - distribuzione semplice
+          href: pro/whats-new/whats-new-sept-2021-lite.md
         - name: Novità agosto 2021 - distribuzione lite
           href: pro/whats-new/whats-new-august-2021-lite.md
         - name: Novità luglio 2021 - distribuzione lite
@@ -784,7 +800,7 @@
           items:
             - name: Sviluppare modelli di progetto con Copia progetto
               href: project-management/dev-copy-project.md
-            - name: Utilizzare le API di pianificazione di progetto (anteprima pubblica)
+            - name: Usare le API di pianificazione dei progetti
               href: project-management/schedule-api-preview.md
     - name: Gestione delle risorse
       items:
@@ -858,7 +874,7 @@
           href: pro/subcontracting/subcontract-header-details.md
         - name: Righe conto lavoro per orario
           href: pro/subcontracting/subcontract-line-time.md
-        - name: Righe conto lavoro per spesa
+        - name: Righe conto lavoro per categorie di spesa
           href: pro/subcontracting/subcontract-line-expense.md
         - name: Righe conto lavoro per prodotti
           href: pro/subcontracting/subcontract-line-products.md
@@ -1086,9 +1102,11 @@
       items:
         - name: Aggiornare la pianificazione della versione per Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Novità o modifiche negli aggiornamenti della versione 36, V3'
+          href: psa/whats-new-ur-36.md
         - name: 'Novità o modifiche negli aggiornamenti della versione 35, V3'
           href: psa/whats-new-ur-35.md
-        - name: 'Novità o modifiche nella versione di aggiornamento 34, V3'
+        - name: 'Novità o modifiche negli aggiornamenti della versione 34, V3'
           href: psa/whats-new-ur-34.md
         - name: 'Novità o modifiche nella versione di aggiornamento 33, V3'
           href: psa/whats-new-ur-33.md

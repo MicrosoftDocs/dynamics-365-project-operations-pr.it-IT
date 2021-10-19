@@ -6,12 +6,12 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c0ddc39638ae9830eacc57f3e1def75aa36e6553
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: cda2db2b6beafb943738b35857d091f7ad17390d
+ms.sourcegitcommit: d507a75a19c992a9421e4f3605162a2faa84a445
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323691"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "7558552"
 ---
 # <a name="subcontract-lines-for-products"></a>Righe conto lavoro per prodotti
 
@@ -30,25 +30,25 @@ Completare i seguenti passaggi per creare una voce di conto lavoro per i prodott
 
 La tabella seguente fornisce informazioni sui campi nella pagina **Dettagli voce conto lavoro** e nella pagina **Creazione rapida** in quanto rilevanti per l'acquisto di prodotti.
 
-| Campo | Descrizione |
-| ----- | ----------- |
-| Nome | Il nome della voce di conto lavoro. |
-| Descrizione | Una breve descrizione dei prodotti ordinati nella voce di conto lavoro. |
-| Tipo di linea | Il valore predefinito di questo campo è **Basato su quantità**. |
-| Metodo di fatturazione |  Il metodo di fatturazione della voce di conto lavoro. Per i metodi di fatturazione a prezzo fisso è disponibile una pianificazione di fatturazione basata su passaggi fondamentali. |
-| Classe di transazione | Il valore predefinito di questo campo è **Ore**. Per creare voci di conto lavoro per l'acquisto di prodotti, nel campo **Classe di transazione** seleziona **Materiale**. Questa selezione indica che la voce del conto lavoro viene utilizzata per registrare un acquisto di prodotti da utilizzare nei progetti. |
-| Selezione prodotto | Selezionare se il prodotto acquistato è mantenuto nel catalogo prodotti o è un prodotto fuori catalogo. |
-| Prodotto | Seleziona un prodotto attivo dal catalogo. Questo campo è disponibile solo quando **Seleziona prodotto** è impostato su **Esistente**. |
-| Prodotto fuori catalogo | Immetti il nome del prodotto fuori catalogo. Questo campo è disponibile solo quando **Seleziona prodotto** è impostato su **Fuori catalogo**.  |
-| Data di consegna richiesta | Seleziona la data di consegna richiesta per i prodotti. Questa data viene utilizzata anche per selezionare un listino prezzi per il progetto dai listini allegati al conto lavoro. Il costo del prodotto nella voce del conto lavoro viene quindi predefinito da quel listino prezzi. |
-| Data di consegna di contratto | Seleziona la data in cui i prodotti devono essere consegnati da contratto.  |
-| Quantità ordinata | Inserisci la quantità del prodotto acquistato dal venditore. Se un responsabile di progetto eccede questa quantità, verrà visualizzato un avviso. |
-| Unità di vendita | Questo valore è predefinito solo per i prodotti del catalogo. Quando **Prodotto** e **Data consegna richiesta** sono entrambi selezionati, il sistema seleziona il listino prezzi applicabile in base alla data di consegna. Le relative voci di listino vengono interrogate per il prodotto corrispondente. I valori predefiniti dell'unità e del gruppo di unità dall'impostazione nel record dell'elemento del listino prezzi. |
-| Unità | Questo valore è predefinito per l'impostazione dell'unità nel record della voce di listino. Se necessario, puoi cambiarlo con un'altra unità. La combinazione di prodotto e unità viene utilizzata per impostare il prezzo unitario predefinito nella voce del conto lavoro per i prodotti del catalogo esistenti. |
-| Prezzo unitario | Il prezzo unitario viene predefinito utilizzando la combinazione di prodotto e unità dalle voci di listino relative al listino prezzi del progetto applicabile per la data di consegna richiesta della riga di conto lavoro.  |
-| Subtotale | Questo campo di sola lettura viene calcolato come Quantità x Prezzo unitario se entrambi i campi hanno valori immessi. Se il campo **Quantità**, **Prezzo unitario** o entrambi sono vuoti, puoi inserire un valore manualmente.  |
-| IVA | Immetti il valore dell'IVA. |
-| Totale importo | Questo campo calcolato mostra l'importo totale della voce di conto lavoro dopo l'inclusione delle imposte. Il valore in questo campo viene calcolato come subtotale + tasse. |
+| Campo | Descrizione | Impatto funzionale|
+| ----- | ----------- | ----------- |
+| Nome | Nome della riga di conto lavoro per facilitare l'identificazione. |Questa verrà mostrata come prima colonna in tutte le ricerche basate sulle righe di conto lavoro.
+| Descrizione | Una breve descrizione dei prodotti ordinati nella voce di conto lavoro. | Nessuna |
+| Tipo di linea | Il valore predefinito di questo campo è **Basato su quantità**. |Nessuna |
+| Metodo di fatturazione | Questo è un set di opzioni che rappresenta i due principali modelli di contrattazione supportati da Project Operations: **Prezzo fisso** e **Tempistica e materiali**. | In base al metodo di fatturazione selezionato, se è stato selezionato il metodo di fatturazione a prezzo fisso, per le righe del conto di lavoro viene resa disponibile una pianificazione fattura basata su passaggi fondamentali. |
+| Classe di transazione |Il valore predefinito di questo campo è **Data/Ora**. Per creare voci di conto lavoro per l'acquisto di prodotti, impostare il campo **Classe di transazione** su **Materiali**.  | Ciò indica che la riga del conto lavoro viene utilizzata per registrare l'acquisto di prodotti da utilizzare sui progetti. |
+| Selezione prodotto | Selezionare se il prodotto acquistato è mantenuto nel catalogo prodotti o è un prodotto fuori catalogo. |Nessuna |
+| Prodotto | Seleziona un prodotto attivo dal catalogo. Questo campo è disponibile solo quando **Seleziona prodotto** è impostato su **Esistente**. |La combinazione di **Prodotto** e **Unità** verrà utilizzata come valore predefinito o calcolato per il prezzo unitario per la riga di conto lavoro.
+| Prodotto fuori catalogo | Immetti il nome del prodotto fuori catalogo. Questo campo è disponibile solo quando **Seleziona prodotto** è impostato su **Fuori catalogo**.  |Il prezzo di acquisto non verrà compilato automaticamente per i prodotti già inseriti.|
+| Data di consegna richiesta | Inserisci la data di consegna richiesta per i prodotti.| Questa data viene utilizzata anche per selezionare un listino prezzi per il progetto dai listini allegati al conto lavoro. Il costo del prodotto nella voce del conto lavoro viene quindi predefinito da quel listino prezzi. |
+| Data di consegna di contratto | Inserisci la data in cui i prodotti sono contrattualmente concordati per essere consegnati.  |Nessuna|
+| Quantità ordinata | Inserisci la quantità del prodotto acquistato dal venditore.| Questa verrà utilizzata per visualizzare avvisi quando un responsabile di progetto sta andando oltre questa quantità.|
+| Unità di vendita | Questo valore è predefinito solo per i prodotti del catalogo. |Quando **Prodotto** e **Data consegna richiesta** sono entrambi selezionati, il sistema seleziona il listino prezzi applicabile in base alla data di consegna. Le relative voci di listino vengono interrogate per il prodotto corrispondente. I valori predefiniti dell'unità e del gruppo di unità dall'impostazione nel record dell'elemento del listino prezzi. |
+| Unità | Il valore predefinito è l'unità impostata nel record dell'articolo del listino prezzi. Se necessario, puoi cambiarlo con un'altra unità.| La combinazione di prodotto e unità viene utilizzata per impostare il prezzo unitario predefinito nella voce del conto lavoro per i prodotti del catalogo esistenti. |
+| Prezzo unitario | Il prezzo unitario viene predefinito utilizzando la combinazione di prodotto e unità dalle voci di listino relative al listino prezzi del progetto applicabile per la data di consegna richiesta della riga di conto lavoro.  |Nessuna |
+| Subtotale | Questo campo di sola lettura viene calcolato come Quantità x Prezzo unitario se entrambi i campi hanno valori immessi. Se il campo **Quantità**, **Prezzo unitario** o entrambi sono vuoti, puoi inserire un valore manualmente.  |Nessuna |
+| IVA | Immetti il valore dell'IVA. |Nessuna |
+| Totale importo | Questo campo calcolato mostra l'importo totale della voce di conto lavoro dopo l'inclusione delle imposte. Il valore in questo campo viene calcolato come subtotale + imposte. |Nessuna |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

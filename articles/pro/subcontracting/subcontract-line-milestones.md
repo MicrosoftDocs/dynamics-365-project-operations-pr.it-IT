@@ -6,12 +6,12 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3301e5a627e4842009fcd5e352f1b76fd3053ee3
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 7f99853f5f649f96225b7d72580db97bb92de7c5
+ms.sourcegitcommit: d507a75a19c992a9421e4f3605162a2faa84a445
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323781"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "7558507"
 ---
 # <a name="subcontract-line-milestones"></a>Passaggi fondamentali voci di conto lavoro
 
@@ -50,15 +50,15 @@ I passaggi fondamentali a prezzo fisso su una voce di conto lavoro possono esser
 3. Nella scheda **Punti cardine righe conto lavoro**, nella sottogriglia, seleziona **+ Nuovo passaggio fondamentale della voce di conto lavoro**.
 4. Nella pagina **Nuovo passaggio fondamentale della voce di conto lavoro**, inserisci le informazioni richieste in base alla tabella seguente.
 
-    | Campo | Descrizione |
-    | --- | --- |
-    | Nome passaggio fondamentale | Il nome del passaggio fondamentale. |
-    | Descrizione | Una descrizione del passaggio fondamentale.  |
-    | Data di passaggio fondamentale | La data in cui il processo di creazione automatica della fattura dovrebbe cercare lo stato di questo passaggio fondamentale per considerarlo per la fatturazione. Questo valore è incluso nella voce della fattura fornitore durante la fatturazione per questo subappalto. |
-    | Numero | L'importo o il valore del passaggio fondamentale che verrà fatturato al cliente. Questo valore è incluso nella voce della fattura fornitore durante la fatturazione per questo subappalto. |
-    | Imposta | L'importo delle imposte applicato al passaggio fondamentale. Questo valore è incluso nella voce della fattura fornitore durante la fatturazione per questo subappalto. |
-    | Importo al netto delle imposte | Questo campo di sola lettura che viene calcolato come Importo + Imposta. Questo valore è incluso nella voce della fattura fornitore durante la fatturazione per questo subappalto. |
-    | Stato fattura | Quando viene creato il traguardo, questo stato è sempre impostato su **Non pronto per la fatturazione**.  Quando lo stato è **Pronto per la fatturazione**, la creazione della fattura fornitore include questo passaggio fondamentale nella fattura fornitore. |
+    | Campo | Descrizione |Impatto funzionale|
+    | --- | --- |----------------------|
+    | Nome passaggio fondamentale | Il nome del passaggio fondamentale. |Questa verrà mostrata come prima colonna in tutte le ricerche basate sui passaggi fondamentali della riga di conto lavoro. La riga della fattura fornitore creata in base a questo passaggio fondamentale utilizzerà anche il nome del passaggio fondamentale della riga di conto lavoro come nome predefinito della riga della fattura fornitore.|
+    | Descrizione | Una descrizione del passaggio fondamentale. |La riga della fattura fornitore creata in base a questo passaggio fondamentale utilizzerà anche la descrizione del passaggio fondamentale della riga di conto lavoro come descrizione predefinita della riga della fattura fornitore.|
+    | Data di passaggio fondamentale | La data in cui il processo di creazione automatica della fattura dovrebbe cercare lo stato di questo passaggio fondamentale per considerarlo per la fatturazione.| Questo valore verrà utilizzato come data predefinita della riga della fattura fornitore durante la fatturazione per questa riga del contratto di conto lavoro. |
+    | Numero | L'importo o il valore del passaggio fondamentale che verrà fatturato al cliente. |Questo valore è utilizzato come importo predefinito della riga della fattura fornitore durante la fatturazione per questa riga del contratto di conto lavoro. |
+    | Imposta | L'importo delle imposte applicato al passaggio fondamentale.| Questo valore è utilizzato come imposta predefinita della riga della fattura fornitore durante la fatturazione per questa riga del contratto di conto lavoro. |
+    | Importo al netto delle imposte | Questo campo è di sola lettura e viene calcolato come Importo + IVA.|Questo valore è utilizzato come predefinito della riga della fattura fornitore durante la fatturazione per questa riga del contratto di conto lavoro. |
+    | Stato fattura | Quando viene creato il traguardo, questo stato è sempre impostato su **Non pronto per la fatturazione**.|  Quando lo stato è **Pronto per la fatturazione**, la creazione della fattura fornitore include questo passaggio fondamentale nella fattura fornitore. |
 
 5. Seleziona **Salva e chiudi**.
 
