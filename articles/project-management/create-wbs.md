@@ -2,16 +2,16 @@
 title: Creare una struttura di suddivisione del lavoro
 description: Questo argomento spiega come creare una struttura di suddivisione del lavoro comprensiva dei controlli di base nella nuova interfaccia di pianificazione.
 author: ruhercul
-ms.date: 01/07/2021
+ms.date: 06/30/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 701c386af8a227308d6868deda27a63e6101e85f667b0392501bb0490329f484
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f77450d0d754606dd336072248012fea462510a4
+ms.sourcegitcommit: a12d21c7cab296f5b6a3181d76a06f57dee1267c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998736"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "7655422"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Creare una struttura di suddivisione del lavoro
 
@@ -117,5 +117,26 @@ La modalità di attività non influisce sugli aggiornamenti delle date di inizio
 
 La griglia **Pianificazione** è completamente accessibile e può essere utilizzata con utilità per la lettura dello schermo, ad esempio Narrator, JAWS o NVDA. Puoi spostarti nell'area della griglia utilizzando i tasti di direzione (come in Microsoft Excel), utilizzare il tasto TAB per avanzare negli elementi dell'interfaccia utente interattiva e il tasto FRECCIA GIÙ, il tasto INVIO o la BARRA SPAZIATRICE per selezionare e aprire i menu a discesa.
 
+## <a name="project-limitations"></a>Limitazioni di progetto 
+È necessario essere consapevoli delle seguenti limitazioni se si utilizza la struttura di suddivisione del lavoro in Project Operations. Questi limiti si applicano a progetti e attività. Per ulteriori informazioni, vedi [Limiti di Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+
+| **Campo**                                          |  **Limit**           |
+|----------------------------------------------------|----------------------|
+| Numero massimo di attività totali per un progetto                  | 500                  |
+| Durata massima totale per un progetto               | 3650 giorni (10 anni) |
+| Numero massimo di risorse totali per un progetto              | 150                  |
+| Numero massimo di collegamenti totali (solo attività successiva) per un progetto | 600                  |
+| Numero massimo di campi personalizzati totali per un progetto          | 10                   |
+
+**Limiti di attività**
+
+| **Campo**                               |   **Limit**           |
+|-----------------------------------------|-----------------------|
+| Numero massimo di livelli di gerarchia                 | 10 livelli             |
+| Numero massimo di collegamenti (attività successiva + attività precedente) | 20                    |
+| Durata massima dell'attività del nodo foglia           | 1250 giorni             |
+| Durata massima di un'attività di riepilogo      | 3650 giorni (10 anni)  |
+| Numero massimo di risorse assegnate a un'attività    | 20 risorse          |
+| Intervallo di date supportato per un'attività         | 1/1/2000 - 31/12/2149 |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

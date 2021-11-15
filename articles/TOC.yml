@@ -52,8 +52,10 @@
               href: environment/resource-dual-write-project-invoice.md
             - name: Integrazione di Gestione spese
               href: environment/resource-dual-write-expense.md
-            - name: Integrazione delle fatture dei fornitori
+            - name: Integrazione della fatture fornitore
               href: environment/resource-dual-write-vendor-invoice.md
+        - name: Disinstallazione di Dynamics 365 Project Operations
+          href: environment/uninstall-project-operations.md
     - name: Novità
       items:
         - name: Ottobre 2021 - Project Operations per scenari basati su risorse/materiali non stoccati
@@ -298,6 +300,8 @@
               href: project-management/dev-copy-project.md
             - name: Usare le API di pianificazione dei progetti
               href: project-management/schedule-api-preview.md
+            - name: Prestazioni dell'API di pianificazione dei progetti
+              href: project-management/project-schedule-api-performance.md
     - name: Gestione delle risorse
       items:
         - name: Concetti chiave
@@ -802,6 +806,8 @@
               href: project-management/dev-copy-project.md
             - name: Usare le API di pianificazione dei progetti
               href: project-management/schedule-api-preview.md
+            - name: Prestazioni dell'API di pianificazione dei progetti
+              href: project-management/project-schedule-api-performance.md
     - name: Gestione delle risorse
       items:
         - name: Concetti chiave
@@ -1102,9 +1108,11 @@
       items:
         - name: Aggiornare la pianificazione della versione per Project Service 3.x
           href: psa/version-history-ps.md
-        - name: 'Novità o modifiche negli aggiornamenti della versione 36, V3'
+        - name: 'Novità o modifiche dell''aggiornamento versione 37, V3'
+          href: psa/whats-new-ur-37.md
+        - name: 'Novità o modifiche dell''aggiornamento versione 36, V3'
           href: psa/whats-new-ur-36.md
-        - name: 'Novità o modifiche negli aggiornamenti della versione 35, V3'
+        - name: 'Novità o modifiche dell''aggiornamento versione 35, V3'
           href: psa/whats-new-ur-35.md
         - name: 'Novità o modifiche negli aggiornamenti della versione 34, V3'
           href: psa/whats-new-ur-34.md
