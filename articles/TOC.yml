@@ -52,12 +52,14 @@
               href: environment/resource-dual-write-project-invoice.md
             - name: Integrazione di Gestione spese
               href: environment/resource-dual-write-expense.md
-            - name: Integrazione della fatture fornitore
+            - name: Integrazione della fattura fornitore
               href: environment/resource-dual-write-vendor-invoice.md
         - name: Disinstallazione di Dynamics 365 Project Operations
           href: environment/uninstall-project-operations.md
     - name: Novità
       items:
+        - name: Novembre 2021 - Project Operations per scenari basati su risorse/materiali non stoccati
+          href: whats-new/whats-new-nov-2021-resource-based.md
         - name: Ottobre 2021 - Project Operations per scenari basati su risorse/materiali non stoccati
           href: whats-new/whats-new-oct-2021-resource-based.md
         - name: Settembre 2021 - Project Operations per scenari basati su risorse/materiali non stoccati
@@ -302,6 +304,8 @@
               href: project-management/schedule-api-preview.md
             - name: Prestazioni dell'API di pianificazione dei progetti
               href: project-management/project-schedule-api-performance.md
+            - name: Log di pianificazione del progetto
+              href: project-management/schedule-api-logs.md
     - name: Gestione delle risorse
       items:
         - name: Concetti chiave
@@ -544,6 +548,8 @@
       items:
         - name: Accesso in anteprima alle novità 2021 ciclo 2 - distribuzione lite
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Novità di novembre 2021 - distribuzione semplice
+          href: pro/whats-new/whats-new-nov-2021-lite.md
         - name: Novità di ottobre 2021 - distribuzione semplice
           href: pro/whats-new/whats-new-oct-2021-lite.md
         - name: Novità di settembre 2021 - distribuzione semplice
@@ -952,6 +958,10 @@
   items:
     - name: Novità
       items:
+        - name: Novità di ottobre 2021 - Project Operations per scenari di materiali stoccati basati sulla produzione
+          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
+        - name: Novità di settembre 2021 - Project Operations per scenari di materiali stoccati basati sulla produzione
+          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
         - name: Novità di luglio 2021 - Project Operations per scenari di materiali stoccati basati sulla produzione
           href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
         - name: Novità di maggio 2021 - Project Operations per scenari di materiali stoccati basati sulla produzione
@@ -1108,6 +1118,8 @@
       items:
         - name: Aggiornare la pianificazione della versione per Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Novità o modifiche dell''aggiornamento versione 37.5, V3'
+          href: psa/whats-new-ur-37-5.md
         - name: 'Novità o modifiche dell''aggiornamento versione 37, V3'
           href: psa/whats-new-ur-37.md
         - name: 'Novità o modifiche dell''aggiornamento versione 36, V3'

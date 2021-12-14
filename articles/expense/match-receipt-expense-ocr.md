@@ -2,7 +2,7 @@
 title: Acquisire una ricevuta utilizzando OCR
 description: Questo argomento fornisce informazioni sull'elaborazione del riconoscimento ottico dei caratteri (OCR) per le ricevute.
 author: suvaidya
-ms.date: 09/23/2020
+ms.date: 11/10/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3cfd88acec9df8468668bedbb55b399d100650e765a6ed647ed528ecca9f1554
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4dc1628a0dde0551aaf3bc10af628ef57881d85e
+ms.sourcegitcommit: a51f40c905874103040708be2188c04ab0716c38
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007736"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "7798045"
 ---
 # <a name="capture-a-receipt-using-ocr"></a>Acquisire una ricevuta utilizzando OCR
 
@@ -85,7 +85,18 @@ No, Microsoft ha creato un modello generale di apprendimento automatico per il s
 
 **Dove è disponibile e viene elaborata questa funzione?**
 
-Attualmente sono supportati gli Stati Uniti.
+La disponibilità di questa funzione in diverse aree geografiche è elencata nella tabella seguente. Se la tua area geografica non è attualmente supportata, invia una richiesta per dare priorità alla disponibilità del servizio OCR nella tua area geografica. 
+
+| Area geografica | Supportato                         |
+|--------|-----------------------------------|
+| USA    | Sì                               |
+| CAN    | Sì                               |
+| Regno Unito     | Sì                               |
+| AUS    | Sì                               |
+| EU     | Parzialmente. Solo ricevute inglesi. |
+| Asia   | No                                |
+| Giappone  | No                                |
+| Africa | No                                |
 
 **Dove vanno le mie ricevute?**
 
