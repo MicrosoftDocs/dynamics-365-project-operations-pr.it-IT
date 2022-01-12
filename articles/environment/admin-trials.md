@@ -2,16 +2,16 @@
 title: Iscrizione alle versioni di valutazione di Project Operations
 description: In questo argomento vengono fornite informazioni su come distribuire una versione di prova di Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 10/04/2021
+ms.date: 12/08/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 1c8ae111acffb45fef1c2e6435849471ae331796
-ms.sourcegitcommit: 05ee415093d152b5b9e1203c3db0ea7f0c5a75a5
+ms.openlocfilehash: e40b4ac23241730f5c2db89f0dc674083f9e7abe
+ms.sourcegitcommit: 8f970b46d0303dafaa75fc7d00567d232e1e600b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/04/2021
-ms.locfileid: "7599218"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7901622"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Iscrizione alle versioni di valutazione di Project Operations 
 
@@ -90,7 +90,8 @@ Prima di iniziare, accedi a un browser con l'account di lavoro dell'utente nel t
 4.  Seleziona il rispettivo URL Microsoft Dataverse e gli URL delle app Finance and Operations per convalidare la distribuzione.
 
 ## <a name="configuring-dual-write"></a>Configurazione della doppia scrittura
-Solo per le distribuzioni di materiali non stoccati, configura le mappature a doppia scrittura. Per ulteriori informazioni, vedi [Versioni della mappa a doppia scrittura di Project Operations](resource-dual-write-maps.md).
+- Per configurare i ruoli di sicurezza per la doppia scrittura, vedi [Aggiornare le impostazioni di sicurezza su Project Operations in Dataverse](resource-provision-new-environment.md).
+- Per configurare le mappe a doppia scrittura, vedi [Eseguire le mappe a doppia scrittura di Project Operations](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Assegnare licenze
 

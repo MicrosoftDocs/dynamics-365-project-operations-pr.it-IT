@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e4cafde5e866690f31452eceffdd81ffeb14e635
-ms.sourcegitcommit: 97e5887ae5bad6c26aa1179b51c9b71c434ea8fe
+ms.openlocfilehash: f5e37bc90a74e6bc9f1bf3d3820a34c3f4c3496d
+ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/06/2021
-ms.locfileid: "7892195"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "7942844"
 ---
 # <a name="project-operations-updates"></a>Aggiornamenti di Project Operations
 
@@ -28,15 +28,15 @@ Dynamics 365 Project Operations è costituito da due componenti:
 - Gestione progetti e contabilità in ambiente Dynamics 365 Finance include capacità di gestione delle spese, contabilità del progetto e riconoscimento dei ricavi. L'ambiente dell'app Finance and Operations viene usato in Project Operations per scenari basati su risorse/materiali non stoccati e Project Operations per scenari basati su materiali stoccati/produzione.
 
 ## <a name="project-operations-release-notes"></a>Note sulla versione di Project Operations
-- Note sulla versione più recenti di Project Operations per lo scenario [risorse/materiali non stoccati](whats-new-nov-2021-resource-based.md).
-- Note sulla versione più recenti di Project Operations per lo scenario [distribuzione semplice](../pro/whats-new/whats-new-nov-2021-lite.md).
+- Note sulla versione più recenti di Project Operations per lo scenario [risorse/materiali non stoccati](whats-new-dec-2021-resource-based.md).
+- Note sulla versione più recenti di Project Operations per lo scenario [distribuzione semplice](../pro/whats-new/whats-new-dec-2021-lite.md).
 - Note sulla versione più recenti di Project Operations per lo scenario [materiali stoccati/produzione](../prod-pma/whats-new/whats-new-oct-2021-stocked.md).
 
 ## <a name="project-operations-latest-version"></a>Ultima versione di Project Operations
 
 | Project Operations in ambiente Dataverse | Gestione progetti e contabilità in ambienti di app Finance and Operations | 
 | --- | --- |
-| 4.26.0.150 | 10.0.22 |
+| 4.27.0.242 | 10.0.23 |
 
 Per lo scenario basato su risorse/materiali non stoccati di Project Operations, si consiglia di usare Dual Write Orchestration versione 2.3.1.15 o successiva.
 
@@ -47,23 +47,26 @@ Gli aggiornamenti per Project Operations in ambiente Dataverse sono disponibili 
 | Stazione | Area geografica | Numero versione corrente | Aggiornamenti automatici per la distribuzione Lite | Aggiornamenti automatici per la distribuzione di risorse/materiali non stoccati | Numero versione successiva | La versione successiva è generalmente disponibile |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Stazione 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Prima versione         |  4.26.0.150     | Completamento           | Completamento            | Da definire                 | 06 Dicembre 2021   |
+|   &nbsp;  | Prima versione         |  4.27.0.242     | Completo*          | Completo*           | Da definire                 | 14 gennaio 2022    |
 | Stazione 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | America del Sud         |  4.26.0.150     | Completamento           | Completamento            | Da definire                 | 06 Dicembre 2021   |
-|   &nbsp;  | Canada                |  4.26.0.150     | Completamento           | Completamento            | Da definire                 | 06 Dicembre 2021   |
-|   &nbsp;  | India                 |  4.26.0.150     | Completamento           | Completamento            | Da definire                 | 06 Dicembre 2021   |
-|   &nbsp;  | Francia                |  4.26.0.150     | Completamento           | Completamento            | Da definire                 | 06 Dicembre 2021   |
-|   &nbsp;  | Sudafrica          |  4.26.0.150     | Completamento           | Completamento            | Da definire                 | 06 Dicembre 2021   |
+|   &nbsp;  | America del Sud         |  4.27.0.242     | Completamento           | 07 gennaio 2022    | Da definire                 | 14 gennaio 2022    |
+|   &nbsp;  | Canada                |  4.27.0.242     | Completamento           | 07 gennaio 2022    | Da definire                 | 14 gennaio 2022    |
+|   &nbsp;  | India                 |  4.27.0.242     | Completamento           | 07 gennaio 2022    | Da definire                 | 14 gennaio 2022    |
+|   &nbsp;  | Francia                |  4.27.0.242     | Completamento           | 07 gennaio 2022    | Da definire                 | 14 gennaio 2022    |
+|   &nbsp;  | Sudafrica          |  4.27.0.242     | Completamento           | 07 gennaio 2022    | Da definire                 | 14 gennaio 2022    |
 | Stazione 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Giappone                 |  4.26.0.150     | Completamento           | Completamento            | Da definire                 | 10 Dicembre 2021   |
-|   &nbsp;  | Asia Pacifico          |  4.26.0.150     | Completamento           | Completamento            | Da definire                 | 10 Dicembre 2021   |
-|   &nbsp;  | Gran Bretagna         |  4.26.0.150     | Completamento           | Completamento            | Da definire                 | 10 Dicembre 2021   |
-|   &nbsp;  | Oceania               |  4.26.0.150     | Completamento           | Completamento            | Da definire                 | 10 Dicembre 2021   |
-|   &nbsp;  | Emirati Arabi Uniti  |  4.26.0.150     | Completamento           | Completamento            | Da definire                 | 10 Dicembre 2021   |
+|   &nbsp;  | Giappone                 |  4.27.0.242     | Completamento           | 07 gennaio 2022    | Da definire                 | 21 gennaio 2022    |
+|   &nbsp;  | Asia Pacifico          |  4.27.0.242     | Completamento           | 07 gennaio 2022    | Da definire                 | 21 gennaio 2022    |
+|   &nbsp;  | Gran Bretagna         |  4.27.0.242     | Completamento           | 07 gennaio 2022    | Da definire                 | 21 gennaio 2022    |
+|   &nbsp;  | Oceania               |  4.27.0.242     | Completamento           | 07 gennaio 2022    | Da definire                 | 21 gennaio 2022    |
+|   &nbsp;  | Emirati Arabi Uniti  |  4.27.0.242     | Completamento           | 07 gennaio 2022    | Da definire                 | 21 gennaio 2022    |
 | Stazione 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europa                |  4.26.0.150     | Completamento           | 10 Dicembre 2021   | Da definire                 | 17 Dicembre 2021   |
+|   &nbsp;  | Europa                |  4.26.0.155     | Completamento           | 07 gennaio 2022    | 4.27.0.242          | 10 gennaio 2022    |
 | Stazione 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | America del Nord         |  4.26.0.150     | 10 Dicembre 2021  | 17 Dicembre 2021   | Da definire                 | 07 gennaio 2022    |
+|   &nbsp;  | America del Nord         |  4.26.0.155     | 07 gennaio 2022   | 14 gennaio 2022    | 4.27.0.242          | 17 gennaio 2022    |
+
+>[!Note]
+> - Completato* - Aggiornamenti automatici completati con la versione 4.27.0.195.
 
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Programma di rilascio per Gestione progetti e contabilità nell'ambiente delle app Finance and Operations
@@ -72,15 +75,15 @@ Gli aggiornamenti per Gestione progetti e contabilità vengono rilasciati otto v
 
 |Versione supportata| Disponibilità anteprima (PEAP) | Generalmente disponibile (aggiornamento automatico) | Data di inizio della produzione del programma di aggiornamento automatico (tramite le impostazioni di aggiornamento LCS) |   Fine del servizio   |
 |:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
+|     10.0.23     |      15 ottobre 2021       |        10 Dicembre 2021          |                          31 dicembre 2021                           | 18 marzo 2022     |
 |     10.0.22     |      3 settembre 2021      |        22 ottobre 2021           |                          5 novembre 2021                            | 14 gennaio 2022   |
-|    10.0.21      |         02 agosto 2021     |           17 settembre 2021      |                             1 ottobre 2021                          |  10 Dicembre 2021 |
 
 
 Le date di rilascio previste sono soggette a modifiche. Per ulteriori informazioni, vedi [Disponibilità degli aggiornamenti del servizio](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 
 |Versione di destinazione | Disponibilità anteprima (PEAP) | Generalmente disponibile (aggiornamento automatico) | Data di inizio della produzione del programma di aggiornamento automatico (tramite le impostazioni di aggiornamento LCS) |   Fine del servizio   |
 |:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
-|     10.0.23     |      15 ottobre 2021       |        10 Dicembre 2021          |                          31 dicembre 2021                           | 18 marzo 2022     |
 |     10.0.24     |      3 dicembre 2021       |        14 gennaio 2022           |                          4 febbraio 2022                            | 15 aprile 2022     |
+|     10.0.25     |      31 gennaio 2022       |        18 marzo 2022             |                          1 aprile 2022                               | 10 giugno 2022      |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

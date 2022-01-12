@@ -2,16 +2,16 @@
 title: Valori predefiniti della dimensione finanziaria
 description: Questo argomento fornisce informazioni su come impostare i valori predefiniti della dimensione finanziaria.
 author: sigitac
-ms.date: 10/26/2020
+ms.date: 12/14/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 8a7845b7f6b7256edad6efc7b20872078f8c5ab0b60477d2a42b5b9d61104bff
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8c1eb71d13ca7fc59118d15fef7ac914577b3b0e
+ms.sourcegitcommit: fe5610464fdb5be756aa6a6a5b3c9a991dea0ed8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005441"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "7922943"
 ---
 # <a name="financial-dimension-defaults"></a>Valori predefiniti della dimensione finanziaria
 
@@ -60,6 +60,15 @@ I progetti vengono creati e gestiti in CDS. Gli attributi contabili per i proget
 4. Imposta i valori predefiniti della dimensione finanziaria. Tieni presente che le dimensioni finanziarie sono predefinite dal conto cliente. Se il progetto è associato a una voce di contratto con più clienti di contratto di progetto, il cliente principale viene utilizzato per le dimensioni finanziarie predefinite.
 
 Le dimensioni finanziarie predefinite del progetto vengono utilizzate per impostare i valori predefiniti della riga di giornale di registrazione per le transazioni di ore, spese e commissioni nel **Giornale di registrazione integrazione Project Operations** e sulle righe di fattura di progetto correlate.
+
+## <a name="apply-financial-dimensions-for-project-time-entries"></a>Applicare dimensioni finanziarie per gli inserimenti ore del progetto
+Per applicare le dimensioni finanziarie per gli inserimenti ore del progetto, tieni presente che il valore della dimensione predefinita si basa sul seguente ordine:
+
+1. Risorsa
+2. Project
+3. Fonte di finanziamento
+
+Ad esempio, se la dimensione predefinita è specificata su una risorsa, verrà applicata su una dimensione predefinita specificata nel progetto. Allo stesso modo, una dimensione di progetto predefinita verrà applicata a quella predefinita specificata nella fonte di finanziamento.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

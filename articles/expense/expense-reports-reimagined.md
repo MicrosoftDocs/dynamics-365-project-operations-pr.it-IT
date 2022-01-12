@@ -1,8 +1,8 @@
 ---
-title: Note spese riprogettate
+title: Note spese riprogettate (video)
 description: Questo argomento illustra l'esperienza riprogettata e reinventata per l'inserimento della nota spese.
 author: suvaidya
-ms.date: 07/08/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dba30d16283d820d04d3a1b2fec0acbf30252e87b86c899686ef4df0985ae6ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db5812ebf5a96afee53144efb231093f6af85b68
+ms.sourcegitcommit: 1186e9822e06a13fde89b67ea89427eddfe23cee
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997836"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7941031"
 ---
 # <a name="expense-reports-reimagined"></a>Note spese riprogettate
 
@@ -58,6 +58,7 @@ Per attivare la nuova esperienza, usa l'area di lavoro **Gestione delle funziona
 | Salvare e aggiungere nuove righe di spesa | I pulsanti **Salva** e **Nuovo** sono disponibili quando vengono inserite nuove spese, per aiutarti a inserire rapidamente le righe di spesa. |
 | Migliore visibilità nelle righe suddivise e dettagliate | Le righe dettagliate e suddivise vengono aggiunte direttamente all'elenco delle spese per aumentare la visibilità e aiutarti a determinare facilmente se ci sono errori. |
 | Visualizzare i dettagli della sottocategoria nelle righe dettagliate | Le righe dettagliate di una spesa principale mostrano le etichette delle sottocategorie nella nota spese. Il dettaglio delle righe consente di rivedere i dettagli granulari in modo immediato.|
+|Dettagliare rapidamente le spese ricorrenti | L'area di lavoro delle spese riprogettata offre la possibilità di dettagliare rapidamente le spese ricorrenti aggiungendo la sottocategoria, la data di inizio e la quantità. La quantità si riferisce al numero di volte in cui la spesa viene ripetuta in un periodo continuo. |
 | Mostrare le ricevute durante la classificazione | Le ricevute possono essere mostrate durante la classificazione. |
 | Selezione anticipo in contanti | Seleziona uno o più anticipi in contanti per completare una singola transazione di spesa. |
 | Saldo anticipo in contanti | Esamina il saldo dell'anticipo in contati in tempo reale quando crei una voce di spesa a fronte di anticipi in contanti approvati e pagati. |

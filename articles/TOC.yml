@@ -8,7 +8,11 @@
       href: environment/admin-trials.md
     - name: Aggiornamenti di Project Operations
       href: whats-new/project-operations-updates.md
-- name: Project Operations scenari basati su articoli non stoccati/risorse
+    - name: Funzionalità rimosse o deprecate
+      items:
+        - name: Funzionalità rimosse o deprecate in Project Operations
+          href: whats-new/removed-depreciated-features-project.md
+- name: Project Operations per scenari basati su risorse/materiali non stoccati
   items:
     - name: Attività iniziali
       items:
@@ -58,6 +62,8 @@
           href: environment/uninstall-project-operations.md
     - name: Novità
       items:
+        - name: Dicembre 2021 - Project Operations per scenari basati su risorse/materiali non stoccati
+          href: whats-new/whats-new-dec-2021-resource-based.md
         - name: Novembre 2021 - Project Operations per scenari basati su risorse/materiali non stoccati
           href: whats-new/whats-new-nov-2021-resource-based.md
         - name: Ottobre 2021 - Project Operations per scenari basati su risorse/materiali non stoccati
@@ -400,6 +406,8 @@
               href: expense/set-up-expense-categories.md
             - name: Configurare il chilometraggio utilizzando i livelli di tariffa chilometrica
               href: expense/set-up-mileage.md
+        - name: Dettaglio delle spese
+          href: prod-exp/expense-itemization.md
         - name: Spese personali
           href: expense/personal-expenses-expense-report.md
         - name: Spese interaziendali
@@ -530,6 +538,12 @@
           href: revenue-recognition/cost-complete-methods.md
         - name: Gestire le stime dei ricavi
           href: revenue-recognition/rev-rec-completed-contract-method.md
+    - name: Risoluzione dei problemi
+      items:
+        - name: Processo di vendita di progetto
+          items:
+            - name: 'Errore di mancata corrispondenza della valuta durante la creazione di progetti, contratti, offerte o risorse prenotabili'
+              href: troubleshooting/project-sales-process/currency-mismatch-error.md
 - name: 'Distribuzione semplice: dalla transazione alla fatturazione proforma'
   items:
     - name: Attività iniziali
@@ -548,6 +562,8 @@
       items:
         - name: Accesso in anteprima alle novità 2021 ciclo 2 - distribuzione lite
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Novità di dicembre 2021 - distribuzione semplice
+          href: pro/whats-new/whats-new-dec-2021-lite.md
         - name: Novità di novembre 2021 - distribuzione semplice
           href: pro/whats-new/whats-new-nov-2021-lite.md
         - name: Novità di ottobre 2021 - distribuzione semplice
@@ -894,6 +910,20 @@
           href: pro/subcontracting/subcontract-line-resources.md
         - name: Punti cardine righe conto lavoro
           href: pro/subcontracting/subcontract-line-milestones.md
+        - name: Membri del team di progetto in conto lavoro
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: Opzioni di conto lavoro per i membri del team di progetto
+          href: pro/subcontracting/subcon-options.md
+        - name: Stima dei costi delle assegnazioni di risorse in conto lavoro
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: Configurare la scheda di pianificazione per mostrare i lavoratori a contratto e la capacità in conto lavoro
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: Personale di un progetto con lavoratori a contratto e capacità in conto lavoro
+          href: pro/subcontracting/staffing-cw.md
+        - name: 'Tempo di registrazione, spese e utilizzo di materiale per i componenti in conto lavoro'
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: Transizioni di stato in un conto lavoro
+          href: pro/subcontracting/subcon-states.md
     - name: Ore
       items:
         - name: Panoramica delle ore
@@ -1118,6 +1148,8 @@
       items:
         - name: Aggiornare la pianificazione della versione per Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Novità o modifiche dell''aggiornamento versione 38, V3'
+          href: psa/whats-new-ur-38.md
         - name: 'Novità o modifiche dell''aggiornamento versione 37.5, V3'
           href: psa/whats-new-ur-37-5.md
         - name: 'Novità o modifiche dell''aggiornamento versione 37, V3'
@@ -1204,6 +1236,8 @@
           href: psa/implementation-guides/resource-management-guide.md
         - name: Guida all'utilizzo dei report
           href: psa/implementation-guides/reporting-guide.md
+    - name: Aggiornamento da Project Service Automation a Project Operations - semplice
+      href: psa/upgrade-project-operations-non-stocked.md
     - name: Aggiornamento di Project Service Automation (versione app 3.x)
       items:
         - name: Aggiornamento di Project Service Automation

@@ -2,16 +2,16 @@
 title: Creare una struttura di suddivisione del lavoro
 description: Questo argomento spiega come creare una struttura di suddivisione del lavoro comprensiva dei controlli di base nella nuova interfaccia di pianificazione.
 author: ruhercul
-ms.date: 06/30/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: f77450d0d754606dd336072248012fea462510a4
-ms.sourcegitcommit: a12d21c7cab296f5b6a3181d76a06f57dee1267c
+ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
+ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "7655422"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7928620"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Creare una struttura di suddivisione del lavoro
 
@@ -95,7 +95,7 @@ In qualità di amministratore, puoi definire campi personalizzati nell'entità d
 
 ## <a name="staffing-attributes"></a>Attributi di assegnazione del personale
 
-Agli attributi di assegnazione del personale si accede tramite il campo **Risorse** nella pianificazione. Puoi cercare una risorsa esistente oppure selezionare **Crea** e nel riquadro **Creazione rapida** aggiungere un membro del team di progetto come nuova risorsa.
+Agli attributi di assegnazione del personale si accede tramite il campo **Risorse** nella pianificazione. Puoi cercare una risorsa esistente oppure selezionare **Crea** e nel riquadro **Creazione rapida** aggiungere un membro del team di progetto come nuova risorsa.  Quando si cerca una risorsa utilizzando il selettore di risorse nella griglia delle attività, nella visualizzazione bacheca o nel gantt, la ricerca restituisce i membri del team di progetto esistenti o le risorse prenotabili attive.
 
 I campi **Ruolo**, **Unità gestione risorse** e **Nome posizione** sono utilizzati per descrivere i requisiti di assegnazione del personale per l'attività. Questi attributi, insieme alla pianificazione dell'attività, sono utilizzati per trovare le risorse disponibili per eseguire l'attività.
 
@@ -127,6 +127,7 @@ La griglia **Pianificazione** è completamente accessibile e può essere utilizz
 | Numero massimo di risorse totali per un progetto              | 150                  |
 | Numero massimo di collegamenti totali (solo attività successiva) per un progetto | 600                  |
 | Numero massimo di campi personalizzati totali per un progetto          | 10                   |
+| Numero massimo di voci dell'elenco di controllo per attività                   | 20                   |
 
 **Limiti di attività**
 
