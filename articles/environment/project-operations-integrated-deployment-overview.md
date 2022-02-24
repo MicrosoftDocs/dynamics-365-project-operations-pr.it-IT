@@ -2,17 +2,18 @@
 title: Panoramica della distribuzione di Project Operations per scenari basati su risorse/non stoccate
 description: Questo argomento fornisce informazioni sul tipo di distribuzione, Project Operations per scenari basati su risorse/non stoccate.
 author: rumant
+manager: Annbe
 ms.date: 11/02/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: a66877471e584bc76ddfe508a5d4cb47e38dd7aeb5f2bebe795b41a1de462ef9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 035ad22d2b51182c11e5c29d35f74f499fc903d5
+ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009716"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4365517"
 ---
 # <a name="project-operations-for-resourcenon-stocked-based-scenarios-deployment-overview"></a>Panoramica della distribuzione di Project Operations per scenari basati su risorse/non stoccate
 
@@ -42,6 +43,3 @@ Questa distribuzione deve essere scelta per utilizzare Project Operations per l'
 - Richiede un motore di tasso di cambio e IVA a livello aziendale per generare fatture rivolte ai clienti per i progetti.
 - Un sistema di contabilità di progetto e riconoscimento dei ricavi conforme agli International Financial Reporting Standard (IFRS).
 - Applicazioni Finance o Supply Chain Management e integrazione di transazioni basate su progetti.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

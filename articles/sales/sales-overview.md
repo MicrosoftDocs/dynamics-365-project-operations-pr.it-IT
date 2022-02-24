@@ -2,23 +2,24 @@
 title: Panoramica del processo di vendita
 description: In questo argomento vengono fornite informazioni sui processi di vendita di base.
 author: rumant
+manager: Annbe
 ms.date: 10/29/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 3bda8a11d0cb6fe97a3daa640bf95717ef9913000e6b1a28a0a27a35527dbf6f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5da29d2959a6e49defa185630f45d280dba283c4
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991851"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177606"
 ---
 # <a name="sales-process-overview"></a>Panoramica del processo di vendita
 
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
-I processi di vendita utilizzati in un'organizzazione basata su progetto differiscono dai processi di vendita utilizzati in un'organizzazione basata su prodotto. Questo perché i cicli di vendita per le organizzazioni basate su progetto sono più lunghi e richiedono tecniche di stima personalizzate per analizzare e creare offerte per ogni transazione. Dynamics 365 Project Operations utilizza alcune delle seguenti funzionalità usate in un processo di vendita:
+I processi di vendita utilizzati in un'organizzazione basata su progetto differiscono dai processi di vendita utilizzati in un'organizzazione basata su prodotto. Questo perché i cicli di vendita per le organizzazioni basate su progetto sono più lunghi e richiedono tecniche di stima personalizzate per analizzare e creare offerte per ogni transazione. Dynamics 365 Project Operations utilizza alcune delle seguenti funzionalità utilizzate in un processo di vendita:
 
 - Un record Lead è utilizzato per tenere traccia del processo di vendita.
 - I lead potenziali sono registrati come opportunità.
@@ -62,6 +63,3 @@ In Project Operations, puoi tenere traccia delle revisioni di un'offerta. Devi i
 
 ## <a name="track-comments-and-approvals-of-quotes-and-project-contracts"></a>Tenere traccia di commenti e approvazioni di offerte e contratti di progetto
 Puoi gestire la revisione e l'approvazione di offerte e contratti di progetto mediante la bacheca record e i post. L'organizzazione può creare plug-in e flussi di lavoro personalizzati per assegnare, reindirizzare, riassegnare e gestire notifiche relative alla revisione e all'approvazione di elementi di lavoro.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

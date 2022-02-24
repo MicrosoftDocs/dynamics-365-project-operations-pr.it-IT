@@ -2,9 +2,11 @@
 title: Configurare l'integrazione della carta di credito
 description: Questo argomento descrive come utilizzare le transazioni con carta di credito correlate alle spese.
 author: suvaidya
-ms.date: 11/17/2021
+manager: AnnBe
+ms.date: 04/02/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 49c8f2369a8be41fbc04c74bdb6b565b4f4b7b79
-ms.sourcegitcommit: 9f26cf8bb640af1eb9f7f0872805965d7ffcb9d3
+ms.openlocfilehash: 72ff98f5985af4362cde3c9914e0d20247f1f09a
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/19/2021
-ms.locfileid: "7826261"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866688"
 ---
 # <a name="set-up-credit-card-integration"></a>Configurare l'integrazione della carta di credito
 
@@ -30,12 +32,12 @@ Le transazioni con carta di credito relative alle spese possono essere impostate
 
 Per importare transazioni con carta di credito, segui questi passaggi:
 
-1. Nella pagina **Transazioni con carta di credito** seleziona **Importa transazioni**. Se si sta aprendo la gestione dei dati per la prima volta, il sistema deve aggiornare l'elenco delle entità dati prima di poter continuare.
+1. Nella pagina **Transazioni con carta di credito** seleziona **Importa transazioni**. Se stai aprendo la gestione dei dati per la prima volta, il sistema deve aggiornare l'elenco delle entità di dati prima di poter continuare.
 2. Nel campo **Nome**, immetti una descrizione univoca per il processo di importazione.
 3. Nel campo **Formato dei dati di origine** seleziona il formato del file che contiene le transazioni della carta di credito da importare.
 4. Seleziona **Carica**, quindi trova e seleziona il file da importare.
 5. Dopo che il file è stato caricato, convalida la mappatura del file di transazione della carta di credito e le colonne dell'entità di dati delle transazioni della carta di credito selezionando il collegamento **Visualizza mappa** nel riquadro. Se sono presenti errori di mappatura o se è necessario modificare la mappatura, apporta le modifiche alla mappatura dalla scheda **Visualizzazione della mappatura** o dalla scheda **Dettagli della mappatura**.
-6. Per automatizzare le transazioni con carta di credito, seleziona **Crea processo dati ricorrente**. Quindi puoi impostare la ricorrenza che definisce la frequenza con cui devono essere importate le transazioni con carta di credito. Al termine, selezionare **OK**.
+6. Per automatizzare le transazioni con carta di credito, seleziona **Crea processo dati ricorrente**. Quindi puoi impostare la ricorrenza che definisce la frequenza con cui devono essere importate le transazioni con carta di credito. Al termine, seleziona **OK**.
 7. Per importare ora il file selezionato, seleziona **Importa**.
 8. Se si verificano errori durante l'importazione, puoi visualizzare il registro di esecuzione o i dati di gestione temporanea per vedere gli errori che è necessario correggere per garantire un'importazione corretta.
 
@@ -50,18 +52,10 @@ Seleziona una o più transazioni con carta di credito, quindi seleziona **Riasse
 
 ## <a name="delete-credit-card-transactions"></a>Eliminare transazioni con carta di credito 
 
-A volte, dopo l'importazione delle transazioni con carta di credito, potrebbe essere necessario eliminare alcune transazioni. Ciò potrebbe essere dovuto al fatto che le transazioni sono duplicate o che i dati non sono accurati. Gli amministratori possono utilizzare la funzionalità **"Elimina transazioni con carta di credito"** per selezionare ed eliminare transazioni con carta di credito che **non sono associate** a una nota spese. 
+A volte, dopo l'importazione delle transazioni con carta di credito, potrebbe essere necessario eliminare alcune transazioni. Questo perché le transazioni sono duplicati o perché i dati potrebbero non essere accurati. Gli amministratori possono utilizzare la funzionalità **"Elimina transazioni con carta di credito"** per selezionare ed eliminare transazioni con carta di credito che **non sono associate** a una nota spese. 
 
 1. Vai a **Attività periodiche** > **Elimina le transazioni con carta di credito**.
 2. Seleziona **Filtro** e fornisci informazioni per identificare i record da includere.
 3. Seleziona **OK** per eliminare i record. 
-
-## <a name="storing-credit-card-numbers"></a>Archiviazione dei numeri di carta di credito
-
-Sono disponibili tre opzioni per archiviare i numeri di carta di credito. I numeri di carta di credito vengono archiviate nella pagina **Parametri di gestione spese**.
-
-- **Impedisci immissione del numero di carta**: i numeri di carta di credito non vengono archiviati.
-- **Numeri di carta hash (archivia le ultime quattro cifre)**: le ultime quattro cifre dei numeri di carta di credito vengono archiviate in un formato crittografato.
-- **Numeri di carta punto vendita**: i numeri delle carte di credito vengono archiviati in un formato non crittografato. Questa opzione non è conforme ai requisiti Payment Card Industry (PCI) Data Security Standard (DSS). Per mantenere la propria organizzazione conforme alle normative PCI DSS, gli amministratori dell'organizzazione dovrebbero scegliere di non archiviare i numeri di carta di credito o di archiviare i numeri di carta hash.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

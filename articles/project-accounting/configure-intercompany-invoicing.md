@@ -2,16 +2,18 @@
 title: Configurare la fatturazione interaziendale
 description: Questo argomento fornisce informazioni ed esempi sulla configurazione della fatturazione interaziendale per i progetti.
 author: sigitac
-ms.date: 04/12/2021
+manager: tfehr
+ms.date: 11/20/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 09bbd1bf640cc86b16afb8c2b824329b92f833df836e9313491d57a2f1646440
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bdb6122d8aba84d2b449f9f17a4093388b585614
+ms.sourcegitcommit: addbe0647619413e85e7cde80f6a21db95ab623e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994056"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4595498"
 ---
 # <a name="configure-intercompany-invoicing"></a>Configurare la fatturazione interaziendale
 
@@ -21,9 +23,9 @@ Completare i seguenti passaggi per impostare la fatturazione interaziendale per 
 
 ## <a name="example-configure-intercompany-invoicing"></a>Esempio: configurare la fatturazione interaziendale
 
-Nell'esempio seguente, Contoso Robotics USA (USPM) è la persona giuridica debitrice e Contoso Robotics UK (GBPM) è l'entità giuridica che concede il prestito. 
+Nell'esempio seguente, Contoso Robotics USA (USPM) è la persona giuridica richiedente e Contoso Robotics UK (GBPM) è la persona giuridica che effettua la concessione. 
 
-1. **Configurare la contabilità interaziendale tra persone giuridiche**. Ciascuna coppia di persone giuridiche richiedente e che effettua la concessione deve essere configurata nella pagina Contabilità generale [Contabilità interaziendale](/dynamics365/finance/general-ledger/intercompany-accounting-setup).
+1. **Configurare la contabilità interaziendale tra persone giuridiche**. Ciascuna coppia di persone giuridiche richiedente e che effettua la concessione deve essere configurata nella pagina Contabilità generale [Contabilità interaziendale](https://docs.microsoft.com/dynamics365/finance/general-ledger/intercompany-accounting-setup).
     
     1. In Dynamics 365 Finance, vai a **Contabilità generale** > **Impostazione di registrazione** > **Contabilità interaziendale**. Creare un record con le seguenti informazioni:
 
@@ -35,17 +37,17 @@ Nell'esempio seguente, Contoso Robotics USA (USPM) è la persona giuridica debit
      1. In Finance, selezionare la persona giuridica **GBPM**.
      2. Vai a **Contabilità clienti** > **Cliente** > **Tutti i clienti**. Creare un nuovo record per la persona giuridica, **USPM**.
      3. Espandere **Nome**, filtrare i record per **Tipo** e selezionare **Persone giuridiche**. 
-     4. Trova e seleziona il record del cliente per **Contoso Robotics USA (USPM)**.
+     4. Trovare e selezionare il record del cliente per **Contoso Robotics USA (USPM)**.
      5. Selezionare **Usa corrispondenza**. 
-     6. Seleziona il gruppo di clienti **50 - Clienti intercompany** e quindi salva il record.
+     6. Selezionare il gruppo di clienti e salvare il record.
      7. Selezionare la persona giuridica **USPM**.
      8. Andare a **Contabilità fornitori** > **Fornitori** > **Tutti i fornintori**. Creare un nuovo record per la persona giuridica, **GBPM**.
      9. Espandere **Nome**, filtrare i record per **Tipo** e selezionare **Persone giuridiche**. 
-     10. Trova e seleziona il record del cliente per **Contoso Robotics UK (GBPM)**.
+     10. Trovare e selezionare il record del cliente per **Contoso Robotics UK (GBPM)**.
      11. Selezionare **Usa corrispondenza**, selezionare il gruppo di fornitori, quindi salvare il record.
      12. Nel record del fornitore, selezionare **Generale** > **Configura** > **Interaziendale**.
      13. Nella scheda **Relazione commerciale**, impostare **Attivo** su **Sì**.
-     14. Imposta il campo **Società cliente** su **GBPM** e in **Record conto personale**, seleziona il record del cliente che hai creato in precedenza nella procedura.
+     14. Selezionare la società fornitore **GBPM** e in **Record del mio account**, selezionare il record del cliente che hai creato in precedenza nella procedura.
 
 3. **Configurare le impostazioni interaziendali in Gestione progetti e parametri contabili**. 
 
@@ -57,7 +59,7 @@ Nell'esempio seguente, Contoso Robotics USA (USPM) è la persona giuridica debit
     6. Nel gruppo **Quando si concedono in prestito risorse**, selezionare **...** > **Nuovo**. 
     7. Nella griglia, seleziona le informazioni seguenti:
 
-          - **Persona giuridica richiedente** = **USPM**
+          - **Persona giuridica richiedente** = **GBPM**
           - **Accumula ricavi** = **Sì**
           - **Categoria di foglio presenze predefinita** = **Predefinito: Ora**
           - **Categoria di spesa predefinita** = **Predefinito: Spesa**
@@ -69,36 +71,33 @@ Nell'esempio seguente, Contoso Robotics USA (USPM) è la persona giuridica debit
      3. Nella scheda **Conti costi**, in **Tipo di conto CoGe**, selezionare **Costi interaziendali**. Creare un nuovo record con le seguenti informazioni:
       
         - **Persona giuridica che effettua la concessione** = **GBPM**
-        - **Conto principale** = Seleziona il conto principale per il costo interaziendale. Questa impostazione è obbligatoria. L'impostazione viene utilizzata per i flussi interaziendali in Finance, ma non nei flussi interaziendali correlati al progetto. Questa selezione non ha alcun impatto a valle. 
+        - **Conto principale** = Selezionare il conto principale per il costo interaziendale
         
      4. Selezionare la persona giuridica che effettua la concessione **GBPM**. 
      5. Vai a **Contabilità e gestione dei progetti** > **Configurazione** > **Registrazione** > **Impostazione della registrazione contabile**. 
      6. Nella scheda **Conti ricavi**, in **Tipo di conto CoGe**, selezionare **Ricavi interaziendali**. Creare un nuovo record con le seguenti informazioni:
 
         - **Persona giuridica richiedente** = **USPM**
-        - **Conto principale** = Seleziona il conto principale per i ricavi interaziendali. Questa impostazione è obbligatoria. L'impostazione viene utilizzata per i flussi interaziendali in Finance, ma non nei flussi interaziendali correlati al progetto. Questa selezione non ha alcun impatto a valle. 
+        - **Conto principale** = Selezionare il conto principale per i ricavi interaziendali 
 
 5. **Imposta i prezzi di trasferimento per la manodopera**. Il prezzo di trasferimento interaziendale è configurato in Project Operations in Dataverse. Configura le [tariffe per il costo del lavoro](../pricing-costing/set-up-labor-cost-rate.md#transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity) e le [tariffe per la fatturazione del lavoro](../pricing-costing/set-up-labor-bill-rate.md#transfer-pricing-or-set-up-bill-rates-for-resources-from-other-organizational-units-or-divisions) per la fatturazione interaziendale. I prezzi di trasferimento non sono supportati per le transazioni delle spese interaziendali. Il prezzo di vendita unitario tra le organizzazioni sarà sempre impostato sullo stesso valore del prezzo di costo unitario delle risorse.
 
-      Il costo delle risorse per sviluppatori in Contoso Robotics UK costa 88 GBP l'ora. Contoso Robotics UK fatturerà a Contoso Robotics USA 120 USD ogni ora questa risorsa ha lavorato su progetti statunitensi. Contoso Robotics USA fatturerà al cliente Adventure Works 200 USD il lavoro svolto dalla risorsa sviluppatoer di Contoso Robotics UK.
+      Il costo delle risorse per sviluppatori in Contoso Robotics UK è di 88 GBP l'ora. Contoso Robotics UK fatturerà a Contoso Robotics USA 120 USD per ogni ora in cui questa risorsa ha lavorato su progetti USA. Contoso Robotics USA fatturerà al cliente Adventure Works 200 USD per il lavoro svolto dalla risorsa per sviluppatori Contoso Robotics UK.
 
-      1. In Project Operations su Dataverse, vai a **Vendita** > **Listini prezzi**. Crea un nuovo listino prezzi di costo chiamato **Tariffe dei costi di Contoso Robotics UK.** 
+      1. In Project Operations su Dataverse, vai a **Vendita** > **Listini prezzi**. Creare un nuovo listino prezzi di costo chiamato **Tariffe di costo di Contoso Robotics UK**. 
       2. Nel listino prezzi di costo creare un record con le seguenti informazioni:
          - **Ruolo** = **Sviluppatore**
          - **Costo** = **88 GBP**
-      3. Vai a **Impostazioni** > **Unità organizzative** e allega questo listino prezzi all'unità organizzativa **Contoso Robotics UK**.
-      4. Andare a **Vendite** > **Listini prezzi**. Crea un listino prezzi di costo chiamato **Tariffe dei costi di Contoso Robotics USA**. 
+      3. Andare a **Impostazioni** > **Unità organizzative** e allegare questo listino prezzi all'unità organizzativa **Contoso Robotics UK**.
+      4. Andare a **Vendite** > **Listini prezzi**. Creare un nuovo listino prezzi di costo chiamato **Tariffe di costo di Contoso Robotics USA**. 
       5. Nel listino prezzi di costo creare un record con le seguenti informazioni:
           - **Ruolo** = **Sviluppatore**
-          - **Società di gestione risorse** = **Contoso Robotics UK**
+          - **Società resourcing** = **Contoso Robotics UK**
           - **Costo** = **120 USD**
-      6. Vai a **Impostazioni** > **Unità organizzative** e allega il listino prezzi di costo **Tariffe dei costi di Contoso Robotics USA** all'unità organizzativa **Contoso Robotics USA**.
+      6. Andare a **Impostazioni** > **Unità organizzative** e allegare il listino prezzi **Tariffe di costo di Contoso Robotics USA** all'unità organizzativa **Contoso Robotics USA**.
       7. Andare a **Vendite** > **Listini prezzi**. Creare un listino prezzi di vendita chiamato **Tariffe per la fatturazione di Adventure Works**. 
       8. Nel listino prezzi di vendita creare un record con le seguenti informazioni:
           - **Ruolo** = **Sviluppatore**
-          - **Società di gestione risorse** = **Contoso Robotics UK**
+          - **Società resourcing** = **Contoso Robotics UK**
           - **Tasso di fatturazione** = **200 USD**
       9. Andare a **Vendite** > **Contratti di progetto** e allegare il listino prezzi **Tariffe per la fatturazione di Adventure Works** al listino prezzi del progetto Adventure Works del contratto di progetto.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

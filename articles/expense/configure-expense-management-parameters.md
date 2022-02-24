@@ -2,16 +2,18 @@
 title: Configurare i parametri di gestione delle spese
 description: Questo argomento descrive i parametri che controllano il comportamento generale nella gestione delle spese.
 author: suvaidya
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 1cabb0be624f7f6c12761e4fb6d5a095396a5940a37616bb3a304798e1f97808
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 09da0f4e0c6aec97c93c10eb686513e782189f77
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007781"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121043"
 ---
 # <a name="configure-expense-management-parameters"></a>Configurare i parametri di gestione delle spese
 
@@ -81,6 +83,3 @@ Questo argomento descrive i parametri che controllano il comportamento generale 
 | Visualizza attestazione anticorruzione   | Seleziona questa opzione per mostrare il testo anticorruzione quando viene creata una nota spese. È quindi possibile abilitare categorie di spesa specifiche che richiederanno la selezione dell'attestazione anticorruzione nella nota spese. Ad esempio, una categoria di regali correlata a una spesa di un funzionario governativo potrebbe richiedere al dipendente di confermare che la spesa soddisfa i criteri aziendali correlati ai funzionari pubblici. |
 | Messaggio anticorruzione per autore dell'invio | Immetti il testo che deve essere mostrato a un dipendente che sta creando una nota spese. Per inserire un testo specifico per la lingua che verrà mostrato, in base alla lingua dell'utente, seleziona **Traduzioni**. |
 | Messaggio anticorruzione per approvatore  | Immetti il testo che deve essere mostrato a un approvatore quando viene creata una nota spese. Per inserire un testo specifico per la lingua che verrà mostrato, in base alla lingua dell'utente, seleziona **Traduzioni**. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

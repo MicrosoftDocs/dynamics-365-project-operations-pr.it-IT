@@ -2,6 +2,8 @@
 title: Offerte e righe di offerta
 description: In questo argomento vengono fornite informazioni su offerte e righe di offerta.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c98708cf91f9c5d078f3a1d3d619c9ca93cffa3e6bbca34511947b602a1c678a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 024a7cdb81340a077e839d92c4321c8b0051404b
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995451"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145133"
 ---
 # <a name="quotes-and-quote-lines"></a>Offerte e righe di offerta
 
@@ -84,7 +86,7 @@ Le organizzazioni di servizi professionali in genere generano preventivi e fattu
 
 Una o più di queste classificazioni di transazioni possono essere associate a ogni riga di offerta. Dopo l'acquisizione di un'offerta, il mapping tra la classificazione delle transazioni e la riga di offerta viene trasferito alla voce di contratto.
  
-> ![Screenshot del mapping tra tipi di transazioni e righe di offerta e voci di contratto.](media/basic-guide-5.png)
+> ![Screenshot del mapping tra tipi di transazioni e righe di offerta e voci di contratto](media/basic-guide-5.png)
   
 Ad esempio, un'offerta può contenere le seguenti due righe di offerta: 
 - Lavoro di consulenza che utilizza un metodo di fatturazione Tempistica e materiali in cui le classificazioni di tempo e commissioni sono applicabili. Ad esempio, tutte le transazioni tempo e commissioni per il progetto di esempio **Implementazione di Dynamics AX** vengono fatturate al cliente in base a tempistica e materiali utilizzati. 
@@ -129,6 +131,3 @@ Per una riga di offerta a prezzo fisso, puoi utilizzare la griglia **Pianificazi
 - Per creare passaggi fondamentali di fatturazione equamente divisi, seleziona la frequenza di fatturazione, immetti la data di inizio della fatturazione nella riga di offerta e seleziona **Data di completamento richiesta** per l'offerta nella sezione **Riepilogo** dell'intestazione dell'offerta. Quindi seleziona **Genera passaggi fondamentali periodici** per creare passaggi fondamentali suddivisi equamente in base alla frequenza di fatturazione selezionata. 
 - Per creare un passaggio fondamentale di fatturazione con somma forfettaria, crea un passaggio fondamentale e quindi immetti il valore della riga di offerta come importo del passaggio fondamentale.
 - Per creare passaggi fondamentali di fatturazione basati su specifiche attività del piano di progetto, crea un passaggio fondamentale e mappalo all'elemento di pianificazione del progetto nell'interfaccia utente dei passaggi fondamentali di fatturazione.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

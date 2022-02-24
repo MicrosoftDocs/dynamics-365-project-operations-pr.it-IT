@@ -2,22 +2,24 @@
 title: Chiudere un'offerta
 description: Questo argomento fornisce informazioni sulla chiusura delle offerte in Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2314444dfdbd4d1a2f38c7de55e2070011e51a86f1e074dd6667d54393c641fe
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 47804db0144c2b0f9dee2c60518e8aba6fb27473
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993426"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124688"
 ---
 # <a name="close-a-quote"></a>Chiudere un'offerta
 
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati_
 
-Un'offerta di progetto può essere chiusa come acquisita o persa. Dal momento che le funzioni Attiva e Revisiona non sono supportate nelle offerte in Microsoft Dynamics 365 Project Operations, puoi chiudere un'offerta in bozza.
+Un'offerta di progetto può essere chiusa come acquisita o persa. Poiché le funzioni Attiva e Aggiorna non sono supportate sulle offerte in Microsoft Dynamics 365 Project Operations, puoi chiudere un'offerta in bozza.
 
 ## <a name="close-a-quote-as-won"></a>Chiudere un'offerta come acquisita
 
@@ -41,6 +43,3 @@ Se l'offerta di progetto chiusa come persa fa riferimento a un progetto in una d
 
 > [!NOTE]
 > In Project Operations, la chiusura di un'offerta come acquisita o persa non influirà sullo stato dell'opportunità, che rimarrà aperta fino a quando non verrà chiusa manualmente.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

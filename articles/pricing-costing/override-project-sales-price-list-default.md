@@ -2,17 +2,19 @@
 title: Sostituire i listini prezzi di vendita di progetto
 description: Questo argomento fornisce informazioni sulla creazione di listini prezzi di vendita personalizzati.
 author: rumant
+manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b26947822eb8e87b3b36fcde9c99c6ee69375aa942a5641112b9b1109dcaa26c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: af9baca540d89f4e5e616bdfdd6111bef29abe28
+ms.sourcegitcommit: 656a9d03f260c29e988e2ff05b6e07ae0365d6d0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009581"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "4672236"
 ---
 # <a name="override-project-sales-price-lists"></a>Sostituire i listini prezzi di vendita di progetto
 
@@ -50,6 +52,3 @@ Puoi utilizzare ciascuno di questi listini prezzi e aggiornare i prezzi di manod
 In un contratto di progetto, il prezzo del progetto è sempre predefinito come un listino prezzi personalizzato con il nome del contratto e il timestamp della data di creazione aggiunto al nome. Questo è vero se il contratto è stato creato quando l'offerta è stata acquisita o se il contratto è stato creato da zero. Se necessario, è possibile rimuovere questa associazione al listino prezzi personalizzato e associare un listino prezzi standard al contratto di progetto.
 
 Quando associ un listino prezzi standard ai listini prezzi di progetto su offerta o contratto, eventuali modifiche apportate ai prezzi nel listino prezzi avranno effetto su tutte le offerte e i contratti che utilizzano il listino prezzi.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

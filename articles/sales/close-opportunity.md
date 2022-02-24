@@ -2,16 +2,18 @@
 title: Chiudere un'opportunità
 description: In questo argomento vengono fornite informazioni sulla chiusura di un'opportunità di progetto.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: da388c19fb32a1dc62a0273a4de1203a45345dfb0c0a56e76b73cccc751e9545
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 59a4cd96a4fd24987179f0ab17f1379efc22bbbe
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006386"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128737"
 ---
 # <a name="close-an-opportunity"></a>Chiudere un'opportunità
 
@@ -21,7 +23,4 @@ Le opportunità di progetto possono essere chiuse come acquisite o perse. La fin
 
 Non ti sarà consentito di chiudere l'opportunità se sono presenti offerte attive ad essa associate. È possibile chiudere contemporaneamente tutti i preventivi attivi e in bozza associati a un'opportunità. Quindi ti sarà permesso di chiudere l'opportunità.
 
-Per altre informazioni generali sulla chiusura delle opportunità, vedi [Chiudere opportunità come acquisite o perse](/dynamics365/sales-enterprise/close-opportunity-won-lost-sales).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Per altre informazioni generali sulla chiusura delle opportunità, vedi [Chiudere opportunità come acquisite o perse](https://docs.microsoft.com/dynamics365/sales-enterprise/close-opportunity-won-lost-sales).

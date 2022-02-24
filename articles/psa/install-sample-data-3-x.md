@@ -3,6 +3,7 @@ title: Installazione dei dati di esempio
 description: In questo argomento vengono fornite informazioni sul'installazione dei dati di esempio in Project Service Automation.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
+ms.service: project-operations
 ms.reviewer: kfend
 ms.suite: ''
 applies_to: Dynamics 365 Project Service Automation
@@ -10,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 01e2f1f6b29e040d5c72af402031e13a867736405c4ee161e49b74a30e4b506e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: aaeb4163c7ace1c3bf4db61f1a10a13cfbdc4fc2
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985551"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144508"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Installazione di dati di esempio per l'applicazione Project Service
 
@@ -86,7 +87,7 @@ Il protocollo di installazione presuppone quanto segue per l'istanza di destinaz
 La funzione screen saver del computer deve essere disattivata. In caso contrario, è possibile la perdita delle credenziali della sessione per l'installazione quando la funzione screen saver viene attivata (a meno che la sessione non viene mantenuta sempre attiva).
 
 > [!div class="mx-imgBorder"]
-> ![Schermata delle impostazioni di screen saver con tale funzione disattivata.](media/sample-data-1.png)
+> ![Schermata delle impostazioni di screen saver con tale funzione disattivata](media/sample-data-1.png)
 
 ## <a name="download-and-unpack"></a>Scaricare e decomprimere
 
@@ -142,13 +143,13 @@ Il pacchetto di dati dimostrativi richiede sei utenti. Affinché il pacchetto ve
 3. Apri **PkgFolder**, quindi individua ed apri **ImportUserMapFile.xml**. Aggiorna i campi **Nuovo=** sugli indirizzi e-mail degli utenti corrispondenti nel sistema.
 
    > [!div class="mx-imgBorder"]
-   > ![Schermata di UserMapFile.](media/sample-data-7.png)
+   > ![Schermata di UserMapFile](media/sample-data-7.png)
 
 4. Se l'utente con il nome completo "Spencer Low" ha un ID utente diverso da **"spencerl"**, devi aggiornare un file aggiuntivo. Apri **DemoDataPreImportConfig.xml**, quindi trova il tag **userstocreateandconfigure**. Aggiorna il tag **\<login\>** con il loginId (con distinzione tra maiuscole e minuscole). 
 
 5. Il calendario del primo utente (nel tag **userstocreateandconfigure** ) viene utilizzato per inserire le ore lavorative per tutte le risorse prenotabili durante l'importazione dei dati dimostrativi. Accedi a **Impostazioni** > **Sicurezza** > **Utenti**, trova l'utente "Spencer Low", quindi apri l'ozpione "Ore lavorative". Modifica le ore lavorative esistenti, selezionando l'opzione **Intera pianificazione settimanale**. Verifica che le **ore lavorative siano impostate su 8 - 17 (9 ore), da Lunedì a Venerdì con il fuso orario impostato su Ora pacifico (USA e Canada)**. Ciò è necessario per garantire che la scheda di pianificazione e di progetto venga visualizzata come previsto.
 
-**Raccomandazione:** considerare la possibilità di creare un backup dell'organizzazione ora, nel caso sia necessario ritornare al punto di partenza a seguito di problemi durante l'installazione dei dati di esempio. Per ulteriori informazioni, vedere [Backup e ripristino di istanze](/dynamics365/customer-engagement/admin/backup-restore-instances).
+**Raccomandazione:** considerare la possibilità di creare un backup dell'organizzazione ora, nel caso sia necessario ritornare al punto di partenza a seguito di problemi durante l'installazione dei dati di esempio. Per ulteriori informazioni, vedere [Backup e ripristino di istanze](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
 
 ## <a name="run-the-package-deployer"></a>Eseguire Package Deployer
 
@@ -172,7 +173,7 @@ Il pacchetto di dati dimostrativi richiede sei utenti. Affinché il pacchetto ve
 5. Selezionare **Avanti** finché non viene visualizzata la finestra di dialogo **Installazione dati dimostrativi**.
 
    > [!div class="mx-imgBorder"]
-   > ![Schermata della finestra di stato del programma di installazione di dati dimostrativi.](media/sample-data-3.png)
+   > ![Schermata della finestra di stato del programma di installazione di dati dimostrativi](media/sample-data-3.png)
 
 6. Prima di continuare, notare che l'installazione di dati di esempio può richiedere fino a un'ora (normalmente ~10 minuti). È necessario assicurarsi che il computer sia acceso e collegato a una rete durante il processo di installazione e che la sessione rimanga attiva.   
 
@@ -191,10 +192,10 @@ Dopo il completamento del caricamento dei dati di esempio, accedere come Spencer
 - Se l'applicazione Field Service è installata, accedere a **Project Service** > **Impostazioni** > **Listini prezzi**. Confermare che i tassi di fatturazione e di costo esistono. Selezionare **Field Service** > **Impostazioni** > **Listini prezzi** e verificare l'esistenza di tassi di fatturazione e di costo, con la valuta appropriata, per ogni paese/area geografica nel set di dati.
 
   > [!div class="mx-imgBorder"]
-  > ![Schermata dei listini prezzi attivi.](media/sample-data-4.png)
+  > ![Schermata dei listini prezzi attivi](media/sample-data-4.png)
 
   > [!div class="mx-imgBorder"]
-  > ![Schermata delle unità organizzative attive.](media/sample-data-5.png)
+  > ![Schermata delle unità organizzative attive](media/sample-data-5.png)
 
 ## <a name="technical-notes"></a>Note tecniche
 
@@ -295,7 +296,4 @@ Se è necessario modificare le ore lavorative per le risorse prenotabili di esem
 Selezionare un utente (ad esempio, Spencer Low) e sostituire le ore lavorative di Spencer con le ore che si intende applicare a più utenti. Vai a **Universal Resource Scheduling** > **Impostazioni** > **Modelli di ore lavorative** e modifica il record **Modello di lavoro predefinito**. Nel campo **Risorsa Modello**, selezionare un utente con le ore lavorative che si desidera applicare ad altre risorse. Vai a **Universal Resource Scheduling** > **Pianificazione** > **Risorse** > .**Risorse prenotabili attive**. Selezionare le risorsa che si desidera modificare e quindi selezionare **Imposta calendario**. Nell'elenco a discesa **Modello di lavoro**, selezionare il modello **Ore lavorative predefinite** o un altro modello con la risorsa corretta. Quando accedi alla scheda di pianificazione, potrai vedere che le ore lavorative delle risorse sono state aggiornate.
 
 > [!div class="mx-imgBorder"]
-> ![Schermata delle risorse prenotabili attive.](media/sample-data-6.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+> ![Schermata delle risorse prenotabili attive](media/sample-data-6.png)

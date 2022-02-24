@@ -2,16 +2,18 @@
 title: Gestire i fusi orario
 description: Quando viene creato un progetto, il fuso orario si basa sul fuso orario definito nel modello di ore lavorative applicato.
 author: ruhercul
+manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d3fc0453e3038839107a98c4179e6bd4aede95cf4a5fcfe2d52f823b83029485
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 278b226c88c2f441262eb5be0504f34a1964848c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988701"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119828"
 ---
 # <a name="manage-time-zones"></a>Gestire i fusi orario
 
@@ -32,13 +34,13 @@ Per risultati accurati e prevedibili durante l'utilizzo di **Estendi prenotazion
 
 - L'utente deve configurare il fuso orario del proprio dispositivo in modo che corrisponda al fuso orario definito nelle **Impostazioni di personalizzazione** del sistema.
  
-  ![Impostazioni di fuso orario in Windows 10.](media/reconcile-assignments-03.png)
+  ![Impostazioni di fuso orario in Windows 10](media/reconcile-assignments-03.png)
 
-  ![Impostazioni di fuso orario nelle impostazioni di personalizzazione.](media/reconcile-assignments-04.png)
+  ![Impostazioni di fuso orario nelle impostazioni di personalizzazione](media/reconcile-assignments-04.png)
  
 - La risorsa prenotabile deve avere almeno un minuto di orario di lavoro che si sovrappone ai profili utilizzati per definire l'estensione richiesta. Ad esempio, le seguenti risorse con orari di lavoro compresi tra le 9:00 e le 19:00. 
 
-  ![Confronto dei profili delle risorse.](media/reconcile-assignments-05.png)
+  ![Confronto dei profili delle risorse](media/reconcile-assignments-05.png)
 
 La tabella seguente mostra:
 
@@ -47,25 +49,22 @@ La tabella seguente mostra:
 - Risorsa B: questa risorsa si trova in un fuso orario diverso da quello del progetto e inizia alle 7:00 del suo fuso orario. Tuttavia, le prenotazioni inizieranno alle 9:00 in quanto è il primo orario di inizio del profilo dell'assegnazione.
 - Risorse C e D: le risorse si trovano in fusi orari diversi, sia diversi l'uno dall'altro che dal progetto, e le loro prenotazioni iniziano non prima dei rispettivi orari di inizio disponibili.
 
-|Entity  |Calendari  |
+|Entità  |Calendario  |
 |-|-|
-|Modello di calendario di progetto   | ![calendario di progetto.](media/reconcile-assignments-06.png) |
-|Risorsa A  | ![Calendario della risorsa A.](media/reconcile-assignments-06.png) |
-|Risorsa B  |  ![Calendario della risorsa B.](media/reconcile-assignments-07.png) |
-|Risorsa C  |  ![Calendario della risorsa C.](media/reconcile-assignments-08.png) |
-|Risorsa D  | ![Calendario della risorsa D.](media/reconcile-assignments-09.png)  |
+|Modello di calendario di progetto   | ![calendario di progetto](media/reconcile-assignments-06.png) |
+|Risorsa A  | ![Calendario della risorsa A](media/reconcile-assignments-06.png) |
+|Risorsa B  |  ![Calendario della risorsa B](media/reconcile-assignments-07.png) |
+|Risorsa C  |  ![Calendario della risorsa C](media/reconcile-assignments-08.png) |
+|Risorsa D  | ![Calendario della risorsa D](media/reconcile-assignments-09.png)  |
  
 Quando ti sposti nella vista **Riconciliazione**, vengono visualizzate le assegnazioni di risorse e le relative prenotazioni insufficienti.
 
-![Visualizzazione di riconciliazione prima dell'estensione.](media/reconcile-assignments-10.png)
+![Visualizzazione di riconciliazione prima dell'estensione](media/reconcile-assignments-10.png)
 
 Dopo che la funzionalità di estensione della prenotazione è stata utilizzata per ciascuna risorsa, le prenotazioni vengono estese per ogni risorsa perché le ore lavorative di ciascuna risorsa si sovrappongono ai profili dell'insufficienza.
 
-![Visualizzazione di riconciliazione dopo l'estensione della prenotazione.](media/reconcile-assignments-11.png) 
+![Visualizzazione di riconciliazione dopo l'estensione della prenotazione](media/reconcile-assignments-11.png) 
 
 Tieni presente che esaminando attentamente i dettagli delle prenotazioni puoi visualizzare le differenze nell'orario di inizio delle prenotazioni. Le prenotazioni iniziano non prima dell'ora di inizio del profilo di assegnazione e non prima dell'ora di inizio disponibile della risorsa.
 
-![Nuove prenotazioni delle risorse nella scheda di pianificazione.](media/reconcile-assignments-12.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![Nuove prenotazioni delle risorse nella scheda di pianificazione](media/reconcile-assignments-12.png)

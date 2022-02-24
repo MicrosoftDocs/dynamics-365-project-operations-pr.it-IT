@@ -2,9 +2,11 @@
 title: Aggiungere campi personalizzati richiesti all'impostazione e alle entità transazionali
 description: Questo argomento fornisce informazioni su come aggiungere riferimenti di campi personalizzati richiesti a entità, moduli e viste.
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 36c95913cc72e293c3015e1b9d3055aac476eebb4cf7d7993741d3cb61de0e13
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c324e0e8797d0b6d3a06ffc2a40b787a475c49b5
+ms.sourcegitcommit: 16c442258ba24c79076cf5877a0f3c1f51a85f61
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006162"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4590906"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>Aggiungere campi personalizzati richiesti all'impostazione e alle entità transazionali
 
@@ -47,7 +49,7 @@ Quando una dimensione di determinazione dei prezzi è basata su set di opzioni, 
 > [!IMPORTANT]
 > Quando aggiungi un campo a più entità, utilizza lo stesso nome di campo in tutte le entità. 
 
-> ![Aggiungere Ubicazione lavoro risorsa a Prezzo ruolo.](media/RWL-Field.png)
+> ![Aggiungere Ubicazione lavoro risorsa a Prezzo ruolo](media/RWL-Field.png)
 
 Nelle fasi di vendita e stima di un progetto, le stime del lavoro richiesto per completare il lavoro **Locale** e **In loco**, presenti in **Ore regolari** e **Ore di lavoro straordinario**, sono utilizzate per stimare il valore dell'offerta/del progetto. I campi **Ubicazione lavoro risorsa** e **Ore lavorative risorsa** sono aggiunti alle entità di stima **Dettagli riga di offerta**, **Dettaglio voce di contratto**, **Membro del team di progetto** e **Riga di stima**.
 
@@ -59,7 +61,7 @@ Nelle fasi di vendita e stima di un progetto, le stime del lavoro richiesto per 
 6. Ripeti i passaggi da 1 a 5 per aggiungere questo campo alle entità **Dettagli di voce di contratto di progetto**, **Membro del team di progetto** e **Riga di stima**.
 7. Ripeti i passaggi da 1 a 6 per il set di opzioni **Ore lavorative risorsa**. 
 
-> ![Aggiungere Ubicazione lavoro risorsa a Riga di stima.](media/RWL-Default-Value.png)
+> ![Aggiungere Ubicazione lavoro risorsa a Riga di stima](media/RWL-Default-Value.png)
 
 Per la consegna e la fatturazione, è necessario determinare correttamente il prezzo del lavoro completato per specificare se è **Locale** o **In loco** e se è stato completato durante le **Ore regolari** o le **Ore di lavoro straordinario** per i valori effettivi di progetto. I campi **Ore lavorative di una risorsa** e **Ubicazione lavoro risorsa** devono essere aggiunti alle entità **Inserimento ore**, **Valore effettivo**, **Dettagli di riga fattura** e **Riga giornale di registrazione**.
 
@@ -71,7 +73,7 @@ Per la consegna e la fatturazione, è necessario determinare correttamente il pr
 6. Ripeti i passaggi da 1 a 5 per aggiungere questo campo alle entità **Valore effettivo**, **Dettagli di riga fattura** e **Riga giornale di registrazione**.
 7. Ripeti i passaggi da 1 a 6 per il set di opzioni **Ore lavorative risorsa**. 
 
-> ![Aggiungere Ubicazione lavoro risorsa a Inserimento ore.](media/RWL-time-entry.png)
+> ![Aggiungere Ubicazione lavoro risorsa a Inserimento ore](media/RWL-time-entry.png)
 
 Questa operazione completa le modifiche allo schema necessarie per le dimensioni personalizzate basate su set di opzioni.
 
@@ -84,7 +86,7 @@ Quando la dimensione di determinazione dei prezzi personalizzata è un'entità, 
 3. Espandi l'entità **Titolo standard** e seleziona **Relazione 1:N**.
 4. Seleziona **Nuovo** per creare un nuova relazione 1:N denominata **Da Titolo standard a Risorsa prenotabile**. Immetti le informazioni richieste e quindi seleziona **Salva**.
 
-> ![Aggiungere Titolo standard come campo di riferimento a Risorsa prenotabile.](media/ST-BR.png)
+> ![Aggiungere Titolo standard come campo di riferimento a Risorsa prenotabile](media/ST-BR.png)
 
 Anche Titolo standard deve essere aggiunto alle entità di determinazione dei prezzi, ovvero **Prezzo ruolo** e **Ricarico prezzo ruolo**. Anche questa operazione viene eseguita utilizzando relazioni 1:N tra le entità **Titolo standard** e **Prezzo ruolo** e tra le entità **Titolo standard** e **Ricarico prezzi ruolo**.
 
@@ -102,13 +104,13 @@ Nelle fasi di vendita e stima del progetto, per determinare il prezzo dell'offer
 
 5. Ripeti i passaggi da 1 a 5 per creare relazioni 1:N tra **Titolo standard** e **Dettagli riga di offerta**, **Dettagli di voce di contratto di progetto**, **Membro del team di progetto** e **Riga di stima**.
 
-> ![Aggiungere Titolo standard come campo di riferimento a Riga di stima.](media/ST-Estimate-Line.png)
+> ![Aggiungere Titolo standard come campo di riferimento a Riga di stima](media/ST-Estimate-Line.png)
 
   Nelle fasi di consegna e fatturazione, è necessario determinare accuratamente il prezzo del lavoro completato per ogni titolo standard nel valori effettivi di progetto. Ciò significa che deve esistere una relazione 1:N tra **Titolo standard** e le entità **Inserimento ore**, **Valore effettivo**, **Dettagli di riga fattura** e **Riga giornale di registrazione**.
 
 6. Ripeti i passaggi da 1 a 6 per creare relazioni 1:N tra **Titolo standard** e le entità **Inserimento ore**, **Valore effettivo**, **Dettagli di riga fattura** e **Riga giornale di registrazione**.
 
-> ![Aggiungere Titolo standard come campo di riferimento a Inserimento ore.](media/ST-Mapping.png)
+> ![Aggiungere Titolo standard come campo di riferimento a Inserimento ore](media/ST-Mapping.png)
 
 ### <a name="set-up-dimension-value-defaulting-using-the-mappings-features-of-the-platform"></a>Configurare l'impostazione predefinita del valore della dimensione utilizzando funzionalità di mapping della piattaforma
 Per Inserimento ore, sarebbe utile che il sistema utilizzasse, per impostazione predefinita, il titolo standard nell'inserimento ore anziché quello della risorsa prenotabile che sta registrando l'inserimento ore. Utilizza i passaggi seguenti per aggiungere mapping di campi nella relazione 1:N tra **Risorsa prenotabile** e **Inserimento ore**.
@@ -118,7 +120,7 @@ Per Inserimento ore, sarebbe utile che il sistema utilizzasse, per impostazione 
 3. Fai doppio clic su **Da Risorsa prenotabile a Inserimento ore**. Nella pagina **Relazione** seleziona **Utilizza mapping campi**. 
 4. Seleziona **Nuovo** per creare un nuovo mapping dei campi tra il campo **Titolo standard** dell'entità **Risorsa prenotabile** e il campo di riferimento **Titolo standard** dell'entità **Inserimento ore**. 
 
-> ![Impostare mapping di campi per consentire l'impostazione predefinita di Titolo standard da Risorsa prenotabile a Inserimento ore.](media/ST-Mapping2.png)
+> ![Impostare mapping di campi per consentire l'impostazione predefinita di Titolo standard da Risorsa prenotabile a Inserimento ore](media/ST-Mapping2.png)
 
 Questa operazione completa le modifiche allo schema necessarie per le dimensioni personalizzate basate su entità.
 
@@ -144,6 +146,3 @@ La tabella seguente fornisce un elenco completo di moduli e viste predefinite, e
 |  Valore effettivo|• Informazioni<br>• Valori effettivi attivi|• Vista Valore effettivo associata|
 
 A seconda di quanto hai definito, è possibile che sia necessario aggiungere campi personalizzati anche alle regole di business. Un esempio predefinito riguarda la regola di business **Possibilità di modifica di Inserimento ore basata sullo stato**. Tale regola definisce quali campi devono essere bloccati quando lo stato di Inserimento ore non è modificabile ad esempio **Approvato**. Aggiungi campi a questa regola di business di modo che i campi siano bloccati per la modifica quando lo stato di Inserimento ore non è **Bozza** o **Restituito**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

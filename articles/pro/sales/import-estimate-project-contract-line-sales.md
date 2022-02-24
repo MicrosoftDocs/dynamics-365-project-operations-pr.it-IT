@@ -2,22 +2,24 @@
 title: Importare una stima in una voce di contratto basata su progetto - semplice
 description: Questo argomento fornisce informazioni sull'importazione delle stime finanziarie da un progetto in una voce di contratto.
 author: rumant
+manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fb85d835789da82f22ae007addb6757ab3c166180992e4ce3a5c85606be6671d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b462af163fef1bfcbbc4f945df722d4e8a71fb1a
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997251"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177471"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line---lite"></a>Importare una stima in una voce di contratto basata su progetto - semplice
 
 _**Si applica a:** Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
-In Dynamics 365 Project Operations, puoi importare stime da un progetto in una voce di contratto basata su progetto.
+In Dynamics 365 Project Operations, puoi importare stime da un progetto a una voce di contratto basata su progetto.
 
 1. Verifica che il campo **Progetto** nella voce del contratto basata su progetto sia compilato.
 2. Nella scheda **Dettagli voce di contratto**, seleziona nella griglia secondaria **Importa da stima di progetto**. Si apre una pagina di dialogo con le opzioni di riepilogo. Le opzioni di riepilogo disponibili sono **Classe di transazione**, **Categoria**, **Ruolo** e **Attività di progetto**.
@@ -58,6 +60,3 @@ Quando l'utente seleziona il riepilogo per **Classe di transazione**, **Categori
 | Attività A | Biglietto aereo | 1/10/2020 | 4 | 400 | 1600 |
 | Attività B | Hotel | 1/10/2020 | 4 | 200 | 800 |
 | Attività C | Hotel | 1/11/2020 | 2 | 200 | 400 |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

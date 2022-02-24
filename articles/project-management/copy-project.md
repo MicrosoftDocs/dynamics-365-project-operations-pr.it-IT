@@ -2,29 +2,30 @@
 title: Copiare un progetto
 description: In questo argomento vengono fornite informazioni sulla copia di progetti in Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 05/21/2021
+manager: AnnBe
+ms.date: 02/22/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: fe76f59b315fd0f46b25e1d116acde1f6b2864d1753e01d6311ea93ae7d116fc
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: af1942e81691d9e13fdcbbf68599c1a8a4004582
+ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007196"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5479524"
 ---
 # <a name="copy-a-project"></a>Copiare un progetto
 
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
-Con Dynamics 365 Project Operations, puoi creare rapidamente nuovi progetti selezionando **Copia progetto** nel modulo **Progetti**. Per copiare un progetto, apri il progetto che desideri copiare e quindi seleziona **Copia progetto**. L'azione copierà quanto segue:
+Con Dynamics 365 Project Operations, puoi creare rapidamente nuovi progetti selezionando **Copia progetto** nel modulo **Progetti**. Per copiare un progetto, apri il progetto che desideri copiare e quindi seleziona **Copia progetto**. L'azione copierà:
 
-- Proprietà del progetto 
+- Proprietà del progetto (la data di inizio stimata viene copiata dal progetto di origine)
 - Struttura di suddivisione del lavoro
 - Membri del team di progetto
 - Stime di progetto
 - Stime di spesa del progetto
-- Stime dei materiali di progetto
 
 ## <a name="project-properties"></a>Proprietà del progetto
 
@@ -41,15 +42,11 @@ Quando il progetto viene copiato, vengono copiati i valori nei seguenti campi:
 - Stato di progetto generale
 - Commenti
 - Stime
-- Data di inizio stimata: questa è la data in cui il progetto viene creato dalla copia.
-- Data di fine stimata: questa data viene modificata in base alla data di inizio del nuovo progetto creato dalla copia.
+- Data di inizio prevista
+- Data di fine
 - Lavoro (ore)
-- Costo manodopera stimato
+- Costo della manodopera stimato
 - Costo spese stimato
-- Costo materiale stimato
-
-> [!NOTE]
-> Il progetto di copia è un'operazione a esecuzione prolungata. Vengono copiati anche i record del progetto, i relativi attributi e molte entità correlate. A causa dell'esecuzione prolungata dell'operazione, dopo l'avvio della copia, la pagina del progetto di destinazione è bloccata per la modifica fino al completamento dell'operazione di copia.
 
 ## <a name="work-breakdown-structure"></a>Struttura di suddivisione del lavoro
 
@@ -61,7 +58,7 @@ Quando un team di progetto viene copiato dal progetto di origine, vengono copiat
 
 ## <a name="estimates"></a>Stime
 
-Quando il progetto viene copiato, le righe di risorse, spese e stima dei materiali vengono copiate dal progetto di origine. 
+Quando il progetto viene copiato, le righe di stima delle risorse e delle spese vengono copiate dal progetto di origine. 
 
 Per informazioni su come accedere a livello di codice a Copia progetto, vedi [Sviluppare modelli di progetto con Copia progetto](dev-copy-project.md).
 

@@ -2,6 +2,8 @@
 title: Stime
 description: In questo argomento vengono fornite informazioni sulle stime in Dynamics 365 Project Service Automation.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 1/31/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ebb59d2b38bf99aed15206646e77c74003aba2a92a6d8d262e6e7b2017285ed3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2fa81067ad6e7c291b9ad9468db051e8f6187da9
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992391"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151438"
 ---
 # <a name="estimates"></a>Stime
 
@@ -68,8 +70,8 @@ Utilizza la tabella seguente come guida per comprendere la logica di business ne
 | Scenario                                                                                                                                                                                                                                                                                                                                          | Record dell'entità                                                                                                                                                                                                       | Tipo di transazione | Classe di transazione | Informazioni aggiuntive                                                            |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|-------------|-----------------------------------------------------------------------------------|
 | Se devi stimare il valore di vendita del tempo per un'offerta                                                                                                                                                                                                                                                                                    | Viene creato il record Dettagli riga di offerta                                                                                                                                                                               | Contratto di progetto | Time        | Il campo Origine transazione nella riga dei dettagli di riga sul lato vendite fa riferimento ai dettagli di riga di offerta sul lato costi |
-|                                                                                                                                                                                                                                                                                     | Un secondo record Dettagli riga di offerta viene creato dal sistema per memorizzare i valori di costo corrispondenti. Tutti i campi di tipo non money vengono copiati dai dettagli riga di offerta di vendita nei dettagli riga di offerta di costo.                                                                                                                                                                               | Costo | Time        | Il campo Origine transazione nel dettaglio della riga di offerta sul lato vendite fa riferimento ai dettagli di riga di offerta sul lato costi |
-| Se devi stimare il valore di vendita del tempo per un contratto                                                                                                                                                                                                                                                                                 | Viene creato il record Dettagli di voce di contratto di progetto                                                                                                                                                                    | Contratto di progetto | Time        | Il campo Origine transazione nei dettagli di voce di contratto sul lato vendite fa riferimento ai dettagli di voce di contratto sul lato costi      |
+|                                                                                                                                                                                                                                                                                     | Un secondo record Dettagli riga di offerta viene creato dal sistema per memorizzare i valori di costo corrispondenti. Tutti i campi di tipo non money vengono copiati dai dettagli riga di offerta di vendita nei dettagli riga di offerta di costo.                                                                                                                                                                               | Costo | Time        | Il campo Origine transazione nella riga dei dettagli di riga sul lato vendite fa riferimento ai dettagli di riga di offerta sul lato costi |
+| Se devi stimare il valore di vendita del tempo per un contratto                                                                                                                                                                                                                                                                                 | Viene creato il record Dettagli voce di contratto di progetto                                                                                                                                                                    | Contratto di progetto | Time        | Il campo Origine transazione nei dettagli di voce di contratto sul lato vendite fa riferimento ai dettagli di voce di contratto sul lato costi      |
 |                                                                                                                                                                                                                                                                                  | Un secondo record Dettagli voce di contratto viene creato dal sistema per memorizzare i valori di costo corrispondenti. Tutti i campi di tipo non money vengono copiati dai dettagli voce di contratto lato vendita nei dettagli voce di contratto lato costo.                                                                                                                                                                    | Costo | Time        | Il campo Origine transazione nei dettagli di voce di contratto sul lato vendite fa riferimento ai dettagli di voce di contratto sul lato costi      |
 | Quando l'utente descrive una risorsa per un'attività di progetto                                                                                                                                                                                                                                                                                            | Un record di riga di stima per visualizzare il valore di vendita dell'attività viene creato quando un'attività viene creata con tutte le dimensioni di determinazione dei prezzi necessarie. Il ruolo e le unità organizzative sono le dimensioni di determinazione dei prezzi di OOB Project Service | Contratto di progetto | Time        |                                                                                   |
 |     | Il record di riga di stima per visualizzare il valore di costo dell'attività viene creato quando un'attività viene creata con tutte le dimensioni di determinazione dei prezzi necessarie. Tutti i campi di tipo non money vengono copiati dal sistema dalla riga di stima di vendita nella riga di stima di costo. Il ruolo e l'unità organizzativa sono le dimensioni di determinazione dei prezzi di OOB PSA per i tassi di costo e di fatturazione.                                                                                                                                                                                                                | Costo             | Time           |                                                                                   |
@@ -78,32 +80,29 @@ Utilizza la tabella seguente come guida per comprendere la logica di business ne
 
 ## <a name="customizing-the-quote-line-detail-and-contract-line-detail-entities"></a>Personalizzare le entità Dettagli riga di offerta e Dettagli voce di contratto
 
-Se hai aggiunto un campo personalizzato per i dettagli di riga di offerta e vuoi che il sistema immetta il valore del campo come valore predefinito nella riga dei costi correlata che crea, utilizza gli strumenti di registrazione del plug-in PreOperationContractLineDetailUpdate and PreOperationQuoteLineDetailUpdate . Questi plug-in devono essere registrati dopo la modifica del dettaglio di riga di offerta o del dettaglio di voce di contratto. Segui i passaggi seguenti per completare il processo:
+Se hai aggiunto un campo personalizzato per i dettagli di riga di offerta e vuoi che il sistema immetta il valore del campo come valore predefinito nella riga dei costi correlata che crea, utilizza gli strumenti di registrazione del plug-in PreOperationContractLineDetailUpdate and PreOperationQuoteLineDetailUpdate . Questi plug-in devono essere registrati dopo la modifica dei dettagli di riga di offerta o dei dettagli di voce di contratto. Segui i passaggi seguenti per completare il processo:
 
 1. Apri PluginRegistrationTool e connettiti all'istanza online.
 2. Seleziona **Cerca** e cerca il plug-in da aggiornare.
 
-    ![Finestra di dialogo Albero ricerca.](media/basic-guide-19.png)
+    ![Finestra di dialogo Albero ricerca](media/basic-guide-19.png)
 
 3. Seleziona il plug-in e quindi, nella pagina principale, seleziona **Seleziona**.
 4. Seleziona il passaggio del plug-in da aggiornare, fai clic con il pulsante destro del mouse e quindi scegli **Aggiorna**.
 
-    ![Selezionare un passaggio nel plug-in.](media/basic-guide-20.png)
+    ![Selezionare un passaggio nel plug-in](media/basic-guide-20.png)
 
 5. Nella finestra di dialogo **Aggiorna passaggio esistente**, nel campo **Attributi filtro**, seleziona il pulsante con i puntini di sospensione (**...**):
  
-    ![Finestra di dialogo Aggiorna passaggio esistente.](media/basic-guide-21.png)
+    ![Finestra di dialogo Aggiorna passaggio esistente](media/basic-guide-21.png)
 
 6. Nella finestra di dialogo **Seleziona attributi**, seleziona le caselle di controllo relative agli attributi personalizzati.
 
-    ![Finestra di dialogo Seleziona attributi.](media/basic-guide-22.png)
+    ![Finestra di dialogo Seleziona attributi](media/basic-guide-22.png)
 
 7. Seleziona **OK** per chiudere la finestra di dialogo e quindi seleziona **Aggiorna passaggio**.
  
-    ![Pulsante Aggiorna passaggio.](media/basic-guide-23.png)
+    ![Pulsante Aggiorna passaggio](media/basic-guide-23.png)
 
 8. Ripeti i passaggi da 1 a 7 per il secondo plug-in.
 9. Chiudi PluginRegistrationTool.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

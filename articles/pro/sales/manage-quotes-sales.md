@@ -2,16 +2,18 @@
 title: Gestire offerte di progetto
 description: In questo argomento vengono fornite informazioni sulle offerte di progetto.
 author: rumant
+manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ccf669fb47585e13e24921f2aeee383b33dd9c5f882e82220a906f9b73bfcc4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3c33adabbd03cca19ae5e7f401f08a716e9242b2
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001526"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177831"
 ---
 # <a name="manage-project-quotes"></a>Gestire offerte di progetto
 
@@ -31,6 +33,3 @@ Un elenco di tutte le offerte di progetto può essere visualizzato dalla pagina 
 2. Utilizza **Cambia vista** per selezionare altre visualizzazioni filtrate delle offerte. Utilizzando criteri di filtro personalizzati, è possibile configurare le proprie visualizzazioni e opzioni di spostamento.
 
 Le offerte possono essere create o eliminate da questa pagina elenco o dalle pagine dei dettagli.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

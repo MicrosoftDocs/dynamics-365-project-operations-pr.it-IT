@@ -2,10 +2,12 @@
 title: Creare campi ed entità personalizzati
 description: In questo argomento viene illustrato come creare set di opzioni ed entità nella soluzione utilizzata sulla piattaforma Power Apps.
 author: Rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f501bcc106a296f35bba996b6ab3a8b758cefb1926033faf04ee23c42bc94d39
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b9e32c8871a8986ba827f742baf4e4d5cd9dd235
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992436"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144868"
 ---
 # <a name="create-custom-fields-and-entities"></a>Creare campi ed entità personalizzati 
 
@@ -43,7 +45,7 @@ Una dimensione di determinazione dei prezzi può essere un set di opzioni o un'e
 2. In Esplora soluzioni, nel riquadro di spostamento a sinistra, seleziona **Entità**.
 3. Fai clic su **Nuovo** per creare una nuova entità denominata **Titolo standard**. Immetti le altre informazioni e quindi fai clic su **Salva**.
 
-> ![Definizione dell'entità Titolo standard.](media/Standard-Title-entity-definition.png)
+> ![Definizione dell'entità Titolo standard](media/Standard-Title-entity-definition.png)
 
 
 ### <a name="option-set-based-dimensions"></a>Dimensioni basate su set di opzioni 
@@ -54,9 +56,9 @@ Puoi creare due dimensioni basate su set di opzioni. Utilizza **Ubicazione lavor
 2. In Esplora soluzioni, nel riquadro di spostamento a sinistra, seleziona **Set di opzioni**. 
 3. Fai clic su **Nuovo** per creare un nuovo set di opzioni, immetti le altre informazioni richieste e quindi fai clic su **Salva**.
 
-> ![Set di opzioni basato sulla dimensione di determinazione dei prezzi denominata Ubicazione lavoro risorsa.](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![Set di opzioni basato sulla dimensione di determinazione dei prezzi denominata Ubicazione lavoro risorsa ](media/Option-set-PD-called-Resource-Work-Location.png)
 
-> ![Set di opzioni basato sulla dimensione di determinazione dei prezzi denominata Ore lavorative risorsa.](media/Option-set-PD-called-Resource-Work-Hours.PNG)
+> ![Set di opzioni basato sulla dimensione di determinazione dei prezzi denominata Ore lavorative risorsa ](media/Option-set-PD-called-Resource-Work-Hours.PNG)
 
 
 ## <a name="create-data-for-entity-based-dimensions"></a>Creare dati per le dimensioni basate su entità
@@ -68,9 +70,6 @@ Puoi creare dati per le dimensioni basate su entità manualmente oppure utilizza
 3. Chiudere il modulo. 
 4. Ripeti i passaggi da 1 a 3 per creare un altro titolo standard, ovvero "Sistemista esperto".
 
-> ![Dati di esempio per l'entità Titolo standard.](media/ST-data.png)
+> ![Dati di esempio per l'entità Titolo standard ](media/ST-data.png)
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

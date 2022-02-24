@@ -2,16 +2,18 @@
 title: Creare un anticipo ad hoc su un contratto
 description: Questo argomento fornisce informazioni sulla creazione di un anticipo su un contratto secondo necessità.
 author: rumant
+manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bceed1372dbaf523426a4c34da7152d77fe108240c8c3e4e1390c43b1cf536a4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 790a0281f72eff5f241d11da025b5b4af643a567
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999141"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4595998"
 ---
 # <a name="creating-an-ad-hoc-advance-on-a-contract"></a>Creare un anticipo ad hoc su un contratto
 
@@ -37,6 +39,3 @@ Completa i passaggi seguenti per fatturare un anticipo al cliente.
     | **Stato fattura** | Questa è un'impostazione dell'opzione che indica se questo anticipo viene aggiunto a una bozza di fattura per questo cliente. I valori possibili sono:</br>- **Non pronto per la fatturazione**</br>- **Pronto per la fatturazione** | Quando un anticipo o un pagamento anticipato è contrassegnato come **Pronto per la fatturazione**, viene aggiunto come riga di ora su una bozza di fattura. Solo un anticipo completamente fatturato può essere utilizzato per riconciliare i costi del progetto per il periodo di fatturazione successivo. |
 
 4. Seleziona **Salva e chiudi** nella finestra di dialogo di creazione rapida per registrare l'anticipo o il pagamento anticipato.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

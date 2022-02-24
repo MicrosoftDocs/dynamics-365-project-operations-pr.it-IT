@@ -2,16 +2,18 @@
 title: Novità di novembre 2020 - Project Operations per scenari di materiali stoccati basati sulla produzione
 description: Questo argomento fornisce informazioni sugli aggiornamenti di qualità disponibili nella versione di novembre 2020 di Project Operations per scenari di materiali stoccati basati sulla produzione.
 author: sigitac
+manager: Annbe
 ms.date: 10/15/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7ffbca7929133e7828d08ad4b4e7bd6b702c15e39726421a35241d23d1123f48
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b671f314ddae9a59167bb9059dc7b076df95cb9d
+ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003191"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4365519"
 ---
 # <a name="whats-new-november-2020---project-operations-for-stockedproduction-based-scenarios"></a>Novità di novembre 2020 - Project Operations per scenari di materiali stoccati basati sulla produzione
 
@@ -23,7 +25,4 @@ Per informazioni sulle correzioni incluse in questo aggiornamento, accedi a Life
 
 ## <a name="regulatory-updates"></a>Aggiornamenti normativi
 
-Per informazioni sugli aggiornamenti normativi per le app Dynamics 365 Finance and Operations, vedi [Aggiornamenti normativi](/dynamics365/finance/localizations/regulatory-updates). È inoltre possibile accedere a LCS e visualizzare gli aggiornamenti normativi pianificati utilizzando lo strumento di ricerca dei problemi. La ricerca dei problemi ti consente di cercare per paese, tipo di funzionalità e versione.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+Per informazioni sugli aggiornamenti normativi per le app Dynamics 365 Finance and Operations, vedi [Aggiornamenti normativi](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). È inoltre possibile accedere a LCS e visualizzare gli aggiornamenti normativi pianificati utilizzando lo strumento di ricerca dei problemi. La ricerca dei problemi ti consente di cercare per paese, tipo di funzionalità e versione.

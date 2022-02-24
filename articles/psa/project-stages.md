@@ -2,6 +2,8 @@
 title: Tipi di fasi del progetto
 description: In questo argomento vengono fornite informazioni sulle fasi di progetto.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 06/19/2020
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e4f50d12b4f0bf1586d0a5702bcd38b891590bffe0d3f9661d7f5d170877b54e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 61db23e19614f5c3be5c8b46fbf72463705e409c
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996891"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148108"
 ---
 # <a name="project-stage-types"></a>Tipi di fasi del progetto 
 
@@ -63,6 +65,3 @@ Quando il lavoro del progetto viene completato, il responsabile di progetto può
 ## <a name="close"></a>Chiusura
 
 Quando tutte le registrazioni sono registrate per il progetto, il responsabile di progetto può aggiornare la fase a **Chiusura**. A quel punto, nessuna transazione può essere registrata e il progetto diventa di sola lettura.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

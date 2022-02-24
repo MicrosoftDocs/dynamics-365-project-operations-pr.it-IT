@@ -2,16 +2,18 @@
 title: Configurare la creazione automatica della fattura
 description: Questo argomento fornisce informazioni su come configurare il sistema per generare fatture automaticamente.
 author: rumant
+manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 894e8f6e4ffbb5f003cdd1f69594e2a1e043b514923de5673d7ba9afaa6894e8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 295c3b099c9670c930fb2ba2fd208be63a77217f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992661"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122438"
 ---
 # <a name="configure-automatic-invoice-creation"></a>Configurare la creazione automatica della fattura
 
@@ -43,6 +45,3 @@ Il processo batch per la creazione di fatture è un processo ricorrente. Se ques
 
 > [!NOTE]
 > La fatturazione batch viene eseguita solo per le righe di contratto di progetto configurate dalle pianificazioni fatture. Una riga di contratto con un metodo di fatturazione a prezzo fisso deve avere i passaggi fondamentali configurati. Una riga di contratto di progetto con un metodo di fatturazione di tempo e materiali richiederà una pianificazione fatturazione basata sulla data. Lo stesso vale per una riga di contratto basato su progetto.     
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

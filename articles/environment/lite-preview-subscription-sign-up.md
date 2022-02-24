@@ -2,40 +2,60 @@
 title: Iscriversi a un abbonamento di anteprima - semplice
 description: 'Questo argomento fornisce informazioni su come iscriversi alla distribuzione semplice di Project Operations: accordo per la fatturazione proforma.'
 author: sigitac
-ms.date: 07/02/2021
+manager: Annbe
+ms.date: 10/07/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5ba43ba9f917da068415fb62067ab73433b701139ee07014b6bd8c02612008ce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6f4360b7febab57b97df0776ef9148d2a38f16a7
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991536"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175896"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Iscriversi a un abbonamento di anteprima - semplice 
 
-Questo argomento spiega come sottoscrivere l'offerta della versione di valutazione e distribuire Dynamics 365 Project Operations, distribuzione semplice: dalla transazione alla fatturazione proforma.
+Questo argomento spiega come iscriversi all'offerta per i partner di anteprima e applicare la distribuzione semplice di Dynamics 365 Project Operations: accordo per la fatturazione proforma.
 
 > [!NOTE]
 > Questo processo cambierà nelle prossime versioni di Project Operations.
 
 ## <a name="prerequisites"></a>Prerequisiti
-- L'utente che distribuisce l'anteprima deve disporre dei diritti di amministratore globale del tenant di Azure. Puoi creare un tenant durante il primo riscatto dell'offerta.
+
+- Riceverai un messaggio e-mail che ti invita a partecipare all'anteprima. È possibile richiedere un'anteprima sul [sito Web di Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/).
+- L'utente che distribuisce l'anteprima deve disporre dei diritti di amministratore globale del tenant di Azure.
+- Rivedi tutti i termini e le condizioni.
+
+## <a name="subscribe"></a>Sottoscrivi
+
+Quando ricevi l'approvazione per una [richiesta di anteprima](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u), riceverai due offerte da Microsoft tramite e-mail. Queste offerte consentono di distribuire l'anteprima di Project Operations:
+
+- Dynamics 365 Project Operations (CRM): versione di valutazione di anteprima
+- Office 365 Project Operations - Versione di valutazione di anteprima
 
 > [!IMPORTANT]
 > Solo una persona, l'amministratore del tenant, in un'organizzazione deve eseguire questa attività. Se non sei abbonato a questa versione, attendi fino a quando la tua organizzazione non è stata iscritta e hai ricevuto le credenziali utente.
-> 
-> Le versioni di valutazione sono per uso singolo nel tenant. Puoi eseguire una versione di valutazione solo una volta. Ti consigliamo di creare un nuovo tenant ai fini della versione di valutazione.
 
-### <a name="dynamics-365-project-operations-trial"></a>Versione di valutazione di Dynamics 365 Project Operations 
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM): versione di valutazione di anteprima 
 
 Prima di iniziare, assicurati di aver effettuato l'accesso a un browser con l'account utente di lavoro nel tenant in cui desideri l'anteprima di Project Operations.
 
-1. Vai a [Versione di valutazione di Project Operations](https://aka.ms/try-po) per riscattare il primo codice dell'offerta, **Dynamics 365 Project Operations**.
-2. Conferma l'ordine.
+1. Riscatta il primo codice dell'offerta, **Dynamics 365 Project Operations (CRM) - Versione di valutazione di anteprima** incollandolo nell'URL del browser.
 
-  Vedrai che la conferma che l'offerta è stata riscossa con successo.
+![Riscattare l'offerta](./media/16RedeemFirstOfferNew.png)
+
+2. Conferma l'ordine.
+![Conferma l'ordine](./media/17ConfirmOrderNew.png)
+
+Vedrai la conferma che l'offerta è stata riscattata.
+
+![Conferma](./media/18OrderConfirmationNew.png)
+
+### <a name="office-365-project-operations---preview-trial"></a>Office 365 Project Operations - Versione di valutazione di anteprima
+
+Ripeti gli stessi passaggi del primo codice dell'offerta. Assicurati di aggiungere il secondo codice dell'offerta utilizzando lo stesso account utente utilizzato con il primo codice dell'offerta.
 
 ## <a name="assign-licenses"></a>Assegnare licenze
 
@@ -44,28 +64,30 @@ Prima di iniziare, assicurati di aver effettuato l'accesso a un browser con l'ac
 
 
 1. Vai all'[interfaccia di amministrazione di Microsoft 365](https://portal.office.com/) per assegnare le licenze ai tuoi utenti.
+
+![Home page dell'interfaccia di amministrazione](./media/14AdminPortal.png)
+
 2. Nella pagina **Utenti attivi** seleziona gli utenti a cui assegnare una licenza.
-3. Verifica che la licenza **Dynamics 365 Project Operations** sia selezionata. 
+
+![Assegnare licenze](./media/15AssignLicenses.png)
+
+3. Verifica che le licenze **Anteprima di Dynamics 365 Project Operations (CRM)** e **Office 365 Project Operations - Anteprima** siano selezionate. 
 4. Seleziona **Salva modifiche**.
 
-## <a name="create-a-new-dataverse-environment"></a>Creare un nuovo ambiente Dataverse
+## <a name="create-a-new-cds-environment"></a>Creare un nuovo ambiente CDS
 
-1. Esegui il provisioning di un nuovo ambiente di distribuzione Dataverse di Project Operations seguendo le istruzioni nell'argomento [Modello di distribuzione Dataverse](lite-deployment.md). Quando selezioni il tipo di ambiente, assicurati di utilizzare **Versione di valutazione (basata su abbonamento)**.
-
-  ![Nuovo ambiente.](./media/19CreateEnvironment.png)
+1. Esegui il provisioning di un nuovo ambiente di distribuzione CDS di Project Operations seguendo le istruzioni nell'argomento [Modello di distribuzione CDS](lite-deployment.md). Quando selezioni il tipo di ambiente, assicurati di utilizzare **Versione di valutazione (basata su abbonamento)**.
+![Nuovo ambiente](./media/19CreateEnvironment.png)
 
 2. Seleziona l'impostazione **Abilita app Dynamics 365** e lascia **Distribuisci automaticamente queste app** vuoto.  
 3. Seleziona **Salva** per creare l'ambiente.
 
-  ![Aggiungere il database.](./media/20CreateEnvironment1.png)
+![Aggiungi database](./media/20CreateEnvironment1.png)
 
 4. Dopo aver creato l'ambiente, installa la soluzione **Microsoft Dynamics 365 Project Operations**. 
 
-![Installare la soluzione.](./media/21InstallSolution.png)
+![Installare la soluzione](./media/21InstallSolution.png)
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>Installare i dati dimostrativi di installazione e configurazione CDS
 
 Installa i dati dimostrativi di installazione e configurazione CDS seguendo le istruzioni nell'argomento [Applicare i dati di installazione e configurazione dimostrativi](lite-apply-demo-setup-config-data.md).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

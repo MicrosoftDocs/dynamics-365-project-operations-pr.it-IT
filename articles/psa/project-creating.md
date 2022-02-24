@@ -2,6 +2,8 @@
 title: Pianificazioni di progetto
 description: In questo argomento vengono fornite informazioni su come creare una pianificazione.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 192fbe7f26a2bd060ffe9bc0b1eea50b9431bca4696e3da1d94bf53158e026a6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2877f12a9ea3d288c4cf41f406cd8ca3e6cee821
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998421"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148423"
 ---
 # <a name="project-schedules"></a>Pianificazioni di progetto 
 
@@ -94,7 +96,7 @@ La griglia **Pianificazione** è completamente accessibile e può essere utilizz
 
 Il nome di un'attività descrive il lavoro che deve essere completato. In PSA, gli attributi associati a un'attività descrivono la pianificazione dell'attività e i relativi requisiti di assegnazione del personale.
 
-> ![Attributi attività.](media/project-2.png)
+> ![Attributi attività](media/project-2.png)
  
 ### <a name="schedule-attributes"></a>Attributi di pianificazione
 
@@ -147,6 +149,3 @@ Per impostazione predefinita, se un'attività del nodo foglia è priva di predec
 ### <a name="manual-scheduling"></a>Pianificazione manuale
 
 Se le regole di pianificazione automatica non soddisfano i requisiti, puoi impostare la modalità di attività per l'attività su **Pianificata manualmente**. Questa impostazione interrompe il calcolo dei valori di altri attributi di pianificazione da parte del motore di pianificazione. Indipendentemente dalla modalità di attività, l'impostazione di predecessori per le attività influenza sempre la data di inizio dell'attività dipendente.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

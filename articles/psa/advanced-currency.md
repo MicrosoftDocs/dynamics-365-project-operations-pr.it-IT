@@ -2,6 +2,8 @@
 title: Scenari con più valute (versione 3.x)
 description: In questo argomento vengono fornite informazioni sugli scenari con più valute.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/26/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 89a91cf3dbbcf81dbb089ee88c8c177c73afb694914ca7d95eae96776d38abed
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bdb9ccad84e0f510118502d4253f5c83a760f8bb
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005126"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145678"
 ---
 # <a name="multiple-currency-scenarios"></a>Scenari con più valute
 
@@ -34,7 +36,7 @@ Microsoft Dynamics 365 comporta due concetti di valute:
 - **Valuta transazioni** - La valuta di una transazione. 
 - **Valuta di base** - La valuta dell'istanza di Dynamics 365. Questa valuta viene impostata durante il provisioning di Dynamics 365. e non può essere modificata.
 
-Ad esempio, Contoso US ha venduto 100 magliette a un cliente nel Regno Unito al costo di 15 sterline (GBP) l'una. Nella tabella seguente viene mostrato come questa transazione viene registrata nell'entità Prodotto ordine.
+Ad esempio, Contoso US ha venduto 100 magliette a un cliente nel Regno Unito al costo di 15 sterline britanniche l'una. Nella tabella seguente viene mostrato come questa transazione viene registrata nell'entità Prodotto ordine.
 
 | Prodotto | Quantità | Prezzo unitario | Valuta | Importo | Tasso di cambio | Prezzo unitario (base)| Importo (base)|
 |---------|----------|----------------|----------|--------|---------------|----------------------|--------------|
@@ -103,6 +105,3 @@ Dynamics 365 gestisce automaticamente i rollup di importi in differenti valute. 
 | Spesa           | Vendite non fatturate   | 17-Giu | Alfonso  | Noleggio auto           | 1 ea     | 150 EUR      | 150 EUR     | 0.94          | 159,57 USD     |
 
 Per calcolare il valore totale delle vendite non fatturate del progetto, puoi creare un campo di rollup per il campo **Importo** per tutti i valori effettivi delle vendite non fatturate correlati. Il campo di rollup è un costrutto di Dynamics 365 che consente l'utilizzo di formule rapide nei record correlati.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Sincronizzare i contratti di progetto e i progetti direttamente da Project Service Automation a Finance
 description: Questo argomento descrive il modello e le attività sottostanti che vengono utilizzati per sincronizzare i progetti e i contratti del del progetto direttamente da Microsoft Dynamics 365 Project Service Automation a Dynamics 365 Finance.
 author: Yowelle
+manager: AnnBe
 ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: acb87be977cc009f89ceac5b01c9028d6741b552a441ef49e024b6b078a188d4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1a470fd86ceccd7b6058da6972399a6d6be2a991
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001076"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764824"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Sincronizzare i contratti di progetto e i progetti direttamente da Project Service Automation a Finance 
 
@@ -42,7 +44,7 @@ La soluzione di integrazione da Project Service Automation a Finance utilizza la
 
 La figura seguente mostra come i dati vengono sincronizzati tra Project Service Automation e Finance.
 
-[![Flusso di dati per l'integrazione di Project Service Automation con Finance.](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
+[![Flusso di dati per l'integrazione di Project Service Automation con Finance](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
 
 ## <a name="templates-and-tasks"></a>Modelli e attività
 
@@ -107,8 +109,8 @@ Quando viene applicata la soluzione di integrazione da Project Service Automatio
 ## <a name="prerequisites-and-mapping-setup"></a>Configurazione di prerequisiti e mapping
 
 - Prima di sincronizzare i contratti di progetto e i progetti, è necessario sincronizzare gli account.
-- Nel set di connessione, aggiungi un mapping del campo della chiave di integrazione per **msdyn\_organizationalunits** su **msdyn\_name\[Nome \]**. Potrebbe essere necessario prima aggiungere un progetto al set di connessione. Per altre informazioni, vedi [Integrare i dati in Common Data Service per le app](/powerapps/administrator/data-integrator).
-- Nel set di connessione, aggiungi un mapping del campo della chiave di integrazione per **msdyn\_projects** su **msdynce\_projectnumber\[Numero di progetto\]**. Potrebbe essere necessario prima aggiungere un progetto al set di connessione. Per altre informazioni, vedi [Integrare i dati in Common Data Service per le app](/powerapps/administrator/data-integrator).
+- Nel set di connessione, aggiungi un mapping del campo della chiave di integrazione per **msdyn\_organizationalunits** su **msdyn\_name\[Nome \]**. Potrebbe essere necessario prima aggiungere un progetto al set di connessione. Per altre informazioni, vedi [Integrare i dati in Common Data Service per le app](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+- Nel set di connessione, aggiungi un mapping del campo della chiave di integrazione per **msdyn\_projects** su **msdynce\_projectnumber\[Numero di progetto\]**. Potrebbe essere necessario prima aggiungere un progetto al set di connessione. Per altre informazioni, vedi [Integrare i dati in Common Data Service per le app](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 - **SourceDataID** per i contratti di progetto e i progetti possono essere aggiornati su un valore diverso o rimossi dal mapping. Il valore del modello predefinito è **Project Service Automation**.
 - Il mapping **PaymentTerms** deve essere aggiornato in modo che rifletta i termini di pagamento validi in Finance. Puoi inoltre rimuovere il mapping dall'attività del progetto. Il mapping di valori predefinito ha valori predefiniti per i dati demo. La tabella seguente mostra i valori in Project Service Automation.
 
@@ -140,17 +142,14 @@ Se devi utilizzare Power Query, segui queste linee guida:
 
 La figura seguente mostra esempi di mapping delle attività del modello in Integrazione dati. Il mapping mostra le informazioni sui campi che verranno sincronizzate da Project Service Automation a Finance.
 
-[![Mapping di modello di contratto di progetto.](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
+[![Mapping di modello di contratto di progetto](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
 
-[![Mapping di modello di progetto.](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
+[![Mapping di modello di progetto](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
 
-[![Mapping di modello di voci di contratto di progetto.](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
+[![Mapping di modello di voci di contratto di progetto](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
 
-[![Mapping di modello di passaggio fondamentale di voce di contratto di progetto.](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
+[![Mapping di modello di passaggio fondamentale di voce di contratto di progetto](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
 
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>Mapping delle fasi di voce contratto di progetto nel modello di progetti e contratti (da PSA 3.x a Dynamics) - v2:
 
-[![Mapping di passaggio fondamentale di voce di contratto di progetto con modello a due versioni.](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[![Mapping di passaggio fondamentale di voce di contratto di progetto con modello a due versioni](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)

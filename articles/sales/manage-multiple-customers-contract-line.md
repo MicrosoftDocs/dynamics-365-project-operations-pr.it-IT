@@ -2,16 +2,18 @@
 title: Gestire più clienti sulle voci di contratto basate su progetto
 description: Questo argomento fornisce informazioni su come lavorare con voci di contratto e contratti che contengono più clienti.
 author: rumant
+manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 25ce50251380d1ca136a81268c74a0675928011dc2eefaee21df83cdd62845a9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 71081775ab45167bc1bff1979f7856a2a2a91385
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992121"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181907"
 ---
 # <a name="manage-multiple-customers-on-project-based-contract-lines"></a>Gestire più clienti sulle voci di contratto basate su progetto
 
@@ -42,6 +44,3 @@ Di seguito sono riportati i campi del record cliente voce di contratto di una vo
 Le percentuali di suddivisione della fatturazione possono essere modificate nella griglia. Quando le percentuali di suddivisione della fatturazione non raggiungono il 100 percento viene visualizzato un errore. Dopo aver modificato le percentuali di suddivisione della fatturazione, aggiorna la pagina per rimuovere l'errore.
 
 Puoi anche provare a selezionare **Distribuzione uniforme** sulla griglia secondaria dei clienti della voce di contratto. Questa azione assegna in modo uniforme le suddivisioni di fatturazione a tutti i clienti della voce di contratto. Se è presente un fattore di arrotondamento, verrà aggiunto al cliente con arrotondamento. Un cliente della voce di contratto viene sempre contrassegnato come cliente con **arrotondamento** con il contrassegno **Arrotondamento** impostato su **Sì**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

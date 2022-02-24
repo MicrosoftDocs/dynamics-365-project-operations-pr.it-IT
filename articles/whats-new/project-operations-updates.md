@@ -2,17 +2,19 @@
 title: Aggiornamenti di Project Operations
 description: Questo argomento fornisce informazioni sulle versioni rilasciate di Dynamics 365 Project Operations.
 author: sigitac
-ms.date: 11/15/2021
+manager: Annbe
+ms.date: 03/03/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f5e37bc90a74e6bc9f1bf3d3820a34c3f4c3496d
-ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
+ms.openlocfilehash: 6f7feb8c84441f97ad52016371284eb91b37478a
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7942844"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948244"
 ---
 # <a name="project-operations-updates"></a>Aggiornamenti di Project Operations
 
@@ -28,62 +30,60 @@ Dynamics 365 Project Operations è costituito da due componenti:
 - Gestione progetti e contabilità in ambiente Dynamics 365 Finance include capacità di gestione delle spese, contabilità del progetto e riconoscimento dei ricavi. L'ambiente dell'app Finance and Operations viene usato in Project Operations per scenari basati su risorse/materiali non stoccati e Project Operations per scenari basati su materiali stoccati/produzione.
 
 ## <a name="project-operations-release-notes"></a>Note sulla versione di Project Operations
-- Note sulla versione più recenti di Project Operations per lo scenario [risorse/materiali non stoccati](whats-new-dec-2021-resource-based.md).
-- Note sulla versione più recenti di Project Operations per lo scenario [distribuzione semplice](../pro/whats-new/whats-new-dec-2021-lite.md).
-- Note sulla versione più recenti di Project Operations per lo scenario [materiali stoccati/produzione](../prod-pma/whats-new/whats-new-oct-2021-stocked.md).
+- Note sulla versione più recenti di Project Operations per lo scenario [risorse/materiali non stoccati](whats-new-apr-2021-resource-based.md).
+- Note sulla versione più recenti di Project Operations per lo scenario [distribuzione semplice](../pro/whats-new/whats-new-apr-2021-lite.md).
+- Note sulla versione più recenti di Project Operations per lo scenario [materiali stoccati/produzione](../prod-pma/whats-new/whats-new-mar-2021-stocked.md).
 
 ## <a name="project-operations-latest-version"></a>Ultima versione di Project Operations
 
 | Project Operations in ambiente Dataverse | Gestione progetti e contabilità in ambienti di app Finance and Operations | 
 | --- | --- |
-| 4.27.0.242 | 10.0.23 |
+| 4.9.0.221 | 10.0.17 |
 
-Per lo scenario basato su risorse/materiali non stoccati di Project Operations, si consiglia di usare Dual Write Orchestration versione 2.3.1.15 o successiva.
+Per lo scenario basato su risorse/materiali non stoccati di Project Operations, si consiglia di utilizzare Dual Write Orchestration versione 2.2.2.50 o successiva.
 
 ## <a name="release-schedule-for-project-operations-on-dataverse-environment"></a>Pianificazione del rilascio per Project Operations in ambiente Dataverse
 
 Gli aggiornamenti per Project Operations in ambiente Dataverse sono disponibili mensilmente. 
 
-| Stazione | Area geografica | Numero versione corrente | Aggiornamenti automatici per la distribuzione Lite | Aggiornamenti automatici per la distribuzione di risorse/materiali non stoccati | Numero versione successiva | La versione successiva è generalmente disponibile |
-|-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
-| Stazione 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Prima versione         |  4.27.0.242     | Completo*          | Completo*           | Da definire                 | 14 gennaio 2022    |
-| Stazione 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | America del Sud         |  4.27.0.242     | Completamento           | 07 gennaio 2022    | Da definire                 | 14 gennaio 2022    |
-|   &nbsp;  | Canada                |  4.27.0.242     | Completamento           | 07 gennaio 2022    | Da definire                 | 14 gennaio 2022    |
-|   &nbsp;  | India                 |  4.27.0.242     | Completamento           | 07 gennaio 2022    | Da definire                 | 14 gennaio 2022    |
-|   &nbsp;  | Francia                |  4.27.0.242     | Completamento           | 07 gennaio 2022    | Da definire                 | 14 gennaio 2022    |
-|   &nbsp;  | Sudafrica          |  4.27.0.242     | Completamento           | 07 gennaio 2022    | Da definire                 | 14 gennaio 2022    |
-| Stazione 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Giappone                 |  4.27.0.242     | Completamento           | 07 gennaio 2022    | Da definire                 | 21 gennaio 2022    |
-|   &nbsp;  | Asia Pacifico          |  4.27.0.242     | Completamento           | 07 gennaio 2022    | Da definire                 | 21 gennaio 2022    |
-|   &nbsp;  | Gran Bretagna         |  4.27.0.242     | Completamento           | 07 gennaio 2022    | Da definire                 | 21 gennaio 2022    |
-|   &nbsp;  | Oceania               |  4.27.0.242     | Completamento           | 07 gennaio 2022    | Da definire                 | 21 gennaio 2022    |
-|   &nbsp;  | Emirati Arabi Uniti  |  4.27.0.242     | Completamento           | 07 gennaio 2022    | Da definire                 | 21 gennaio 2022    |
-| Stazione 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europa                |  4.26.0.155     | Completamento           | 07 gennaio 2022    | 4.27.0.242          | 10 gennaio 2022    |
-| Stazione 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | America del Nord         |  4.26.0.155     | 07 gennaio 2022   | 14 gennaio 2022    | 4.27.0.242          | 17 gennaio 2022    |
-
->[!Note]
-> - Completato* - Aggiornamenti automatici completati con la versione 4.27.0.195.
-
+| Stazione   | Area geografica        | Versione corrente | Prossima versione | Generalmente disponibile |
+|-----------|---------------|-----------------|--------------|---------------------|
+| Stazione 1 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
+|   &nbsp;  | Prima versione |  4.9.0.221       | Da definire     | 30-apr-21           |
+| Stazione 2 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
+|   &nbsp;  | America del Sud |  4.9.0.221       | Da definire     | 30-apr-21           |
+|    &nbsp; | Canada        |  4.9.0.221       | Da definire     | 30-apr-21           |
+|   &nbsp;  | India         |  4.9.0.221       | Da definire     | 30-apr-21           |
+|   &nbsp;  | Francia         |  4.9.0.221       | Da definire     | 30-apr-21           |
+|   &nbsp;  | Emirati Arabi Uniti         |  4.9.0.221       | Da definire     | 30-apr-21           |
+|   &nbsp;  | Sudafrica         |  4.9.0.221       | Da definire     | 30-apr-21           |
+| Stazione 3  |      &nbsp;   |     &nbsp;      |     &nbsp;   |      &nbsp;         |
+|   &nbsp;  | Giappone         |  4.9.0.221       | Da definire     | 07-Maggio-21           |
+|   &nbsp;  | Asia Pacifico  |  4.9.0.221       | Da definire     | 07-Maggio-21           |
+|   &nbsp;  | Gran Bretagna |  4.9.0.221       | Da definire     | 07-Maggio-21           |
+|   &nbsp;  | Oceania       |  4.9.0.221       | Da definire     | 07-Maggio-21           |
+| Stazione 4 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
+|   &nbsp;  | Europa        |  4.9.0.221       | Da definire     | 14-Maggio-21           |
+| Stazione 5 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
+|   &nbsp;  | America del Nord |  4.9.0.221       | Da definire     | 21-Maggio-21           |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Programma di rilascio per Gestione progetti e contabilità nell'ambiente delle app Finance and Operations
 
 Gli aggiornamenti per Gestione progetti e contabilità vengono rilasciati otto volte all'anno.
 
-|Versione supportata| Disponibilità anteprima (PEAP) | Generalmente disponibile (aggiornamento automatico) | Data di inizio della produzione del programma di aggiornamento automatico (tramite le impostazioni di aggiornamento LCS) |   Fine del servizio   |
-|:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
-|     10.0.23     |      15 ottobre 2021       |        10 Dicembre 2021          |                          31 dicembre 2021                           | 18 marzo 2022     |
-|     10.0.22     |      3 settembre 2021      |        22 ottobre 2021           |                          5 novembre 2021                            | 14 gennaio 2022   |
+| Versione supportata | Generalmente disponibile (aggiornamento automatico) |
+| --- | --- |
+| 10.0.18 | 16 aprile 2021 |
+| 10.0.17 | 19 marzo 2021 |
+| 10.0.16 | 22 gennaio 2021 |
 
 
 Le date di rilascio previste sono soggette a modifiche. Per ulteriori informazioni, vedi [Disponibilità degli aggiornamenti del servizio](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 
-|Versione di destinazione | Disponibilità anteprima (PEAP) | Generalmente disponibile (aggiornamento automatico) | Data di inizio della produzione del programma di aggiornamento automatico (tramite le impostazioni di aggiornamento LCS) |   Fine del servizio   |
-|:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
-|     10.0.24     |      3 dicembre 2021       |        14 gennaio 2022           |                          4 febbraio 2022                            | 15 aprile 2022     |
-|     10.0.25     |      31 gennaio 2022       |        18 marzo 2022             |                          1 aprile 2022                               | 10 giugno 2022      |
+| Data di rilascio previste | Generalmente disponibile (aggiornamento automatico) |
+| --- | --- |
+| 10.0.19 | 18 giugno 2021 |
+| 10.0.20 | 16 luglio 2021 |
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

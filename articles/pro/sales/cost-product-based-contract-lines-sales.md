@@ -2,17 +2,19 @@
 title: Costo delle voci di contratto basate su prodotto - semplice
 description: In questo argomento vengono fornite informazioni sulla creazione
 author: rumant
+manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 55f74b016b55945433083e11902003cea99f1aa463264cdd95b0aad389592e20
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a81c972f36179621f0547c24fc53d294485f638c
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997341"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764464"
 ---
 # <a name="cost-product-based-contract-lines---lite"></a>Costo delle voci di contratto basate su prodotto - semplice
 
@@ -28,6 +30,3 @@ Quando viene creata una riga di contratto basata sul prodotto per un prodotto ca
 Avere un costo unitario su una voce di contratto basata su prodotto consente costi diversi per un prodotto per ciascuna unità di vendita. Sebbene non sempre necessario, esistono alcuni scenari in cui il costo del prodotto può essere scontato per il cliente dal fornitore. Prendi in considerazione lo scenario seguente:
 
 Fabrikam Robotics sta installando bracci robotici presso le linee di assemblaggio di Adatum Corporation. Fabrikam fornisce servizi di installazione ma Robotic Arms proviene da Trey Research. Se l'installazione di bracci robotici presso Adatum Corporation apre un nuovo settore verticale per Trey Research, potrebbero concedere uno sconto speciale per questo accordo a Fabrikam. In questo caso, Fabrikam crea una riga di contratto basata sul prodotto per Robotic Arms. Per questo contratto viene inserito un costo unitario. Il costo è diverso dal costo di Robotic Arms di Trey Research.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

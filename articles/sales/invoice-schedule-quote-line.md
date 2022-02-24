@@ -2,16 +2,18 @@
 title: Pianificazioni della fatturazione su righe di offerta basate su progetto
 description: Questo argomento fornisce informazioni sulla creazione di pianificazioni e passaggi fondamentali di fatturazione per le righe di offerta.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0d07596b299d71b229487faf80a09e368059575ea37095d2c82d35561d009c96
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2b69742915fe79ee59e7fdcf317000cea79c5929
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988611"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180827"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>Pianificazioni della fatturazione su righe di offerta basate su progetto
 
@@ -66,6 +68,3 @@ Apri la riga dell'offerta a prezzo fisso per cui è necessario creare un passagg
 | Stato fattura | Creazione rapida | Quando viene creato un passaggio fondamentale, questo stato è sempre impostato su **Non pronto per la fatturazione**. | Viene propagato sul passaggio fondamentale della riga di contratto del progetto e sulla fattura. |
 | Importo riga | Creazione rapida | Importo o valore del passaggio fondamentale che verrà fatturato al cliente. | Viene propagato sul passaggio fondamentale della riga di contratto del progetto e sulla fattura. |
 | Imposta | Creazione rapida | Importo dell'imposta che verrà applicato al passaggio fondamentale. | Viene propagato sul passaggio fondamentale della riga di contratto del progetto e sulla fattura. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,6 +2,8 @@
 title: Novità o modifiche nella versione di aggiornamento 20 di Project Service Automation V3
 description: Questo argomento elenca le funzionalità e le correzioni disponibili nella versione di aggiornamento 20 di Project Service Automation V3
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 06/12/2020
 ms.topic: article
@@ -15,18 +17,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9939e2f354b69dcbc304f4f6e2ac41a00f251fed69f37978059f4053335ee651
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ee3be43da401af405ab329b9b5a724a2e95c0219
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993606"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147118"
 ---
 # <a name="project-service-automation-update-release-20-v3"></a>Versione di aggiornamento di Project Service Automation 20, V3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Siamo lieti di annunciare l'ultimo aggiornamento per l'applicazione Project Service Automation per Dynamics 365. Questa versione include alcuni importanti miglioramenti in termini di qualità, prestazioni e usabilità. Questa versione è compatibile con Dynamics 365 9.x. Per eseguire l'aggiornamento a questa versione, visita l'interfaccia di amministrazione di Dynamics 365 online e vai alla pagina delle soluzioni per installare l'aggiornamento. Per ulteriori informazioni, vedere [Installare, aggiornare o rimuovere una soluzione preferita](/power-platform/admin/install-remove-preferred-solution).
+Siamo lieti di annunciare l'ultimo aggiornamento per l'applicazione Project Service Automation per Dynamics 365. Questa versione include alcuni importanti miglioramenti in termini di qualità, prestazioni e usabilità. Questa versione è compatibile con Dynamics 365 9.x. Per eseguire l'aggiornamento a questa versione, visita l'interfaccia di amministrazione di Dynamics 365 online e vai alla pagina delle soluzioni per installare l'aggiornamento. Per ulteriori informazioni, vedere [Installare, aggiornare o rimuovere una soluzione preferita](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
 
 Questo argomento elenca le funzionalità e le correzioni nuove o modificate per l'aggiornamento rilascio 20 di Project Service Automation V3. Questa versione ha il numero di build V 3.10.31.37 ed è generalmente disponibile tramite un aggiornamento automatico a giugno 2020.
 
@@ -40,7 +42,7 @@ Sono stati risolti i seguenti problemi:
 
 - L'importazione dei membri del team di progetto con un metodo di allocazione che richiede ore genera un messaggio di errore non chiaro quando le ore specificate sono zero.
 - Gli utenti ricevono un errore non corretto quando il numero massimo di caratteri è stato inserito nel campo **Descrizione** per un'attività di progetto.
-- La pagina di **download del componente aggiuntivo Microsoft Dynamics 365 Project Service Automation** reindirizza alla pagina di download in inglese quando le impostazioni della lingua dell'utente sono impostate sul giapponese.
+- La pagina **download del componente aggiuntivo Microsoft Dynamics 365 Project Service Automation** reindirizza alla pagina di download in inglese quando le impostazioni della lingua dell'utente sono impostate sul giapponese.
 - Quando si verifica un errore del server, l'etichetta di sincronizzazione sulla scheda **Pianifica** del modulo **Progetti** a volte rimane.
 - Gli aggiornamenti delle attività ridondanti vengono inviati al server quando un'attività viene modificata.
 
@@ -60,6 +62,3 @@ Sono stati risolti i seguenti problemi:
 - Gli elenchi **Prezzo di costo unità organizzativa** consentono sovrapposizioni della data di validità.
 - Gli utenti non sono autorizzati a modificare **OrgUnit** quando il tipo di ordine non è basato sul lavoro perché questa operazione genererà un errore di eccezione di riferimento Null.
 - Quando si tenta di passare dal modulo **Dettagli riga di offerta**, indietro nella scheda **Offerta**, il modulo si aggiorna e visualizza la scheda **Riepilogo**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

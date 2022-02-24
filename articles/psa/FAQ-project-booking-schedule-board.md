@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 513f7fe75cfb7b1658b4be71ed0a17da7b64a1023992e1dada9adca8f0dbf21e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d33786a5d0a2485a06d174eb7afcbaaa2f337cf6
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987621"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5992971"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>Creare una prenotazione di progetto dalla scheda di pianificazione
 
@@ -43,7 +43,7 @@ ms.locfileid: "6987621"
 
 1.  Nella scheda di pianificazione, questa risorsa sarà visualizzata nella scheda **Apri requisiti**. I filtri delle colonne nella griglia possono rivelarsi utili se vi sono molti requisiti aperti. 
 
-    ![Scheda Apri requisiti nella scheda di pianificazione.](media/FAQ-Project-Booking-Schedule-Board-1.png "Tabella delle prenotazioni e delle assegnazioni")
+    ![Scheda Apri requisiti nella scheda di pianificazione](media/FAQ-Project-Booking-Schedule-Board-1.png "Tabella delle prenotazioni e delle assegnazioni")
 
 2. Selezionare il requisito. La scheda **Trova disponibilità** verrà visualizzata nella parte superiore della riga selezionata.
  
@@ -53,7 +53,7 @@ ms.locfileid: "6987621"
 
     Se si seleziona **Prenota**, la risorsa viene prenotata nel team di progetto.
 
-![Pannello Crea prenotazione risorsa.](media/FAQ-Project-Booking-Schedule-Board-6.png "")
+![Pannello Crea prenotazione risorsa](media/FAQ-Project-Booking-Schedule-Board-6.png "")
  
 
 ## <a name="book-from-the-primary-requirement"></a>Prenotare dal requisito primario
@@ -62,7 +62,7 @@ La creazione di un progetto in Project Service crea automaticamente un requisito
 
 1. Per prenotare una risorsa con il requisito primario, nella scheda di pianificazione, selezionare la scheda **Progetto**. Se esistono più progetti, il filtro della colonna **Progetto** può consentire di trovare più facilmente il progetto desiderato.
 
-   ![Filtri della colonna nella scheda di pianificazione.](media/FAQ-Project-Booking-Schedule-Board-2.png "Tabella delle prenotazioni e delle assegnazioni")
+   ![Filtri della colonna nella scheda di pianificazione](media/FAQ-Project-Booking-Schedule-Board-2.png "Tabella delle prenotazioni e delle assegnazioni")
 
 2. Selezionare il requisito il cui nome è quello del progetto e la cui durata è zero (0).
 

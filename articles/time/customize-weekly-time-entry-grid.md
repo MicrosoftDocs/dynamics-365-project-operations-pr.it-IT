@@ -2,22 +2,24 @@
 title: Estensione degli inserimenti ore
 description: Questo argomento fornisce informazioni su come gli sviluppatori sono in grado di estendere il controllo degli inserimenti ore.
 author: stsporen
+manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: c36a47b09e6012925a047f81318e89167d5c506facaae8d72b0bb6e8e267a7d5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993336"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124643"
 ---
 # <a name="extending-time-entries"></a>Estensione degli inserimenti ore
 
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
-Dynamics 365 Project Operations include un controllo personalizzato di inserimento ore estendibile. Questo controllo include le seguenti funzionalità:
+Dynamics 365 Project Operations include un controllo personalizzato di inserimenti ore estendibile. Questo controllo include le seguenti funzionalità:
 
 - Immissione delle ore in orizzontale su una settimana
 - Totali per giorno, riga o settimana
@@ -142,6 +144,3 @@ Utilizza le convalide di plug-in per qualsiasi convalida che richiede più conte
 
 ### <a name="copying-time-entries"></a>Copia di inserimenti ore
 Usa la vista **Copia colonne inserimenti ore** per definire l'elenco dei campi da copiare durante l'inserimento ore. I campi **Data** e **Durata** sono obbligatori e non devono essere rimossi dalla visualizzazione.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

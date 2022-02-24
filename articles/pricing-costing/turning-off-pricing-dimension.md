@@ -2,9 +2,11 @@
 title: Disattivare una dimensione di determinazione dei prezzi
 description: In questo argomento vengono fornite informazioni su come disattivare le dimensioni di determinazione dei prezzi.
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3d9f0cb2a054941b07809b61ca14a3145c6d6d06acd6ca40255d5ec9de92be22
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 986fae72c6b44b3f76281aefb81ffdaa96f71ae7
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994506"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650054"
 ---
 # <a name="turning-off-a-pricing-dimension"></a>Disattivare una dimensione di determinazione dei prezzi
 
@@ -32,17 +34,14 @@ Per disattivare la dimensione di determinazione dei prezzi, indipendentemente da
 
 Tuttavia, quando esegui questa operazione, potresti ricevere il messaggio di errore **La dimensione di determinazione dei prezzi non può essere aggiornata o eliminata se sono presenti record di prezzo associati.**
 
-![Errore processo aziendale probabile quando si disattiva una dimensione di determinazione dei prezzi.](media/Business-Process-Error.png)
+![Errore processo aziendale probabile quando si disattiva una dimensione di determinazione dei prezzi](media/Business-Process-Error.png)
 
 Questo messaggio di errore indica che vi sono record di prezzi impostati precedentemente per la dimensione che si sta disattivando. Tutti i record **Prezzo ruolo** e **Ricarico prezzo ruolo** che fanno riferimento a una dimensione devono essere eliminati prima di impostare l'applicabilità della dimensione su **No**. Tale regola si applica alle dimensioni di determinazione dei prezzi predefinite e a quelle personalizzate eventualmente create. Il motivo di questa convalida è dovuto al fatto che ogni record **Prezzo ruolo** deve avere una combinazione univoca di dimensioni. Ad esempio, in un listino denominato **Tasso di costo USA 2018**, si hanno le seguenti righe **Prezzo ruolo**. 
 
 | Titolo standard         | Unità organizzativa    |Unità   |Prezzo  |Valuta  |
 | -----------------------|-------------|-------|-------|----------|
-| Sistemista|Contoso (USA)|Ora| 100|USD|
-| Sistemista esperto|Contoso (USA)|Ora| 150| USD|
+| Sistemista|Contoso US|Ora| 100|USD|
+| Sistemista esperto|Contoso US|Ora| 150| USD|
 
 
-Quando si disattiva **Titolo standard** come dimensione di determinazione dei prezzi e il motore di determinazione dei prezzi cerca un prezzo, questo utilizzerà solo il valore **Unità organizzativa** del contesto di input. Se l'**Unità organizzativa** del contesto di input è "Contoso US", il risultato sarà non deterministico in quanto entrambe le righe corrisponderanno. Per evitare questo scenario, quando si creano record **Prezzo ruolo**, il sistema verifica che la combinazione di dimensioni è univoca. Se la dimensione viene disattivata dopo la creazione dei record **Prezzo ruolo**, il vincolo può essere violato. Pertanto, prima di disattivare una dimensione, è necessario eliminare tutte le righe **Ricarico prezzo ruolo** e **Prezzo ruolo** in cui è presente il valore della dimensione.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Quando si disattiva **Titolo standard** come dimensione di determinazione dei prezzi e il motore di determinazione dei prezzi cerca un prezzo, questo utilizzerà solo il valore **Unità organizzativa** del contesto di input. Se l'**unità organizzativa** del contesto di input è "Contoso US", il risultato sarà non deterministico in quanto entrambe le righe corrisponderanno. Per evitare questo scenario, quando si creano record **Prezzo ruolo**, il sistema verifica che la combinazione di dimensioni è univoca. Se la dimensione viene disattivata dopo la creazione dei record **Prezzo ruolo**, il vincolo può essere violato. Pertanto, prima di disattivare una dimensione, è necessario eliminare tutte le righe **Ricarico prezzo ruolo** e **Prezzo ruolo** in cui è presente il valore della dimensione.

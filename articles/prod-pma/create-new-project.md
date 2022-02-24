@@ -2,9 +2,11 @@
 title: Crea un nuovo progetto
 description: In questo argomento vengono fornite informazioni su come creare un nuovo progetto.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5aa5e00252697f91a585eaaa83a0c8a39b315cc1b25fcbf6343fdf2ce31a824e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9b29340dc88aea888ea2f5ea975eaea59d014279
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985956"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270728"
 ---
 # <a name="create-a-new-project"></a>Crea un nuovo progetto
 
@@ -51,9 +53,9 @@ Puoi inoltre assegnare categorie a una risorsa in base alle tue esigenze. Il tip
 
 Un project manager può utilizzare la funzionalità di assegnazione delle risorse del progetto per creare i ruoli richiesti per il progetto. I ruoli possono essere utilizzati se le risorse confermate sono ancora sconosciute quando le risorse vengono prenotate. I ruoli possono essere riservati temporaneamente come risorse pianificate, in modo da poter continuare le fasi di pianificazione del progetto.
 
-[![Esempio di un ruolo.](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
+[![Esempio di un ruolo](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
 
-**Scenario:** Contoso è stato assunto per completare un progetto Tempistica e materiali con un grafico di progetto approvato. Il project manager junior sta ancora completando l'ambito del progetto. Il responsabile delle risorse sta attualmente individuando risorse specifiche che saranno prenotate per lavorare sul nuovo progetto. A causa della natura critica del progetto, lo sponsor del progetto ha richiesto il Senior Project Manager come uno dei ruoli. Il responsabile delle risorse deve acquisire la nuova risorsa e definire il ruolo nel sistema nel caso in cui il project manager junior richieda le informazioni sulla risorsa durante la pianificazione del progetto.
+**Scenario:** Contoso è stato assunto per completare un progetto di tempistica e materiali con uno statuto progetto approvato. Il project manager junior sta ancora completando l'ambito del progetto. Il responsabile delle risorse sta attualmente individuando risorse specifiche che saranno prenotate per lavorare sul nuovo progetto. A causa della natura critica del progetto, lo sponsor del progetto ha richiesto il Senior Project Manager come uno dei ruoli. Il responsabile delle risorse deve acquisire la nuova risorsa e definire il ruolo nel sistema nel caso in cui il project manager junior richieda le informazioni sulla risorsa durante la pianificazione del progetto.
 
 I passaggi seguenti mostrano come il responsabile delle risorse può configurare il ruolo di Senior project manager e associarvi le caratteristiche della risorsa. Successivamente, il ruolo può essere utilizzato per cercare le risorse disponibili che corrispondono alle competenze delle risorse richieste.
 

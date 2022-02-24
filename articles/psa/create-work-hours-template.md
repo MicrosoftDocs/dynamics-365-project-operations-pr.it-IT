@@ -2,6 +2,8 @@
 title: Creare un modello di ore lavorative
 description: Questo argomento descrive come creare un modello delle ore lavorative in Project Service.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 90525cf1e7cd487a03b064466ad1b13f8afb7819443fc4bacf9c7d3eee86f0b6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 525f601ad6fee902cb6d5c128b596cc2d33f30c4
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987396"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981260"
 ---
 # <a name="create-a-work-hours-template-project-service"></a>Creare un modello delle ore lavorative (Project Service)
 
@@ -49,7 +51,7 @@ Per creare un modello di calendario per la tua organizzazione, ci sono due requi
 
 1. Seleziona **Risorse** \> **Risorse**.
 2. Crea una nuova risorsa a cui fare riferimento nel modello di calendario o seleziona una risorsa esistente.
-3. Seleziona la scheda **Ore lavorative** della risorsa e completa le istruzioni in [Impostare le ore lavorative per una risorsa](/dynamics365/field-service/set-work-hours-resource.md) per configurare le regole del calendario.
+3. Seleziona la scheda **Ore lavorative** della risorsa e completa le istruzioni in [Impostare le ore lavorative per una risorsa](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) per configurare le regole del calendario.
 
 **Creare un nuovo modello di calendario**
 

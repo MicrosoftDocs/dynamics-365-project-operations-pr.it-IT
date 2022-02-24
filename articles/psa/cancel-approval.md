@@ -2,6 +2,8 @@
 title: Annullare inserimenti ore e voci di spesa approvate precedentemente
 description: In questo argomento vengono fornite informazioni su come annullare una transazione di tempo e spesa di progetto approvata.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 09b85ea302ac46171afbd531a551aa5fbf5492a3644cba3448be03009840228c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ea42c6755b4b48d986e385879607d659c57f483d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987441"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150583"
 ---
 # <a name="cancel-previously-approved-time-or-expense-entries"></a>Annullare inserimenti ore o voci di spesa approvate precedentemente
 
@@ -60,6 +62,3 @@ L'annullamento di un'approvazione ha anche un impatto finanziario su un progetto
 Quindi, nella tabella Valori effettivi vengono create scritture di storno. Per creare scritture di storno, il sistema copia i valori di campo dai valori effettivi originali. I soli valori che non vengono copiati sono i valori di quantità. Questi valori vengono invece stornati. Valori effettivi stornati vengono creati per i valori effettivi **Costo** e **Vendite non fatturate**. Il campo **Stato rettifica** dei valori effettivi stornati viene impostato su **Non rettificabile** e lo stato di fatturazione viene impostato su **Annullato**.
 
 Dopo aver eseguito tali modifiche, l'importo che viene registrato come speso nel progetto e nel backlog dei ricavi del progetto non include più gli importi che questi valori effettivi rappresentano.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

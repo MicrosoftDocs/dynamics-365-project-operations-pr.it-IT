@@ -2,6 +2,8 @@
 title: Pianificare risorse per un progetto
 description: Come pianificare le risorse per un progetto in Project Service
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7beb1f86795a909a1266b2a2c97421e1f04ef3c4cf2f9b49413cd1382b0f2011
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e39c95386eb2dd31fb54878bc203bd94931274de
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998151"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150448"
 ---
 # <a name="schedule-resources-for-a-project-project-service"></a>Pianificare le risorse per un progetto (Project Service)
 
@@ -33,7 +35,7 @@ Puoi verificare la disponibilità di una risorsa per ottenere una visione global
   
 Nella scheda di pianificazione sono visualizzati l'elenco di risorse e le relative disponibilità. Seleziona la modalità di visualizzazione per vedere la disponibilità in base a **Ore**, **Giorno**, **Settimana** o **Mese**.  
   
-Prima di utilizzare la scheda di pianificazione, è importante configurarla. Per ulteriori informazioni, vedi [Configurare la scheda di pianificazione (Field Service, Project Service Automation)](/dynamics365/field-service/configure-schedule-board).
+Prima di utilizzare la scheda di pianificazione, è importante configurarla. Per ulteriori informazioni, vedi [Configurare la scheda di pianificazione (Field Service, Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board).
   
 Se utilizzi una versione precedente, per la disponibilità delle risorse, vedi [Visualizzare la disponibilità delle risorse](../psa/view-resource-availability.md).  
 
@@ -81,6 +83,3 @@ Se utilizzi una versione precedente, per la disponibilità delle risorse, vedi [
   
 ### <a name="additional-resources"></a>Risorse aggiuntive  
  [Guida di Resource Manager](../psa/resource-manager-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

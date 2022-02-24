@@ -2,6 +2,8 @@
 title: Transazioni commerciali
 description: In questo argomento vengono fornite informazioni sulle transazioni commerciali.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 28555f29e65c11255c8966f3d4b900512aa01c30fef0a9cef3a3794edaf92a0b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3a8506effc453280177d74f94dcf9310e310c098
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987531"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149908"
 ---
 # <a name="business-transactions"></a>Transazioni commerciali
 
@@ -88,7 +90,7 @@ Con l'utilizzo combinato delle entità Origine transazione e Connessione della t
 
 Nell'esempio seguente viene illustrata l'elaborazione tipica degli inserimenti ore in un ciclo di vita di progetto di PSA.
 
-> ![Elaborare inserimenti ore in un ciclo di vita di Project Service.](media/basic-guide-17.png)
+> ![Elaborare inserimenti ore in un ciclo di vita di Project Service](media/basic-guide-17.png)
  
 1. L'invio di un inserimento ore comporta la creazione di due righe di giornale di registrazione: una per il costo e una per le vendite non fatturate.
 2. L'eventuale approvazione dell'inserimento ore comporta la creazione di due valori effettivi: uno per il costo e uno per le vendite non fatturate.
@@ -111,7 +113,7 @@ Nella tabella seguente vengono mostrati i record dell'entità Origine transazion
 | GUID del record Riga giornale di registrazione     | Riga giornale di registrazione             | GUID della transazione riga fattura     | Transazione riga fattura          |                          |
 | Conferma fattura         | GUID della riga fattura        | Riga fattura                      | GUID del record Vendite fatturate          | Valore effettivo                   |
 | GUID della fattura                 | Fattura                  | GUID del record Vendite fatturate          | Valore effettivo                            |                          |
-| GUID dei dettagli di riga fattura     | Dettaglio di riga fattura      | GUID del record Vendite fatturate          | Valore effettivo                            |                          |
+| GUID dei dettagli di riga fattura     | Dettagli di riga fattura      | GUID del record Vendite fatturate          | Valore effettivo                            |                          |
 | GUID del record Inserimento ore       | Inserimento ore               | GUID del record Vendite fatturate          | Valore effettivo                            |                          |
 | GUID del record Riga giornale di registrazione     | Riga giornale di registrazione             | GUID del record Vendite fatturate          | Valore effettivo                            |                          |
 | GUID del record Inserimento ore       | Inserimento ore               | GUID dello storno vendite non fatturate      | Valore effettivo                            |                          |
@@ -147,6 +149,3 @@ Nella tabella seguente sono riportati i record dell'entità Origine transazione 
 | Correzione bozza della fattura       | GUID della transazione riga fattura | Sostituzione          | msdyn_invoicelinetransaction | GUID delle vendite fatturate            | Originale           | msdyn_actual       |
 | Conferma correzione fattura     | GUID dello storno vendite fatturate    | Storno          | msdyn_actual                 | GUID delle vendite fatturate            | Originale           | msdyn_actual       |
 | Nuovo GUID del valore effettivo vendite non fatturate | Sostituzione                     | msdyn_actual       | GUID delle vendite fatturate            | Originale                     | msdyn_actual       |                    |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

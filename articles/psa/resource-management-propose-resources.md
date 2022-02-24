@@ -2,6 +2,8 @@
 title: Proporre risorse di progetto
 description: In questo argomento vengono fornite informazioni sulla proposta delle risorse di progetto.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9fe63f424735f22dc6b525631287e7ff36db17f37aad8e14e926f5cc9be39136
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0a3eaa9929770c91523831d92744d5084aa28cb8
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995046"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147523"
 ---
 # <a name="propose-project-resources"></a>Proporre risorse di progetto
 
@@ -38,15 +40,15 @@ Lo stato viene aggiornato come segue:
 
 - Nella pagina **Assistente di pianificazione**, gli indicatori di stato vengono aggiornati per indicare che la prenotazione è stata proposta ma che non è definitiva.
 
-    ![Indicatori di stato per la prenotazione proposta nella pagina Assistente di pianificazione.](media/Resource-Management-image63.png)
+    ![Indicatori di stato per la prenotazione proposta nella pagina Assistente di pianificazione](media/Resource-Management-image63.png)
 
 - Nella richiesta di risorsa, lo stato diventa **Revisione necessaria**.
 
-    ![Stato della richiesta di risorsa aggiornato a Revisione necessaria.](media/Resource-Management-image64.png)
+    ![Stato della richiesta di risorsa aggiornato a Revisione necessaria](media/Resource-Management-image64.png)
 
 - Nella scheda **Team** del progetto, il valore **Stato richiesta** del membro del team generico diventa **Revisione necessaria**.
 
-    ![Stato della richiesta del membro del team generico aggiornato a Revisione necessaria nella scheda Team.](media/Resource-Management-image48.png)
+    ![Stato della richiesta del membro del team generico aggiornato a Revisione necessaria nella scheda Team](media/Resource-Management-image48.png)
 
 Il responsabile di progetto può accettare o rifiutare la proposta.
 
@@ -70,7 +72,7 @@ Le seguenti formule vengono utilizzate per calcolare l'utilizzo:
 
 La vista **Utilizzo risorsa** si trova nel riquadro **Risorse**.
 
-![Visualizzare l'utilizzo delle risorse.](media/Resource-Management-image65.png)
+![Vista Utilizzo risorsa](media/Resource-Management-image65.png)
 
 Ogni cella nella griglia rappresenta la percentuale di utilizzo fatturabile della risorsa in un periodo, ad esempio un giorno, una settimana o un mese. Le seguenti formule vengono utilizzate per colorare le celle:
 
@@ -84,7 +86,7 @@ La griglia richiede l'impostazione di un utilizzo di destinazione per il ruolo o
 
 Inoltre, un ruolo predefinito deve essere assegnato a ogni risorsa prenotabile. Seleziona **Risorse** \> **Risorse**. Nella scheda **Project Service**, verifica che un ruolo risorsa sia definito e che il relativo campo **Predefinito** sia impostato su **Sì**. Puoi aggiungere ruoli aggiuntivi dove **Predefinito = No**. Il ruolo dove **Predefinito = Sì** viene utilizzato per valutare l'utilizzo della risorsa in base alla destinazione di quel ruolo.
 
-![Ruolo predefinito impostato.](media/Resource-Management-image67.png)
+![Ruolo predefinito impostato](media/Resource-Management-image67.png)
 
 Nella scheda **Project Service**, puoi impostare un singolo utilizzo di destinazione per la risorsa. Per il calcolo dell'utilizzo viene quindi utilizzato l'utilizzo di destinazione allo scopo di valutare la destinazione della risorsa anziché la destinazione del ruolo predefinito della risorsa.
 
@@ -96,21 +98,18 @@ L'utilizzo viene visualizzato per una risorsa solo se questa ha tempo addebitabi
 
 Le ore lavorative di una risorsa sono utilizzate come base per il calcolo della disponibilità della risorsa. Le prenotazioni di risorse consumano la capacità delle risorse.
 
-![Scheda di pianificazione.](media/Resource-Management-image68.png)
+![Scheda di pianificazione](media/Resource-Management-image68.png)
 
 Nella scheda di pianificazione sono utilizzati colori e ombreggiature per indicare prenotazioni, disponibilità e sovraprenotazioni nonché lo stato delle prenotazioni. Una delle impostazioni della scheda di pianificazione consente di visualizzare una legenda.
 
 Se una freccia a destra viene visualizzata accanto a una singola risorsa prenotabile nella scheda di pianificazione, la risorsa può essere espansa per visualizzare i dettagli del lavoro per il quale la risorsa è prenotata.
 
-![Risorsa prenotabile espansa nella scheda di pianificazione.](media/Resource-Management-image69.png)
+![Risorsa prenotabile espansa nella scheda di pianificazione](media/Resource-Management-image69.png)
 
 Poiché Dynamics 365 Project Service Automation utilizza il motore Universal Resource Scheduling, se è installata anche la soluzione Dynamics 365 Field Service, puoi visualizzare i dettagli delle prenotazioni delle risorse per progetti, ordini di lavoro e qualsiasi altra entità a cui hai esteso la pianificazione.
 
-![Dettagli delle prenotazioni delle risorse per progetti e ordini di lavoro.](media/Resource-Management-image70.png)
+![Dettagli delle prenotazioni delle risorse per progetti e ordini di lavoro](media/Resource-Management-image70.png)
 
 Per visualizzare ulteriori dettagli su una singola risorsa, fai clic con il pulsante destro del mouse sulla stessa per aprire la scheda della risorsa.
 
-![Scheda della risorsa.](media/Resource-Management-image71.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![Scheda della risorsa](media/Resource-Management-image71.png)

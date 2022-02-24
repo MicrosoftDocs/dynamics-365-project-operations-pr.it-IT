@@ -2,16 +2,18 @@
 title: Righe di opportunità basate su progetto
 description: In questo argomento vengono fornite informazioni sull'utilizzo delle righe di opportunità basate su progetto.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 04e091a58f72a99fb17f37b95f9cac2b4476757b79965177854423361f416d51
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0ede474e3d8830b420dc5b183f14327206c10288
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996351"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181952"
 ---
 # <a name="project-based-opportunity-lines"></a>Righe di opportunità basate su progetto
 
@@ -31,6 +33,3 @@ Di seguito sono riportati i campi in una riga di opportunità basata su progetto
 | Nome | Scheda Generale | Questo è un campo di testo modificabile che può essere utilizzato per assegnare una breve identità a questa voce | Questo valore viene riportato nella riga dell'offerta quando si crea un'offerta da questa opportunità |
 | Budget cliente | Scheda Generale | Questo campo di valuta modificabile può essere utilizzato per tenere traccia dell'importo che il cliente è disposto a spendere per questa voce. | Questo valore viene riportato nel campo corrispondente della riga dell'offerta quando si crea un'offerta da questa opportunità |
 | Metodo di fatturazione | Scheda Generale | Di seguito sono riportati i valori possibili di questo campo modificabile:</br>- Tempistica e materiali</br>- Prezzo fisso | Questo valore viene riportato nel campo corrispondente della riga dell'offerta quando si crea un'offerta da questa opportunità. Dopo aver creato la riga dell'offerta, il campo è bloccato e non può essere modificato. Assegna un valore a questo campo nel modo più accurato possibile. Se è necessario modificare il valore di questo campo nella riga dell'offerta, elimina e ricrea la riga dell'offerta. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

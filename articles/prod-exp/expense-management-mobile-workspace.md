@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 0559f881aba2d0a9c65ad123a40803743fc7407bb0d87ac6e8280ee8e30d36b7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 7eccf5cd234df6ca4fc4c83b581f6c4c22b3396f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001481"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993646"
 ---
 # <a name="expense-management-mobile-workspace"></a>Area di lavoro per dispositivi mobili Gestione delle spese
 
@@ -100,7 +100,7 @@ Scarica e installa l'app per dispositivi mobili Dynamics 365 Unified Ops:
 5. Dopo aver effettuato l'accesso, vengono visualizzate le aree di lavoro disponibili per la tua azienda. Tieni presente che se l'amministratore di sistema pubblica una nuova area di lavoro in un secondo momento, dovrai aggiornare l'elenco delle aree di lavoro per dispositivi mobili.
 
 
-[![Trascinare verso il basso.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![Trascinare verso il basso](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="capture-a-receipt-by-using-the-expense-management-mobile-workspace"></a>Acquisisci una ricevuta utilizzando l'area di lavoro per dispositivi mobili Gestione delle spese
 

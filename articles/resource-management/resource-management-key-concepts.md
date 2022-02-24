@@ -2,16 +2,18 @@
 title: Concetti chiave della gestione delle risorse
 description: Questo argomento fornisce informazioni sulle funzionalità di gestione delle risorse in Microsoft Dynamics Project Operations.
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c76fb297fc1832284d488f28e552ded2c1c27cf88d3a9352f2a31e667aac746e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a14f0ec328049d1b199201955c384df9fac61e39
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994821"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123878"
 ---
 # <a name="resource-management-key-concepts"></a>Concetti chiave della gestione delle risorse
 
@@ -33,6 +35,3 @@ Le risorse sono il cespite più importante di un'organizzazione di servizi. La c
 
 
 Puoi assegnare a un progetto un team di risorse generiche o denominate in Project Operations. Puoi utilizzare vari metodi per aggiungere e assegnare membri del team e per gestire le relative prenotazioni e assegnazioni. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

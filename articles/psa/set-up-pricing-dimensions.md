@@ -2,10 +2,12 @@
 title: Configurare campi personalizzati come dimensioni di determinazione dei prezzi
 description: In questo argomento vengono fornite informazioni sull'impostazione di dimensioni di determinazione dei prezzi.
 author: Rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/20/2018
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 7576f73240a7366175d7be39815583a5c9cf7187
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002336"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150358"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Configurare campi personalizzati come dimensioni di determinazione dei prezzi 
 
@@ -41,11 +43,11 @@ Affinché un campo diventi una dimensione di determinazione dei costi, deve esse
 - Creato come campo nelle entità **Prezzo ruolo** e **Ricarichi prezzo ruolo**. Per ulteriori informazioni su come eseguire questa operazione, vedi [Aggiungere campi personalizzati alla configurazione dei prezzi e ad entità transazionali](field-references.md).
 - Creato come riga nella tabella **Dimensione di determinazione dei prezzi**. Ad esempio, aggiungi righe come dimensioni di determinazione dei prezzi come mostrato nell'illustrazione seguente. 
 
-![Righe di dimensioni di determinazione dei prezzi basate su importo.](media/Amt-based-PD.png)
+![Righe di dimensioni di determinazione dei prezzi basate su importo](media/Amt-based-PD.png)
 
 Nota che il campo Ore lavorative della risorsa (**msdyn_resourceworkhours**) è stato aggiunto come dimensione basata su ricarico e alla griglia nella scheda **Dimensione di determinazione dei prezzi basata su ricarico**.
 
-![Righe di dimensioni di determinazione dei prezzi basate su ricarico.](media/Markup-based-PD.png)
+![Righe di dimensioni di determinazione dei prezzi basate su ricarico](media/Markup-based-PD.png)
 
 > [!IMPORTANT]
 > Tutte le modifiche ai dati nuovi o esistenti delle dimensioni di determinazione dei prezzi in questa tabella vengono propagate alla regole di business per la determinazione dei prezzi di Project Service solo dopo l'aggiornamento della cache. L'aggiornamento della cache può durare fino a 10 minuti. Utilizza questo tempo per dare un'occhiata alle modifiche alla logica di impostazione predefinita dei prezzi che deve risultare dalle modifiche ai dati di Dimensione di determinazione dei prezzi.
@@ -69,11 +71,11 @@ Esistono due tipi di dimensioni di determinazione dei prezzi
    
    Nella tabella seguente viene illustrato il calcolo dei ricarichi del prezzo.
   
-| Ruolo        | Unità organizzativa    |Posizione lavoro      |Titolo standard      |Ore lavorative risorsa      |  Ricarico|
+| Ruolo        | Unità organizzativa    |Ubicazione lavoro      |Titolo standard      |Ore lavorative risorsa      |  Ricarico|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso India|In loco            |                    |Straordinario                 |15     |
 |             | Contoso India|Locale             |                    |Straordinario                 |10     |
-|             | Contoso (USA)   |Locale             |                    |Straordinario                 |20     |
+|             | Contoso US   |Locale             |                    |Straordinario                 |20     |
 
 
 Se una risorsa di Contoso India il cui tasso di base è 100 USD lavora in loco e registra 8 ore di lavoro normale e 2 ore di straordinario nell'inserimento ore, il motore di determinazione dei prezzi di Project Service utilizza il tasso base 100 per 8 ore per registrare 800 USD. Per le 2 ore di straordinario, viene applicato un ricarico del 15% al tasso di base 100 per ottenere un prezzo unitario di 115 USD e un costo totale di 230 USD.
@@ -92,6 +94,3 @@ L'impostazione della priorità delle dimensioni consente a Project Service di ge
 
 - **Priorità costo**: il valore della priorità costo di una dimensione indica il peso di quella dimensione durante l'allineamento alla configurazione dei prezzi di costo. Il valore di **Priorità costo** deve essere univoco nelle dimensioni **applicabili al costo**.
 - **Priorità vendite**: il valore della priorità vendite di una dimensione indica il peso di quella dimensione durante l'allineamento alla configurazione dei prezzi di vendita o dei tassi di fatturazione. Il valore di **Priorità vendite** deve essere univoco nelle dimensioni **applicabili alle vendite**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

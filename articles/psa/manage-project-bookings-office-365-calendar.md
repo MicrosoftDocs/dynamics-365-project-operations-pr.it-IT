@@ -2,6 +2,8 @@
 title: Gestire progetti e prenotazioni nel calendario di Office 365
 description: Come gestire progetti e prenotazioni nel calendario di Office 365
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b38affbfc8d339ac1a2093391286ea4c095207be8de2e8eeca558e6fcc5bcc07
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c575bd3deba5bcde2526ccfc598327917bf91642
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985327"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144463"
 ---
 # <a name="manage-projects-and-bookings-in-your-calendar-project-service"></a>Gestire progetti e prenotazioni nel calendario (Project Service)
 
@@ -50,7 +52,7 @@ Visualizza gli appuntamenti, le prenotazioni di progetto- lavoro e le assegnazio
   
 - È necessario disporre delle credenziali di amministratore globale [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] o di amministratore di sistema .  
   
-- L'amministratore dovrà configurare il profilo di server e-mail e ogni utente dovrà configurare la propria cassetta postale. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configurare l'elaborazione dei messaggi e-mail tramite la sincronizzazione lato server](/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
+- L'amministratore dovrà configurare il profilo di server e-mail e ogni utente dovrà configurare la propria cassetta postale. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configurare l'elaborazione dei messaggi e-mail tramite la sincronizzazione lato server](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
   
 ## <a name="turn-on-synchronization-for-your-organization-admin-task"></a>Abilitare la sincronizzazione per l'organizzazione (attività di amministrazione)  
   
@@ -89,6 +91,3 @@ Visualizza gli appuntamenti, le prenotazioni di progetto- lavoro e le assegnazio
   
 ### <a name="see-also"></a>Vedi anche  
  [Guida per tempo, spese e collaborazione](../psa/time-expense-collaboration-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

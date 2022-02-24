@@ -2,16 +2,18 @@
 title: Gestire più clienti nei contratti di progetto
 description: Questo argomento fornisce informazioni sulla gestione di più clienti su un contratto di progetto.
 author: rumant
+manager: Annbe
 ms.date: 11/18/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1adb786c36d43a148e8c5a8b25ded5a997557119f7e6e9e2248935ad4ed211d5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5554cb062710c3587d81b1a29771a7af84d2d05f
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992076"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4643177"
 ---
 # <a name="manage-multiple-customers-on-project-contracts"></a>Gestire più clienti nei contratti di progetto
 
@@ -45,6 +47,3 @@ Puoi creare, aggiornare o eliminare un cliente di contratto dalla scheda **Clien
 Puio modificare le percentuali di suddivisione della fatturazione modificandole nella griglia. Quando le percentuali di suddivisione della fatturazione non raggiungono il 100 percento viene visualizzato un errore. Dopo aver modificato una percentuale di suddivisione della fatturazione, aggiorna la pagina **Contratto di progetto** per rimuovere l'errore.
 
 Puoi anche selezionare **Distribuzione uniforme** sulla griglia secondaria dei clienti del contratto di progetto. Le suddivisioni di fatturazione vengono allocate uniformemente a tutti i clienti nel contratto di progetto. Se è presente un fattore di arrotondamento, il fattore verrà aggiunto al cliente con arrotondamento. Uno dei clienti di contratto ha sempre il flag **Arrotondamento** impostato su **Sì**. Quel cliente è il cliente con costi di arrotondamento. In genere, il cliente con costi di arrotondamento è anche il cliente principale del contratto, ma non è necessario.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

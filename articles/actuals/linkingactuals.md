@@ -2,17 +2,19 @@
 title: Collegare valori effettivi a record originali
 description: Questo argomento spiega come collegare valori effettivi a record originali come registri di inserimenti ore, spesa o utilizzo di materiale.
 author: rumant
+manager: tfehr
 ms.date: 03/25/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b5a70d2c2b3f98028b4e4998ed25ab73a275c66e4b8137eb573b943658a1a41e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 545775c4eae6c3dc689f264e7f662471c17b2340
+ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991761"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5852594"
 ---
 # <a name="link-actuals-to-original-records"></a>Collegare valori effettivi a record originali
 
@@ -77,7 +79,7 @@ Con l'utilizzo combinato delle entità **Origine transazione** e **Connessione d
 
 Nell'esempio seguente viene illustrata l'elaborazione tipica degli inserimenti ore in un ciclo di vita di progetto di Project Operations.
 
-> ![Elaborare inserimenti ore in un ciclo di vita di Project Service.](media/basic-guide-17.png)
+> ![Elaborare inserimenti ore in un ciclo di vita di Project Service](media/basic-guide-17.png)
  
 1. L'invio di un inserimento ore comporta la creazione di due righe di giornale di registrazione: una per il costo e una per le vendite non fatturate.
 2. L'eventuale approvazione dell'inserimento ore comporta la creazione di due valori effettivi: uno per il costo e uno per le vendite non fatturate.

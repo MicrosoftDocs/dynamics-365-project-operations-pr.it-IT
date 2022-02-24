@@ -1,32 +1,32 @@
 ---
-title: Creare e aggiornare un progetto
+title: Aggiornare un progetto
 description: Questo argomento fornisce informazioni sull'aggiornamento di progetti in Project Operations.
 author: ruhercul
-ms.date: 10/20/2021
+ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d0847b5343cf3e353b91eae04c94509f14213ba5
-ms.sourcegitcommit: 51224cb3bf7cdeae6614d39fc8d899c83dbad5f2
+ms.openlocfilehash: c07542444b970430d8143a60aad6970305769b22
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7678354"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993376"
 ---
-# <a name="create-and-update-a-project"></a>Creare e aggiornare un progetto
+# <a name="update-a-project"></a>Aggiornare un progetto
 
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
-Di seguito è riportato un riepilogo dei campi che possono essere aggiornati in un progetto dopo che è stato creato. Sono incluse anche eventuali implicazioni applicabili basate su questi aggiornamenti.
+Di seguito è riportato un riepilogo dei campi che possono essere aggiornati in un progetto dopo che è stato creato e le implicazioni applicabili degli aggiornamenti.
 
 ## <a name="project-detail-fields"></a>Campi dei dettagli di progetto
 
 - **Nome**: il titolo del progetto.
 - **Descrizione**: una panoramica del progetto.
 - **Cliente**: l'azienda a cui verrà consegnato il progetto.
-- **Modello calendario**: le ore lavorative del progetto. Modificando questo campo, l'intera programmazione viene ricalcolata.
-- **Valuta**: la valuta per il progetto. Il valore predefinito di questo campo si basa sulla valuta specificata nell'unità contratto. Quando l'unità contratto viene aggiornata, viene aggiornato anche il campo.
-- **Unità contratto**: l'unità organizzativa che rappresenta la divisione o gruppo dell'azienda che è il responsabile principale dell'acquisizione della vendita e della gestione della fornitura del lavoro e dei servizi al cliente.  Quando l'unità organizzativa del responsabile di progetto non è definita, questo campo usa per impostazione predefinita il valore definito nei parametri del progetto.
+- **Modello calendario**: le ore lavorative del progetto. Quando il campo viene modificato, l'intera pianificazione viene ricalcolata.
+- **Valuta**: la valuta per il progetto. Il valore predefinito di questo campo si basa sulla valuta definita nell'unità contratto. Quando l'unità contratto viene aggiornata, viene aggiornato anche il campo.
+- **Unità contratto**: l'unità organizzativa che rappresenta la divisione o gruppo dell'azienda che è il responsabile principale dell'acquisizione della vendita e della gestione della fornitura del lavoro e dei servizi al cliente. 
 - **Responsabile di progetto**: il membro del team di progetto che ha l'autorità di rivedere e approvare gli inserimenti ore e le spese.
 
 ## <a name="estimate-fields"></a>Campi di stima

@@ -1,19 +1,21 @@
 ---
-title: Gestire una fattura di progetto proforma
-description: Questo argomento fornisce informazioni su come utilizzare le fatture di progetto proforma.
+title: Gestire una fattura proforma - semplice
+description: Questo argomento fornisce informazioni su come utilizzare le fatture proforma.
 author: rumant
-ms.date: 04/05/2021
+manager: Annbe
+ms.date: 10/27/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f14cf9d5ee25247500180081b8f407ee311db481a5ef5eac330e75d45baba54a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cd56b99c3ed455848edbd9ff4419afa58d782a3e
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997431"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181547"
 ---
-# <a name="manage-a-proforma-project-invoice"></a>Gestire una fattura di progetto proforma 
+# <a name="manage-a-proforma-invoice---lite"></a>Gestire una fattura proforma - semplice
 
 _**Si applica a:** Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
@@ -67,9 +69,9 @@ In Project Operations, è sempre presente una riga di fattura per ogni voce di c
 
 Ogni riga di fattura in una fattura di progetto include i dettagli della riga di fattura. Questi dettagli di riga sono correlati ai valori effettivi di vendita non fatturati e ai passaggi fondamentali relativi alla voce di contratto a cui fa riferimento la riga fattura. Tutte queste transazioni sono contrassegnate come **Pronto per la fatturazione**.
 
-Per un riga **Fattura tempo e materiali**, i dettagli della riga di fattura sono raggruppati in **Addebitabile**, **Non addebitabile** e **Gratuito** nella pagina **Riga fattura**. I dettagli **Riga fattura addebitabile** si sommano al totale della riga di fattura. **Gratuito** e **Valori effettivi non addebitabili** non vengono aggiunti al totale della riga di fattura.
+Per la riga **Fattura tempo e materiale**, i dettagli della riga di fattura sono raggruppati in **Addebitabile**, **Non addebitabile** e **Gratuito** della pagina **Riga di fattura**. I dettagli **Riga fattura addebitabile** si sommano al totale della riga di fattura. **Gratuito** e **Valori effettivi non addebitabili** non si sommano al totale della riga di fattura.
 
-Per un riga **Fattura a prezzo fisso**, i dettagli della riga di fattura vengono creati da passaggi fondamentali contrassegnati come **Pronto per la fatturazione** nella voce di contratto correlata. Dopo che il dettaglio della riga di fattura è stato creato da un passaggio fondamentale, lo stato di fatturazione del passaggio fondamentale viene aggiornato su **Fattura cliente creata**.
+Per la riga **Fattura a prezzo fisso**, i dettagli della riga fattura vengono creati dai passaggi fondamentali contrassegnati come **Pronto per la fatturazione** nella relativa voce di contratto. Dopo che il dettaglio della riga di fattura è stato creato da un passaggio fondamentale, lo stato di fatturazione del passaggio fondamentale viene aggiornato su **Fattura cliente creata**.
 
 ### <a name="edit-invoice-line-details"></a>Modificare i dettagli di riga fattura
 
@@ -88,7 +90,7 @@ I seguenti campi sono disponibili in un dettaglio della riga di fattura supporta
 | **Risorsa prenotabile** | Impostata per impostazione predefinita dal valore effettivo di origine. Un campo di sola lettura che non è possibile modificare. | Il campo può essere modificato in un nuovo dettaglio della riga di fattura che non è supportato da un valore effettivo di origine. |
 | **Unità gestione risorse** | Impostata per impostazione predefinita dal valore effettivo di origine. Un campo di sola lettura che non è possibile modificare. | Il campo può essere modificato in un nuovo dettaglio della riga di fattura che non è supportato da un valore effettivo di origine. |
 | **Quantità** | Impostata per impostazione predefinita dal valore effettivo di origine. Un campo di sola lettura che non è possibile modificare. | Il campo può essere modificato in un nuovo dettaglio della riga di fattura che non è supportato da un valore effettivo di origine. |
-| **Pianificazione unità** | Per il dettaglio della riga di fattura per il tempo, questa è sempre impostata sull'ora e non può essere modificata. Per le spese, questo è impostato per impostazione predefinita dalla spesa di origine effettiva. Un campo di sola lettura che non è possibile modificare. | Impostato per impostazione predefinita su **Ore** in un nuovo dettaglio della riga di fattura che non è supportato da un valore effettivo. |
+| **Pianificazione unità** | Per i dettagli della riga di fattura per l'ora, questa è sempre impostata sull'ora e non può essere modificata. Per le spese, questo è impostato per impostazione predefinita dalla spesa di origine effettiva. Un campo di sola lettura che non è possibile modificare. | Impostato per impostazione predefinita su **Ore** in un nuovo dettaglio della riga di fattura che non è supportato da un valore effettivo. |
 | **Unità** | Impostata per impostazione predefinita dal valore effettivo di origine. Un campo di sola lettura che non è possibile modificare. | Il campo può essere modificato in un nuovo dettaglio della riga di fattura che non è supportato da un valore effettivo di origine |
 | **Prezzo** | Impostata per impostazione predefinita dal valore effettivo di origine. Un campo di sola lettura che non è possibile modificare. | Il campo può essere modificato in un nuovo dettaglio della riga di fattura che non è supportato da un valore effettivo di origine. Se non viene inserito alcun valore, viene impostato per impostazione predefinita dopo **Salva**. |
 | **valuta** | Impostata per impostazione predefinita dal valore effettivo di origine. Un campo di sola lettura che non è possibile modificare. | Impostato per impostazione predefinita dall'intestazione della fattura quando si crea un nuovo dettaglio della fattura senza supporto di valore effettivo.  Un campo di sola lettura che non è possibile modificare. |
@@ -96,12 +98,8 @@ I seguenti campi sono disponibili in un dettaglio della riga di fattura supporta
 | **Imposte** | Impostata per impostazione predefinita dal valore effettivo di origine. Il campo può essere modificato dall'utente | Il campo può essere modificato dall'utente durante la creazione di un nuovo dettaglio della riga di fattura senza un valore effettivo di supporto. |
 | **Importo totale** | Un campo calcolato, calcolato come **importo + imposte**. Un campo di sola lettura che non è possibile modificare. | &nbsp; |
 | **Tipo di fatturazione** | Impostata per impostazione predefinita dal valore effettivo di origine. Il campo può essere modificato dall'utente. | La selezione di **Addebitabile** aggiunge la riga al totale della riga di fattura. **Gratuito** e **Non addebitabile** sono esclusi dal totale della riga di fattura. |
-| **Selezione prodotto** | Campo di sola lettura impostato per impostazione predefinita dal valore effettivo di origine. | Quando crei un nuovo dettaglio della riga di fattura senza un valore effettivo di supporto, questo campo può essere modificato. |
-| **Prodotto** | Campo di sola lettura impostato per impostazione predefinita dal valore effettivo di origine. | Quando crei un nuovo dettaglio della riga di fattura senza un valore effettivo di supporto, questo campo può essere modificato se il campo **Seleziona prodotto** è impostato su **Prodotto esistente**. |
-| **Nome prodotto** | Campo di sola lettura impostato per impostazione predefinita dal valore effettivo di origine. | In un nuovo dettaglio della riga di fattura, dove l'ID prodotto è selezionato dal catalogo, questo campo è impostato sul nome del prodotto. Per un prodotto fuori catalogo, il campo è impostato sul nome del prodotto fuori catalogo. |
-| **Descrizione prodotto fuori catalogo** | Campo di sola lettura impostato per impostazione predefinita dal valore effettivo di origine. | Quando crei un nuovo dettaglio della riga di fattura senza un valore effettivo di supporto, puoi aggiungere una descrizione per il prodotto fuori catalogo. |
 | **Tipo di transazione** | Impostata per impostazione predefinita dal valore effettivo di origine. Un campo di sola lettura che non è possibile modificare. | Impostato per impostazione predefinita su **Vendite fatturate** e bloccato durante la creazione di un nuovo **dettaglio riga fattura** senza valore effettivo di supporto.  |
-| **Classe di transazione** | Impostata per impostazione predefinita dal valore effettivo di origine. Un campo di sola lettura che non è possibile modificare. | L'impostazione predefinita dipende dalla scelta dell'utente di creare un dettaglio della riga di fattura **Tempo**, **Spesa**, **Materiale** o **Commissione** durante la creazione di un nuovo **dettaglio di riga fattura** senza supporto effettivo. Bloccato per la modifica. |
+| **Classe di transazione** | Impostata per impostazione predefinita dal valore effettivo di origine. Un campo di sola lettura che non è possibile modificare. | Impostato per impostazione predefinita in base alla scelta dell'utente di creare un dettaglio di riga fattura **Ore**, **Spese** o **Commissione** mentre viene creato anche un nuovo **Dettaglio riga fattura** senza un valore effettivo di supporto. Bloccato per la modifica. |
 
 I seguenti campi sono disponibili in un dettaglio della riga di fattura supportato da un passaggio fondamentale:
 
@@ -130,7 +128,7 @@ I seguenti campi sono disponibili in un dettaglio della riga di fattura supporta
 
 ### <a name="create-new-invoice-line-details"></a>Creare nuovi dettagli di riga fattura
 
-Nelle righe di fattura in base a tempo e materiale, puoi creare nuovi dettagli di riga di fattura. Questi dettagli della riga di fattura non sono supportati da un valore effettivo. Nella riga di fattura di una riga di fattura per tempo e materiale puoi selezionare **Nuovo** per creare un nuovo dettaglio della riga di fattura per le classi di transazioni incluse nella voce di contratto.
+Nelle righe di fattura in base a tempo e materiale, puoi creare nuovi dettagli della riga di fattura. Questi dettagli della riga di fattura non sono supportati da un valore effettivo. Nella riga di fattura di una riga di fattura per tempo e materiale puoi selezionare **Nuovo** per creare un nuovo dettaglio della riga di fattura per le classi di transazioni incluse nella voce di contratto.
 
 ## <a name="refresh-invoice-transactions"></a>Aggiornare le transazioni fattura
 
@@ -146,6 +144,3 @@ Se sono presenti valori effettivi ricevuti dopo la creazione della fattura, è p
 In Project Operations è possibile creare righe di fattura per prodotti che non si applicano a nessun progetto o per tutti i progetti insieme a righe di fattura basate su progetto. Queste righe di fattura vengono create come righe di contratto basate su prodotto e, dopo essere state contrassegnate come pronte per la fatturazione, vengono aggiunte come righe di fattura basate su prodotto.
 
 Dopo aver aggiunto righe di fattura basate su prodotto, non è possibile modificarle. Tuttavia, possono essere eleminate dalla bozza di fattura proforma.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

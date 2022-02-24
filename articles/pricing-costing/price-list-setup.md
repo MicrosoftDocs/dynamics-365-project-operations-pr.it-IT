@@ -2,16 +2,18 @@
 title: Configurare listini prezzi
 description: Questo argomento fornisce informazioni su come configurare i listini prezzi di costo e di vendita.
 author: rumant
+manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 227e9a6f0ce6fd3fa1c2b0bd9afa014a3ec4f9758ead0dfb408156535692575c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 000c22944b187b6250f2e982d73020028093fde6
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009491"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180197"
 ---
 # <a name="set-up-price-lists"></a>Configurare listini prezzi
 
@@ -38,6 +40,3 @@ La tabella seguente include i campi della scheda **Generale** di un listino prez
 | Valuta | Scheda **Generale** e moduli **Creazione rapida** | Questo campo viene utilizzato per impostare la valuta predefinita per ogni ruolo, categoria o voce di listino prezzi correlata a questo listino prezzi. | Nei listini prezzi di **vendita**, ruoli, categorie o voci di listino non possono essere creati in valute diverse da questa valuta. Nei listini prezzi di **costo** puoi creare una riga di prezzo per il ruolo in qualsiasi valuta. La valuta qui definita viene utilizzata come predefinita. L'impostazione dell'utente correlata ai prezzi del ruolo può sostituire questo valore per abilitare l'impostazione della tariffa del costo del lavoro in qualsiasi valuta. Le tariffe di costo delle categorie e i costi delle voci di listino possono essere impostati solo nella valuta qui definita. |
 | Unità di tempo | Scheda **Generale** e moduli **Creazione rapida** | Questo campo viene utilizzato per impostare l'unità di tempo predefinita per ogni ruolo correlato a questo listino prezzi. | Il valore di questo campo viene utilizzato solo per l'impostazione del prezzo del ruolo correlato. Nei listini prezzi di **costo** e **vendita** puoi creare una riga di prezzo per il ruolo in qualsiasi unità di tempo. L'unità di tempo qui definita viene utilizzata come predefinita. L'impostazione dell'utente correlata ai prezzi del ruolo può sostituire questo valore per abilitare l'impostazione della tariffa del costo della fatturazione del lavoro in qualsiasi unità di tempo. |
 | Descrizione | Scheda **Generale** e moduli **Creazione rapida** | Questo è un campo di testo che permette di inserire una descrizione su più righe del listino prezzi. | Questo campo è mostrato nelle visualizzazioni **associate** nel listino prezzi di varie entità che hanno relativi listini prezzi. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

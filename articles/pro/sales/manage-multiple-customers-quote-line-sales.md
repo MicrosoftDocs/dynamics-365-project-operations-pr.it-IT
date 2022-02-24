@@ -2,16 +2,18 @@
 title: Gestire più clienti sulle righe di offerta basate su progetto - semplice
 description: Questo argomento descrive come gestire più clienti sulle righe di offerta basate su progetto.
 author: rumant
+manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d015e9107741fd496f7d3639731f33fcdcc9b9bdd5f501c9ad2617e37a707f35
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 7cab29693fc1447beba74dc6266367f13e48634d
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001706"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176481"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>Gestire più clienti sulle righe di offerta basate su progetto - semplice
 
@@ -41,6 +43,3 @@ I campi elencati nella tabella seguente si trovano nel record del cliente della 
 È possibile modificare le percentuali di suddivisione della fatturazione in linea. Quando le percentuali di suddivisione della fatturazione non raggiungono il 100%, si verifica un errore. Dopo aver modificato le percentuali di suddivisione della fatturazione, aggiorna la pagina della riga di offerta rimuovere l'errore.
 
 Utilizza l'azione di distribuzione uniforme nella griglia secondaria dei clienti della riga di offerta per allocare le suddivisioni di fatturazione a tutti i clienti della riga di offerta. Se è presente un fattore di arrotondamento, verrà aggiunto al cliente di arrotondamento. Uno dei clienti della riga di offerta è sempre contrassegnato come cliente di arrotondamento, il che significa che il record del cliente della riga di offerta ha il flag di arrotondamento impostato su **Sì**. 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

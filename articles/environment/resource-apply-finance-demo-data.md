@@ -2,16 +2,18 @@
 title: Applicare i dati dimostrativi a un ambiente ospitato su cloud di Finance
 description: Questo argomento spiega come applicare i dati dimostrativi da Project Operations a un ambiente ospitato su cloud di Dynamics 365 Finance.
 author: sigitac
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c04aab6ffb332a3095ca2a7890deb73f15a8b5e3713021c60eec02eb13dbd0cb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a7cdbd2847ce45972aadd0d1a2d4f26270727ad9
+ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009671"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4365243"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>Applicare i dati dimostrativi a un ambiente ospitato su cloud di Finance
 
@@ -22,40 +24,40 @@ _**Si applica a:** Project Operations per scenari basati su risorse/materiali no
 
 1. Nel progetto LCS, apri la pagina **Dettagli ambiente**. Questa include i dettagli necessari per connettersi all'ambiente utilizzando Remote Desktop Protocol (RDP).
 
-![Dettagli ambiente.](./media/1EnvironmentDetails.png)
+![Dettagli degli ambienti ](./media/1EnvironmentDetails.png)
 
 Il primo set di credenziali evidenziate sono le credenziali dell'account locale e contengono un collegamento ipertestuale alla connessione Desktop remoto. Le credenziali includono il nome utente e la password dell'amministratore dell'ambiente. Il secondo set di credenziali viene utilizzato per accedere a SQL Server in questo ambiente.
 
 2. Collegati in remoto all'ambiente tramite il collegamento ipertestuale in **Account locali** e utilizza le **Credenziali account locale** per l'autenticazione.
 3. Vai a **Internet Information Services** > **Pool di applicazioni** > **AOSService** e arresta il servizio. A questo punto arresta il servizio in modo da poter continuare a sostituire il database SQL.
 
-![Arrestare AOS.](./media/2StopAOS.png)
+![Arrestare AOS](./media/2StopAOS.png)
 
 4. Vai a **Servizi** e arresta i seguenti due elementi:
 
 - Microsoft Dynamics 365 Unified Operations: Batch Management Service
 - Microsoft Dynamics 365 Unified Operations: Data Import Export Framework
 
-![Arrestare i servizi.](./media/3StopServices.png)
+![Arrestare i servizi](./media/3StopServices.png)
 
 5. Apri Microsoft SQL Server Management Studio. Accedi con le credenziali del server SQL e utilizza l'utente e la password di axdbadmin dalla pagina LCS **Dettagli ambienti**.
 
-![SQL Server Management Studio.](./media/4SSMS.png)
+![SQL Server Management Studio](./media/4SSMS.png)
 
 6. In Esplora oggetti, **Database** e individua **AXDB**. Sostituirai il database con un nuovo database che si trova nell'[Area download](https://download.microsoft.com/download/1/a/3/1a314bd2-b082-4a87-abdc-1ba26c92b63d/ProjOpsDemoDataFOGARelease.zip). 
 7. Copia il file zip nella VM a cui sei collegato in remoto ed estrai il contenuto dello zip.
 8. In SQL Server Management Studio, fai clic con il pulsante destro del mouse su **AxDB** e quindi seleziona **Attività** > **Ripristina** > **Database**.
 
-![Ripristinare il database.](./media/5RestoreDatabase.png)
+![Ripristina database](./media/5RestoreDatabase.png)
 
 9. Seleziona **Dispositivo di origine** e vai al file estratto dallo zip che hai copiato.
 
-![Dispositivi di origine.](./media/6SourceDevice.png)
+![Dispositivi di origine](./media/6SourceDevice.png)
 
 10. Seleziona **Opzioni** e quindi seleziona **Sovrascrivi database esistente** e **Chiudi connessioni esistenti al database di destinazione**. 
 11. Seleziona **OK**.
 
-![Ripristinare le impostazioni.](./media/7RestoreSetting.png)
+![Ripristinare le impostazioni](./media/7RestoreSetting.png)
 
 Riceverai la conferma che il ripristino AXDB è andato a buon fine. Dopo aver ricevuto questa conferma, puoi chiudere SQL Services Management Studio.
 
@@ -66,17 +68,14 @@ Riceverai la conferma che il ripristino AXDB è andato a buon fine. Dopo aver ri
 15. Esegui il file .ext utilizzando il tuo indirizzo utente nel campo **Indirizzo e-mail**. 
 16. Seleziona **Invia**.
 
-![Provisioning utente amministratore.](./media/8AdminUserProvisioning.png)
+![Provisioning utente amministratore](./media/8AdminUserProvisioning.png)
 
 Questo processo richiede un paio di minuti per il completamento. Dovresti ricevere un messaggio di conferma che l'utente amministratore è stato aggiornato correttamente.
 
 17. Infine, esegui il prompt dei comandi come amministratore ed esegui iisreset
 
-![Ripristino IIS.](./media/9IISReset.png)
+![Ripristino IIS](./media/9IISReset.png)
 
 18. Chiudi la sessione Desktop remoto e utilizza la pagina **Dettagli ambiente** di LCS per accedere all'ambiente e confermare che funzioni come previsto.
 
-![Finance and Operations.](./media/10FinanceAndOperations.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![Finance and Operations](./media/10FinanceAndOperations.png)

@@ -2,16 +2,18 @@
 title: Creare pianificazioni di fatturazione in una voce di contratto basata su progetto - semplice
 description: Questo argomento fornisce informazioni sulla creazione di pianificazioni di fatturazione e passaggi fondamentali.
 author: rumant
+manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: dc0cf92ed7af0353baa0f93fc7fb69e02905f805eb04a7b4c7bc99cfe59da62a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 728a35b2b69fb63a2b20f218c250365c5068370f
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006071"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180332"
 ---
 # <a name="create-invoice-schedules-on-a-project-based-contract-line---lite"></a>Creare pianificazioni di fatturazione in una voce di contratto basata su progetto - semplice
 
@@ -72,6 +74,3 @@ I passaggi fondamentali a prezzo fisso possono essere generati manualmente quand
 | Imposta | Creazione rapida | L'importo delle imposte applicato al passaggio fondamentale. | Questo è incluso nel passaggio fondamentale della voce di contratto di progetto e nella fattura. |
 
 4. Seleziona **Salva e chiudi**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

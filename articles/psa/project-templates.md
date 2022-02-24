@@ -2,6 +2,8 @@
 title: Modelli di progetto
 description: In questo argomento vengono fornite informazioni su come utilizzare modelli di progetto per una rapida configurazione dei progetti.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 34df8ed9a8baff949097af1b95da56bfe9a4240c213896fafd5c7dcfcf580b6c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db42c9ea7280274cdc9cc90f1487f27e08f892e5
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002516"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148063"
 ---
 # <a name="project-templates"></a>Modelli di progetto 
 
@@ -47,7 +49,7 @@ Esistono vari modi di creare un progetto da un modello di progetto:
 
 - Quando crei un progetto da un'offerta, puoi selezionare un modello di progetto nella finestra di dialogo **Creazione rapida: Progetto**.
 
-> ![Finestra di dialogo Creazione rapida: Progetto.](media/project-11.png)
+> ![Finestra di dialogo Creazione rapida: Progetto](media/project-11.png)
 
 - Quando crei un progetto selezionando **Nuovo progetto**, viene visualizzata la pagina **Progetto** prima del salvataggio del record. Nel campo **Seleziona un modello**, seleziona uno dei modelli di progetto predefiniti nell'organizzazione.
 - Utilizza **Crea progetto da un modello** nella pagina **Entità modello**.
@@ -67,6 +69,3 @@ Quando copi nelle righe di stima del progetto, i listini prezzi vengono aggiorna
 ### <a name="copying-a-project-team"></a>Copiare un team di progetto
 
 Quando un team di progetto viene copiato da un modello di progetto in un progetto, le risorse generiche vengono copiate insieme alle competenze e alle qualifiche definite nel modello. Anche le assegnazioni di risorse generiche vengono gestite come se fossero nel modello di progetto. Le risorse denominate non sono supportate nei modelli di progetto.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

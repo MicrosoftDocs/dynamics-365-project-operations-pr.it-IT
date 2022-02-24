@@ -2,6 +2,8 @@
 title: Concetti chiave
 description: In questo argomento vengono fornite informazioni sui concetti chiave per la gestione delle risorse in Project Service Automation.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8e56523a9a2fbe8bc07e6d46062f4e1c20e6d2fa2244b32ff53e96d898b0086c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 75b2d2c520cc48eb59c266289ca2bdc1288f2920
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995091"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147748"
 ---
 # <a name="key-concepts"></a>Concetti chiave
 
@@ -46,6 +48,3 @@ Nella tabella seguente vengono definiti i concetti chiave utilizzati nell'app Dy
 | Profilo di distribuzione                    | Ore di assegnazione, attività o requisito suddivise in una distribuzione giornaliera. Ad esempio, un'attività di 40 ore durante cinque giorni può essere ripartita in otto ore al giorno per cinque giorni. |
 | Vista Riconciliazione        | Una vista che mostra le prenotazioni e le assegnazioni di ogni membro del team di progetto. Questa vista consente al responsabile di progetto di individuare qualsiasi differenza tra prenotazioni e assegnazioni e di intraprendere un'azione correttiva. |
 | Ore lavorative                 | Un'entità utilizzata per identificare la capacità della risorsa nonché le ore lavorative e non lavorative. Questa entità è nota anche come calendario risorsa. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

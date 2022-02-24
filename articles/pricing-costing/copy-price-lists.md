@@ -2,16 +2,18 @@
 title: Copiare listini prezzi
 description: Questo argomento fornisce informazioni su come copiare i listini prezzi in Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ad09bdce563a48843b3ed96e7aaabd9c0d5960336b9e1c74fddb9b61f760f4cd
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 67a69d521ac0a5632371138bd4fbb9dd00fe34ee
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003731"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181502"
 ---
 # <a name="copy-price-lists"></a>Copiare listini prezzi
 
@@ -41,6 +43,3 @@ Per fare una copia del listino prezzi, completa i seguenti passaggi.
 1. Nelle schede **Ruolo**, **Categoria** e **Voce di listino** di un listino prezzi, è possibile selezionare **Aggiorna prezzi** per applicare un ricarico su tutti i prezzi nella griglia secondaria. 
 2. Nella pagina di dialogo che si apre, inserisci un ricarico. Puoi anche inserire una percentuale di aumento negativa per diminuire i prezzi di una determinata percentuale. 
 3. Seleziona **OK** nella pagina di dialogo e quindi verifica che i prezzi nella griglia secondaria riflettano le modifiche apportate.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

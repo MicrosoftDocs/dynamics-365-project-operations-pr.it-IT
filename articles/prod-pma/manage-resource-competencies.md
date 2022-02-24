@@ -2,9 +2,11 @@
 title: Gestire le competenze delle risorse
 description: In questo argomento vengono fornite informazioni sull'impostazione delle competenze per le risorse di progetto.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f93fbda0ad6435c627eb7e580f92fd90481034cae2236b9a636195883470ca5c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db96ffc5fdd6bc759cd35fff0a39a64d9854a4f0
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007421"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270638"
 ---
 # <a name="manage-resource-competencies"></a>Gestire le competenze delle risorse
 
@@ -29,7 +31,7 @@ ms.locfileid: "7007421"
 
 Le competenze delle risorse sono una parte essenziale della gestione delle risorse. Le competenze possono essere utilizzate come base per determinare le risorse che hanno il corretto equilibrio tra competenze, istruzione, certificazione ed esperienza di progetto. È consigliabile configurare queste informazioni per ciascuna risorsa e aggiornarle regolarmente. In questo modo, puoi massimizzare le capacità quando le competenze specifiche delle risorse vengono abbinate durante l'assegnazione delle risorse del progetto.
 
-[![Esempi di competenze, certificazioni, istruzione ed esperienza di progetto.](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
+[![Esempi di competenze, certificazioni, istruzione ed esperienza di progetto](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
 
 Le seguenti procedure spiegano come configurare alcune delle competenze per una risorsa.
 

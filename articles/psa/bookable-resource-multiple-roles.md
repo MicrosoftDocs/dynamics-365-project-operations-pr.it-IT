@@ -2,10 +2,12 @@
 title: Stimare le vendite e i costi del progetto quando una risorsa prenotabile ricopre più ruoli per un progetto
 description: Questo argomento fornisce informazioni su come utilizzare le dimensioni dei prezzi per supportare la determinazione di prezzi e costi per una risorsa che ricopre più ruoli in un progetto.
 author: rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: be24bb3bdf2f3c8351fc396ae67457b5213e1cd800e9d2ad23d59d0d038f22b9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 67e24156e960b9b09cf92f7f0cd77f6c74a982b8
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987486"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145048"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-for-a-project"></a>Stimare le vendite e i costi del progetto quando una risorsa prenotabile ricopre più ruoli per un progetto 
 
@@ -72,6 +74,3 @@ Quando espandi la riga del record del membro del team puoi visualizzare assegnaz
 Quando passi alla griglia **Stime** puoi notare che entrambe le assegnazioni per la stessa risorsa hanno un prezzo diverso.
 Il prezzo dell'assegnazione per la risorsa nell'attività A viene calcolato utilizzando il valore dell'attributo **Ruolo** di **Consulting Lead**. Il prezzo dell'assegnazione per la stessa risorsa nell'attività B viene calcolato utilizzando il valore dell'attributo **Ruolo** di **Network Technician**.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

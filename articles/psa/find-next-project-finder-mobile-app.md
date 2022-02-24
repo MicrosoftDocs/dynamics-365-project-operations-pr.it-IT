@@ -2,6 +2,8 @@
 title: Trovare il prossimo progetto con l'app Project Finder Mobile
 description: Come trovare il progetto successivo con l'app Project Finder Mobile per Project Service
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b5b6c4d608ae083d01be24258af35ed8f64e67a897690f1a2678f76b8befdcb1
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 58e6970dbe902deeef144e563bcfcd09046c70ce
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990784"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149278"
 ---
 # <a name="find-your-next-project-with-the-project-finder-mobile-app-project-service"></a>Trovare il progetto successivo con l'app Project Finder Mobile (Project Service)
 
@@ -38,15 +40,12 @@ Con l'app Project Finder Mobile sul tuo telefono [!INCLUDE[tn_iphone](../include
   
  Tocca la freccia a destra del progetto desiderato per visualizzare ulteriori dettagli e iscriviti.  
   
- ![Elenco dei progetti che corrispondono a competenze nell'app Project Finder Mobile.](../psa/media/project-service-project-finder-list.png "Elenco dei progetti che corrispondono a competenze nell'app mobile Trova progetto")  
+ ![Elenco dei progetti che corrispondono a competenze nell'app mobile Trova progetto](../psa/media/project-service-project-finder-list.png "Elenco dei progetti che corrispondono a competenze nell'app mobile Trova progetto")  
   
-## <a name="update-your-skills"></a>Aggiorna le tue competenze  
+## <a name="update-your-skills"></a>Aggiorna le competenze  
  Tocca il pulsante del profilo nella parte destra inferiore dello schermo per aggiornare i tuoi livelli di competenza.  
   
- ![Pulsante Profilo nell'app Project Finder Mobile.](../psa/media/project-service-project-finder-profile.png "Pulsante Profilo nell'app per dispositivi mobili Trova progetto")  
+ ![Pulsante Profilo nell'app per dispositivi mobili Trova progetto](../psa/media/project-service-project-finder-profile.png "Pulsante Profilo nell'app per dispositivi mobili Trova progetto")  
   
 ### <a name="see-also"></a>Vedi anche  
  [Guida per tempo, spese e collaborazione](../psa/time-expense-collaboration-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Gestire la delega
 description: Questo argomento fornisce informazioni su come un delegato di spesa può creare e gestire note spese per un altro dipendente.
 author: suvaidya
+manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f68d62ea96c9a31771b1938ee4c6505aadf0f2a81f168920a1f057227b986281
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 09fc5a58b3367d1b70d2ddddb8e920769055f9d2
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997791"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122708"
 ---
 # <a name="manage-delegation"></a>Gestire la delega
 Un delegato spese può creare e gestire note spese per un altro dipendente.
@@ -37,6 +39,3 @@ Se la chiave di gestione delle funzionalità **Abilita pagina elenco delegati di
 Un delegato può filtrare e cercare rapidamente le note spese esistenti che gli sono state delegate. Il delegato può anche creare rapidamente una nuova nota spese per altri utenti selezionando **Nuova nota spese**.
 
 I delegati possono creare e gestire note spese per altri dipendenti accedendo a **Gestione spese** > **Le mie spese** > **Rendiconti spese** e selezionando **Apri le spese di altri utenti**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

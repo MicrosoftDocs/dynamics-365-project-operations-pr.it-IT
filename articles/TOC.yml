@@ -4,15 +4,9 @@
   items:
     - name: Determinare il tipo di distribuzione
       href: environment/determine-deployment-type.md
-    - name: Iscrizione a versioni di valutazione di Project Operations
-      href: environment/admin-trials.md
     - name: Aggiornamenti di Project Operations
       href: whats-new/project-operations-updates.md
-    - name: Funzionalità rimosse o deprecate
-      items:
-        - name: Funzionalità rimosse o deprecate in Project Operations
-          href: whats-new/removed-depreciated-features-project.md
-- name: Project Operations per scenari basati su risorse/materiali non stoccati
+- name: Project Operations per scenari basati su risorse/non stoccate
   items:
     - name: Attività iniziali
       items:
@@ -34,8 +28,6 @@
               href: environment/resource-apply-pro-setup-config-data.md
         - name: Distribuire ambienti
           items:
-            - name: Distribuire manualmente l'app Project Operations Dataverse con supporto doppia scrittura
-              href: environment/resource-manual-deploy-dataverse-dualwrite.md
             - name: Effettuare il provisioning di un nuovo ambiente
               href: environment/resource-provision-new-environment.md
             - name: Modello di sicurezza
@@ -54,30 +46,12 @@
               href: environment/resource-dual-write-estimates-actuals.md
             - name: Integrazione della fattura di progetto
               href: environment/resource-dual-write-project-invoice.md
-            - name: Integrazione di Gestione spese
+            - name: Integrazione della gestione delle spese
               href: environment/resource-dual-write-expense.md
             - name: Integrazione della fattura fornitore
               href: environment/resource-dual-write-vendor-invoice.md
-        - name: Disinstallazione di Dynamics 365 Project Operations
-          href: environment/uninstall-project-operations.md
     - name: Novità
       items:
-        - name: Dicembre 2021 - Project Operations per scenari basati su risorse/materiali non stoccati
-          href: whats-new/whats-new-dec-2021-resource-based.md
-        - name: Novembre 2021 - Project Operations per scenari basati su risorse/materiali non stoccati
-          href: whats-new/whats-new-nov-2021-resource-based.md
-        - name: Ottobre 2021 - Project Operations per scenari basati su risorse/materiali non stoccati
-          href: whats-new/whats-new-oct-2021-resource-based.md
-        - name: Settembre 2021 - Project Operations per scenari basati su risorse/materiali non stoccati
-          href: whats-new/whats-new-sept-2021-resource-based.md
-        - name: Agosto 2021 - Project Operations per scenari basati su articoli non stoccati/risorse
-          href: whats-new/whats-new-august-2021-resource-based.md
-        - name: Luglio 2021 - Project Operations per scenari basati su articoli non stoccati/risorse
-          href: whats-new/whats-new-july-2021-resource-based.md
-        - name: Giugno 2021 - Project Operations per scenari basati su risorse/materiali non stoccati
-          href: whats-new/whats-new-june-2021-resource-based.md
-        - name: Maggio 2021 - Project Operations per scenari basati su risorse/materiali non stoccati
-          href: whats-new/whats-new-may-2021-resource-based.md
         - name: Aprile 2021 - Project Operations per scenari basati su risorse/materiali non stoccati
           href: whats-new/whats-new-apr-2021-resource-based.md
         - name: Marzo 2021 - Project Operations per scenari basati su risorse/materiali non stoccati
@@ -306,12 +280,8 @@
           items:
             - name: Sviluppare modelli di progetto con Copia progetto
               href: project-management/dev-copy-project.md
-            - name: Usare le API di pianificazione dei progetti
+            - name: Utilizzare le API di pianificazione (anteprima pubblica)
               href: project-management/schedule-api-preview.md
-            - name: Prestazioni dell'API di pianificazione dei progetti
-              href: project-management/project-schedule-api-performance.md
-            - name: Log di pianificazione del progetto
-              href: project-management/schedule-api-logs.md
     - name: Gestione delle risorse
       items:
         - name: Concetti chiave
@@ -366,7 +336,7 @@
               href: resource-management/manage-multiple-time-zones.md
         - name: Utilizzo della risorsa
           items:
-            - name: Panoramica sull'uso delle risorse
+            - name: Panoramica dell'utilizzo della risorsa
               href: resource-management/resource-utilization-overview.md
     - name: Ore
       items:
@@ -404,10 +374,6 @@
               href: expense/set-up-credit-card-integration.md
             - name: Configurare le categorie di spesa
               href: expense/set-up-expense-categories.md
-            - name: Configurare il chilometraggio utilizzando i livelli di tariffa chilometrica
-              href: expense/set-up-mileage.md
-        - name: Dettaglio delle spese
-          href: prod-exp/expense-itemization.md
         - name: Spese personali
           href: expense/personal-expenses-expense-report.md
         - name: Spese interaziendali
@@ -436,21 +402,19 @@
               href: expense/vat-recovery.md
     - name: Utilizzo del materiale
       items:
-        - name: Registrare l'uso dei materiali su progetti e attività di progetto
+        - name: Registrare l'utilizzo del materiale di progetti e attività di progetto
           href: material/material-usage-log.md
     - name: Approvazioni
       items:
         - name: Panoramica delle approvazioni
           href: approvals/approvals-overview.md
-        - name: Set di approvazioni
-          href: approvals/approval-sets.md
         - name: Note per gli sviluppatori
           items:
             - name: Note per gli sviluppatori per le approvazioni
               href: approvals/dev-notes-approvals.md
     - name: Valori effettivi
       items:
-        - name: Panoramica degli effettivi
+        - name: Panoramica dei valori effettivi
           href: actuals/actuals-overview.md
         - name: Collegare i valori effettivi ai record originali
           href: actuals/linkingactuals.md
@@ -464,18 +428,12 @@
           href: procurement/configure-materials-nonstocked.md
         - name: Approvvigionamento di materiali non stoccati per progetti che utilizzano fatture fornitore in sospeso
           href: procurement/pending-vendor-invoices.md
-        - name: Ordinare materiali non stoccati per i progetti utilizzando gli ordini di acquisto per un progetto
-          href: procurement/non-stocked-materials-project-purchase-orders.md
-        - name: Fidelizzazione del fornitore
-          items:
-            - name: Panoramica sulla fidelizzazione del fornitore
-              href: procurement/vendor-retention-overview.md
-            - name: Impostazione della fidelizzazione del fornitore
-              href: procurement/set-up-vendor-retention.md
     - name: Fatturazione
       items:
         - name: Panoramica del processo di fatturazione
           href: invoicing/post-project-invoices.md
+        - name: Gestire le proposte di fattura di progetto
+          href: invoicing/format-update-project-invoice-proposals.md
         - name: Fatturazione proforma
           items:
             - name: Gestire il backlog di fatturazione basato su progetto
@@ -494,12 +452,20 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: Configurare l'automazione della fattura basata su progetto
               href: proforma-invoicing/configure-automated-invoice-creation.md
-        - name: Fatturazione cliente
-          items:
-            - name: Gestire le proposte di fattura di progetto
-              href: invoicing/format-update-project-invoice-proposals.md
-            - name: Correggere la contabilità sulle proposte di fattura di progetto in bozza
-              href: invoicing/correct-project-invoice-proposals.md
+        - name: Gestire le proposte di fattura di progetto
+          href: invoicing/format-update-project-invoice-proposals.md
+    - name: Contabilità di progetto
+      items:
+        - name: Valori predefiniti della dimensione finanziaria
+          href: project-accounting/financial-dimension-defaults.md
+        - name: Configurare le categorie di progetto
+          href: project-accounting/configure-project-categories.md
+        - name: Configurare la contabilità per i progetti interni
+          href: project-accounting/configure-accounting-internal-projects.md
+        - name: Configurare la contabilità per i progetti fatturabili
+          href: project-accounting/configure-accounting-billable-projects.md
+        - name: Giornale di registrazione integrazione in Project Operations
+          href: project-accounting/project-operations-integration-journal.md
         - name: Fatturazione interaziendale
           items:
             - name: Panoramica della fatturazione interaziendale
@@ -510,18 +476,6 @@
               href: project-accounting/create-intercompany-transactions.md
             - name: Creare fatture interaziendali per clienti e fornitori
               href: project-accounting/create-intercompany-customer-vendor-invoices.md
-    - name: Contabilità di progetto
-      items:
-        - name: Valori predefiniti della dimensione finanziaria
-          href: project-accounting/financial-dimension-defaults.md
-        - name: Configurare categorie di progetto
-          href: project-accounting/configure-project-categories.md
-        - name: Configurare la contabilità per i progetti interni
-          href: project-accounting/configure-accounting-internal-projects.md
-        - name: Configurare la contabilità per i progetti fatturabili
-          href: project-accounting/configure-accounting-billable-projects.md
-        - name: Giornale di registrazione integrazione in Project Operations
-          href: project-accounting/project-operations-integration-journal.md
     - name: Riconoscimento ricavi
       items:
         - name: Panoramica del riconoscimento ricavi
@@ -538,12 +492,6 @@
           href: revenue-recognition/cost-complete-methods.md
         - name: Gestire le stime dei ricavi
           href: revenue-recognition/rev-rec-completed-contract-method.md
-    - name: Risoluzione dei problemi
-      items:
-        - name: Processo di vendita di progetto
-          items:
-            - name: 'Errore di mancata corrispondenza della valuta durante la creazione di progetti, contratti, offerte o risorse prenotabili'
-              href: troubleshooting/project-sales-process/currency-mismatch-error.md
 - name: 'Distribuzione semplice: dalla transazione alla fatturazione proforma'
   items:
     - name: Attività iniziali
@@ -554,30 +502,12 @@
           href: environment/lite-preview-subscription-sign-up.md
         - name: Distribuire Project Operations - semplice
           href: environment/lite-deployment.md
-        - name: Applicare i dati dimostrativi di configurazione e impostazione - lite
+        - name: Applicare i dati di configurazione e la configurazione dimostrativa - semplice
           href: environment/lite-apply-demo-setup-config-data.md
         - name: Modello di sicurezza
           href: environment/security-model.md
     - name: Novità
       items:
-        - name: Accesso in anteprima alle novità 2021 ciclo 2 - distribuzione lite
-          href: pro/whats-new/whats-new-2021-early-access-lite.md
-        - name: Novità di dicembre 2021 - distribuzione semplice
-          href: pro/whats-new/whats-new-dec-2021-lite.md
-        - name: Novità di novembre 2021 - distribuzione semplice
-          href: pro/whats-new/whats-new-nov-2021-lite.md
-        - name: Novità di ottobre 2021 - distribuzione semplice
-          href: pro/whats-new/whats-new-oct-2021-lite.md
-        - name: Novità di settembre 2021 - distribuzione semplice
-          href: pro/whats-new/whats-new-sept-2021-lite.md
-        - name: Novità agosto 2021 - distribuzione lite
-          href: pro/whats-new/whats-new-august-2021-lite.md
-        - name: Novità luglio 2021 - distribuzione lite
-          href: pro/whats-new/whats-new-july-2021-lite.md
-        - name: Novità giugno 2021 - distribuzione lite
-          href: pro/whats-new/whats-new-june-2021-lite.md
-        - name: Novità di maggio 2021 - distribuzione semplice
-          href: pro/whats-new/whats-new-may-2021-lite.md
         - name: Novità di aprile 2021 - distribuzione semplice
           href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: Novità di marzo 2021 - distribuzione semplice
@@ -826,10 +756,8 @@
           items:
             - name: Sviluppare modelli di progetto con Copia progetto
               href: project-management/dev-copy-project.md
-            - name: Usare le API di pianificazione dei progetti
+            - name: Utilizzare le API di pianificazione (anteprima pubblica)
               href: project-management/schedule-api-preview.md
-            - name: Prestazioni dell'API di pianificazione dei progetti
-              href: project-management/project-schedule-api-performance.md
     - name: Gestione delle risorse
       items:
         - name: Concetti chiave
@@ -884,46 +812,8 @@
               href: resource-management/manage-multiple-time-zones.md
         - name: Utilizzo della risorsa
           items:
-            - name: Panoramica sull'uso delle risorse
+            - name: Panoramica dell'utilizzo della risorsa
               href: resource-management/resource-utilization-overview.md
-    - name: Gestione conto lavoro in Project Operations
-      items:
-        - name: Gestione conto lavoro in Project Operations
-          href: pro/subcontracting/managing-subcontracts-overview.md
-        - name: Conto lavoro nell'accesso in anteprima di ottobre 2021
-          href: pro/subcontracting/Subcontracting_EA_scope.md
-        - name: Concetti chiave in conto lavoro
-          href: pro/subcontracting/key-concepts-subcontracting.md
-        - name: Gestione fornitori e listini prezzi dei progetti
-          href: pro/subcontracting/vendors-purchase-price-lists.md
-        - name: Terzisti come risorse prenotabili
-          href: pro/subcontracting/subcontractors-as-bookable-resources.md
-        - name: Dettagli dell'intestazione per conto lavoro
-          href: pro/subcontracting/subcontract-header-details.md
-        - name: Righe conto lavoro per orario
-          href: pro/subcontracting/subcontract-line-time.md
-        - name: Righe conto lavoro per categorie di spesa
-          href: pro/subcontracting/subcontract-line-expense.md
-        - name: Righe conto lavoro per prodotti
-          href: pro/subcontracting/subcontract-line-products.md
-        - name: Risorse righe conto lavoro
-          href: pro/subcontracting/subcontract-line-resources.md
-        - name: Punti cardine righe conto lavoro
-          href: pro/subcontracting/subcontract-line-milestones.md
-        - name: Membri del team di progetto in conto lavoro
-          href: pro/subcontracting/subcontracting-project-team-members.md
-        - name: Opzioni di conto lavoro per i membri del team di progetto
-          href: pro/subcontracting/subcon-options.md
-        - name: Stima dei costi delle assegnazioni di risorse in conto lavoro
-          href: pro/subcontracting/costing-subcon-ra.md
-        - name: Configurare la scheda di pianificazione per mostrare i lavoratori a contratto e la capacità in conto lavoro
-          href: pro/subcontracting/configure-sb-subcon.md
-        - name: Personale di un progetto con lavoratori a contratto e capacità in conto lavoro
-          href: pro/subcontracting/staffing-cw.md
-        - name: 'Tempo di registrazione, spese e utilizzo di materiale per i componenti in conto lavoro'
-          href: pro/subcontracting/recording-subcon-actuals.md
-        - name: Transizioni di stato in un conto lavoro
-          href: pro/subcontracting/subcon-states.md
     - name: Ore
       items:
         - name: Panoramica delle ore
@@ -944,21 +834,19 @@
           href: expense/basic-expense.md
     - name: Utilizzo del materiale
       items:
-        - name: Registrare l'uso dei materiali su progetti e attività di progetto
+        - name: Registrare l'utilizzo del materiale di progetti e attività di progetto
           href: material/material-usage-log.md
     - name: Approvazioni
       items:
         - name: Panoramica delle approvazioni
           href: approvals/approvals-overview.md
-        - name: Set di approvazioni
-          href: approvals/approval-sets.md
         - name: Note per gli sviluppatori
           items:
             - name: Note per gli sviluppatori per le approvazioni
               href: approvals/dev-notes-approvals.md
     - name: Valori effettivi
       items:
-        - name: Panoramica degli effettivi
+        - name: Panoramica dei valori effettivi
           href: actuals/actuals-overview.md
         - name: Collegare i valori effettivi ai record originali
           href: actuals/linkingactuals.md
@@ -988,14 +876,6 @@
   items:
     - name: Novità
       items:
-        - name: Novità di ottobre 2021 - Project Operations per scenari di materiali stoccati basati sulla produzione
-          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
-        - name: Novità di settembre 2021 - Project Operations per scenari di materiali stoccati basati sulla produzione
-          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
-        - name: Novità di luglio 2021 - Project Operations per scenari di materiali stoccati basati sulla produzione
-          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
-        - name: Novità di maggio 2021 - Project Operations per scenari di materiali stoccati basati sulla produzione
-          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
         - name: Novità di aprile 2021 - Project Operations per scenari di materiali stoccati basati sulla produzione
           href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: Novità di marzo 2021 - Project Operations per scenari di materiali stoccati basati sulla produzione
@@ -1146,26 +1026,8 @@
       href: psa/overview.md
     - name: Novità
       items:
-        - name: Aggiornare la pianificazione della versione per Project Service 3.x
+        - name: Pianificazione del rilascio dell'aggiornamento per Project Service 3.x
           href: psa/version-history-ps.md
-        - name: 'Novità o modifiche dell''aggiornamento versione 38, V3'
-          href: psa/whats-new-ur-38.md
-        - name: 'Novità o modifiche dell''aggiornamento versione 37.5, V3'
-          href: psa/whats-new-ur-37-5.md
-        - name: 'Novità o modifiche dell''aggiornamento versione 37, V3'
-          href: psa/whats-new-ur-37.md
-        - name: 'Novità o modifiche dell''aggiornamento versione 36, V3'
-          href: psa/whats-new-ur-36.md
-        - name: 'Novità o modifiche dell''aggiornamento versione 35, V3'
-          href: psa/whats-new-ur-35.md
-        - name: 'Novità o modifiche negli aggiornamenti della versione 34, V3'
-          href: psa/whats-new-ur-34.md
-        - name: 'Novità o modifiche nella versione di aggiornamento 33, V3'
-          href: psa/whats-new-ur-33.md
-        - name: 'Novità o modifiche dell''aggiornamento versione 32.5, V3'
-          href: psa/whats-new-ur-32-5.md
-        - name: 'Novità o modifiche dell''aggiornamento versione 32, V3'
-          href: psa/whats-new-ur-32.md
         - name: 'Novità o modifiche dell''aggiornamento versione 31, V3'
           href: psa/whats-new-ur-31.md
         - name: 'Novità o modifiche dell''aggiornamento versione 30, V3'
@@ -1236,8 +1098,6 @@
           href: psa/implementation-guides/resource-management-guide.md
         - name: Guida all'utilizzo dei report
           href: psa/implementation-guides/reporting-guide.md
-    - name: Aggiornamento da Project Service Automation a Project Operations - semplice
-      href: psa/upgrade-project-operations-non-stocked.md
     - name: Aggiornamento di Project Service Automation (versione app 3.x)
       items:
         - name: Aggiornamento di Project Service Automation
@@ -1338,7 +1198,7 @@
               href: psa/bulk-corrections-actuals-created-by-approved-time-expense-entries.md
             - name: Verificare il backlog di fatturazione progetto
               href: psa/review-invoicing-backlog.md
-            - name: Fatturazione
+            - name: Fattura
               href: psa/invoicing.md
             - name: Scenari con più valute
               href: psa/advanced-currency.md
@@ -1402,15 +1262,13 @@
           items:
             - name: Creare inserimenti ore
               href: psa/time-entries.md
-            - name: Calendario immissione di tempo
+            - name: Calendario di inserimenti ore
               href: psa/time-entry-calendar.md
-            - name: Personalizza immissione di tempo settimanale
+            - name: Personalizzare l'inserimento ore settimanale
               href: psa/time-entry-extensibility-v3.md
-            - name: Set di approvazioni in Project Service Automation
-              href: psa/approval-set.md
     - name: Domande frequenti e risoluzione dei problemi (3.x)
       items:
-        - name: Perché il prezzo si imposta automaticamente su zero sugli effettivi di costo delle spese?
+        - name: Perché il prezzo viene impostato automaticamente su zero per gli effettivi costo spese?
           href: psa/FAQ-zero-price-expense-cost-actuals.md
         - name: Perché il prezzo viene impostato automaticamente su zero per gli effettivi vendita spese?
           href: psa/FAQ-zero-price-expense-sales-actuals.md

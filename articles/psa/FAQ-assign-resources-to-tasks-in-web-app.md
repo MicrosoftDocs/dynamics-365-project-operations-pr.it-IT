@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 25cf017c53d7db23e467b3b610e2990e56e95cb56bdf9820e427dfeeeb979637
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 32a04ddef901515cd77262b5ae6be2458cb6b00c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987711"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993303"
 ---
 # <a name="how-do-i-assign-a-bookable-resource-to-a-task-in-the-web-app-project-service-app-v2x"></a>Come si assegna una risorsa prenotabile a un'attività nell'app Web (app Project Service v2.x)?
 
@@ -43,7 +43,7 @@ Con questo metodo si aggiunge una risorsa al team di progetto e quindi si assegn
 3.  Selezionare le date **Da** e **A**.
 
     > [!div class="mx-imgBorder"] 
-    > ![Screenshot dell'aggiunta di un membro del team.](media/FAQ-Resources-to-Tasks2-1.png "Screenshot dell'aggiunta di un membro del team")
+    > ![Screenshot dell'aggiunta di un membro del team](media/FAQ-Resources-to-Tasks2-1.png "Screenshot dell'aggiunta di un membro del team")
  
 4.  Selezionare uno dei seguenti metodi di allocazione per la prenotazione della risorsa:
     - **Piena capacità** prenota l'intera capacità della risorsa per le date di inizio e fine specificate.
@@ -63,12 +63,12 @@ Con questo metodo si aggiunge una risorsa al team di progetto e quindi si assegn
     3. Seleziona **OK**. Il membro del team è ora assegnato all'attività.
 
     > [!div class="mx-imgBorder"] 
-    > ![Screenshot dell'aggiunta di risorse con la struttura di suddivisione del lavoro.](media/FAQ-Resources-to-Tasks2-2.png "Screenshot dell'aggiunta di risorse con la struttura di suddivisione del lavoro")
+    > ![Screenshot dell'aggiunta di risorse con la struttura di suddivisione del lavoro](media/FAQ-Resources-to-Tasks2-2.png "Screenshot dell'aggiunta di risorse con la struttura di suddivisione del lavoro")
  
 Nella griglia dei membri del team, viene visualizzata l'aggregazione delle ore assegnate alla risorsa in Ore assegnate. È inferiore o uguale alle ore prenotate per la risorsa. 
 
 > [!div class="mx-imgBorder"] 
-> ![Screenshot delle ore assegnate per una risorsa.](media/FAQ-Resources-to-Tasks2-3.png "Screenshot delle ore assegnate per una risorsa")
+> ![Screenshot delle ore assegnate per una risorsa](media/FAQ-Resources-to-Tasks2-3.png "Screenshot delle ore assegnate per una risorsa")
  
 Se l'attività che si tenta di assegnare alla risorsa inizia dopo la data di fine delle prenotazioni delle risorse, la risorsa non sarà visualizzata nell'elenco a discesa.
 
@@ -92,22 +92,22 @@ Questo metodo assicura che le risorse hanno prenotazioni sufficienti per le atti
 4. Seleziona **OK**.
 
     > [!div class="mx-imgBorder"] 
-    > ![Screenshot dell'uso della struttura di suddivisione del lavoro per aggiungere una risorsa.](media/FAQ-Resources-to-Tasks2-4.png "Screenshot dell'uso della struttura di suddivisione del lavoro per aggiungere una risorsa")
+    > ![Screenshot dell'uso della struttura di suddivisione del lavoro per aggiungere una risorsa](media/FAQ-Resources-to-Tasks2-4.png "Screenshot dell'uso della struttura di suddivisione del lavoro per aggiungere una risorsa")
  
 Dopo aver completato l'assegnazione dei ruoli alle attività nella struttura di suddivisione del lavoro, selezionare **Genera team di progetto**. Project Service crea il numero minimo di membri del team generici in base ai ruoli, alle unità gestione risorse dell'organizzazione e al calendario del progetto aggregando le assegnazioni delle attività.
 
 > [!div class="mx-imgBorder"] 
-> ![Screenshot della generazione del team di progetto.](media/FAQ-Resources-to-Tasks2-5.png "Screenshot della generazione del team di progetto")
+> ![Screenshot della generazione del team di progetto](media/FAQ-Resources-to-Tasks2-5.png "Screenshot della generazione del team di progetto")
  
 Nella griglia dei membri del team, saranno visualizzate le risorse di tipo Risorsa generica con il ruolo e il nome posizione. Se due risorse sono necessarie affinché un ruolo completi il lavoro, la funzionalità Genera team crea due membri del team e utilizza il nome posizione per distinguerli.
 
 > [!div class="mx-imgBorder"] 
-> ![Screenshot dell'aggiunta di due risorse generiche.](media/FAQ-Resources-to-Tasks2-6.png "Screenshot dell'aggiunta di due risorse generiche")
+> ![Screenshot dell'aggiunta di due risorse generiche](media/FAQ-Resources-to-Tasks2-6.png "Screenshot dell'aggiunta di due risorse generiche")
  
 È possibile aprire il requisito di risorsa di supporto per il membro del team generico selezionando il collegamento sotto Requisito di risorsa.
 
 > [!div class="mx-imgBorder"] 
-> ![Screenshot dell'apertura del requisito di risorsa di supporto.](media/FAQ-Resources-to-Tasks2-7.png "Screenshot dell'apertura del requisito di risorsa di supporto")
+> ![Screenshot dell'apertura del requisito di risorsa di supporto](media/FAQ-Resources-to-Tasks2-7.png "Screenshot dell'apertura del requisito di risorsa di supporto")
 
 Selezionare **Prenota** per la risorsa generica e utilizzare la scheda di pianificazione per trovare e prenotare una risorsa reale. È anche possibile inviare il requisito che deve essere soddisfatto da un responsabile delle risorse selezionando **Invia richiesta**.
 

@@ -2,16 +2,18 @@
 title: Gestire le proposte di fattura di progetto
 description: Questo argomento fornisce dettagli sull'elaborazione delle fatture rivolte ai clienti con Project Operations per scenari di risorse/materiali non stoccati.
 author: sigitac
-ms.date: 04/12/2021
+manager: Annbe
+ms.date: 01/29/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 61b43e05eb179e2b00189076290433dd72f89a6bc7ef72140fc1efd752149d43
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 83e5af60d0a3baf0b59da2a97c6b156ef5b2b7ed
+ms.sourcegitcommit: b4298ca4729643c1040ef35dde8c67f829461ce7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989916"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "5089260"
 ---
 # <a name="manage-project-invoice-proposals"></a>Gestire le proposte di fattura di progetto
 
@@ -78,8 +80,7 @@ I valori predefiniti di **Gruppo IVA** e **Gruppo IVA articolo** vengono ricavat
     - **Cliente**: L'impostazione predefinita sarà sempre la fascia IVA di fatturazione del cliente.
     - **Ricerca**: Cercherà in tutte le entità di cui sopra nell'elenco e selezionerà il primo valore disponibile. La ricerca inizia con l'entità **Progetto** quindi l'entità **Contratto di progetto** e quindi l'entità **Cliente**.
 
-- **Gruppo IVA articolo passaggio fondamentale prezzo fisso** viene utilizzato come valore predefinito nel campo **Gruppo IVA articolo** per il passaggio fondamentale di fatturazione. Il contabile può rivedere e modificare questo valore nella pagina **Transazioni in acconto**. Il sistema utilizza il valore della transazione in acconto durante la creazione di una riga proposta di fattura progetto.
- 
+- La **fascia IVA articolo del passaggio fondamentale prezzo fisso** viene utilizzata per impostare il valore predefinito sul campo **Gruppo IVA articolo**.
 
 ### <a name="financial-dimensions"></a>Dimensioni finanziarie
 
@@ -131,7 +132,7 @@ La pagina **Formatta proposte di fatturazione** consente di visualizzare le tran
 
 La gestione della stampa utilizza diversi file di report per stampare, specificare le destinazioni e personalizzare il testo del piè di pagina per la fattura. La gestione della stampa può essere configurata a livello di modulo, tuttavia queste impostazioni possono essere sovrascritte per un cliente, un contratto o una proposta di fattura specifici. Per accedere a questa funzione nella pagina **Proposta di fattura di progetto** seleziona **Stampa** > **Gestione stampa**.
 
-L'impostazione della gestione della stampa viene visualizzata come una visualizzazione ad albero, in cui ogni livello di nodo visualizza i documenti disponibili da regolare. Puoi assegnare stampe personalizzate a livello di documento di modulo, cliente, contratto o proposta di fattura. Per modificare la stampa del documento originale, espandi il nodo desiderato e seleziona **Elemento originale**. Nel campo **Formato report** seleziona il formato del report da utilizzare per la stampa. Puoi utilizzare formati di report personalizzati usando il [Framework di gestione dei documenti aziendali](/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
+L'impostazione della gestione della stampa viene visualizzata come una visualizzazione ad albero, in cui ogni livello di nodo visualizza i documenti disponibili da regolare. Puoi assegnare stampe personalizzate a livello di documento di modulo, cliente, contratto o proposta di fattura. Per modificare la stampa del documento originale, espandi il nodo desiderato e seleziona **Elemento originale**. Nel campo **Formato report** seleziona il formato del report da utilizzare per la stampa. Puoi utilizzare formati di report personalizzati usando il [Framework di gestione dei documenti aziendali](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
 
 ## <a name="post-invoice-proposals"></a>Registrare le proposte di fattura
 
@@ -142,6 +143,3 @@ Per visualizzare la fattura prima della registrazione, deseleziona la casella di
 In aggiunta alla pagina **Proposta di fattura**, le proposte di fatturazione possono essere registrate anche eseguendo il processo periodico **Registra proposte di fatturazione**. Per trovare questo processo, vai a **Gestione progetti e contabilità** > **Periodico** > **Fatture di progetto** > **Registra proposte di fatturazione**.
 
 Questa pagina mostra tutte le proposte di fatturazione pronte per la registrazione. Puoi pianificare la registrazione delle proposte di fatturazione selezionando **Batch**. Imposta **Parametro di elaborazione batch** su **Sì** e imposta la ricorrenza dell'elaborazione batch selezionando **Ricorrenza**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,25 +1,29 @@
 ---
-title: Configurare la creazione automatica delle fatture
-description: Questo argomento fornisce informazioni sull'impostazione e la configurazione della creazione automatica di fatture proforma.
+title: Configurare la creazione automatica della fattura - semplice
+description: Questo argomento fornisce informazioni sulla configurazione della creazione automatica delle fatture proforma.
 author: rumant
-ms.date: 04/05/2021
+manager: Annbe
+ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1cce457fbc04ba9d3890d73439e6e7fd3db44d84a4498d5dc68ed82d362158b5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0ce9cb9090c44762f370bf8d574d179077b6a821
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997521"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176571"
 ---
-# <a name="set-up-automatic-invoice-creation"></a>Configurare la creazione automatica delle fatture 
+# <a name="configure-automatic-invoice-creation---lite"></a>Configurare la creazione automatica della fattura - semplice
  
-_**Si applica a:** Distribuzione semplice: dalla transazione alla fatturazione proforma, Project Operations per scenari basati su risorse/materiali non stoccati_
+_**Si applica a:** Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
-Puoi configurare la creazione automatica delle fatture in Dynamics 365 Project Operations. Il sistema crea una bozza di fattura proforma basata sulla pianificazione delle fatture per ogni contratto di progetto e voce di contratto. Le pianificazioni delle fatture vengono configurate a livello di voce di contratto. Ogni riga di un contratto può avere una pianificazione fattura distinta oppure la stessa pianificazione fattura può essere inclusa in ogni voce del contratto.
+Puoi configurare la creazione automatica della fattura in Dynamics 365 Project Operations. Il sistema crea una bozza di fattura proforma basata sulla pianificazione della fattura per ogni contratto di progetto e voce di contratto. Le pianificazioni delle fatture vengono configurate a livello di voce di contratto. Ogni riga di un contratto può avere una pianificazione fattura distinta oppure la stessa pianificazione fattura può essere inclusa in ogni voce del contratto.
 
-Quando crei una fattura, il sistema crea sempre almeno una fattura per contratto di progetto. In alcuni casi, potrebbero essere create più fatture. Ad esempio, se il contratto ha più clienti, verrà creato lo stesso numero di fatture del numero di clienti che hanno transazioni fatturabili da fatturare su quel contratto di progetto.
+Quando crei una fattura, il sistema crea sempre almeno una fattura per contratto di progetto. In alcuni casi, potrebbero essere create più fatture.
+
+Ad esempio, se il contratto ha più clienti, verrà creato lo stesso numero di fatture del numero di clienti che hanno transazioni fatturabili da fatturare su quel contratto di progetto.
 
 ## <a name="understand-how-transactions-are-included-on-an-invoice"></a>Informazioni su come le transazioni sono incluse in una fattura 
 
@@ -87,6 +91,3 @@ Il processo batch per la creazione di fatture è un processo ricorrente. Se ques
 
 > [!NOTE]
 > La fatturazione in batch in Project Operations viene eseguita solo per le voci di contratto di progetto configurate dalle pianificazioni fatturazione. Una riga di contratto con un metodo di fatturazione a prezzo fisso deve avere i passaggi fondamentali configurati. Una riga di contratto di progetto con un metodo di fatturazione di tempo e materiali richiederà una pianificazione fatturazione basata sulla data.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
