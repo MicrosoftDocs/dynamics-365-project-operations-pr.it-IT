@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 65516784c6787fa5f3c08297f4d161d52c2ea4a9
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 137fee27dd2302d47ae12faccde1682cff43db93
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151303"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5284138"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Home page delle dimensioni di determinazione di prezzi e costi
 
@@ -77,3 +77,6 @@ L'esempio seguente presenta tassi di fatturazione configurati in base al ruolo e
 | ----------------|-------------|----------|----------:|----------|
 | Mia società_Fascia1 | Contoso US  |Hour | 145|USD     |
 | Mia società_Fascia2 | Contoso India |Hour|   67|USD     |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,27 +1,25 @@
 ---
-title: Concetti chiave dei contratti di progetto
+title: Concetti chiave - Contratti di progetto
 description: Questo argomento fornisce informazioni sui concetti chiave dei contratti di progetto in Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b0e0280cb94e6f0186f59024c233e8fcb9e86abf
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: 4ab43a9de6b27f0f0e9b8cbe6ea8b613ce81e08d
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5663722"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078812"
 ---
-# <a name="concepts-unique-to-project-based-contracts"></a>Concetti esclusivi dei contratti basati su progetto
+# <a name="key-concepts---project-contracts"></a>Concetti chiave - Contratti di progetto
 
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
-
-Questo argomento fornisce i concetti chiave di cui essere a conoscenza prima di iniziare a utilizzare i contratti di Project in Dynamics 365 Project Operations:
+Questo argomento fornisce i concetti chiave di cui tenere conto prima di iniziare a utilizzare i contratti di progetto in Dynamics 365 Project Operations:
 
 ## <a name="owning-company"></a>Società proprietaria
 
@@ -88,6 +86,3 @@ Le pianificazioni di fatturazione sono specifiche per ogni voce di contratto e s
 ## <a name="changes-from-dynamics-365-sales-orders"></a>Modifiche rispetto agli ordini di Dynamics 365 Sales
 
 I contratti di Project Operations sono basati sugli ordini di Dynamics 365 Sales. Tuttavia, ci sono alcune importanti differenze e scostamenti nella funzionalità. I contratti hanno il proprio modulo ed elementi dell'interfaccia utente, regole di business, logica di business nei plug-in e script lato client che le rendono uniche rispetto agli ordini. Per questi motivi, non utilizzare un ordine di Sales e un contratto di Project Operations in modo intercambiabile.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

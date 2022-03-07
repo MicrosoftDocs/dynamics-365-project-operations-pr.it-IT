@@ -2,6 +2,8 @@
 title: Visualizzare l‘utilizzo addebitabile per le risorse
 description: In questo argomento vengono fornite informazioni sulla vista utilizzo risorse.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e1c123854209b3cb5c310e3bbcb242c9219279a8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b07af573bc8d312c45ee4aef50c95942401294fa
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5992839"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5285938"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>Visualizzare l‘utilizzo addebitabile per le risorse
 

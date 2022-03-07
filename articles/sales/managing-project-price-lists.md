@@ -2,11 +2,9 @@
 title: Gestire i listini prezzi di progetto in un'offerta
 description: In questo argomento vengono fornite informazioni sull'entità listino prezzi di progetto.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 5fc8691984e22b2fa35e26b1a7d94cc56c25c26d
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 8cfabf98f1a38823c777b6e388fbbb65d02877e3cd433069dd3845c292f2b277
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177201"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003911"
 ---
 # <a name="manage-project-price-lists-on-a-quote"></a>Gestire i listini prezzi di progetto in un'offerta
 
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
-Dynamics 365 Project Operations estende l'entità listino prezzi in Dynamics 365 Sales. 
+Dynamics 365 Project Operations estende l'entità Listino prezzi in Dynamics 365 Sales. 
 
 ## <a name="key-entities"></a>Entità chiave
 
@@ -120,3 +118,6 @@ Come i tassi di fatturazione, anche i tassi di costo per le risorse umane sono c
     1. Il listino prezzi di costo associato all'unità organizzativa.
     2. Il listino prezzi di costo associato ai parametri di Project Operations. Poiché i listini prezzi di costo in molte differenti valute possono essere associati ai parametri, viene completata una corrispondenza di valuta tra la valuta dell'unità organizzativa di contratto del progetto, del contratto o dell'offerta e la valuta del listino prezzi di costo.
     3. Per le spese, i metodi di determinazione dei prezzi Al costo e Ricarico sul costo non sono applicabili ai listini prezzi di costo. Anche se questi metodi di determinazione dei prezzi vengono utilizzati nelle righe dei listini prezzi di costo per configurare i costi delle categorie di transazioni, il sistema li ignora e non viene immesso alcun prezzo di costo predefinito.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Inviare una richiesta di risorsa
 description: È possibile inviare un requisito di risorsa generato come richiesta di risorse. La richiesta viene quindi inviata a un responsabile delle risorse per essere evasa.
 author: ruhercul
-manager: Annbe
 ms.date: 10/04/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 18f43acc64ed72b1543a2d7d91a2648e7e185fc4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: dedde7778cc726d3f06aefc0243edfe130e6d0b58773e0bb8e87cfcb13f1cc79
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128828"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994731"
 ---
 # <a name="submit-a-resource-request"></a>Inviare una richiesta di risorsa
 
@@ -27,3 +25,6 @@ _**Si applica a:** Project Operations per scenari basati su risorse/materiali no
 Lo stato della richiesta del membro del team generico diventerà **Inviata**.
 
 Dopo che la richiesta viene soddisfatta, la risorsa generica viene sostituita da una risorsa denominata se il responsabile delle risorse soddisfa la richiesta con la prenotazione di una risorsa denominata. In caso contrario, se il responsabile delle risorse propone una risorsa denominata, la risorsa generica rimane nel team e lo stato della richiesta diventerà **Revisione necessaria**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

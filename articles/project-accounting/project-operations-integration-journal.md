@@ -2,18 +2,16 @@
 title: Giornale di registrazione integrazione in Project Operations
 description: Questo argomento fornisce informazioni sull'utilizzo del giornale di registrazione integrazione in Project Operations.
 author: sigitac
-manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4a5f4d524530594bd3118f9b320acf4033c5d503
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: c5cc3254c52750b35be2c66137b6c57bbd9acbfbc89dedc6559059a89c8e2393
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948335"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987936"
 ---
 # <a name="integration-journal-in-project-operations"></a>Giornale di registrazione integrazione in Project Operations
 
@@ -21,7 +19,7 @@ _**Si applica a:** Project Operations per scenari basati su risorse/materiali no
 
 Le voci di tempi e spese creano transazioni di **valori effettivi** che rappresentano la visione operativa del lavoro completato rispetto a un progetto. Dynamics 365 Project Operations fornisce ai contabili uno strumento per rivedere le transazioni e modificare gli attributi di contabilità secondo necessità. Dopo aver completato la revisione e le rettifiche, le transazioni vengono registrate nella contabilità secondaria del progetto e nella contabilità generale. Un contabile può eseguire queste attività utilizzando il giornale di registrazione **Integrazione Project Operations** (**Dynamics 365 Finance** > **Gestione progetti e contabilità** > **Giornali di registrazione** > **Integrazione Project Operations**).
 
-![Flusso del giornale di registrazione integrazione](./media/IntegrationJournal.png)
+![Flusso del giornale di registrazione integrazione.](./media/IntegrationJournal.png)
 
 ### <a name="create-records-in-the-project-operations-integration-journal"></a>Creare record nel giornale di registrazione integrazione Project Operations
 

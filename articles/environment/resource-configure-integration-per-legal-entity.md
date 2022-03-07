@@ -2,24 +2,22 @@
 title: Configurare l'integrazione di Project Operations per persona giuridica
 description: Questo argomento fornisce informazioni sull'impostazione dell'integrazione per persona giuridica in Project Operations.
 author: sigitac
-manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: fc3f5be1318d482ece9a6e9e4fadc3cf628ff79577776e679f32cef7c0b2fc8f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122888"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999411"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Configurare l'integrazione di Project Operations per persona giuridica 
 
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati_
 
-Questo argomento ti guida nei passaggi necessari per configurare Dynamics 365 Project Operations per persona giuridica.
+Questo argomento ti guida attraverso i passaggi necessari per la configurazione Dynamics 365 Project Operations per la persona giuridica.
 
 ## <a name="enable-feature-keys-in-dynamics-365-finance"></a>Abilitare le chiavi di funzionalità in Dynamics 365 Finance
 
@@ -51,3 +49,6 @@ Ogni persona giuridica che utilizza Project Operations in Dynamics 365 Customer 
   - **Tipo di fatturazione predefinito**: Project Operations utilizza un set fisso di valori predefiniti per il tipo di fatturazione che devono essere associati alle proprietà della riga Finance. Crea un record per ogni tipo di fatturazione: **Non specificato**, **Addebitabile**, **Non addebitabile**, **Gratuito** e **Non disponibile**.
   - **Impostazioni predefinite della categoria di progetto**: seleziona le categorie di progetto predefinite da utilizzare per ogni tipo di transazione. Queste impostazioni predefinite verranno utilizzate nel **giornale dell'integrazione di Project Operations** e nelle stime in cui non è specificata alcuna categoria di transazione per il valore effettivo del progetto.
   - **Previsioni**: seleziona il modello previsionale da utilizzare per le stime di tempi e costi.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

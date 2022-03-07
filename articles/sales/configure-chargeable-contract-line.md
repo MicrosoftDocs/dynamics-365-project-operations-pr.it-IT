@@ -1,21 +1,21 @@
 ---
-title: Configurare componenti addebitabili di una voce di contratto di progetto
+title: Configurare i componenti addebitabili di una voce di contratto basata su progetto
 description: Questo argomento fornisce informazioni sui componenti inclusi, addebitabili e non addebitabili nelle voci del contratto.
 author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 60a2792f7783053a288303e1dcc01a986e948300
-ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
+ms.openlocfilehash: af97904b0171618cb15d060da9bc87fcf6bbabeb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5858343"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078813"
 ---
-# <a name="configure-chargeable-components-of-a-project-contract-line"></a>Configurare componenti addebitabili di una voce di contratto di progetto
+# <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>Configurare i componenti addebitabili di una voce di contratto basata su progetto
 
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati_
 
@@ -35,13 +35,13 @@ L'esigibilità è definita nelle categorie di transazione per una voce di contra
 
 Un ruolo può essere addebitabile o non addebitabile su una specifica voce di contratto basata su progetto.
 
-Nella scheda **Ruoli addebitabili** di una voce di contratto basata su progetto, nella griglia secondaria **Categorie addebitabili**, nel campo **Tipo di fatturazione**, aggiorna il tipo di fatturazione per un ruolo.
+Nella scheda **Ruoli addebitabili** di una voce di contratto basata su progetto, nella griglia secondaria **Categorie addebitabili** nel campo **Tipo di fatturazione** aggiorna il tipo di fatturazione per un ruolo.
 
 ### <a name="update-a-transaction-category-to-be-chargeable-or-non-chargeable"></a>Aggiornare una categoria di transazione in modo che sia addebitabile o non addebitabile
 
 Una categoria di transazione può essere addebitabile o non addebitabile su una specifica voce di contratto basata su progetto.
 
-Nella scheda **Categorie addebitabili** di una voce di contratto basata su progetto, nella griglia secondaria **Categorie addebitabili**, nel campo **Tipo di fatturazione**, aggiorna il tipo di fatturazione per una transazione.
+Nella scheda **Categorie addebitabili** di una voce di contratto basata su progetto, nella griglia secondaria **Categorie addebitabili** nel campo **Tipo di fatturazione** aggiorna il tipo di fatturazione per una transazione.
 
 ### <a name="resolve-chargeability"></a>Risolvere l'esigibilità
 
@@ -58,6 +58,3 @@ Una stima o un valore effettivo creato per la spesa sarà considerato addebitabi
 | No | Sì | Non può essere impostato | Non addebitabile | Fatturazione in base all'ora effettiva: non disponibile </br>Tipo di fatturazione su un valore effettivo di spesa: non addebitabile |
 | Sì | No | Addebitabile | Non può essere impostato | Fatturazione in base all'ora effettiva: addebitabile </br>Tipo di fatturazione su un valore effettivo di spesa: non disponibile |
 | Sì | No | Non addebitabile | Non può essere impostato | Fatturazione in base all'ora effettiva: non addebitabile </br> Tipo di fatturazione su un valore effettivo di spesa: non disponibile |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

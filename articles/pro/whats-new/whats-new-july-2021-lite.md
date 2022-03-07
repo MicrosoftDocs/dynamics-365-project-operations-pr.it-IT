@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 8cff4c37e1c2df29041ef86cdcf05afa6093f890565a855024202e87fd533ea5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6992498df5beb97d4e7197e301f093320dc28a23
+ms.sourcegitcommit: 3abf1e67938d91bd826b025ae3187cd313f556b9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009221"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6433658"
 ---
 # <a name="whats-new-july-2021---project-operations-lite-deployment"></a>Novità di luglio 2021 - Distribuzione semplice di Project Operations
 
@@ -20,7 +20,7 @@ _Si applica a: Distribuzione semplice: dalla transazione alla fatturazione profo
 
 Questo argomento si applica ai seguenti componenti e versioni di Dynamics 365 Project Operations:
 
-  - Project Operations in ambiente Dataverse versione 4.12.0.148 o 4.12.0.152.
+  - Project Operations in ambiente Dataverse versione 4.12.0.148.
 
 ## <a name="quality-updates"></a>Aggiornamenti di qualità
 | **Area funzionalità**              | **Numero di riferimento** | **Aggiornamento di qualità**                                                                                                                                                                                             |
@@ -59,4 +59,3 @@ Questo argomento si applica ai seguenti componenti e versioni di Dynamics 365 Pr
 | Generali                       | 2296857              | Monitoraggio dello stato di avanzamento per lavori di lunga durata.                                                                                                                                                                        |
 | Generali                       | 2253682              | La soluzione doppia scrittura di Project Operations non deve essere installata quando il core doppia scrittura è installato in un ambiente senza la soluzione di orchestrazione doppia scrittura.                                                |
 | Generali                       | 2316420              | Il provisioning di base di Project Service non riesce se la business unit dell'utente dell'applicazione viene modificata.                                                                                                                     |
-| GeneralE                       | 2376405              | Risolto problema di aggiornamento guidato dall'editore (l'aggiornamento della qualità è disponibile nella versione 4.12.0.152)                                                                                                                     |

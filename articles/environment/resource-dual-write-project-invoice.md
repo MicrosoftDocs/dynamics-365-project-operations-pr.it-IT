@@ -5,14 +5,15 @@ author: sigitac
 ms.date: 04/26/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 37549080d76e3bffd7cb002aee8e3c46b9eeb18e3cec915cd971881b69747534
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 102a7cdba467a2071119c5b32d2e75e48170c783
+ms.sourcegitcommit: 02f00960198cc78a5e96955a9e4390c2c6393bbf
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993246"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5955775"
 ---
 # <a name="project-invoice-integration"></a>Integrazione di fatture di progetto
 
@@ -20,7 +21,7 @@ Questo argomento fornisce informazioni sull'integrazione a doppia scrittura di P
 
 In Project Operations, il responsabile di progetto gestisce il backlog di fatturazione del progetto e crea una fattura proforma per il cliente in Microsoft Dataverse. In base a questa fattura proforma, l'addetto alla contabilità clienti o il contabile del progetto crea una fattura per il cliente. L'integrazione della doppia scrittura garantisce che i dettagli della fattura proforma siano sincronizzati con le app Finance and Operations. Dopo che la fattura destinata al cliente è stata registrata, il sistema aggiorna i valori effettivi del progetto rilevanti in Dataverse con il dettaglio contabile. Il grafico seguente fornisce una panoramica concettuale di alto livello di questa integrazione.
 
-   ![Integrazione di fatture di progetto.](./media/DW5Invoicing.png)
+   ![Integrazione di fatture di progetto](./media/DW5Invoicing.png)
 
 Dopo che il responsabile di progetto conferma la fattura proforma in Dataverse, le informazioni sull'intestazione della fattura proforma vengono sincronizzate con le app Finance and Operations utilizzando la mappa della tabella a doppia scrittura **Proposta di fattura di progetto V2 (invoices)**. È un'integrazione unidirezionale da Dataverse alle app Finance and Operations. La creazione o l'eliminazione di proposte di fatturazione di progetto direttamente nelle app Finance and Operations non è supportata.
 

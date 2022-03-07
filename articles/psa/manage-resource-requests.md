@@ -2,8 +2,6 @@
 title: Gestire richieste risorse
 description: Come gestire richieste di risorse in Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4fa7db6ab96cd4e93ba973b3c9466fe12ed57c7f
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 518edcb210e33a7922e8920f896479a79d264ab62742641cc66b7c3a33b6c6e8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149863"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985146"
 ---
 # <a name="manage-resource-requests-project-service"></a>Gestire le richieste di risorse (Project Service)
 
@@ -45,9 +43,12 @@ I responsabili di gestione account e di progetto richiedono regolarmente risorse
   
    -   Fai clic su **Filtro** per visualizzare il riquadro **Filtro** che consente di filtrare i risultati per unità organizzativa, ruolo, competenze o altri attributi.  
   
-       ![Schermata Richieste risorsa di Project Service](../psa/media/project-service-resource-request-screen.png "Schermata Richieste risorsa di Project Service")  
+       ![Schermata Richieste risorsa di Project Service.](../psa/media/project-service-resource-request-screen.png "Schermata Richieste risorsa di Project Service")  
   
 3. Nel calendario per la risorsa che desideri prenotare, seleziona il periodo di tempo per prenotare la risorsa e fai clic su **Prenota** per prenotare la risorsa o **Proponi prenotazione** per proporre la prenotazione e fare in modo che venga approvata. Quando prenoti una risorsa, puoi farlo in modo provvisorio o definitivo.  
   
 ### <a name="see-also"></a>Vedi anche  
  [Guida di Resource Manager](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

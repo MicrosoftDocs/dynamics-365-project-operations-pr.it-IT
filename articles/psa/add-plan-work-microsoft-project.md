@@ -2,8 +2,6 @@
 title: Utilizzare il componente aggiuntivo Project Service per lavorare in Microsoft Project | Microsoft Docs
 description: In questo argomento vengono fornite informazioni su come aggiungere, configurare e utilizzare il componente aggiuntivo Microsoft Project per Microsoft Project Service.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 04/06/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9556feac5481e20bde1c9624c0eccc05385eaa94
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: ccebf1439f49092b23da5b4fc2ebb4fc484de4dd17c870eea9fe37b00fbb3689
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145993"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005306"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Utilizzare il componente aggiuntivo Project Service Automation di pianificare il lavoro in Microsoft Project
 
@@ -231,3 +229,6 @@ La tabella seguente illustra come i dati vengono sincronizzati tra Project Servi
 
 ### <a name="see-also"></a>Vedi anche  
  [Guida del responsabile di progetto](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

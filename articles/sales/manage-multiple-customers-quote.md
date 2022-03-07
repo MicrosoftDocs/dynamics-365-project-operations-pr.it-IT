@@ -2,18 +2,16 @@
 title: Gestire più clienti in un'offerta di progetto
 description: Questo argomento fornisce informazioni su come utilizzare offerte che interessano più clienti che finanzieranno il progetto.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 67e927962feb248aa7f07a69463b433e1ec89761
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: eef3e8754cdfdb810ffd5283976445edbb126b51e20d5b51d603d2ba9e2c02c9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181997"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991986"
 ---
 # <a name="manage-multiple-customers-on-a-project-quote"></a>Gestire più clienti in un'offerta di progetto
 
@@ -23,7 +21,7 @@ Le offerte di progetto supportano lo scenario in cui la proposta coinvolge più 
 
 Tutti i clienti dell'offerta nella scheda **Clienti** dell'offerta di progetto vengono impostati in modo predefinito come clienti della riga dell'offerta in qualsiasi **nuova** riga dell'offerta basata sul progetto creata per l'offerta. Eventuali righe dell'offerta basate sul progetto esistenti non erediteranno i nuovi record cliente dell'offerta creati successivamente.
 
-I clienti dell'offerta e quelli della riga dell'offerta possono essere aggiunti, aggiornati o eliminati in qualsiasi momento prima che l'offerta venga acquisita. Un cliente valido nell'offerta deve essere configurato come cliente nella società proprietaria o persona giuridica nella pagina **Clienti**. Le persone giuridiche vengono configurate nel modulo **Gestione progetti e contabilità** di Dynamics 365 Project Operations e sono disponibili come aziende nei moduli **Vendite e consegna del progetto** di Project Operations.
+I clienti dell'offerta e quelli della riga dell'offerta possono essere aggiunti, aggiornati o eliminati in qualsiasi momento prima che l'offerta venga acquisita. Un cliente valido nell'offerta deve essere configurato come cliente nella società proprietaria o persona giuridica nella pagina **Clienti**. Le persone giuridiche sono costituite nel modulo **Contabilità e gestione di progetti** di Dynamics 365 Project Operations e sono disponibili come società nei moduli **Vendite di progetto e consegna** di Project Operations.
 
 ## <a name="concept-of-a-primary-customer"></a>Concetto di cliente primario
 
@@ -51,3 +49,6 @@ Un cliente dell'offerta può essere creato, aggiornato o eliminato dalla scheda 
 Puoi modificare le percentuali di suddivisione della fatturazione utilizzando l'esperienza di modifica della griglia in linea. Quando le percentuali di suddivisione della fatturazione non raggiungono il 100%, si verifica un errore. Dopo aver aggiornato le percentuali di suddivisione della fatturazione, aggiorna la pagina per rimuovere l'errore.
 
 Puoi anche provare a selezionare **Distribuzione uniforme** sulla griglia secondaria dei clienti dell'offerta. Questa azione assegna le suddivisioni della fatturazione a tutti i clienti dell'offerta. Se è presente un fattore di arrotondamento, verrà aggiunto al cliente di arrotondamento. Uno dei clienti dell'offerta viene sempre contrassegnato come cliente di arrotondamento. Ciò significa che il record del cliente dell'offerta ha il contrassegno **Arrotondamento** impostato su **Sì**. In genere questo è il cliente primario dell'offerta, ma può essere modificato.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

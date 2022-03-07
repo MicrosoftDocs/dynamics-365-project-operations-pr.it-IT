@@ -2,6 +2,8 @@
 title: Creare una prenotazione di progetto dalla scheda di pianificazione
 description: In questo argomento vengono fornite informazioni su come creare una prenotazione di progetto dalla scheda di pianificazione.
 author: ruhercul
+manager: kfend
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -16,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d33786a5d0a2485a06d174eb7afcbaaa2f337cf6
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 57fbc71681015fca73cdda4bc7d392f6be4289f3
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5992971"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078893"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>Creare una prenotazione di progetto dalla scheda di pianificazione
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 È possibile prenotare una risorsa in un progetto direttamente dalla scheda **Team** del progetto o generando un requisito di risorsa da un'assegnazione di membro del team generico e quindi soddisfacendo il requisito generato con un membro del team di progetto.
 
@@ -89,6 +89,3 @@ Completare i passaggi seguenti per prenotare da un nuovo requisito di risorsa.
 
 4. Ora che la risorsa è prenotata, è necessario assegnare manualmente le attività.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

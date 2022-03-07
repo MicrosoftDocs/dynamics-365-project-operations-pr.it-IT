@@ -2,8 +2,6 @@
 title: Calendario di inserimenti ore
 description: In questo argomento vengono fornite informazioni su come utilizzare il calendario di inserimenti ore.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 94e580955b83b9f2eaf6c0487cc9fe8a30f51ce0
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 3efa30f017643cbcf7baa72f8ab964091c9e4f28
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150178"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013086"
 ---
 # <a name="time-entry-calendar"></a>Calendario di inserimenti ore
 
@@ -42,3 +40,6 @@ Il calendario non supporta azioni per singoli elementi del calendario e non è p
 ## <a name="extensibility"></a>Estendibilità 
 
 Nella pagina **Inserimenti ore** che include la griglia di inserimento ore, puoi aggiungere campi personalizzati, configurare campi di tipo lookup e creare viste personalizzate. Puoi anche impostare logica di business personalizzata basata sui valori selezionati o immessi nei campi personalizzati.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

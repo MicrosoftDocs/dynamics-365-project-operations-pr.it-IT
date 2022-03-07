@@ -1,8 +1,6 @@
 ---
 title: Accettare o rifiutare una risorsa di progetto proposta
 description: In questo argomento vengono fornite informazioni su come approvare o rifiutare una risorsa di progetto proposta.
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/07/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7ae129284d0d053b78c39907a78a0cfda60ea43c
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 7cc49a846c98c0359ce4cd681c42ff57e16dc9bd
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146173"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6011601"
 ---
 # <a name="accept-or-reject-a-proposed-project-resource"></a>Accettare o rifiutare una risorsa di progetto proposta
 
@@ -45,3 +43,6 @@ Per rifiutare la proposta, fai clic su **Rifiuta risorsa**.
 ![Accettare una proposta di risorsa](media/RM-how-to-20.png) 
 
 Analogamente a quando si soddisfa direttamente una richiesta di risorse generiche con una risorsa denominata, la risorsa generica viene sostituita e le attività assegnate vengono aggiornate con il membro del team denominato.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

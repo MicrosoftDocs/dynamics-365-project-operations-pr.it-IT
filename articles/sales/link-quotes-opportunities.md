@@ -2,18 +2,16 @@
 title: Creare offerte di progetto dalle opportunità
 description: In questo argomento vengono fornite informazioni sulla creazione di un offerta di progetto da un'opportunità.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4d2cc35e3205332d2941bf17fb8c7d8c9d9f310c
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d678fce7a6b52522500a77daecc46353ff17fbf2
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118118"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009801"
 ---
 # <a name="create-project-quotes-from-opportunities"></a>Creare offerte di progetto dalle opportunità
 
@@ -56,3 +54,6 @@ Un'offerta esistente può essere collegata a un'opportunità. Completa i seguent
    Quando si sposta un'opportunità in questa fase, è possibile selezionare questa offerta da un elenco di offerte associate a questa opportunità. La selezione di questa offerta indica che stai andando avanti con essa.
 
    Tutte le altre offerte associate all'Opportunità saranno comunque disponibili e attive fino a quando una di esse non sarà acquisita. Puoi riportare il processo di vendita alla fase precedente **Qualifica** e scegliere un'altra offerta con cui andare avanti.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

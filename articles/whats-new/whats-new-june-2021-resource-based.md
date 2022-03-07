@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c6a40335df89cc6b2bb35e54832140aac6eb9ac6
-ms.sourcegitcommit: 03414a74ddf1f2d63043d734ebdee7485f1aadd2
+ms.openlocfilehash: 483992768f8b8a02dd0d56b9479c7d591fa676d1eca41161e68b7cf3f97107af
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7679214"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003866"
 ---
 # <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novità di giugno 2021 - Project Operations per scenari di risorse/materiali non stoccati
 
@@ -30,7 +30,6 @@ In questa release sono incluse le seguenti funzionalità:
 - Possibilità di eliminare le [righe proposta fattura di progetto per scenari di rettifica](../invoicing/correct-project-invoice-proposals.md).
 - Le righe di spesa dettagliate riflettono i nomi delle sottocategorie nella nota spese [Note spese reinventate: nuove funzionalità](../expense/expense-reports-reimagined.md#new-features).
 - Il metodo di pagamento è disponibile nel nuovo riquadro delle spese quando si crea una nuova spesa.
-- Disponibilità generale delle API di pianificazione del progetto. Questa nuova funzionalità consente ai clienti di eseguire in modo programmatico operazioni di creazione, aggiornamento ed eliminazione su attività di progetto, assegnazioni di risorse, dipendenze di attività e record di membri del team di progetto. Per ulteriori informazioni, vedi [Utilizzare le API di pianificazione del progetto per eseguire operazioni con entità di pianificazione](../project-management/schedule-api-preview.md).
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Aggiornamenti delle mappe a doppia scrittura di Project Operations
 

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 98df0301eaa8e9f8e9cd51fc5714254ae3bbc83d
-ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
+ms.openlocfilehash: b63346f56db8b906e5aa45940465bdb18e3df480
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4531465"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279008"
 ---
 # <a name="manage-revenue-estimates"></a>Gestire le stime dei ricavi
 
@@ -90,3 +90,6 @@ La stima cambia lo stato in **Eliminato**.
 Utilizzare questa pagina per annullare tutte le eliminazioni con una data di stima specificata e con uno stato di stima **Eliminato**. Lo stato della transazione cambia dopo aver selezionato i campi appropriati.
 
 Questo cambia automaticamente anche lo stato del progetto in **In corso** se la fase del progetto è finita. Lo stato della stima del periodo del progetto torna a **Inserito**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

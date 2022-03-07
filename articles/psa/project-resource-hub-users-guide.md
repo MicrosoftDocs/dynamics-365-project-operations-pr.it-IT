@@ -2,8 +2,6 @@
 title: Manuale dell'utente dell'Hub risorse di progetto
 description: Guida per l'utente finale dell'Hub risorse di progetto per Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2450c00bae9eeb31d3b4bb14e6255e0681997672
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: ac815eb82114c00af712a7ae76e43f28841ac5023be81f97718dc7ce529e1d34
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948152"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987261"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Manuale dell'utente dell'Hub risorse di progetto
 
@@ -54,28 +52,28 @@ Prima di poter iniziare a utilizzare l'app Hub di risorse per Project, devi inst
 1.  Quando accedi all'app per dispositivi mobili, vedrai la pagina MyApps con un elenco delle app cui hai accesso. 
 2.  Seleziona **Hub di risorse per Project**.
 
-![Scegli un'app](media/chooseApp_1.png "Scegli un'app")
+![Scegli un'app.](media/chooseApp_1.png "Scegli un'app")
 
 **La barra di spostamento**
 
-Utilizza la barra di spostamento per passare alla tua area di lavoro, creare un nuovo record, effettuare una ricerca o eseguire altre attività. Per accedere ad atri comandi, tocca il ![Pulsante Altro](media/MoreButton.png "Pulsante Altro")
+Utilizza la barra di spostamento per passare alla tua area di lavoro, creare un nuovo record, effettuare una ricerca o eseguire altre attività. Per accedere ad atri comandi, tocca il ![Pulsante Altro.](media/MoreButton.png "Pulsante Altro")
 
-![Barra di spostamento](media/NavBar_2.png "Barra di spostamento")
+![Barra di spostamento.](media/NavBar_2.png "Barra di spostamento")
 
 **Preferiti e record utilizzati di recente**
 
 Le sezioni dei preferiti e dei record utilizzati di recente forniscono l'accesso rapido a record, visualizzazioni e dashboard. 
 
-- Per accedere alle sezioni, tocca il pulsante **Menu** ![Pulsante Menu](media/MenuButton.png "Pulsante Menu") sulla barra di spostamento e quindi tocca il pulsante **Preferiti e recenti** ![Pulsante Preferiti](media/FavButton.png "Pulsante Preferiti e recenti").
+- Per accedere a queste sezioni, tocca il pulsante **Menu** ![Pulsante Menu.](media/MenuButton.png "Pulsante Menu") sulla barra di navigazione, quindi tocca il pulsante **Preferiti e recenti** ![Pulsante Preferiti](media/FavButton.png "Pulsante Preferiti e recenti").
 
 - Per aggiungere un elemento come preferito, nell'elenco degli elementi **utilizzati di recente** tocca il segnaposto. L'elemento verrà aggiunto e spostato nei Preferiti.
 
-  ![Elementi preferiti e recenti](media/Favs_3.png "Elementi preferiti e recenti")
+  ![Elementi preferiti e recenti.](media/Favs_3.png "Elementi preferiti e recenti")
  
 ## <a name="enter-time"></a>Immettere il tempo
 Inserisci le ore almeno ogni settimana (oppure alla frequenza richiesta dai responsabili) per verificare che ai clienti venga emessa fattura e ti venga accreditato correttamente.
 
-1. Tocca il pulsante menu ![Pulsante Menu](media/MenuButton.png "Pulsante Menu"), quindi **Inserimenti ore**. Verrà così visualizzato il calendario.
+1. Tocca il pulsante Menu ![Pulsante Menu.](media/MenuButton.png "Pulsante Menu") quindi tocca **Inserimenti ore**. Verrà così visualizzato il calendario.
 
 2. Per visualizzare il calendario per la settimana precedente o successiva, tocca il pulsante **Precedente** o **Successivo**. Tocca **Oggi** per ritornare alla settimana corrente.
 

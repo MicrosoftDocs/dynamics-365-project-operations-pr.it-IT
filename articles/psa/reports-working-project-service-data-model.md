@@ -2,8 +2,6 @@
 title: Utilizzo del modello di dati di Project Service Automation
 description: In questo argomento vengono fornite informazioni su come utilizzare il modello di dati.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d8c212ef2c9fd9dcd6be0b8f0a31aa5a948176bc
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 37c7b15daa75cc3ba53ff6a3bcc0ab54717aa62d
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147658"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008811"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Utilizzo del modello di dati di Project Service Automation
 
@@ -123,3 +121,6 @@ Quando utilizzi l'entità **Valore effettivo**, è importante comprendere quali 
 L'entità **Origine transazione** registra l'origine del record **Valore effettivo** e l'entità entità **Connessione della transazione** registra i record correlati per il record **Valore effettivo**. Inoltre, il record **Valore effettivo** contiene riferimenti al progetto, il contratto di progetto (ordine), la risorsa prenotabile e il cliente.
 
 ![Diagramma che mostra la connessione della transazione, l'origine e le relazioni effettive](media/PS-Reporting-image6.png "Diagramma che mostra la connessione della transazione, l'origine e le relazioni effettive")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

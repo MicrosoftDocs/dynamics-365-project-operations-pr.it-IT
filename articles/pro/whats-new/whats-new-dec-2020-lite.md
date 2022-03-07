@@ -2,17 +2,19 @@
 title: 'Novità di dicembre 2020 - Distribuzione semplice di Project Operations: dalla transazione alla fatturazione proforma'
 description: 'Questo argomento fornisce informazioni sugli aggiornamenti di qualità disponibili nella versione di dicembre 2020 di Distribuzione semplice di Project Operations: dalla transazione alla fatturazione proforma.'
 author: sigitac
+manager: Annbe
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 8b813d0fc99b8bce9000c983f51f919adbe1aaac
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: bfa13ab74031eb52c128fed16a31e3a8167e8bde
+ms.sourcegitcommit: ec8ab099a03725de9f61edfdeb90fbefae54cd4e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5994051"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "4707678"
 ---
 # <a name="whats-new-december-2020---project-operations-lite-deployment---deal-to-proforma-invoicing"></a>Novità di dicembre 2020 - Distribuzione semplice di Project Operations: dalla transazione alla fatturazione proforma
 
@@ -55,6 +57,3 @@ La tabella seguente elenca gli aggiornamenti di Project Operations in ambiente D
 | Tempistica e spesa | 2034882 | Il pulsante **Nuovo** viene visualizzato due volte sulla barra dei comandi per le voci di tempo quando Dynamics 365 Field Service è installato. |
 | Tempistica e spesa | 2056028 | Aggiornare la pagina **Modifica ora** per includere la sequenza temporale. |
 | Tempistica e spesa | 1983747 | Il grafico di inserimenti ore mostra dati aggiuntivi. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

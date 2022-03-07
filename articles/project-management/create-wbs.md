@@ -2,18 +2,16 @@
 title: Creare una struttura di suddivisione del lavoro
 description: Questo argomento spiega come creare una struttura di suddivisione del lavoro comprensiva dei controlli di base nella nuova interfaccia di pianificazione.
 author: ruhercul
-manager: tfehr
-ms.date: 01/07/2021
+ms.date: 12/16/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d7fa645e78d2206e333d9f85fcec0f7a9c213c23
-ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
+ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
+ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4841358"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7928620"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Creare una struttura di suddivisione del lavoro
 
@@ -93,9 +91,11 @@ La tabella seguente mostra gli attributi di pianificazione aggiuntivi.
 | Nome | Nome dell'attività. |
 | ID | L'ID dell'attività nella struttura di suddivisione del lavoro. |
 
+In qualità di amministratore, puoi definire campi personalizzati nell'entità dell'attività. Tuttavia, i campi non possono essere visualizzati nella griglia di pianificazione. Per vedere i tuoi campi personalizzati, aggiungili alla pagina dei dettagli **Attività di progetto**.
+
 ## <a name="staffing-attributes"></a>Attributi di assegnazione del personale
 
-Agli attributi di assegnazione del personale si accede tramite il campo **Risorse** nella pianificazione. Puoi cercare una risorsa esistente oppure selezionare **Crea** e nel riquadro **Creazione rapida** aggiungere un membro del team di progetto come nuova risorsa.
+Agli attributi di assegnazione del personale si accede tramite il campo **Risorse** nella pianificazione. Puoi cercare una risorsa esistente oppure selezionare **Crea** e nel riquadro **Creazione rapida** aggiungere un membro del team di progetto come nuova risorsa.  Quando si cerca una risorsa utilizzando il selettore di risorse nella griglia delle attività, nella visualizzazione bacheca o nel gantt, la ricerca restituisce i membri del team di progetto esistenti o le risorse prenotabili attive.
 
 I campi **Ruolo**, **Unità gestione risorse** e **Nome posizione** sono utilizzati per descrivere i requisiti di assegnazione del personale per l'attività. Questi attributi, insieme alla pianificazione dell'attività, sono utilizzati per trovare le risorse disponibili per eseguire l'attività.
 
@@ -116,3 +116,28 @@ La modalità di attività non influisce sugli aggiornamenti delle date di inizio
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Tasti di scelta rapida e accessibilità
 
 La griglia **Pianificazione** è completamente accessibile e può essere utilizzata con utilità per la lettura dello schermo, ad esempio Narrator, JAWS o NVDA. Puoi spostarti nell'area della griglia utilizzando i tasti di direzione (come in Microsoft Excel), utilizzare il tasto TAB per avanzare negli elementi dell'interfaccia utente interattiva e il tasto FRECCIA GIÙ, il tasto INVIO o la BARRA SPAZIATRICE per selezionare e aprire i menu a discesa.
+
+## <a name="project-limitations"></a>Limitazioni di progetto 
+È necessario essere consapevoli delle seguenti limitazioni se si utilizza la struttura di suddivisione del lavoro in Project Operations. Questi limiti si applicano a progetti e attività. Per ulteriori informazioni, vedi [Limiti di Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+
+| **Campo**                                          |  **Limit**           |
+|----------------------------------------------------|----------------------|
+| Numero massimo di attività totali per un progetto                  | 500                  |
+| Durata massima totale per un progetto               | 3650 giorni (10 anni) |
+| Numero massimo di risorse totali per un progetto              | 150                  |
+| Numero massimo di collegamenti totali (solo attività successiva) per un progetto | 600                  |
+| Numero massimo di campi personalizzati totali per un progetto          | 10                   |
+| Numero massimo di voci dell'elenco di controllo per attività                   | 20                   |
+
+**Limiti di attività**
+
+| **Campo**                               |   **Limit**           |
+|-----------------------------------------|-----------------------|
+| Numero massimo di livelli di gerarchia                 | 10 livelli             |
+| Numero massimo di collegamenti (attività successiva + attività precedente) | 20                    |
+| Durata massima dell'attività del nodo foglia           | 1250 giorni             |
+| Durata massima di un'attività di riepilogo      | 3650 giorni (10 anni)  |
+| Numero massimo di risorse assegnate a un'attività    | 20 risorse          |
+| Intervallo di date supportato per un'attività         | 1/1/2000 - 31/12/2149 |
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

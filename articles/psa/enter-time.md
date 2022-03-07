@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 222488f9ec52e07f1fb17d8dba3c3b0e5342b58d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 68424bba30b2be22bb2ec715d70c361585eef6fd
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149323"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5284543"
 ---
 # <a name="enter-time-project-service"></a>Inserire le ore (Project Service)
 
@@ -61,3 +61,6 @@ Inserisci le ore almeno ogni settimana (oppure alla frequenza richiesta dai resp
   
 ### <a name="see-also"></a>Vedi anche  
  [Guida per tempo, spese e collaborazione](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e26e5193353d7bbb594f9f31d95c18130d614517
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 0544fbd9ebf4b36256849ba246572e8101a33748
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150853"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5285263"
 ---
 # <a name="create-a-project-contract-project-service"></a>Creare un contratto di progetto (Project Service)
 
@@ -47,3 +47,6 @@ Dopo aver acquisito l'offerta per il progetto, è ora di creare un contratto con
   
 ### <a name="see-also"></a>Vedi anche  
  [Guida per la gestione dell'account](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Impostazioni di progetto
 description: In questo argomento vengono fornite informazioni sulle impostazioni per la gestione di progetti.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ca5fc63d56ddd84871949e38f421bcdfe38d478e
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 5f6fec091c50f35589e333fce4b3a296dd736d10dd2f56b6c11209a55b493836
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148153"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996936"
 ---
 # <a name="project-settings"></a>Impostazioni di progetto
 
@@ -49,7 +47,7 @@ Per creare una pianificazione di progetto, creai un modello di calendario di pro
   - Pianificazione lavorativa per un giorno
   - Indisponibilità
 
-> ![Opzioni di Configura](media/project-13.png)
+> ![Opzioni di Configura.](media/project-13.png)
 
 4. Seleziona **Nuova pianificazione settimanale** e quindi imposta le opzioni per questa pianificazione delle risorse. Puoi impostare una pianificazione settimanale ricorrente, parametri orari giornalieri, chiusure aziendali e altro ancora.
 5. Imposta l'intervallo di date, seleziona **Salva** e quindi fai clic su **Chiudi**. 
@@ -68,3 +66,6 @@ Ogni organizzazione deve impostare questi ruoli nella pagina **Categorie di riso
 ## <a name="price-lists"></a>Listini prezzi
 
 I listini prezzi consentono di impostare i prezzi di costo e di vendita per ruoli risorsa, categorie di spese, prodotti e altri elementi in un'organizzazione. Prima di impostare le stime finanziarie per il lavoro da eseguire per un progetto, devi creare un listino prezzi di costo e vendita di backup. Nella sezione dei parametri, devi impostare anche un listino prezzi di costo e vendita predefinito applicabile a tutti i progetti creati nell'organizzazione. Nella pagina **Parametri progetto attivi**, verifica di aver impostato un listino prezzi di costo e vendita predefinito.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

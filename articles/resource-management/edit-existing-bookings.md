@@ -2,18 +2,16 @@
 title: Modifica prenotazioni
 description: Questo argomento fornisce informazioni su come aggiornare e apportare modifiche alle prenotazioni.
 author: ruhercul
-manager: Annbe
 ms.date: 11/12/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3980df0608c387d47ad68bbf2e816d408f1c2cf0
-ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
+ms.openlocfilehash: 89e6b6ea258dff4ae2e592c58d6e0a61bf7d8e35
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4841357"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002391"
 ---
 # <a name="edit-bookings"></a>Modificare le prenotazioni
 
@@ -33,3 +31,6 @@ Dalla griglia **Membro del team**, un responsabile di progetto può evidenziare 
 ## <a name="schedule-board"></a>Scheda di pianificazione
 
 Dalla **Scheda di pianificazione**, il Resource Manager ha una visualizzazione del portfolio di tutte le prenotazioni di un'organizzazione. Da questa visualizzazione, il Resource manager può estendere, accorciare o spostare le prenotazioni esistenti in modo simile alle funzionalità offerte in **Gestisci prenotazioni**. Il Resource manager può anche sostituire le risorse esistenti assegnate a una prenotazione specifica facendo clic con il pulsante destro del mouse sulla prenotazione e selezionando **Sostituisci risorsa**. I Resource manager possono anche modificare i profili delle prenotazioni esistenti facendo clic con il pulsante destro del mouse sulla prenotazione e selezionando **Modifica**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

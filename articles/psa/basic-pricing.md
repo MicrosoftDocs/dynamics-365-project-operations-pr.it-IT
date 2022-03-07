@@ -2,8 +2,6 @@
 title: Determinazione dei prezzi di progetto
 description: In questo argomento vengono fornite informazioni sulla funzionalità di determinazione dei prezzi in Dynamics 365 Project Service Automation.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/11/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 176b84671ca0b5b998c44be4f306d1f8f5200c72
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: dfbfb59547f295e5fb275264b9222bfa20517f6278144ca013e14a99454b6840
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148918"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000581"
 ---
 # <a name="project-pricing"></a>Determinazione dei prezzi di progetto 
 
@@ -48,7 +46,7 @@ L'entità Listino prezzi include tre tabelle correlate che archiviano i prezzi:
   - **Prezzo categoria di transazione** - Questa tabella archivia i prezzi per categoria di transazione ed è utilizzata per configurare i prezzi delle categorie di spese.
   - **Voci di listino** - Questa tabella archivia i prezzi dei prodotti in catalogo.
 
-> ![Configurare prezzi utilizzando un listino prezzi](media/basic-guide-12.png)
+> ![Configurare prezzi utilizzando un listino prezzi.](media/basic-guide-12.png)
  
 Il listino prezzi è un tariffario pubblicitario. Un tariffario pubblicitario è una combinazione dell'entità Listino prezzi e delle righe correlate nelle tabelle Prezzo ruolo, Prezzo categoria di transazione e Voci di listino.
 
@@ -60,7 +58,7 @@ Il tempo delle risorse umane viene in genere stimato in base al ruolo di una ris
 
 L'unità di vendita **Tempo** viene creata all'installazione di PSA. L'unità predefinita è **Ora**. Non puoi eliminare, rinominare, o modificare gli attributi dell'unità di vendita **Tempo** o dell'unità **Ora**. Puoi tuttavia aggiungere altre unità all''unità di vendita **Tempo**. Se cerchi di eliminare l'unità di vendita **Tempo** o l'unità **Ora**, è possibile che si verifichino errori nelle logica di business di PSA.
 
-> ![Configurare prezzi per ruolo](media/basic-guide-13.png)
+> ![Configurare prezzi per ruolo.](media/basic-guide-13.png)
  
 ## <a name="transaction-categories-and-expense-categories"></a>Categorie di transazioni e di spese
 
@@ -70,7 +68,7 @@ Le spese di viaggio e altre spese dei consulenti per un progetto sono in genere 
 - **Percentuale ricarico** - La percentuale sul costo effettivo viene fatturata al cliente. 
 - **Prezzo unitario** - Un prezzo di fatturazione viene impostato per ogni unità della categoria di spese. L'importo fatturato al cliente viene calcolato in base al numero di unità di spesa segnalato dal consulente. Per Indennità trasferta viene utilizzato il metodo di determinazione dei prezzi Prezzo unitario. Ad esempio, la categoria di spesa Indennità trasferta può essere configurata per 30 dollari USA (USD) al giorno o 2 USD per miglio. Quando un consulente segnala il chilometraggio per un progetto, l'importo da fatturare viene calcolato in base al numero di miglia indicato dal consulente.
 
-> ![Configurare la determinazione dei prezzi per le categorie di spesa](media/basic-guide-14.png)
+> ![Configurare la determinazione dei prezzi per le categorie di spesa.](media/basic-guide-14.png)
  
 ## <a name="project-sales-pricing-and-overrides"></a>Determinazione dei prezzi di vendita di progetto e sostituzioni
 
@@ -116,7 +114,7 @@ Tuttavia, in un'offerta, puoi utilizzare un listino prezzi master. In alternativ
 
 Quando crei un listino prezzi di progetto personalizzato, solo i componenti di progetto del listino prezzi vengono copiati. In altre parole un nuovo listino prezzi creato come copia del listino prezzi di progetto esistente viene associato all'offerta e questo nuovo listino prezzi include solo i prezzi per ruolo e i prezzi per categoria di transazione correlati.
 
-> ![Visualizzare e configurare la determinazione dei prezzi personalizzata per un contratto di progetto](media/basic-guide-15.png)
+> ![Visualizzare e configurare la determinazione dei prezzi personalizzata per un contratto di progetto.](media/basic-guide-15.png)
   
 ## <a name="tracking-costs"></a>Tenere traccia dei costi
 
@@ -131,3 +129,6 @@ Come i tassi di fatturazione, anche i tassi di costo per le risorse umane sono c
     1. Il listino prezzi di costo associato all'unità organizzativa.
     2. Il listino prezzi di costo associato ai parametri di Project Service. Poiché i listini prezzi di costo in molte differenti valute possono essere associati ai parametri di Project Service, PSA crea una corrispondenza di valuta tra la valuta dell'unità organizzativa di contratto del progetto, del contratto o dell'offerta e la valuta del listino prezzi di costo.
     3. Per le spese, i metodi di determinazione dei prezzi Al costo e Ricarico sul costo non sono applicabili ai listini prezzi di costo. Anche se questi metodi di determinazione dei prezzi vengono utilizzati nelle righe dei listini prezzi di costo per configurare i costi delle categorie di transazioni, il sistema li ignora e non viene immesso alcun prezzo di costo predefinito.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

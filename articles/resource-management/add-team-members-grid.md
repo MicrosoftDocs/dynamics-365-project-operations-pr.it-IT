@@ -2,24 +2,22 @@
 title: Aggiungere membri del team dalla griglia dei membri del team
 description: In questo argomento vengono fornite informazioni su come gestire le risorse membri del team.
 author: ruhercul
-manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: de73dac28046ec98ed201e129be6511f894223fd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c4ff7792a9a99cbbe791a10dbc5157ffd51de285c02f23471532a09e7a55b031
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121538"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008411"
 ---
 # <a name="add-team-members-from-the-team-member-grid"></a>Aggiungere membri del team dalla griglia dei membri del team
 
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
-Dynamics 365 Project Operations include una dashboard Resource Manager che fornisce una panoramica visiva della domanda e dell'utilizzo delle risorse nell'organizzazione. Puoi utilizzare i grafici di questo dashboard per visualizzare le informazioni seguenti:
+Dynamics 365 Project Operations include un dashboard per i responsabili delle risorse che fornisce una panoramica visiva della domanda e dell'utilizzo delle risorse nell'organizzazione. Puoi utilizzare i grafici di questo dashboard per visualizzare le informazioni seguenti:
 
 - **Richiesta di risorse**: il grafico **Richieste risorse attive** visualizza le risorse che sono state inviate. Le risorse sono aggregate per ruolo o progetto.
 - **Richiesta di risorse non inviata**: il grafico **Richiesta di risorse non inviata** visualizza tutti i requisiti di risorsa che non sono stati inviati. Questo grafico Consente ai responsabili delle risorse di visualizzare la richiesta che non è definitiva e che può essere inviata tramite una richiesta di risorse.
@@ -200,3 +198,6 @@ Quando visualizzi il tempo a livelli superiori, le celle nella scheda **Riconcil
 Se sono presenti assegnazioni di attività per una risorsa ma nessuna prenotazione, nel modulo **Progetti**, nella scheda **Riconciliazione**, seleziona la prenotazione insufficiente e quindi seleziona **Estendi prenotazione**. Viene visualizzata la finestra di dialogo **Estendi prenotazione** che mostra la prenotazione necessaria per compensare la mancanza della risorsa. La finestra di dialogo mostra inoltre le prenotazioni esistenti della risorsa in tutti i progetti o altre entità pianificabili. Se selezioni **OK** per creare la prenotazione della risorsa, indipendentemente dalla disponibilità di quella risorsa, è possibile che si abbia una sovraprenotazione.
 
 Il responsabile di progetto o il responsabile delle risorse può quindi utilizzare la scheda di pianificazione per gestire situazioni in cui una risorsa è sovraprenotata aldilà della sua capacità.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

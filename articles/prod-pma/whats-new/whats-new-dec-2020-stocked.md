@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 5aac6b77b0d07a090a071b075711e3dd915e6be4
-ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
+ms.openlocfilehash: 8d1755b308a415deff1fd1a35122197476673988
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "4727978"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288143"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>Novità o modifiche di Project Operations dicembre 2020 per scenari di materiali stoccati basati sulla produzione
 
@@ -142,3 +142,6 @@ Questo argomento si applica ai seguenti componenti e versioni di Dynamics 365 Pr
 ## <a name="regulatory-updates"></a>Aggiornamenti normativi
 
 Per informazioni sugli aggiornamenti normativi per Dynamics 365 Finance, vedi [Aggiornamenti normativi](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Un altro modo per conoscere gli aggiornamenti normativi è accedere a Lifecycle Services (LCS) e visualizzare gli aggiornamenti normativi pianificati utilizzando lo strumento di ricerca dei problemi. La ricerca dei problemi ti consente di cercare per paese, tipo di funzionalità e versione.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

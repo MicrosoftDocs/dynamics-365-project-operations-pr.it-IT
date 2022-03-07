@@ -2,18 +2,16 @@
 title: Fatturazione di un anticipo o di un acconto
 description: Questo argomento fornisce informazioni su come fatturare un acconto o un anticipo in Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
-ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
+ms.openlocfilehash: 25c0c979056d89d44a1bd67dbfdcb180d897de65eaf3374cec0a2dc73c4e3568
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "4596197"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997476"
 ---
 # <a name="invoice-a-retainer-or-an-advance"></a>Fatturare un pagamento anticipato o in acconto
 
@@ -51,3 +49,6 @@ Questo può essere visto nella griglia **Acconti e anticipi applicati** della pa
 | Importo utilizzato | Griglia **Acconti e anticipi applicati** della pagina **Fattura progetto**  | Questo campo di sola lettura fornisce il valore calcolato che riepiloga l'importo di acconto o anticipo utilizzata. | Questo campo può essere visualizzato al cliente sulla fattura stampata per indicare l'importo dell'acconto o dell'anticipo che è stato già utilizzato. |
 | Importo totale | Griglia **Acconti e anticipi applicati** della pagina **Fattura progetto**  | Questo campo modificabile fornisce l'importo dell'acconto o dell'anticipo utilizzato in questa fattura di progetto. Questo importo non può essere superiore a quanto disponibile per l'anticipo. Il sistema calcola automaticamente questo valore come differenza tra i campi **Importo** e **Importo utilizzato** della griglia. Puoi diminuire questo importo per utilizzare meno di quanto disponibile, ma non puoi aumentare l'importo per utilizzare più di quanto disponibile. | Questo campo può essere visualizzato al cliente sulla fattura stampata per indicare l'importo dell'acconto o dell'anticipo che viene utilizzato nella fattura. |
 | Importo dell'acconto sul saldo. | Griglia **Acconti e anticipi applicati** della pagina **Fattura progetto**  | Questo campo di sola lettura fornisce il valore dell'importo di acconto o anticipo rimanente dopo la conferma della fattura. | Questo campo può essere visualizzato al cliente sulla fattura stampata per indicare l'importo residuo dell'acconto o dell'anticipo dopo che la fattura viene confermata e pagata. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

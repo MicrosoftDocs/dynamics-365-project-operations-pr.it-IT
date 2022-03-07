@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6e9ef33cc9c79f828e85733f4f5a199bce842700
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: eb09140eae5383b882db73195d0360a836ece791
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272663"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177876"
 ---
 # <a name="product-based-contract-lines-overview---lite"></a>Panoramica delle voci di contratto basate su prodotto - semplice
 
 _**Si applica a:** Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
-Puoi creare righe di contratto basate su prodotto in Dynamics 365 Project Operations. Le voci di contratto basate su prodotto possono essere righe create manualmente oppure articoli del catalogo prodotti.
+Puoi creare voci di contratto basate su prodotto in Dynamics 365 Project Operations. Le voci di contratto basate su prodotto possono essere righe create manualmente oppure articoli del catalogo prodotti.
 
 ## <a name="product-catalog"></a>Catalogo prodotti
 
@@ -46,6 +46,3 @@ Se una voce di contratto è basata su un catalogo prodotti, puoi sostituire il p
 Se imposti il campo **Prezzi** su **Sostituisci prezzo**, il prezzo predefinito non è impostato. Immetti un prezzo per il prodotto nella voce di contratto. Se imposti il campo su **Usa predefinito**, viene utilizzato il prezzo di vendita predefinito e il campo non può essere modificato.
 
 Dopo l'installazione di Project Operations, i prezzi di vendita predefiniti vengono immessi nelle righe basate su prodotto di un contratto. Il campo **Prezzi** viene quindi impostato su **Sostituisci prezzo** di modo che sia possibile modificare il prezzo predefinito nelle voci di contratto. Si tratta di una sostituzione specifica di Project Operations al comportamento delle righe basate su prodotto in Dynamics 365 Sales.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

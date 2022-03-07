@@ -2,11 +2,9 @@
 title: Prestazioni delle proposte di fatturazione progetto
 description: Questo argomento fornisce informazioni sui miglioramenti delle prestazioni delle proposte di fatturazione progetto.
 author: Yowelle
-manager: AnnBe
-ms.date: 04/20/2021
+ms.date: 06/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 20121-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 1641d5f731029fdbdc16c4b652cc752a583058c6
-ms.sourcegitcommit: 68d52fc983861114e654ffc8d2472b4db9b48981
+ms.openlocfilehash: 8b6df8baf1013720778308ce536b037dec4775f040d2925a47508fb373900f81
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5920307"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005711"
 ---
 # <a name="project-invoice-proposal-performance"></a>Prestazioni delle proposte di fatturazione progetto
 
@@ -46,4 +44,6 @@ Per disabilitare la funzionalità di miglioramento delle prestazioni delle propo
 3.  Aggiorna il browser.
 
 > [!NOTE]
-> Le prestazioni delle proposte di fatturazione non possono essere applicate quando le regole di fatturazione sono abilitate o sono in esecuzione processi batch.
+> Le prestazioni della proposta di fattura non possono essere applicate quando le regole di fatturazione sono abilitate.
+> 
+> Durante il processo batch per creare proposte di fattura, il numero di sottoattività suddivide le attività in un numero massimo basato sul numero di contratti con transazioni fatturabili, indipendentemente da ciò che hai inserito. Ad esempio, se inserisci **3** per il numero di attività secondarie per la creazione di proposte di fattura in batch e sono presenti solo due contratti con transazioni fatturabili, vengono create solo due attività secondarie.

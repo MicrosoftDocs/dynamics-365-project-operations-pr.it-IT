@@ -2,9 +2,7 @@
 title: Abilitare le funzionalità dell'app Project Finder Mobile
 description: Come abilitare le funzionalità dell'app Project Finder Mobile per Project Service
 author: JohnPBurrows
-manager: kfend
 ms.prod: ''
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -19,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1b70182125d607aa17528ef3dc4ea2345b76acd1
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 8651ba591853faf648587dcbd4c50625ba94360958d7b418e89aa0bf09464a89
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144553"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004901"
 ---
 # <a name="enable-project-finder-mobile-app-features-project-service"></a>Abilitare le funzionalità dell'app Project Finder Mobile (Project Service)
 
@@ -49,11 +47,11 @@ Le risorse possono utilizzare l'app Project Finder Mobile nei telefoni con [!INC
   
 4. Imposta **Consenti aggiornamento competenze da risorsa** su **Sì**.  
   
-   ![ProjectService_ProjectFinderEnable](../psa/media/project-service-project-finder-enable.png "ProjectService_ProjectFinderEnable")  
+   ![ProjectService_ProjectFinderEnable.](../psa/media/project-service-project-finder-enable.png "ProjectService_ProjectFinderEnable")  
   
    Tale impostazione è globale. I responsabili di progetto possono impostare se un progetto singolo sarà disponibile nella pagina **Team di progetto** del progetto.  
   
-   ![ProjectService_ProjectTeamVisible](../psa/media/project-service-project-team-visible.png "ProjectService_ProjectTeamVisible")  
+   ![ProjectService_ProjectTeamVisible.](../psa/media/project-service-project-team-visible.png "ProjectService_ProjectTeamVisible")  
   
 ## <a name="email-notifications"></a>Notifiche tramite posta elettronica  
  [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] invia i messaggi di posta elettronica relativi alle richieste di risorse ai destinatari seguenti nei momenti indicati:  
@@ -68,3 +66,6 @@ Le risorse possono utilizzare l'app Project Finder Mobile nei telefoni con [!INC
   
 ### <a name="see-also"></a>Vedi anche  
  [Configurare le risorse](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

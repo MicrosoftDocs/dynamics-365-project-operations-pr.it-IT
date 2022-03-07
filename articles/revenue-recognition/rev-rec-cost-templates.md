@@ -2,18 +2,16 @@
 title: Configurare i modelli di costo
 description: Questo argomento fornisce informazioni su come creare e utilizzare i modelli di costo in Project Operations.
 author: sigitac
-manager: tfehr
 ms.date: 11/18/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 786b2b9b140f82d406044c2ed05761d7f46ee9e0
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: f4a515db31a31028af4a60927ab360be6c261a3f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642728"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013896"
 ---
 # <a name="set-up-cost-templates"></a>Configurare i modelli di costo
 
@@ -79,3 +77,6 @@ Per creare modelli di costo, seguire questi passaggi:
 7. Nella scheda **Categorie**, selezionare le categorie di progetto da includere nella riga del modello di costo.
 8. Nella scheda **Generale**, selezionare se questa riga sarà inclusa nel calcolo della percentuale di completamento.
 9. Selezionare il costo per completare il metodo da utilizzare nel calcolo della percentuale di completamento.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

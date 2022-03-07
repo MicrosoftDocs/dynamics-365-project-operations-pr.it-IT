@@ -2,8 +2,6 @@
 title: Righe di offerta basate su prodotto
 description: In questo argomento vengono fornite informazioni sulle righe di offerta basate su prodotto.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/06/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a5b52e74994a40b20353d85d1d9bcd59d435cd0b
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 3cc2e8788ea699b57ef75903ec3771f2e66fe867a9b8b6328a55b484eb13ede4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151258"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008591"
 ---
 # <a name="product-based-quote-lines"></a>Righe di offerta basate su prodotto
 
@@ -60,7 +58,7 @@ Se imposti questo campo su **Sostituisci prezzo**, Dynamics 365 non imposta un p
 
 Dopo l'installazione di PSA, i prezzi di vendita predefiniti vengono immessi nelle righe basate su prodotto di un'offerta. Il campo **Prezzi** viene quindi impostato su **Sostituisci prezzo** di modo che sia possibile modificare il prezzo predefinito nelle righe di offerta.
 
-> ![Impostare Sostituisci prezzo](media/basic-guide-10.png)
+> ![Impostare Sostituisci prezzo.](media/basic-guide-10.png)
  
 ## <a name="quantity-factors-for-products"></a>Fattori di quantità per prodotti
 
@@ -80,5 +78,8 @@ Ad esempio, Dynamics 365 potrebbe avere le proprietà seguenti:
 
 Le proprietà **N. di utenti** e **N. di mesi** possono essere contrassegnate come fattori di quantità modificando le proprietà della riga prodotto. 
 
-> ![Contrassegnare N. di utenti e N. di mesi come fattori di qualità](media/basic-guide-11.png)
+> ![Contrassegnare N. di utenti e N. di mesi come fattori di qualità.](media/basic-guide-11.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

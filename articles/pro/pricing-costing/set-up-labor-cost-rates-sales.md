@@ -2,18 +2,16 @@
 title: Impostare le tariffe per il costo del lavoro - semplice
 description: Questo argomento fornisce informazioni su come impostare le tariffe del costo del lavoro in Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2e79dde867833fb952349c073ce8975381029dcf
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: c7b00d018f20dd79d5a6f8444a25ed4768cc6b220023fd08967eb917e2f4f2b6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180724"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006116"
 ---
 # <a name="set-up-labor-cost-rates---lite"></a>Impostare le tariffe per il costo del lavoro - semplice
 
@@ -38,7 +36,7 @@ La tabella seguente include alcuni dei campi importanti quando si creano le tari
 
 ## <a name="transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity"></a>Trasferire prezzi e costi per risorse esterne alla divisione o alla persona giuridica
 
-Nelle aziende basate su progetti, è comune utilizzare dipendenti di diverse entità legali o divisioni sui progetti. Un progetto può essere eseguito da una persona giuridica, ma i dipendenti o i consulenti che lavorano al progetto potrebbero provenire dalla stessa persona giuridica o da un'altra, oppure potrebbe esserci una combinazione di entrambi. In Dynamics 365 Project Operations, la persona giuridica proprietaria della consegna del progetto è la **società proprietaria** e la divisione proprietaria della consegna è l'**unità contraente**. Altre persone giuridiche che forniscono risorse sono le **società di gestione risorse** e le divisioni che forniscono risorse sono le **unità di gestione risorse**. Nella maggior parte dei paesi, le società sono tenute a garantire che la persona giuridica o la divisione che fornisce le risorse addebiti alla società proprietaria e all'unità contraente l'utilizzo delle risorse.
+Nelle aziende basate su progetti, è comune utilizzare dipendenti di diverse entità legali o divisioni sui progetti. Un progetto può essere eseguito da una persona giuridica, ma i dipendenti o i consulenti che lavorano al progetto potrebbero provenire dalla stessa persona giuridica o da un'altra, oppure potrebbe esserci una combinazione di entrambi. In Dynamics 365 Project Operations, la persona giuridica proprietaria della consegna del progetto è la **Società proprietaria** e la divisione proprietaria della consegna è l'**Unità contraente**. Altre persone giuridiche che forniscono risorse sono le **società di gestione risorse** e le divisioni che forniscono risorse sono le **unità di gestione risorse**. Nella maggior parte dei paesi, le società sono tenute a garantire che la persona giuridica o la divisione che fornisce le risorse addebiti alla società proprietaria e all'unità contraente l'utilizzo delle risorse.
 
 Ad esempio, la società Fabrikam deve garantire che Fabrikam India-Robotics abbia negoziato un tariffario dei costi con Fabrikam US-Robotics o Fabrikam UK-Robotics.
 
@@ -82,3 +80,6 @@ Nel listino prezzi di Fabrikam UK-Robotics, le tariffe possono essere espresse c
 | Developer | Fabrikam UK | 115 GBP |
 
 Il listino prezzi di costo può fornire tariffe di manodopera in più valute. Quando si genera una stima dei costi sul progetto, Project Operations convertirà queste tariffe di costo nella valuta del progetto e li mostrerà all'utente. Quando una'immissione ore viene approvata e viene creato un costo effettivo, il costo effettivo viene prezzato nella valuta della riga di prezzo del ruolo corrispondente nel listino prezzi di costo. I costi effettivi per il tempo su un singolo progetto possono essere registrati in più valute. Tuttavia, durante il roll-up o il riepilogo dei costi di manodopera effettivi a livello di progetto, Project Operations convertirà tutti gli importi dei costi di manodopera nella valuta di progetto che l'utente può visualizzare.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

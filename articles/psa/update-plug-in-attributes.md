@@ -2,11 +2,9 @@
 title: Aggiornare attributi di plug-in per includere nuove dimensioni di determinazione dei prezzi
 description: In questo argomento vengono fornite informazioni sull'aggiornamento degli attributi di plug-in per le dimensioni di determinazione dei prezzi.
 author: Rumant
-manager: kfend
 ms.custom: ''
 ms.date: 11/19/2018
 ms.topic: article
-ms.service: project-operations
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -16,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 603b0e9a10dc2fe23c9fa0fa7065bc3f500dc540
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: d04561fb6bcbc64f6ad3ea922bff1912824be64c6bb2b18cddd95e9b1b5c7850
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147073"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988791"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>Aggiornare attributi di plug-in per includere nuove dimensioni di determinazione dei prezzi
 
@@ -44,27 +42,30 @@ La procedura seguente consente di eseguire la registrazione dei plug-in.
 1. Apri **PluginRegistrationTool** e connettiti all'istanza online.
 2. Fai clic su **Cerca** e cerca il plug-in da aggiornare.
 
- ![Screenshot della struttura di ricerca](media/PRT-1.png)
+ ![Screenshot della struttura di ricerca.](media/PRT-1.png)
 
 3. Una volta trovato il plug-in, selezionalo e fai clic su **Seleziona nel modulo principale**.
 
 4. Seleziona il passaggio del plug-in da aggiornare, fai clic con il pulsante destro del mouse e quindi scegli **Aggiorna**.
 
- ![Screenshot del plug-in da aggiornare](media/PRT-2.png)
+ ![Screenshot del plug-in da aggiornare.](media/PRT-2.png)
  
 5. Nella finestra di aggiornamento, fai clic sui puntini di sospensione (**...**) negli attributi di filtro.
 
- ![Screenshot delle informazioni di configurazione di Aggiorna passaggio esistente](media/PRT-3.png)
+ ![Screenshot delle informazioni di configurazione di Aggiorna passaggio esistente.](media/PRT-3.png)
  
 6. Seleziona le caselle di controllo degli attributi di determinazione dei prezzi.
 
- ![Screenshot che mostra la selezione delle caselle di controllo degli attributi di determinazione dei prezzi](media/PRT-4.png)
+ ![Screenshot che mostra la selezione delle caselle di controllo degli attributi di determinazione dei prezzi.](media/PRT-4.png)
 
 7. Fai clic su **OK** per chiudere la pagina e quindi seleziona **Aggiorna passaggio**.
 
- ![Screenshot con il pulsante "Aggiorna passaggio"](media/PRT-5.png)
+ ![Screenshot con il pulsante "Aggiorna passaggio".](media/PRT-5.png)
  
 8. Ripeti questa procedura per il secondo plug-in. **PreOperationQuoteLineDetail - Aggiornamento di msdyn_quotelinetransaction**.
 
 9. Chiudi lo strumento per la registrazione di plug-in.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

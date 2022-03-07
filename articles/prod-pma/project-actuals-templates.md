@@ -2,9 +2,11 @@
 title: Sincronizzare i valori effettivi del progetto direttamente da Project Service Automation con il giornale di registrazione dell'integrazione del progetto per la registrazione in Finance and Operations
 description: Questo argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare i valori effettivi del progetto direttamente da Microsoft Dynamics 365 Project Service Automation con Finance and Operations.
 author: Yowelle
+manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 85b6c07464e919e363f28d8bc62115e8fb4c72ea6631269b98fd00f324a01cba
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 11ccbd64c37341b2969e10e9a737f1aa4b4a61f9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988116"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289689"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Sincronizzare i valori effettivi del progetto direttamente da Project Service Automation con il giornale di registrazione dell'integrazione del progetto per la registrazione in Finance and Operations
 
@@ -42,7 +44,7 @@ La soluzione di integrazione da Project Service Automation a Finance utilizza la
 
 La figura seguente mostra come i dati vengono sincronizzati tra Project Service Automation e Finance.
 
-[![Flusso di dati per l'integrazione di Project Service Automation con Finance and Operations.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Flusso di dati per l'integrazione di Project Service Automation con Finance and Operations](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>Valori effettivi di progetto da Project Service Automation
 
@@ -93,9 +95,9 @@ Per aggiornare la colonna condizionale inserita nel modello, fai clic sula frecc
 
 Le figure seguenti mostrano un esempio del mapping delle attività del modello in Integrazione dati. Il mapping mostra le informazioni sui campi che verranno sincronizzate da Project Service Automation a Finance.
 
-[![Mappatura dei modelli - Valori effettivi.](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
+[![Mappatura dei modelli - Valori effettivi](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
 
-[![Mappatura dei modelli - Connessioni di transazione.](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
+[![Mappatura dei modelli - Connessioni di transazione](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
 
 ## <a name="import-from-staging-table-after-integration-from-project-service-automation"></a>Importazione dalla tabella di staging dopo l'integrazione da Project Service Automation
 
@@ -135,9 +137,9 @@ Nel modello di aggiornamento dei valori effetti di progetto, è necessario utili
 
 La figura seguente mostra esempi di mapping delle attività del modello in Integrazione dati. Il mapping mostra le informazioni sui campi che verranno sincronizzate da Finance a Project Service Automation.
 
-[![Mappatura dei modelli - Aggiornamento dei valori effettivi.](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
+[![Mappatura dei modelli - Aggiornamento dei valori effettivi](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
-[![Mappatura dei modelli - Aggiornamento della transazione.](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+[![Mappatura dei modelli - Aggiornamento della transazione](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,9 +1,7 @@
 ---
-title: Considerazioni sull'aggiornamento - Da Microsoft Dynamics 365 Project Service Automation versione 2.x o 1.x alla versione 3
+title: "Considerazioni sull'aggiornamento: Microsoft Dynamics 365 Project Service Automation dalla versione 2.x o 1.x alla versione 3"
 description: In questo argomento vengono fornite informazioni sulle considerazioni che devi eseguire quando esegui l'aggiornamento da Project Service Automation versione 2.x o 1.x alla versione 3.
-manager: kfend
 ms.prod: ''
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/13/2018
@@ -18,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c0c1e07bacb4867254a12436cf3bff58989e117f
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: b29ef5d6d2c1c97658d79bbbe82e5893adeafe4d20354e90058dde79b67cb716
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144172"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000086"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Considerazioni sull'aggiornamento - Da PSA versione 2.x o 1.x alla versione 3
 
@@ -37,7 +35,7 @@ Dynamics 365 Project Service Automation e Dynamics 365 Field Service utilizzano 
 ## <a name="resource-assignments"></a>Assegnazioni risorse
 In Project Service Automation versione 2 e versione 1, le assegnazioni di attività erano archiviate come attività figlio (dette anche attività riga) nell'**entità Attività** e indirettamente correlate all'entità **Assegnazione risorse**. L'attività riga era visibile nella finestra popup di assegnazione nella Struttura di suddivisione del lavoro.
 
-![Attività riga nella Struttura di suddivisione del lavoro in Project Service Automation versione 2 e versione 1](media/upgrade-line-task-01.png)
+![Attività riga nella Struttura di suddivisione del lavoro in Project Service Automation versione 2 e versione 1.](media/upgrade-line-task-01.png)
 
 Nella versione 3 di Project Service Automation, lo schema sottostante di assegnazione di risorse prenotabili ad attività è stato modificato. L'attività riga è stata deprecata ed esiste una relazione diretta 1:1 tra l'attività nell'**entità Attività** e il membro del team nell'entità **Assegnazione risorse**. Le attività assegnate a un membro del team di progetto ora vengono archiviate direttamente nell'entità Assegnazione risorse.  
 
@@ -48,26 +46,26 @@ Con l'entità attività sottostante, le attività nella versione 2 e nella versi
 
 Se hai assegnato una risorsa a un'attività al di fuori del relativo ruolo predefinito nella versione 2 e nella versione 1, quando esegui l'aggiornamento, alla risorsa denominata viene assegnato il ruolo predefinito per tutte le assegnazioni di attività, indipendentemente dall'assegnazione di ruolo nella versione 2. Questa assegnazione restituisce le differenze nelle stime calcolate dalla versione 2 o versione 1 alla versione 3 in quanto le stime vengono calcolate in base al ruolo della risorsa e non all'assegnazione di attività riga. Ad esempio, nella versione 2, due attività sono state assegnate a Lucia Cattaneo. Il ruolo nell'attività riga per l'attività 1 è Sviluppatore e per l'attività 2 è Program Manager. Lucia Cattaneo ha il ruolo predefinito di Program Manager.
 
-![Molteplici ruoli assegnati a una risorsa](media/upgrade-multiple-roles-02.png)
+![Molteplici ruoli assegnati a una risorsa.](media/upgrade-multiple-roles-02.png)
 
 Poiché i ruoli Sviluppatore e Program Manager differiscono, le stime di costo e vendite sono come segue:
 
-![Stime di costo per ruoli risorsa](media/upggrade-cost-estimates-03.png)
+![Stime di costo per ruoli risorsa.](media/upggrade-cost-estimates-03.png)
 
-![Stime di vendite per ruoli risorsa](media/upgrade-sales-estimates-04.png)
+![Stime di vendite per ruoli risorsa.](media/upgrade-sales-estimates-04.png)
 
 Quando esegui l'aggiornamento alla versione 3, le attività riga vengono sostituite con assegnazioni di risorsa nell'attività del membro del team di risorse prenotabili. L'assegnazione utilizzerà il ruolo predefinito della risorsa prenotabile. Nell'illustrazione seguente, Lucia Cattaneo, che ha il ruolo di Program Manager, è la risorsa.
 
-![Assegnazioni di risorse](media/resource-assignment-v2-05.png)
+![Assegnazioni risorse.](media/resource-assignment-v2-05.png)
 
 Poiché le stime sono basate sul ruolo predefinito della risorsa, le stime di costi e vendite possono cambiare. Nell'illustrazione seguente, il ruolo **Sviluppatore** non è più visibile in quanto ora il ruolo è quello predefinito della risorsa prenotabile.
 
-![Stime dei costi per ruoli predefiniti](media/resource-assignment-cost-estimate-06.png)
+![Stime dei costi per ruoli predefiniti.](media/resource-assignment-cost-estimate-06.png)
 ![Stima di vendita per ruoli predefiniti](media/resource-assignment-sales-estimate-07.png)
 
 Dopo aver completato l'aggiornamento, puoi modificare il ruolo di un membro del team affinché sia diverso da quello predefinito assegnato. Tuttavia, se modifichi il ruolo di un membro del team, verrà modificato in tutte le relative attività assegnate in quanto ai membri del team non è più consentito assegnare più ruoli nella versione 3.
 
-![Aggiornare un ruolo risorsa](media/resource-role-assignment-08.png)
+![Aggiornare un ruolo risorsa.](media/resource-role-assignment-08.png)
 
 Ciò è vero anche per le attività riga che erano assegnate a risorse denominate quando si modificava l'unità organizzativa della risorsa da quella predefinita a un'altra unità organizzativa. Dopo l'aggiornamento alla versione 3, l'assegnazione utilizza l'unità organizzativa predefinita della risorsa anziché quella impostata nell'attività riga.
 
@@ -83,26 +81,26 @@ Prima di iniziare l'aggiornamento, è consigliabile rigenerare il team per ogni 
 
 Per le attività assegnate a membri del team generici generati con **Genera team**, l'aggiornamento manterrà la risorsa generica nel team e lascerà l'assegnazione a quel membro del team generico. È consigliabile generare il requisito di risorsa per il membro del team generico dopo l'aggiornamento ma prima di prenotare o inviare una richiesta di risorsa. Ciò preserverà qualsiasi assegnazione di unità organizzativa per i membri del team generici che è differente dall'unità organizzativa di contratto del progetto.
 
-Ad esempio, nel progetto Progetto Z, l'unità organizzativa di contratto è Contoso US. Nel piano di progetto, alle attività di test nella fase di implementazione è stato assegnato il ruolo Consulente Tecnico e l'unità organizzativa assegnata è Contoso India.
+Ad esempio, nel progetto Progetto Z, l'unità organizzativa di contratto è Contoso US. Nella pianificazione di progetto, alle attività di test nella fase di implementazione è stato assegnato il ruolo Consulente Tecnico e l'unità organizzativa assegnata è Contoso India.
 
-![Assegnazione dell'organizzazione nella fase di implementazione](media/org-unit-assignment-09.png)
+![Assegnazione dell'organizzazione nella fase di implementazione.](media/org-unit-assignment-09.png)
 
 Dopo la fase di implementazione, l'attività di test di integrazione viene assegnata al ruolo Consulente Tecnico, ma l'organizzazione è impostata su Contoso US.  
 
-![Assegnazione dell'attività di test di integrazione](media/org-unit-generate-team-10.png)
+![Assegnazione dell'attività di test di integrazione.](media/org-unit-generate-team-10.png)
 
 Quando generi un team per il progetto, due membri del team generici vengono creati a seguito delle unità organizzative differenti per le attività. Al consulente tecnico 1 vengono assegnate le attività di Contoso India e al consulente tecnico 2 le attività di Contoso US.  
 
-![Membri del team generici generati](media/org-unit-assignments-multiple-resources-11.png)
+![Membri del team generici generati.](media/org-unit-assignments-multiple-resources-11.png)
 
 > [!NOTE]
 > Nelle versioni 2 e 1 di Project Service Automation, l'unità organizzativa non viene aggiunta al membro del team ma rimane nell'attività riga.
 
-![Attività riga in Project Service Automation versione 2 e versione 1](media/line-tasks-12.png)
+![Attività riga in Project Service Automation versione 2 e versione 1.](media/line-tasks-12.png)
 
 L'unità organizzativa è visualizzata nella vista Stime. 
 
-![Stime dell'unità organizzativa](media/org-unit-estimates-view-13.png)
+![Stime dell'unità organizzativa.](media/org-unit-estimates-view-13.png)
  
 Al termine dell'aggiornamento, l'unità organizzativa dell'attività riga che corrisponde al membro del team generico viene aggiunta al membro del team generico e l'attività riga viene rimossa. Per questo motivo, è consigliabile, prima di eseguire l'aggiornamento, di generare o rigenerare il team per ogni progetto contenente risorse generiche.
 
@@ -110,3 +108,6 @@ Per le attività assegnate a un ruolo con un'unità organizzativa differente dal
  
 La modifica dell'impostazione predefinita delle differenti unità organizzative di gestione risorse per i membri del team non generati è il motivo per cui consigliamo di generare o rigenerare il team per ogni progetto contenente risorse generiche prima di eseguire l'aggiornamento. In questo, non si perderanno le assegnazioni delle unità organizzative.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

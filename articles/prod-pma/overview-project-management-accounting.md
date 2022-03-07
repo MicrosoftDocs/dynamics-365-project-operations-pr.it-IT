@@ -2,26 +2,28 @@
 title: Panoramica della contabilità e della gestione dei progetti
 description: La funzionalità di gestione dei progetti e contabilità può essere utilizzata in più settori per fornire un servizio, produrre un prodotto o ottenere un risultato.
 author: Yowelle
+manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 634e35f7bd399d3d97659b4bd6f2f3a6dbd5839f
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007511"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4079019"
 ---
 # <a name="project-management-and-accounting-overview"></a>Panoramica della contabilità e della gestione dei progetti
 
@@ -34,14 +36,14 @@ Un progetto è un gruppo di attività progettate per fornire un servizio, produr
 ## <a name="projects-across-industries"></a>Progetti in tutti i settori
 La funzionalità di gestione dei progetti e contabilità può essere utilizzata in più settori, come mostrato nell'illustrazione seguente.
 
-[![Progetti in tutti i settori.](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+[![Progetti in tutti i settori](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 In un call center, un ticket può essere utilizzato per descrivere l'insieme di azioni necessarie per risolvere una chiamata. Le società di consulenza, come le organizzazioni di consulenza tecnica o gestionale o le agenzie pubblicitarie, si riferiscono alle loro attività come progetti. Nel marketing, una campagna rappresenta un insieme di attività lavorative che devono essere eseguite. Nella produzione basata su progetto, un ordine di produzione si riferisce ai vari lavori che devono essere eseguiti per produrre alcuni prodotti finiti. Qualunque sia il nome utilizzato per loro, questi progetti coinvolgono risorse, programmi e costi e la funzionalità di contabilità e gestione dei progetti può aiutare con la pianificazione, l'esecuzione e l'analisi di questi progetti.
 
 ## <a name="project-phases"></a>Fasi del progetto
 Sebbene il flusso di processo seguente sia rivolto a progetti esterni o progetti completati per uno o più clienti, la funzionalità si applica anche a progetti interni a solo costo. 
 
-![3 fasi di un progetto.](./media/3-stages-of-a-project.png) 
+![3 fasi di un progetto](./media/3-stages-of-a-project.png) 
 
 Come mostrato nell'illustrazione precedente, la gestione del progetto e la contabilità possono essere suddivise in tre fasi:
 
@@ -50,7 +52,7 @@ Come mostrato nell'illustrazione precedente, la gestione del progetto e la conta
 3.  Analizza
 
 ## <a name="initiate-the-project"></a>Avviare il progetto
-Durante l'avvio del progetto, si verificano diversi processi chiave. Puoi utilizzare un'offerta di progetto per comunicare al cliente la manodopera, le spese e i materiali stimati. Puoi registrare i termini di fatturazione, i limiti e gli accordi in un contratto di progetto. Puoi utilizzare una struttura di suddivisione del lavoro (WBS) per pianificare e stimare il lavoro. Puoi configurar previsioni e budget per guidare l'esecuzione del progetto. La figura seguente mostra la struttura di un progetto.[![struttura del progetto.](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
+Durante l'avvio del progetto, si verificano diversi processi chiave. Puoi utilizzare un'offerta di progetto per comunicare al cliente la manodopera, le spese e i materiali stimati. Puoi registrare i termini di fatturazione, i limiti e gli accordi in un contratto di progetto. Puoi utilizzare una struttura di suddivisione del lavoro (WBS) per pianificare e stimare il lavoro. Puoi configurar previsioni e budget per guidare l'esecuzione del progetto. La figura seguente mostra la struttura di un progetto.[![struttura del progetto](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
 
 ### <a name="create-project-quotations"></a>Creare offerte di progetto
 
@@ -203,7 +205,7 @@ Puoi ordinare articoli dall'inventario dell'azienda per l'utilizzo in un progett
 
 Il modo in cui ordini gli articoli dipende da dove li stai ordinando:
 
--   Per ordinare articoli dall'inventario dell'azienda, devi immettere l'ordine come requisito articolo. Se utilizzi la pagina **Requisiti articolo** è possibile configurare il requisito in modo da ricevere gli articoli come consegne parziali. Pertanto, puoi posticipare l'utilizzo di una quantità di articoli fino a quando gli articoli non sono obbligatori.
+-   Per ordinare articoli dall'inventario dell'azienda, devi immettere l'ordine come requisito articolo. Se utilizzi la pagina **Requisiti articolo** è possibile configurare il requisito in modo da ricevere gli articoli come consegne parziali. Pertanto, puoi posticipare l'utilizzo di una quantità di articoli fino a quando gli articoli non sono obbligatori.
 -   Per ordinare articoli da un fornitore esterno, devi creare l'ordine come ordine di acquisto nella pagina **Ordine di acquisto**.
 
 > [!NOTE] 
@@ -225,7 +227,7 @@ Il tipo di progetto determina quale procedura di fatturazione deve essere applic
 Prima di creare una fattura cliente per un progetto, puoi creare una fattura preliminare o una proposta di fatturazione. In una proposta di fatturazione, puoi selezionare le transazioni di progetto da includere in una fattura di progetto. Puoi quindi rivedere i dettagli della fattura prima di registrare la fattura del progetto e inviarla al cliente o ad un'altra fonte di finanziamento. 
 
 
-Per ulteriori informazioni su come elaborare le fatture di progetto, vedi [Fatturazione del progetto](/dynamics365/finance/accounts-payable/project-invoicing).
+Per ulteriori informazioni su come elaborare le fatture di progetto, vedi [Fatturazione del progetto](https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing).
 
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Calcolare il costo per completare un progetto
@@ -298,7 +300,7 @@ In base alla configurazione, puoi prevedere i flussi di cassa in entrata per un 
 -   **Data progetto:** 5 marzo 2012.
 -   **Data fattura:** 31 marzo 2012. Questa data è determinata in base alla frequenza di fatturazione. Per questo esempio, si imposta la frequenza di fatturazione sul mese corrente. Pertanto, tutte le transazioni registrate nel mese di marzo vengono fatturate l'ultimo giorno del mese.
 -   **Scadenza:** 14 aprile 2012. Questa data viene determinata in base ai termini di pagamento stabiliti per il progetto. Per questo esempio, hai selezionato termini di pagamento di 14 giorni. Pertanto, vengono aggiunti 14 giorni alla data di fatturazione per arrivare alla data di scadenza del 14 aprile 2012.
--   **Data prevista per il pagamento delle vendite:** 27 aprile 2012. Questa data viene calcolata aggiungendo il numero di giorni nel campo **Giorni di tolleranza generali** nella pagina **Parametri Gestione progetti e contabilità** al numero di giorni nel campo **Giorni di tolleranza particolare** nella pagina **Contratti di progetto**, quindi aggiungendo il totale al numero di giorni nel campo **Scadenza**. Per questo esempio, hai inserito **3** nel campo **Giorni di tolleranza generali** e **10** nel campo **Giorni di tolleranza particolare**. Pertanto, vengono aggiunti 13 giorni alla data di scadenza per arrivare alla data di pagamento delle vendite prevista: del 27 aprile 2012.
+-   **Data prevista per il pagamento delle vendite:** 27 aprile 2012. Questa data viene calcolata aggiungendo il numero di giorni nel campo **Giorni di tolleranza generali** nella pagina **Parametri Gestione progetti e contabilità** al numero di giorni nel campo **Giorni di tolleranza particolare** nella pagina **Contratti di progetto**, quindi aggiungendo il totale al numero di giorni nel campo **Scadenza**. Per questo esempio, hai inserito **3** nel campo **Giorni di tolleranza generali** e **10** nel campo **Giorni di tolleranza particolare**. Pertanto, vengono aggiunti 13 giorni alla data di scadenza per arrivare alla data di pagamento delle vendite prevista: del 27 aprile 2012.
 
 I giorni di tolleranza generale possono sostituire i giorni di tolleranza particolare essere aggiunti ai giorni di tolleranza particolare:
 
@@ -438,6 +440,3 @@ Dopo che il rendiconto è stato calcolato, puoi visualizzare le seguenti informa
 -   **Consumo**: informazioni sul consumo di ore, articoli, spese e transazioni sui salari.
 -   **Fattura**: informazioni su fatture e fatturazione acconti.
 -   **Tariffa oraria**: le tariffe orarie per le ore registrate nei conti ricavi e costi.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

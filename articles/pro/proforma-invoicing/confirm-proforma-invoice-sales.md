@@ -1,26 +1,24 @@
 ---
-title: Confermare una fattura proforma - semplice
-description: Questo argomento fornisce informazioni sulla conferma di una fattura proforma in Project Operations.
+title: Confermare una fattura di progetto proforma
+description: Questo argomento fornisce informazioni sulla conferma di fatture di progetto proforma in Project Operations.
 author: rumant
-manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 02b671e4ad327b2448529d7119211613f3a9cb27
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 37efb4923cbf9696ff85dfcd6dee9aac6badd68ed74a515e5ea5598aacfa3a83
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176526"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992976"
 ---
-# <a name="confirm-a-proforma-invoice---lite"></a>Confermare una fattura proforma - semplice
+# <a name="confirm-a-proforma-project-invoice"></a>Confermare una fattura di progetto proforma 
 
 _**Si applica a:** Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
 
-Dopo la conferma di una fattura proforma, lo stato della fattura di progetto viene aggiornato su **Confermato**. Quando una fattura viene confermata, diventa di sola lettura. In futuro, la fattura può essere corretta solo se sono presenti correzioni o accrediti avviati dal cliente o se la fattura è contrassegnata come pagata.
+Dopo la conferma di una fattura proforma, lo stato della fattura di progetto viene aggiornato su **Confermato**. Quando una fattura viene confermata, diventa di sola lettura. In futuro, la fattura potrà essere corretta solo se sono presenti correzioni o accrediti avviati dal cliente.
 
 Nella tabella seguente sono elencati i valori effettivi creati dal sistema. Questi valori effettivi vengono creati quando vengono eseguite determinate operazioni sulla bozza della fattura di progetto prima che venga confermata.
 
@@ -135,14 +133,14 @@ Uno storno delle vendite non fatturate per le ore e l'importo nell'approvazione 
         <tr>
             <td width="408" valign="top">
                 <p>
-Un nuovo valore effettivo delle vendite non fatturate addebitabile per le ore e l'importo nei dettagli della riga fattura modificata, uno storno del valore effettivo delle vendite e un valore effettivo delle vendite fatturate equivalente.
+Un nuovo valore effettivo delle vendite non fatturate addebitabile per le ore e l'importo nel dettaglio della riga fattura modificata, uno storno del valore effettivo delle vendite e un valore effettivo delle vendite fatturate equivalente.
                 </p>
             </td>
         </tr>
         <tr>
             <td width="408" valign="top">
                 <p>
-Un nuovo valore effettivo delle vendite non fatturate non addebitabile per le ore e l'importo rimanenti dopo la deduzione delle cifre corrette nei dettagli della riga fattura modificata, uno storno del valore effettivo delle vendite e un valore effettivo delle vendite fatturate equivalente.
+Un nuovo valore effettivo delle vendite non fatturate non addebitabile per le ore e l'importo rimanenti dopo la deduzione delle cifre corrette nel dettaglio della riga fattura modificata, uno storno del valore effettivo delle vendite e un valore effettivo delle vendite fatturate equivalente.
                 </p>
             </td>
         </tr>
@@ -161,7 +159,7 @@ Uno storno delle vendite non fatturate per le ore e l'importo nell'approvazione 
         <tr>
             <td width="408" valign="top">
                 <p>
-Un nuovo valore effettivo delle vendite non fatturate addebitabile per le ore e l'importo nei dettagli della riga fattura modificata, uno storno del valore effettivo delle vendite non fatturate e un valore effettivo delle vendite fatturate equivalente.
+Un nuovo valore effettivo delle vendite non fatturate addebitabile per le ore e l'importo nel dettaglio della riga fattura modificata, uno storno del valore effettivo delle vendite non fatturate e un valore effettivo delle vendite fatturate equivalente.
                 </p>
             </td>
         </tr>
@@ -198,14 +196,14 @@ Uno storno delle vendite non fatturate per la quantità e l'importo sull'approva
         <tr>
             <td width="408" valign="top">
                 <p>
-Un nuovo valore effettivo delle vendite non fatturate addebitabile per la quantità e l'importo nei dettagli della riga fattura modificata, uno storno del valore effettivo delle vendite non fatturate e un valore effettivo delle vendite fatturate equivalente.
+Un nuovo valore effettivo delle vendite non fatturate addebitabile per la quantità e l'importo nel dettaglio della riga fattura modificata, uno storno del valore effettivo delle vendite non fatturate e un valore effettivo delle vendite fatturate equivalente.
                 </p>
             </td>
         </tr>
         <tr>
             <td width="408" valign="top">
                 <p>
-Un nuovo valore effettivo delle vendite non fatturate non addebitabile per la quantità e l'importo rimanenti dopo la deduzione delle cifre corrette nei dettagli della riga fattura modificata, uno storno del valore effettivo delle vendite non fatturate e un valore effettivo delle vendite fatturate equivalente.
+Un nuovo valore effettivo delle vendite non fatturate non addebitabile per la quantità e l'importo rimanenti dopo la deduzione delle cifre corrette nel dettaglio della riga fattura modificata, uno storno del valore effettivo delle vendite non fatturate e un valore effettivo delle vendite fatturate equivalente.
                 </p>
             </td>
         </tr>
@@ -224,7 +222,71 @@ Uno storno delle vendite non fatturate per la quantità e l'importo sull'approva
         <tr>
             <td width="408" valign="top">
                 <p>
-Un nuovo valore effettivo delle vendite non fatturate addebitabile per la quantità e l'importo nei dettagli della riga fattura modificata, uno storno del valore effettivo delle vendite non fatturate e un valore effettivo delle vendite fatturate equivalente. 
+Un nuovo valore effettivo delle vendite non fatturate addebitabile per la quantità e l'importo nel dettaglio della riga fattura modificata, uno storno del valore effettivo delle vendite non fatturate e un valore effettivo delle vendite fatturate equivalente. 
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Fatturazione di una transazione materiale senza modifiche nella bozza di fattura.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Uno storno vendite non fatturate per la quantità e l'importo nell'approvazione dell'utilizzo di materiale originale.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Un valore effettivo delle vendite fatturate per la quantità e l'importo nell'approvazione dell'utilizzo di materiale originale.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+Fatturazione di una transazione materiale modificata per ridurre la quantità.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Uno storno vendite non fatturate per la quantità e l'importo nell'approvazione del tempo originale.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Un nuovo valore effettivo delle vendite non fatturate addebitabile per la quantità e l'importo nel dettaglio della riga fattura modificata, uno storno del valore effettivo delle vendite non fatturate e un valore effettivo delle vendite fatturate equivalente.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Un nuovo valore effettivo delle vendite non fatturate non addebitabile per la quantità e l'importo rimanenti dopo la deduzione delle cifre corrette nel dettaglio della riga fattura modificata, uno storno del valore effettivo delle vendite non fatturate e un valore effettivo delle vendite fatturate equivalente.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Fatturazione di una transazione materiale modificata per aumentare la quantità.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Uno storno vendite non fatturate per la quantità e l'importo nell'approvazione dell'utilizzo di materiale originale.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Un nuovo valore effettivo delle vendite non fatturate addebitabile per la quantità e l'importo nel dettaglio della riga fattura modificata, uno storno del valore effettivo delle vendite non fatturate e un valore effettivo delle vendite fatturate equivalente.
                 </p>
             </td>
         </tr>
@@ -273,3 +335,6 @@ Un valore effettivo delle vendite fatturate per la riga di prodotto con la quant
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

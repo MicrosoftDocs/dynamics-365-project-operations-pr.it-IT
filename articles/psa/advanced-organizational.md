@@ -2,8 +2,6 @@
 title: Unità organizzative
 description: In questo argomento vengono fornite informazioni sulle unità organizzative in Dynamics 365 Project Service Automation.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c1c86ce98213fba54fd2b477d4df6f8dc5409d55
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: dccb01e5d1c032039cac980061d93b443ef0f9e1296cdd2d8efd7b1bf7338ce0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145634"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005081"
 ---
 # <a name="organizational-units"></a>Unità organizzative 
 
@@ -55,7 +53,7 @@ L'unità organizzativa svolge due ruoli in PSA:
 - **Unità contratto** - L'unità organizzativa che rappresenta la divisione o gruppo dell'azienda che è il responsabile principale dell'acquisizione della vendita e della gestione della fornitura del lavoro e dei servizi al cliente. L'unità contratto è identificata dal campo **Unità contratto** nella sezione dell'intestazione delle pagine **Opportunità**, **Offerta**, **Contratto di progetto** e **Progetto**.
 - **Unità gestione risorse** - L'unità organizzativa a cui una risorsa appartiene o è assegnata. Questa unità organizzativa può fornire le proprie risorse per alcuni ruoli nelle descrizioni dei lavori e nei progetti di proprietà dell'unità contratto.
 
-> ![Unità contratto e unità di gestione risorse](media/advanced-1.png)
+> ![Unità contratto e unità di gestione risorse.](media/advanced-1.png)
 
 ## <a name="organizational-unit-faqs"></a>Domande frequenti sulle unità organizzative
 
@@ -124,7 +122,7 @@ N. Nella versione corrente di PSA, le unità organizzative non sono gerarchiche.
 Quando è presente una gerarchia complete di centri di costo, divisioni, uffici di fatturazione e così via, i nodi foglia di quella gerarchia devono essere configurati come unità organizzative distinte.
 Nell'esempio seguente è illustrata una gerarchia tipica:
 
-**Contoso India**
+**ContosoIndia**
 
   - Settore SAP 
 
@@ -167,3 +165,6 @@ Se l'azienda opera come un'unica unità che ha un listino prezzi di costo, non �
 Quando un progetto viene creato in modo autonomo, l'unità contratto predefinita del progetto è basata sull'utente che l'ha creata. Quell'utente è anche il responsabile di progetto predefinito. Se il progetto viene mappato a un'entità di vendita ad esempio un'offerta o un contratto di progetto, l'unità contratto bozza del progetto è invece basata sull'entità di vendita. In questo caso, le stime di progetto potrebbero essere ricalcolate, in quanto il listino prezzi di costo viene utilizzato per calcolare le modifiche alla stima di costo se l'unità contratto viene modificata. Il listino prezzi di vendita è utilizzato per calcolare le stime di vendita che verranno modificate di modo che siano sincronizzate con il listino prezzi di progetto dell'offerta.
 
 I campi **Unità contratto** e **Valuta** del progetto vengono bloccati per la modifica, in quanto devono essere sincronizzati con i valori dell'entità di vendita (offerta o contratto di progetto) a cui il progetto viene mappato.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 697129b65f53359615ea537fe135d657748dd909
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: d17f266b6e34fc2a2743fe19fd18b15fb992ceef
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180602"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4078773"
 ---
 # <a name="set-up-labor-cost-rates"></a>Impostare le tariffe del costo del lavoro
 
@@ -22,13 +22,13 @@ _**Si applica a:** Project Operations per scenari basati su risorse/materiali no
 
 Ogni listino prezzi ha una serie di tariffe di manodopera (prezzi di ruolo) che si allineano con il contenuto e la data di validità del listino prezzi.
 
-1. Crea un listino prezzi e nella scheda **Prezzo ruolo** della griglia secondaria, seleziona **Nuovo ruolo**.
+1. Crea un listino prezzi e nella scheda **Prezzo del ruolo**, nella griglia secondaria, seleziona **Nuovo ruolo**.
 2. Nella pagina **Creazione rapida** seleziona il ruolo e l'unità organizzativa.
 3. Immetti le informazioni richieste nei campi.
 
 La tabella seguente include alcuni dei campi importanti quando si creano le tariffe di manodopera in un listino prezzi di costo.
 
-| Campo | Ufficio | Descrizione | Impatto downstream |
+| Campo | Ufficio | Pertinenza, scopo e indicazioni | Impatto downstream |
 | --- | --- | --- | --- |
 | Ruolo | Scheda **Generale** e pagine **Creazione rapida** | Seleziona il ruolo a cui si applicata la tariffa di costo. | Il ruolo nella stima in entrata o nel valore effettivo verrà confrontato con questa riga per impostare il costo predefinito del ruolo. |
 | Società resourcing | Scheda **Generale** e pagine **Creazione rapida** | Seleziona la persona giuridica a cui è assegnato il ruolo. Ad esempio, uno sviluppatore di Fabrikam India o uno sviluppatore di Fabrikam USA. | La società di gestione risorse nella stima in entrata o nel valore effettivo verrà confrontato con questa riga per impostare la tariffa di costo predefinita del ruolo. |

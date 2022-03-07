@@ -17,18 +17,18 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 488c57527e6cc153093014438453001170f311dc
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: 8d113111f5fbf6f5d23ef02cae36d85a27beed93
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5663699"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121313"
 ---
-# <a name="concepts-unique-to-project-based-quotes"></a>Concetti esclusivi delle offerte basate su progetto
+# <a name="quotes---key-concepts"></a>Concetti chiave: offerte
 
-_**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione semplice: dalla transazione alla fatturazione proforma_
+_**Si applica a:** Project Operations per scenari basati su risorse/non stoccate, Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
-In Dynamics 365 Project Operations, esistono due tipi di offerte: di progetto e di vendita. Questi due tipi di offerte differiscono nei modi seguenti:
+In Dynamics 365 Project Operations, esistono due tipi di offerte: progetto e vendite. Questi due tipi di offerte differiscono nei modi seguenti:
 
 - **Griglie per le voci**: Un'offerta di vendita include una sola griglia per le voci. In un'offerta di progetto sono presenti due griglie per le voci. Una griglia è per le righe di progetto e l'altra per le righe di prodotto.
 - **Attivazione e revisioni**: le offerte di vendita supportano l'attivazione e le revisioni. Questi processi non sono supportati in un'offerta di progetto.
@@ -50,7 +50,7 @@ L'importo di un'offerta è il totale delle righe basate su prodotto e delle righ
 > [!NOTE]
 > Offerte e righe di offerta non sono necessarie in Project Operations. Puoi avviare il processo di progetto con un contratto di progetto (progetto venduto). Tuttavia, un'opportunità è sempre necessaria, indipendentemente se si inizia con un'offerta o un con contratto di progetto.
 
-## <a name="project-based-quote-lines"></a>Righe di offerta basate su progetto
+## <a name="project-based-quote-lines"></a>Righe dell'offerta basate sul progetto
 
 Una riga di offerta basata su progetto in Project Operations ha i seguenti metodi di fatturazione:
 
@@ -128,6 +128,3 @@ Per una riga di offerta a prezzo fisso, puoi utilizzare la griglia **Pianificazi
 - Per creare passaggi fondamentali di fatturazione equamente divisi, seleziona la frequenza di fatturazione, immetti la data di inizio della fatturazione nella riga di offerta e seleziona **Data di completamento richiesta** per l'offerta nella sezione **Riepilogo** dell'intestazione dell'offerta. Quindi seleziona **Genera passaggi fondamentali periodici** per creare passaggi fondamentali suddivisi equamente in base alla frequenza di fatturazione selezionata. 
 - Per creare un passaggio fondamentale di fatturazione con somma forfettaria, crea un passaggio fondamentale e quindi immetti il valore della riga di offerta come importo del passaggio fondamentale.
 - Per creare passaggi fondamentali di fatturazione basati su specifiche attività del piano di progetto, crea un passaggio fondamentale e mappalo all'elemento di pianificazione del progetto nell'interfaccia utente dei passaggi fondamentali di fatturazione.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

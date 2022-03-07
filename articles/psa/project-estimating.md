@@ -2,8 +2,6 @@
 title: Costi e ricavi di progetto
 description: In questo argomento vengono fornite informazioni sulle stime di costi e ricavi di progetto.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 279c1119d334a7f60906e33b3fc7ca22ff9a360d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: fe51af8adb7c3831a57494b8359def2a0176b552efe16feb53a2a265f5ffcb0c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148333"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002561"
 ---
 # <a name="project-costs-and-revenue"></a>Costi e ricavi di progetto
 
@@ -33,7 +31,7 @@ ms.locfileid: "5148333"
 
 Le stime di progetto forniscono una vista finanziaria del il lavoro stimato e pianificato nella pianificazione di progetto. La scheda **Stime** nella pagina **Progetti** mostra l'impatto di ricavi e costi del lavoro che si pianifica. Fornisce inoltre informazioni su molte dimensioni predefinite. 
 
-> ![Scheda Stime](media/project-5.png)
+> ![Scheda Stime.](media/project-5.png)
 
 ## <a name="cost-and-sales-values-of-the-project"></a>Valori di costi e vendite del progetto
 
@@ -68,13 +66,13 @@ Se il sistema non trova un prezzo per il ruolo, il prezzo di vendita nella riga 
 
 La scheda **Stime** include una vista griglia che mostra le righe di stima. La griglia include colonne per unità, prezzo di costo totale e prezzo di vendita totale, come illustrato nella figura seguente. 
 
-> ![Vista Griglia nella scheda Stime](media/project-6.png)
+> ![Vista Griglia nella scheda Stime.](media/project-6.png)
 
 ## <a name="time-phased-view-of-project-estimates"></a>Visualizzazione su scala cronologica delle stime di progetto
 
 La vista su scala cronologica delle stime di progetto visualizza i dati delle stime della vista griglia nella sequenza temporale, secondo una scala temporale che hai selezionato. Per impostazione predefinita, i dati delle stime sono basati sulla dimensione **Ruolo**.
 
-> ![Vista su scala cronologica delle stime di progetto](media/project-7.png)
+> ![Vista su scala cronologica delle stime di progetto.](media/project-7.png)
 
 ## <a name="allocating-estimated-effort-based-on-the-task-mode"></a>Allocare il lavoro richiesto stimato in base alla modalità attività
 
@@ -97,3 +95,6 @@ Nella vista griglia e nella vista su scala cronologica, puoi scegliere i campi d
 ## <a name="expense-estimates"></a>Stime di spesa
 
 Il pulsante **Aggiungi una nuova stima di spesa** nella vista griglia ti consente di registrare tutte le spese del progetto che non sono direttamente correlate alla manodopera. Puoi registrare le stime di spesa per una specifica attività o per l'intero progetto. Seleziona le categorie di spesa e la data possibile in cui prevedi di avere delle spese. Se il listino prezzi di costo e il listino prezzi di vendita associati hanno prezzi predefiniti (o se le percentuali di ricarico sono definite per le categorie di spesa), sono automaticamente immessi nella riga di stima al momento dell'associazione.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

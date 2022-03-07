@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 36be76c0c9f25cb93921acee36a820e276cad625
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2d008ef8dd55550431fbb9e329cd7d9428a08831
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271313"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4079022"
 ---
 # <a name="post-an-expense-report"></a>Registrare una nota spese
+
+[!include [banner](../includes/banner.md)]
 
 Dopo che una nota spese è stata approvata e trasferita al giornale di registrazione generale, può essere registrata nella contabilità generale. Quando si registra una nota spese, vengono identificate le spese idonee per il recupero dell'imposta sul valore aggiunto (IVA). Il compito di verificare e recuperare i pagamenti IVA è assegnato al dipendente che è responsabile della verifica della nota spese.
 
@@ -32,6 +34,3 @@ Se le spese in una nota spese vengono addebitate a un'azienda diversa dall'azien
 Per registrare una nota spese, nella pagina **Note spese approvate** seleziona la nota spese, quindi nel riquadro Azioni seleziona **Registra**.
 
 È inoltre possibile registrare contemporaneamente tutte le note spese dell'elenco. Seleziona tutte le note spese, quindi seleziona **Registra**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

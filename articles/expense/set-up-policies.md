@@ -2,11 +2,9 @@
 title: Definire i criteri di spesa
 description: Puoi definire i criteri di spesa che i dipendenti devono seguire quando inseriscono e inviano note spese e richieste di viaggio.
 author: suvaidya
-manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c55cec132649daf9ee08ea4d8db3668860247934
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d29b1a9c1a935b933f403f78279b74577d11089007ce1d1090c361075822263a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128423"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986361"
 ---
 # <a name="define-expense-policies"></a>Definire i criteri di spesa
 
@@ -53,3 +51,6 @@ Di seguito sono riportati alcuni suggerimenti che possono essere utili durante l
 ## <a name="when-to-evaluate-policies"></a>Quando valutare i criteri
 
 Nei parametri di gestione delle spese, puoi scegliere di valutare i criteri di gestione delle spese quando viene salvata una riga o quando viene inviata una nota spese. Se scegli di valutare quando una riga viene salvata, gli utenti avranno visibilità in anticipo su ciò che devono fare per completare la loro nota spese tutto insieme. In caso contrario, puoi ritardare la valutazione del criterio e risparmiare tempo convalidando alla fine, durante l'invio al flusso di lavoro.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Configurare categorie di progetto
 description: In questo argomento vengono fornite informazioni sulla configurazione delle categorie di progetto.
 author: sigitac
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3698b68b5dd0460343d26af0fcea5b9a56be4083
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: cea43422469adf12f336f7686814a8199717090c18804d3d0a7509452349566e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131933"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997116"
 ---
 # <a name="configure-project-categories"></a>Configurare categorie di progetto
 
@@ -25,11 +23,11 @@ Il diagramma seguente illustra la correlazione tra categorie di transazioni, cat
 
 Le categorie di transazioni sono il raggruppamento di base per le transazioni di progetto. All'interno di quel raggruppamento, c'è un insieme di categorie condivise che possono essere condivise tra applicazioni e moduli. Entrando ancora più nello specifico, le categorie di progetto sono il livello di categorie più granulare. Le categorie di progetto sono specifiche per persona giuridica, modulo e applicazione.
 
-![Correlazione tra categorie di transazioni, categorie condivise e categorie di progetto](media/project-categories.png)
+![Correlazione tra categorie di transazioni, categorie condivise e categorie di progetto.](media/project-categories.png)
 
 ## <a name="transaction-categories"></a>Categorie di transazioni
 
-Le categorie di transazioni rappresentano il raggruppamento di base per le transazioni di progetto e non sono specifiche della società o del tipo di transazione. Ad esempio, Contoso Robotics utilizza le categorie Progettazione, Viaggio, Installazione e Transazione di servizio per raggruppare le transazioni di progetto.
+Le categorie di transazioni rappresentano il raggruppamento di base per le transazioni di progetto e non sono specifiche della società o del tipo di transazione. Ad esempio, Contoso Robotics utilizza le categorie Progettazione, Viaggio, Installazione e Transazione del servizio per raggruppare le transazioni del progetto.
 
 Le categorie di transazione sono definite nel modulo Project Operations. 
 1. Vai a **Impostazioni** \> **Categorie di transazione** per aprire il modulo. 
@@ -53,3 +51,6 @@ Le categorie di progetto rappresentano il livello più granulare di configurazio
 I gruppi di categorie vengono utilizzati per condividere proprietà, principalmente profili di registrazione, tra le categorie di progetto correlate. Deve essere presente almeno un gruppo di categorie per ogni tipo di transazione e ad ogni categoria di progetto è assegnato un gruppo.
 
 Le specifiche di registrazione in Project Operations sono definite dalle regole del profilo dei costi e dei ricavi del progetto, dalle categorie di progetto e dai gruppi di categorie. Puoi configurare gruppi di categorie andando a **Gestione progetti e contabilità** \> **Configura** \> **Categorie** \> **Gruppi di categorie**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

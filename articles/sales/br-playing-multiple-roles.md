@@ -2,18 +2,16 @@
 title: Stima le vendite e i costi del progetto quando una risorsa prenotabile ricopre più ruoli in un progetto
 description: Questo argomento spiega come utilizzare le dimensioni dei prezzi per supportare le stime dei prezzi e dei costi per una risorsa che ricopre più ruoli in un progetto.
 author: rumant
-manager: tfehr
 ms.date: 11/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: da17f0f58623128d51fda0f5529182cd37ea41b9
-ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
+ms.openlocfilehash: 28a67e79b03dfbc38e9786350c931838ef27891a3d26787fc0334e0572528228
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4531469"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990141"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-on-a-project"></a>Stima le vendite e i costi del progetto quando una risorsa prenotabile ricopre più ruoli in un progetto 
 
@@ -106,3 +104,6 @@ Quando espandi la riga per quel record del membro del team, puoi vedere assegnaz
 ### <a name="estimates-grid"></a>Griglia delle stime 
 
 Nella griglia **Stime**, entrambe le assegnazioni per la stessa risorsa hanno un prezzo diverso. Il prezzo dell'assegnazione per la risorsa nell'**Attività A** viene calcolato utilizzando il valore dell'attributo **Ruolo** di **Consulting Lead**. Il prezzo dell'assegnazione per la stessa risorsa nell' **Attività B** viene calcolato utilizzando il valore dell'attributo **Ruolo** di **Tecnico di rete**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

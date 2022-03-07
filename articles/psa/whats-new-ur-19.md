@@ -2,8 +2,6 @@
 title: Novità o modifiche nella versione di aggiornamento 19 di Project Service Automation V3
 description: Questo argomento elenca le funzionalità e le correzioni disponibili nella versione di aggiornamento 19 di Project Service Automation V3.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 05/05/2020
 ms.topic: article
@@ -17,18 +15,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8a73a6acd4ce4c9559cdf4591ede735a613f4d52
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: ad61589125e42e8dceb462290f65ddc05e171bd828d26d34ebd548ca285e9aa4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5143611"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993651"
 ---
 # <a name="project-service-automation-update-release-19-v3"></a>Versione di aggiornamento di Project Service Automation 19, V3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Siamo lieti di annunciare l'ultimo aggiornamento per l'applicazione Project Service Automation per Dynamics 365. Questa versione include alcuni importanti miglioramenti in termini di qualità, prestazioni e usabilità. Questa versione è compatibile con Dynamics 365 9.x. Per eseguire l'aggiornamento a questa versione, visita l'interfaccia di amministrazione di Dynamics 365 online e vai alla pagina delle soluzioni per installare l'aggiornamento. Per ulteriori informazioni, vedere [Installare, aggiornare o rimuovere una soluzione preferita](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
+Siamo lieti di annunciare l'ultimo aggiornamento per l'applicazione Project Service Automation per Dynamics 365. Questa versione include alcuni importanti miglioramenti in termini di qualità, prestazioni e usabilità. Questa versione è compatibile con Dynamics 365 9.x. Per eseguire l'aggiornamento a questa versione, visita l'interfaccia di amministrazione di Dynamics 365 online e vai alla pagina delle soluzioni per installare l'aggiornamento. Per ulteriori informazioni, vedere [Installare, aggiornare o rimuovere una soluzione preferita](/power-platform/admin/install-remove-preferred-solution).
 
 Questo argomento elenca le funzionalità e le correzioni nuove o modificate per l'aggiornamento rilascio 19 di PSA V3. Questa versione ha il numero di build V3.10.30.41 ed è generalmente disponibile tramite un aggiornamento automatico a maggio 2020.
 
@@ -66,3 +64,6 @@ Sono stati risolti i seguenti problemi:
 - I clienti possono riscontrare prestazioni compromesse durante la creazione di un progetto perché **GetBookableResourceIdFromUser** recupera tutte le colonne di risorse prenotabili anziché solo l'ID principale.
 - All'entità **TransactionType** manca il plug-in di aggiornamento preliminare per impedire agli utenti di accedere a **Unità** e **UnitGroups** che non sono validi per i tipi di transazione.
 - Il passaggio **Rimuovi** non funziona per l'importazione dell'inserimento ore.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

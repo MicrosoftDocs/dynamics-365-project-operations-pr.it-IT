@@ -1,21 +1,19 @@
 ---
-title: Gestire il backlog di fatturazione - semplice
-description: Questo argomento fornisce informazioni sulle varie visualizzazioni disponibili per l'uso durante la gestione del backlog di fatturazione.
+title: Gestire il backlog di fatturazione progetto
+description: Questo argomento fornisce informazioni sulle varie visualizzazioni disponibili durante la gestione del backlog di fatturazione nei progetti.
 author: rumant
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0e3ca167fa53a6923727eff3e7c34c8706dc7455
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 27ef2ae90778394d15b979a13215c8f5af483cda0312682e9fc7256b8282b999
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176976"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988296"
 ---
-# <a name="manage-the-billing-backlog---lite"></a>Gestire il backlog di fatturazione - semplice
+# <a name="manage-project-billing-backlog"></a>Gestire il backlog di fatturazione progetto 
 
 _**Si applica a:** Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
@@ -57,6 +55,9 @@ La visualizzazione **Backlog di fatturazione tempo e materiale** tutti i valori 
 
 I valori effettivi delle vendite non fatturate con stato **Limite da non superare** di **Non riuscito** non possono essere contrassegnati come **Pronto per la fatturazione**. Se i valori effettivi devono essere contrassegnati come **Pronto per la fatturazione**, reimposta lo stato su altri valori effettivi nella voce di contratto di cui è stato eseguito il commit. Quindi rivaluta stato del limite **da non superare**.
 
-Se le righe di contratto con più clienti hanno un metodo di fatturazione di tempo e materiale, quando i tempi e le spese vengono approvati, viene creato un valore effettivo di vendita non fatturato per ogni cliente nella voce di contratto in base alla suddivisione in percentuale di fatturazione definita per ciascuno dei clienti. Nella visualizzazione **Backlog di fatturazione tempo e materiale** vengono visualizzati questi dati effettivi delle vendite non fatturate specifici del cliente. Ciascuno di questi record valori effettivi di vendita non fatturati può essere contrassegnato come **Pronto per la fatturazione** separatamente da questa vista.
+Se le righe di contratto con più clienti hanno un metodo di fatturazione di tempo e materiale, quando i tempi e le spese vengono approvati, viene creato un valore effettivo di vendita non fatturato per ogni cliente nella voce di contratto in base alla suddivisione in percentuale di fatturazione definita per ciascuno dei clienti. Nella visualizzazione **Backlog di fatturazione tempo e materiale** vengono visualizzati questi valori effettivi delle vendite non fatturate specifici del cliente. Ciascuno di questi record valori effettivi di vendita non fatturati può essere contrassegnato come **Pronto per la fatturazione** separatamente da questa vista.
 
 Un valore effettivo di vendita non fatturata che si trova in una bozza di fattura viene visualizzata in questa visualizzazione con uno stato di fatturazione di **Fattura cliente creata**. Quando la bozza di fattura viene confermata, lo stato di fatturazione in questo record viene aggiornato a **Fattura cliente registrata**. Non aggiornare questo valore di stato utilizzando codice personalizzato. Project Operations non funziona correttamente quando questi valori di stato vengono aggiornati con codice personalizzato.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

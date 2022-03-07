@@ -1,37 +1,102 @@
 ---
-title: Creare una fattura proforma manuale - semplice
-description: Questo argomento fornisce informazioni sulla creazione manuale di una fattura proforma in Project Operations.
+title: Fatture di progetto proforma
+description: Questo argomento fornisce informazioni sulle fatture di progetto proforma in Project Operations.
 author: rumant
-manager: Annbe
-ms.date: 10/19/2020
+ms.date: 04/06/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5a924de6efc377e28a20e038e7deac04616b95aa
-ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
+ms.openlocfilehash: 3d02728ce682781eb8816e0c2239cf62f88adfa8c5d2a0aab280be053c2a5ae6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4764508"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992931"
 ---
-# <a name="create-a-manual-proforma-invoice---lite"></a>Creare una fattura proforma manuale - semplice
+# <a name="proforma-project-pnvoices"></a>Fatture di progetto proforma
 
 _**Si applica a:** Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
-In Dynamics 365 Project Operations, le fatture proforma possono essere create manualmente secondo necessità. Puoi creare manualmente una fattura proforma dalla pagina elenco **Contratti di progetto** o dalla pagina dei dettagli **Contratto di progetto**.
+Le fatture di progetto proforma offrono ai responsabili di progetto un secondo livello di approvazione prima della creazione di fatture per i clienti. Il primo livello di approvazione viene completato quando le voci di tempo, spesa e materiale inviate dai membri del team di progetto sono approvate.
 
-##  <a name="project-contracts-list-page"></a>Pagina elenco Contratti di progetto
+Dynamics 365 Project Operations - Distribuzione semplice non è progettato per generare fatture per i clienti. Il seguente elenco mostra il motivo per cui non è possibile generare fatture:
 
-Dalla pagina elenco **Contratti di progetto** seleziona uno o più contratti di progetto e crea le fatture per tutti i record selezionati.
+- Non sono incluse informazioni fiscali.
+- Non è possibile convertire altre valute nella valuta di fatturazione.
+- Non è possibile formattare correttamente le fatture per la stampa.
 
-Il sistema verifica quale dei contratti di progetto selezionati ha un backlog **Pronto per la fatturazione** datato prima della data odierna. Da questi contratti, il sistema crea bozze di fatture proforma. Se un contratto di progetto ha più clienti, potrebbe esserci una fattura creata per cliente e più fatture per contratto di progetto.
+In alternativa, puoi utilizzare un sistema finanziario o di contabilità per creare fatture per i clienti che utilizzano le informazioni nelle proposte di fatturazione generate.
 
-Tutte le fatture del progetto create sono disponibili nella pagina **Fattura** nella sezione **Fatturazione** dell'area **Vendite**.
+## <a name="creating-project-invoices"></a>Creare fatture di progetto
 
-## <a name="project-contract-details-page"></a>Pagina dei dettagli Contratto di progetto
+Le fatture di progetto possono essere create individualmente o in blocco. Puoi crearle manualmente oppure configurarle di modo che siano generate mediante esecuzioni automatizzate.
 
-Puoi creare una fattura proforma anche dalla pagina dei dettagli **Contratto di progetto**. Il sistema verifica che il contratto di progetto abbia un backlog **Pronto per la fatturazione** datato prima della data odierna. Da questi contratti, il sistema crea bozze di fatture proforma in base al numero di clienti su ciascuna voce di contratto.
+### <a name="manually-create-project-invoices"></a>Creare fatture di progetto manualmente 
 
-Quando viene creata una singola fattura proforma, viene visualizzata la pagina **Fattura**. Se vengono create più fatture per quel contratto di progetto, viene visualizzata la pagina di elenco **Fatture** per mostrare tutte le fatture create.
+Nella pagina elenco **Contratti di progetto**, puoi creare fatture di progetto separatamente per ogni contratto di progetto, oppure puoi creare fatture in blocco per molteplici contratti di progetto.
+
+   - Per creare una fattura per uno specifico contratto di progetto, nella pagina elenco **Contratti di progetto**, apri un contratto di progetto quindi seleziona **Crea fattura**.
+
+   Una fattura viene generata per tutte le transazioni del contratto di progetto selezionato il cui stato è **Pronto per la fatturazione**. Queste transazioni includono tempi, spese, materiali, passaggi fondamentali, voci di contratto basate su prodotto e altre righe giornale di registrazione vendite non fatturate che potrebbero essere state confermate.
+
+Per creare fatture in blocco:
+
+1. Nella pagina elenco **Contratti di progetto**, seleziona uno o più contratti di progetto per i quali vuoi creare una fattura e quindi seleziona **Crea fatture di progetto**.
+2. Un messaggio di avviso informa che la creazione delle fatture può richiedere un certo tempo. Il processo viene anche visualizzato. Seleziona **OK** per chiudere la finestra del messaggio.
+
+   Una fattura viene generata per tutte le transazioni in una voce di contratto il cui stato è **Pronto per la fatturazione**. Queste transazioni includono tempi, spese, materiali, passaggi fondamentali, voci di contratto basate su prodotto e altre righe giornale di registrazione vendite non fatturate che potrebbero essere state confermate.
+
+3. Visualizza le fatture generate selezionando **Vendite** \> **Fatturazione** \> **Fatture**. Viene visualizzata una fattura per ogni contratto di progetto.
+
+### <a name="set-up-automated-creation-of-project-invoices"></a>Impostare la creazione automatica di fatture di progetto 
+
+Segui questa procedura per configurare un'esecuzione di fatturazione automatizzata.
+
+1. Passa a **Impostazioni** \> **Processi batch**.
+2. Crea un processo batch e denominalo **Project Operations - Creazione di fatture**. Il nome del processo batch deve includere il termine "Creazione di fatture".
+3. Nel campo **Tipo di processo** seleziona **Nome**. Per impostazione predefinita, le opzioni **Frequenza giornaliera** e **Attivo** sono impostate su **Sì**.
+4. Seleziona **Esegui flusso di lavoro**. Nella finestra di dialogo **Cerca record**, vengono visualizzati i seguenti flussi di lavoro:
+
+    - ProcessRunCaller
+    - ProcessRunner
+    - UpdateRoleUtilization
+
+5. Seleziona **ProcessRunCaller** e quindi **Aggiungi**.
+6. Nella finestra di dialogo successiva, seleziona **OK**. Un flusso di lavoro **Sospendi** è seguito da un flusso di lavoro **Elabora**.
+
+    Puoi anche selezionare **ProcessRunner** nel passaggio 5. Successivamente, quando selezioni **OK**, un flusso di lavoro **Elabora** è seguito da un flusso di lavoro **Sospendi**.
+
+I flussi di lavoro **ProcessRunCaller** e **ProcessRunner** creano le fatture. **ProcessRunCaller** chiama **ProcessRunner**. **ProcessRunner** è il flusso di lavoro che crea le fatture. Questo flusso di lavoro esamina tutte le voci di contratto per le quali devono essere create le fatture e crea le fatture. Per determinare le voci di contratto per le quali creare le fatture, il flusso di lavoro analizza le date di esecuzione delle fatture per le voci di contratto. Se le voci di contratto appartenenti a un contratto hanno la stessa data di esecuzione delle fatture, le transazioni sono combinate in una fattura con due righe fattura. Se non sono presenti transazioni per le quali creare fatture, non viene creata alcuna fattura.
+
+Dopo il termine dell'esecuzione di **ProcessRunner**, questo flusso di lavoro chiama **ProcessRunCaller**, fornisce l'ora di fine e viene chiuso. **ProcessRunCaller** avvia quindi un timer che viene eseguito per 24 ore a partire dall'ora di fine specificata. Alla fine dell'esecuzione del timer, **ProcessRunCaller** viene chiuso.
+
+Il processo batch per la creazione di fatture è un processo ricorrente. Se questo processo batch viene eseguito molte volte, vengono create molteplici istanze del processo che possono causare errori. Per risolvere questo problema, avvia il processo batch una sola volta e riavvialo solo se viene interrotto.
+
+> [!NOTE]
+> La fatturazione batch viene eseguita solo per le righe di contratto di progetto configurate dalle pianificazioni fatture. Una riga di contratto con un metodo di fatturazione a prezzo fisso deve avere i passaggi fondamentali configurati. Una riga di contratto di progetto con un metodo di fatturazione di tempo e materiali richiederà una pianificazione fatturazione basata sulla data. Lo stesso vale per una riga di contratto basato su progetto.      
+ 
+### <a name="edit-a-draft-invoice"></a>Modificare una bozza di fattura
+
+Quando crei una bozza di fattura di progetto, tutte le transazioni di vendita non fatturate create all'approvazione delle voci di spesa e degli inserimenti ore tempo sono inseriti nella fattura. Puoi eseguire le seguenti rettifiche quando la fattura è ancora nello stato bozza:
+
+- Eliminare o modificare dettagli di riga fattura.
+- Modificare e rettificare la quantità e il tipo di fatturazione.
+- Aggiungere direttamente tempo, spese, materiale e imposte come transazioni nella fattura. Puoi utilizzare questa funzionalità se la riga fattura viene mappata a una voce di contratto che consente queste classi di transazioni.
+
+Seleziona **Conferma** per confermare una fattura. Questa azione è unidirezionale. Quando selezioni **Conferma**, la fattura diventa di sola lettura e crea valori effettivi di vendite fatturate da ogni dettaglio di ogni riga fattura. Se il dettaglio di riga fattura fa riferimento a un valore effettivo di vendite non fatturate, questo valore viene stornato. Qualsiasi dettaglio di riga fattura creato da una voce di tempo, spesa o utilizzo di materiale farà riferimento a un valore effettivo di vendita fatturato. I sistemi di integrazione di contabilità generale possono utilizzare questo storno per stornare il lavoro in corso del progetto per scopi di contabilità.
+
+### <a name="correct-a-confirmed-invoice"></a>Correggere una fattura confermata
+
+Le fatture confermate possono essere modificate. Quando correggi una fattura confermata, viene creata una nuova bozza di fattura correttiva. Poiché si presuppone che tu voglia stornare tutte le transazioni e quantità dalla fattura originale, questa fattura correttiva include tutte le transazioni della fattura originale e tutte le relative quantità sono pari a zero.
+
+Se vi sono transazioni che non richiedono la correzione, puoi rimuoverle dalla bozza di fattura correttiva. Se desideri stornare o restituire solo una quantità parziale, puoi modificare il campo **Quantità** nel dettaglio della riga. Se apri il dettaglio di riga fattura, puoi vedere la quantità della fattura originale. Puoi quindi modificare la quantità della fattura corrente di modo che sia inferiore o superiore alla quantità della fattura originale.
+
+Quando confermi una fattura correttiva, il valore effettivo delle vendite fatturate originali viene stornato e viene creato un nuovo valore effettivo di vendite fatturate. Se la quantità è stata ridotta, la differenza genererà la creazione di un nuovo valore effettivo delle vendite. Ad esempio, se lea vendita fatturata originale era per otto ore e il dettaglio di riga fattura correttiva presenta una quantità ridotta di sei ore, la riga delle vendite fatturate originali viene stornata e due nuovi valori effettivi vengono creati:
+
+- Un valore effettivo delle vendite fatturate per sei ore.
+- Un valore effettivo delle vendite non fatturate per le due ore rimanenti. Questa transazione può essere fatturata successivamente o contrassegnata come non addebitale, a seconda delle negoziazioni con il cliente.
+
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

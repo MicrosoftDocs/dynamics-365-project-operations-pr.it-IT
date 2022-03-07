@@ -1,52 +1,36 @@
 ---
-title: Stime finanziarie del tempo delle risorse nei progetti
-description: Questo argomento fornisce informazioni su come vengono calcolate le stime finanziarie relative al tempo.
-author: rumant
+title: Stime delle risorse
+description: Questo argomento fornisce informazioni su come vengono calcolate le stime delle risorse in Project Operations.
+author: ruhercul
 manager: Annbe
-ms.date: 03/19/2021
+ms.date: 10/01/2020
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
-ms.author: rumant
-ms.openlocfilehash: 91156c5cf79af8c66c12b84a6d2b17aa7fe09ed1
-ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
+ms.author: ruhercul
+ms.openlocfilehash: 454b8931db53739a7bc19364911109802a1ed087
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "5701831"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127370"
 ---
-# <a name="financial-estimates-for-resource-time-on-projects"></a>Stime finanziarie del tempo delle risorse nei progetti
+# <a name="resource-estimates"></a>Stime delle risorse
 
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
-Le stime finanziarie relative al tempo sono calcolate in base a tre fattori: 
-
-- Il tipo di membro del team generico o denominato assegnato a ciascuna attività del nodo foglia nel piano di progetto. 
-- Il tipo o la complessità del lavoro.
-- La diffusione dell'impegno per l'assegnazione della risorsa nell'attività. 
-
-I primi due fattori influiscono sul costo unitario o sul tasso di fatturazione dell'assegnazione di una risorsa. Il costo unitario o il tasso di fatturazione dell'assegnazione di una risorsa è determinato dagli attributi della risorsa assegnata. Questi attributi includono l'unità organizzativa a cui appartiene la risorsa e il ruolo standard della risorsa. Puoi anche aggiungere attributi personalizzati pertinenti alla tua attività per la risorsa, come il titolo standard o il livello di esperienza, e fare in modo che influenzino il costo unitario o il tasso di fatturazione dell'assegnazione.
-Oltre agli attributi della risorsa, anche gli attributi del lavoro, come l'attività, possono influire sul tasso di fatturazione unitario o il tasso di costo dell'assegnazione. Ad esempio, quando determinate attività sono più complesse, l'assegnazione della risorsa a tali attività specifiche comporta un costo unitario o un tasso di fatturazione più elevato rispetto alle attività meno complesse.   
-
-Il terzo fattore fornisce la quantità di ore a quel tasso. Nei casi in cui un'attività copre due periodi di prezzo, è probabile che la prima parte dell'assegnazione di risorse per quell'attività abbia un costo e un prezzo diversi rispetto alla seconda parte dell'attività. La stima del lavoro richiesto in ciascuna assegnazione di risorse è un valore complesso memorizzato con la distribuzione giornaliera del lavoro al giorno.
-
-Per istruzioni dettagliate su come impostare attributi personalizzati di lavoro e risorse come dimensioni di determinazione di prezzi e costi, vedi [Panoramica delle dimensioni di determinazione dei prezzi](../pricing-costing/pricing-dimensions-overview.md).
-
-La stima finanziaria in ogni assegnazione di risorse viene calcolata come **tasso/ora per l'assegnazione moltiplicata per il numero di ore.**  Analogamente alla stima del lavoro, la stima finanziaria per costi e ricavi di ogni assegnazione di risorse è un valore complesso memorizzato con la distribuzione giornaliera dell'importo monetario al giorno. 
-
-## <a name="summarizing-financial-estimates-for-time"></a>Riassumere le stime finanziarie relative al tempo
-Una stima finanziaria relative al tempo in un'attività del nodo foglia è la somma delle stime finanziarie in tutte le assegnazioni di risorse per tale attività.
-
-Una stima finanziaria relative al tempo in un'attività di riepilogo o padre è la somma delle stime finanziarie in tutte le relative attività figlio. Questo è il costo del lavoro stimato per il progetto. 
+Le stime delle risorse provengono dal lavoro su scala cronologica definito nella struttura di suddivisione del lavoro insieme alle dimensioni di determinazione dei prezzi applicabili. In genere, il calcolo è **tasso/ora per ogni ruolo x ore**. Il lavoro su scala cronologica per ciascuna risorsa viene archiviato nel record di assegnazione delle risorse. I prezzi sono archiviati in un listino prezzi predefinito. La conversione di unità viene applicata in base al listino prezzi applicabile.
 
 ![Stime delle risorse](./media/navigation12.png)
 
 ## <a name="default-cost-price-and-cost-currency"></a>Prezzo di costo e valuta di costo predefiniti
 
-Il prezzo di costo predefinito proviene dai listini prezzi associati all'unità contratto del progetto. La valuta di costo di un progetto è sempre la valuta dell'unità contratto del progetto. In un'assegnazione di risorse, la stima finanziaria del costo viene archiviata nella valuta di costo del progetto. A volte, la valuta del tasso di costo nel listino prezzi è diversa dalla valuta di costo del progetto. In questi casi, l'applicazione converte la valuta del prezzo di costo nella valuta del progetto. Nella griglia **Stime**, tutte le stime dei costi sono visualizzate e riepilogate nella valuta di costo del progetto. 
+I prezzi di costo vengono impostati in modo predefinito dall'unità organizzativa.
 
 ## <a name="default-bill-rate-and-sales-currency"></a>Tasso di fatturazione e valuta di vendita predefiniti
 
-Il prezzo di vendita predefinito proviene dai listini prezzi di progetto associati al contratto di progetto correlato se la transazione viene acquisita o dall'offerta di progetto correlata se la transazione è ancora in fase di prevendita. La valuta di vendita del progetto è sempre la valuta dell'offerta di progetto o del contratto di progetto. In un'assegnazione di risorse, la stima finanziaria delle vendite viene archiviata nella valuta di vendita del progetto. A differenza del costo, il prezzo di vendita impostato nel listino prezzi non può mai essere diverso dalla valuta di vendita del progetto. Non esiste uno scenario in cui è necessaria la conversione della valuta. Nella griglia **Stime**, tutte le stime di vendita sono visualizzate e riepilogate nella valuta di vendita del progetto. 
+I prezzi di vendita vengono applicati una volta per transazione. La gerarchia per l'impostazione dei valori predefiniti del listino prezzi di vendita è la seguente:
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+1. Azienda
+2. Cliente
+3. Offerta/contratto

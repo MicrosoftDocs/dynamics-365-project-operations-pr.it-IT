@@ -2,12 +2,10 @@
 title: Creare soluzioni personalizzate per le dimensioni di determinazione dei prezzi
 description: Questo argomento spiega come creare una soluzione personalizzata quando si creano dimensioni di determinazione dei prezzi personalizzate.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3810df9b875d017a8d639b5253b96275571898f3
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 4dea80d8e4645675d3e89e846532ca7c0f292faa328c45938941c50dc15486fc
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144644"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995271"
 ---
 # <a name="create-custom-solutions-for-pricing-dimensions"></a>Creare soluzioni personalizzate per le dimensioni di determinazione dei prezzi
 
@@ -34,7 +32,7 @@ ms.locfileid: "5144644"
 1. Seleziona **Impostazioni** > **Soluzioni** e quindi seleziona **Nuovo**. 
 2. Assegna un nome alla soluzione, **dimensioni di determinazione dei prezzi di \<your organization name>**, immetti le informazioni richieste e quindi seleziona **Salva**.
 
-> ![Creare una soluzione personalizzata per le dimensioni di determinazione dei prezzi](media/Creation-of-custom-pricing-dimension-solution.PNG)
+> ![Creare una soluzione personalizzata per le dimensioni di determinazione dei prezzi.](media/Creation-of-custom-pricing-dimension-solution.PNG)
   
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>Aggiungere tutte le entità necessarie e i componenti correlati alla soluzione per le dimensioni di determinazione dei prezzi
 Devi aggiungere le seguenti entità di Project Service alla soluzione per la determinazione dei prezzi. Completa i passaggi in questa procedura per apportare alcune importanti modifiche allo schema nella soluzione per la determinazione dei prezzi di modo che le entità siano consapevoli delle nuove dimensioni di determinazione dei prezzi.
@@ -56,9 +54,9 @@ Devi aggiungere le seguenti entità di Project Service alla soluzione per la det
 - Prezzo ruolo 
 - Inserimento ore 
 
-> ![Aggiungere entità esistenti alla soluzione per le dimensioni di determinazione dei prezzi](media/Existing-entities-to-PD-solution.png)
+> ![Aggiungere entità esistenti alla soluzione per le dimensioni di determinazione dei prezzi.](media/Existing-entities-to-PD-solution.png)
 
-> ![Selezionare componenti di soluzione](media/Dimension-Components.png)
+> ![Seleziona componenti soluzione.](media/Dimension-Components.png)
 
 > [!NOTE]
 > Assicurati di includere tutti i moduli e tutte le viste per ogni entità selezionata.
@@ -68,3 +66,6 @@ Devi aggiungere le seguenti entità di Project Service alla soluzione per la det
 > ![Non includere i componenti correlati.](media/Do-not-include-required.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

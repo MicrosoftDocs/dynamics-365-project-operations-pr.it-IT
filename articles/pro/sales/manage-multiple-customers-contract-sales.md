@@ -2,18 +2,16 @@
 title: Gestire più clienti nei contratti di progetto - semplice
 description: Questo argomento fornisce informazioni sulla gestione di più clienti sui contratti di progetto.
 author: rumant
-manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b248dabdbd5239b140da7c99d3f38609facfe75e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: b7010ef75cd71ecdf832abb889db4703baa18fce0adadf3893621c42002fcab9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181322"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001751"
 ---
 # <a name="manage-multiple-customers-on-project-contracts---lite"></a>Gestire più clienti nei contratti di progetto - semplice
 
@@ -52,3 +50,6 @@ Il cliente principale non può essere aggiornato dall'elenco dei clienti di cont
 Le percentuali di suddivisione della fatturazione possono essere modificate utilizzando l'esperienza di modifica della griglia in linea. Quando le percentuali di suddivisione della fatturazione non raggiungono il 100 percento, verrà visualizzato un errore. Dopo aver modificato le percentuali di suddivisione della fatturazione, aggiorna la pagina per eliminare l'errore.
 
 Puoi anche selezionare **Distribuisci uniformemente** nella griglia secondaria **Clienti di contratto** per allocare le ripartizioni di fatturazione in modo uniforme a tutti i clienti del contratto. Se è presente un fattore di arrotondamento, verrà aggiunto al cliente con arrotondamento. Uno dei clienti del contratto è sempre contrassegnato come cliente con **arrotondamento** il che significa che il record del cliente del contratto ha il contrassegno di arrotondamento impostato su **Sì**. In genere, questo è il cliente principale del contratto, ma può anche essere modificato.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

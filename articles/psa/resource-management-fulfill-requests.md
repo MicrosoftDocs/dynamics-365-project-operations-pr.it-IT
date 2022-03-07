@@ -2,8 +2,6 @@
 title: Soddisfare requisiti di risorsa
 description: In questo argomento vengono fornite informazioni su come soddisfare requisiti di risorsa.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 858662b62e511f80413e2354832bf2b0bcfc3fc5
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 1814d3a48611a76ee957967fc6da0b66e821ce5d
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147613"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5998011"
 ---
 # <a name="fulfilling-resource-requests"></a>Soddisfare richieste di risorse
 
@@ -46,3 +44,6 @@ L'Assistente di pianificazione viene visualizzato e filtrato in base ai requisit
 > ![Risorsa selezionata](media/Resource-Management-image61.png)
 
 Il membro del team generico viene sostituito con la risorsa denominata prenotata definitivamente nel team di progetto e le assegnazioni delle attività nella pianificazione del progetto.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

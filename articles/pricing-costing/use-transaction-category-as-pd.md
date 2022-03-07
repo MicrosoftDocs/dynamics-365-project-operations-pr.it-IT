@@ -2,18 +2,16 @@
 title: Utilizzare una categoria di transazione come dimensione di determinazione dei prezzi
 description: In questo argomento vengono fornite informazioni sull'utilizzo di un campo per la categoria delle transazioni come dimensione di determinazione dei prezzi.
 author: rumant
-manager: tfehr
 ms.date: 11/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bace11455d34fdda95e08be1a7cc37850a0cf589
-ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
+ms.openlocfilehash: ab8093aca9a33bbbaef41c6fc7d33cad930bfadd13b0f7587c3de9032ac0d630
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "4513996"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996126"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Utilizzare una categoria di transazione come dimensione di determinazione dei prezzi
 
@@ -50,3 +48,6 @@ La tabella seguente elenca tutti i moduli e le visualizzazioni predefiniti, per 
 2. Nella pagina **Parametri**, nella scheda **Dimensioni di determinazione dei prezzi basate su importo**, verifica che la griglia nella scheda mostra i record nell'entità **Dimensioni di determinazione dei prezzi**.
 3. Aggiungi **Categoria di transazione** a questo elenco e imposta i campi **Costo applicabile a** **Vendite applicabili a** su **Sì**.
 4. Nel campo **Tipo di dimensione**, seleziona **Basata su importo** e quindi seleziona la priorità per **Categoria di transazione** relativa a costo e vendite.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 441501dff23d16960381b3f9fb4b2cceba2b3ba5
-ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
+ms.openlocfilehash: 3e3f688b0147974ef252a0ee00be20c4669d7165
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "4513995"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278423"
 ---
 # <a name="create-a-solution-for-custom-pricing-dimensions"></a>Creare una soluzione per le dimensioni di determinazione dei prezzi personalizzate
 
@@ -64,3 +64,6 @@ Aggiungi le seguenti entità di Project Service alla tua soluzione tariffaria pe
 5.  Quando viene richiesto di includere eventuali entità dipendenti per le entità selezionate, seleziona **No, non includere i componenti richiesti.**
 
     ![Comprese le entità dipendenti](./media/Do-not-include-required.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

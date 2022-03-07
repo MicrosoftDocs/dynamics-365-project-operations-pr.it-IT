@@ -2,8 +2,6 @@
 title: Configurare le risorse
 description: Come impostare le risorse in Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4ff49d5dfdfa184cf437677109d1228f3b4cd571
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 0d83e30eb4e0f10a990f72e148c29db9d3cb0c83
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150313"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008226"
 ---
 # <a name="set-up-resources-project-service"></a>Impostare le risorse (Project Service)
 
@@ -55,3 +53,6 @@ Prima di richiedere o assegnare risorse in [!INCLUDE[pn_project_service_auto](..
   
 ### <a name="see-also"></a>Vedi anche  
  [Configurare Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

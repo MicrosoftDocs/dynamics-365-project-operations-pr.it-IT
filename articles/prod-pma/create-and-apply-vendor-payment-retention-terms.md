@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: e6f6424b983f76a96825d76e1b4b81b54dc84b84
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1970a24a5073de6af43db1f1c068332c9ba9c8fe
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270953"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4079013"
 ---
 # <a name="create-and-apply-vendor-payment-retention-terms"></a>Creare e applicare le condizioni di trattenimento dei pagamenti del fornitore
 
@@ -65,6 +65,3 @@ Dopo aver creato le condizioni di trattenimento per un fornitore, è possibile a
 6. Se il progetto ha anche le condizioni di pagamento su pagamento impostati per il fornitore, immetti la percentuale di soglia per il progetto nel campo **Percentuale soglia pagamento su pagamento**.
 
 Le condizioni di trattenimento per il fornitore vengono visualizzate anche negli ordini di acquisto creati per il fornitore.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

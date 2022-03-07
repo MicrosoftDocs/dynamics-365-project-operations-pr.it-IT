@@ -2,18 +2,16 @@
 title: Aggiungere una sottoscrizione di Azure a un progetto LCS
 description: Questo argomento fornisce informazioni su come connettere la sottoscrizione di Azure a un progetto LCS.
 author: sigitac
-manager: Annbe
 ms.date: 04/12/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a80c926ba67a1620e39d8c7677a05678454e6340
-ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
+ms.openlocfilehash: e4502c1dec3bfeed083186b2d053549fefc9339609946c8da919b46e0e56cc79
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5880543"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986676"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>Aggiungere una sottoscrizione di Azure a un progetto LCS
 
@@ -25,35 +23,35 @@ Gli ambienti ospitati su cloud devono essere distribuiti utilizzando una sottosc
 
 1. Nel progetto LCS, nella sezione **Ambienti**, seleziona **Impostazioni di Microsoft Azure**.
 
-![Impostazioni Microsoft Azure](./media/1MicrosoftAzureSettings.png)
+![Impostazioni di Microsoft Azure.](./media/1MicrosoftAzureSettings.png)
 
 2. Nella pagina **Impostazioni progetto**, nella scheda **Connettori di Azure**, seleziona **Autorizza**. Ciò consente di distribuire gli ambienti a questo progetto.
 
-![Connettori di Azure](./media/2AzureConnectors.png)
+![Connettori di Azure.](./media/2AzureConnectors.png)
 
 3. Seleziona **Autorizza** di nuovo per fornire il consenso amministratore.
 
-![Concedi consenso amministratore](./media/3GrantAdminConsent.png)
+![Concedere il consenso amministratore.](./media/3GrantAdminConsent.png)
 
 4. Accetta la richiesta di autorizzazione.
 
-![Accetta richiesta di autorizzazione](./media/4AcceptPermissionRequest.png)
+![Accettare la richiesta di autorizzazione.](./media/4AcceptPermissionRequest.png)
 
 L'autorizzazione è ora completa. 
 
-![Autorizzazione completata](./media/5AuthorizationComplete.png)
+![Autorizzazione completata.](./media/5AuthorizationComplete.png)
 
 ## <a name="provide-dynamics-deployment-services-access-to-your-azure-subscription"></a><a name="provide"></a>Fornire l'accesso a Servizi di distribuzione Dynamics alla sottoscrizione di Azure
 
 1. Vai a [Fatturazione di Microsoft Azure](https://portal.azure.com/#blade/Microsoft\_Azure\_Billing/SubscriptionsBlade) e seleziona la sottoscrizione. Servizi di distribuzione Dynamics deve accedere a questa sottoscrizione per poter distribuire gli ambienti.
 
-![Dettagli sottoscrizione di Azure](./media/6AzureSubscription.png)
+![Dettagli sottoscrizione di Azure.](./media/6AzureSubscription.png)
 
 2. Seleziona **Controllo di accesso (IAM)** nel riquadro di spostamento, quindi seleziona **Aggiungi assegnazione di ruolo**.
 3. Nel dispositivo di scorrimento sul lato destro, seleziona **Ruolo collaboratore** e nell'elenco fornito trova e seleziona **Servizi di distribuzione Dynamics**. 
 4. Seleziona **Salva**.
 
-![Accesso sottoscrizione](./media/7SubscriptionAccess.png)
+![Accesso sottoscrizione.](./media/7SubscriptionAccess.png)
 
 ### <a name="add-a-subscription-connector-to-an-lcs-project"></a>Aggiungere un connettore di sottoscrizione a un progetto LCS
 

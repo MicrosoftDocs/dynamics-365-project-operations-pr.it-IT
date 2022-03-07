@@ -2,18 +2,16 @@
 title: Panoramica dell'utilizzo della risorsa
 description: In questo argomento vengono fornite informazioni sull'utilizzo delle risorse in Project Operations.
 author: ruhercul
-manager: Annbe
 ms.date: 11/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 8b85464dbb68523b122116225a604f67e7236f3e
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.openlocfilehash: a683931bcd6a357c5feec9198b190b948ad17a40
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401381"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000801"
 ---
 # <a name="resource-utilization-overview"></a>Panoramica dell'utilizzo della risorsa
 
@@ -45,3 +43,6 @@ Inoltre, un ruolo predefinito deve essere assegnato a ogni risorsa prenotabile. 
 Nella scheda **Project Service**, puoi impostare un singolo utilizzo di destinazione per la risorsa. Per il calcolo dell'utilizzo viene quindi utilizzato l'utilizzo di destinazione allo scopo di valutare la destinazione della risorsa anziché la destinazione del ruolo predefinito della risorsa.
 
 L'utilizzo viene visualizzato per una risorsa solo se ha tempo addebitabile approvato durante il periodo visualizzato nella griglia.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

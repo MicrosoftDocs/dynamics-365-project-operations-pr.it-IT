@@ -2,24 +2,22 @@
 title: Impostare le tariffe per la fatturazione del lavoro - semplice
 description: Questo argomento fornisce informazioni su come impostare le tariffe della fatturazione del lavoro in Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cf53f6909ed5fb9b143197118c799b9803699171
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 9b8c4a19260156480e40f2cc26afa83df3ec9fe9de53edc0ad0ca8c7b78bf352
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181186"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007601"
 ---
 # <a name="set-up-labor-bill-rates---lite"></a>Impostare le tariffe per la fatturazione del lavoro - semplice
 
 _**Si applica a:** Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
-Ogni listino prezzi ha una serie di prezzi di ruolo, o tariffe di manodopera che sono valide per il contenuto e la data di validità inclusa nell'intestazione del listino prezzi. Le tariffe di fatturazione per il tempo in Dynamics 365 Project Operations possono essere impostati in una sola valuta, che è la valuta nell'intestazione del listino prezzi.
+Ogni listino prezzi ha una serie di prezzi di ruolo, o tariffe di manodopera che sono valide per il contenuto e la data di validità inclusa nell'intestazione del listino prezzi. I tassi di fatturazione per il tempo in Dynamics 365 Project Operations possono essere impostati in una sola valuta, che è la valuta nell'intestazione del listino prezzi.
 
 1. Per impostare le tariffe di fatturazione della manodopera per un listino prezzi di vendita, crea un listino prezzi basato sull'intestazione del listino prezzi. 
 2. Nella scheda **Prezzo del ruolo**, nella griglia secondaria, seleziona **+ Nuovo prezzo ruolo**. 
@@ -55,3 +53,6 @@ Ad esempio, uno sviluppatore di Fabrikam India che lavora a un progetto negli St
     | Developer | Fabrikam US | $150 |
 
 3. Collega il listino prezzi di vendita, **Tariffe di fatturazione Fabrikam US** al listino prezzi di progetto del contratto di progetto o a un determinato conto.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6ce4c549b04716d466efa262dbc6a4abf28ea9eb
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 2388aedec25915b3d364001fed11ca537b0f5507
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150673"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5281123"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Novità o modifiche in Project Service Automation versione 3
 
@@ -257,3 +257,6 @@ Nel grafico seguente sono visualizzati i listini prezzi personalizzati che sono 
 
 > [!NOTE]
 > È possibile che la creazione di un listino prezzi non sia immediata dopo che fai clic su **Crea determinazione dei prezzi personalizzata**. È consigliabile aggiornare la griglia anziché fare clic più volte. Un listino prezzi personalizzato viene creato se il nome di listino prezzi associato include il nome dell'offerta o il nome del contratto di progetto.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

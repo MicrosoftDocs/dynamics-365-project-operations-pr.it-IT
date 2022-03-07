@@ -2,18 +2,16 @@
 title: Panoramica della distribuzione di Project Operations per scenari di materiali stoccati basati sulla produzione
 description: Questo argomento fornisce informazioni sul tipo di distribuzione, Project Operations per scenari di materiali stoccati basati sulla produzione.
 author: rumant
-manager: Annbe
 ms.date: 11/02/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7bad4de10a508f0c1aa2cc6bb0c41081f81fb259
-ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
+ms.openlocfilehash: 7b2a606bc587b99c16d45b19689ba90b422c3c62
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4365520"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999406"
 ---
 # <a name="project-operations-for-stockedproduction-based-scenarios-deployment-overview"></a>Panoramica della distribuzione di Project Operations per scenari di materiali stoccati basati sulla produzione
 
@@ -43,3 +41,6 @@ Seleziona questo tipo di distribuzione per utilizzare Dynamics 365 Project Opera
 - Un motore di tasso di cambio e IVA a livello aziendale per generare fatture rivolte ai clienti per i progetti.
 - Un sistema di contabilità di progetto e riconoscimento dei ricavi conforme agli International Financial Reporting Standard (IFRS).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

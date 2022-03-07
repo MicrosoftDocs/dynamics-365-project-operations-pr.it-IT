@@ -2,18 +2,16 @@
 title: Metodi Costi di completamento
 description: Questo argomento fornisce informazioni sui metodi utilizzati per calcolare i costi di completamento di un progetto.
 author: sigitac
-manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 790b5c98182acdc0a37e3741a40baf7152f0bf66
-ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
+ms.openlocfilehash: fe42ea0e1a5c562ec648fbf2a2924648af80381b9db8ffe0c209cb5247bb2ba2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4531466"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997971"
 ---
 # <a name="cost-to-complete-methods"></a>Metodi Costi di completamento
 
@@ -30,3 +28,6 @@ Quando crei un preventivo per un progetto, nella pagina **Crea stima**, nel camp
 | Come stima precedente         | Qui vengono utilizzati gli stessi metodi di stima utilizzati nel periodo precedente. Questo metodo richiede un modello previsionale se il periodo precedente richiedeva un modello previsionale.                                                                                                                                                                                                                                                                                                                           |
 | Impostare il costo per completare su zero | Tipicamente utilizzato prima dell'eliminazione del progetto di stima, questo metodo abbina le stime totali con le transazioni effettive registrate e cancella la colonna **Costo per il completamento**. Al termine, il risultato è sempre 100 percento. Per ogni riga di costo creata, la casella di controllo **Previsioni** è deselezionata e la stima totale viene copiata dalla stima dei costi precedente. Il consumo effettivo per il periodo di stima viene detratto dal costo per completare il progetto.              |
 | Dal modello di costo           | Il metodo Costo per il completamento è impostato nel modello di costo associato al progetto di stima selezionato.                                                                                                                                                                                                                                                                                                                                                                          |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

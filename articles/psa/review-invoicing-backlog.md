@@ -2,8 +2,6 @@
 title: Esaminare il backlog di fatturazione in progetti e contratti di progetto
 description: In questo argomento vengono fornite informazioni su come esaminare backlog relativi a tempo, spese e prodotti e su come contrassegnarli come pronti per la fatturazione.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/11/2019
@@ -16,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 092455a131f556e4f943f6bb89d7e38358f0a697
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: cec09ca39563e3faf0f3b2c10cf9bde3feb020b0
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150493"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008541"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>Esaminare il backlog di fatturazione in progetti e contratti di progetto
 
@@ -59,3 +57,6 @@ Ogni voce di contratto di progetto con un metodo di fatturazione a prezzo fisso 
 Per esaminare i passaggi fondamentali di fatturazione, seleziona **Vendite** \> **Fatturazione** \> **Passaggi fondamentali prezzo fisso**. Seleziona i passaggi fondamentali che sono pronti per essere fatturati e quindi seleziona **Pronto per la fatturazione**. Lo stato di fatturazione di questi passaggi fondamentali diventa **Pronto per la fatturazione**.
 
 ![Passaggi fondamentali prezzo fisso](media/FPBacklog.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
