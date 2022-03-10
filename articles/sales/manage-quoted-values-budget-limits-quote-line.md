@@ -1,53 +1,52 @@
 ---
-title: Righe dell'offerta basate sul progetto
-description: Questo argomento fornisce informazioni sull'utilizzo delle righe dell'offerta basate sul progetto per il lavoro del progetto.
+title: Panoramica delle righe di offerta di progetto
+description: Questo argomento fornisce informazioni sull'utilizzo di righe di offerta di progetto per il lavoro del progetto.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 06a47c45dc3b3b174658e2fba14d3d2050aabf85
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.custom: intro-internal
+ms.openlocfilehash: c0a4d2d4b9e958ba14badda5a945e0522abba336c82128bfe7539663e0b90f1e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078743"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997926"
 ---
-# <a name="project-based-quote-lines"></a>Righe dell'offerta basate sul progetto
+# <a name="project-quote-lines-overview"></a>Panoramica delle righe di offerta di progetto
 
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati_
 
-Le righe dell'offerta basate sul progetto sono progettate per aiutare a stimare il lavoro del progetto per un impegno. La struttura di una riga dell'offerta basata sul progetto è estesa per le stime di progetto con i seguenti concetti:
+Le righe di offerta basate su progetto sono progettate per aiutare a stimare il lavoro del progetto per un impegno. La struttura di una riga di offerta basata su progetto è estesa per le stime di progetto con i seguenti concetti:
 
 - Metodo di fatturazione
 - Mapping del progetto
 - Classi di transazione incluse
 - Limite da non superare
 - Impostazione dell'esigibilità
-- Stima utilizzando i dettagli della riga dell'offerta
+- Stima che utilizza i dettagli della riga di offerta
 - Clienti riga di offerta
 
-La tabella seguente fornisce informazioni sui campi nella scheda **Generale** della riga dell'offerta basata sul progetto. Questi campi aiutano a creare le basi per una stima dettagliata e completa del lavoro del progetto.
+La tabella seguente fornisce informazioni sui campi nella scheda **Generale** della riga di offerta basata su progetto. Questi campi aiutano a creare le basi per una stima dettagliata e completa del lavoro del progetto.
 
-| **Campo** | **Pertinenza, scopo e indicazioni** | **Impatto downstream** |
+| **Campo** | **Descrizione** | **Impatto downstream** |
 | --- | --- | --- |
 | Nome | Il nome della riga dell'offerta che dovrebbe aiutarti a identificare il componente discreto dell'offerta che viene stimata. | Copiato nella voce di contratto del progetto che viene creata da questa riga dell'offerta quando l'offerta viene acquisita. |
 | Metodo di fatturazione | In un'offerta creata da un'opportunità, questo valore viene copiato dal campo corrispondente nella riga dell'opportunità. Questo campo include i due principali modelli di contratto supportati da Dynamics 365 Project Operations:</br>- Prezzo fisso</br>- Tempistica e materiali.| Questo valore di campo viene copiato nella voce di contratto del progetto che viene creata da questa riga dell'offerta quando l'offerta viene acquisita. |
-| Project | Utilizza questo campo facoltativo per identificare il progetto che verrà utilizzato per fornire il lavoro su questo impegno. Quando un progetto viene mappato a una riga dell'offerta, viene semplificata l'impostazione delle attività addebitabili e anche l'inserimento di una stima basata sul progetto nella riga dell'offerta come dettagli della riga dell'offerta. Quando un progetto non è mappato a una riga dell'offerta basata sul progetto, la stima deve essere creata manualmente creando ogni dettaglio della riga dell'offerta. | Questo valore di campo viene copiato nella voce di contratto del progetto che viene creata da questa riga dell'offerta quando l'offerta viene acquisita. |
+| Project | Utilizza questo campo facoltativo per identificare il progetto che verrà utilizzato per fornire il lavoro su questo impegno. Quando un progetto viene mappato a una riga dell'offerta, viene semplificata l'impostazione delle attività addebitabili e anche l'inserimento di una stima basata sul progetto nella riga dell'offerta come dettagli della riga di offerta. Quando un progetto non è mappato a una riga di offerta basata su progetto, la stima deve essere creata manualmente creando ogni dettaglio della riga dell'offerta. | Questo valore di campo viene copiato nella voce di contratto del progetto che viene creata da questa riga dell'offerta quando l'offerta viene acquisita. |
 | Includi tempo | Un contrassegno **Sì**/**No** indica se le transazioni temporali o i costi di manodopera sul progetto selezionato saranno inclusi nella stima su questa riga dell'offerta. Un valore **No** indica che le transazioni temporali o i costi di manodopera non saranno inclusi nella stima su questa riga dell'offerta. Un valore **Sì** indica che le transazioni temporali o i costi di manodopera saranno inclusi nella stima su questa riga dell'offerta. | Questo valore di campo viene copiato nella voce di contratto del progetto che viene creata da questa riga dell'offerta quando l'offerta viene acquisita. |
 | Includi spesa | Un contrassegno **Sì**/**No** indica se i costi di spesa sul progetto selezionato saranno inclusi nella stima su questa riga dell'offerta. Un valore **No** indica che i costi di spesa non saranno inclusi nella stima su questa riga dell'offerta. Un valore **Sì** indica che i costi di spesa saranno inclusi nella stima su questa riga dell'offerta. | Questo valore di campo viene copiato nella voce di contratto del progetto che viene creata da questa riga dell'offerta quando l'offerta viene acquisita. |
 | Includi commissione | Un contrassegno **Sì**/**No** indica se le commissioni sul progetto selezionato saranno incluse nella stima su questa riga dell'offerta. Un valore **No** indica che le commissioni non saranno incluse nella stima su questa riga dell'offerta. Un valore **Sì** indica che le commissioni saranno incluse nella stima su questa riga dell'offerta. | Questo valore di campo viene copiato nella voce di contratto del progetto che viene creata da questa riga dell'offerta quando l'offerta viene acquisita. |
-| Importo offerto | Questo è l'importo che verrà offerto al cliente per tutto il lavoro previsto in questa riga dell'offerta basata sul progetto. In un'offerta creata da un'opportunità, questo valore viene copiato dal campo **Budget cliente** nella riga dell'opportunità. Quando la riga dell'offerta basata sul progetto contiene i dettagli della riga, questo campo è bloccato per la modifica e viene riepilogato dall'importo nei dettagli della riga dell'offerta. | Questo valore di campo viene copiato nella voce di contratto del progetto che viene creata da questa riga dell'offerta quando l'offerta viene acquisita. |
-| Imposta stimata | Questo è un campo modificabile che consente all'utente di aggiungere l'importo delle imposte stimate nella riga dell'offerta. Quando una riga dell'offerta basata sul progetto contiene i dettagli della riga, questo campo è bloccato per la modifica e viene riepilogato dall'importo delle imposte nei dettagli della riga dell'offerta. | Questo valore di campo viene copiato nella voce di contratto del progetto che viene creata da questa riga dell'offerta quando l'offerta viene acquisita. |
+| Importo offerto | Questo è l'importo che verrà offerto al cliente per tutto il lavoro previsto in questa riga di offerta basata su progetto. In un'offerta creata da un'opportunità, questo valore viene copiato dal campo **Budget cliente** nella riga dell'opportunità. Quando la riga di offerta basata su progetto contiene i dettagli della riga, questo campo è bloccato per la modifica e viene riepilogato dall'importo nei dettagli della riga di offerta. | Questo valore di campo viene copiato nella voce di contratto del progetto che viene creata da questa riga dell'offerta quando l'offerta viene acquisita. |
+| Imposta stimata | Questo è un campo modificabile che consente all'utente di aggiungere l'importo delle imposte stimate nella riga dell'offerta. Quando una riga di offerta basata su progetto contiene i dettagli della riga, questo campo è bloccato per la modifica e viene riepilogato dall'importo delle imposte nei dettagli della riga di offerta. | Questo valore di campo viene copiato nella voce di contratto del progetto che viene creata da questa riga dell'offerta quando l'offerta viene acquisita. |
 | Importo offerto al netto delle imposte | Questo campo rappresenta l'importo della riga dell'offerta al netto delle imposte ed è di sola lettura. L'importo in questo campo viene calcolato come *Importo offerto + imposte*. | Questo valore di campo viene copiato nella voce di contratto del progetto che viene creata da questa riga dell'offerta quando l'offerta viene acquisita. |
 | Limite da non superare | Questo campo è modificabile ed è disponibile solo per le righe dell'offerta basate su progetto che hanno un metodo di fatturazione **Tempistica e materiali**. | Questo valore di campo viene copiato nella voce di contratto del progetto che viene creata da questa riga dell'offerta quando l'offerta viene acquisita. |
 | Budget cliente | Questo campo è modificabile e viene copiato dal campo corrispondente nella riga dell'opportunità se l'offerta è stata creata da un'opportunità. | Questo valore di campo viene copiato nella voce di contratto del progetto che viene creata da questa riga dell'offerta quando l'offerta viene acquisita. |
 
-## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a>Regole di convalida per i campi nella scheda Generale delle righe dell'offerta basate sul progetto
+## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a>Regole di convalida per i campi nella scheda Generale delle righe di offerta basate su progetto
 
-**Regola 1**: una determinata classe di transazione sul progetto selezionato può essere inclusa solo in una riga dell'offerta basata sul progetto di un'offerta.
+**Regola 1**: una determinata classe di transazione sul progetto selezionato può essere inclusa solo in una riga di offerta basata su progetto di un'offerta.
 
 **Regola 2**: se un'opportunità ha più offerte, possono esserci righe di offerta da offerte diverse che fanno tutte riferimento allo stesso progetto e includono la stessa classe di transazione.
 
@@ -635,3 +634,6 @@ Non valido </p>
     </tbody>
 </table>
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

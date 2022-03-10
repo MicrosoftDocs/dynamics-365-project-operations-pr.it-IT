@@ -2,18 +2,17 @@
 title: Panoramica dell'assistente di pianificazione
 description: Questo argomento fornisce informazioni su utilizzare l'assistente di pianificazione per prenotare le risorse.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: da551e805f395e466952df1dbb7d193bdddba358
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.custom: intro-internal
+ms.openlocfilehash: 309cb94ea30c525daccf032c625004c42fb408dada4b337b65d8f36d76219669
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078732"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990231"
 ---
 # <a name="schedule-assistant-overview"></a>Panoramica dell'assistente di pianificazione
 
@@ -57,3 +56,6 @@ Il riquadro dei filtri mostra le opzioni relative al lavoro, tra cui:
 -   Società di gestione risorse
 -   Tipi di risorsa
 -   Risorse preferite
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

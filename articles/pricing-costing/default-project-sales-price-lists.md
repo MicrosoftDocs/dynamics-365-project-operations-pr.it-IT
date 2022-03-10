@@ -2,18 +2,16 @@
 title: Listini prezzi predefiniti
 description: Questo argomento fornisce informazioni sui listini prezzi di costo e vendita predefiniti in Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 275ef9b9706d212a6da0dc7c060081c3226572f3
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: a5e38e2f0b553b789956c6d73d481ab0ed2ce3a77815e7cf8c058a0b4666c558
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078755"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989871"
 ---
 # <a name="default-price-lists"></a>Listini prezzi predefiniti
 
@@ -57,3 +55,6 @@ Non sono disponibili listini prezzi di costo predefiniti per alcuna entità in P
 5. Quindi, il sistema esamina la data di validità dei listini prezzi che corrispondono alla data della riga di stima o valore effettivo in entrata. 
 6. Se sono presenti più listini prezzi validi per la data del valore effettivo o della stima in entrata, viene selezionato il listino prezzi creato più di recente.
 7. Se non sono presenti listini prezzi di costo collegati ai parametri del progetto che corrispondono alla valuta e alla data di validità, il sistema imposta la tariffa di costo su zero (0) nella riga di stima o valore effettivo in entrata.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

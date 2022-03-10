@@ -2,19 +2,18 @@
 title: Panoramica delle dimensioni di determinazione dei prezzi
 description: Questo argomento fornisce informazioni sulle dimensioni di determinazione dei prezzi in Dynamics 365 Project Operations.
 author: rumant
-manager: AnnBe
 ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ff675823d84c6e2b83be1e313f881bd672e53981
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.custom: intro-internal
+ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275408"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001976"
 ---
 # <a name="pricing-dimensions-overview"></a>Panoramica delle dimensioni di determinazione dei prezzi
 
@@ -34,7 +33,7 @@ Di conseguenza, sono disponibili due tipi di valori per le dimensioni di determi
 
 Dynamics 365 Project Operations include un set predefinito di dimensioni di determinazione dei prezzi. Puoi visualizzare queste dimensioni di determinazione dei prezzi in **Project Operations** > **Parametri**. Nel record del parametro, nella scheda **Dimensione di determinazione dei prezzi basata su importo**, verifica che i campi **Vendite applicabili a** e **Costo applicabile a** del ruolo **msdyn_resourcecategory** e dell'unità organizzativa di gestione risorse **msdyn_organizationalunit** siano impostati su **Sì**. Con questi campi abilitati puoi impostare il prezzo e il costo di ogni combinazione di unità organizzativa e ruolo.
 
-![Screenshot dei parametri di Project Service con il campo "Vendite applicabili a" evidenziato](media/PS-OOB-parameters.png)
+![Screenshot dei parametri di Project Service con il campo "Vendite applicabili a" evidenziato.](media/PS-OOB-parameters.png)
 
 Se devi determinare il prezzo o il costo delle risorse utilizzando ulteriori attributi, puoi creare entità, dimensioni e campi personalizzati. Per ulteriori informazioni, vedere gli argomenti seguenti. 
   
@@ -61,16 +60,16 @@ L'esempio seguente presenta tassi di fatturazione configurati in base al ruolo e
 
 | Ruolo        | Unità organizzativa    |Unità      |Prezzo      |Valuta  |
 | ------------|-------------|----------|----------:|----------|
-| Sviluppatore   | Contoso US  |Hour | 200|USD     |
-| Sviluppatore   | Contoso India |Hour|   112|USD     |
+| Developer   | Contoso (USA)  |Ora | 200|USD     |
+| Developer   | Contoso India |Ora|   112|USD     |
 
 
 **Tassi di costo di esempio**
 
 | Fascia salariale     | Unità organizzativa    |Unità      |Prezzo      |Valuta  |
 | ----------------|-------------|----------|----------:|----------|
-| Mia società_Fascia1 | Contoso US  |Hour | 145|USD     |
-| Mia società_Fascia2 | Contoso India |Hour|   67|USD     |
+| Mia società_Fascia1 | Contoso (USA)  |Ora | 145|USD     |
+| Mia società_Fascia2 | Contoso India |Ora|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

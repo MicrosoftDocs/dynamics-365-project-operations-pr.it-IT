@@ -1,8 +1,6 @@
 ---
 title: Novità o modifiche in Project Service Automation versione 3
 description: Questo argomento fornisce informazioni sulle novità e sulle modifiche in Project Service Automation versione 3.
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2388aedec25915b3d364001fed11ca537b0f5507
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: afce9cd2d4b3920dc5de5d3deab8920a7f51f275a73918a84db300739b1b4feb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281123"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987081"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Novità o modifiche in Project Service Automation versione 3
 
@@ -38,7 +36,7 @@ In questo argomento vengono fornite informazioni sulle modifiche all'interfaccia
 ## <a name="project-scheduling"></a>Pianificazione di progetti
 La pianificazione di progetti, nota come struttura di suddivisione del lavoro nelle versioni precedenti, è stata rinominata Pianificazione ed è possibile accedervi facendo clic sulla scheda **Pianifica**. 
 
-![Pianificazione di progetti](media/psa-schedule-01.png)
+![Pianificazione di progetti.](media/psa-schedule-01.png)
 
 La pianificazione ora ha una nuova superficie per l'interazione moderna e accessibile. Tuttavia, il motore di pianificazione di Project Service Automation sottostante non è cambiato. I pulsanti di controllo nella barra multifunzione della griglia di pianificazione ti consentono di interagire con la pianificazione come nella versione precedente di Project Service Automation. Ulteriori modifiche alla pianificazione includono:
 
@@ -97,22 +95,22 @@ Quando sposti avanti la pianificazione di un progetto esistente, si verifica qua
 ## <a name="estimates"></a>Stime
 Le stime sono state suddivise in due schede, **Assegnazione risorse** e **Stime**. La scheda **Assegnazione risorse** contiene le stime del lavoro richiesto e mostra le assegnazioni delle risorse per le attività in una vista su scala cronologica. Puoi modificare le stime in funzione di quanto generato dal motore di pianificazione.
 
-![Scheda Assegnazioni risorse con stime del lavoro richiesto e assegnazioni delle risorse per le attività](media/resource-assignments-tab-02.png)
+![Scheda Assegnazioni risorse con stime del lavoro richiesto e assegnazioni delle risorse per le attività.](media/resource-assignments-tab-02.png)
 
 La scheda **Stime** mostra gli importi di costo e di vendite per le assegnazioni delle risorse. Gli importi sono di sola lettura. La determinazione dei costi e quella dei prezzi di vendita sono ora basate sulle assegnazioni dei membri del team nella pianificazione. Ciò significa che se hai un'attività senza assegnazioni, questa viene visualizzata sotto il bucket non assegnato. Ciò significa anche che senza **ruolo**, ovvero una dimensione di determinazione dei prezzi predefinita, non si ha una vendita o un costo stimato se un cliente o un contratto/offerta è associato al progetto. 
 
-![Scheda Stime che mostra importi di costo e vendite](media/estimates-tab-03.png)
+![Scheda Stime che mostra importi di costo e vendite.](media/estimates-tab-03.png)
   
 La categoria è supportata anche per le attività nella vista Pianifica. Il raggruppamento per categoria nella vista su scala cronologica delle stime fornirà una migliore esperienza, soprattutto quando sono disponibili anche stime di spesa nel progetto. Le stime di spesa vengono immesse utilizzando una griglia in una scheda distinta. 
 
 Le stime di spesa possono essere immesse nella griglia nella scheda **Stime di spesa**. 
 
-![Scheda Stime di spesa con la griglia delle stime di spesa](media/expense-estimates-tab-04.png)
+![Scheda Stime di spesa con la griglia delle stime di spesa.](media/expense-estimates-tab-04.png)
 
-## <a name="resource-management"></a>Gestione risorse
+## <a name="resource-management"></a>Gestione delle risorse
 In Project Service Automation versione 3, con la nuova interfaccia utente e le modifiche nella relazione tra prenotazioni e assegnazioni, l'assegnazione di risorse generiche o reali a un progetto è cambiata in modo considerevole rispetto alla versione 2 e alla versione 1. Tuttavia, i concetti di risorse prenotabili, **reali** e **generiche**, rimangono invariati, così come i membri del team, i requisiti, le assegnazioni e le prenotazioni.   
 
-![Utilizzare il selettore di risorse](media/resource-management-05.png)
+![Utilizzare il selettore di risorse.](media/resource-management-05.png)
 
 ### <a name="assign-a-real-bookable-resource"></a>Assegnare una risorsa prenotabile reale 
 In Project Service Automation versione 3, le prenotazioni e le assegnazioni di attività non sono strettamente intrecciate come nelle versioni precedenti di Project Service Automation. Puoi utilizzare la griglia del team per prenotare un membro del team **reale**, come con le versioni sul mercato.
@@ -138,7 +136,7 @@ Quando un requisito viene soddisfatto con molteplici risorse, la risorsa generic
 ### <a name="reconciliation"></a>Riconciliazione
 La scheda **Riconciliazione** mostra le prenotazioni e tutte le assegnazioni di ogni membro del team di progetto. La vista mostra le ore nelle celle che possono rappresentare periodi di tempo da mesi fino a giorni. Questa vista consente ai responsabili di progetto di riconciliare le prenotazioni dei membri del team e le relative assegnazioni per il team di progetto. Ciò è utile in quanto le prenotazioni e le assegnazioni di attività non sono strettamente vincolate, consentendo una maggiore flessibilità nella pianificazione di un progetto. 
 
-![Scheda Riconciliazione che mostra prenotazioni e assegnazioni per i membri del team di progetto](media/resource-reconciliation-tab-06.png)
+![Scheda Riconciliazione che mostra prenotazioni e assegnazioni per i membri del team di progetto.](media/resource-reconciliation-tab-06.png)
 
 Per ogni risorsa, la vista calcola la differenza tra le prenotazioni di un membro del team e un rollup delle relative assegnazioni di attività e mostra le seguenti due differenze che possono verificarsi con prenotazioni e assegnazioni in un progetto: 
 
@@ -153,19 +151,19 @@ Questa sezione fornisce informazioni sulle modifiche relative a tempo, spese e a
 ### <a name="landing-page"></a>Pagina di destinazione
 L'esperienza di inserimento ore personalizzata non estendibile è stata deprecata nella versione 3 ed è stata sostituita da un'esperienza di griglia nativa estendibile e accessibile. Puoi accedere alla funzionalità di inserimento ore utilizzando la mappa del sito a sinistra. In seguito a questa modifica, non è più possibile utilizzare un inserimento ore per una settimana alla volta, ma è necessario creare un inserimento ore per ogni giorno nella griglia. Dopo la creazione di alcuni inserimenti ore, gli utenti possono creare inserimenti ore in blocco con la funzione **Copia** descritta oltre in questo argomento. 
 
-![Pagina di destinazione Inserimento ore](media/time-entry-landing-page-07.png)
+![Pagina di destinazione Inserimento ore.](media/time-entry-landing-page-07.png)
  
 ### <a name="create-new-time-entries"></a>Creare nuovi inserimenti ore 
 Fai clic su **Nuovo** nella barra multifunzione per aprire una pagina di creazione rapida per l'inserimento ore dove immettere la durata in minuti, ore o giorni. A tale scopo, digita h, m oppure d con la quantità.  
 
-![Creazione rapida inserimento ore](media/quick-create-time-entry-08.png)
+![Creazione rapida inserimento ore.](media/quick-create-time-entry-08.png)
 
 I campi di ricerca sono supportati da viste di sistema. Ad esempio, dopo l'immissione di informazioni sul progetto, per impostazione predefinita il campo **Attività di progetto** viene impostato sulla vista **Attività di progetto personali aperte**. Per creare inserimenti ore per le attività non assegnate all'utente, fai clic su **Cambia vista** nella finestra di dialogo di ricerca e quindi seleziona **Tutte le attività di progetto attive**. Dopo la creazione e la visualizzazione dell'inserimento ore nella vista, puoi modificare qualsiasi valore di riga direttamente nella griglia.  
 
 ### <a name="bulk-createcopy"></a>Creare/copiare in blocco 
 Dopo la creazione di alcuni inserimenti ore, puoi utilizzare la funzionalità di copia per creare ulteriori inserimenti ore in blocco. Fai clic su **Copia** per aprire la finestra di dialogo **Copia**. In **Dal periodo: Data di inizio**, imposta l'intervallo di date a partire dal quale le date devono essere copiate. In **Al periodo: Data di inizio**, specifica la data per la quale è necessario creare inserimenti ore. Fai clic su **Copia** per copiare gli inserimenti ore nel giorno della settimana corrispondente indicato in **Al periodo**. Ad esempio, l'inserimento ore di lunedì dell'ultima settimana viene copiato nel lunedì della settimana indicata in **Al periodo**. 
 
-![Copiare inserimenti ore in blocco](media/bulk-copy-time-entry-09.png)
+![Copiare inserimenti ore in blocco.](media/bulk-copy-time-entry-09.png)
  
 ### <a name="import-data"></a>Importa dati 
 Le assegnazioni e gli scambi seguono lo stesso modello di interfaccia utente e ciò consente all'utente di specificare l'intervallo di date a partire dal quale le prenotazioni devono essere importate. Devi quindi scegliere in modo esplicito le prenotazioni che devono essere copiate negli inserimenti ore **Bozza**. Nella versione 3, non è più possibile visualizzare il modello degli inserimenti ore **Consigliato** nella griglia e nel calendario.  
@@ -181,7 +179,7 @@ Nella versione 3 il controllo calendario personalizzato è stato deprecato e vie
 
 **Acquisire dati nei campi personalizzati di inserimenti ore e voci di spesa e propagarli mediante entità che supportano il flusso di invio e approvazione** - L'elaborazione tipica degli inserimenti ore è illustrata nel diagramma seguente.
 
-![Flusso di elaborazione di inserimenti ore](media/process-time-entries-10.png)
+![Flusso di elaborazione di inserimenti ore.](media/process-time-entries-10.png)
 
 Se i requisiti aziendali stipulano che le entità di tempo e spesa devono acquisire dimensioni di determinazione dei prezzi personalizzate e propagare i valori impostati da una risorsa di tempo e spesa nella dimensione di determinazione dei prezzi personalizzata mediante tutte le entità nel grafico precedente, vedi [Impostare campi personalizzati come dimensioni di determinazione dei prezzi](set-up-pricing-dimensions.md)
 
@@ -238,7 +236,7 @@ Nelle versioni 1 e 2, la configurazione delle opzioni di esigibilità di ruoli e
 
 A partire dalla versione 3, la configurazione delle opzioni di esigibilità per ruolo e categoria di spesa viene eseguito a livello di riga di offerta o di voce di contratto. La configurazione della funzionalità di determinazione dei prezzi è distinta da quella dell'esigibilità. Puoi trovare i **Ruoli addebitabili** e le **Categorie addebitabili** come schede nelle pagine **Riga di offerta** e **Voce di contratto** senza dover utilizzare la barra di navigazione superiore.
 
-![Ruoli addebitabili](media/chargeable-12.png)
+![Ruoli addebitabili.](media/chargeable-12.png)
  
 La configurazione dei ruoli addebitabili e delle categorie addebitabili utilizza anche il controllo di griglia modificabile predefinito. Per ogni ruolo e categoria, le opzioni supportate per il tipo di fatturazione durante le fasi Offerta e Contratto rimangono invariate (**Addebitabile** e **Non addebitabile**) rispetto alle versioni precedenti. **Gratuito** non è un tipo supportato durante la fase Offerta o Contratto. **Gratuito** è supportato solo durante l'approvazione di tempo o spese.  
  
@@ -249,11 +247,11 @@ A partire dalla versione 3, la procedura di creazione e utilizzo di un listino p
   
 Nel grafico seguente non sono visualizzati i listini prezzi personalizzati che sono stati creati.
 
-![Listini prezzi personalizzati precedenti](media/before-custom-price-lists-13.png)
+![Listini prezzi personalizzati precedenti.](media/before-custom-price-lists-13.png)
 
 Nel grafico seguente sono visualizzati i listini prezzi personalizzati che sono stati creati.
 
-![Listini prezzi successivi](media/after-custom-price-lists-14.png)
+![Listini prezzi successivi.](media/after-custom-price-lists-14.png)
 
 > [!NOTE]
 > È possibile che la creazione di un listino prezzi non sia immediata dopo che fai clic su **Crea determinazione dei prezzi personalizzata**. È consigliabile aggiornare la griglia anziché fare clic più volte. Un listino prezzi personalizzato viene creato se il nome di listino prezzi associato include il nome dell'offerta o il nome del contratto di progetto.

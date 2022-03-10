@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7fff69f062bf09fe7ceca61d951b535d2e010bfd
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 06471532d2e41bb80ebf92f0a8b93c324b3f6d3e845cea8033d85d291ea237eb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999991"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986586"
 ---
 # <a name="expense-management-integration"></a>Integrazione di gestione spese
 
@@ -28,7 +28,7 @@ In una distribuzione completa delle spese, le categorie di spesa vengono create 
 2. In Finance, vai in **Gestione spese** > **Configura** > **Categorie condivise** e seleziona una categoria condivisa con una classe di transazione **Spese**. Imposta il parametro **Può essere utilizzato in Spese** su **Vero** e definisci il tipo di spesa da utilizzare.
 3. Utilizzando questo record di categoria condivisa, crea una nuova categoria di spesa andando in **Gestione spese** > **Configura** > **Categorie di spesa** e selezionando **Nuovo**. Quando il record viene salvato, la doppia scrittura utilizza la mappa della tabella **Entità di esportazione categorie di spesa di progetto integrazione di Project Operations (msdyn\_expensecategories)** per sincronizzare questo record in Dataverse.
 
-  ![Integrazione di categorie di spesa](./media/DW6ExpenseCategories.png)
+  ![Integrazione di categorie di spesa.](./media/DW6ExpenseCategories.png)
 
 Le categorie di spesa nelle app Finance and Operations sono specifiche dell'azienda o della persona giuridica. Esistono record corrispondenti specifici della persona giuridica separati in Dataverse. Quando un responsabile di progetto stima le spese, non può selezionare le categorie di spesa create per un progetto di proprietà di una società diversa da quella a cui appartiene il progetto su cui stanno lavorando. 
 
@@ -40,7 +40,7 @@ Le note spese vengono create e approvate nelle app Finance and Operations. Per u
   - La doppia scrittura si sincronizza con Dataverse utilizzando la mappa della tabella **Entità di esportazione delle spese di progetto di integrazione di Project Operations (msdyn\_expenses)** .
   - Registro secondario delle imposte, registro secondario del fornitore e altre registrazioni finanziarie vengono registrati come applicabili quando viene registrata la nota spese.
 
-  ![Integrazione di note spese](./media/DW6ExpenseReports.png)
+  ![Integrazione di note spese.](./media/DW6ExpenseReports.png)
 
 Quando un record viene scritto nell'entità **Spese** in Dataverse, il sistema attiva il processo di approvazione automatizzato del record. Se necessario, lo stato del processo di approvazione automatizzato può essere rivisto in Dataverse andando in **Impostazioni avanzate** > **Sistema** > **Processi di sistema**. Dopo che l'approvazione è stata completata, vengono creati i record della classe di transazione materiale nell'entità **Valori effettivi**.
 

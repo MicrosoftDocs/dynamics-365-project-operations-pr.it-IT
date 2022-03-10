@@ -2,8 +2,6 @@
 title: Come si prenotano provvisoriamente le risorse nell'app versione 2.x?
 description: In questo articolo viene descritto come prenotare provvisoriamente i membri del team di progetto con Project Service.
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6bd13c448f4ce16fb93843df54f26cdd9bb884f4
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: d7eb9e3baea3c3f696845905a2522940d14bba8a8d42917f8fe1b90c7c443747
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146488"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993921"
 ---
 # <a name="how-do-i-soft-book-resources-in-the-web-app-project-service-app-v2x"></a>Come si prenotano provvisoriamente le risorse nell'app Web (app Project Service v2.x)?
 
@@ -87,3 +85,6 @@ Quando si è pronti a modificare una risorsa membro del team prenotata provvisor
 2. Quando la scheda di pianificazione viene aperta, espandere la risorsa per visualizzarne le prenotazioni. La prenotazione sarà contrassegnata come Provvisoria.
 3. Fare clic con il pulsante destro del mouse sulla prenotazione e in Cambia stato scegliere selezionare Prenota definitivamente e quindi Definitiva. Lo stato della prenotazione è ora Definitiva.
 4. Dopo la chiusura della scheda di pianificazione, si noterà che lo stato delle ore della risorsa è passato da Provvisoria a Definitiva nella griglia dei membri del team. A questo punto, è possibile assegnare la risorsa alle attività (purché esista un allineamento tra le ore prenotate definitivamente e le ore risorsa dell'attività per l'assegnazione). Da notare che se è stato eseguito il passaggio 3 sopra, la modifica dello stato della risorsa prenotabile da Provvisoria a Definitiva comporta la rimozione del membro del team generico dal team.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

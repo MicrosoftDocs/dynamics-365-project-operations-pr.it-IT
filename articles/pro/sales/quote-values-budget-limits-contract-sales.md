@@ -2,26 +2,24 @@
 title: Informazioni di riepilogo su un'offerta di progetto - semplice
 description: Questo argomento fornisce informazioni sulle informazioni e le impostazioni che si applicano e influiscono sulle offerte di progetto. (Sales)
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f16634a87780c23d699d9ad535dd5e6d4ecb895d
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: ddc85d8c475dc7cdbe910fad31b5a6d8b617512c8a19cbae9543cb7a3e1d409e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180961"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989646"
 ---
-# <a name="summary-information-on-a-project-quote---lite"></a>Informazioni di riepilogo su un'offerta di progetto - semplice
+# <a name="header-details-for-project-quotes"></a>Dettagli dell'intestazione per offerte di progetto
 
 _**Si applica a:** Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
 Questo articolo spiega le informazioni che si applicano a un'offerta di progetto. Queste includono le impostazioni che influiscono su tutte le righe dell'offerta e le informazioni sull'offerta che vengono riepilogate in tutte le voci per guidare i KPI dell'offerta di progetto.
 
-La tabella seguente elenca i campi delle informazioni di riepilogo su un'offerta di progetto che sono univoci per Dynamics 365 Project Operations o presentano alcune importanti modifiche nel comportamento rispetto alle offerte di Dynamics 365 Sales.
+La tabella seguente elenca i campi con le informazioni di riepilogo di una offerta di progetto che sono univoci per Dynamics 365 Project Operations o hanno alcune importanti modifiche nel comportamento rispetto alle offerte in Dynamics 365 Sales.
 
 | **Campo** | **Luogo** | **Descrizione** | **Impatto downstream** |
 | --- | --- | --- | --- |
@@ -41,3 +39,6 @@ Di seguito sono riportate le schede e gli indicatori KPI disponibili in un'offer
 | Analisi della redditività | Scheda sull'offerta | La scheda mostra le metriche seguenti:</br>- Costo addebitabile totale</br></br>- Costo non addebitabile totale</br>- Ricavi totali</br>- Ricavi totali (base)</br>- Margine lordo</br>- Margine lordo rettificato|
 | Confronto con aspettative cliente | Scheda sull'offerta | Questa scheda mostra le metriche seguenti:</br>- Completamento stimato</br>- Completamento richiesto</br>- Budget cliente</br>- Valore offerto |
 | Analisi offerta | Scheda sull'offerta | Questa scheda riepiloga i seguenti KPI principali per un'offerta di progetto</br>- Confronto con le aspettative dei clienti per budget e pianificazione</br>- Margine lordo</br>- Margine lordo rettificato |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

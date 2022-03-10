@@ -1,8 +1,8 @@
 ---
-title: Note spese riprogettate
+title: Note spese riprogettate (video)
 description: Questo argomento illustra l'esperienza riprogettata e reinventata per l'inserimento della nota spese.
 author: suvaidya
-ms.date: 03/26/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 76073d5c58398b2c296fdca05ba7bdf7f01951bb
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: db5812ebf5a96afee53144efb231093f6af85b68
+ms.sourcegitcommit: 1186e9822e06a13fde89b67ea89427eddfe23cee
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995356"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7941031"
 ---
 # <a name="expense-reports-reimagined"></a>Note spese riprogettate
 
@@ -26,13 +26,13 @@ L'inserimento della nota spese è stato riprogettato per semplificare il process
 
 - Una nuova area di lavoro per la gestione delle spese che ti consente di accedere alle spese del tuo delegato.
 - Una nuova esperienza di abbinamento delle ricevute per mostrare meglio le ricevute a livello di intestazione e semplificare il processo per allegare le ricevute alle righe di spesa.
-- Una nuova griglia di sola lettura che consente di visualizzare molte più righe di spesa e colonne di dati aggiuntive. È ora possibile visualizzare tutte le righe dettagliate e suddivise, insieme alle spese padre.
+- Una nuova griglia di sola lettura che consente di visualizzare molte più righe di spesa e altre colonne di dati. È ora possibile visualizzare tutte le righe dettagliate e suddivise, insieme alle spese padre.
 - Un riquadro semplificato per la modifica delle spese.
 - Messaggi di errore, di avviso e di criteri riprogettati per fornire il contesto e la comprensione corretti del problema e come risolverlo. Abbiamo rimosso molti dei messaggi che apparivano prima che gli utenti potessero completare le loro attività e risolvere i problemi.
 - Una nuova pagina per specificare i campi obbligatori, i campi facoltativi e i campi che non dovrebbero essere inclusi. Questa pagina aiuta a ridurre il numero di campi che devono essere impostati.
 - Un nuovo aspetto per le note spese, in modo che le relazioni non sembrino più progettate per gli utenti tipo della contabilità.
 
-Per attivare la nuova esperienza, utilizza l'area di lavoro **Gestione delle funzionalità** per attivare la funzionalità **Note spese riprogettate**. Quando attivi questa funzionalità, si verificano le seguenti azioni:
+Per attivare la nuova esperienza, usa l'area di lavoro **Gestione delle funzionalità** per attivare la funzionalità **Note spese riprogettate**. Quando attivi questa funzionalità, si verificano le seguenti azioni:
 
 - L'area di lavoro esistente per le spese viene sostituita con la nuova area di lavoro.
 - Viene aggiunta una nuova voce di menu per la visibilità del campo di spesa.
@@ -45,7 +45,7 @@ Per attivare la nuova esperienza, utilizza l'area di lavoro **Gestione delle fun
 
 | Nuova funzionalità | Descrizione |
 |---|----|
-| Visibilità del campo di spesa | Una nuova pagina di configurazione consente di specificare quali campi devono essere disabilitati per un'organizzazione, quali campi devono essere obbligatori e quali sono consigliati. |
+| Visibilità del campo di spesa | Una nuova pagina di configurazione consente di specificare quali campi devono essere disabilitati per un'organizzazione. È inoltre possibile specificare quali campi devono essere obbligatori e quali sono consigliati. |
 | Campi obbligatori | La nuova configurazione semplice consente di rendere obbligatori alcuni campi senza dover utilizzare il framework dei criteri. |
 | Campi facoltativi | Viene aggiunta una seconda pagina per i campi facoltativi. In questo modo, i dipendenti non si sentiranno obbligati a impostare i campi, ma i campi sono comunque facilmente accessibili. |
 | Aggiungere ricevute non allegate | La possibilità di aggiungere ricevute non allegate alla nota spese è più visibile dall'area di lavoro e nella nota spese. |
@@ -57,13 +57,16 @@ Per attivare la nuova esperienza, utilizza l'area di lavoro **Gestione delle fun
 | Calcolatore del tasso di cambio | Viene aggiunto un calcolatore del tasso di cambio che consente di calcolare il tasso di cambio per le transazioni multivaluta vive. |
 | Salvare e aggiungere nuove righe di spesa | I pulsanti **Salva** e **Nuovo** sono disponibili quando vengono inserite nuove spese, per aiutarti a inserire rapidamente le righe di spesa. |
 | Migliore visibilità nelle righe suddivise e dettagliate | Le righe dettagliate e suddivise vengono aggiunte direttamente all'elenco delle spese per aumentare la visibilità e aiutarti a determinare facilmente se ci sono errori. |
+| Visualizzare i dettagli della sottocategoria nelle righe dettagliate | Le righe dettagliate di una spesa principale mostrano le etichette delle sottocategorie nella nota spese. Il dettaglio delle righe consente di rivedere i dettagli granulari in modo immediato.|
+|Dettagliare rapidamente le spese ricorrenti | L'area di lavoro delle spese riprogettata offre la possibilità di dettagliare rapidamente le spese ricorrenti aggiungendo la sottocategoria, la data di inizio e la quantità. La quantità si riferisce al numero di volte in cui la spesa viene ripetuta in un periodo continuo. |
 | Mostrare le ricevute durante la classificazione | Le ricevute possono essere mostrate durante la classificazione. |
 | Selezione anticipo in contanti | Seleziona uno o più anticipi in contanti per completare una singola transazione di spesa. |
 | Saldo anticipo in contanti | Esamina il saldo dell'anticipo in contati in tempo reale quando crei una voce di spesa a fronte di anticipi in contanti approvati e pagati. |
 
 La versione iniziale si concentra sugli scenari di registrazione delle spese. Qualsiasi scenario di revisione o approvazione della nota spese continuerà a utilizzare la pagina di registrazione delle spese esistente.
 
-Le seguenti funzionalità non sono supportate nell'area di lavoro di spesa riprogettata:
+
+Le seguenti funzionalità non sono supportate nell'area di lavoro riprogettata Note spese, ma sono pianificate per le versioni future: 
 
 - Integrazione della richiesta di viaggio
 - Immissione delle spese giornaliere

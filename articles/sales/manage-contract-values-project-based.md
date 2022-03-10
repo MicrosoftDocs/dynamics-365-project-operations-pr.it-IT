@@ -2,18 +2,16 @@
 title: Utilizzare le voce di contratto basate su progetto
 description: Questo argomento fornisce informazioni sulle voci di contratto basate su progetto.
 author: rumant
-manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 14d880eccd5547c122ebe37b63022e64fa2fb6fe
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: c1c935a998cba8bd42ba2f11c8310d41e72de94adac7c2cb83f4c7224127b10b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181726"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990051"
 ---
 # <a name="work-with-projectbased-contract-lines"></a>Utilizzare le voce di contratto basate su progetto
 
@@ -57,3 +55,6 @@ Regola: un progetto e una determinata classe di transazione possono essere inclu
 | C1       | CL2           | P1      | No           | Sì             | No          | Valido           | I tempi e le commissioni del progetto P1 sono inclusi in CL1. La spesa sul progetto P1 è inclusa in CL2. </br>   Non c'è sovrapposizione in ciò che viene incluso in ogni voce di contratto ed è quindi valido.  |
 | C1       | CL1           | P1      | Sì          | Sì             | Sì         | Non valido       | Viola la regola. Il tempo, le spese e le commissioni sul progetto P1 sono inclusi nelle voci dei due contratti.                                                                                               |
 | CL2      | CL2           | P1      | Sì          | Sì             | Sì         | Non valido       | Viola la regola. Il tempo, le spese e le commissioni sul progetto P1 sono inclusi nelle voci dei due contratti.                                                                                               |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

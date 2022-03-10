@@ -2,8 +2,6 @@
 title: Pianificazioni di progetto
 description: In questo argomento vengono fornite informazioni su come creare una pianificazione.
 author: ruhercul
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9a6b27050a19d8a7f2ed35f74b42bb4f371ad069
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 192fbe7f26a2bd060ffe9bc0b1eea50b9431bca4696e3da1d94bf53158e026a6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078911"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998421"
 ---
 # <a name="project-schedules"></a>Pianificazioni di progetto 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -94,7 +94,7 @@ La griglia **Pianificazione** è completamente accessibile e può essere utilizz
 
 Il nome di un'attività descrive il lavoro che deve essere completato. In PSA, gli attributi associati a un'attività descrivono la pianificazione dell'attività e i relativi requisiti di assegnazione del personale.
 
-> ![Attributi attività](media/project-2.png)
+> ![Attributi attività.](media/project-2.png)
  
 ### <a name="schedule-attributes"></a>Attributi di pianificazione
 
@@ -147,3 +147,6 @@ Per impostazione predefinita, se un'attività del nodo foglia è priva di predec
 ### <a name="manual-scheduling"></a>Pianificazione manuale
 
 Se le regole di pianificazione automatica non soddisfano i requisiti, puoi impostare la modalità di attività per l'attività su **Pianificata manualmente**. Questa impostazione interrompe il calcolo dei valori di altri attributi di pianificazione da parte del motore di pianificazione. Indipendentemente dalla modalità di attività, l'impostazione di predecessori per le attività influenza sempre la data di inizio dell'attività dipendente.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

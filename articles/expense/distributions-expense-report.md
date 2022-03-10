@@ -2,18 +2,16 @@
 title: Distribuzioni per una nota spese
 description: Quando si immettono le spese in una nota spese, è possibile distribuirle tra più progetti, persone giuridiche o account nella propria organizzazione.
 author: suvaidya
-manager: AnnBe
 ms.date: 10/10/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 96245e6da131c55b2452d7797402fa714fc41d07
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 396fd201949663d93d90f6609e5b97f646f7942cde002c91482fa7dc26c394ae
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276623"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006251"
 ---
 # <a name="distributions-on-an-expense-report"></a>Distribuzioni per una nota spese
 

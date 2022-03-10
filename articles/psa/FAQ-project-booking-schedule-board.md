@@ -2,8 +2,6 @@
 title: Creare una prenotazione di progetto dalla scheda di pianificazione
 description: In questo argomento vengono fornite informazioni su come creare una prenotazione di progetto dalla scheda di pianificazione.
 author: ruhercul
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 57fbc71681015fca73cdda4bc7d392f6be4289f3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 513f7fe75cfb7b1658b4be71ed0a17da7b64a1023992e1dada9adca8f0dbf21e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078893"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987621"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>Creare una prenotazione di progetto dalla scheda di pianificazione
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 È possibile prenotare una risorsa in un progetto direttamente dalla scheda **Team** del progetto o generando un requisito di risorsa da un'assegnazione di membro del team generico e quindi soddisfacendo il requisito generato con un membro del team di progetto.
 
@@ -43,7 +43,7 @@ ms.locfileid: "4078893"
 
 1.  Nella scheda di pianificazione, questa risorsa sarà visualizzata nella scheda **Apri requisiti**. I filtri delle colonne nella griglia possono rivelarsi utili se vi sono molti requisiti aperti. 
 
-    ![Scheda Apri requisiti nella scheda di pianificazione](media/FAQ-Project-Booking-Schedule-Board-1.png "Tabella delle prenotazioni e delle assegnazioni")
+    ![Scheda Apri requisiti nella scheda di pianificazione.](media/FAQ-Project-Booking-Schedule-Board-1.png "Tabella delle prenotazioni e delle assegnazioni")
 
 2. Selezionare il requisito. La scheda **Trova disponibilità** verrà visualizzata nella parte superiore della riga selezionata.
  
@@ -53,7 +53,7 @@ ms.locfileid: "4078893"
 
     Se si seleziona **Prenota**, la risorsa viene prenotata nel team di progetto.
 
-![Pannello Crea prenotazione risorsa](media/FAQ-Project-Booking-Schedule-Board-6.png "")
+![Pannello Crea prenotazione risorsa.](media/FAQ-Project-Booking-Schedule-Board-6.png "")
  
 
 ## <a name="book-from-the-primary-requirement"></a>Prenotare dal requisito primario
@@ -62,7 +62,7 @@ La creazione di un progetto in Project Service crea automaticamente un requisito
 
 1. Per prenotare una risorsa con il requisito primario, nella scheda di pianificazione, selezionare la scheda **Progetto**. Se esistono più progetti, il filtro della colonna **Progetto** può consentire di trovare più facilmente il progetto desiderato.
 
-   ![Filtri della colonna nella scheda di pianificazione](media/FAQ-Project-Booking-Schedule-Board-2.png "Tabella delle prenotazioni e delle assegnazioni")
+   ![Filtri della colonna nella scheda di pianificazione.](media/FAQ-Project-Booking-Schedule-Board-2.png "Tabella delle prenotazioni e delle assegnazioni")
 
 2. Selezionare il requisito il cui nome è quello del progetto e la cui durata è zero (0).
 
@@ -89,3 +89,6 @@ Completare i passaggi seguenti per prenotare da un nuovo requisito di risorsa.
 
 4. Ora che la risorsa è prenotata, è necessario assegnare manualmente le attività.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

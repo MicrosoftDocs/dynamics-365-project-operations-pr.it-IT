@@ -2,8 +2,6 @@
 title: Guida alla gestione delle risorse
 description: In questo argomento vengono forniti collegamenti a informazioni sulla gestione delle risorse in Project Service Automation.
 author: kfend
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3b1f195cf712862972e6b52d1529089ccd52c775
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b78d6771807b77e2f314cb297fd3563e235bbf53756673fc480df09e9b84dbbf
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4132518"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985237"
 ---
 # <a name="resource-management-guide"></a>Guida alla gestione delle risorse
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -42,3 +42,6 @@ Il collegamento PDF incluso precedentemente in questo argomento è stato rimosso
 
 > [!NOTE]
 > Questo argomento verrà rimosso in un aggiornamento futuro della documentazione. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

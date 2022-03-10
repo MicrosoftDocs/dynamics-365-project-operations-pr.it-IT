@@ -2,11 +2,9 @@
 title: Elaborazione della ricevuta spesa
 description: Questo argomento fornisce informazioni sull'elaborazione del riconoscimento ottico dei caratteri (OCR) per le ricevute. Questa funzionalità è progettata per migliorare l'esperienza dell'utente durante la creazione di ricevute spesa in Microsoft Dynamics 365 Finance.
 author: stsporen
-manager: AnnBe
 ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -15,16 +13,14 @@ ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 31c08ea264e6caec3217f4b424275495f39123e3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0d43c44bf4f2a58e3249d6cc1028353555cfd836580a802ad6e1878dc9b2e263
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079034"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001391"
 ---
 # <a name="expense-receipt-processing"></a>Elaborazione della ricevuta spesa
-
-[!include [banner](../includes/banner.md)]
 
 L'immissione delle spese è stata migliorata grazie all'introduzione dell'elaborazione del riconoscimento ottico dei caratteri (OCR) per le ricevute. Questa funzionalità è progettata per migliorare l'esperienza dell'utente durante la creazione di ricevute spesa.
 
@@ -97,3 +93,6 @@ Attualmente sono supportati gli Stati Uniti.
 Finance contatta Cognitive Services per estrarre i dati sul campo. Cognitive Services conserveranno una copia della ricevuta per un massimo di 24 ore durante l'elaborazione. Una volta completata l'elaborazione, Cognitive Services rimuoveranno la ricevuta. Le ricevute sono ancora archiviate in Finance.
 
 Per ulteriori informazioni, vedi [Abilitare la comprensione delle ricevute con la nuova funzionalità di riconoscimento modulo](https://azure.microsoft.com/blog/enable-receipt-understanding-with-form-recognizer-s-new-capability/).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

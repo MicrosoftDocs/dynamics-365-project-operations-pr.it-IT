@@ -2,25 +2,23 @@
 title: Concetti chiave dell'offerta - semplice
 description: Questo argomento fornisce informazioni su come utilizzare le offerte di progetto in Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e86f1a5a7b2859df5bf9569ee9ca306c6dcc6293
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 279e7dd47d3d61b02227b307a5833ca0bac66f4a774b5ff23cb69aac417e2f0e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4178011"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009446"
 ---
-# <a name="quotes---key-concepts---lite"></a>Concetti chiave dell'offerta - semplice
+# <a name="concepts-unique-to-project-quotes"></a>Concetti esclusivi delle offerte di progetto
 
 _**Si applica a:** Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
 
-Di seguito sono riportati i concetti chiave di cui tenere conto prima di iniziare a utilizzare le offerte di progetto in Dynamics 365 Project Operations:
+Questo argomento fornisce i concetti chiave di cui essere a conoscenza prima di iniziare a utilizzare le offerte di progetto in Dynamics 365 Project Operations:
 
 ## <a name="contracting-unit"></a>Unità contratto
 
@@ -89,3 +87,6 @@ Le offerte di Project Operations sono basate sulle offerte di Dynamics 365 Sales
 - Le offerte di Project Operations hanno il proprio modulo ed elementi dell'interfaccia utente, regole di business, logica di business nei plug-in e script lato client che le rendono uniche rispetto alle offerte di Sales.
 
 Per questi motivi, non è consigliabile utilizzare un'offerta di Sales e un'offerta di Project Operations in modo intercambiabile.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

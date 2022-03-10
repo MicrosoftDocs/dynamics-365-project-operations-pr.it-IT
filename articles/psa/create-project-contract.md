@@ -2,8 +2,6 @@
 title: Creare un contratto di progetto
 description: Come creare un contratto di progetto in Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0544fbd9ebf4b36256849ba246572e8101a33748
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c5530e746d802cfa00e16206817e7d12accbe5ad0762f1051869f1ca35397222
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285263"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008636"
 ---
 # <a name="create-a-project-contract-project-service"></a>Creare un contratto di progetto (Project Service)
 

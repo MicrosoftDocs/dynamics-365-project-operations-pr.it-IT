@@ -2,8 +2,6 @@
 title: Progetti e stime di vendita
 description: In questo argomento vengono fornite informazioni su come utilizzare la pianificazione e le stime nel processo di vendita.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 76e21f80e51e6f3092880dc629ba90b400805486
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 1dac342ead487c50d14f3b2fa39e60314d13b0047b77fe6df8f32dee29b09422
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148378"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995181"
 ---
 # <a name="sales-estimates-and-projects"></a>Progetti e stime di vendita
 
@@ -37,11 +35,11 @@ Durante il processo di vendita, puoi creare stime di vendita collegando un proge
 
 Quando crei una riga di offerta basata su progetto, puoi creare un nuovo progetto o associare un progetto esistente nella pagina **Riga di offerta**. 
 
-> ![Modulo Riga di offerta](media/project-8.png)
+> ![Modulo Riga di offerta.](media/project-8.png)
  
 Quando crei un nuovo progetto a partire dai dettagli della riga di offerta, puoi utilizzare i modelli di progetto. I modelli di progetto sono progetti che rappresentano i piani di progetto standard e stime finanziarie tipici di un'organizzazione. Possono anche rappresentare copie di stime e piani di progetto di progetti passati.
 
-> ![Dettagli riga di offerta](media/project-9.png)
+> ![Dettagli riga di offerta.](media/project-9.png)
   
 Quando crei il progetto a partire dall'offerta, questo viene automaticamente associato alla riga di offerta.
 
@@ -54,3 +52,6 @@ Puoi definire il lavoro richiesto e pianificare le stime utilizzando i campi nel
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>Importazione di stime da un progetto in un'offerta
 
 Dopo aver definito le stime di progetto, puoi importarle nella riga di offerta. Nella pagina **Dettagli riga di offerta**, seleziona **Importa da stime** nella barra multifunzione per riepilogare stime di progetto per tipo di transazione, ruolo o livello di attività.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Richieste di viaggio
 description: In questo argomento vengono fornite informazioni sulle richieste di viaggio.
 author: suvaidya
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 0261405abb9305d7f6abcde9cb90d9b184868580
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: f00b5ca2142c4ba5cb523773f1f6dd8f0a055f6f6d474bc2b8e5f775ca0fc739
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078745"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994551"
 ---
 # <a name="travel-requisitions"></a>Richieste di viaggio
 
@@ -56,3 +54,6 @@ Seleziona la richiesta di viaggio da approvare, quindi seleziona **Flusso di lav
 
 > [!NOTE]
 > Quando si esegue il mapping di una nota spese a una richiesta di viaggio approvata, l'importo della transazione non può essere maggiore dell'importo autorizzato. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

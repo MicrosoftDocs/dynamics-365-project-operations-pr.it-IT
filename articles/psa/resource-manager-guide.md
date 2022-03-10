@@ -2,8 +2,6 @@
 title: Guida di Resource Manager
 description: Guida alla gestione delle risorse in Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 04ee87e5b1a2cf96434f4862e07d2b85bad9eace
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 0ad7d792450303c25fdac9f1191c809006d41541763b4f565b55abfa6da58a0a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124013"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6984978"
 ---
 # <a name="resource-manager-guide-project-service"></a>Guida di resource manager (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -71,3 +71,6 @@ Le funzionalità di [!INCLUDE[pn_project_service_auto](../includes/pn-project-se
  [Guida per la gestione dell'account](../psa/account-manager-guide.md)   
  [Guida del responsabile di progetto](../psa/project-manager-guide.md)   
  [Guida per tempo, spese e collaborazione](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

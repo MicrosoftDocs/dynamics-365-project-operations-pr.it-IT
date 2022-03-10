@@ -2,26 +2,27 @@
 title: Home page dei dati di esempio
 description: Questo argomento fornisce informazioni su come utilizzare i dati di esempio disponibili per Dynamics 365 Project Operations.
 author: rumant
-manager: AnnBe
 ms.date: 06/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: b4164b912cc9ecc0d1452ca9f8c6073ba24316c5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e50eabc7f27fa89c19221a18a937da7c586e4a292761c9582c92b6b5fd494ac4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079089"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993381"
 ---
 # <a name="sample-data-home-page"></a>Home page dei dati di esempio
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

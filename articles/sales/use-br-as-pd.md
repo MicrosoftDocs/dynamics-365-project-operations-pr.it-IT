@@ -2,18 +2,16 @@
 title: Utilizzare una risorsa prenotabile come dimensione di determinazione dei prezzi
 description: In questo argomento vengono fornite informazioni sull'utilizzo di una risorsa prenotabile come dimensione di determinazione dei prezzi.
 author: Rumant
-manager: tfehr
 ms.date: 11/18/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7b9fb7732f677a04272a556238b6c2acc1dcdfb9
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1e8487d3d32acab294bb2de16fb0278f357f774e62b553eb0c1ebd5b6246e332
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277298"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996261"
 ---
 # <a name="use-a-bookable-resource-as-a-pricing-dimension"></a>Utilizzare una risorsa prenotabile come dimensione di determinazione dei prezzi
 
@@ -66,18 +64,18 @@ Per una risorsa prenotabile, l'entità **Membri del team di progetto** ha un nom
 1. Fai doppio clic sulla riga nella griglia **Dimensioni di determinazione dei prezzi** per aprire la pagina di **msdyn_bookableresource**.
 2. Nella pagina della dimensione, nella scheda **Elementi correlati**, seleziona **Nomi campo dimensioni determinazione dei prezzi**.
 
-  ![Scheda Nomi campo dimensioni determinazione dei prezzi](media/PD-fieldname.png)
+  ![Scheda Nomi campo dimensioni determinazione dei prezzi.](media/PD-fieldname.png)
 
 3. Nella vista associata che viene aperta, seleziona **Aggiungi nuovo nome campo dimensioni determinazione dei prezzi**.
 
-  ![Aggiungi nuovo nome campo dimensioni determinazione dei prezzi](media/Add-NewPD-fieldname.png)
+  ![Aggiungi nuovo nome campo dimensioni determinazione dei prezzi.](media/Add-NewPD-fieldname.png)
 
   Viene aperta la pagina **Nuovo nome campo dimensioni di determinazione dei prezzi** per **msdyn_bookableresource**. 
 
 4. Nella pagina **Nuovo nome campo dimensione determinazione prezzo**, aggiungi **msdyn_projectteam** per **Nome locale dell'entità**.
 5. Aggiungi **msdyn_bookableresourceid** a **Nome campo**.
 
- ![Modulo Nuovo nome campo dimensioni di determinazione dei prezzi](media/PD-fieldname-Added.png)
+ ![Modulo Nuovo nome campo dimensioni di determinazione dei prezzi.](media/PD-fieldname-Added.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

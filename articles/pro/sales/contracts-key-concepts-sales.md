@@ -1,25 +1,25 @@
 ---
-title: Concetti chiave dei contratti di progetto
+title: Concetti chiave dei contratti di progetto - semplice
 description: Questo argomento fornisce informazioni sui concetti chiave dei contratti di progetto.
 author: rumant
-manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 66d6b72b19a90ecc9161cd16ce9d4dd22798803b
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: a797a4fef6276f6ed008b0e58eed4c7480ba3492bcc166a362d4ff2816acf777
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4078782"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991446"
 ---
-# <a name="key-concepts-of-project-contracts"></a>Concetti chiave dei contratti di progetto
+# <a name="concepts-unique-to-project-contracts"></a>Concetti esclusivi dei contratti di progetto
 
 _**Si applica a:** Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
-Questo argomento fornisce i concetti chiave di cui tenere conto prima di iniziare a utilizzare i contratti di progetto in Dynamics 365 Project Operations:
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Questo argomento fornisce i concetti chiave di cui essere a conoscenza prima di iniziare a utilizzare i contratti di Project in Dynamics 365 Project Operations:
 
 ## <a name="contracting-unit"></a>Unità contratto
 
@@ -91,3 +91,6 @@ I contratti di Project Operations sono basati sui contratti di Dynamics 365 Sale
 - I contratti di Project Operations hanno il proprio modulo ed elementi dell'interfaccia utente, regole di business, logica di business nei plug-in e script lato client che le rendono uniche rispetto ai contratti di Sales.
 
 Per questi motivi, non dovresti utilizzare un contratto di Sales e un contratto di Project in modo intercambiabile.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

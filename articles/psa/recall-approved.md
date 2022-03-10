@@ -2,8 +2,6 @@
 title: Richiamare inserimenti ore o voci di spesa approvati
 description: In questo argomento vengono fornite informazioni su come richiamare una transazione di tempo o spesa approvata precedentemente.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/08/2019
@@ -17,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1a199985099745b2e62b844ef748ea2031054458
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e90b84bbfcd007e97e96b294144f058ac73746e3d358437692f0a8e6e92b8de3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283463"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998331"
 ---
 # <a name="recall-approved-time-or-expense-entries"></a>Richiamare inserimenti ore o voci di spesa approvati
 
@@ -100,13 +98,13 @@ Se una richiesta di richiamo viene rifiutata, non si ha alcun impatto finanziari
 
 Nella figura seguente vengono illustrate le modifiche che si verificano per gli inserimenti ore approvati quando vengono richiamati.
 
-![Transizioni dello stato degli inserimenti ore](media/TimeEntryStateTransitions.png)
+![Transizioni dello stato degli inserimenti ore.](media/TimeEntryStateTransitions.png)
 
 ## <a name="changes-to-expense-entry-records"></a>Modifiche ai record delle voci di spesa
 
 Nella figura seguente vengono illustrate le modifiche che si hanno per le voci di spesa approvate quando vengono richiamate.
 
-![Transizioni dello stato delle voci di spesa](media/ExpenseEntryStateTransitions.png)
+![Transizioni dello stato delle voci di spesa.](media/ExpenseEntryStateTransitions.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Prenotare per un progetto
 description: In questo argomento vengono fornite informazioni sulla prenotazione di una risorsa su un progetto.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: c87b0c32ef081f601ed79c11687f008bb454dd45
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 719892a37f381fc0ad6c3ccaca5c4d87c9947a4d7a39dca96aef464d04a71af0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131078"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994911"
 ---
 # <a name="book-to-a-project"></a>Prenotare per un progetto
 
@@ -66,3 +64,6 @@ In qualità di Project manager, potresti dover prenotare una risorsa per un prog
 
 > [!NOTE]
 > Questo metodo non crea alcuna prenotazione per la risorsa. Al contrario, aggiunge la risorsa al team. Dopo che il membro del team è stato aggiunto al progetto, il project manager può utilizzare le prenotazioni di mantenimento o estendere le prenotazioni per aggiungere le prenotazioni richieste alla risorsa.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

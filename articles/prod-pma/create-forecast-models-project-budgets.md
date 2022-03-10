@@ -2,11 +2,9 @@
 title: Creare modelli previsionali per i budget di progetto
 description: Questo argomento descrive come creare un modello di previsione per i budget residuo.
 author: Yowelle
-manager: AnnBe
 ms.date: 04/24/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 32a436d240f5535ff15f8bc3b8ba9be2d1d4da17
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c4467bc1c687b028f1cce8280c3cf0b5ef492b6fd1a024d49f001ce5ff8a34cb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079012"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986001"
 ---
 # <a name="create-forecast-models-for-project-budgets"></a>Creare modelli previsionali per i budget di progetto 
 
@@ -57,3 +55,6 @@ Questo argomento descrive come creare un modello di previsione per i budget resi
 
  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

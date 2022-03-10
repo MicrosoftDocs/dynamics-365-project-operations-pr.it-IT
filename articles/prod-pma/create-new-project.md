@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8218747366be8536601cb007318c642ac122536b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5aa5e00252697f91a585eaaa83a0c8a39b315cc1b25fcbf6343fdf2ce31a824e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6006246"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985956"
 ---
 # <a name="create-a-new-project"></a>Crea un nuovo progetto
 
@@ -51,7 +51,7 @@ Puoi inoltre assegnare categorie a una risorsa in base alle tue esigenze. Il tip
 
 Un project manager può utilizzare la funzionalità di assegnazione delle risorse del progetto per creare i ruoli richiesti per il progetto. I ruoli possono essere utilizzati se le risorse confermate sono ancora sconosciute quando le risorse vengono prenotate. I ruoli possono essere riservati temporaneamente come risorse pianificate, in modo da poter continuare le fasi di pianificazione del progetto.
 
-[![Esempio di un ruolo](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
+[![Esempio di un ruolo.](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
 
 **Scenario:** Contoso è stato assunto per completare un progetto Tempistica e materiali con un grafico di progetto approvato. Il project manager junior sta ancora completando l'ambito del progetto. Il responsabile delle risorse sta attualmente individuando risorse specifiche che saranno prenotate per lavorare sul nuovo progetto. A causa della natura critica del progetto, lo sponsor del progetto ha richiesto il Senior Project Manager come uno dei ruoli. Il responsabile delle risorse deve acquisire la nuova risorsa e definire il ruolo nel sistema nel caso in cui il project manager junior richieda le informazioni sulla risorsa durante la pianificazione del progetto.
 
