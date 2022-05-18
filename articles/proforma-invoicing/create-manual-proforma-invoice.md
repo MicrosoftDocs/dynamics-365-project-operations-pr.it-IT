@@ -5,14 +5,14 @@ author: rumant
 ms.date: 04/05/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2050a313fe530065341410d60801b13eb958cb32ae24eb4a0a71ab7ea5061881
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e20ea17691c592493a790fb38451b35db03416be
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995631"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600057"
 ---
 # <a name="proforma-invoices"></a>Fatture proforma
 
@@ -82,6 +82,9 @@ Quando crei una bozza di fattura di progetto, tutte le transazioni di vendita no
 - Modificare e rettificare la quantità e il tipo di fatturazione.
 
 Seleziona **Conferma** per confermare una fattura. L'azione Conferma è unidirezionale. Quando selezioni **Conferma**, il sistema rende la fattura di sola lettura e crea valori effettivi di vendite fatturate da ogni dettaglio di ogni riga fattura. Se il dettaglio di riga fattura fa riferimento a un valore effettivo di vendite non fatturate, il sistema storna anche questo valore. (qualsiasi dettaglio di riga fattura creato da una voce di spesa o un inserimento ore farà riferimento a un valore effettivo di vendite non fatturate). I sistemi di integrazione di contabilità generale possono utilizzare questo storno per stornare il lavoro in corso del progetto per scopi di contabilità.
+
+> [!NOTE]
+> Le fatture proforma confermate e i relativi record come righe di fattura e dettagli riga di fattura non possono essere modificate o eliminate. 
 
 ### <a name="correct-a-confirmed-invoice"></a>Correggere una fattura confermata
 

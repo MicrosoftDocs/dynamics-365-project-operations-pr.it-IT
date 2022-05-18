@@ -4,14 +4,14 @@ description: Questo argomento fornisce informazioni sugli aggiornamenti di quali
 author: sigitac
 ms.date: 10/30/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9eda9d75f5a4d71e6e4b8bd22dce973270639db3f927ac6a76be5b3c4303fc31
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b76ebbff1cc2720e699334601d425879f2d20770
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007961"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600379"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novità di novembre 2020 - Project Operations per scenari basati su risorse/non stoccate
 
@@ -20,7 +20,7 @@ _**Si applica a:** Project Operations per scenari basati su risorse/materiali no
 Questo argomento si applica ai seguenti componenti e versioni di Dynamics 365 Project Operations:
 
 - Project Operations in ambiente CDS versione 4.4.0.70
-- Gestione progetti e contabilità in ambiente Dynamics 365 Finance versione 10.0.14
+- Gestione progetti e contabilità in un ambiente Dynamics 365 Finance versione 10.0.14
 
 ## <a name="updates-to-project-operations-for-resource-non-stocked-based-scenarios"></a>Aggiornamenti di Project Operations per scenari basati su risorse/non stoccate
 
@@ -42,7 +42,7 @@ Questo argomento si applica ai seguenti componenti e versioni di Dynamics 365 Pr
 | Inserimento rapido spesa e ore | 2059859          | Quando si crea una voce di spesa viene visualizzato un pop-up imprevisto.                                                                                                                         |
 | Altro                        | 2044181          | (Disinstallazione dell'ordine di acquisto) Quando si tenta di disinstallare le soluzioni di base di Project Service msdyn_ProjectServiceCore_Patch e msdyn, si verifica l'errore "Record non disponibile".  |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Contabilità e gestione dei progetti in Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Gestione progetti e contabilità in Dynamics 365 Finance
 
 | Area funzionalità        | Numero di riferimento | Aggiornamento di qualità                                                                                                                                                            |
 |---------------------|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -65,7 +65,7 @@ Questo argomento si applica ai seguenti componenti e versioni di Dynamics 365 Pr
 | Contabilità di progetto  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | Abilitando la funzione, non è possibile utilizzare le righe di contratto multiple senza l'integrazione di CDS.                                                                                   |
 
 ### <a name="regulatory-updates"></a>Aggiornamenti normativi
-Per informazioni sugli aggiornamenti normativi per le app Finance and Operations, vedi [Aggiornamenti normativi](/dynamics365/finance/localizations/regulatory-updates). È inoltre possibile accedere a LCS e visualizzare gli aggiornamenti normativi pianificati utilizzando lo strumento di ricerca dei problemi. La ricerca dei problemi ti consente di cercare per paese, tipo di funzionalità e versione.
+Per informazioni sugli aggiornamenti normativi per le app per la finanza e le operazioni, vedi [Aggiornamenti normativi](/dynamics365/finance/localizations/regulatory-updates). È inoltre possibile accedere a LCS e visualizzare gli aggiornamenti normativi pianificati utilizzando lo strumento di ricerca dei problemi. La ricerca dei problemi ti consente di cercare per paese, tipo di funzionalità e versione.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

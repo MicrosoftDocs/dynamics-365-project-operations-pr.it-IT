@@ -4,26 +4,26 @@ description: Questo argomento fornisce informazioni sui concetti chiave dei cont
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ce84984f873e6336a6d065f0aa7a72f1474404a84d3dbb614c09d58bff66d83d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f87a29893ca3d9bec6fbd07dded66a282ff597c3
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986946"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582945"
 ---
 # <a name="concepts-unique-to-project-based-contracts"></a>Concetti esclusivi dei contratti basati su progetto
 
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Questo argomento fornisce i concetti chiave di cui essere a conoscenza prima di iniziare a utilizzare i contratti di Project in Dynamics 365 Project Operations:
 
 ## <a name="owning-company"></a>Società proprietaria
 
-La società proprietaria è la persona giuridica presente nel modulo **Gestione progetti e contabilità** di Project Operations da Dynamics 365 Finance. La società proprietaria rappresenta la persona giuridica che terrà conto dei costi e dei ricavi derivanti da una transazione.
+La società proprietaria è la persona giuridica indicata nel modulo **Gestione progetti e contabilità** per Project Operations in Dynamics 365 Finance. La società proprietaria rappresenta la persona giuridica che terrà conto dei costi e dei ricavi derivanti da una transazione.
 
 ## <a name="contracting-unit"></a>Unità contratto
 

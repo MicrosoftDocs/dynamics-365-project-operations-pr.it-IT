@@ -4,14 +4,14 @@ description: Questo argomento spiega come ricevere rimborsi su transazioni idone
 author: suvaidya
 ms.date: 10/10/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 64e9f4091fdf40cc702e83a165fe0a5be5043359348210bbe4afcd8a18055133
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 7c961763d3d670117c5a576db485ebcfdcf9ec9f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999366"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8581151"
 ---
 # <a name="vat-recovery-in-expense-management"></a>Recupero dell'IVA in Gestione spese
 
@@ -33,25 +33,25 @@ Dopo aver completato i prerequisiti, è necessario completare i seguenti passagg
 4. Invia i dati di recupero dell'IVA al fornitore di terze parti per presentare le dichiarazioni per il recupero internazionale.
 5. Elabora le spese per il recupero dell'IVA nazionale.
 
-Le sezioni seguenti forniscono esempi che mostrano come i dipendenti Contoso completano ogni passaggio.
+Le sezioni seguenti forniscono esempi che mostrano come i dipendenti di Contoso completano ogni passaggio.
 
 ## <a name="enter-tax-information-about-credit-card-transactions-to-identify-eligible-vat-refunds"></a>Immettere le informazioni fiscali sulle transazioni con carta di credito per individuare i rimborsi IVA idonei
 
-Nancy, un rappresentante di vendita Contoso assegnato agli Stati Uniti, tornato di recente da un viaggio di vendita nel Regno Unito. Durante il viaggio, Nancy ha sostenuto alcune spese di vitto con una carta di credito personale. Nancy deve ora creare una nota spese per riconciliare le spese.
+Nancy, una rappresentante di vendita di Contoso con sede negli Stati Uniti, è tornata di recente da un viaggio di lavoro nel Regno Unito. Durante il viaggio, Nancy ha sostenuto alcune spese di vitto con una carta di credito personale. Nancy deve ora creare una nota spese per riconciliare le spese.
 
 Quando Nancy inserisce le informazioni nella nota spese, seleziona **Regno Unito** nel campo **Paese/area geografica** nella pagina **Modifica nota spese**. L'elenco delle fasce IVA viene quindi filtrato in modo da mostrare solo i gruppi che si applicano al Regno Unito. Nancy seleziona la fascia IVA **Regno Unito 001** e quindi seleziona la fascia IVA articoli **Vitto**. Successivamente, Nancy aggiunge una nuova transazione per l'alloggio. Poiché esiste solo una fascia IVA e una fascia IVA articoli per l'alloggio nel Regno Unito, queste informazioni vengono inserite automaticamente nella nota spese di Nancy.
 
-Secondo la policy Contoso, tutte le spese devono avere una ricevuta corrispondente. Pertanto, quando Nancy salva la nota spese, riceve un messaggio che indica che deve allegare una ricevuta per ogni transazione che ha elencato nella sua nota spese. Nancy verifica di aver allegato un'immagine digitale di ciascuna ricevuta di transazione alla sua nota spese e quindi invia la nota spese per l'approvazione. Quindi invia le ricevute cartacee al team di elaborazione di back office. Questo team invierà i dati di recupero dell'IVA al fornitore di terze parti che presenta le dichiarazioni di recupero dell'IVA internazionali per Contoso.
+In base ai criteri di Contoso, tutte le spese devono avere una ricevuta corrispondente. Pertanto, quando Nancy salva la nota spese, riceve un messaggio che indica che deve allegare una ricevuta per ogni transazione che ha elencato nella sua nota spese. Nancy verifica di aver allegato un'immagine digitale di ciascuna ricevuta di transazione alla sua nota spese e quindi invia la nota spese per l'approvazione. Quindi invia le ricevute cartacee al team di elaborazione di back office. Questo team invierà i dati di recupero IVA al fornitore di terze parti che presenta le dichiarazioni per il recupero IVA internazionale per Contoso.
 
 ## <a name="verify-tax-information-and-post-an-expense-report"></a>Verificare le informazioni fiscali e registrare una nota spese
 
-Prima di aprile, il coordinatore della contabilità fornitori per Contoso, può registrare una nota spese, deve inserire tutte le informazioni fiscali mancanti. Apre la pagina **Dettagli nota spese** e vede la nota spese approvata di Nancy. April quindi apre la nota spese per visualizzare i dettagli delle transazioni. Vede che Nancy non ha inserito una fascia IVA articoli per una delle transazioni. Poiché queste informazioni non sono state fornite, April non può registrare la nota spese. Pertanto, controlla la pagina **Configurazioni imposte** in Gestione spese e trova la fascia IVA articoli appropriata per il paese/area geografica e il tipo di transazione. April può ora registrare la nota spese nella contabilità generale.
+Prima che April, il coordinatore della contabilità fornitori di Contoso, possa registrare una nota spese, deve inserire tutte le informazioni fiscali mancanti. Apre la pagina **Dettagli nota spese** e vede la nota spese approvata di Nancy. April quindi apre la nota spese per visualizzare i dettagli delle transazioni. Vede che Nancy non ha inserito una fascia IVA articoli per una delle transazioni. Poiché queste informazioni non sono state fornite, April non può registrare la nota spese. Pertanto, controlla la pagina **Configurazioni imposte** in Gestione spese e trova la fascia IVA articoli appropriata per il paese/area geografica e il tipo di transazione. April può ora registrare la nota spese nella contabilità generale.
 
 Quando April registra la nota spese, viene creato un elemento di lavoro recuperabile IVA. Questo elemento di lavoro viene assegnato a un membro del team di elaborazione di back office. April riceve un messaggio di conferma che la registrazione è andata a buon fine. Questo messaggio elenca anche il numero di transazioni IVA identificate per il recupero.
 
 ## <a name="process-expenses-that-are-eligible-for-international-vat-recovery"></a>Elaborare le spese idonee per il recupero dell'IVA internazionale
 
-Arnie, membro del team di elaborazione del back-office Contoso, è responsabile di verificare che tutte le informazioni necessarie per il recupero dell'IVA siano incluse nelle note spese. Apre la pagina **Recupero imposte su spese** e seleziona la nota spese inviata da Nancy. Arnie verifica quindi che tutte le ricevute obbligatorie siano allegate e che siano stati inseriti la fascia IVA e i codici IVA articoli corretti.
+Arnie, un membro del team di elaborazione di back-office di Contoso, è responsabile di verificare che tutte le informazioni obbligatorie per il recupero dell'IVA siano incluse nelle note spese. Apre la pagina **Recupero imposte su spese** e seleziona la nota spese inviata da Nancy. Arnie verifica quindi che tutte le ricevute obbligatorie siano allegate e che siano stati inseriti la fascia IVA e i codici IVA articoli corretti.
 
 Quando Arnie riceve le ricevute cartacee da Nancy, le confronta con le ricevute digitali e quindi modifica lo stato della nota spese in **Pronte per il recupero**.
 

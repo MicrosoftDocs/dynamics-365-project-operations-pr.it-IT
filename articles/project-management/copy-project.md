@@ -2,16 +2,16 @@
 title: Copiare un progetto
 description: In questo argomento vengono fornite informazioni sulla copia di progetti in Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 05/21/2021
+ms.date: 03/07/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: fe76f59b315fd0f46b25e1d116acde1f6b2864d1753e01d6311ea93ae7d116fc
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e9b637d2d282d123dfacb8a295292ea06549aa1e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007196"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8574435"
 ---
 # <a name="copy-a-project"></a>Copiare un progetto
 
@@ -25,39 +25,47 @@ Con Dynamics 365 Project Operations, puoi creare rapidamente nuovi progetti sele
 - Stime di progetto
 - Stime di spesa del progetto
 - Stime dei materiali di progetto
+- Elenchi di controllo del progetto
+- Bucket di progetto
 
 ## <a name="project-properties"></a>Proprietà del progetto
 
-Quando il progetto viene copiato, vengono copiati i valori nei seguenti campi:
+Quando il progetto viene copiato, vengono copiati i valori nei seguenti campi.
 
-- Nome
-- Descrizione
-- Cliente
-- Modello calendario
-- Valuta
-- Unità contratto
-- Responsabile di progetto
-- Stato
-- Stato di progetto generale
-- Commenti
-- Stime
-- Data di inizio stimata: questa è la data in cui il progetto viene creato dalla copia.
-- Data di fine stimata: questa data viene modificata in base alla data di inizio del nuovo progetto creato dalla copia.
-- Lavoro (ore)
-- Costo manodopera stimato
-- Costo spese stimato
-- Costo materiale stimato
+| Campo | Project Operations per materiali non stoccati | Project Operations Lite | Project for the Web |
+|-------|------------------------------------------|-------------------------|---------------------|
+| Name | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Description | :heavy_check_mark: | :heavy_check_mark: | |
+| Cliente | :heavy_check_mark: | :heavy_check_mark: | |
+| Modello calendario | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Valuta | :heavy_check_mark: | :heavy_check_mark: | |
+| Unità di contratto | :heavy_check_mark: | :heavy_check_mark: | |
+| Società proprietaria | :heavy_check_mark: | | |
+| Responsabile di progetto | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Status | :heavy_check_mark: | :heavy_check_mark: | |
+| Stato di progetto generale | :heavy_check_mark: | :heavy_check_mark: | |
+| Commenti | :heavy_check_mark: | :heavy_check_mark: | |
+| Stime | :heavy_check_mark: | :heavy_check_mark: | |
+| <p>Data di inizio prevista</p><p><strong>Nota:</strong> Questo campo specifica la data in cui il progetto viene creato dalla copia. | :heavy_check_mark: | :heavy_check_mark: | |
+| <p>Data di fine stimata</p><p><strong>Nota:</strong> La data in questo campo viene modificata in base alla data di inizio del nuovo progetto che è stato creato dalla copia.</p> | :heavy_check_mark: | :heavy_check_mark: | |
+| Lavoro (ore) | :heavy_check_mark: | :heavy_check_mark: | |
+| Costo manodopera stimato | :heavy_check_mark: | :heavy_check_mark: | |
+| Costo spese stimato | :heavy_check_mark: | :heavy_check_mark: | |
+| Costo materiale stimato | | :heavy_check_mark: | |
 
 > [!NOTE]
 > Il progetto di copia è un'operazione a esecuzione prolungata. Vengono copiati anche i record del progetto, i relativi attributi e molte entità correlate. A causa dell'esecuzione prolungata dell'operazione, dopo l'avvio della copia, la pagina del progetto di destinazione è bloccata per la modifica fino al completamento dell'operazione di copia.
 
 ## <a name="work-breakdown-structure"></a>Struttura di suddivisione del lavoro
 
-Quando il progetto viene copiato, viene copiata l'intera struttura di suddivisione del lavoro caricata dalle risorse. Le risorse denominate vengono sostituite dalle risorse generiche. Se le risorse denominate non hanno lo stesso orario di lavoro della risorsa generica, la pianificazione verrà ricalcolata e la durata delle attività potrebbe cambiare.
+Quando il progetto viene copiato, viene copiata l'intera struttura di suddivisione del lavoro caricata dalle risorse. Le risorse denominate vengono sostituite dalle risorse generiche. Se le risorse denominate non hanno le stesse ore lavorative della risorsa generica, la pianificazione verrà ricalcolata e le durate delle attività potrebbero cambiare.
 
 ## <a name="project-team-members"></a>Membri del team di progetto
 
 Quando un team di progetto viene copiato dal progetto di origine, vengono copiate le risorse generiche. Anche le assegnazioni di risorse generiche vengono gestite come se fossero nel progetto di origine. Le risorse denominate verranno convertite in membri generici del team.
+
+> [!NOTE]
+> I membri del team e le assegnazioni non vengono copiati in Project for the Web.
 
 ## <a name="estimates"></a>Stime
 
@@ -65,5 +73,8 @@ Quando il progetto viene copiato, le righe di risorse, spese e stima dei materia
 
 Per informazioni su come accedere a livello di codice a Copia progetto, vedi [Sviluppare modelli di progetto con Copia progetto](dev-copy-project.md).
 
+## <a name="quotes-and-contracts"></a>Offerte e contratti
+
+Offerte e contratti non sono collegati al progetto di destinazione.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

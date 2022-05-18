@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4dc1628a0dde0551aaf3bc10af628ef57881d85e
-ms.sourcegitcommit: a51f40c905874103040708be2188c04ab0716c38
+ms.openlocfilehash: 1d4c2cce88514e7822515fc407fc7cf31cb34924
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7798045"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8596285"
 ---
 # <a name="capture-a-receipt-using-ocr"></a>Acquisire una ricevuta utilizzando OCR
 
@@ -52,7 +52,7 @@ Per creare una spesa o abbinare una spesa da una ricevuta, completa i seguenti p
 
 ## <a name="installation"></a>Installazione
 
-Per utilizzare queste funzionalità avanzate di spesa, installa il componente aggiuntivo Servizio gestione delle spese per Microsoft Dynamics 365 Finance e attiva le funzionalità nella tua istanza. Puoi accedere al componente aggiuntivo dal tuo progetto in Microsoft Dynamics Lifecycle Services (LCS).
+Per utilizzare queste funzionalità di spesa avanzate, installa il componente aggiuntivo Servizio gestione spese per Microsoft Dynamics 365 Finance e attiva le funzionalità nella tua istanza. Puoi accedere al componente aggiuntivo dal tuo progetto in Microsoft Dynamics Lifecycle Services (LCS).
 
 1. Accedi a LCS e apri l'ambiente desiderato.
 2. Vai a **Dettagli completi**.

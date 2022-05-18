@@ -3,25 +3,23 @@ title: Panoramica della gestione delle spese
 description: Questo argomento fornisce informazioni generali sulla gestione delle spese e i collegamenti a risorse aggiuntive. Puoi utilizzare la gestione delle spese per creare un flusso di lavoro integrato in cui è possibile memorizzare le informazioni sul metodo di pagamento, importare le transazioni della carta di credito e tenere traccia del denaro che i dipendenti spendono quando sostengono le spese per l'azienda.
 author: ShylaThompson
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: TrvExpenseWorkspace
 audience: Application User, IT Pro
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.reviewer: johnmichalak
 ms.assetid: 2d97d69b-9c08-4f0d-9637-68759fd34d34
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b069b5101c0b093bea5ddb7c02d4e0f5fedd09b7ae051dca96f620b164c17fd3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 93a8581db26dfecb9f847740c979e096dc3e227d
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001436"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684831"
 ---
 # <a name="expense-management-overview"></a>Panoramica della gestione delle spese
 
@@ -45,7 +43,7 @@ Per ulteriori informazioni, vedi [Note spese riprogettate](ExpenseWorkspaceNew.m
 
 ### <a name="blogs"></a>Blog
 
-Puoi trovare opinioni, notizie e altre informazioni sul [blog Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) e sul [blog Microsoft Dynamics 365 Finance and Operations - Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
+Per opinioni, notizie e altre informazioni, fai riferimento al [blog di Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) e al [blog di Microsoft Dynamics 365 Finance and Operations - Dati finanziari](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 Il [blog Microsoft Dynamics Operations Partner Community](https://community.dynamics.com/partner/b/operationspartnercommunityblog) offre ai partner Microsoft Dynamics un'unica risorsa in cui possono apprendere le novità e le tendenze delle operazioni MBS.
 

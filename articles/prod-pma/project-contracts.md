@@ -8,20 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjProjectContractsListPage, ProjProjectsListPage
 audience: Application User, IT Pro
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 23561
 ms.assetid: bfd18d9b-d9a6-4e21-bc95-bf4af45f617f
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b92668c38071e8b1afdee9a79fd4a25190248ada30380bfb79054a6dc587f95
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8cfc5183ce28574d865389eba72cafd3528741cc
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001031"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683497"
 ---
 # <a name="project-contracts"></a>Contratti di progetto
 
@@ -45,7 +44,7 @@ Alcuni contratti di progetto specificano che più parti condividono la responsab
 -   Un progetto stradale è cofinanziato da due comuni.
 -   Un progetto per un ponte è finanziato da una sovvenzione governativa e da una società privata.
 
-In Dynamics 365 Finance, puoi suddividere la fatturazione per una singola transazione o un intero progetto tra più clienti, sovvenzioni o organizzazioni. 
+In Dynamics 365 Finance è possibile suddividere la fatturazione per una singola transazione o un intero progetto tra più clienti, contributi o organizzazioni. 
 
 Nei progetti che hanno più finanziatori, tutte le parti che contribuiscono al finanziamento di un progetto di finanziamento avanzato sono chiamate fonti di finanziamento. Dopo che un cliente, un'organizzazione o una sovvenzione è stata definita come fonte di finanziamento, può essere assegnata a una o più regole di finanziamento. Le regole di finanziamento contengono i criteri che determinano il modo in cui gli addebiti vengono assegnati alle varie fonti di finanziamento per un progetto. 
 

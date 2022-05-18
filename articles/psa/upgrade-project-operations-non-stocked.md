@@ -3,7 +3,7 @@ title: Aggiornamento da Project Service Automation a Project Operations
 description: Questo argomento fornisce una panoramica del processo di aggiornamento da Microsoft Dynamics 365 Project Service Automation a Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
-ms.date: 01/05/2022
+ms.date: 01/13/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -15,12 +15,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9363fd5a06b6b1ba023961b03228e13a53a82002
-ms.sourcegitcommit: 5789766efae1e0cb513ea533e4f9ac1e553158a5
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 3f31173197a3055cdc51567261dd91925fc9f430
+ms.sourcegitcommit: bec7382d1319d59645e8e79fdb20df58617c97c6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952842"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8626717"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Aggiornamento da Project Service Automation a Project Operations
 
@@ -28,7 +29,7 @@ Siamo lieti di annunciare la prima delle tre fasi per l'aggiornamento da Microso
 
 Il programma di consegna dell'aggiornamento sarà suddiviso in tre fasi.
 
-| Consegna dell'aggiornamento | Fase 1 (gennaio 2022) | Fase 2 (ciclo di aprile 2022) | Fase 3 (ciclo di aprile 2022) |
+| Consegna dell'aggiornamento | Fase 1 (gennaio 2022) | Fase 2 (ciclo di aprile 2022) | Fase 3  |
 |------------------|------------------------|---------------------------|---------------------------|
 | Nessuna dipendenza dalla struttura di suddivisione del lavoro (WBS) per i progetti | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | La struttura di suddivisione del lavoro entro i limiti attualmente supportati di Project Operations | | :heavy_check_mark: | :heavy_check_mark: |
@@ -38,11 +39,11 @@ Il programma di consegna dell'aggiornamento sarà suddiviso in tre fasi.
 
 Come parte del processo di aggiornamento, abbiamo aggiunto i registri di aggiornamento alla mappa del sito, in modo che gli amministratori possano diagnosticare più facilmente gli errori. Oltre alla nuova interfaccia, verranno aggiunte nuove regole di convalida per garantire l'integrità dei dati dopo un aggiornamento. Le seguenti convalide verranno aggiunte al processo di aggiornamento.
 
-| Convalide | Fase 1 (gennaio 2022) | Fase 2 (ciclo di aprile 2022) | Fase 3 (ciclo di aprile 2022) |
+| Convalide | Fase 1 (gennaio 2022) | Fase 2 (ciclo di aprile 2022) | Fase 3  |
 |-------------|------------------------|---------------------------|---------------------------|
 | La struttura di suddivisione del lavoro verrà convalidata rispetto alle comuni violazioni dell'integrità dei dati (ad esempio, assegnazioni di risorse associate alla stessa attività padre ma con progetti padre diversi). | | :heavy_check_mark: | :heavy_check_mark: |
 | La struttura di suddivisione del lavoro sarà convalidata rispetto ai [limiti noti di Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries). | | :heavy_check_mark: | :heavy_check_mark: |
-| La struttura di suddivisione del lavoro sarà convalidata rispetto ai limiti noti di Project Desktop Client. | | :heavy_check_mark: | :heavy_check_mark: |
+| La struttura di suddivisione del lavoro sarà convalidata rispetto ai limiti noti di Project Desktop Client. | |  | :heavy_check_mark: |
 | Le risorse prenotabili e i calendari di progetto verranno valutati rispetto alle eccezioni comuni alle regole di calendario incompatibili. | | :heavy_check_mark: | :heavy_check_mark: |
 
 Nella fase 2, i clienti che eseguono l'aggiornamento a Project Operations avranno i loro progetti esistenti aggiornati a un'esperienza di sola lettura per la pianificazione del progetto. In questa esperienza di sola lettura, la struttura di suddivisione del lavoro completa sarà visibile nella griglia di monitoraggio. Per modificare la struttura di suddivisione del lavoro, i responsabili di progetto possono selezionare **Converti** nella pagina principale **Progetti**. Un processo in background aggiornerà quindi il progetto in modo che supporti la nuova esperienza di pianificazione del progetto da Project for the Web. Questa fase è appropriata per i clienti che hanno progetti che rientrano nei [limiti noti di Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
@@ -56,7 +57,7 @@ Per essere idoneo per l'aggiornamento della fase 1, un cliente deve soddisfare i
 - L'ambiente di destinazione non deve contenere alcun record nell'entità **msdyn_projecttask**.
 - Le licenze valide per Project Operations devono essere assegnate a tutti gli utenti attivi del cliente. 
 - Il cliente deve convalidare il processo di aggiornamento in almeno un ambiente non di produzione con un set di dati rappresentativo allineato con i dati di produzione.
-- L'ambiente di destinazione deve essere aggiornato al rilascio 38 di Project Service Automation o successivo.
+- L'ambiente di destinazione deve essere aggiornato al rilascio 41 (3.10.62.162) di Project Service Automation o successivo.
 
 I prerequisiti per la fase 2 e la fase 3 verranno aggiornati con l'avvicinarsi delle date di disponibilità generale.
 
@@ -77,9 +78,9 @@ Ecco alcune cose a cui prestare attenzione:
 
 Dopo aver aggiornato le personalizzazioni per importare in modo pulito Project Operations, vai ai passaggi successivi.
 
-## <a name="end-to-end-testing-in-lower-environments"></a>Test end-to-end in ambienti inferiori
+## <a name="end-to-end-testing-in-development-environments"></a>Test end-to-end in ambienti di sviluppo
 
-### <a name="run-the-upgrade-in-production"></a>Eseguire l'aggiornamento in produzione
+### <a name="initiate-upgrade"></a>Avviare l'aggiornamento 
 
 1. Nell'interfaccia di amministrazione di Power Platform trova e seleziona il tuo ambiente. Quindi, nelle applicazioni, trova e seleziona **Dynamics 365 Project Operations**.
 2. Seleziona **Installa** per iniziare l'aggiornamento. L'interfaccia di amministrazione di Power Platform presenterà questa installazione come una nuova installazione. Tuttavia, verrà rilevata la presenza di una versione precedente di Project Service Automation e l'installazione esistente verrà aggiornata.
@@ -93,6 +94,10 @@ Dopo aver aggiornato le personalizzazioni per importare in modo pulito Project O
 4. Vai a **Impostazioni** \> **Soluzioni** e seleziona di disinstallare la soluzione **Componenti deprecati di Project Operations**.
 
     Questa soluzione è una soluzione temporanea che contiene il modello di dati esistente e i componenti presenti durante l'aggiornamento. Rimuovendo questa soluzione, rimuovi tutti i campi e i componenti che non vengono più utilizzati. In questo modo, contribuisci a semplificare l'interfaccia e a rendere più facili l'integrazione e l'estensione.
+    
+### <a name="validate-common-scenarios"></a>Scenari di convalida comuni
+
+Quando convalidi le tue personalizzazioni specifiche, ti consigliamo di rivedere anche i processi aziendali supportati nelle applicazioni. Questi processi aziendali includono, tra gli altri, la creazione di entità di vendita come offerte e contratti e la creazione di progetti che includono la struttura di suddivisione del lavoro e l'approvazione dei valori effettivi.
 
 ## <a name="major-changes-between-project-service-automation-and-project-operations"></a>Principali cambiamenti tra Project Service Automation e Project Operations
 

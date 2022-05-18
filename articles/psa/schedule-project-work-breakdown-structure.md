@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 896f19746bde1ba6cf2acd6d558137f4271a5cd99424043053eefe128d3b4250
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 24e13642ac1fb9e90daab6d8aa9b16ed9c2defbf
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996801"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8587361"
 ---
 # <a name="schedule-a-project-with-a-work-breakdown-structure-project-service"></a>Pianificare un progetto con una struttura di suddivisione del lavoro (Project Service)
 
@@ -63,7 +64,7 @@ Una pianificazione del progetto comunica il lavoro da eseguire, le risorse che r
 ## <a name="task-types"></a>Tipi di attività  
 Utilizzerai i seguenti tipi di attività quando si crea la struttura di suddivisione del lavoro:  
 
-| | | 
+| Attività | Description | 
 |---------------------------------------|-----------------------------------------------------------------| 
 | **Nodo radice di progetto** | L'attività di riepilogo di livello superiore per il progetto. Tutte le altra attività di progetto vengono create al di sotto. Il nome dell'attività principale è il nome del progetto. Il lavoro, le date e la durata del nodo radice sono basati sui valori nella gerarchia sottostante. Non puoi modificare le proprietà del nodo radice o eliminare il nodo radice. | 
 | **Attività di riepilogo o del contenitore** | Un'attività di riepilogo ha un'attività secondaria sottostante. Un'attività di riepilogo non ha alcun lavoro o costo proprio. Il suo lavoro e il suo costo sono un rollup delle attività secondarie. Puoi modificare il nome di un'attività di riepilogo, ma non puoi modificare il lavoro, le date o la durata, perché vengono calcolate automaticamente. L'eliminazione di un'attività di riepilogo elimina l'attività stessa e le attività secondarie.|  

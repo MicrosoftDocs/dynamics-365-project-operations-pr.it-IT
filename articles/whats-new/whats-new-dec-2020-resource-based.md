@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: dd4047c2f1ed89d668882e4a1e162f3df8e452cf1ed6b85e34e6290b33e53814
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 766e2815d2a07708ace91a0ff5308e0195ff0edc
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6984876"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579863"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novità di dicembre 2020 - Project Operations per scenari basati su risorse/non stoccate
 
@@ -21,7 +21,7 @@ _**Si applica a:** Project Operations per scenari basati su risorse/materiali no
 Questo argomento si applica ai seguenti componenti e versioni di Dynamics 365 Project Operations:
 
 - Project Operations in ambiente Dataverse versione 4.5.0.134
-- Gestione progetti e contabilità in ambiente Dynamics 365 Finance versione 10.0.15
+- Gestione progetti e contabilità in un ambiente Dynamics 365 Finance versione 10.0.15
 
 Per informazioni su come eseguire l'aggiornamento a questa versione, vedi [Aggiornare Project Operations nel tuo ambiente Finance](ur5-nonstocked-installation.md).
 
@@ -61,12 +61,12 @@ In questa release sono incluse le seguenti funzionalità:
 | Pianificazione e rilevamento dei progetti | 2057197          | La copia della riga della stima con riferimento all'attività non è supportata                                                                                                     |
 | Pianificazione e rilevamento dei progetti | 2060687          | L'avviso sul fuso orario ora scompare dopo una durata specifica                                                                                                      |
 | Gestione delle risorse           | 1832887          | L'ID della categoria della risorsa predefinita deve essere statico per garantire caricamenti di dati ripetibili per ambienti Dataverse e Finance                                                 |
-| Ore e spesa              | 2081793          | Il **nome della categoria di spesa** deve essere mappato sul campo **Descrizione della categoria di spesa** nelle app Finance and Operations                                                  |
+| Ore e spesa              | 2081793          | **Nome della categoria di spesa** deve essere mappato al campo **Descrizione della categoria di spesa** nelle app per la finanza e le operazioni                                                  |
 | Ore e spesa              | 2034882          | Il pulsante **Nuovo** viene visualizzato due volte sulla barra dei comandi per le voci di tempo quando Dynamics 365 Field Service è installato                                          |
 | Ore e spesa              | 2056028          | Aggiornare la pagina **Modifica ora** per includere la sequenza temporale                                                                                                              |
 | Ore e spesa              | 1983747          | Il grafico di inserimenti ore mostra dati aggiuntivi                                                                                                                   |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Contabilità e gestione dei progetti in Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Gestione progetti e contabilità in Dynamics 365 Finance
 
 | Area funzionalità                        | Numero di riferimento | Aggiornamento di qualità                                                                                                                                                                                                                                                   |
 |-------------------------------------|------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -106,7 +106,7 @@ In questa release sono incluse le seguenti funzionalità:
 | Viaggi e spesa                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | Il flusso di lavoro di registrazione automatica della nota spese è stato completato ma la fattura non viene registrata                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>Aggiornamenti normativi
-Per informazioni sugli aggiornamenti normativi per le app Finance and Operations, vedi [Aggiornamenti normativi](/dynamics365/finance/localizations/regulatory-updates). È inoltre possibile accedere a LCS e visualizzare gli aggiornamenti normativi pianificati utilizzando lo strumento di ricerca dei problemi. La ricerca dei problemi ti consente di cercare per paese, tipo di funzionalità e versione.
+Per informazioni sugli aggiornamenti normativi per le app per la finanza e le operazioni, vedi [Aggiornamenti normativi](/dynamics365/finance/localizations/regulatory-updates). È inoltre possibile accedere a LCS e visualizzare gli aggiornamenti normativi pianificati utilizzando lo strumento di ricerca dei problemi. La ricerca dei problemi ti consente di cercare per paese, tipo di funzionalità e versione.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

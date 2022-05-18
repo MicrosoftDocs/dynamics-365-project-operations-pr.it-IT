@@ -4,14 +4,14 @@ description: In questo argomento vengono fornite informazioni sulle offerte di p
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 0ccf669fb47585e13e24921f2aeee383b33dd9c5f882e82220a906f9b73bfcc4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: eab780241953bbabab199e146c94a15e272e35c9
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001526"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579587"
 ---
 # <a name="manage-project-quotes"></a>Gestire offerte di progetto
 
@@ -31,6 +31,9 @@ Un elenco di tutte le offerte di progetto può essere visualizzato dalla pagina 
 2. Utilizza **Cambia vista** per selezionare altre visualizzazioni filtrate delle offerte. Utilizzando criteri di filtro personalizzati, è possibile configurare le proprie visualizzazioni e opzioni di spostamento.
 
 Le offerte possono essere create o eliminate da questa pagina elenco o dalle pagine dei dettagli.
+
+ > [!NOTE]
+ > Le offerte a cui sono associati progetti, attività, stime, giornali di registrazione e/o effettivi non possono essere eliminate. Inoltre, quando un'offerta viene chiusa come Acquisita o Persa, non può più essere eliminata o modificata. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

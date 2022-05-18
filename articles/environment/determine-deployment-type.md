@@ -4,14 +4,14 @@ description: Questo argomento fornisce informazioni per determina il tipo di dis
 author: stsporen
 ms.date: 03/15/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 4be8e69c5b6ff1ed65e9484a9b427bb428f7ff3e6dc597c615d5586da52867ef
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 280578b2710a0bccd1973b51b062fef7a2997780
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994641"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584141"
 ---
 # <a name="determine-your-deployment-type"></a>Determinare il tipo di distribuzione
 
@@ -25,7 +25,7 @@ _**Si applica a:** Project Operations per scenari basati su risorse/materiali no
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>Clienti esistenti di Dynamics che utilizzano Dynamics 365 Project Service Automation
 Project Operations include le funzionalità fornite con Project Service Automation. Un percorso di aggiornamento verrà rilasciato per questi clienti nel primo ciclo di rilascio del 2021.
 
-## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Clienti esistenti di Dynamics 365 Finance che utilizzando Gestione progetti e contabilità 
+## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Clienti esistenti di Dynamics 365 Finance che utilizzano Gestione progetti e contabilità 
 
 I clienti esistenti di Finance che utilizzano la funzionalità Gestione progetti e contabilità possono continuare a utilizzarlo così com'è. Vedi [Project Operations per scenari di materiali stoccati/ordini di produzione](#pma).
 
@@ -42,7 +42,7 @@ Il nostro [Questionario sulla distribuzione](https://aka.ms/provisionprojectoper
 - [Project Operations per scenari di risorse/materiali non stoccati](#integrated)
 - [Project Operations per scenari di materiali stoccati/ordini di produzione](#pma)
 
-Project Operations supporta scenari di materiali stoccati/ordini di produzione e scenari basati su risorse/materiali non stoccati nello stesso ambiente tramite configurazioni a livello di persona giuridica. Ad esempio, Contoso può utilizzare le funzionalità per materiali stoccati/ordini di produzione nel proprio stabilimento di produzione negli Stati Uniti (Persona giuridica = Contoso Manufacturing United States). Contoso può utilizzare le funzionalità per materiali non stoccati/basate su risorse disponibili nello stabilimento Contoso Robotics Arms nel Regno Unito (Persona giuridica = Contoso Robotics - Regno Unito).
+Project Operations supporta scenari di materiali stoccati/ordini di produzione e scenari basati su risorse/materiali non stoccati nello stesso ambiente tramite configurazioni a livello di persona giuridica. Ad esempio, Contoso può utilizzare le funzionalità di materiali stoccati/ordini di produzione nel proprio stabilimento di produzione negli Stati Uniti (persona giuridica = Contoso Manufacturing United States). Contoso può utilizzare le funzionalità basate su risorse/materiali non stoccati nella struttura di assistenza Contoso Robotics Arms nel Regno Unito (persona giuridica = Contoso Robotics United Kingdom).
 
 ### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Distribuzione semplice: dalla transazione alla fatturazione proforma
 

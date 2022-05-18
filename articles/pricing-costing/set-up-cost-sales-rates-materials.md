@@ -2,16 +2,16 @@
 title: Impostare le tariffe di vendita e costi per i materiali
 description: Questo argomento fornisce informazioni su come impostare le tariffe di vendita e costi per i materiali utilizzati nei progetti.
 author: rumant
-ms.date: 04/07/2021
+ms.date: 03/21/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c80317ac56c4e1ed465273ea6d0a7c65f1f5830c349a9b8d5b6f7f8d92424c7b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1b1b679f15662d922804deefb6372adcdf4d4839
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999186"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576873"
 ---
 # <a name="set-up-cost-and-sales-rates-for-materials"></a>Impostare le tariffe di vendita e costi per i materiali
 
@@ -25,6 +25,9 @@ Per impostare tariffe di vendita e di costo per i prodotti, completa i seguenti 
 2. In **Voci di listino**, nel menu della griglia secondaria, seleziona **Nuova voce di listino**. 
 3. Nella pagina **Creazione rapida**, inserisci il prodotto e l'unità per cui stai creando il nuovo prezzo.
 
-Per ulteriori informazioni su come definire i prezzi per gli articoli del catalogo, vedi [Impostare i prezzi per i prodotti](/dynamics365/sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md) e [Precisione decimale per valute e prezzi](/dynamics365/sales-enterprise/decimal-precision-currency-pricing.md).
+Per ulteriori informazioni su come definire i prezzi per gli articoli del catalogo, vedi [Definire i prezzi dei prodotti con i listini prezzi e le voci di listino](/dynamics365/sales/create-price-lists-price-list-items-define-pricing-products) e [Precisione decimale in valuta e prezzi](/dynamics365/sales/decimal-precision-currency-pricing).
+> [!NOTE]
+> Dynamics 365 Project Operations non supporta tutti i metodi di determinazione del prezzo per prodotti come Dynamics 365 Sales. L'unico metodo di determinazione del prezzo supportato per i prodotti da utilizzare nei progetti è *Importo in valuta*.
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

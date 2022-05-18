@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 03/22/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 2569133200b531197a46da095547fcc3f444cc98bfcc139b77a7db58e1439ca9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0f8d57db75f426d87bcdcdde8fb9dfbe1ccc479f
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991176"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723727"
 ---
 # <a name="whats-new-or-changed-in-project-operations-march-2021-for-stockedproduction-based-scenarios"></a>Novità o modifiche di marzo 2021 - Project Operations per scenari basati su materiali stoccati/produzione
 
@@ -20,7 +20,7 @@ _**Si applica a:** Project Operations per scenari basati su materiali stoccati/p
 
 Questo argomento si applica ai seguenti componenti e versioni di Dynamics 365 Project Operations:
 
-- Gestione progetti e contabilità in ambiente Dynamics 365 Finance versione 10.0.17
+- Gestione progetti e contabilità in un ambiente Dynamics 365 Finance versione 10.0.17
 
 ## <a name="features-included-in-this-release"></a>Funzioni incluse in questo rilascio
 In questa release sono incluse le seguenti funzionalità:
@@ -121,7 +121,7 @@ In questa release sono incluse le seguenti funzionalità:
 | Contabilità e gestione dei progetti | [533530](https://fix.lcs.dynamics.com/Issue/Details/?bugId=533530) | Il metodo di classe della struttura di suddivisione del lavoro legacy **ProjWBSUpdateController::updateOutlineNumbersAndPublishInPreOrder** è deprecato.                                                                                                   |
 
 ### <a name="regulatory-updates"></a>Aggiornamenti normativi
-Per informazioni sugli aggiornamenti normativi per le app Finance and Operations, vedi [Aggiornamenti normativi](/dynamics365/finance/localizations/regulatory-updates.md). È inoltre possibile accedere a LCS e visualizzare gli aggiornamenti normativi pianificati utilizzando lo strumento di ricerca dei problemi. La ricerca dei problemi ti consente di cercare per paese, tipo di funzionalità e versione.
+Per informazioni sugli aggiornamenti normativi per le app per la finanza e le operazioni, vedi [Aggiornamenti normativi](/dynamics365/finance/localizations/regulatory-updates). È inoltre possibile accedere a LCS e visualizzare gli aggiornamenti normativi pianificati utilizzando lo strumento di ricerca dei problemi. La ricerca dei problemi ti consente di cercare per paese, tipo di funzionalità e versione.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Set di approvazioni
 description: Questo argomento spiega come lavorare con i set di approvazioni, le richieste e i sottoinsiemi di tali operazioni.
 author: stsporen
-manager: tfehr
-ms.date: 08/10/2021
+ms.date: 02/01/2022
 ms.topic: article
-ms.service: project-operations
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 1d9333033eb2b03966c6531d0fd6ad5b878acd93
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 6809e01d8c3c93841125d0100d898dc208577019
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323241"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576229"
 ---
 # <a name="approval-sets"></a>Set di approvazioni
 
@@ -27,6 +25,18 @@ I set di approvazione indicano lo stato di elaborazione complessivo dei relativi
 Le approvazioni in coda per l'elaborazione sono visibili nella vista **Approvazioni in elaborazione**. Il sistema elabora tutte le voci più volte in modo asincrono, inclusi i tentativi di approvazione se i tentativi precedenti non sono riusciti.
 
 Il campo **Durata del set di approvazioni** registra il numero di tentativi rimasti per elaborare il set prima che venga contrassegnato come fallito.
+
+I set di approvazione vengono elaborati attraverso l'attivazione periodica basata su un **Flusso cloud** denominato **Project Service - Pianifica in modo ricorrente i set di approvazioni progetto**. Questo si trova nella **Soluzione** denominata **Project Operations**. 
+
+Assicurati che il flusso sia attivato completando i seguenti passaggi.
+
+1. Come amministratore, accedi a [flow.microsoft.com](https://powerautomate.microsoft.com).
+2. Nell'angolo in alto a destra, passa all'ambiente che usi per Dynamics 365 Project Operations.
+3. Seleziona **Soluzioni** per elencare le soluzioni installate nell'ambiente.
+4. Nell'elenco delle soluzioni, seleziona **Project Operations**.
+5. Passare dal filtro **Tutto** al filtro **Flussi cloud**.
+6. Verifica che il flusso **Project Service - Pianifica in modo ricorrente i set di approvazioni progetto** sia impostata su **Attivato**. In caso contrario, seleziona il flusso, quindi seleziona **Attiva**.
+7. Verificare che l'elaborazione avvenga ogni cinque minuti esaminando l'elenco **Processi di sistema** nell'area **Impostazioni** all'interno dell'ambiente Dataverse di Project Operations.
 
 ## <a name="failed-approvals-and-approval-sets"></a>Approvazioni non riuscite e set di approvazioni
 La vista **Approvazioni fallite** elenca tutte le approvazioni che richiedono l'intervento dell'utente. Apri i registri dei set di approvazioni associati per identificare la causa dell'errore.

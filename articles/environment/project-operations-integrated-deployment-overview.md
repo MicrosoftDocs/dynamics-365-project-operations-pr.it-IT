@@ -3,16 +3,15 @@ title: Panoramica della distribuzione di Project Operations per scenari basati s
 description: Questo argomento fornisce informazioni sul tipo di distribuzione, Project Operations per scenari basati su risorse/non stoccate.
 author: rumant
 ms.date: 11/02/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: a66877471e584bc76ddfe508a5d4cb47e38dd7aeb5f2bebe795b41a1de462ef9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d751ec9c75e72a6804f073f181591755afc6e261
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009716"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575126"
 ---
 # <a name="project-operations-for-resourcenon-stocked-based-scenarios-deployment-overview"></a>Panoramica della distribuzione di Project Operations per scenari basati su risorse/non stoccate
 
@@ -32,7 +31,7 @@ Il tipo di distribuzione, Dynamics 365 Project Operations per scenari basati su 
 - Riconoscimento dei ricavi del progetto
 - Estensibilità tramite Power Platform
 
-Questo tipo di distribuzione fornisce un'estensione alla funzionalità fornita dalle applicazioni Dynamics 365 Finance e Dynamics 365 Supply Chain Management.
+Questo tipo di distribuzione fornisce un'estensione alle funzionalità fornite dalle applicazioni Dynamics 365 Finance e Dynamics 365 Supply Chain Management.
 
 Questa distribuzione deve essere scelta per utilizzare Project Operations per l'intero ciclo di vita del progetto, inclusi i seguenti requisiti:
 

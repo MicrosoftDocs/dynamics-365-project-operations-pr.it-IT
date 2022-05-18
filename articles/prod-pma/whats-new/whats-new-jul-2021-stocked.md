@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: dadcf3e9fa8432fb66f76b7c2f0fdb98bc00511d93984ea98fa30b4fc03fa426
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db5bb27650d65bb68f45f95cb2562f4b773ddcea
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992706"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8597067"
 ---
 # <a name="whats-new-or-changed-in-project-operations-july-2021-for-stockedproduction-based-scenarios"></a>Novità o modifiche di Project Operations, luglio 2021 per scenari di materiali stoccati basati sulla produzione
 
@@ -20,7 +20,7 @@ _**Si applica a:** Project Operations per scenari basati su materiali stoccati/p
 
 Questo argomento si applica ai seguenti componenti e versioni di Dynamics 365 Project Operations:
 
-- Gestione progetti e contabilità in ambiente Dynamics 365 Finance versione 10.0.20
+- Gestione progetti e contabilità in un ambiente Dynamics 365 Finance versione 10.0.20
  
 ### <a name="quality-updates"></a>Aggiornamenti di qualità
                                                                                                                                                                                   
@@ -64,7 +64,7 @@ Questo argomento si applica ai seguenti componenti e versioni di Dynamics 365 Pr
 | Viaggi e spese                  | [523557](https://fix.lcs.dynamics.com/Issue/Details/?bugId=523557) | Lo strumento **Reimposta stato del documento di spesa** deve reimpostare lo stato della nota spese su **Bozza** se il flusso di lavoro non è stato trovato. 
 
 ### <a name="regulatory-updates"></a>Aggiornamenti normativi
-Per informazioni sugli aggiornamenti normativi per le app Finance and Operations, vedi [Aggiornamenti normativi](/dynamics365/finance/localizations/regulatory-updates). Puoi anche accedere a Lifecycle Services (LCS) e visualizzare gli aggiornamenti normativi pianificati utilizzando lo strumento di ricerca dei problemi. La ricerca dei problemi ti consente di cercare per paese, tipo di funzionalità e versione.
+Per informazioni sugli aggiornamenti normativi per le app per la finanza e le operazioni, vedi [Aggiornamenti normativi](/dynamics365/finance/localizations/regulatory-updates). Puoi anche accedere a Lifecycle Services (LCS) e visualizzare gli aggiornamenti normativi pianificati utilizzando lo strumento di ricerca dei problemi. La ricerca dei problemi ti consente di cercare per paese, tipo di funzionalità e versione.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

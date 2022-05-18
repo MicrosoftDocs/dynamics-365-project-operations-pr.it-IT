@@ -1,24 +1,23 @@
 ---
 title: Elaborazione della ricevuta spesa
-description: Questo argomento fornisce informazioni sull'elaborazione del riconoscimento ottico dei caratteri (OCR) per le ricevute. Questa funzionalità è progettata per migliorare l'esperienza dell'utente durante la creazione di ricevute spesa in Microsoft Dynamics 365 Finance.
+description: Questo argomento fornisce informazioni sull'elaborazione del riconoscimento ottico dei caratteri (OCR) per le ricevute. Questa funzionalità è progettata per migliorare l'esperienza utente quando vengono create note spese in Microsoft Dynamics 365 Finance.
 author: stsporen
 ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Operations, Core
+ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 0d43c44bf4f2a58e3249d6cc1028353555cfd836580a802ad6e1878dc9b2e263
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 067432106742447d2b8fa215ec05bf05f4b41e70
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001391"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684325"
 ---
 # <a name="expense-receipt-processing"></a>Elaborazione della ricevuta spesa
 
@@ -51,7 +50,7 @@ Per creare una spesa o abbinare una spesa da una ricevuta, esegui i seguenti pas
 
 Questa funzione utilizza in combinazione la funzione **Note spese riprogettate** per semplificare l'esperienza di spesa. Questa funzione è disponibile solo per gli ambienti superiori al livello 2 che sono sandbox e di produzione.
 
-Per utilizzare queste funzionalità avanzate di spesa, installa il componente aggiuntivo Servizio gestione delle spese per Microsoft Dynamics 365 Finance e attiva le funzionalità nella tua istanza. Puoi accedere al componente aggiuntivo dal tuo progetto in Microsoft Dynamics Lifecycle Services (LCS).
+Per utilizzare queste funzionalità di spesa avanzate, installa il componente aggiuntivo Servizio gestione spese per Microsoft Dynamics 365 Finance e attiva le funzionalità nella tua istanza. Puoi accedere al componente aggiuntivo dal tuo progetto in Microsoft Dynamics Lifecycle Services (LCS).
 
 1. Accedi a LCS e apri l'ambiente desiderato.
 2. Vai a **Dettagli completi**.

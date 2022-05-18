@@ -1,32 +1,31 @@
 ---
-title: Sincronizzare le stime del progetto direttamente da Project Service Automation a Finance and Operations
-description: Questo argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare le stime delle ore di progetto e le stime delle spese del progetto direttamente da Microsoft Dynamics 365 Project Service Automation a Dynamics 365 Finance.
+title: Sincronizzare le stime di progetto direttamente da Project Service Automation a Finance and Operations
+description: Questo argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare le stime orarie di progetto e le stime di spesa del progetto direttamente da Microsoft Dynamics 365 Project Service Automation a Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 6696449d80e0915a0c878dbe75cfdf6e268b98ad9f6453bcfc4b424db68021e4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 47de3556034227e072d14dc93908edec42cec93c
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988206"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684601"
 ---
-# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Sincronizzare le stime del progetto direttamente da Project Service Automation a Finance and Operations
+# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Sincronizzare le stime di progetto direttamente da Project Service Automation a Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-Questo argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare le stime delle ore di progetto e le stime delle spese del progetto direttamente da Dynamics 365 Project Service Automation a Dynamics 365 Finance.
+Questo argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare le stime orarie di progetto e le stime di spesa del progetto direttamente da Dynamics 365 Project Service Automation a Dynamics 365 Finance.
 
 > [!NOTE]
 > - L'integrazione delle attività di progetto, le categorie delle transazioni di spesa, le stime delle ore, le stime delle spese e il blocco delle funzionalità sono disponibili nella versione 8.0.
@@ -70,7 +69,7 @@ Prima di poter sincronizzare le stime delle ore di progetto, è necessario sincr
 
 ### <a name="power-query"></a>Power Query
 
-Nel modello delle stime delle ore di progetto, è necessario utilizzare Microsoft Power Query per Excel per completare queste attività:
+Nel modello di stime di ore del progetto, è necessario utilizzare Microsoft Power Query per Excel per completare queste attività:
 
 - Impostare l'ID modello di previsione predefinito che verrà utilizzato quando l'integrazione crea nuove previsioni orarie.
 - Filtrare tutti i record specifici della risorsa nell'attività che non riusciranno a integrare le previsioni orarie.
@@ -81,7 +80,7 @@ Nel modello delle stime delle ore di progetto, è necessario utilizzare Microsof
 Per aggiornare l'ID modello di previsione predefinito nel modello, fai clic sula freccia **Mappa** per aprire il mapping. Quindi seleziona il collegamento **Filtro e query avanzati**.
 
 - Se stai utilizzando il modello di stima delle ore di progetto predefinito (da PSA a Fin e Ops), seleziona **Condizione inserita** nell'elenco di **Passaggi applicati**. Nella voce **Funzione**, sostituisci **O\_previsione** con il nome dell'ID del modello di previsione da utilizzare con l'integrazione. Il modello predefinito ha un ID modello di previsione dai dati demo.
-- Se stai creando un nuovo modello, devi aggiungere questa colonna. In Power Query, seleziona **Aggiungi colonna condizionale** e inserisci un nome per la nuova colonna, ad esempio **ModelID**. Immetti la condizione per la colonna, dove, se Project task è null, quindi \<enter the forecast model ID\>; in caso contrario null.
+- Se stai creando un nuovo modello, devi aggiungere questa colonna. In Power Query seleziona **Aggiungi colonna condizionale** e assegna un nome alla nuova colonna, ad esempio **ModelID**. Immetti la condizione per la colonna, dove, se Project task è null, quindi \<enter the forecast model ID\>; in caso contrario null.
 
 #### <a name="filter-out-resource-specific-records"></a>Filtrare i record specifici delle risorse
 
@@ -126,7 +125,7 @@ Prima di poter sincronizzare le stime di spesa del progetto, è necessario sincr
 
 ### <a name="power-query"></a>Power Query
 
-Nel modello delle stime di spesa del progetto, è necessario utilizzare Power Query per Excel per completare le attività seguenti:
+Nel modello delle stime di spesa del progetto, è necessario utilizzare Power Query per completare queste attività:
 
 - Filtra per includere solo i record di riga di stima di spesa.
 - Impostare l'ID modello di previsione predefinito che verrà utilizzato quando l'integrazione crea nuove previsioni orarie.
@@ -141,8 +140,8 @@ Il modello Stime di spesa del progetto (da PSA a Fin e Ops) ha un filtro predefi
 
 Per aggiornare l'ID modello di previsione predefinito nel modello, seleziona l'attività **Stime di spesa**, quindi fai clic sula freccia **Mappa** per aprire il mapping. Seleziona il collegamento **Filtro e query avanzati**.
 
-- Se stai utilizzando il modello di stima di spesa di progetto predefinito (da PSA a Fin e Ops), in Power Query seleziona la prima **Condizione inserita** dalla sezione **Passaggi applicati**. Nella voce **Funzione**, sostituisci **O\_previsione** con il nome dell'ID del modello di previsione da utilizzare con l'integrazione. Il modello predefinito ha un ID modello di previsione dai dati demo.
-- Se stai creando un nuovo modello, devi aggiungere questa colonna. In Power Query, seleziona **Aggiungi colonna condizionale** e inserisci un nome per la nuova colonna, ad esempio **ModelID**. Immetti la condizione per la colonna, dove, se ID riga di stima è null, quindi \<enter the forecast model ID\>; in caso contrario null.
+- Se si utilizza il modello predefinito Stime di spesa (da PSA a Fin and Ops), in Power Query seleziona la prima **Condizione inserita** nella sezione **Passaggi applicati**. Nella voce **Funzione**, sostituisci **O\_previsione** con il nome dell'ID del modello di previsione da utilizzare con l'integrazione. Il modello predefinito ha un ID modello di previsione dai dati demo.
+- Se stai creando un nuovo modello, devi aggiungere questa colonna. In Power Query seleziona **Aggiungi colonna condizionale** e assegna un nome alla nuova colonna, ad esempio **ModelID**. Immetti la condizione per la colonna, dove, se ID riga di stima è null, quindi \<enter the forecast model ID\>; in caso contrario null.
 
 #### <a name="transform-the-billing-types"></a>Trasformare i tipi di fatturazione
 

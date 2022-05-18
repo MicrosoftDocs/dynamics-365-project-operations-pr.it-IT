@@ -6,7 +6,7 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e40f0336d98cd8452642eb582c4d9daf2304ceb2532ef75ce9d03a0fa4bd8e8b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 41c65d6bf64d8a81759239f2a31f3a68953181c8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003596"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599413"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Configurare campi personalizzati come dimensioni di determinazione dei prezzi
 
@@ -71,14 +71,14 @@ Esistono due tipi di dimensioni di determinazione dei prezzi
    
    Nella tabella seguente viene illustrato il calcolo dei ricarichi del prezzo.
   
-| Ruolo        | Unità organizzativa    |Posizione lavoro      |Titolo standard      |Ore lavorative risorsa      |  Ricarico|
+| Ruolo        | Unità organizzativa    |Ubicazione lavoro      |Titolo standard      |Ore lavorative risorsa      |  Ricarico|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
 |             | Contoso India|In loco            |                    |Straordinario                 |15     |
 |             | Contoso India|Locale             |                    |Straordinario                 |10     |
-|             | Contoso (USA)   |Locale             |                    |Straordinario                 |20     |
+|             | Contoso US   |Locale             |                    |Straordinario                 |20     |
 
 
-Se una risorsa di Contoso India il cui tasso di base è 100 USD lavora in loco e registra 8 ore di lavoro normale e 2 ore di straordinario nell'inserimento ore, il motore di determinazione dei prezzi di Project Service utilizza il tasso base 100 per 8 ore per registrare 800 USD. Per le 2 ore di straordinario, viene applicato un ricarico del 15% al tasso di base 100 per ottenere un prezzo unitario di 115 USD e un costo totale di 230 USD.
+Se una risorsa di Contoso India il cui tasso di base è 100 USD lavora in loco e registra 8 ore di lavoro normale e 2 ore di straordinario nell'inserimento ore, il motore di determinazione dei prezzi utilizza il tasso base 100 per 8 ore per registrare 800 USD. Per le 2 ore di straordinario, viene applicato un ricarico del 15% al tasso di base 100 per ottenere un prezzo unitario di 115 USD e un costo totale di 230 USD.
 
 ### <a name="applicable-to-cost"></a>Costo applicabile a 
 Se questo campo è impostato su **Sì**, indica che il valore della dimensione nel contesto di input deve essere utilizzato per l'allineamento al **prezzo ruolo** e al **ricarico prezzo ruolo** quando si recuperano i tassi di costo e di ricarico.

@@ -1,32 +1,31 @@
 ---
-title: Sincronizzare le categorie di spesa del progetto tra Finance and Operations e Project Service Automation
-description: Questo argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare le categorie di spesa del progetto tra Microsoft Dynamics 365 Finance e Dynamics 365 Project Service Automation.
+title: Sincronizzare le categorie di spesa del progetto tra la Finance and Operations e Project Service Automation
+description: Questo argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare le categorie di spesa di progetto tra Microsoft Dynamics 365 Finance e Dynamics 365 Project Service Automation.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 52c79f8b641d4b2df3b30964331633f2487402f8f8d229b540f9544c0f848557
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c5513285c8beb96e2aa8b9c67ebde38b3c938edd
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001121"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685475"
 ---
-# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Sincronizzare le categorie di spesa del progetto tra Finance and Operations e Project Service Automation
+# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Sincronizzare le categorie di spesa del progetto tra la Finance and Operations e Project Service Automation
 
 [!include[banner](../includes/banner.md)]
 
-Questo argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare le categorie di spesa del progetto tra Dynamics 365 Finance e Dynamics 365 Project Service Automation.
+Questo argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare le categorie di spesa di progetto tra Dynamics 365 Finance e Dynamics 365 Project Service Automation.
 
 > [!NOTE]
 > - L'integrazione delle attività di progetto, le categorie delle transazioni di spesa, le stime delle ore, le stime delle spese e il blocco delle funzionalità sono disponibili nella versione 8.0.
@@ -81,10 +80,10 @@ Le categorie di spesa del progetto vengono gestite in Finance e vengono sincroni
 
 ### <a name="power-query"></a>Power Query
 
-Quando esegui la sincronizzazione con Project Service Automation, devi utilizzare Microsoft Power Query per Excel per impostare il tipo di fatturazione nella categoria della transazione. Il modello delle categorie di transazioni di spesa del progetto (da Fin e Ops a PSA) fornisce una colonna e una mappatura predefinite. Se crei il tuo modello, devi aggiungere una colonna aggiuntiva in Power Query. Effettuare i passaggi seguenti.
+Quando sincronizzi in Project Service Automation, è necessario utilizzare Microsoft Power Query per Excel per impostare il tipo di fatturazione sulla categoria di transazione. Il modello delle categorie di transazioni di spesa del progetto (da Fin e Ops a PSA) fornisce una colonna e una mappatura predefinite. Se crei un modello personale, è necessario aggiungere la colonna condizionale in Power Query. Effettuare i passaggi seguenti.
 
 1. Fai clic sulla freccia per aprire il mapping dell'attività delle categorie di spesa del progetto nel modello Categorie delle transazioni di spesa del progetto (da Fin e Ops a PSA).
-2. Fai clic sul collegamento **Filtro e query avanzati** per aprire Power Query.
+2. Fai clic sul collegamento **Filtri e query avanzata** per aprire Power Query.
 2. Seleziona **Aggiungi colonna condizionale**.
 3. Immetti un nome per la nuova colonna, ad esempio **BillingType**.
 4. Immetti la seguente condizione: **Se CATEGORYID non è uguale a Null, allora 19235001, altrimenti null**.

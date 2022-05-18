@@ -4,14 +4,14 @@ description: Questo argomento fornisce informazioni su come creare fatture forni
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7d32d7a0b96daf9a2a48e16d62de8319636737740601481b85ee887948e31110
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9448cb29adb4206efaabe3f313a1f619cd32b9be
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989262"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591501"
 ---
 # <a name="create-intercompany-customer-and-vendor-invoices"></a>Creare fatture interaziendali per clienti e fornitori
 
@@ -27,7 +27,7 @@ Utilizzare questa procedura per creare manualmente una fattura cliente interazie
 
 I seguenti passaggi devono essere eseguiti nella persona giuridica che concede il prestito. 
 
-1. In Dynamics 365 Finance, vai a **Contabilità e gestione dei progetti** > **Fatture di progetto** > **Fatture cliente interaziendale**. Nella pagina dell'elenco **Fatture clienti interaziendali**, nel riquadro azioni selezionare **Nuovo**.
+1. In Dynamics 365 Finance, vai a **Gestione progetti e contabilità** > **Fatture di progetto** > **Fatture clienti interaziendali**. Nella pagina dell'elenco **Fatture clienti interaziendali**, nel riquadro azioni selezionare **Nuovo**.
 2. Nella pagina **Crea fattura interaziendale**, nel campo **Entità legale**, selezionare una persona giuridica richiedente.
 3. Facoltativo: immettere un contratto di progetto specifico e un numero di progetto.
 4. Restringere la ricerca selezionando un intervallo di date. Immettere date specifiche nei campi **Data d'inizio** e **Data di fine**. Nei risultati della ricerca vengono visualizzate solo le transazioni interaziendali registrate in questo intervallo di date.

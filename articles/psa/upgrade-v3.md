@@ -16,12 +16,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b29ef5d6d2c1c97658d79bbbe82e5893adeafe4d20354e90058dde79b67cb716
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: c37c30b7c694cec8c07b68492d935128881e6317
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000086"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8601759"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Considerazioni sull'aggiornamento - Da PSA versione 2.x o 1.x alla versione 3
 
@@ -81,7 +82,7 @@ Prima di iniziare l'aggiornamento, è consigliabile rigenerare il team per ogni 
 
 Per le attività assegnate a membri del team generici generati con **Genera team**, l'aggiornamento manterrà la risorsa generica nel team e lascerà l'assegnazione a quel membro del team generico. È consigliabile generare il requisito di risorsa per il membro del team generico dopo l'aggiornamento ma prima di prenotare o inviare una richiesta di risorsa. Ciò preserverà qualsiasi assegnazione di unità organizzativa per i membri del team generici che è differente dall'unità organizzativa di contratto del progetto.
 
-Ad esempio, nel progetto Progetto Z, l'unità organizzativa di contratto è Contoso US. Nella pianificazione di progetto, alle attività di test nella fase di implementazione è stato assegnato il ruolo Consulente Tecnico e l'unità organizzativa assegnata è Contoso India.
+Ad esempio, nel progetto Progetto Z, l'unità organizzativa di contratto è Contoso US. Nel piano di progetto, alle attività di test nella fase di implementazione è stato assegnato il ruolo Consulente Tecnico e l'unità organizzativa assegnata è Contoso India.
 
 ![Assegnazione dell'organizzazione nella fase di implementazione.](media/org-unit-assignment-09.png)
 

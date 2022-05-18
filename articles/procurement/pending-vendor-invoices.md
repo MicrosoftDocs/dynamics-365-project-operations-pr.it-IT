@@ -1,46 +1,42 @@
 ---
-title: Acquistare materiali non stoccati con una fattura fornitore in sospeso
+title: Acquistare materiali non stoccati o categorie di approvvigionamento utilizzando una fattura fornitore in sospeso
 description: Questo argomento spiega come registrare le fatture fornitore in sospeso.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e95f7dabe597968707fdd2dead40bfb93d7f1f95
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: e81f7a54e304ae6fc9a9f2637124579b6e7b54e9
+ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547294"
+ms.lasthandoff: 04/18/2022
+ms.locfileid: "8612662"
 ---
-# <a name="purchase-non-stocked-materials-using-a-pending-vendor-invoice"></a>Acquistare materiali non stoccati con una fattura fornitore in sospeso
+# <a name="purchase-non-stocked-materials-or-procurement-categories-using-a-pending-vendor-invoice"></a>Acquistare materiali non stoccati o categorie di approvvigionamento utilizzando una fattura fornitore in sospeso
 
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati_
 
-Poiché un'azienda acquista materiali non stoccati per un progetto, i costi possono essere immediatamente registrati a fronte del progetto. 
+Poiché un'azienda acquista materiali non stoccati o categorie di approvvigionamento per un progetto, i costi possono essere immediatamente registrati sul progetto. 
 
-Ad esempio, Contoso Robotics US sta eseguendo un progetto di rinnovo delle apparecchiature e necessita di licenze software. Queste licenze vengono acquistate da un fornitore di terze parti.  Utilizzando Dynamics 365 Finance, l'addetto alla contabilità fornitori registra un documento di fattura fornitore in sospeso e attribuisce i costi della licenza direttamente al progetto di rinnovo dell'attrezzatura. 
+Ad esempio, Contoso Robotics US sta eseguendo un progetto di rinnovo delle apparecchiature e necessita di licenze software. Queste licenze vengono acquistate da un fornitore di terze parti.  Utilizzando Dynamics 365 Finance, l'addetto alla contabilità fornitori registra un documento di fattura fornitore in sospeso e attribuisce i costi di licenza direttamente al progetto di rinnovo dell'attrezzatura. 
 
 > [!IMPORTANT]
-> Prima di utilizzare la funzionalità descritta in questo argomento, esamina e applica le configurazioni richieste. Per ulteriori informazioni, vedi [Abilitare materiali non stoccati e fatture fornitore in sospeso](configure-materials-nonstocked.md). 
+> Prima di utilizzare la funzionalità descritta in questo argomento, esamina e applica le configurazioni richieste. Per ulteriori informazioni, vedi [Abilita materiali non stoccati e fatture fornitore in sospeso](configure-materials-nonstocked.md) e [Utilizzare le categorie di approvvigionamento con ordini di acquisto di progetto e fatture fornitore in sospeso](configure-procurement-categories.md)
 
 ## <a name="post-a-project-related-pending-vendor-invoice"></a>Registrare una fattura fornitore in sospeso relativa al progetto 
 
 Le fatture fornitore in sospeso possono essere registrate nella pagina **Fatture fornitore in sospeso** (**Contabilità fornitori** > **Fatture** > **Fatture fornitore in sospeso**). Completa i seguenti passaggi per registrare una fattura fornitore in sospeso relativa al progetto:
 
 1. Vai a **Contabilità fornitori** > **Fatture** e seleziona **Nuovo**. 
-2. Nel campo **Conto fattura** seleziona un fornitore e nel campo **Numero**, immetti l'identificazione della fattura del fornitore.
-3. Aggiungi una riga alla fattura fornitore e nel campo **Codice articolo** seleziona l'articolo non stoccato acquistato dal fornitore. 
-
-    > [!NOTE]
-    > Le righe della fattura fornitore basate su una categoria di approvvigionamento non possono essere registrate nel progetto. 
-    
-5. Aggiungi la quantità acquistata. Il sistema popolerà il prezzo unitario in base alla configurazione del prezzo dell'articolo non stoccato. 
-6. Verifica l'importo totale e altri dettagli richiesti sulla riga.
-7. Nei dettagli della linea, nella scheda **Progetto** seleziona l'ID del progetto in cui verrà registrato l'elemento.
-8. Facoltativamente, seleziona il numero dell'attività e aggiorna la categoria del progetto e la proprietà della riga.
-9. Registra la fattura fornitore in sospeso. Quando la fattura viene registrata, il sistema registra:
+1. Nel campo **Conto fatture** seleziona un fornitore e quindi nel campo **Numero** immetti l'identificazione della fattura fornitore.
+1. Aggiungi una riga alla fattura fornitore, quindi, nel campo **Numero articolo** seleziona l'articolo non stoccato acquistato dal fornitore. In alternativa, nel campo **Categoria approvvigionamento** seleziona la categoria di approvvigionamento acquistata dal fornitore.   
+1. Aggiungi la quantità che è stata acquistata. Il sistema inserisce il prezzo unitario in base alla configurazione del prezzo dell'articolo non stoccato. 
+1. Verifica l'importo totale e altri dettagli richiesti sulla riga.
+1. Nei dettagli di riga, sulla scheda **Progetto** seleziona l'ID del progetto in cui verrà registrato questo articolo.
+1. Facoltativo: seleziona il numero dell'attività e aggiorna la categoria del progetto e la proprietà della riga.
+1. Registra la fattura fornitore in sospeso. Quando la fattura viene registrata, il sistema registra le seguenti informazioni:
     
     - L'importo del saldo del fornitore.
     - L'importo dell'IVA.

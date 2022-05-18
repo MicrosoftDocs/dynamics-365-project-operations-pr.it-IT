@@ -1,32 +1,31 @@
 ---
 title: Sincronizzare le attività di progetto direttamente da Project Service Automation a Finance and Operations
-description: Questo argomento descrive il modello e l'attività sottostante utilizzati per sincronizzare le attività del progetto direttamente da Microsoft Dynamics 365 Project Service Automation a Dynamics 365 Finance.
+description: Questo argomento descrive il modello e le attività sottostanti che vengono utilizzati per sincronizzare le attività di progetto direttamente da Microsoft Dynamics 365 Project Service Automation a Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 45846d7a6dd7b84fe28f0a78ccc103679236917ea506180c5b383fd2828624eb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 666e0d757969b32f16e08128d9f78a2ffe1e8357
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992796"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683315"
 ---
 # <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Sincronizzare le attività di progetto direttamente da Project Service Automation a Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-Questo argomento descrive il modello e l'attività sottostante utilizzati per sincronizzare le attività del progetto direttamente da Dynamics 365 Project Service Automation a Dynamics 365 Finance.
+Questo argomento descrive il modello e le attività sottostanti che vengono utilizzati per sincronizzare le attività di progetto direttamente da Dynamics 365 Project Service Automation a Dynamics 365 Finance.
 
 > [!NOTE]
 > - L'integrazione delle attività di progetto, le categorie delle transazioni di spesa, le stime delle ore, le stime delle spese e il blocco delle funzionalità sono disponibili nella versione 8.0.
@@ -68,11 +67,11 @@ Prima di sincronizzare le attività di progetto , è necessario sincronizzare i 
 
 ## <a name="power-query"></a>Power Query
 
-Devi utilizzare Microsoft Power Query per Excel per filtrare i dati se viene soddisfatta la seguente condizione:
+È necessario utilizzare Microsoft Power Query per Excel per filtrare i dati se si verificano le condizioni seguenti:
 
 - Hai record specifici della risorsa in un'attività di progetto.
 
-Se devi utilizzare Power Query, segui queste linee guida:
+Se è necessario utilizzare Power Query, segui queste indicazioni:
 
 - Il modello Attività di progetto (da PSA a Fin e Ops) ha un filtro predefinito che esclude i record specifici della risorsa da un'attività di progetto impostando il filtro di **IsLineTask** su **Falso**. Se crei il tuo modello, devi aggiungere questo filtro.
 

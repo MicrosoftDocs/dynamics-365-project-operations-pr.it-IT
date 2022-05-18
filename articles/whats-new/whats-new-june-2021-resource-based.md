@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 06/14/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c6a40335df89cc6b2bb35e54832140aac6eb9ac6
-ms.sourcegitcommit: 03414a74ddf1f2d63043d734ebdee7485f1aadd2
+ms.openlocfilehash: 21a446fdb9526c1a2b110c5368516dafb64b5e01
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7679214"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600793"
 ---
 # <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novità di giugno 2021 - Project Operations per scenari di risorse/materiali non stoccati
 
@@ -21,7 +21,7 @@ _**Si applica a:** Project Operations per scenari basati su risorse/materiali no
 Questo argomento si applica ai seguenti componenti e versioni di Dynamics 365 Project Operations:
 
 - Project Operations in ambiente Dynamics 365 Dataverse versione 4.11.0.156 o 4.11.0.164.
-- Gestione di progetti e contabilità nella versione degli ambienti delle app Finance and Operations 10.0.19.
+- Gestione progetti e contabilità in ambienti per app per la finanza e le operazioni versione 10.0.19.
 
 ## <a name="features-included-in-this-release"></a>Funzioni incluse in questo rilascio
 
@@ -38,7 +38,7 @@ Non sono disponibili aggiornamenti per le mappe a doppia scrittura di Project Op
 
 Per un elenco corrente e le versioni delle mappe a doppia scrittura di Project Operations, vedi [Versioni della mappa a doppia scrittura di Project Operations](../environment/resource-dual-write-maps.md).
 
-È necessario eseguire sempre la versione più recente della mappa nel proprio ambiente e abilitare tutte le mappe delle tabelle correlate durante l'aggiornamento della soluzione Project Operations Dataverse e della versione della soluzione delle app Finance and Operations. Alcune funzionalità e capacità potrebbero non funzionare correttamente se l'ultima versione della mappa non è attivata. Puoi vedere la versione attiva della mappa nella pagina **Doppia scrittura** nella colonna **Versione**. Attiva una nuova versione della mappa selezionando **Versioni mappa della tabella**, selezionando la versione più recente, quindi salvando la versione selezionata. Se hai personalizzato una mappa di tabella predefinita, riapplica le modifiche. Per ulteriori informazioni, vedi [Gestione del ciclo di vita di un'applicazione](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Esegui sempre l'ultima versione della mappa nel tuo ambiente e abilita tutte le mappe di tabelle correlate mentre aggiorni la tua soluzione Project Operations Dataverse e la versione della soluzione delle app per la finanza e le operazioni. Alcune funzionalità e capacità potrebbero non funzionare correttamente se l'ultima versione della mappa non è attivata. Puoi vedere la versione attiva della mappa nella pagina **Doppia scrittura** nella colonna **Versione**. Attiva una nuova versione della mappa selezionando **Versioni mappa della tabella**, selezionando la versione più recente, quindi salvando la versione selezionata. Se hai personalizzato una mappa di tabella predefinita, riapplica le modifiche. Per ulteriori informazioni, vedi [Gestione del ciclo di vita di un'applicazione](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Se riscontri un problema durante l'avvio della mappa, segui le istruzioni nella sezione [Problema con le colonne della tabella mancanti sulle mappe](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) della guida alla risoluzione dei problemi di scrittura doppia.
 
@@ -62,7 +62,7 @@ Se riscontri un problema durante l'avvio della mappa, segui le istruzioni nella 
 | Ore e spesa | 2194431 | La griglia **Inserimento ore** deve onorare l'inizio della settimana come stabilito nelle **Impostazioni di sistema**. |
 | Ore e spesa | 2277311 | Dopo aver eliminato il valore in una cella nella griglia **Inserimento ore** il cursore rimane nella griglia. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Contabilità e gestione dei progetti in Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Gestione progetti e contabilità in Dynamics 365 Finance
 
 | Area funzionalità | Numero di riferimento | Aggiornamento di qualità |
 | --- | --- | --- |

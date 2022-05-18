@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 09/12/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 842ea95892fa4f7a29a778cfd2c33a66e84f676c
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: 06f23630ef0205394f376e5bb93a29ae8a9eab15
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547159"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582899"
 ---
 # <a name="whats-new-september-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novità della versione di settembre 2021 - Project Operations per scenari basati su risorse/materiali non stoccati
 
@@ -21,7 +21,7 @@ ms.locfileid: "7547159"
 Questo argomento si applica ai seguenti componenti e versioni di Dynamics 365 Project Operations:
 
    - Project Operations in ambiente Microsoft Dataverse versione 4.14.0.99.
-   - Gestione progetti e contabilità in ambiente Dynamics 365 Finance versione 10.0.20.
+   - Gestione progetti e contabilità in un ambiente Dynamics 365 Finance versione 10.0.20.
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Aggiornamenti delle mappe a doppia scrittura di Project Operations
 
@@ -45,7 +45,7 @@ Se riscontri un problema durante l'avvio della mappa, segui le istruzioni nella 
 | Prezzi e fatturazione | 2385802 | Risolto l'errore che si verificava con le ore effettive negative quando i totali del progetto vengono aggiornati. |
 | Prezzi e fatturazione | 2389675 | Comportamento di conferma della fattura proforma migliorato. L'entità dei lavori di lunga durata deve prendere in considerazione l'attività richiesta per scrivere i risultati di conferma per la contabilità. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Contabilità e gestione dei progetti in Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Gestione progetti e contabilità in Dynamics 365 Finance
 
 | Area funzionalità | Numero di riferimento | Aggiornamento di qualità |
 | --- | --- | --- |

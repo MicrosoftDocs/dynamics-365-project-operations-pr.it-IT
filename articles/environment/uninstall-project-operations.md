@@ -4,14 +4,14 @@ description: Questo argomento include informazioni su come disinstallare Dynamic
 author: stsporen
 ms.date: 11/09/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b87c9324b1c95c10ef1e18b0fbf4572bdbe76827
-ms.sourcegitcommit: b8b7a59eee7d93638446e93726d270316e45ab3d
+ms.openlocfilehash: e2600c770477ad32cebb66f33a8ca31502a6da3d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7783648"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575861"
 ---
 # <a name="uninstall-dynamics-365-project-operations"></a>Disinstallare Dynamics 365 Project Operations 
 
@@ -35,8 +35,8 @@ Per disinstallare Dynamics 365 Project Operations, devi avere assegnato il ruolo
     | 6 | ProjectServiceCore_Patch                           | Nessuna nota aggiuntiva.                                                                         |
     | 7 | ProjectServiceCore                                 | Nessuna nota aggiuntiva.                                                                         |
     | 8 | ProjectServiceDeprecatedComponents                 | Se non la trovi, ignora questa soluzione.                                                            |
-    | 9 | FieldServiceCommon                                 | Richiesto per la doppia scrittura con Dynamics 365 Finance o Dynamics 365 Supply Chain Management.   |
-    | 10 | msdyn_AssetCommon                                  | Richiesto per la doppia scrittura con Dynamics 365 Finance o Dynamics 365 Supply Chain Management.   |
+    | 9 | FieldServiceCommon                                 | Necessario per la doppia scrittura con Dynamics 365 Finance o Dynamics 365 Supply Chain Management.   |
+    | 10 | msdyn_AssetCommon                                  | Necessario per la doppia scrittura con Dynamics 365 Finance o Dynamics 365 Supply Chain Management.   |
     | 11 | msdyn_TESA_Anchor                                  | Richiesto per Dynamics 365 Field Service.                                                     |
     | 12 | msdyn_TESA_Patch                                   | Richiesto per Dynamics 365 Field Service.                                                     |
     | 13 | msdyn_TESA                                         | Richiesto per Dynamics 365 Field Service.                                                     |

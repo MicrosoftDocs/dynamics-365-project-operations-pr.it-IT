@@ -1,32 +1,31 @@
 ---
-title: Sincronizzare i valori effettivi del progetto direttamente da Project Service Automation con il giornale di registrazione dell'integrazione del progetto per la registrazione in Finance and Operations
-description: Questo argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare i valori effettivi del progetto direttamente da Microsoft Dynamics 365 Project Service Automation con Finance and Operations.
+title: Sincronizzare i numeri effettivi direttamente da Project Service Automation al giornale di registrazione di integrazione progetto per la registrazione in Finance and Operations
+description: Questo argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare i numeri effettivi di progetto direttamente da Microsoft Dynamics 365 Project Service Automation a Finance and Operations.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 85b6c07464e919e363f28d8bc62115e8fb4c72ea6631269b98fd00f324a01cba
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 12929c324bb3a7c344edc9be2e3a8f4941ff9ea4
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988116"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683543"
 ---
-# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Sincronizzare i valori effettivi del progetto direttamente da Project Service Automation con il giornale di registrazione dell'integrazione del progetto per la registrazione in Finance and Operations
+# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Sincronizzare i numeri effettivi direttamente da Project Service Automation al giornale di registrazione di integrazione progetto per la registrazione in Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-Questo argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare i valori effettivi del progetto direttamente da Dynamics 365 Project Service Automation con Dynamics 365 Finance.
+Questo argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare i numeri effettivi di progetto direttamente da Dynamics 365 Project Service Automation a Dynamics 365 Finance.
 
 Il modello sincronizza le transazioni da Project Service Automation in una tabella di staging in Finance. Dopo che la sincronizzazione è completata, **devi** importare i dati dalla tabella di staging nel giornale di integrazione.
 
@@ -75,7 +74,7 @@ Prima che possa verificarsi la sincronizzazione dei valori effettivi, devi confi
 
 ### <a name="power-query"></a>Power Query
 
-Nel modello dei valori effetti di progetto, è necessario utilizzare Microsoft Power Query per Excel per completare queste attività:
+Nel modello dei valori effettivi del progetto, è necessario utilizzare Microsoft Power Query per Excel per completare queste attività:
 
 - Trasforma il tipo di transazione in Project Service Automation nel tipo di transazione corretto in Finance. Questa trasformazione è già definita nel modello di valori effettivi di progetto (da PSA a Fin and Ops).
 - Trasforma il tipo di fatturazione in Project Service Automation nel tipo di fatturazione corretto in Finance. Questa trasformazione è già definita nel modello di valori effettivi di progetto (da PSA a Fin and Ops). Il tipo di fatturazione viene quindi mappato alla proprietà della riga, in base alla configurazione nella pagina **Parametri di integrazione di Project Service Automation**.
@@ -84,9 +83,9 @@ Nel modello dei valori effetti di progetto, è necessario utilizzare Microsoft P
 - Se i valori effettivi del tempo interaziendale o delle spese interaziendali non verranno sincronizzati in Finance, è necessario eliminare l'ultima colonna condizionale inserita dal modello. In caso contrario, potrebbe verificarsi un errore di integrazione o potrebbero essere importate transazioni effettive errate in Finance.
 
 #### <a name="contract-organizational-unit"></a>Unità organizzativa del contratto
-Per aggiornare la colonna condizionale inserita nel modello, fai clic sula freccia **Mappa** per aprire il mapping. Seleziona il collegamento **Filtro e query avanzati** per aprire Power Query.
+Per aggiornare la colonna condizionale inserita nel modello, fai clic sula freccia **Mappa** per aprire il mapping. Seleziona il collegamento **Filtri e query avanzata** per aprire Power Query.
 
-- Se stai utilizzando il modello di valori effettivi del progetto predefinito (da PSA a Fin e Ops), in Power Query seleziona l'ultima **Condizione inserita** dalla sezione **Passaggi applicati**. Nella voce **Funzione**, sostituisci **USSI** con il nome della persona giuridica da utilizzare con l'integrazione. Aggiungi condizioni aggiuntive alla voce **Funzione** come richiesto e aggiorna la condizione **else** da **USMF** alla persona giuridica corretta.
+- Se si utilizza il modello predefinito dei valori effettivi di progetto (da PSA a Fin and Ops), in Power Query seleziona l'ultima **Condizione inserita** nella sezione **Passaggi applicati**. Nella voce **Funzione**, sostituisci **USSI** con il nome della persona giuridica da utilizzare con l'integrazione. Aggiungi condizioni aggiuntive alla voce **Funzione** come richiesto e aggiorna la condizione **else** da **USMF** alla persona giuridica corretta.
 - Se stai creando un nuovo modello, devi aggiungere la colonna per supportare i tempi e le spese interaziendali. Seleziona **Aggiungi colonna condizionale** e inserisci un nome per la nuova colonna, ad esempio **LegalEntity**. Immetti una condizione per la colonna, dove, se **msdyn\_contractorganizationalunitid.msdyn\_name** è \<organizational unit\>, quindi \<enter the legal entity\>; in caso contrario null.
 
 ### <a name="template-mapping-in-data-integration"></a>Mapping dei modelli nell'integrazione dei dati
@@ -126,7 +125,7 @@ I valori effettivi di progetto vengono gestiti in Project Service Automation e v
 
 ### <a name="power-query"></a>Power Query
 
-Nel modello di aggiornamento dei valori effetti di progetto, è necessario utilizzare Power Query per completare queste attività:
+Nel modello di aggiornamento dei valori effettivi del progetto, è necessario utilizzare Power Query per completare queste attività:
 
 - Trasforma il tipo di transazione in Finance nel tipo di transazione corretto in Project Service Automation. Questa trasformazione è già definita nel modello di aggiornamento dei valori effettivi di progetto (da Fin Ops a PSA).
 - Trasforma il tipo di fatturazione in Finance nel tipo di fatturazione corretto in Project Service Automation. Questa trasformazione è già definita nel modello di aggiornamento dei valori effettivi di progetto (da Fin Ops a PSA).

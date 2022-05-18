@@ -4,14 +4,14 @@ description: Questo argomento fornisce informazioni su come creare transazioni i
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 4ce3a45e5a09b7ac5b5663cf9983e3bed7bf7e0d3fedede2e4524c51069a800b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 88e5658c9087fdb19adce1c23bc5cad0ad0fa434
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005486"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599979"
 ---
 # <a name="create-intercompany-transactions"></a>Creare transazioni interaziendali
 
@@ -30,14 +30,14 @@ Quando una transazione interaziendale viene approvata, vengono create le seguent
 
 Il costo, il costo unitario delle risorse e il prezzo delle transazioni di vendita delle unità interorganizzative e la valuta è basata su **unità organizzative**. Questo è importante da ricordare quando si decide come strutturare le società e le unità organizzative nella propria implementazione.
 
-Quando si creano record di opportunità, preventivi, contratti di progetto e progetti, il sistema verifica che la valuta dell'unità contraente corrisponda alla valuta contabile della società contraente. Quando non sono la stessa cosa, questi record non possono essere creati. La valuta dell'unità organizzativa è definita in Dynamics 365 Project Operations andando a **Dataverse** > **Impostazioni** > **Unità organizzative**. La valuta contabile di una società è definita in Dynamics 365 Finance andando a **Contabilità generale** > **Configurazione contabilità** > **Contabilità**. La valuta è sincronizzata con il tuo ambiente Dataverse utilizzando la mappa Ledgers Dual Write.
+Quando si creano record di opportunità, preventivi, contratti di progetto e progetti, il sistema verifica che la valuta dell'unità contraente corrisponda alla valuta contabile della società contraente. Quando non sono la stessa cosa, questi record non possono essere creati. La valuta dell'unità organizzativa è definita in Dynamics 365 Project Operations andando a **Dataverse** > **Impostazioni** > **Unità organizzative**. La valuta contabile di una società viene definita in Dynamics 365 Finance andando in **Contabilità generale** > **Impostazioni contabilità generale** > **Contabilità generale**. La valuta è sincronizzata con il tuo ambiente Dataverse utilizzando la mappa Ledgers Dual Write.
 
 Il sistema crea il costo unitario delle risorse e le vendite delle unità interorganizzative tra le unità organizzative nelle seguenti situazioni:
 
   - Quando l'unità che fornisce risorse è diversa dall'unità contratto
   - Quando la società di gestione risorse è diversa dalla società contraente
 
-Tuttavia, solo le transazioni che hanno una società di gestione risorse diversa dalla società contraente verranno trasferite all'ambiente Dynamics 365 Finance per contabilità aggiuntiva.
+Tuttavia, solo le transazioni che hanno una società di gestione risorse diversa dalla società contratto verranno trasferite all'ambiente Dynamics 365 Finance per la contabilità aggiuntiva.
 
 La contabilità dei valori effettivi del progetto viene registrata nel giornale di registrazione di integrazione Project Operations in Finance. Il sistema crea le seguenti righe del giornale di registrazione.
 
@@ -60,7 +60,7 @@ Molly Clark, sviluppatore impiegato in GBPM registra 10 ore di lavoro contro un 
     4. Impostare la valuta su **USD**.
     5. Salvare il record.
 3. Vai a **Vendite** > **Contratti di progetto** e crea un nuovo contratto di progetto per Adventure Works.
-    1. Imposta la società proprietaria su **USPM** e l'unità contratto su **Contoso Robotics US**.
+    1. Imposta la società proprietaria su **USPM** e l'unità appaltante su **Contoso Robotics US**.
     2. Seleziona Adventure Works come cliente.
     3. Seleziona un listino prezzi del prodotto e salva il record.
     4. Nella scheda **Voci di contratto**, crea una nuova voce di contratto. Imposta un nome e seleziona **Tempistica e materiali** come metodo di fatturazione.

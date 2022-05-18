@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 89a91cf3dbbcf81dbb089ee88c8c177c73afb694914ca7d95eae96776d38abed
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 2925d431258a150d5830238fb5ff365499b1b440
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005126"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8590167"
 ---
 # <a name="multiple-currency-scenarios"></a>Scenari con più valute
 
@@ -34,7 +35,7 @@ Microsoft Dynamics 365 comporta due concetti di valute:
 - **Valuta transazioni** - La valuta di una transazione. 
 - **Valuta di base** - La valuta dell'istanza di Dynamics 365. Questa valuta viene impostata durante il provisioning di Dynamics 365. e non può essere modificata.
 
-Ad esempio, Contoso US ha venduto 100 magliette a un cliente nel Regno Unito al costo di 15 sterline (GBP) l'una. Nella tabella seguente viene mostrato come questa transazione viene registrata nell'entità Prodotto ordine.
+Ad esempio, Contoso US ha venduto 100 magliette a un cliente nel Regno Unito al costo di 15 sterline britanniche l'una. Nella tabella seguente viene mostrato come questa transazione viene registrata nell'entità Prodotto ordine.
 
 | Prodotto | Quantità | Prezzo unitario | Valuta | Importo | Tasso di cambio | Prezzo unitario (base)| Importo (base)|
 |---------|----------|----------------|----------|--------|---------------|----------------------|--------------|

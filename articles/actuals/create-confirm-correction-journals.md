@@ -6,29 +6,25 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
+ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: f12cdba286a9e29e2c4eb4041effbe779cba65f3562684d625b21bc3bae809d6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c15db854e3d130150ad7afc707a126b37c57f62d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986721"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582808"
 ---
 # <a name="create-and-confirm-correction-journals"></a>Creare e verificare i giornali di registrazione correzioni
 
-_**Si applica a:** Project Operations per scenari basati su risorse/non stoccate, Distribuzione semplice: dalla transazione alla fatturazione proforma_
+_**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
-In alcuni casi, è possibile che l'immissione di voci di spesa e inserimenti ore avvenga in modo errato. È ad esempio possibile che un consulente selezioni la data errata durante la creazione di un inserimento ora o che trasponga i numeri quando inserisce una spesa. Sebbene un consulente non possa effettuare aggiornamenti alle voci inviate, un amministratore può correggere direttamente la voce per un progetto.
-
-Per completare le procedure in questo argomento, devi disporre delle autorizzazioni amministratore.
+Di tanto in tanto, una voce di spesa o un inserimento ore potrebbe essere inserito in modo errato. Ad esempio, un consulente potrebbe selezionare la data sbagliata quando crea un inserimento ore o potrebbe selezionare il progetto sbagliato quando inserisce una spesa. Se un consulente non può aggiornare le voci inviate, un amministratore back-end può correggere direttamente i valori effettivi per un progetto.
 
 ## <a name="correct-approved-time-entries"></a>Correggere gli inserimenti ore approvati     
 
@@ -46,8 +42,8 @@ Completa i seguenti passaggi per correggere uno o più inserimenti ore per un pr
 
 6. Seleziona **Anteprima**. Nella finestra di dialogo seleziona **OK**. Nella scheda **Righe giornale di registrazione** è visualizzato un elenco dei valori effettivi originali correlati agli inserimenti ore selezionati che sono stati ripristinati, con le righe corrispondenti corrette che sono state create. Se è necessario apportare ulteriori correzioni, ripeti i passaggi 5 e 6. 
 
-> [!NOTE]
-> Tutti i valori effettivi corretti avranno gli stessi valori che hai selezionato nella sezione **Nuovi valori per gli inserimenti ore**.
+    > [!NOTE]
+    > Tutti i valori effettivi corretti avranno gli stessi valori che hai selezionato nella sezione **Nuovi valori per gli inserimenti ore**.
 
 7. Se le correzioni vengono visualizzate come previsto, seleziona **Conferma**. Nella finestra di dialogo seleziona **OK**.
 
@@ -55,12 +51,10 @@ Completa i seguenti passaggi per correggere uno o più inserimenti ore per un pr
 
 9. Nella pagina **Progetti** visualizza le modifiche che hai apportato nella scheda **Valori effettivi**. 
 
-> [!NOTE]
-> Se la scheda **Valori effettivi** non è visibile, seleziona **Elementi correlati** > **Valori effettivi**.  
+    > [!NOTE]
+    > Se la scheda **Valori effettivi** non è visibile, seleziona **Elementi correlati** > **Valori effettivi**.  
 
 10. Nell'elenco **Visualizzazione associata valore effettivo** potrai vedere che gli inserimenti ore originali che sono stati ripristinati risultano ancora elencati, così come gli inserimenti ore corrette. 
-
-Il grafico seguente contiene ad esempio due voci con una quantità pari a 8,00, con i relativi addebiti elencati nella colonna Importo. Sono inoltre presenti due voci con una quantità pari a -8,00, i cui importi accreditati sono mostrati nella colonna Importo. Il risultato di queste correzioni è una quantità pari a zero.
 
  
 ## <a name="correct-approved-expense-entries"></a>Correggere le voci di spesa approvate
@@ -79,14 +73,30 @@ Completa i seguenti passaggi per correggere una o più voci di spesa.
 
 6. Se i valori risultano corretti come previsto, seleziona **Conferma**. Nella finestra di dialogo seleziona **OK**. Se non vengono visualizzati i valori previsti, seleziona **Annulla** per tornare all'elenco **Spese approvate**. Ripeti i passaggi da 2 a 5. 
 
-> [!NOTE]
-> I valori effettivi corretti avranno gli stessi valori che hai selezionato nella sezione **Nuovi valori per le spese**.
+7. Dopo aver confermato il giornale di registrazioni correzioni, torna al progetto o ai progetti che hai aggiornato per visualizzare le modifiche.
 
-7. Dopo aver confermato il giornale di registrazione correzione, torna al progetto o ai progetti che hai aggiornato per visualizzare le modifiche.  
-
-8. Nella pagina del progetto, nella scheda **Valori effettivi** controlla **Visualizzazione associata valore effettivo**. Viene visualizzato un elenco delle voci originali e di quelle corrette. Il grafico seguente mostra gli importi delle voci di spesa originali e gli importi delle voci di spesa corretti corrispondenti. 
+8. Nella pagina del progetto, nella scheda **Valori effettivi** rivedi l'elenco **Visualizzazione associata valore effettivo**. Viene visualizzato un elenco delle voci originali e di quelle corrette.
 
 
+## <a name="correct-approved-material-usage-logs"></a>Correggere i registri di utilizzo del materiale approvati
+
+Completa i seguenti passaggi per correggere una o più voci del registro di utilizzo del materiale.
+
+1. Nell'area **Vendite**, nel riquadro di navigazione a sinistra, sotto **Transazioni**, seleziona **Valori effettivi**.
+
+2. Nell'elenco **Valori effettivi** utilizza i filtri di colonna per selezionare la classe di transazione **Materiale**, in modo che vengano mostrati solo i valori effettivi per i materiali. Utilizza altri filtri di colonna per limitare ulteriormente i valori effettivi visualizzati. Dopo aver trovato il set desiderato di valori effettivi, seleziona i valori effettivi, quindi seleziona **Voci corrette**. Viene creato automaticamente un nuovo giornale di registrazioni correzioni e il tipo **Correzione materiale** è assegnato.
+
+3. Sulla pagina **Nuovo giornale di registrazione**, nel campo **Descrizione** immetti una descrizione per la correzione. Poi, sulla scheda **Correzione materiale** nella sezione **Nuovi valori per materiali** seleziona i campi dati da correggere per le righe materiale selezionate. Ad esempio, puoi assegnare il materiale a un altro progetto o correggere il prodotto, la data del materiale o il conto lavoro.
+
+4. Selezionare **Anteprima**. Quindi, nella finestra di dialogo seleziona **OK**.
+
+5. Sulla scheda **Righe giornale di registrazione** verifica le correzioni. È possibile visualizzare un elenco dei valori effettivi originali correlati alle voci materiale selezionate che sono state stornate e alle righe corrispondenti corrette che sono state create.
+
+6. Se i valori risultano corretti come previsto, seleziona **Conferma**. Quindi, nella finestra di dialogo seleziona **OK**. Se i valori non sono quelli previsti, seleziona **Annulla** per tornare all'elenco **Valori effettivi**. Ripeti quindi i passaggi da 2 a 5.
+
+7. Dopo aver confermato il giornale di registrazioni correzioni, torna al progetto o ai progetti che hai aggiornato per visualizzare le modifiche.
+
+8. Nella pagina del progetto, nella scheda **Valori effettivi** rivedi l'elenco **Visualizzazione associata valore effettivo**. Viene visualizzato un elenco delle voci originali e di quelle corrette.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -3,16 +3,15 @@ title: Panoramica della fatturazione interaziendale
 description: Questo argomento fornisce informazioni ed esempi sulla fatturazione interaziendale per i progetti.
 author: sigitac
 ms.date: 11/19/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b7bb4384657c71552390bbc3d60f3c5d0e4136b4
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005396"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586257"
 ---
 # <a name="intercompany-invoicing-overview"></a>Panoramica della fatturazione interaziendale
 
@@ -20,7 +19,7 @@ _**Si applica a:** Project Operations per scenari basati su risorse/materiali no
 
 La tua organizzazione potrebbe avere più divisioni, filiali e altre persone giuridiche che trasferiscono prodotti e servizi tra loro per i progetti. L'entità giuridica che fornisce il servizio o il prodotto è denominata *persona giuridica che effettua la concessione*. L'entità giuridica che riceve il servizio o il prodotto è denominata *persona giuridica richiedente*.
 
-L'illustrazione seguente mostra uno scenario tipico in cui due persone giuridiche, Contoso Robotics USA (la persona giuridica mutuataria) e Contoso Robotics UK (la persona giuridica che concede il prestito) condivide le risorse per consegnare un progetto al cliente, Adventure Works. Per questo scenario, Contoso Robotics USA è incaricata di consegnare il lavoro ad Adventure Works.
+La figura seguente mostra uno scenario tipico in cui due persone giuridiche, Contoso Robotics USA (la persona giuridica richiedente) e Contoso Robotics UK (la persona giuridica che effettua la concessione) condividono le risorse per fornire un progetto per il cliente, Adventure Works. Per questo scenario, Contoso Robotics USA è incaricato di consegnare il lavoro ad Adventure Works.
 
 ![Fatturazione interaziendale.](./media/IntercompanyScenario.png) 
 

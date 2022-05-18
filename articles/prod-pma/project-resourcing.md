@@ -8,20 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: intro-internal
 ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ea2a34ed9e0bf5b28649a53db88976ec56aaf10d1c80af99cb0856250873a2ab
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 38793c4b9fc6cd2c1999661cb2acc587086b0143
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007331"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684877"
 ---
 # <a name="project-resourcing-home-page"></a>Home page dell'assegnazione di risorse ai progetti
 
@@ -29,7 +28,7 @@ ms.locfileid: "7007331"
 
 In questo argomento vengono fornite informazioni sull'assegnazione di risorse ai progetti.
 
-Una sfida per i project manager e i responsabili delle risorse durante la fase di pianificazione del progetto è l'allocazione delle risorse, in cui devono determinare e prenotare la risorsa corretta per lavorare su un progetto. In Dynamics 365 Finance, le funzionalità di assegnazione delle risorse per i progetti consentono di definire ruoli che vengono trattati come risorse temporanee che possono essere riservate per un impegno specifico o parte di un impegno. Questo tipo di risorse consente ai project manager e ai responsabili delle risorse di completare le seguenti attività:
+Una sfida per i project manager e i responsabili delle risorse durante la fase di pianificazione del progetto è l'allocazione delle risorse, in cui devono determinare e prenotare la risorsa corretta per lavorare su un progetto. In Dynamics 365 Finance, le funzionalità di risorse per i progetti consentono di definire i ruoli trattati come risorse temporanee che possono essere riservate a un impegno specifico o a una parte di esso. Questo tipo di risorse consente ai project manager e ai responsabili delle risorse di completare le seguenti attività:
 
 - Definire un ruolo che abbia le competenze richieste, in modo che sia facile abbinare le risorse.
 - Utilizzare i ruoli per definire una pianificazione di interazione basata su risorse prenotate.

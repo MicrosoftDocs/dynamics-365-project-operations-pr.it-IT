@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 04/28/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 06471532d2e41bb80ebf92f0a8b93c324b3f6d3e845cea8033d85d291ea237eb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b41be519dbfa89668712bc28ccb1888cd08c38a2
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986586"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585797"
 ---
 # <a name="expense-management-integration"></a>Integrazione di gestione spese
 
@@ -22,19 +22,19 @@ Questo argomento fornisce informazioni sull'integrazione delle note spese nella 
 
 ## <a name="expense-categories"></a>Categorie di spesa
 
-In una distribuzione completa delle spese, le categorie di spesa vengono create e gestite nelle app Finance and Operations. Per creare una nuova categoria di spesa, completa i seguenti passaggi:
+In una distribuzione di spesa completa, le categorie di spesa vengono create e gestite nelle app per la finanza e le operazioni. Per creare una nuova categoria di spesa, completa i seguenti passaggi:
 
-1. In Microsoft Dataverse, crea una categoria **Transazione**. L'integrazione a doppia scrittura sincronizzerà questa categoria di transazione con le app Finance and Operations. Per ulteriori informazioni, vedi [Configurare le categorie di progetto](/dynamics365/project-operations/project-accounting/configure-project-categories) e [Installazione di Project Operations e integrazione dei dati di configurazione](resource-dual-write-setup-integration.md). Come risultato di questa integrazione, il sistema crea quattro record di categoria condivisi nelle app Finance and Operations.
+1. In Microsoft Dataverse, crea una categoria **Transazione**. L'integrazione a doppia scrittura sincronizzerà questa categoria di transazione con le app per la finanza e le operazioni. Per ulteriori informazioni, vedi [Configurare le categorie di progetto](/dynamics365/project-operations/project-accounting/configure-project-categories) e [Installazione di Project Operations e integrazione dei dati di configurazione](resource-dual-write-setup-integration.md). Come risultato di questa integrazione, il sistema crea quattro record di categoria condivisi nelle app per la finanza e le operazioni.
 2. In Finance, vai in **Gestione spese** > **Configura** > **Categorie condivise** e seleziona una categoria condivisa con una classe di transazione **Spese**. Imposta il parametro **Può essere utilizzato in Spese** su **Vero** e definisci il tipo di spesa da utilizzare.
 3. Utilizzando questo record di categoria condivisa, crea una nuova categoria di spesa andando in **Gestione spese** > **Configura** > **Categorie di spesa** e selezionando **Nuovo**. Quando il record viene salvato, la doppia scrittura utilizza la mappa della tabella **Entità di esportazione categorie di spesa di progetto integrazione di Project Operations (msdyn\_expensecategories)** per sincronizzare questo record in Dataverse.
 
   ![Integrazione di categorie di spesa.](./media/DW6ExpenseCategories.png)
 
-Le categorie di spesa nelle app Finance and Operations sono specifiche dell'azienda o della persona giuridica. Esistono record corrispondenti specifici della persona giuridica separati in Dataverse. Quando un responsabile di progetto stima le spese, non può selezionare le categorie di spesa create per un progetto di proprietà di una società diversa da quella a cui appartiene il progetto su cui stanno lavorando. 
+Le categorie di spesa nelle app per la finanza e le operazioni sono specifiche dell'azienda o della persona giuridica. Esistono record corrispondenti specifici della persona giuridica separati in Dataverse. Quando un responsabile di progetto stima le spese, non può selezionare le categorie di spesa create per un progetto di proprietà di una società diversa da quella a cui appartiene il progetto su cui stanno lavorando. 
 
 ## <a name="expense-reports"></a>Note spese
 
-Le note spese vengono create e approvate nelle app Finance and Operations. Per ulteriori informazioni, vedi [Creare ed elaborare le note spese in Dynamics 365 Project Operations](/learn/modules/create-process-expense-reports/). Dopo che la nota spese è stata approvata dal responsabile di progetto, viene registrata nella contabilità generale. In Project Operations, le righe delle note spese relative al progetto vengono registrate utilizzando regole di registrazione speciali:
+Le note spese vengono create e approvate nelle app per la finanza e le operazioni. Per ulteriori informazioni, vedi [Creare ed elaborare le note spese in Dynamics 365 Project Operations](/learn/modules/create-process-expense-reports/). Dopo che la nota spese è stata approvata dal responsabile di progetto, viene registrata nella contabilità generale. In Project Operations, le righe delle note spese relative al progetto vengono registrate utilizzando regole di registrazione speciali:
 
   - Il costo relativo al progetto (inclusa l'imposta non recuperabile) non viene registrato immediatamente nel conto dei costi di progetto della contabilità generale, ma viene invece registrato nel conto di integrazione delle spese. Questo conto è configurato in **Gestione progetti e contabilità** > **Configura** > **Parametri di gestione progetti e contabilità** , **Project Operations in Dynamics 365 Customer Engagement**.
   - La doppia scrittura si sincronizza con Dataverse utilizzando la mappa della tabella **Entità di esportazione delle spese di progetto di integrazione di Project Operations (msdyn\_expenses)** .

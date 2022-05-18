@@ -4,16 +4,16 @@ description: In questo argomento vengono fornite informazioni sugli anticipi di 
 author: suvaidya
 ms.date: 03/25/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6881fc8251a2d3c7d6af0016780a92358ce63397d09b9a0cde201126cd2912cc
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8151ecfb83f0d6da32451d509364b8f63dffdb4d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988521"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585705"
 ---
 # <a name="cash-advance"></a>Anticipo in contanti
 
@@ -66,7 +66,7 @@ Prima di inviare una nota spese, puoi selezionare l'anticipo in contanti che si 
  
  Quando queste funzionalità sono abilitate:
  
-  - È possibile aggiungere uno o più anticipi in contanti per ogni riga di spesa.
+  - È possibile aggiungere uno o più anticipi di cassa per ciascuna riga di spesa.
   - Il saldo disponibile di un anticipo in contanti è visibile in tempo reale quando viene salvata una nota spese. Ciò ti consente di elaborare le transazioni di spesa e di restituire la transazione in contanti allo stesso tempo.
   - Puoi selezionare più anticipi in contanti per una transazione di spesa.
   - I dati di riconciliazione dell'anticipo in contanti sono disponibili utilizzando una query. 

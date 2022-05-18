@@ -8,39 +8,38 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjWbsTemplate
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 8ef34bc984510f23ab77cc1710c06abbcf80f721703685d696fea28eeaddd732
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d2994195ba916ac7a128e8bdd53bea6acb7bd0ba
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988026"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684969"
 ---
 # <a name="microsoft-project-client-integration"></a>Integrazione con Microsoft Project Client
 
 [!include [banner](../includes/banner.md)]
 
-La pianificazione e la gestione di una pianificazione del progetto possono essere complesse, quindi i project manager devono utilizzare strumenti che li aiutino a gestire questa attività. L'integrazione con Microsoft Project Client fornisce supporto per aprire e gestire una struttura di suddivisione del lavoro di progetto. Il project manager può pubblicare eventuali modifiche nella struttura di suddivisione del lavoro del progetto Dynamics 365 Finance.
+La pianificazione e la gestione di una pianificazione del progetto possono essere complesse, quindi i project manager devono utilizzare strumenti che li aiutino a gestire questa attività. L'integrazione con Microsoft Project Client fornisce supporto per aprire e gestire una struttura di suddivisione del lavoro di progetto. Il manager di progetto può pubblicare tutte le modifiche apportate nella struttura di suddivisione del lavoro di progetto di Dynamics 365 Finance.
 
 > [!NOTE]
 > Se stai usando l'aggiornamento di luglio (versione 10.0.4), devi installare KB 4054797 e 4055884.
 
 ## <a name="configure-the-microsoft-project-client-add-in"></a>Configurare il componente aggiuntivo di Microsoft Project Client
-Per abilitare l'integrazione con Microsoft Project Client, è necessario installare un componente aggiuntivo di Microsoft Dynamics 365 nell'applicazione client Microsoft Project dell'utente. Questo viene fatto aprendo l'**area di lavoro per la gestione dei progetti**.
+Per abilitare l'integrazione con Microsoft Project Client, è necessario installare un componente aggiuntivo di Microsoft Dynamics 365 nell'applicazione Microsoft Project Client dell'utente. Questo viene fatto aprendo l'**area di lavoro per la gestione dei progetti**.
 
 •   Fai clic su **Configura componente aggiuntivo client di progetto** dalla sezione **Collegamenti** > **Imposta** dell'area di lavoro.
 
 •   Fai clic su **Apri**, quindi fai clic su **Esegui** quando richiesto.
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>Aprire e modificare una bozza di struttura di suddivisione del lavoro esistente in Microsoft Project Client
-Se un progetto in Dynamics 365 Finance ha già una struttura di suddivisione del lavoro creata, la struttura di suddivisione del lavoro può essere aperta nell'applicazione Microsoft Project Client se la struttura di suddivisione del lavoro è in uno stato di bozza. Per aprire dalla pagina **Progetto**, fai clic sul collegamento **Apri in Microsoft Project** dalla scheda **Piano**. Questa pagina può essere aperta anche dall'interno dell'applicazione Microsoft Project Client facendo clic su **Apri** nella scheda **Microsoft Dynamics 365**. Seleziona **Persona giuridica** e **Progetto** dall'elenco.
+Se in un progetto di Dynamics 365 Finance è già stata creata una struttura di suddivisione del lavoro, la struttura di suddivisione del lavoro può essere aperta nell'applicazione Microsoft Project Client se la struttura di suddivisione del lavoro è in stato di bozza. Per aprire dalla pagina **Progetto**, fai clic sul collegamento **Apri in Microsoft Project** dalla scheda **Piano**. Questa pagina può essere aperta anche dall'interno dell'applicazione Microsoft Project Client facendo clic su **Apri** nella scheda **Microsoft Dynamics 365**. Seleziona **Persona giuridica** e **Progetto** dall'elenco.
 
 > [!NOTE]
 > Se stai usando Internet Explorer come browser, dovrai fare clic su **Salva** per aprire manualmente dalla posizione in cui viene scaricato il file. Oppure fai clic su **Salva e apri** per aprire il file in Microsoft Project Client. Non rinominare il nome del file durante il salvataggio.

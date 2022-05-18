@@ -4,14 +4,14 @@ description: Questo argomento fornisce informazioni su come creare e utilizzare 
 author: sigitac
 ms.date: 11/18/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b3a9f1e4f5ea0abe34dc860db87ef349daa46c487b03d271bfe207868c521f39
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9e163dc3180d2b35ddf9b15aa0577bf51e3b72ce
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993561"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594215"
 ---
 # <a name="set-up-cost-templates"></a>Configurare i modelli di costo
 
@@ -56,7 +56,7 @@ La decisione relativa a quale approccio adottare per creare un modello di costo 
 ## <a name="create-cost-templates"></a>Crea modelli di costo
 Per creare modelli di costo, seguire questi passaggi:
 
-1. Per accedere ai modelli di costo, nell'ambiente Dynamics 365 Finance, vai a **Contabilità e gestione dei progetti** > **Configurazione** > **Stime** > **Modello di costo**.
+1. Per accedere ai modelli di costo, nell'ambiente Dynamics 365 Finance, vai a **Gestione progetti e contabilità** > **Impostazioni** > **Stime** > **Modello di costo**.
 2. Selezionare **Nuovo** per creare un nuovo modello di costo. Immetti un nome e una descrizione.
 3. Fornisci l'ID della riga di costo per ogni tipo di transazione.
 4. Seleziona un metodo di completamento predefinito:

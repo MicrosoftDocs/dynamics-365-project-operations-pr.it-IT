@@ -3,16 +3,15 @@ title: Panoramica del processo di fatturazione
 description: Questo argomento fornisce una panoramica del processo di fatturazione in Project Operations per scenari di risorse/materiali non stoccati.
 author: sigitac
 ms.date: 01/29/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: 804d42f7e8bfd103b9143dc0f5c7ddecdee9e66e6072c3e7bf76b2a8c549cf55
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0328d5321909bcc17754da4e19d7652b77a665d5
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003776"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582715"
 ---
 # <a name="invoicing-process-overview"></a>Panoramica del processo di fatturazione
 
@@ -22,7 +21,7 @@ Project Operations per scenari basati su risorse/non stoccate offre funzionalit�
 
 ![Diagramma del flusso di fatturazione.](./media/invoicing-flow.png)
 
-La riga del contratto di progetto definisce il metodo di fatturazione per le transazioni di progetto associate. Quando il responsabile di progetto approva le transazioni di tempo e spese, il sistema registra le transazioni nell'entità **Valori effettivi di progetto** e invia le informazioni al modulo **Gestione progetti e contabilità** in Dynamics 365 Finance. Il contabile del progetto quindi rivede e registra i record utilizzando il [giornale Integrazione Project Operations](../project-accounting/project-operations-integration-journal.md). Questo giornale di registrazione include importanti dettagli contabili per i valori effettivi del progetto, come fatturazione, fascia IVA, fascia IVA articoli di fatturazione e dimensioni finanziarie.
+La riga del contratto di progetto definisce il metodo di fatturazione per le transazioni di progetto associate. Quando il responsabile di progetto approva le transazioni relative a tempo e spese, il sistema registra le transazioni nell'entità **Valori effettivi di progetto**, quindi invia le informazioni al modulo **Gestione progetti e contabilità** in Dynamics 365 Finance. Il contabile del progetto quindi rivede e registra i record utilizzando il [giornale Integrazione Project Operations](../project-accounting/project-operations-integration-journal.md). Questo giornale di registrazione include importanti dettagli contabili per i valori effettivi del progetto, come fatturazione, fascia IVA, fascia IVA articoli di fatturazione e dimensioni finanziarie.
 
 Il responsabile di progetto può rivedere le transazioni di vendita non fatturate utilizzando il metodo di fatturazione tempo e materiali in [Backlog di fatturazione tempo e materiale](../proforma-invoicing/manage-billing-backlog.md#time-and-material-billing-backlog) e la fatturazione a prezzo fisso in [Passaggi fondamentali prezzo fisso](../proforma-invoicing/manage-billing-backlog.md#fixed-price-milestones). Queste visualizzazioni consentono di filtrare e selezionare le transazioni che devono essere incluse nel ciclo di fatturazione successivo e quindi contrassegnarle come **Pronto per la fatturazione**.
 

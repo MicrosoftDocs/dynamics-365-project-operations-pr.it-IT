@@ -4,14 +4,14 @@ description: Questo argomento spiega come distribuire manualmente l'app Project 
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 06325a9a9f9084d1f506f2493c32565fe7b7c52ae6fe22c81339b9c1d632e688
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b82eef7b5f64705f37f224172c14f6734612329e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986451"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591225"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>Distribuire manualmente l'app Project Operations Dataverse con supporto doppia scrittura
 
@@ -37,7 +37,7 @@ Per completare questa procedura, devi accedere come amministratore.
 3. Seleziona il tipo di ambiente. Se ti sei registrato per l'offerta della versione di valutazione, seleziona **Versione di valutazione (basata su abbonamento)**.
 4. Conferma l'area di distribuzione.
 5. Abilita l'opzione **Crea un database per questo ambiente**. 
-6. Conferma la lingua, quindi conferma che la valuta corrisponda alla valuta per le app Finance and Operations.
+6. Conferma la lingua, quindi conferma che la valuta corrisponda a quella delle tue app per la finanza e le operazioni.
 7. Abilita l'opzione **App Dynamics 365** e conferma che il campo **Distribuisci automaticamente queste app** è impostato su **Nessuna**.
 8. Aggiungi un gruppo di sicurezza, se è richiesto un gruppo di sicurezza.
 9. Seleziona **Salva** per creare l'ambiente.
@@ -62,4 +62,4 @@ Puoi completare questa procedura solo se hai completato le procedure precedenti 
 
 ## <a name="link-your-environments"></a><a name="link"></a>Collega i tuoi ambienti
 
-Dopo aver distribuito l'ambiente Dataversepuoi impostare il collegamento nelle tue app Finance and Operations. Segui i passaggi in [Usare la procedura guidata doppia scrittura per collegare gli ambienti](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).
+Dopo che l'ambiente Dataverse è distribuito, è possibile configurare il collegamento nelle app per la finanza e le operazioni. Segui i passaggi in [Usare la procedura guidata doppia scrittura per collegare gli ambienti](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).

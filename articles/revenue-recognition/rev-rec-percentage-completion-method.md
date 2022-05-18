@@ -4,14 +4,14 @@ description: In questo argomento vengono fornite informazioni sui ricavi a prezz
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 451f0403f0111b5ea4de6c91b54eae157830e413d3a21f23bd841a66905e147b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 290608e5663f9c953212c156771bbf1ad6b1e901
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006431"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8578713"
 ---
 # <a name="fixed-price-revenue-estimate-projects"></a>Progetti di stima dei ricavi a prezzo fisso 
 
@@ -26,7 +26,7 @@ Quando crei una riga di contratto di progetto con i seguenti attributi in Dynami
 ## <a name="review-fixed-price-revenue-estimates-projects"></a>Revisione dei progetti delle stime dei ricavi a prezzo fisso
 Per rivedere i progetti delle stime dei ricavi a prezzo fisso, completare i seguenti passaggi:
 
-1. Nell'ambiente Dynamics 365 Finance, vai a **Contabilità e gestione progetti** > **Progetti** > **Progetti di stima dei ricavi a prezzo fisso**.
+1. Nell'ambiente Dynamics 365 Finance, vai a **Gestione progetti e contabilità** > **Progetti** > **Progetti di stima dei ricavi a prezzo fisso**.
 2. Seleziona il progetto che desideri visualizzare e fai doppio clic su **Stima ID del progetto** per aprire il record e rivedere i dettagli del progetto.
 3. Espandi la schedaa **Progetto**. Vedrai un progetto nella griglia **Progetti selezionati**. Il sistema utilizza questo progetto come predefinito perché è il progetto associato alla riga di contratto di progetto. 
 4. Per modificare l'associazione, seleziona altri progetti e aggiungili alla griglia **Progetti selezionati**. Se in questa griglia vengono selezionati più progetti, la percentuale di completamento del progetto e le stime dei ricavi vengono calcolate insieme per tutti i progetti selezionati.

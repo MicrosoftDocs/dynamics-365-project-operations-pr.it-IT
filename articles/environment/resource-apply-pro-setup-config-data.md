@@ -4,27 +4,27 @@ description: Questo argomento fornisce informazioni sull'impostazione e l'applic
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 26f49ad3b9fb08824071699128f8b907ec98bb54505c6fea3c97288cbaf31633
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6fb91de30a2414fa7dd8dba47b28cf4824948565
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986631"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594721"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Impostare e applicare i dati di configurazione in Common Data Service 
 
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 ## <a name="prerequisites"></a>Prerequisiti
 
 Prima di iniziare a configurare i dati in Common Data Service (CDS), devono essere soddisfatti i seguenti prerequisiti:
 
-1.  Provisioning di un ambiente CDS e un ambiente Dynamics 365 Finance per Project Operations.
-2.  Informazioni sulla persona giuridica di Dynamics 365 Finance condivise nell'ambiente CDS. Ciò significa che l'entità **Società** in CDS ha i seguenti record aziendali:
+1.  Esegui il provisioning di un ambiente CDS e un ambiente Dynamics 365 Finance per Project Operations.
+2.  Le informazioni sulla persona giuridica di Dynamics 365 Finance vengono condivise nell'ambiente CDS. Ciò significa che l'entità **Società** in CDS ha i seguenti record aziendali:
   - THPM
   - USPM
   - GBPM

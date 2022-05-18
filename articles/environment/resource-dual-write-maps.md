@@ -4,14 +4,14 @@ description: Questo argomento fornisce l'elenco delle mappe a doppia scrittura r
 author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 452f9f16bfbae2d547afb9fcf4fc51595ea49890
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: 385893e8ecdb29f4dc411c233b9ae19bb2448dfd
+ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547114"
+ms.lasthandoff: 04/18/2022
+ms.locfileid: "8612755"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Versioni della mappa a doppia scrittura di Project Operations
 
@@ -25,12 +25,12 @@ Le mappe seguenti sono prerequisiti obbligatori per la soluzione Project Operati
 
 | Mapping tabella | Sincronizzazione iniziale |
 | --- | --- |
-| Libro mastro (msdyn_ledgers) | Richiede la sincronizzazione iniziale per la mappa della tabella e tutti i prerequisiti. Master per la sincronizzazione iniziale sono le app Finance and Operations. |
+| Libro mastro (msdyn_ledgers) | Richiede la sincronizzazione iniziale per la mappa della tabella e tutti i prerequisiti. Il master per la sincronizzazione iniziale è l'app per la finanza e le operazioni. |
 | Persone giuridiche (cdm_companies) | Non obbligatorio. Il sistema popola questa entità automaticamente quando gli ambienti sono collegati utilizzando la doppia scrittura. |
 | Clienti V3 (accounts) | Non obbligatorio per il provisioning. |
 | Fornitori V2 (msdyn_vendors) | Non obbligatorio per il provisioning. |
 
-1. Dall'elenco dei mapping, seleziona la mappa Libro mastro **(msdyn\_ledgers)** con tutti i prerequisiti e seleziona la casella di controllo **Sincronizzazione iniziale**. Nel campo **Master per la sincronizzazione iniziale** seleziona **App Finance and Operations** sia per la mappa del libro mastro che per tutte le mappe obbligatorie. Selezionare **Esegui**.
+1. Dall'elenco dei mapping, seleziona la mappa Libro mastro **(msdyn\_ledgers)** con tutti i prerequisiti e seleziona la casella di controllo **Sincronizzazione iniziale**. Nel campo **Master per la sincronizzazione iniziale** seleziona **App per la finanza e le operazioni** sia per la mappa del contabilità genrale che per tutte le mappe dei prerequisiti. Selezionare **Esegui**.
 
 ![Sincronizzazione dei mapping del libro mastro.](media/DW6.png)
 
@@ -40,26 +40,26 @@ Le mappe seguenti sono prerequisiti obbligatori per la soluzione Project Operati
 
 Le mappe seguenti sono obbligatorie per una soluzione Project Operations. Le versioni della mappa a doppia scrittura sono elencate a partire dall'aggiornamento di Project Operations di maggio 2021, versione 4.10.0.186.
 
-| **Mapping entità** | **Ultima versione** | **Sincronizzazione iniziale** |
-| --- | --- | --- |
-| Entità di integrazione per le relazioni di transazione del progetto (msdyn\_transactionconnections) | 1.0.0.0 | Non obbligatorio per il provisioning. |
-| Intestazioni del contratto di progetto (ordini di vendita) | 1.0.0.1 | Non obbligatorio per il provisioning. |
-| Voci del contratto di progetto (salesorderdetails) | 1.0.0.0 | Non obbligatorio per il provisioning. |
-| Fonte di finanziamento di progetto (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Non obbligatorio per il provisioning. |
-| Tabella di integrazione Project Operations per le stime dei materiali (msdyn\_estimatelines) | 1.0.0.0 | Non obbligatorio per il provisioning. |
-| Proposte di fattura di progetto V2 (invoices) | 1.0.0.3 | Non obbligatorio per il provisioning. |
-| Valori effettivi dell'integrazione di Project Operations (msdyn_actuals) | 1.0.0.14 | Non obbligatorio per il provisioning. |
-| Passaggi fondamentali delle righe del contratto per l'integrazione di Project Operations (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Non obbligatorio per il provisioning. |
-| Entità dell'integrazione di Project Operations per stime delle spese (msdyn_estimatelines) | 1.0.0.2 | Non obbligatorio per il provisioning. |
-| Entità di integrazione per stime orarie di Project Operations (msdyn_estimateslines) | 1.0.0.5 | Non obbligatorio per il provisioning. |
-| Entità di esportazione categorie delle spese di progetto di integrazione di Project Operations (msdyn_expensecategories) | 1.0.0.1 | Non obbligatorio per il provisioning. |
-| Entità di esportazione delle spese di progetto di integrazione di Project Operations (msdyn_expenses) | 1.0.0.2 | Non obbligatorio per il provisioning. |
-| Entità di esportazione fattura fornitore progetto integrazione Project Operations (msdyn_projectvendorinvoices) | 1.0.0.0 | Non obbligatorio per il provisioning. |
-| Entità di esportazione riga fattura fornitore progetto integrazione Project Operations (msdyn_projectvendorinvoicelines) | 1.0.0.1 | Non obbligatorio per il provisioning. |
-| Ruoli delle risorse di progetto per tutte le aziende (bookableresourcecategories) | 1.0.0.1 | Richiede una sincronizzazione iniziale per la mappa della tabella per sincronizzare i ruoli delle risorse del responsabile di progetto e del membro del team che sono popolati nell'ambiente Dynamics 365 Dataverse durante il provisioning. Dataverse è la fonte principale per la sincronizzazione iniziale. |
-| Attività di progetto (msdyn_projecttasks) | 1.0.0.4 | Non obbligatorio per il provisioning. |
-| Categorie di transazione di progetto (msdyn_transactioncategories) | 1.0.0.0 | Non obbligatorio per il provisioning. |
-| Progetti V2 (msdyn_projects) | 1.0.0.2 | Non obbligatorio per il provisioning. |
+| Mapping entità | Ultima versione | Sincronizzazione iniziale | Versione di Dynamics 365 Finance richiesta |
+| --- | --- | --- | --- |
+| Entità di integrazione per le relazioni di transazione del progetto (msdyn\_transactionconnections) | 1.0.0.0 | Non obbligatorio per il provisioning. ||
+| Intestazioni del contratto di progetto (ordini di vendita) | 1.0.0.1 | Non obbligatorio per il provisioning. ||
+| Voci del contratto di progetto (salesorderdetails) | 1.0.0.0 | Non obbligatorio per il provisioning. ||
+| Fonte di finanziamento di progetto (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Non obbligatorio per il provisioning. ||
+| Tabella di integrazione Project Operations per le stime dei materiali (msdyn\_estimatelines) | 1.0.0.0 | Non obbligatorio per il provisioning. ||
+| Proposte di fattura di progetto V2 (invoices) | 1.0.0.3 | Non obbligatorio per il provisioning. ||
+| Valori effettivi dell'integrazione di Project Operations (msdyn_actuals) | 1.0.0.14 | Non obbligatorio per il provisioning. ||
+| Passaggi fondamentali delle righe del contratto per l'integrazione di Project Operations (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Non obbligatorio per il provisioning. ||
+| Entità dell'integrazione di Project Operations per stime delle spese (msdyn_estimatelines) | 1.0.0.2 | Non obbligatorio per il provisioning. ||
+| Entità di integrazione per stime orarie di Project Operations (msdyn_estimateslines) | 1.0.0.5 | Non obbligatorio per il provisioning. ||
+| Entità di esportazione categorie delle spese di progetto di integrazione di Project Operations (msdyn_expensecategories) | 1.0.0.1 | Non obbligatorio per il provisioning. ||
+| Entità di esportazione delle spese di progetto di integrazione di Project Operations (msdyn_expenses) | 1.0.0.3 | Non obbligatorio per il provisioning. ||
+| Entità di esportazione fattura fornitore progetto integrazione Project Operations (msdyn_projectvendorinvoices) | 1.0.0.0 | Non obbligatorio per il provisioning. ||
+| Entità di esportazione riga fattura fornitore progetto integrazione Project Operations (msdyn_projectvendorinvoicelines) | 1.0.0.4 | Non obbligatorio per il provisioning. | 10.0.26 o successive |
+| Ruoli delle risorse di progetto per tutte le aziende (bookableresourcecategories) | 1.0.0.1 | Richiede una sincronizzazione iniziale per la mappa della tabella per sincronizzare i ruoli delle risorse del responsabile di progetto e del membro del team che sono popolati nell'ambiente Dynamics 365 Dataverse durante il provisioning. Dataverse è la fonte principale per la sincronizzazione iniziale. ||
+| Attività di progetto (msdyn_projecttasks) | 1.0.0.4 | Non obbligatorio per il provisioning. ||
+| Categorie di transazione di progetto (msdyn_transactioncategories) | 1.0.0.0 | Non obbligatorio per il provisioning. ||
+| Progetti V2 (msdyn_projects) | 1.0.0.2 | Non obbligatorio per il provisioning. ||
 
 Completa i seguenti passaggi per eseguire le mappe elencate.
 

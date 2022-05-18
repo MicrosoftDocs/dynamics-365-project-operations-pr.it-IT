@@ -3,15 +3,15 @@ title: Gestione dei conti lavoro in Project Operations
 description: Questo argomento fornisce una panoramica del processo di gestione end-to-end dei conti lavoro generalmente nelle organizzazioni basate su progetti.
 author: rumant
 ms.date: 08/02/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 993edfd064279a970d7c42d5fcefd794e949a931
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: d595e948b7be9a6822827f4841e737d3c0e1476b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323601"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593019"
 ---
 # <a name="subcontract-management-in-project-operations"></a>Gestione dei conti lavoro in Project Operations
 
@@ -46,7 +46,7 @@ Una voce di conto lavoro può essere basata su quantità o su lavoro.
 
 Quando una voce di conto lavoro è **basata su quantità**, la quantità acquistata nella voce del conto lavoro per ore, spese o materiale può essere utilizzata in qualsiasi progetto.
 
-Quando una voce di conto lavoro è **basata sul lavoro**, la voce del conto lavoro viene mappata a un corpo di lavoro rappresentato da un nodo nel piano di progetto. Il valore della voce di conto lavoro è la somma di tutti i componenti necessari per consegnare quel corpo di lavoro. Questi sono modellati come dettagli della voce di conto lavoro e possono essere una raccolta di ore, spese o materiali. Per una voce di conto lavoro basata sul lavoro, anche la voce di conto lavoro è dedicata a un singolo progetto.
+Quando una voce di conto lavoro è **basata sul lavoro**, la voce del conto lavoro viene mappata a un corpo di lavoro rappresentato da un nodo nel piano di progetto. Il valore della voce di conto lavoro è la somma di tutti i componenti necessari per consegnare quel corpo di lavoro. Questi sono modellati come dettagli della voce di conto lavoro e possono essere una raccolta di ore, spese o materiali. Per una voce di conto lavoro basata sul lavoro, anche la voce di conto lavoro è dedicata a un singolo progetto. Questi tipi di conto lavoro non sono attualmente supportati da Project Operations.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

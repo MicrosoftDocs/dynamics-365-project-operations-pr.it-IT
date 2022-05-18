@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 1/08/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: f7ad339872f18bf5aaae6f472436fc318d4cd919fcae58cc1b6e4d5ab19bd68c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c41fda3a3c756f8ad4c695b572eea9cad715f2e4
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992751"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8592651"
 ---
 # <a name="whats-new-or-changed-in-project-operations-january-2021-for-stockedproduction-based-scenarios"></a>Novità o modifiche di Project Operations gennaio 2021 per scenari di materiali stoccati basati sulla produzione
 
@@ -20,7 +20,7 @@ _**Si applica a:** Project Operations per scenari di materiali stoccati basati s
 
 Questo argomento si applica ai seguenti componenti e versioni di Dynamics 365 Project Operations:
 
-- Gestione progetti e contabilità in ambiente Dynamics 365 Finance versione 10.0.16
+- Gestione progetti e contabilità in un ambiente Dynamics 365 Finance versione 10.0.16
 
 
 ### <a name="quality-updates"></a>Aggiornamenti di qualità
@@ -142,7 +142,7 @@ Questo argomento si applica ai seguenti componenti e versioni di Dynamics 365 Pr
 | Viaggi e spesa                  | [525106](https://fix.lcs.dynamics.com/Issue/Details/?bugId=525106) | In Project Operations, l'ora con attività interaziendali in Dataverse non può essere creato o approvato.                                                                                                                                                                                             |
 
 ### <a name="regulatory-updates"></a>Aggiornamenti normativi
-Per informazioni sugli aggiornamenti normativi per le app Finance and Operations, vedi [Aggiornamenti normativi](/dynamics365/finance/localizations/regulatory-updates). È inoltre possibile accedere a LCS e visualizzare gli aggiornamenti normativi pianificati utilizzando lo strumento di ricerca dei problemi. La ricerca dei problemi ti consente di cercare per paese, tipo di funzionalità e versione.
+Per informazioni sugli aggiornamenti normativi per le app per la finanza e le operazioni, vedi [Aggiornamenti normativi](/dynamics365/finance/localizations/regulatory-updates). È inoltre possibile accedere a LCS e visualizzare gli aggiornamenti normativi pianificati utilizzando lo strumento di ricerca dei problemi. La ricerca dei problemi ti consente di cercare per paese, tipo di funzionalità e versione.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

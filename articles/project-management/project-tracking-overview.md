@@ -2,17 +2,16 @@
 title: Registrazione del lavoro richiesto di progetto
 description: In questo argomento vengono fornite informazioni su come registrare il lavoro richiesto di progetto e l'avanzamento del lavoro.
 author: ruhercul
-ms.date: 03/22/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.date: 02/15/2022
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.custom: intro-internal
-ms.openlocfilehash: 0df357eaf662816107fbc1777ebae030c93bd199756e78a1c3d59155dc64d38f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 037118714cf01ba2fb91cdd94345495d12ccb645
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993966"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593801"
 ---
 # <a name="project-effort-tracking"></a>Registrazione del lavoro richiesto di progetto
 
@@ -46,7 +45,8 @@ Un responsabile di progetto può riproiettare il lavoro richiesto sulle attivit�
 - La nuova stima al completamento di ogni singola attività fino alle attività del nodo foglia viene calcolata. 
 - Il lavoro richiesto rimanente e la percentuale di avanzamento delle attività figlio interessate fino ai nodi foglia vengono ricalcolate in base al valore della stima al completamento. Ciò comporta una nuova proiezione per lo scostamento del lavoro richiesto dell'attività. 
 - Le stime al completamento delle attività di riepilogo fino al nodo foglia vengono ricalcolate.
-
+- L'impegno approvato su un'attività di riepilogo è la somma dell'impegno approvato su tutte le attività figlio più l'impegno approvato sull'attività di riepilogo.
+- L'impegno rimanente sull'attività di riepilogo è la somma dell'impegno rimanente su tutte le attività figlio meno l'impegno approvato sull'attività di riepilogo.
 
 ## <a name="project-status-summary"></a>Riepilogo dello stato del progetto
 

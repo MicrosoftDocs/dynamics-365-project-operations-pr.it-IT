@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 26861472d3af20c58b3d01142b834d535cf99715
-ms.sourcegitcommit: 083e3d219cd5126eecb74debb1b70b361680b1f6
+ms.openlocfilehash: 144a8c0d5ac47ad6fee54850c149a349f1698049
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7501376"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594169"
 ---
 # <a name="whats-new-august-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novità di agosto 2021 - Project Operations per scenari di risorse/materiali non stoccati
 
@@ -21,7 +21,7 @@ ms.locfileid: "7501376"
 Questo argomento si applica ai seguenti componenti e versioni di Dynamics 365 Project Operations:
 
    - Project Operations in ambiente Microsoft Dataverse versione 4.13.0.152.
-   - Gestione progetti e contabilità in ambiente Dynamics 365 Finance versione 10.0.20.
+   - Gestione progetti e contabilità in un ambiente Dynamics 365 Finance versione 10.0.20.
 
 ## <a name="features-included-in-this-release"></a>Funzioni incluse in questo rilascio
 
@@ -54,7 +54,7 @@ Se riscontri un problema durante l'avvio della mappa, segui le istruzioni nella 
 | Tempistica e spesa | 2336884 | Il pulsante dell'inserimento ore **Copia settimana** deve funzionare non solo per l'utente corrente. |
 
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Contabilità e gestione dei progetti in Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Gestione progetti e contabilità in Dynamics 365 Finance
 
 | Area funzionalità | Numero di riferimento | Aggiornamento di qualità |
 | --- | --- | --- |

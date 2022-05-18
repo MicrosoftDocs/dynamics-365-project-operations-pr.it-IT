@@ -4,14 +4,14 @@ description: Questo argomento fornisce informazioni sulla visualizzazione dei co
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 448c5a7c4144387440b26c526f66acbbbe475ad533da9e00db0eb5d5e86be9e8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 64e81593065d97272af6261e17175c76bd8dca7a
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001841"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8590489"
 ---
 # <a name="manage-project-contracts"></a>Gestire contratti di progetto
 
@@ -31,6 +31,9 @@ Un elenco di tutti i contratti di progetto può essere visualizzato dalla pagina
 2. Seleziona **Cambia vista** (la freccia a discesa accanto al nome della visualizzazione) per selezionare altre visualizzazioni filtrate. Puoi creare le tue visualizzazioni con criteri di filtro personalizzati.
 
 I contratti possono essere creati o eliminati da questa pagina elenco o dalle pagine dei dettagli.
+
+> [!NOTE]
+> I contratti a cui sono associati progetti, attività, stime, giornali di registrazione e/o effettivi non possono essere eliminate. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

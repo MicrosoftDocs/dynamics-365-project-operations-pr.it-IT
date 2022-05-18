@@ -4,20 +4,20 @@ description: Questo argomento fornisce informazioni sulla definizione o sulla st
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 1717abb8f37acb7ab5f4e24b9323b3d958b40b13d7da44c0bbfa88eea28b99ef
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 089158666dc8fd09cd5d2b615715ed8aaff5575a
+ms.sourcegitcommit: e6090e1fef5f475a3cd56b78b6abca29f90da8f5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992616"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8737307"
 ---
 # <a name="financial-estimates-for-materials-on-projects"></a>Stime finanziarie per materiali nei progetti
 
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
-Dynamics 365 Project Operations consente ai responsabili di progetto di definire i costi dei materiali basati su progetto per ogni progetto o attività. Ogni stima di materiale può essere associata a una specifica attività di progetto. Le spese sono classificate in diverse categorie di spesa, definite a livello organizzativo. I prezzi e i costi di ciascuna categoria di spesa sono definiti nel listino prezzi. 
+Dynamics 365 Project Operations consente ai responsabili di progetto di definire i costi dei materiali basati su progetto per ogni progetto o attività. Ogni stima di materiale può essere associata a una specifica attività di progetto. I materiali utilizzati nei progetti possono essere prodotti fuori catalogo o prodotti dal catalogo prodotti. Per ogni combinazione di un prodotto e di un'unità, è possibile definire un prezzo nei listini prezzi di progetto per le vendite e nei listini prezzi di progetto per i costi.  
 
 Completa i seguenti passaggi per visualizzare, aggiungere o eliminare una stima di materiale di progetto.
 

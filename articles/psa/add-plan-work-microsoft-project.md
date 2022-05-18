@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ccebf1439f49092b23da5b4fc2ebb4fc484de4dd17c870eea9fe37b00fbb3689
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 460b5bb7baabcb804b9745f5fddae9bcc3fc7541
+ms.sourcegitcommit: 30242d7754bca300b594b0887eb4212d10bea1c4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005306"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8727963"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Utilizzare il componente aggiuntivo Project Service Automation di pianificare il lavoro in Microsoft Project
 
@@ -40,7 +41,7 @@ ms.locfileid: "7005306"
 ## <a name="download-and-install-the-add-in"></a>Scaricare e installare il componente aggiuntivo.  
  Tenere pronte le informazioni sulle credenziali di accesso di [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Queste informazioni sono necessarie per connettersi da [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] a [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
-1.  Dall'area download, puoi scaricare il componente aggiuntivo per la versione supportata di Project Service, ovvero [V2.X](https://go.microsoft.com/fwlink/?linkid=828268) o [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956).  
+1.  Dall'area download, puoi scaricare il componente aggiuntivo per la versione supportata di Project Service, ovvero [V2.X](/dynamics365/project-operations/psa/overview#guidance-for-earlier-versions-app-version-2x-or-1x) o [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956).  
 
 2.  Fare clic sul collegamento Scarica.  
 
@@ -87,9 +88,8 @@ Quando la pianificazione di progetto è completa, è necessario importare e pubb
 
 Il progetto verrà importato in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Il processo di creazione del team e dei prezzi viene applicato. Aprire il progetto in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] per verificare che il team, le stime di progetto e la struttura di suddivisione del lavoro siano stati creati. La tabella seguente mostra dove trovare i risultati:
 
-
-|                                                                                          |                                                                                                                                   |
-|------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| Project | Details |
+| ---- | --- |
 |  [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Diagramma di Gantt**   | Importare nella schermata **Struttura di suddivisione del lavoro** di [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] |
 | [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Foglio risorse** |   Esegue l'importazione in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], schermata **Solo membri del team di progetto**   |
 |   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Utilizzare l'utilizzo**    |    Esegue l'importazione in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], schermata **Stime di progetto**.     |

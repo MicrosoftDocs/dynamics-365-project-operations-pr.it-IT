@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a201e3e4333b8892eea72387222d64e18b74d71b
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 7b5f3528e4b4e615b8e7f24bfd3702746fd584c9
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323916"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723681"
 ---
 # <a name="whats-new-2021-wave-2-early-access---project-operations-lite-deployment"></a>Accesso in anteprima alle novità 2021 ciclo 2 - distribuzione lite di Project Operations
 
@@ -26,7 +26,7 @@ Il rilascio viene applicato solo quando un ambiente è [optato per l'accesso in 
 
 ## <a name="features-included-in-this-release"></a>Funzioni incluse in questo rilascio
 
-[Gestione del conto lavoro](../subcontracting/subcontracting_EA_scope.md): questa funzione offre una migliore visibilità e controllo su tutti gli aspetti del lavoro su un progetto. L'anteprima della gestione del conto lavoro include le seguenti funzionalità:
+[Gestione del conto lavoro](/dynamics365/project-operations/pro/subcontracting/managing-subcontracts-overview): questa funzione offre una migliore visibilità e controllo su tutti gli aspetti del lavoro su un progetto. L'anteprima della gestione del conto lavoro include le seguenti funzionalità:
 
   - Un responsabile di progetto può creare un conto lavoro con un fornitore. Per impostazione predefinita, per il conto lavoro vengono utilizzati i listini prezzi associati al record del fornitore. Il conto fornitore ha un tipo di relazione di tipo **fornitore** o **venditore**.
   - Un responsabile di progetto può dettagliare tutti gli acquisti come voci nel conto lavoro. Le righe del conto lavoro possono riguardare tempi, spese o prodotti. La classe di transazione della voce di conto lavoro determina a cosa serve la riga.

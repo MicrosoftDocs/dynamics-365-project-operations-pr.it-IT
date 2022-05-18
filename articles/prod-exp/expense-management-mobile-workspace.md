@@ -5,20 +5,19 @@ author: suvaidya
 ms.date: 12/01/2017
 ms.topic: article
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 274023
 ms.assetid: 3605eda1-a7ed-4675-8031-5279c5a8f5e4
 ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 0559f881aba2d0a9c65ad123a40803743fc7407bb0d87ac6e8280ee8e30d36b7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d5309b55ed146d21d7a42e0b40add9ee346d48aa
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001481"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8682807"
 ---
 # <a name="expense-management-mobile-workspace"></a>Area di lavoro per dispositivi mobili Gestione delle spese
 
@@ -35,7 +34,7 @@ Molte organizzazioni richiedono che una copia della ricevuta sia allegata a una 
 
 In particolare, l'area di lavoro per dispositivi mobili **Gestione delle spese** consente agli utenti di eseguire queste attività:
 
-- Scatta una foto di una ricevuta e caricala su Dynamics 365 Finance. È quindi possibile allegare la foto a una nota spese in un secondo momento.
+- Scatta una foto di ricevuta e caricala in Dynamics 365 Finance. È quindi possibile allegare la foto a una nota spese in un secondo momento.
 - Caricare un file come ricevuta acquisita. È quindi possibile allegare il file a una nota spese in un secondo momento.
 - Creare una nuova riga di spesa utilizzando una ricevuta allegata. È quindi possibile aggiungere la voce a una nota spese in un secondo momento e inviarla per l'approvazione e il rimborso.
 
@@ -53,7 +52,7 @@ Puoi utilizzare anche le funzionalità per:
 ## <a name="prerequisites"></a>Prerequisiti
 I prerequisiti variano in base alla versione che è stata distribuita per la tua organizzazione.
 
-### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Prerequisiti se usi Dynamics 365 Finance 
+### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Prerequisiti per l'utilizzo di Dynamics 365 Finance 
 Se Finance è stato distribuito per la tua organizzazione, l'amministratore di sistema deve pubblicare l'area di lavoro per dispositivi mobili **Gestione delle spese**. Per istruzioni, vedi [Pubblicare aree di lavoro per dispositivi mobili](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Prerequisiti se utilizzi la versione 1611 con Platform update 3 o successiva

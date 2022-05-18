@@ -1,5 +1,5 @@
 ---
-title: Unità organizzative
+title: Unità organizzative avanzate
 description: In questo argomento vengono fornite informazioni sulle unità organizzative in Dynamics 365 Project Service Automation.
 author: rumant
 ms.custom:
@@ -16,14 +16,15 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: dccb01e5d1c032039cac980061d93b443ef0f9e1296cdd2d8efd7b1bf7338ce0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 80208be7be56d0b09354c45cd2afd96958daf985
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005081"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589431"
 ---
-# <a name="organizational-units"></a>Unità organizzative 
+# <a name="about-organizational-units"></a>Informazioni sulle unità organizzative 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
@@ -122,7 +123,7 @@ N. Nella versione corrente di PSA, le unità organizzative non sono gerarchiche.
 Quando è presente una gerarchia complete di centri di costo, divisioni, uffici di fatturazione e così via, i nodi foglia di quella gerarchia devono essere configurati come unità organizzative distinte.
 Nell'esempio seguente è illustrata una gerarchia tipica:
 
-**ContosoIndia**
+**Contoso India**
 
   - Settore SAP 
 

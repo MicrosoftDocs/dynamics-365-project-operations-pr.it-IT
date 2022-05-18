@@ -2,16 +2,16 @@
 title: Impostazioni del contratto di progetto - semplice
 description: Questo argomento fornisce informazioni sui campi che influiscono sulle righe del contratto e le informazioni sul contratto che vengono riepilogate in tutte le voci.
 author: rumant
-ms.date: 10/20/2020
+ms.date: 03/08/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7ade6c122827274f926803140f5db32442114c7aefd18d410da65270f345fde4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 638bd11926c2b470c0da92d67350e8da56cb1997
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995946"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586395"
 ---
 # <a name="header-details-for-project-contracts"></a>Dettagli dell'intestazione per contratti di progetto
 
@@ -32,12 +32,15 @@ La tabella seguente elenca i campi di un contratto di progetto che sono univoci 
 | Limite da non superare | Scheda **Riepilogo** | Questo campo indica il limite massimo negoziato per il valore finale che il cliente accetta per questa transazione. | Il limite massimo viene valutato durante l'esecuzione ed è applicabile a tutte le voci e i progetti associati a questa transazione. |
 | Data consegna richiesta | Scheda **Riepilogo** | Quando un contratto viene creato da un'offerta di progetto, questo campo viene copiato dal campo corrispondente nell'offerta di progetto. | Questa data viene utilizzata come data di fine per generare le pianificazioni di fatturazione. |
 
-I seguenti KPI sono disponibili nella scheda **Prestazioni contratto** di un contratto di progetto.
+I seguenti KPI sono disponibili nella scheda **Prestazioni contratto** di un contratto di progetto. 
 
-| Campo | Ufficio | Descrizione |
+>[!NOTE]
+>Tutti gli importi sulla scheda **Prestazioni contratto** sono espressi nella valuta predefinita dell'ambiente.
+
+| Campo | Location | Description |
 | --- | --- | --- |
-| Valore contratto | Contratto generale | Il valore totale del contratto di progetto. |
-| Importo fatturato | Contratto generale | La somma degli importi su tutte le fatture relative a questo contratto. |
+| Valore contratto | Contratto generale | Il valore totale del contratto di progetto.|
+| Importo fatturato | Contratto generale | La somma degli importi su tutte le fatture relative a questo contratto.|
 | Costi sostenuti | Contratto generale | La somma di tutti i costi effettivi registrati su tutti i progetti mappati al contratto. |
 | Margine lordo | Contratto generale | Importo fatturato - Costo sostenuto fino alla data / Importo fatturato |
 | Margine previsto | Contratto generale | (Valore del contratto - Costi stimati) / Valore del contratto Costi stimati = La somma di tutti i costi stimati su tutti i progetti associati al contratto.|

@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 02/08/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 41d7d7133652069ca3899db7f12e67e9ba531bcd3e36d67c3686a6b637b077d3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cb6ab1337652d18a30fba56560ffe50f78dd4eb4
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986811"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589017"
 ---
 # <a name="whats-new-february-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novità di febbraio 2021 - Project Operations per scenari basati su risorse/non stoccate
 
@@ -21,7 +21,7 @@ _**Si applica a:** Project Operations per scenari basati su risorse/materiali no
 Questo argomento si applica ai seguenti componenti e versioni di Dynamics 365 Project Operations:
 
 - Project Operations in ambiente Dataverse 4.7.0.95
-- Gestione progetti e contabilità in ambiente Dynamics 365 Finance versione 10.0.16 
+- Gestione progetti e contabilità in un ambiente Dynamics 365 Finance versione 10.0.16 
 
 ## <a name="quality-updates"></a>Aggiornamenti di qualità
 
@@ -44,14 +44,14 @@ Questo argomento si applica ai seguenti componenti e versioni di Dynamics 365 Pr
 | **Inserimento ore** | 2129161 | Vengono applicate restrizioni più rigide per garantire che gli utenti non possano modificare e aggiornare un inserimento ore inviato o approvato. |
 | **Inserimento ore** | 2103572 | L'approvazione dell'ora per inserimenti ore non di progetto non deve cercare il ruolo di approvatore del progetto. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Contabilità e gestione dei progetti in Dynamics 365 Finance 
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Gestione progetti e contabilità in Dynamics 365 Finance 
 
-Per ulteriori informazioni sulla gestione dei progetti e la contabilità in Dynamics 365 Finance, vedi [Novità di gennaio 2021 - Project Operations per scenari basati su risorse/non stoccate](whats-new-jan-2021-resource-based.md).
+Per ulteriori informazioni sulla gestione dei progetti e sulla contabilità in Dynamics 365 Finance, vedi [Novità di gennaio 2021 - Project Operations per scenari basati su risorse/materiali non stoccati](whats-new-jan-2021-resource-based.md).
 
 
 ## <a name="regulatory-updates"></a>Aggiornamenti normativi
 
-Per informazioni sugli aggiornamenti normativi per le app Finance and Operations, vedi [Aggiornamenti normativi](/dynamics365/finance/localizations/regulatory-updates). Un altro modo per conoscere gli aggiornamenti normativi è accedere a Lifecycle Services (LCS) e visualizzare gli aggiornamenti normativi pianificati utilizzando lo strumento di ricerca dei problemi. La ricerca dei problemi ti consente di cercare per paese, tipo di funzionalità e versione.
+Per informazioni sugli aggiornamenti normativi per le app per la finanza e le operazioni, vedi [Aggiornamenti normativi](/dynamics365/finance/localizations/regulatory-updates). Un altro modo per conoscere gli aggiornamenti normativi è accedere a Lifecycle Services (LCS) e visualizzare gli aggiornamenti normativi pianificati utilizzando lo strumento di ricerca dei problemi. La ricerca dei problemi ti consente di cercare per paese, tipo di funzionalità e versione.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

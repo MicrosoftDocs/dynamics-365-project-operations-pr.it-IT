@@ -2,16 +2,16 @@
 title: Correggere la contabilità sulle proposte di fattura di progetto in bozza
 description: Questo argomento spiega come modificare le informazioni relative alla contabilità in una bozza di proposta di fattura.
 author: sigitac
-ms.date: 06/07/2021
+ms.date: 01/05/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 153a239d4b88906909ee0bfae8a18cabebc3766399290d83bb79f5d6375a942c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bf0a3d6b97880920b133cb3b30389adf0c83111c
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999321"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575079"
 ---
 # <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a>Correggere la contabilità sulle proposte di fattura di progetto in bozza
 
@@ -27,12 +27,21 @@ Le fasce IVA di fatturazione predefinite e le fasce IVA di articoli possono esse
 
 ## <a name="adjust-financial-dimensions"></a>Rettificare le dimensioni finanziarie
 
+### <a name="header-dimensions"></a>Dimensioni dell'intestazione
+
+Per impostazione predefinita, le dimensioni finanziarie della fattura vengono derivate dai record delle transazioni di progetto non fatturati che vengono fatturati. Tuttavia, le impostazioni di sistema consentono di utilizzare le dimensioni finanziarie nell'intestazione delle proposte di fattura del progetto per registrare i saldi dei clienti. Per abilitare questa funzionalità, seleziona **Consenti aggiornamenti alle dimensioni di progetto per contabilità clienti** nella scheda **Dati finanziari** della pagina **Parametri Gestione progetti e contabilità**.
+
+Le dimensioni finanziarie sulle intestazioni delle fatture possono essere modificate prima della registrazione di una fattura. Sulla pagina **Proposta di fattura di progetto** passa alla vista **Intestazione** e quindi modifica i valori nella scheda **Dimensioni finanziarie**.
+
+La vista **Intestazione** è disponibile solo dopo che l'amministratore di sistema ha abilitato la funzionalità **Utilizza proposta di fattura di progetto e moduli di giornali di registrazione fatture con la vista Intestazione e Righe** nell'area di lavoro **Gestione funzionalità**. Questa funzionalità richiede l'aggiornamento a Finance 10.0.25 o versione successiva.
+
+### <a name="line-dimensions"></a>Dimensioni di riga
+
 Le dimensioni finanziarie non possono essere modificate direttamente in una riga della proposta di fattura progetto. Segui invece questi passaggi per rettificare le dimensioni finanziarie su una proposta di fattura progetto.
 
 1. Nella proposta di fattura del progetto, seleziona **Elimina tutto** per rimuovere le righe della proposta di fattura progetto.
 
-    > [!NOTE]
-    > Il pulsante **Elimina tutto** è disponibile solo dopo che l'amministratore di sistema abilita la funzionalità **Eliminare righe della proposta di fattura quando si utilizza Project Operations per scenari basati su risorse/non stoccati** nell'area di lavoro **Gestione delle funzionalità**.
+    Il pulsante **Elimina tutto** è disponibile solo dopo che l'amministratore di sistema abilita la funzionalità **Eliminare righe della proposta di fattura quando si utilizza Project Operations per scenari basati su risorse/non stoccati** nell'area di lavoro **Gestione delle funzionalità**.
 
 2. Rettifica le dimensioni finanziarie:
 

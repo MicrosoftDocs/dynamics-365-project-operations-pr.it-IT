@@ -5,14 +5,14 @@ author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9cd562ac3360298796fbe34dbe2ac8708b00150f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986766"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579939"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Aggiornare Project Operations nel tuo ambiente Finance
 
@@ -119,7 +119,7 @@ I seguenti aggiornamenti ai privilegi di sicurezza per le entità sono richiesti
 4. Sulla pagina **Versione del mapping di tabella**, applica una nuova versione della mappa a ciascuna delle tre entità.
 5. Sulla pagina **Doppia scrittura** seleziona Esegui per riavviare i mapping.
 6. Dall'elenco dei mapping, seleziona il mapping **Libro mastro (msdyn_ledgers)** con tutti i prerequisiti e seleziona la casella di controllo **Sincronizzazione iniziale**. 
-7. Nel campo **Master per la sincronizzazione iniziale** seleziona **App Finance and Operations** e poi seleziona **Esegui**.
+7. Nel campo **Master per la sincronizzazione iniziale** seleziona **App per la finanza e le operazioni** e quindi seleziona **Esegui**.
  
  ![Sincronizzazione dei mapping del libro mastro.](media/DW6.png)
  

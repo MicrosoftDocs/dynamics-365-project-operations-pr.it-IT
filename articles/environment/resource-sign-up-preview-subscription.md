@@ -4,20 +4,20 @@ description: Questo argomento fornisce informazioni su come abbonarsi e distribu
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: f47d5a29c0e40a49aed7b3e52c5d52a9c27b8dbc
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 9094b6928c5c276a40166ef5d8cb0facb539685b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323421"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575815"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Iscriversi per gli abbonamenti in anteprima a Project Operations per scenari basati su risorse/non stoccate
 
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Questo argomento spiega come sottoscrivere l'offerta della versione di valutazione e distribuire l'ambiente Project Operations per scenari basati su risorse/non stoccate.
 
@@ -40,7 +40,7 @@ Prima di iniziare, assicurati di aver effettuato l'accesso a un browser con l'ac
 
   Vedrai la conferma che l'offerta è stata riscattata.
 
-### <a name="dynamics-365-finance-preview-trial"></a>Versione di valutazione di anteprima di Dynamics 365 Finance
+### <a name="dynamics-365-finance-preview-trial"></a>Versione di valutazione in anteprima di Dynamics 365 Finance
 
 Vai a [Versione di valutazione Dynamics 365 for Finance Anteprima](https://aka.ms/trypoche) e ripeti i passaggi della sezione precedente con l'offerta. Registrati per l'ambiente ospitato nel cloud.  
 

@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 11/17/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 449cab5880c29cf110c9c5a266cbb4b102b5fc83
-ms.sourcegitcommit: 2e4483d5b88213a9f33109f7adb989108521327d
+ms.openlocfilehash: 03491ccab855e48819fccf4c9d2b584fd87cb4ba
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "7818473"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576045"
 ---
 # <a name="whats-new-or-changed-in-project-operations-october-2021-for-stockedproduction-based-scenarios"></a>Novità o modifiche in Project Operations, ottobre 2021 per scenari di materiali stoccati basati sulla produzione
 
@@ -20,7 +20,7 @@ _**Si applica a:** Project Operations per scenari basati su materiali stoccati/p
 
 Questo argomento si applica ai seguenti componenti e versioni di Microsoft Dynamics 365 Project Operations:
 
-- Gestione del progetto e contabilità in un ambiente Dynamics 365 Finance versione 10.0.22
+- Gestione progetti e contabilità in un ambiente Dynamics 365 Finance versione 10.0.22
  
 ## <a name="quality-updates"></a>Aggiornamenti di qualità
 
@@ -80,6 +80,6 @@ Questo argomento si applica ai seguenti componenti e versioni di Microsoft Dynam
 
 ### <a name="regulatory-updates"></a>Aggiornamenti normativi
 
-Per informazioni sugli aggiornamenti normativi per le app Finance and Operations, vedi [Aggiornamenti normativi](/dynamics365/finance/localizations/regulatory-updates). È anche possibile accedere a Microsoft Dynamics Lifecycle Services (LCS) e usare lo strumento Ricerca argomento per visualizzare gli aggiornamenti normativi pianificati. Ricerca argomento consente di cercare per paese o area geografica, tipo di funzionalità e versione.
+Per informazioni sugli aggiornamenti normativi per le app per la finanza e le operazioni, vedi [Aggiornamenti normativi](/dynamics365/finance/localizations/regulatory-updates). È anche possibile accedere a Microsoft Dynamics Lifecycle Services (LCS) e usare lo strumento Ricerca argomento per visualizzare gli aggiornamenti normativi pianificati. Ricerca argomento consente di cercare per paese o area geografica, tipo di funzionalità e versione.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
