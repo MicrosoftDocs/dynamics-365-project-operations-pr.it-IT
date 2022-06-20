@@ -1,24 +1,24 @@
 ---
 title: Novità di febbraio 2022 - Project Operations per scenari basati su risorse/non stoccate
-description: Questo argomento fornisce informazioni sugli aggiornamenti di qualità disponibili nella versione di febbraio 2022 di Project Operations per scenari basati su risorse/non stoccate.
+description: Questo articolo fornisce informazioni sugli aggiornamenti di qualità disponibili nella versione di febbraio 2022 di Project Operations per scenari basati su risorse/non stoccate.
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 76ae00517c857415c89d7a03f421686dad28da93
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b036c0a3c39c52cb15277293679ef88906cae2c4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600839"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932991"
 ---
 # <a name="whats-new-february-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novità di febbraio 2022 - Project Operations per scenari basati su risorse/non stoccate
 
 *Si applica a: Project Operations per scenari basati su risorse/materiali non stoccati*
 
-Questo argomento si applica ai seguenti componenti e versioni di Microsoft Dynamics 365 Project Operations:
+Questo articolo si applica ai seguenti componenti e versioni di Microsoft Dynamics 365 Project Operations:
 
 - Project Operations in ambiente Dataverse versione 4.28.0.120
 - Gestione progetti e contabilità in un ambiente Dynamics 365 Finance versione 10.0.24
@@ -76,11 +76,11 @@ Se riscontri un problema durante l'avvio della mappa, segui le istruzioni nella 
 
 ## <a name="removed-and-deprecated-features"></a>Funzionalità rimosse e deprecate
 
-L'argomento [Funzionalità rimosse o deprecate in Project Operations](removed-depreciated-features-project.md) descrive le funzionalità che sono state rimosse o deprecate per Dynamics 365 Project Operations.
+L'articolo [Funzionalità rimosse o deprecate in Project Operations](removed-depreciated-features-project.md) descrive le funzionalità che sono state rimosse o deprecate per Dynamics 365 Project Operations.
 
 - Una funzionalità rimossa non è più disponibile nel prodotto.
 - Una funzionalità deprecata non si trova nella fase attiva di sviluppo e potrebbe essere rimossa in un aggiornamento futuro.
 
-Nell'argomento verrà visualizzato un avviso di ritiro [Funzionalità rimosse o deprecate in Project Operations](removed-depreciated-features-project.md) 12 mesi prima della rimozione di qualsiasi funzionalità dal prodotto.
+Nell'articolo verrà visualizzato un avviso di ritiro [Funzionalità rimosse o deprecate in Project Operations](removed-depreciated-features-project.md) 12 mesi prima della rimozione di qualsiasi funzionalità dal prodotto.
 
 Per le modifiche significative che influiscono solo sui tempi di compilazione, ma che sono binari compatibili con sandbox e ambienti di produzione, il tempo di deprecazione sarà inferiore a 12 mesi. In genere, si tratta di aggiornamenti funzionali che è necessario apportare al compilatore.

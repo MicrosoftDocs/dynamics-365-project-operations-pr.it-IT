@@ -1,17 +1,17 @@
 ---
 title: Panoramica della distribuzione di Project Operations per scenari basati su risorse/non stoccate
-description: Questo argomento fornisce informazioni sul tipo di distribuzione, Project Operations per scenari basati su risorse/non stoccate.
+description: Questo articolo fornisce informazioni sul tipo di distribuzione, Project Operations per scenari basati su risorse non stoccate.
 author: rumant
 ms.date: 11/02/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d751ec9c75e72a6804f073f181591755afc6e261
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 217a3ae39289b9b06bf2e06ae39810fe4f2fc52b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575126"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931565"
 ---
 # <a name="project-operations-for-resourcenon-stocked-based-scenarios-deployment-overview"></a>Panoramica della distribuzione di Project Operations per scenari basati su risorse/non stoccate
 

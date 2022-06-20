@@ -1,24 +1,24 @@
 ---
 title: Novità o modifiche in Project Operations, ottobre 2021 per scenari di materiali stoccati basati sulla produzione
-description: Questo argomento fornisce informazioni sugli aggiornamenti di qualità disponibili nella versione di ottobre 2021 di Project Operations per scenari basati su materiali stoccati/produzione.
+description: Questo articolo fornisce informazioni sugli aggiornamenti di qualità disponibili nella versione di ottobre 2021 di Project Operations per scenari basati su materiali stoccati/produzione.
 author: andchoi
 ms.date: 11/17/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 03491ccab855e48819fccf4c9d2b584fd87cb4ba
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ba88268e74269c774b41396a8b6574e5bab477b9
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576045"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933681"
 ---
 # <a name="whats-new-or-changed-in-project-operations-october-2021-for-stockedproduction-based-scenarios"></a>Novità o modifiche in Project Operations, ottobre 2021 per scenari di materiali stoccati basati sulla produzione
 
 _**Si applica a:** Project Operations per scenari basati su materiali stoccati/produzione_
 
-Questo argomento si applica ai seguenti componenti e versioni di Microsoft Dynamics 365 Project Operations:
+Questo articolo si applica ai seguenti componenti e versioni di Microsoft Dynamics 365 Project Operations:
 
 - Gestione progetti e contabilità in un ambiente Dynamics 365 Finance versione 10.0.22
  

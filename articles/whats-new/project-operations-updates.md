@@ -1,18 +1,18 @@
 ---
 title: Aggiornamenti di Project Operations
-description: Questo argomento fornisce informazioni sulle versioni rilasciate di Dynamics 365 Project Operations.
+description: Questo articolo fornisce informazioni sulle versioni rilasciate di Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 03/28/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 0dfcd47e0c8ac2d9edd45049ffefb6e364c8aa4b
-ms.sourcegitcommit: f366fe0ba062e4e500921854563d57ee3bfd1ce5
+ms.openlocfilehash: 4875e742c701b741df06e4225053d28f04781ff3
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "8732936"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959494"
 ---
 # <a name="project-operations-updates"></a>Aggiornamenti di Project Operations
 
@@ -36,7 +36,7 @@ Dynamics 365 Project Operations è costituito da due componenti:
 
 | Project Operations in ambiente Dataverse | Gestione progetti e contabilità in ambienti per app per la finanza e le operazioni | 
 | --- | --- |
-| 4.42.0.70 | 10.0.26 |
+| 4.43.0.77 | 10.0.26 |
 
 Per lo scenario basato su risorse/materiali non stoccati di Project Operations, ti consigliamo di usare Dual Write Orchestration versione 2.3.1.15 o successiva.
 
@@ -47,24 +47,24 @@ Gli aggiornamenti per Project Operations in ambiente Dataverse sono disponibili 
 | Stazione | Area geografica | Numero versione corrente | Aggiornamenti automatici per la distribuzione Lite | Aggiornamenti automatici per la distribuzione di risorse/materiali non stoccati | Numero versione successiva | La versione successiva è generalmente disponibile |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Stazione 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Prima versione         |  4.42.0.70      | Completamento           | Completamento            | Da definire                 | 27 Maggio 2022        |
+|   &nbsp;  | Prima versione         |  4.43.0.77      | Completamento           | Completamento            | Da definire                 | 01 luglio 2022       |
 | Stazione 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | America del Sud         |  4.42.0.70      | Completamento           | Completamento            | Da definire                 | 27 Maggio 2022        |
-|   &nbsp;  | Canada                |  4.42.0.70      | Completamento           | Completamento            | Da definire                 | 27 Maggio 2022        |
-|   &nbsp;  | India                 |  4.42.0.70      | Completamento           | Completamento            | Da definire                 | 27 Maggio 2022        |
-|   &nbsp;  | Francia                |  4.42.0.70      | Completamento           | Completamento            | Da definire                 | 27 Maggio 2022        |
-|   &nbsp;  | Sudafrica          |  4.42.0.70      | Completamento           | Completamento            | Da definire                 | 27 Maggio 2022        |
-|   &nbsp;  | Svizzera           |  4.42.0.70      | Completamento           | Completamento            | Da definire                 | 27 Maggio 2022        |
+|   &nbsp;  | America del Sud         |  4.43.0.77      | Completamento           | Completamento            | Da definire                 | 01 luglio 2022       |
+|   &nbsp;  | Canada                |  4.43.0.77      | Completamento           | Completamento            | Da definire                 | 01 luglio 2022       |
+|   &nbsp;  | India                 |  4.43.0.77      | Completamento           | Completamento            | Da definire                 | 01 luglio 2022       |
+|   &nbsp;  | Francia                |  4.43.0.77      | Completamento           | Completamento            | Da definire                 | 01 luglio 2022       |
+|   &nbsp;  | Sudafrica          |  4.43.0.77      | Completamento           | Completamento            | Da definire                 | 01 luglio 2022       |
+|   &nbsp;  | Svizzera           |  4.43.0.77      | Completamento           | Completamento            | Da definire                 | 01 luglio 2022       |
 | Stazione 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Giappone                 |  4.42.0.70      | 13 Maggio 2022       | 13 Maggio 2022        | Da definire                 | 03 giugno 2022       |
-|   &nbsp;  | Asia Pacifico          |  4.42.0.70      | 13 Maggio 2022       | 13 Maggio 2022        | Da definire                 | 03 giugno 2022       |
-|   &nbsp;  | Gran Bretagna         |  4.42.0.70      | 13 Maggio 2022       | 13 Maggio 2022        | Da definire                 | 03 giugno 2022       |
-|   &nbsp;  | Oceania               |  4.42.0.70      | 13 Maggio 2022       | 13 Maggio 2022        | Da definire                 | 03 giugno 2022       |
-|   &nbsp;  | Emirati Arabi Uniti  |  4.42.0.70      | 13 Maggio 2022       | 13 Maggio 2022        | Da definire                 | 03 giugno 2022       |
+|   &nbsp;  | Giappone                 |  4.43.0.77      | 03 giugno 2022      | 03 giugno 2022       | Da definire                 | 08 luglio 2022       |
+|   &nbsp;  | Asia Pacifico          |  4.43.0.77      | 03 giugno 2022      | 03 giugno 2022       | Da definire                 | 08 luglio 2022       |
+|   &nbsp;  | Gran Bretagna         |  4.43.0.77      | 03 giugno 2022      | 03 giugno 2022       | Da definire                 | 08 luglio 2022       |
+|   &nbsp;  | Oceania               |  4.43.0.77      | 03 giugno 2022      | 03 giugno 2022       | Da definire                 | 08 luglio 2022       |
+|   &nbsp;  | Emirati Arabi Uniti  |  4.43.0.77      | 03 giugno 2022      | 03 giugno 2022       | Da definire                 | 08 luglio 2022       |
 | Stazione 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europa                |  4.41.0.45      | Completamento           | Completamento            | 4.42.0.70           | 13 Maggio 2022        |
+|   &nbsp;  | Europa                |  4.42.0.70      | Completamento           | Completamento            | 4.43.0.77           | 10 giugno 2022       |
 | Stazione 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | America del Nord         |  4.41.0.45      | Completamento           | Completamento            | 4.42.0.70           | 20 Maggio 2022        |
+|   &nbsp;  | America del Nord         |  4.42.0.70      | Completamento           | Completamento            | 4.43.0.77           | 17 giugno 2022       |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Pianificazione della versione per Gestione progetti e contabilità nell'ambiente per app per la finanza e le operazioni
 

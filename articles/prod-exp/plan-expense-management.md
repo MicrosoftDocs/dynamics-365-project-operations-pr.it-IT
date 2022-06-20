@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d919a26000b127dd6fb2fd8a49d79e3087f1c403
-ms.sourcegitcommit: 7e419a5f73f80fa887084e3b212c90586fc397dd
+ms.openlocfilehash: 6c9424b8aaf867254bde085cffaa649c846920cc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8709981"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934003"
 ---
 # <a name="configure-expense-management"></a>Configurare la gestione delle spese
 
-In questo argomento vengono descritte le considerazioni e le decisioni da prendere durante il processo di pianificazione prima di configurare la gestione delle spese. In Gestione spese è possibile archiviare informazioni su metodi di pagamento, richieste di viaggio, note spese, criteri e così via.
+Questo articolo descrive le considerazioni e le decisioni che è necessario prendere durante il processo di pianificazione prima di configurare la gestione delle spese. In Gestione spese è possibile archiviare informazioni su metodi di pagamento, richieste di viaggio, note spese, criteri e così via.
 
 Poiché molte delle decisioni prese durante la pianificazione della configurazione per la gestione delle spese si basano sulla gerarchia e sulla struttura finanziaria dell'organizzazione, è necessario fare riferimento ai documenti di pianificazione per quelle aree.
 

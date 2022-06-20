@@ -1,24 +1,24 @@
 ---
 title: Creare assegnazioni di risorse
-description: Questo argomento fornisce informazioni sulla creazione di assegnazioni di risorse generiche e denominate.
+description: Questo articolo fornisce informazioni sulla creazione di assegnazioni di risorse generiche e denominate.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 2b918392fbcde1071aa52ffa7834938be1acd383
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 31404fc35d72acb9ad791ef8a755f23108f528ad
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576551"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933497"
 ---
 # <a name="create-resource-assignments"></a>Creare assegnazioni di risorse
 
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
 
-Un'assegnazione di risorse è l'associazione diretta di un membro del team di progetto a un'attività del nodo foglia. In questo argomento vengono fornite informazioni sui diversi modi per assegnare risorse.
+Un'assegnazione di risorse è l'associazione diretta di un membro del team di progetto a un'attività del nodo foglia. Questo articolo fornisce informazioni sui diversi modi per assegnare le risorse.
 
 ## <a name="create-a-generic-team-member-through-task-assignment"></a>Creare un membro del team generico mediante l'assegnazione di attività
 

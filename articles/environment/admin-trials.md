@@ -1,17 +1,17 @@
 ---
 title: Iscrizione alle versioni di valutazione di Project Operations
-description: In questo argomento vengono fornite informazioni su come distribuire una versione di prova di Dynamics 365 Project Operations.
+description: In questo articolo sono riportate informazioni su come distribuire una versione di valutazione di Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a0c2532370c99cfe75b54da42c329f5b244a47e7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7db7ea6b3cffe6eb43ee0519bbaccfc9092c9311
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584279"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959487"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Iscrizione alle versioni di valutazione di Project Operations 
 
@@ -19,9 +19,9 @@ _**Si applica a:** Project Operations per scenari basati su risorse/materiali no
 
 
 
-Questo argomento spiega come abbonarsi all'offerta del partner in anteprima e distribuire un ambiente Dynamics 365 Project Operations.
+Questo articolo spiega come iscriversi all'offerta partner di anteprima e distribuire un ambiente Dynamics 365 Project Operations.
 
-Con la nuova versione di valutazione di Project Operations, puoi distribuire automaticamente uno dei tre scenari di distribuzione supportati completando un questionario che consiglia l'approccio di distribuzione migliore. In questo argomento vengono fornite informazioni su come:
+Con la nuova versione di valutazione di Project Operations, puoi distribuire automaticamente uno dei tre scenari di distribuzione supportati completando un questionario che consiglia l'approccio di distribuzione migliore. In questo articolo sono riportate informazioni su come:
 
 - riscattare la tua offerta di prova.
 - avviare il provisioning.
@@ -89,7 +89,8 @@ Prima di iniziare, accedi a un browser con l'account di lavoro dell'utente nel t
 4.  Seleziona il rispettivo URL Microsoft Dataverse e gli URL delle app per la finanza e le operazioni per convalidare la distribuzione.
 
 ## <a name="configuring-dual-write"></a>Configurazione della doppia scrittura
-- Per configurare i ruoli di sicurezza per la doppia scrittura, vedi [Aggiornare le impostazioni di sicurezza su Project Operations in Dataverse](resource-provision-new-environment.md).
+- Per configurare i ruoli di sicurezza per la doppia scrittura, vedi [Aggiornare le impostazioni di sicurezza su Project Operations in Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
+- Per accedere alla configurazione della doppia scrittura, vai all'istanza di Finance and Operations, quindi vai a **Gestione dati** > **Doppia scrittura**.
 - Per configurare le mappe a doppia scrittura, vedi [Eseguire le mappe a doppia scrittura di Project Operations](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Assegnare licenze

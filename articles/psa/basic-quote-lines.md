@@ -1,6 +1,6 @@
 ---
 title: Offerte e righe di offerta
-description: In questo argomento vengono fornite informazioni su offerte e righe di offerta.
+description: In questo articolo vengono fornite informazioni su offerte e righe di offerta.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ff0a221b9d9ee1176f4e6c996613e33a6ca5e84
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4c59f018adc7ee439fd77a819e2fb7620941e958
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599045"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933359"
 ---
 # <a name="quotes-and-quote-lines"></a>Offerte e righe di offerta
 
@@ -39,7 +39,7 @@ In Dynamics 365 Project Service Automation, esistono due tipi di offerte: offert
 - Un'offerta di vendita non include alcuni campi e i concetti inclusi in un'offerta di progetto hanno dei campi. Questi campi sono **Unità contratto**, **Gestione account** e **Nome contatto fatturazione**.  
 - Le offerte di vendita e quelle di progetto sono inoltre identificate da un campo basato su set di opzioni denominato **Tipo**. Per un'offerta di vendita, il valore di questo campo è **Basato su articolo**. Per un'offerta di progetto, il valore di questo campo è **Basato su lavoro**.
 
-In questo argomento vengono descritti i dettagli delle offerte di progetto.
+In questo articolo vengono descritti i dettagli delle offerte di progetto.
 
 Un'offerta di progetto in PSA può avere molteplici voci o righe di offerta. In effetti, un'offerta di progetto include due griglie per le voci. Una griglia è per le righe basate su progetto che consentono stime dettagliate. L'altra griglia è per le righe basate su prodotto che utilizzano un prezzo unitario e un approccio basato sulla quantità.
 

@@ -1,17 +1,17 @@
 ---
 title: Gestire opportunità basate su progetto
-description: Questo argomento fornisce informazioni su come utilizzare le opportunità correlate ai progetti.
+description: In questo articolo vengono fornite informazioni su come utilizzare le opportunità correlate ai progetti.
 author: rumant
 ms.date: 10/21/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f39940ac063a8c202f33797ed649518907563e31
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 29e5a2c91186021eee9bb23aba3d42228fcd9381
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600425"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933221"
 ---
 # <a name="manage-project-based-opportunities"></a>Gestire opportunità basate su progetto
 
@@ -19,7 +19,7 @@ _**Si applica a:** Project Operations per scenari basati su risorse/materiali no
 
 Le società basate su progetti in genere includono operazioni per la consegna distribuite in più paesi e aree geografiche. Il costo dell'esecuzione e della consegna del progetto può variare in base all'area geografica o alla divisione che gestisce la consegna. A sua volta, questo può influire sui margini della transazione. La consegna di servizi basati su progetti comporta in genere grandi quantità di tempo in termini di risorse umane, spese considerevoli per viaggi, costi dei materiali e altre spese.
 
-Le opportunità basate su progetto in Dynamics 365 Project Operations sono progettate con estensioni a Dynamics 365 Sales. Questo argomento fornisce i dettagli sui diversi campi e sulla logica di business inclusi nella funzionalità aggiuntiva richiesta dalle società basate su progetti per gestire le opportunità basate su progetti.
+Le opportunità basate su progetto in Dynamics 365 Project Operations sono progettate con estensioni a Dynamics 365 Sales. Questo articolo fornisce dettagli sui diversi campi e sulla logica di business presenti nelle funzionalità aggiuntive richieste dalle aziende basate su progetto per gestire le opportunità basate su progetto.
 
 ## <a name="view-all-project-based-opportunities"></a>Visualizzare tutte le opportunità basate su progetto
 

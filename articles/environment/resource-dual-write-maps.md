@@ -1,17 +1,17 @@
 ---
 title: Versioni della mappa a doppia scrittura di Project Operations
-description: Questo argomento fornisce l'elenco delle mappe a doppia scrittura richieste per Dynamics 365 Project Operations.
+description: Questo articolo fornisce l'elenco delle mappe a doppia scrittura richieste per Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 385893e8ecdb29f4dc411c233b9ae19bb2448dfd
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: ee0b6a1722405e6a50c42db6bd2a25b872c6118c
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8612755"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959451"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Versioni della mappa a doppia scrittura di Project Operations
 
@@ -54,7 +54,7 @@ Le mappe seguenti sono obbligatorie per una soluzione Project Operations. Le ver
 | Entità di integrazione per stime orarie di Project Operations (msdyn_estimateslines) | 1.0.0.5 | Non obbligatorio per il provisioning. ||
 | Entità di esportazione categorie delle spese di progetto di integrazione di Project Operations (msdyn_expensecategories) | 1.0.0.1 | Non obbligatorio per il provisioning. ||
 | Entità di esportazione delle spese di progetto di integrazione di Project Operations (msdyn_expenses) | 1.0.0.3 | Non obbligatorio per il provisioning. ||
-| Entità di esportazione fattura fornitore progetto integrazione Project Operations (msdyn_projectvendorinvoices) | 1.0.0.0 | Non obbligatorio per il provisioning. ||
+| Entità di esportazione fattura fornitore progetto integrazione Project Operations (msdyn_projectvendorinvoices) | 1.0.0.1 | Non obbligatorio per il provisioning. |10.0.26 o successive|
 | Entità di esportazione riga fattura fornitore progetto integrazione Project Operations (msdyn_projectvendorinvoicelines) | 1.0.0.4 | Non obbligatorio per il provisioning. | 10.0.26 o successive |
 | Ruoli delle risorse di progetto per tutte le aziende (bookableresourcecategories) | 1.0.0.1 | Richiede una sincronizzazione iniziale per la mappa della tabella per sincronizzare i ruoli delle risorse del responsabile di progetto e del membro del team che sono popolati nell'ambiente Dynamics 365 Dataverse durante il provisioning. Dataverse è la fonte principale per la sincronizzazione iniziale. ||
 | Attività di progetto (msdyn_projecttasks) | 1.0.0.4 | Non obbligatorio per il provisioning. ||

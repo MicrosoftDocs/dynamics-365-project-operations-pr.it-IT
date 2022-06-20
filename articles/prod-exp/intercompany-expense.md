@@ -1,6 +1,6 @@
 ---
 title: Spese interaziendali
-description: Questo argomento fornisce informazioni su come utilizzare le spese interaziendali per assegnare le spese di un lavoratore alla persona giuridica per la quale è stato eseguito il lavoro.
+description: Questo articolo fornisce informazioni su come utilizzare le spese interaziendali per assegnare le spese di un lavoratore alla persona giuridica per la quale il lavoro è stato svolto.
 author: suvaidya
 ms.date: 07/08/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6788a590879bd839ebb9dedc45895dc047cc9f15
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 1c58fb1510c9ba75bc81a4dc07b91f1b6a60355d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684238"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932393"
 ---
 # <a name="intercompany-expenses"></a>Spese interaziendali
 
