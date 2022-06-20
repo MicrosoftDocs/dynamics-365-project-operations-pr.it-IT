@@ -1,24 +1,24 @@
 ---
 title: Impostazione della ritenuta ai fornitori
-description: In questo argomento viene spiegato come impostare la ritenuta ai fornitori.
+description: In questo articolo viene spiegato come impostare la ritenuta ai fornitori.
 author: sigitac
 ms.date: 09/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e0cd7669c7d6b916261e2c85cce0f24ff241a075
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f30e8829d8d5d99c81fce730cb93cd7ce31913fe
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583709"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929771"
 ---
 # <a name="set-up-vendor-retention"></a>Impostazione della ritenuta ai fornitori
 
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati_
 
-Questo argomento fornisce informazioni su come configurare la ritenuta ai fornitori.
+Questo articolo fornisce informazioni su come configurare la ritenuta ai fornitori.
 
 ## <a name="set-up-a-vendor-retention-account-in-general-ledger"></a>Imposta un conto di ritenuta ai fornitori in Contabilità generale
 

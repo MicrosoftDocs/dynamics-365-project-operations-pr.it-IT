@@ -1,6 +1,6 @@
 ---
 title: Metodi di allocazione delle prenotazioni
-description: Questo argomento fornisce informazioni su come funzionano i metodi di allocazione delle prenotazioni in Project Operations.
+description: Questo articolo fornisce informazioni sul funzionamento dei metodi di allocazione delle prenotazioni in Project Operations.
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: db3cb98227343465af1cf6a447ec9c5d6bdd13ff
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 55bf54ada3150bb42d1d47046ddc7e3a1fd8d192
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583037"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912751"
 ---
 # <a name="booking-allocation-methods"></a>Metodi di allocazione delle prenotazioni
 
 _**Si applica a:** Project Operations per scenari basati su risorse/non stoccate, Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
-Se si aggiunge un membro del team direttamente a un progetto nella scheda **Team** o si prenota una risorsa per un progetto o requisito nella scheda di pianificazione, sono disponibili alcuni metodi di allocazione delle prenotazioni. Questo argomento descrive il funzionamento di ogni metodo e quale metodo potrebbe portare all'overbooking delle risorse.
+Se si aggiunge un membro del team direttamente a un progetto nella scheda **Team** o si prenota una risorsa per un progetto o requisito nella scheda di pianificazione, sono disponibili alcuni metodi di allocazione delle prenotazioni. Questo articolo descrive il funzionamento di ogni metodo e quale metodo potrebbe portare all'overbooking delle risorse.
 
 ## <a name="booking-allocation-methods"></a>Metodi di allocazione delle prenotazioni
 

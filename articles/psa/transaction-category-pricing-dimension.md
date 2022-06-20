@@ -1,6 +1,6 @@
 ---
 title: Utilizzare una categoria di transazione come dimensione di determinazione dei prezzi
-description: In questo argomento vengono fornite informazioni sull'utilizzo di una categoria di transazione come dimensione di determinazione dei prezzi.
+description: In questo articolo vengono fornite informazioni sull'utilizzo di una categoria di transazione come dimensione di determinazione dei prezzi.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: ede5f95a3ba7e122e28875acad1ecc63ff095e63
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1a1c2dc17c2092e5364d90e7efc1f13aee80703e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593341"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915741"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Utilizzare una categoria di transazione come dimensione di determinazione dei prezzi
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-In questo argomento viene descritto come utilizzare una categoria di transazione come dimensione di determinazione dei prezzi. Prima di iniziare, crea una soluzione per le dimensioni di determinazione dei prezzi se non lo hai già fatto. Se disponi già di tale soluzione, puoi apportare le modifiche in quella soluzione. Se non hai ancora creato questa soluzione per l'organizzazione, completa le procedure nell'argomento [Creare campi ed entità personalizzati](create-custom-fields-entities.md).
+In questo articolo viene descritto come utilizzare una categoria di transazione come dimensione di determinazione dei prezzi. Prima di iniziare, crea una soluzione per le dimensioni di determinazione dei prezzi se non lo hai già fatto. Se disponi già di tale soluzione, puoi apportare le modifiche in quella soluzione. Se non hai ancora creato questa soluzione per l'organizzazione, completa le procedure nell'articolo [Creare campi ed entità personalizzati](create-custom-fields-entities.md).
 
 ## <a name="add-transaction-category-to-forms-and-views"></a>Aggiungere una categoria di transazione a moduli e viste
 Per rendere la categoria di transazione visibile nell'interfaccia utente della soluzione per le dimensioni di determinazione dei prezzi, devi esaminare tutti i moduli e viste delle entità principali e aggiungere questi campi a moduli e viste di queste entità.

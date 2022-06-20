@@ -1,24 +1,24 @@
 ---
 title: Novità di aprile 2022 - Distribuzione semplice di Project Operations
-description: Questo argomento fornisce informazioni sugli aggiornamenti di qualità disponibili nella versione di aprile 2022 della distribuzione lite di Microsoft Dynamics 365 Project Operations.
+description: Questo articolo fornisce informazioni sugli aggiornamenti di qualità disponibili nella versione di aprile 2022 della distribuzione lite di Microsoft Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 04/08/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6f75d75e57d6a6396b0148f0449899735089b06a
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: 6d6fc52d535244b339e43f88e85797a957d98b89
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8613267"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927471"
 ---
 # <a name="whats-new-april-2022---project-operations-lite-deployment"></a>Novità di aprile 2022 - Distribuzione semplice di Project Operations
 
 _**Si applica a:** Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
-Questo argomento si applica ai seguenti componenti e versioni di Microsoft Dynamics 365 Project Operations:
+Questo articolo si applica ai seguenti componenti e versioni di Microsoft Dynamics 365 Project Operations:
 
 - Project Operations in ambiente Dataverse versione 4.41.0.45
 

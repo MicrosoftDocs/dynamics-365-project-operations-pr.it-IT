@@ -1,6 +1,6 @@
 ---
 title: Aggiungere campi personalizzati richiesti all'impostazione e alle entità transazionali
-description: Questo argomento fornisce informazioni su come aggiungere riferimenti di campi personalizzati richiesti a entità, moduli e viste.
+description: Questo articolo fornisce informazioni su come aggiungere i riferimenti ai campi personalizzati obbligatori alle entità, ai moduli e alle visualizzazioni.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d7b5a3e7976f1ec4c01df2d9bf0aa620e747e9f4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a984dc9e04857e101fa012734fd822440899aced
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597389"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926045"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>Aggiungere campi personalizzati richiesti all'impostazione e alle entità transazionali
 
-_**Si applica a:** Project Operations per scenari basati su risorse/non stoccate, Distribuzione semplice: dalla transazione alla fatturazione proforma_
+_**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
-In questo argomento si presuppone che siano state completate le procedure incluse in [Creare campi ed entità personalizzati come dimensioni di determinazione dei prezzi](create-custom-fields-entities-pricing-dimensions.md). Se non hai completato queste procedure, completale prima di leggere questo argomento. 
+In questo articolo si presuppone che siano state completate le procedure incluse in [Creare campi ed entità personalizzati da utilizzare come dimensioni di prezzo](create-custom-fields-entities-pricing-dimensions.md). Se non hai completato queste procedure, completale prima di leggere questo articolo. 
 
-In questo argomento, le procedure mostreranno come aggiungere i riferimenti di campo personalizzati necessari alle entità e agli elementi dell'interfaccia utente come moduli e viste.
+In questo articolo, le procedure mostreranno come aggiungere i riferimenti di campo personalizzati necessari alle entità e agli elementi dell'interfaccia utente come moduli e viste.
 
 ## <a name="add-custom-pricing-dimension-fields"></a>Aggiungere campi per dimensioni di determinazione dei prezzi personalizzate 
 Dopo la creazione di campi ed entità personalizzati, è necessario indicare alla configurazione dei prezzi e alle entità transazionali l'esistenza di entità personalizzate o set di opzioni creando campi di riferimento. A seconda se l'elenco delle dimensioni di determinazione dei prezzi include dimensioni di set di opzioni o di entità oppure entrambe, segui solo i passaggi in **Dimensioni di determinazione dei prezzi personalizzate basate su set di opzioni** o in **Dimensioni di determinazione dei prezzi personalizzate basate su entità** oppure in entrambi le sezioni.

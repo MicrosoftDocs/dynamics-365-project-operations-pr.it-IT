@@ -1,6 +1,6 @@
 ---
 title: Configurare campi personalizzati come dimensioni di determinazione dei prezzi
-description: In questo argomento vengono fornite informazioni su come impostare le dimensioni di determinazione dei prezzi usando i campi personalizzati.
+description: Questo articolo fornisce informazioni su come impostare le dimensioni dei prezzi utilizzando i campi personalizzati.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 41c65d6bf64d8a81759239f2a31f3a68953181c8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0c0c43e483ebcb016747e533d685f13fd5dd8700
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599413"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917581"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Configurare campi personalizzati come dimensioni di determinazione dei prezzi
 
-_**Si applica a:** Project Operations per scenari basati su risorse/non stoccate, Distribuzione semplice: dalla transazione alla fatturazione proforma_
+_**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
-Questo argomento presuppone che tu abbia completato le procedure negli argomenti [Creare campi ed entità personalizzati](create-custom-fields-entities-pricing-dimensions.md) e [Aggiungere campi personalizzati richiesti alla configurazione dei prezzi e ad entità transazionali](add-custom-fields-price-setup-transactional-entities.md). Se non hai completato queste procedure, completale prima di leggere questo argomento. 
+Questo articolo presuppone che tu abbia completato le procedure negli articoli [Creare campi ed entità personalizzati](create-custom-fields-entities-pricing-dimensions.md) e [Aggiungere campi personalizzati obbligatori alla configurazione dei prezzi e ad entità transazionali](add-custom-fields-price-setup-transactional-entities.md). Se non hai completato queste procedure, completale prima di leggere questo articolo. 
 
-In questo argomento vengono fornite informazioni sull'impostazione di dimensioni di determinazione dei prezzi. Nella pagina **Parametri**, la scheda **Dimensioni di determinazione dei prezzi basate su importo** mostra i record nelle entità dimensioni di determinazione dei prezzi. Per impostazione predefinita, ci sono due righe nella griglia in questa scheda:
+In questo articolo vengono fornite informazioni sull'impostazione di dimensioni di determinazione dei prezzi. Nella pagina **Parametri**, la scheda **Dimensioni di determinazione dei prezzi basate su importo** mostra i record nelle entità dimensioni di determinazione dei prezzi. Per impostazione predefinita, ci sono due righe nella griglia in questa scheda:
 
 - **msdyn_resourcecategory** (Ruolo)
 - **msdyn_OrganizationalUnit** (Unità organizzativa)

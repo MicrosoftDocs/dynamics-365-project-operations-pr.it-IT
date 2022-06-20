@@ -1,6 +1,6 @@
 ---
 title: Home page di offerte, determinazione dei prezzi e fatturazione
-description: In questo argomento vengono fornite informazioni su offerte, determinazione dei prezzi e fatturazione.
+description: In questo articolo vengono fornite informazioni su offerte, determinazione dei prezzi e fatturazione.
 author: rumant
 ms.author: rumant
 ms.custom:
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 09be2e3ed2bb17374f5d5151abf4ce7e5e2530a1
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ef63d48703059bac8cadf3b12ecb025ae103d44d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581105"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926735"
 ---
 # <a name="quoting-pricing-and-billing-home-page"></a>Home page di offerte, determinazione dei prezzi e fatturazione
 
@@ -33,7 +33,7 @@ ms.locfileid: "8581105"
 
 Offerte, determinazione dei prezzi e fatturazione sono funzionalità utilizzate da organizzazioni di piccole e grandi dimensioni. Mediante la comprensione del funzionamento di queste funzionalità nell'applicazione, le organizzazioni possono personalizzare più facilmente le configurazioni.
 
-I seguenti argomenti forniscono ulteriori informazioni sulle funzionalità relative a offerte, determinazione dei prezzi e fatturazione in PSA:
+I seguenti articoli forniscono ulteriori informazioni sulle funzionalità relative a offerte, determinazione dei prezzi e fatturazione in PSA:
 
 - [Processo di vendita](basic-sales-process.md)
 - [Righe di offerta](basic-quote-lines.md)

@@ -1,6 +1,6 @@
 ---
 title: Implementare campi personalizzati per l'app per dispositivi mobili Microsoft Dynamics 365 Project Timesheet  su iOS e Android
-description: Questo argomento fornisce modelli comuni per l'utilizzo delle estensioni per implementare i campi personalizzati.
+description: In questo articolo vengono forniti modelli comuni per l'utilizzo di estensioni con cui implementare campi personalizzati.
 author: Yowelle
 ms.date: 05/29/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 79ef62d6911b393248536e4cc73475f6c35a22e2
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 03b79d58d1f91e07034b8c9efb408e6d7a9c29a8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682761"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913717"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Implementare campi personalizzati per l'app per dispositivi mobili Microsoft Dynamics 365 Project Timesheet  su iOS e Android
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento fornisce modelli comuni per l'utilizzo delle estensioni per implementare i campi personalizzati. Vengono trattati i seguenti argomenti:
+In questo articolo vengono forniti modelli comuni per l'utilizzo di estensioni con cui implementare campi personalizzati. Sono trattati i seguenti articoli:
 
 - I vari tipi di dati supportati dal framework del campo personalizzato
 - Come mostrare i campi di sola lettura o modificabili negli inserimenti del foglio presenze e salvare i valori forniti dall'utente nel database
@@ -35,7 +35,7 @@ Questo argomento fornisce modelli comuni per l'utilizzo delle estensioni per imp
 
 ## <a name="audience"></a>Destinatari
 
-Questo argomento è destinato agli sviluppatori che stanno integrando i propri campi personalizzati nell'applicazione per dispositivi mobili Microsoft Dynamics 365 Project Timesheet per Apple iOS e Google Android. Il presupposto è che i lettori abbiano familiarità con le funzionalità di sviluppo X++ e del foglio presenze del progetto.
+Questo articolo è destinato agli sviluppatori che eseguono l'integrazione dei relativi campi personalizzati nell'applicazione per dispositivi mobili Microsoft Dynamics 365 Project Timesheet disponibile per Apple iOS e Google Android. Il presupposto è che i lettori abbiano familiarità con le funzionalità di sviluppo X++ e del foglio presenze del progetto.
 
 ## <a name="data-contract--tstimesheetcustomfield-x-class"></a>Contratto dati: classe TSTimesheetCustomField X++
 
@@ -64,7 +64,7 @@ La proprietà **FieldBaseType** sull'oggetto **TsTimesheetCustom** determina il 
 
 - Se la proprietà **stringOptions** viene specificata sull'oggetto **TSTimesheetCustomField**, quegli elementi dell'elenco sono gli unici valori che gli utenti possono selezionare utilizzando i pulsanti di opzione (pulsanti di opzione).
 
-    In questo caso, il campo stringa può fungere da valore enum ai fini dell'immissione dell'utente. Per salvare il valore nel database come enum, mappa manualmente il valore della stringa di nuovo al valore enum prima di salvare nel database utilizzando la catena di comando (vedi la sezione "Utilizzare la catena di comando sulla classe TSTimesheetEntryService per salvare un inserimento del foglio presenze dall'app al database" più avanti in questo argomento per un esempio).
+    In questo caso, il campo stringa può fungere da valore enum ai fini dell'immissione dell'utente. Per salvare il valore nel database come enum, mappare di nuovo manualmente il valore string al valore enum prima del salvataggio utilizzando la catena di comando (vedere la sezione "Utilizzare la catena di comando nella classe di servizio TSTimesheetEntryService per salvare una voce del foglio presenze" in seguito in questo articolo per un esempio).
 
 ### <a name="fieldextendedtype-tscustomfieldextendedtype"></a>fieldExtendedType (TSCustomFieldExtendedType)
 
@@ -106,7 +106,7 @@ Questa proprietà specifica l'etichetta che viene mostrata accanto al campo nell
 
 ### <a name="stringoptions-list-of-strings"></a>stringOptions (List of Strings)
 
-Questa proprietà è applicabile solo quando **fieldBaseType** è impostata su **Stringa**. Se **stringOptions** è impostata, i valori di stringa disponibili per la selezione tramite i pulsanti di opzione (pulsanti di opzione) sono specificati dalle stringhe nell'elenco. Se non vengono specificate stringhe, è consentita l'immissione di testo libero nel campo della stringa (vedi la sezione "Utilizzare la catena di comando sulla classe TSTimesheetEntryService per salvare una voce del foglio presenze dall'app nel database" più avanti in questo argomento per un esempio ).
+Questa proprietà è applicabile solo quando **fieldBaseType** è impostata su **Stringa**. Se **stringOptions** è impostata, i valori di stringa disponibili per la selezione tramite i pulsanti di opzione (pulsanti di opzione) sono specificati dalle stringhe nell'elenco. Se non si specificano stringhe, la voce a testo libero nel campo string è consentita (vedere la sezione "Utilizzare la catena di comando nella classe di servizio TSTimesheetEntryService per salvare una voce del foglio presenze" in seguito in questo articolo per un esempio).
 
 ### <a name="stringlength-int"></a>stringLength (int)
 

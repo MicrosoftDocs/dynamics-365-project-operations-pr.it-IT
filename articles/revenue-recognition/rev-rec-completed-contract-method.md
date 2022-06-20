@@ -1,23 +1,23 @@
 ---
 title: Gestire le stime dei ricavi
-description: Questo argomento fornisce informazioni su come gestire le stime dei ricavi per i progetti.
+description: Questo articolo fornisce informazioni su come utilizzare le stime dei ricavi per i progetti.
 author: sigitac
 ms.date: 11/04/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6f91a0eb6fa0d13ebe8dfb6e837dae0bbff3eb5e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 051535ce8dd4997a923b1511d242638361076979
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595871"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928483"
 ---
 # <a name="manage-revenue-estimates"></a>Gestire le stime dei ricavi
 
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati_
 
-Puoi creare, calcolare, registrare, stornare o eliminare le stime delle entrate. Puoi farlo manualmente o utilizzando un processo periodico. Questo argomento fornisce informazioni su come gestire le stime dei ricavi per i progetti.
+Puoi creare, calcolare, registrare, stornare o eliminare le stime delle entrate. Puoi farlo manualmente o utilizzando un processo periodico. Questo articolo fornisce informazioni su come utilizzare le stime dei ricavi per i progetti.
 
 ### <a name="manage-revenue-estimates-manually"></a>Gestisci le stime dei ricavi manualmente
 

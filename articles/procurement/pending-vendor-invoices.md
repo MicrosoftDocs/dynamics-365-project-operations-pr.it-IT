@@ -1,18 +1,18 @@
 ---
 title: Acquistare materiali non stoccati o categorie di approvvigionamento utilizzando una fattura fornitore in sospeso
-description: Questo argomento spiega come registrare le fatture fornitore in sospeso.
+description: Questo articolo spiega come registrare le fatture fornitore in sospeso.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e81f7a54e304ae6fc9a9f2637124579b6e7b54e9
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: b1c05755f6759e90e031a11261f15a2c4b6b716e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8612662"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921997"
 ---
 # <a name="purchase-non-stocked-materials-or-procurement-categories-using-a-pending-vendor-invoice"></a>Acquistare materiali non stoccati o categorie di approvvigionamento utilizzando una fattura fornitore in sospeso
 
@@ -23,7 +23,7 @@ Poiché un'azienda acquista materiali non stoccati o categorie di approvvigionam
 Ad esempio, Contoso Robotics US sta eseguendo un progetto di rinnovo delle apparecchiature e necessita di licenze software. Queste licenze vengono acquistate da un fornitore di terze parti.  Utilizzando Dynamics 365 Finance, l'addetto alla contabilità fornitori registra un documento di fattura fornitore in sospeso e attribuisce i costi di licenza direttamente al progetto di rinnovo dell'attrezzatura. 
 
 > [!IMPORTANT]
-> Prima di utilizzare la funzionalità descritta in questo argomento, esamina e applica le configurazioni richieste. Per ulteriori informazioni, vedi [Abilita materiali non stoccati e fatture fornitore in sospeso](configure-materials-nonstocked.md) e [Utilizzare le categorie di approvvigionamento con ordini di acquisto di progetto e fatture fornitore in sospeso](configure-procurement-categories.md)
+> Prima di utilizzare la funzionalità descritta in questo articolo, rivedi e applica le configurazioni richieste. Per ulteriori informazioni, vedi [Abilita materiali non stoccati e fatture fornitore in sospeso](configure-materials-nonstocked.md) e [Utilizzare le categorie di approvvigionamento con ordini di acquisto di progetto e fatture fornitore in sospeso](configure-procurement-categories.md)
 
 ## <a name="post-a-project-related-pending-vendor-invoice"></a>Registrare una fattura fornitore in sospeso relativa al progetto 
 

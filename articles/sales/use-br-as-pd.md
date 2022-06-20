@@ -1,26 +1,26 @@
 ---
 title: Utilizzare una risorsa prenotabile come dimensione di determinazione dei prezzi
-description: In questo argomento vengono fornite informazioni sull'utilizzo di una risorsa prenotabile come dimensione di determinazione dei prezzi.
+description: In questo articolo vengono fornite informazioni sull'uso di una risorsa prenotabile come dimensione di determinazione dei prezzi.
 author: Rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: dcd01d80236f0218bc6fa3a1fe1389f8314f3c9b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c467c45885bbd8931eccc75862f537c0f46433ef
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598632"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914821"
 ---
 # <a name="use-a-bookable-resource-as-a-pricing-dimension"></a>Utilizzare una risorsa prenotabile come dimensione di determinazione dei prezzi
 
  _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione semplice: dalla transazione alla fatturazione proforma_ 
 
-In questo argomento vengono fornite informazioni sull'utilizzo di una risorsa prenotabile come dimensione di determinazione dei prezzi. Se la tua strategia di prezzo è impostata in modo che ogni risorsa prenotabile deve avere un prezzo o una tariffa di costo specifici, utilizza una risorsa prenotabile come dimensione di prezzo.
+In questo articolo vengono fornite informazioni sull'uso di una risorsa prenotabile come dimensione di determinazione dei prezzi. Se la tua strategia di prezzo è impostata in modo che ogni risorsa prenotabile deve avere un prezzo o una tariffa di costo specifici, utilizza una risorsa prenotabile come dimensione di prezzo.
 
 ## <a name="prerequisites"></a>Prerequisiti
-Prima di completare le procedure in questo argomento, devi disporre di una nuova soluzione per la dimensione dei prezzi per la tua organizzazione. Se non ne hai già creato uno, vedi [Crea campi ed entità personalizzati](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
+Prima di completare le procedure in questo articolo, è necessario disporre di una nuova soluzione per la dimensione dei prezzi per la propria organizzazione. Se non ne hai già creato uno, vedi [Crea campi ed entità personalizzati](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
 
 ## <a name="add-the-bookable-resource-field-to-forms-and-views"></a>Aggiungi il campo Risorsa prenotabile ai moduli e alle viste
 Per rendere il campo **Risorsa prenotabile** visibile nella soluzione dimensione prezzo, è necessario aggiungere il campo a tutti i moduli e le viste come entità.

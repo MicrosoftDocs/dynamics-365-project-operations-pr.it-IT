@@ -1,6 +1,6 @@
 ---
 title: Progetti e stime di vendita
-description: In questo argomento vengono fornite informazioni su come utilizzare la pianificazione e le stime nel processo di vendita.
+description: In questo articolo vengono fornite informazioni su come utilizzare la pianificazione e le stime nel processo di vendita.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 35cf804a7442d3033db32f5a5224737d1752e549
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 957c2337cce3b3bf65a0bfef7c1aee6a730971fc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596377"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925401"
 ---
 # <a name="sales-estimates-and-projects"></a>Progetti e stime di vendita
 

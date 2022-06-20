@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 0ceaa3af630df132339895a8497e49daf2e102c3
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 75fe0aab8ea8bf41fcb98f4318380c93ac52fef8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592329"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919237"
 ---
 # <a name="configure-additional-parameter-settings-project-service"></a>Configurare le impostazioni dei parametri aggiuntivi (Project Service)
 
@@ -30,7 +30,7 @@ ms.locfileid: "8592329"
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-Una volta configurati gli oggetti negli argomenti precedenti, devi impostare altri parametri aggiuntivi del progetto da usare per i progetti. Quando hai installato per la prima volta [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] hai creato un'impostazione di parametri per creare prima tutti i record richiesti per [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. È ora di tornare indietro e configurare altri campi per queste impostazioni.  
+Una volta configurati gli oggetti negli articoli precedenti, devi impostare altri parametri aggiuntivi del progetto da usare per i progetti. Quando hai installato per la prima volta [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] hai creato un'impostazione di parametri per creare prima tutti i record richiesti per [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. È ora di tornare indietro e configurare altri campi per queste impostazioni.  
   
  Dovrai configurare le seguenti impostazioni:  
   

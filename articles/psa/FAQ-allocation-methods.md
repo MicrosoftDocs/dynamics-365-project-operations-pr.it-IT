@@ -1,6 +1,6 @@
 ---
 title: Metodi di allocazione delle prenotazioni in Project Service Automation
-description: In questo argomento vengono fornite informazioni sui vari metodi di allocazione delle prenotazioni.
+description: In questo articolo vengono fornite informazioni sui vari metodi di allocazione delle prenotazioni.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: f0f4f5c68698fbe88de968e65a65b316b10872d9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: dff11de0726004653233c6b90e194825c3850e0c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590121"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929173"
 ---
 # <a name="booking-allocation-methods-in-project-service-automation"></a>Metodi di allocazione delle prenotazioni in Project Service Automation
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Se si aggiunge un membro del team direttamente a un progetto nella scheda **Team** o si prenota una risorsa per un progetto o requisito nella scheda di pianificazione, sono disponibili alcuni metodi di allocazione delle prenotazioni. Questo argomento descrive il funzionamento di ogni metodo e quale metodo potrebbe portare all'overbooking delle risorse.
+Se si aggiunge un membro del team direttamente a un progetto nella scheda **Team** o si prenota una risorsa per un progetto o requisito nella scheda di pianificazione, sono disponibili alcuni metodi di allocazione delle prenotazioni. Questo articolo descrive il funzionamento di ogni metodo e quale metodo potrebbe portare all'overbooking delle risorse.
 
 ## <a name="full-capacity"></a>Piena capacità 
 Il metodo Piena capacità prenota l'intera capacità della risorsa per le date di inizio e fine specificate. Ad esempio, se una risorsa ha un calendario impostato per lavorare 8 ore al giorno, per 5 giorni alla settimana, l'impostazione di date di inizio e di fine che coprono 5 giorni lavorativi prenoterà la risorsa per 40 ore. La prenotazione viene eseguita senza considerare la capacità rimanente della risorsa. Se una risorsa è già prenotata per altri progetti durante quel periodo, le 40 ore sono prenotate come ore aggiuntive, che possono potenzialmente condurre all'overbooking.

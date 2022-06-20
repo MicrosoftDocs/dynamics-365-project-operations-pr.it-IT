@@ -1,6 +1,6 @@
 ---
 title: Correzioni in blocco di valori effettivi creati tramite voci di spesa e inserimenti ore approvati
-description: In questo argomento viene indicato in che modo un amministratore può apportare correzioni singole o in blocco a voci di spesa e inserimenti ore precedentemente approvati, se la fatturazione non è completa.
+description: Questo articolo spiega come un amministratore può apportare correzioni singole o collettive a inserimenti ore o spese precedentemente approvati se la fatturazione non è completa.
 author: rumant
 ms.date: 04/02/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
 search.app:
 - ProjectOperations
-ms.openlocfilehash: 107ba01f2fd5717e1717824631aeee099d8a8205
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 82c9b38e4c79511fe3b6abfcb973fff8b56f1522
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683367"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916294"
 ---
 # <a name="bulk-corrections-of-actuals-created-by-approved-time-and-expense-entries"></a>Correzioni in blocco di valori effettivi creati tramite voci di spesa e inserimenti ore approvati
 
@@ -28,7 +28,7 @@ ms.locfileid: "8683367"
 
 In alcuni casi, è possibile che l'immissione di voci di spesa e inserimenti ore avvenga in modo errato. È ad esempio possibile che un consulente selezioni la data errata durante la creazione di un inserimento ora o che trasponga i numeri quando inserisce una spesa. Sebbene un consulente non possa effettuare aggiornamenti alle voci inviate, un amministratore può correggere direttamente la voce per un progetto.
 
-Per completare le procedure in questo argomento, devi disporre delle autorizzazioni amministratore.
+Per completare le procedure in questo articolo, avrai bisogno delle autorizzazioni di amministratore.
 
 ## <a name="correct-approved-time-entries"></a>Correggere gli inserimenti ore approvati     
 

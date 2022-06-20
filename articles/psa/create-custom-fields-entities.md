@@ -1,6 +1,6 @@
 ---
 title: Creare campi ed entità personalizzati
-description: In questo argomento viene illustrato come creare set di opzioni ed entità nella soluzione utilizzata sulla piattaforma Power Apps.
+description: In questo articolo viene illustrato come creare set di opzioni ed entità nella soluzione utilizzata sulla piattaforma Power Apps.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,19 +16,19 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: d2fbe6a4061a93ac3186bbc8624bf5d16209cdf9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3b6f675d604f3b6a6f2465c413ceff3d16815e12
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574389"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926919"
 ---
 # <a name="create-custom-fields-and-entities"></a>Creare campi ed entità personalizzati 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 Completa i passaggi seguenti ogni volta che intendi creare un set di opzioni o un'entità personalizzato nella piattaforma Power Apps.  
-Le procedure illustrate in questo argomento devono essere completate tramite l'interfaccia Web di Project Service Automation (PSA).
+Le procedure illustrate in questo articolo devono essere completate tramite l'interfaccia Web di Project Service Automation (PSA).
 
 > [!IMPORTANT]
 > Ti consigliamo di apportare le modifiche alle dimensioni di determinazione dei prezzi personalizzate in una soluzione distinta. Questo procedura consigliata importante fornisce flessibilità per aggiornamenti o rimozioni future delle modifiche, agevola il riutilizzo del lavoro e semplifica il trasferimento di tali modifiche a un'altra istanza. Dopo aver apportato tutte le modifiche necessarie, esporta questa soluzione come **Soluzione gestita** e importala in altre istanze per riutilizzare la configurazione per la determinazione dei prezzi.

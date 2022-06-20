@@ -1,6 +1,6 @@
 ---
 title: Novità o modifiche nella versione di aggiornamento 24 di Project Service Automation V3
-description: Questo argomento elenca le funzionalità e le correzioni disponibili nella versione di aggiornamento 24 di Project Service Automation V3.
+description: Questo articolo elenca le funzionalità e le correzioni disponibili nella versione di aggiornamento 24 di Project Service Automation V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 10/02/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 63bf96bfeed30ceefab072640172a6a0dafd20f5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d2cd8c18a2ea10ae090d8258d835453b279d717f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581565"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926413"
 ---
 # <a name="project-service-automation-update-release-24-v3"></a>Versione di aggiornamento di Project Service Automation 24, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8581565"
 
 Siamo lieti di annunciare l'ultimo aggiornamento per l'applicazione Project Service Automation per Dynamics 365. Questa versione include alcuni importanti miglioramenti in termini di qualità, prestazioni e usabilità. Questa versione è compatibile con Dynamics 365 9.x. Per eseguire l'aggiornamento a questa versione, visita l'interfaccia di amministrazione di Dynamics 365 online e vai alla pagina delle soluzioni per installare l'aggiornamento. Per ulteriori informazioni, vedere [Installare, aggiornare o rimuovere una soluzione preferita](/power-platform/admin/install-remove-preferred-solution).
 
-Questo argomento elenca le funzionalità e le correzioni nuove o modificate per l'aggiornamento rilascio 24 di Project Service Automation V3. Questa versione ha il numero di build V 3.10.42.43 ed è generalmente disponibile tramite un aggiornamento automatico in ottobre 2020
+Questo articolo elenca le funzionalità e le correzioni nuove o modificate nella versione di aggiornamento 24 di Project Service Automation V3. Questa versione ha il numero di build V 3.10.42.43 ed è generalmente disponibile tramite un aggiornamento automatico in ottobre 2020
 
 ## <a name="update-release-24"></a>Rilascio 24 dell'aggiornamento
 

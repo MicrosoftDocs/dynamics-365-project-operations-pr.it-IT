@@ -1,6 +1,6 @@
 ---
 title: Home page della gestione delle risorse di progetto
-description: In questo argomento vengono fornite informazioni sulle funzionalità di gestione delle risorse in Project Service Automation (PSA) per Dynamics 365.
+description: In questo articolo vengono fornite informazioni sulle funzionalità di gestione delle risorse in Project Service Automation (PSA) per Dynamics 365.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ec114f6dc04b493e30fcaae0d50616108c695f2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 14328ba1af46eca3a8996d330180d888987b7966
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599827"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925263"
 ---
 # <a name="resourcing-projects-home-page"></a>Home page della gestione delle risorse di progetto
 
@@ -46,7 +46,7 @@ Le risorse sono il cespite più importante di un'organizzazione di servizi. La c
 - Gestire un archivio di competenze e qualifiche.
 
 
-Puoi assegnare a un progetto un team di risorse generiche o denominate in PSA. Puoi utilizzare vari metodi per aggiungere e assegnare membri del team e per gestire le relative prenotazioni e assegnazioni. Per ulteriori informazioni, vedi gli argomenti seguenti:
+Puoi assegnare a un progetto un team di risorse generiche o denominate in PSA. Puoi utilizzare vari metodi per aggiungere e assegnare membri del team e per gestire le relative prenotazioni e assegnazioni. Per ulteriori informazioni, vedi gli articoli seguenti:
 
 - [Prenotare risorse prenotabili denominate per un team di progetto e assegnarvi attività](assign-named-bookable-resource.md)
 - [Assegnare risorse prenotabili generiche a un'attività e generare requisiti di risorsa](assign-generic-bookable-resource.md)

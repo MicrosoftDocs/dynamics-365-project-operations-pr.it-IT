@@ -1,6 +1,6 @@
 ---
 title: Aggiornamento da Project Service Automation a Project Operations
-description: Questo argomento fornisce una panoramica del processo di aggiornamento da Microsoft Dynamics 365 Project Service Automation a Dynamics 365 Project Operations.
+description: Questo articolo fornisce una panoramica del processo di aggiornamento da Microsoft Dynamics 365 Project Service Automation a Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/13/2022
@@ -16,16 +16,16 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 3f31173197a3055cdc51567261dd91925fc9f430
-ms.sourcegitcommit: bec7382d1319d59645e8e79fdb20df58617c97c6
+ms.openlocfilehash: 30eb02240de6617d4c550ce59db2a454eee36f5b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8626717"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912981"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Aggiornamento da Project Service Automation a Project Operations
 
-Siamo lieti di annunciare la prima delle tre fasi per l'aggiornamento da Microsoft Dynamics 365 Project Service Automation a Dynamics 365 Project Operations. Questo argomento fornisce una panoramica per i clienti che stanno intraprendendo questo entusiasmante percorso. Gli argomenti successivi includeranno considerazioni per gli sviluppatori e dettagli sui miglioramenti delle funzionalità. Non solo forniranno indicazioni per aiutarti a preparare l'aggiornamento a Project Operations, ma illustreranno anche cosa puoi aspettarti dopo l'aggiornamento.
+Siamo lieti di annunciare la prima delle tre fasi per l'aggiornamento da Microsoft Dynamics 365 Project Service Automation a Dynamics 365 Project Operations. Questo articolo fornisce una panoramica per i clienti che stanno intraprendendo questo entusiasmante percorso. Gli articoli successivi includeranno considerazioni per gli sviluppatori e dettagli sui miglioramenti delle funzionalità. Non solo forniranno indicazioni per aiutarti a preparare l'aggiornamento a Project Operations, ma illustreranno anche cosa puoi aspettarti dopo l'aggiornamento.
 
 Il programma di consegna dell'aggiornamento sarà suddiviso in tre fasi.
 
@@ -90,7 +90,7 @@ Dopo aver aggiornato le personalizzazioni per importare in modo pulito Project O
     > [!NOTE]
     > A seconda della quantità di dati nell'ambiente, l'aggiornamento potrebbe richiedere diverse ore. Il team principale che gestisce l'aggiornamento deve pianificare di conseguenza ed eseguire l'aggiornamento durante le ore non lavorative. In alcuni casi, se il volume di dati è grande, l'aggiornamento deve essere eseguito durante il fine settimana. La decisione sulla pianificazione deve essere basata sui risultati dei test in ambienti inferiori.
 
-3. Aggiorna le soluzioni personalizzate in base alle esigenze. A questo punto, distribuisci tutte le modifiche che hai apportato alle tue personalizzazioni nella sezione [Test e refactoring delle personalizzazioni](#testing-and-refactoring-customizations) di questo argomento.
+3. Aggiorna le soluzioni personalizzate in base alle esigenze. A questo punto, distribuisci tutte le modifiche che hai apportato alle tue personalizzazioni nella sezione [Test e refactoring delle personalizzazioni](#testing-and-refactoring-customizations) di questo articolo.
 4. Vai a **Impostazioni** \> **Soluzioni** e seleziona di disinstallare la soluzione **Componenti deprecati di Project Operations**.
 
     Questa soluzione è una soluzione temporanea che contiene il modello di dati esistente e i componenti presenti durante l'aggiornamento. Rimuovendo questa soluzione, rimuovi tutti i campi e i componenti che non vengono più utilizzati. In questo modo, contribuisci a semplificare l'interfaccia e a rendere più facili l'integrazione e l'estensione.
@@ -126,7 +126,6 @@ Nell'ambito dei continui investimenti in Project Operations, sono disponibili di
 | Automazione servizi di progetto                             | Distribuzione di Project Operations semplice                        | Supportato               |
 | Gestione progetti e contabilità in Dynamics 365 Finance | Distribuzione di Project Operations semplice                        | Non è al momento supportato |
 | Contabilità e gestione dei progetti in Finance              | Project Operations per scenari di risorse/materiali non stoccati     | Non è al momento supportato |
-| Contabilità e gestione dei progetti in Finance              | Project Operations per scenari di materiali stoccati/ordini di produzione | Non è al momento supportato |
 | Project Service Automation 3.x                         | Project Operations per scenari di risorse/materiali non stoccati     | Non è al momento supportato |
 | Project for the Web (ambiente dedicato)            | Distribuzione di Project Operations semplice                        | Non è al momento supportato |
 

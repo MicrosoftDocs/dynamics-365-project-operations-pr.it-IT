@@ -1,23 +1,23 @@
 ---
 title: Tipi di periodo
-description: Questo argomento fornisce informazioni su come configurare i tipi di periodo per la stima dei ricavi.
+description: Questo articolo fornisce informazioni su come impostare i tipi di periodo per la stima dei ricavi.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 83cf88bafbc7fc97fba664e278b232c24db53391
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5bbf2dcb4758611aa9d0591ddfec42869f4438c0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580461"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930967"
 ---
 # <a name="period-types"></a>Tipi di periodo
 
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati_
 
-Un tipo di periodo definisce la frequenza con cui vengono stimate le entrate per un progetto. Questo argomento fornisce informazioni su come configurare i tipi di periodo per la stima dei ricavi. 
+Un tipo di periodo definisce la frequenza con cui vengono stimate le entrate per un progetto. Questo articolo fornisce informazioni su come impostare i tipi di periodo per la stima dei ricavi. 
 
 ## <a name="create-and-work-with-period-types"></a>Creare e utilizzare tipi di periodo
 Per creare e utilizzare i tipi di periodo, completare i seguenti passaggi:

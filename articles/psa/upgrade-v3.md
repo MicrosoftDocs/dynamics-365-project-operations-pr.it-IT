@@ -1,6 +1,6 @@
 ---
 title: "Considerazioni sull'aggiornamento: Microsoft Dynamics 365 Project Service Automation dalla versione 2.x o 1.x alla versione 3"
-description: In questo argomento vengono fornite informazioni sulle considerazioni che devi eseguire quando esegui l'aggiornamento da Project Service Automation versione 2.x o 1.x alla versione 3.
+description: In questo articolo vengono fornite informazioni sulle considerazioni che devi eseguire quando esegui l'aggiornamento da Project Service Automation versione 2.x o 1.x alla versione 3.
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c37c30b7c694cec8c07b68492d935128881e6317
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3f67b2fe39c9d0224207e7c655892318ec7e09b8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601759"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918915"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Considerazioni sull'aggiornamento - Da PSA versione 2.x o 1.x alla versione 3
 
@@ -40,7 +40,7 @@ In Project Service Automation versione 2 e versione 1, le assegnazioni di attivi
 
 Nella versione 3 di Project Service Automation, lo schema sottostante di assegnazione di risorse prenotabili ad attività è stato modificato. L'attività riga è stata deprecata ed esiste una relazione diretta 1:1 tra l'attività nell'**entità Attività** e il membro del team nell'entità **Assegnazione risorse**. Le attività assegnate a un membro del team di progetto ora vengono archiviate direttamente nell'entità Assegnazione risorse.  
 
-Queste modifiche hanno un impatto sull'aggiornamento di qualsiasi progetto esistente che ha assegnazioni di risorse per le risorse prenotabili denominate e le risorse generiche in un team di progetto. In questo argomento vengono fornite informazioni che devono essere prese in considerazione per i progetti durante l'aggiornamento alla versione 3. 
+Queste modifiche hanno un impatto sull'aggiornamento di qualsiasi progetto esistente che ha assegnazioni di risorse per le risorse prenotabili denominate e le risorse generiche in un team di progetto. In questo articolo vengono fornite informazioni che devono essere prese in considerazione per i progetti durante l'aggiornamento alla versione 3. 
 
 ### <a name="tasks-assigned-to-named-resources"></a>Attività assegnate a risorse denominate
 Con l'entità attività sottostante, le attività nella versione 2 e nella versione 1 consentivano ai membri del team di creare un ruolo diverso da quello definito predefinito. Ad esempio, a Teresa Fanucci, alla quale veniva assegnato, per impostazione predefinita, il ruolo di Program Manager, poteva essere assegnata un'attività con il ruolo di Sviluppatore. Nella versione 3, il ruolo di un membro del team denominato è sempre predefinito, quindi qualsiasi attività a cui Teresa è assegnata utilizza il ruolo predefinito di Program Manager.

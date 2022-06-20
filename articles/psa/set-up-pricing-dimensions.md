@@ -1,6 +1,6 @@
 ---
 title: Configurare campi personalizzati come dimensioni di determinazione dei prezzi
-description: In questo argomento vengono fornite informazioni sull'impostazione di dimensioni di determinazione dei prezzi.
+description: In questo articolo vengono fornite informazioni sull'impostazione di dimensioni di determinazione dei prezzi.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,20 +16,20 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 91ec6d502a44771e7e03b67cc2be40c527fff355
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 14d27b53b42744d47e298bf5a926c1262dbf44d4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591915"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922602"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Configurare campi personalizzati come dimensioni di determinazione dei prezzi 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Questo argomento presuppone che tu abbia completato le procedure negli argomenti [Creare campi ed entità personalizzati](create-custom-fields-entities.md) e [Aggiungere campi personalizzati alla configurazione dei prezzi e ad entità transazionali](field-references.md). Se non hai completato queste procedure, completale prima di leggere questo argomento. 
+Questo articolo presuppone che tu abbia completato le procedure negli articoli [Creare campi ed entità personalizzati](create-custom-fields-entities.md) e [Aggiungere campi personalizzati alla configurazione dei prezzi e ad entità transazionali](field-references.md). Se non hai completato queste procedure, completale prima di leggere questo articolo. 
 
-In questo argomento vengono fornite informazioni sull'impostazione di dimensioni di determinazione dei prezzi. Nell'interfaccia Web di Project Service, nella pagina **Parametri**, la scheda **Dimensioni di determinazione dei prezzi basate su importo** mostra i record nelle entità Dimensione di determinazione dei prezzi. Per impostazione predefinita, l'installazione di Project Service crea 2 righe nella griglia d questa scheda:
+In questo articolo vengono fornite informazioni sull'impostazione di dimensioni di determinazione dei prezzi. Nell'interfaccia Web di Project Service, nella pagina **Parametri**, la scheda **Dimensioni di determinazione dei prezzi basate su importo** mostra i record nelle entità Dimensione di determinazione dei prezzi. Per impostazione predefinita, l'installazione di Project Service crea 2 righe nella griglia d questa scheda:
 
 - **msdyn_resourcecategory** (Ruolo)
 - **msdyn_OrganizationalUnit** (Unità organizzativa)

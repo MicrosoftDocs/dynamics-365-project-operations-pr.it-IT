@@ -1,25 +1,25 @@
 ---
 title: Usare le API di pianificazione dei progetti con Power Automate
-description: Questo argomento fornisce un flusso di esempio che utilizza le API di pianificazione del progetto.
+description: Questo articolo fornisce un flusso di esempio che utilizza le API di pianificazione del progetto.
 author: ruhercul
 ms.date: 01/26/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 9708226b0955cfa6c405b9616c14765f9ebc21f7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2527375ff3f3d631f3bb3de1458abb3b8838db54
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597711"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916339"
 ---
 # <a name="use-project-schedule-apis-with-power-automate"></a>Usare le API di pianificazione dei progetti con Power Automate
 
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
-Questo argomento descrive un flusso di esempio che mostra come creare una pianificazione del progetto completa utilizzando Microsoft Power Automate, come creare un set di operazioni e come aggiornare un'entità. L'esempio mostra come creare un progetto, un membro del team di progetto, set di operazioni, attività di progetto e assegnazioni di risorse. Questo argomento spiega anche come aggiornare un'entità ed eseguire un set di operazioni.
+Questo articolo descrive un flusso di esempio che mostra come creare una pianificazione del progetto completa utilizzando Microsoft Power Automate, come creare un set di operazioni e come aggiornare un'entità. L'esempio mostra come creare un progetto, un membro del team di progetto, set di operazioni, attività di progetto e assegnazioni di risorse. Questo articolo spiega anche come aggiornare un'entità ed eseguire un set di operazioni.
 
-Di seguito è riportato un elenco completo dei passaggi documentati nel flusso di esempio in questo argomento:
+Di seguito è riportato un elenco completo dei passaggi documentati nel flusso di esempio in questo articolo:
 
 1. [Creare un trigger PowerApps](#1)
 2. [Creare un progetto](#2)
@@ -30,7 +30,7 @@ Di seguito è riportato un elenco completo dei passaggi documentati nel flusso d
 7. [Inizializzare una variabile per lo stato del collegamento](#7)
 8. [Inizializzare una variabile per il numero di attività](#8)
 9. [Inizializzare una variabile per l'ID attività di progetto](#9)
-10. [Do until](#10)
+10. [Continua finché](#10)
 11. [Impostare un'attività di progetto](#11)
 12. [Creare un'attività di progetto](#12)
 13. [Creare un'assegnazione di risorsa](#13)
@@ -40,7 +40,7 @@ Di seguito è riportato un elenco completo dei passaggi documentati nel flusso d
 
 ## <a name="assumptions"></a>Presupposti
 
-Questo argomento presuppone che tu abbia una conoscenza di base della piattaforma Dataverse, flussi cloud e API di pianificazione del progetto. Per ulteriori informazioni, vedi la sezione [Riferimenti](#references) più avanti in questo argomento.
+Questo articolo presuppone che tu abbia una conoscenza di base della piattaforma Dataverse, flussi cloud e API di pianificazione del progetto. Per ulteriori informazioni, vedi la sezione [Riferimenti](#references) più avanti in questo articolo.
 
 ## <a name="create-a-flow"></a>Crea un flusso
 
@@ -65,7 +65,7 @@ Segui questi passaggi per creare un [flusso con riconoscimento della soluzione](
 1. Nella pagina **Soluzioni**, sceglie la soluzione creata, quindi seleziona **Nuovo**.
 2. Nel riquadro a sinistra, seleziona **Flussi cloud** \> **Automazione** \> **Flusso cloud** \> **Immediato**.
 3. Nel campo **Nome flusso** immetti **Flusso demo API di pianificazione**.
-4. Nell'elenco **Scegli come attivare questo flusso** seleziona **Power Apps**. Quando crei un trigger Power Apps, la logica dipende da te in qualità di autore. In questo argomento, lascia vuoti i parametri di input a scopo di test.
+4. Nell'elenco **Scegli come attivare questo flusso** seleziona **Power Apps**. Quando crei un trigger Power Apps, la logica dipende da te in qualità di autore. In questo articolo, lascia vuoti i parametri di input a scopo di test.
 5. Seleziona **Crea**.
 
 ## <a name="step-2-create-a-project"></a><a id="2"></a>Passaggio 2: crea un progetto
@@ -180,10 +180,10 @@ Segui questi passaggi per creare un progetto di esempio.
 6. Nel campo **Tipo** seleziona **Stringa**.
 7. Per il campo **Valore** immetti **guid()** nel generatore di espressioni.
 
-## <a name="step-10-do-until"></a><a id="10"></a>Passaggio 10: Do until
+## <a name="step-10-do-until"></a><a id="10"></a>Passaggio 10: Continua finché
 
 1. Nel flusso, seleziona **Nuovo passaggio**.
-2. Nella finestra di dialogo **Scegli un'operazione**, nel campo di ricerca, immetti **do until**. Poi, sulla scheda **Azioni** seleziona l'operazione nell'elenco dei risultati.
+2. Nella finestra di dialogo **Scegli un'operazione**, nel campo di ricerca, immetti **continua finché**. Poi, sulla scheda **Azioni** seleziona l'operazione nell'elenco dei risultati.
 3. Imposta il primo valore nell'istruzione condizionale sulla variabile **numero di attività** dalla finestra di dialogo **Contenuti dinamici**.
 4. Imposta la condizione su **minore di o uguale a**.
 5. Imposta il secondo valore nell'istruzione condizionale su **0**.

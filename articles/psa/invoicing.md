@@ -1,6 +1,6 @@
 ---
 title: Fatturazione in Project Service Automation
-description: In questo argomento vengono fornite informazioni sulla fatturazione.
+description: In questo articolo vengono fornite informazioni sulla fatturazione.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 84134778225bfce1126ccf70b32e0c82c4ccc3fc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fa036dda6514449b04e1416bde2cd9c21fc558b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579311"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926827"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Fatturazione in Project Service Automation
 
@@ -94,7 +94,7 @@ Dopo il termine dell'esecuzione di **ProcessRunner**, questo flusso di lavoro ch
 Il processo batch per la creazione di fatture è un processo ricorrente. Se questo processo batch viene eseguito molte volte, vengono create molteplici istanze del processo che causano errori. Pertanto, devi avviare il processo batch una sola volta e riavviarlo solo se viene interrotto.
 
 > [!NOTE]
-> La fatturazione in batch in Project Service Automation viene eseguita solo per le righe di contratto di progetto configurate dalle pianificazioni fatturazione. Una riga di contratto con un metodo di fatturazione a prezzo fisso deve avere i passaggi fondamentali configurati. Una riga di contratto di progetto con un metodo di fatturazione di tempo e materiali richiederà una pianificazione fatturazione basata sulla data. Le informazioni sull'impostazione delle frequenze di fatturazione nel contesto di un progetto basato su una riga di offerta sono fornite nell'argomento [Offerte e righe di offerta](basic-quote-lines.md#invoice-schedule). Lo stesso vale per una riga di contratto basato su progetto.      
+> La fatturazione in batch in Project Service Automation viene eseguita solo per le righe di contratto di progetto configurate dalle pianificazioni fatturazione. Una riga di contratto con un metodo di fatturazione a prezzo fisso deve avere i passaggi fondamentali configurati. Una riga di contratto di progetto con un metodo di fatturazione di tempo e materiali richiederà una pianificazione fatturazione basata sulla data. Le informazioni sull'impostazione delle frequenze di fatturazione nel contesto di un progetto basato su una riga di offerta sono fornite nell'articolo [Offerte e righe di offerta](basic-quote-lines.md#invoice-schedule). Lo stesso vale per una riga di contratto basato su progetto.      
  
 ### <a name="edit-a-draft-psa-invoice"></a>Modificare una bozza di fattura PSA
 

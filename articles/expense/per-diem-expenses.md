@@ -1,6 +1,6 @@
 ---
 title: Spese giornaliere
-description: In questo argomento vengono fornite informazioni su come utilizzare le spese giornaliere.
+description: In questo articolo vengono fornite informazioni su come utilizzare le spese giornaliere.
 author: suvaidya
 ms.date: 03/18/2022
 ms.topic: article
@@ -13,17 +13,17 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fe72f066a6819c3b43e3977d5e7afb01ba95338c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0d2f95b677720726049d7d010e9738ad8c513802
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596055"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923193"
 ---
 # <a name="per-diem-expenses"></a>Spese giornaliere
 
 > [!IMPORTANT] 
-> La funzionalità descritta in questo argomento è disponibile per gli utenti interessati nell'ambito di una versione di anteprima.
+> La funzionalità descritta in questo articolo è disponibile per gli utenti interessati nell'ambito di una versione di anteprima.
 
 Un pagamento giornaliero è un'indennità giornaliera fissa e predeterminata che un'azienda paga ai propri dipendenti per l'alloggio (hotel), i pasti e le spese accessorie che tali dipendenti devono sostenere quando viaggiano per lavoro. L'azienda paga questa indennità ai dipendenti invece di pagare le spese di viaggio effettive. I dipendenti possono utilizzare l'indennità giornaliera **Accessori/Altro** per coprire mance, servizio in camera, lavanderia o pulitura a secco per importanti riunioni di lavoro. La tariffa giornaliera può variare a seconda che il datore di lavoro scelga di rimborsare il costo combinato di vitto e alloggio o solo il costo di vitto e spese accessorie.
 

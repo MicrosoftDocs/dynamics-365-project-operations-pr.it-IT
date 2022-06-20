@@ -1,6 +1,6 @@
 ---
 title: App spese per dispositivi mobili
-description: In questo argomento vengono fornite informazioni sull'area di lavoro per dispositivi Gestione delle spese.
+description: In questo articolo vengono fornite informazioni sull'area di lavoro mobile per la gestione della spesa.
 author: suvaidya
 ms.date: 11/15/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 14bd76df5f058d2af9f77990471a0a173fe8c15d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1ba7ccae04fbb02252e3ceb01f123ce1e85375b7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588925"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930231"
 ---
 # <a name="mobile-expense-app"></a>App spese per dispositivi mobili
 
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
-In questo argomento vengono fornite informazioni sull'area di lavoro per dispositivi **Gestione delle spese**. Questa area di lavoro consente agli utenti di acquisire e caricare una ricevuta, in modo da poterla allegare a una nota spese in un secondo momento. Gli utenti possono anche creare rapidamente una riga di spesa utilizzando una ricevuta allegata e creare e gestire le proprie note spese. Inoltre, gli approvatori possono utilizzare l'area di lavoro per dispositivi mobili **Gestione delle spese** per visualizzare le note spese loro assegnate e approvarle o rifiutarle.
+In questo articolo vengono fornite informazioni sull'area di lavoro mobile per la **gestione della spesa**. Questa area di lavoro consente agli utenti di acquisire e caricare una ricevuta, in modo da poterla allegare a una nota spese in un secondo momento. Gli utenti possono anche creare rapidamente una riga di spesa utilizzando una ricevuta allegata e creare e gestire le proprie note spese. Inoltre, gli approvatori possono utilizzare l'area di lavoro per dispositivi mobili **Gestione delle spese** per visualizzare le note spese loro assegnate e approvarle o rifiutarle.
 
 Quest'area di lavoro per dispositivi mobili deve essere utilizzata con l'app dispositivi mobili Dynamics 365.
 

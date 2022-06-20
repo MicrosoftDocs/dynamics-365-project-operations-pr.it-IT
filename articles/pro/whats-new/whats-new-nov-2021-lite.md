@@ -1,24 +1,24 @@
 ---
 title: Novità della versione di novembre 2021 - Distribuzione di Project Operations Lite
-description: Questo argomento fornisce informazioni sugli aggiornamenti di qualità disponibili nella versione di novembre 2021 della distribuzione di Project Operations Lite.
+description: Questo articolo fornisce informazioni sugli aggiornamenti di qualità disponibili nella versione di novembre 2021 della distribuzione lite di Project Operations.
 author: sigitac
 ms.date: 11/09/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3f3a19cddd1b91fc76c852153526fb7197a9f92c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 947e7f6183ddeef3ab9a88d140331956bbcf23bd
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587775"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913809"
 ---
 # <a name="whats-new-november-2021---project-operations-lite-deployment"></a>Novità della versione di novembre 2021 - Distribuzione di Project Operations Lite
 
 _Si applica a: Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
-Questo argomento si applica ai seguenti componenti e versioni di Microsoft Dynamics 365 Project Operations:
+Questo articolo si applica ai seguenti componenti e versioni di Microsoft Dynamics 365 Project Operations:
 
 - Project Operations in ambiente Dataverse versione 4.26.0.145, 4.26.0.148, 4.26.0.150, 4.26.0.155
   

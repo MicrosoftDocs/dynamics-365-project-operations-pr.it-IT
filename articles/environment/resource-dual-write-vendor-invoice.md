@@ -1,18 +1,18 @@
 ---
 title: Integrazione della fattura fornitore
-description: Questo argomento fornisce informazioni sull'Integrazione della fattura fornitore in Project Operations.
+description: Questo articolo fornisce informazioni sull'integrazione delle fatture fornitore in Project Operations.
 author: sigitac
 ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8650eed2230b99b821c1635fdc88252bb65c5583
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d1e41638b6fe827e9e577860a78a84a9948053e4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591180"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912061"
 ---
 # <a name="vendor-invoice-integration"></a>Integrazione della fattura fornitore
 
@@ -21,7 +21,7 @@ _**Si applica a:** Project Operations per scenari basati su risorse/materiali no
 L'approvvigionamento relativo al progetto in Dynamics 365 Project Operations può essere registrato andando in **Contabilità fornitori** > **Fatture** > **Fatture fornitore in sospeso** e utilizzando un documento di fattura fornitore in sospeso. Per ulteriori informazioni, vedi [Acquistare materiali non stoccati usando una fattura fornitore in sospeso](../procurement/pending-vendor-invoices.md).
 
 > [!IMPORTANT]
-> Prima di utilizzare la funzionalità descritta in questo argomento, esamina e applica le configurazioni richieste. Per ulteriori informazioni, vedi [Abilitare materiali non stoccati e fatture fornitore in sospeso](../procurement/configure-materials-nonstocked.md).
+> Prima di utilizzare la funzionalità descritta in questo articolo, rivedi e applica le configurazioni richieste. Per ulteriori informazioni, vedi [Abilitare materiali non stoccati e fatture fornitore in sospeso](../procurement/configure-materials-nonstocked.md).
 
 In Project Operations, le fatture fornitore relative al progetto vengono registrate utilizzando regole di registrazione speciali:
 

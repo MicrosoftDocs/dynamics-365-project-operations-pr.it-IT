@@ -1,17 +1,17 @@
 ---
 title: Modalità di pianificazione
-description: In questo argomento vengono fornite informazioni sulle modalità di pianificazione.
+description: Questo articolo fornisce informazioni sulle modalità di pianificazione.
 author: ruhercul
 ms.date: 05/28/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: cb507528c4815f5149c813bba0a354f7d840a4a5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3cbe14f8d458c5d9631e0595912afa8cbb87b9de
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588419"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923653"
 ---
 # <a name="scheduling-modes"></a>Modalità di pianificazione
 
@@ -38,7 +38,7 @@ Quando definisci la modalità di pianificazione di un progetto, imposti uno di q
 | Attività lavoro fisso    | La durata viene ricalcolata. | Le unità vengono ricalcolate.    | La durata viene ricalcolata. |
 | Attività durata fissa  | Il lavoro viene ricalcolato.   | Il lavoro viene ricalcolato.    | Le unità vengono ricalcolate.   |
 
-Per ulteriori informazioni sulle implicazioni di una determinata modalità, vedi [Modificare il tipo di attività per una pianificazione più accurata](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). In argomento, il termine **lavoro** viene utilizzato al posto di **risorse**.
+Per ulteriori informazioni sulle implicazioni di una determinata modalità, vedi [Modificare il tipo di attività per una pianificazione più accurata](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). Nell'articolo, il termine **Lavoro** viene utilizzato al posto di **Impegno**.
 
 ## <a name="change-the-organizations-scheduling-mode"></a>Modificare la modalità di pianificazione dell'organizzazione
 

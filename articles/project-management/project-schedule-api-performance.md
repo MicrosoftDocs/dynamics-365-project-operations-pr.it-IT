@@ -1,28 +1,28 @@
 ---
 title: Prestazioni dell'API di pianificazione del progetto
-description: Questo argomento fornisce informazioni sui benchmark delle prestazioni delle API di pianificazione del progetto e identifica le procedure consigliate per l'utilizzo ottimale.
+description: Questo articolo fornisce informazioni sui benchmark delle prestazioni delle API di pianificazione del progetto e identifica le procedure consigliate per l'utilizzo ottimale.
 author: ruhercul
 ms.date: 11/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3c14d27c561a86cd359cbdcbb448ae764dd3d90e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1ee1bd8e4412ee1d10f445628c5dc87cc9fa91d3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593847"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911187"
 ---
 # <a name="project-schedule-api-performance"></a>Prestazioni dell'API di pianificazione del progetto
 
 _**Si applica a:** Project Operations per scenari basati su articoli non stoccati/risorse e Distribuzione semplice: dalla transazione alla fatturazione proforma, Project for the Web_
 
-Questo argomento fornisce informazioni sui benchmark delle prestazioni delle API di pianificazione del progetto e identifica le procedure consigliate per l'utilizzo ottimale.
+Questo articolo fornisce informazioni sui benchmark delle prestazioni delle API di pianificazione del progetto e identifica le procedure consigliate per l'utilizzo ottimale.
 
 ## <a name="project-scheduling-service"></a>Servizio di pianificazione del progetto
 Il servizio di pianificazione del progetto è un servizio multi-tenant che viene eseguito in Microsoft Azure. È progettato per migliorare l'interazione fornendo un'esperienza rapida e fluida quando gli utenti lavorano ai progetti. Questo miglioramento si ottiene accettando le richieste di modifica, elaborandole e quindi restituendo immediatamente il risultato. Il servizio persiste in modo asincrono in Dataverse e non impedisce agli utenti di eseguire altre operazioni.
 
-Le API di pianificazione del progetto si basano sul servizio di pianificazione del progetto per eseguire le richieste descritte in maggior dettaglio nelle sezioni successive di questo argomento.
+Le API di pianificazione del progetto si basano sul servizio di pianificazione del progetto per eseguire le richieste descritte in maggior dettaglio nelle sezioni successive di questo articolo.
 
 Le API di pianificazione del progetto sono progettate per funzionare con le seguenti entità della struttura di suddivisione del lavoro:
 

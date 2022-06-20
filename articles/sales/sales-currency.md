@@ -1,6 +1,6 @@
 ---
 title: Valuta
-description: Questo argomento fornisce informazioni su come aggiungere e rimuovere i tipi di valuta in Project Operations.
+description: In questo articolo vengono fornite informazioni su come aggiungere e rimuovere i tipi di valuta in Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: a20b4518954cce755555b95cc7fd9e6efb1a7322
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0fbfd1039fe0a7401376bb8c27b118297fdc87f5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591823"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921537"
 ---
 # <a name="currency"></a>Valuta
 

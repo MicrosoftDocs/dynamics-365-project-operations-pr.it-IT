@@ -1,23 +1,23 @@
 ---
 title: Panoramica del riconoscimento ricavi
-description: In questo argomento vengono fornite informazioni sul riconoscimento dei ricavi in Project Operations.
+description: Questo articolo fornisce informazioni sul riconoscimento ricavi in Project Operations.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 51c553ecf45452615cbcadce6386f32be427acaa
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 22486693226256f765589b272e6df36aceaf9c1c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601437"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926275"
 ---
 # <a name="revenue-recognition-overview"></a>Panoramica del riconoscimento ricavi
 
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati_
 
-In Dynamics 365 Project Operations, i principi di riconoscimento dei ricavi variano in base al metodo di fatturazione selezionato per un progetto o una parte del progetto. In questo argomento vengono fornite informazioni sul riconoscimento dei ricavi in Project Operations.
+In Dynamics 365 Project Operations, i principi di riconoscimento dei ricavi variano in base al metodo di fatturazione selezionato per un progetto o una parte del progetto. Questo articolo fornisce informazioni sul riconoscimento ricavi in Project Operations.
 
 ## <a name="transactions-accounted-using-time-and-material-billing-method"></a>Transazioni contabilizzate utilizzando il metodo di fatturazione per tempo e materiali
 

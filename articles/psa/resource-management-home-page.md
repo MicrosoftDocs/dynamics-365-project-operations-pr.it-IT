@@ -1,6 +1,6 @@
 ---
 title: Home page della gestione delle risorse
-description: In questo argomento vengono fornite informazioni su come gestire le risorse.
+description: In questo articolo vengono fornite informazioni su come gestire le risorse.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1d909b0cb3530b5f1a829983d2d4737d81bf0d1b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bf61922ab185a4a5589b9aa9247ab93909ce169b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578759"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913257"
 ---
 # <a name="resource-management-home-page"></a>Home page della gestione delle risorse
 
@@ -31,7 +31,7 @@ ms.locfileid: "8578759"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Le risorse sono il cespite più importante di un'organizzazione di servizi. La possibilità di trovare e prenotare le risorse appropriate quando necessarie e di continuare a utilizzarle, consente all'organizzazione di soddisfare gli obiettivi relativi ai ricavi e alla soddisfazione dei clienti. Negli argomenti seguenti vengono descritte le funzionalità di gestione delle risorse di Dynamics 365 Project Service Automation:
+Le risorse sono il cespite più importante di un'organizzazione di servizi. La possibilità di trovare e prenotare le risorse appropriate quando necessarie e di continuare a utilizzarle, consente all'organizzazione di soddisfare gli obiettivi relativi ai ricavi e alla soddisfazione dei clienti. Negli articoli seguenti vengono descritte le funzionalità di gestione delle risorse di Dynamics 365 Project Service Automation:
 
 - [Gestione risorse](manage-resources.md)
 - [Concetti chiave](reports-key-concepts.md)

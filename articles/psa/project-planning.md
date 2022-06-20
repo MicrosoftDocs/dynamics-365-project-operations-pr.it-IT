@@ -1,6 +1,6 @@
 ---
 title: Home page della pianificazione di progetti
-description: In questo argomento vengono fornite informazioni sulla pianificazione di progetti.
+description: In questo articolo vengono fornite informazioni sulla pianificazione di progetti.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ef893b78ca3a421e22dbbabdce7a0a18d4b9abd
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f6309a2eecd0f6c7d38f2d88120300eb342be629
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588144"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919099"
 ---
 # <a name="project-planning-home-page"></a>Home page della pianificazione di progetti
 
@@ -43,7 +43,7 @@ Gli strumenti per gestione di progetti in PSA consentono di eseguire facilmente 
 - Prevedere requisiti di risorsa per i progetti nella pipeline
 - Consegnare i progetti tenendo traccia dell'avanzamento e del consumo dei costi.
 
-Gli argomenti seguenti forniscono le informazioni che aiuteranno i responsabili di progetto a valutare il lavoro, stimare i costi di progetto e prevedere i requisiti di risorsa mediante gli strumenti supportati in PSA:
+Gli articoli seguenti forniscono le informazioni che aiuteranno i responsabili di progetto a valutare il lavoro, stimare i costi di progetto e prevedere i requisiti di risorsa mediante gli strumenti supportati in PSA:
 
 - [Creare una pianificazione ](project-creating.md)
 - [Stimare costi e ricavi del progetto](project-estimating.md)

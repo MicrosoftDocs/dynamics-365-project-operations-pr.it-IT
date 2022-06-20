@@ -1,17 +1,17 @@
 ---
 title: Panoramica delle modalità di gestione delle risorse
-description: In questo argomento vengono fornite informazioni sulla funzionalità di gestione delle risorse in Dynamics 365 Project Operations.
+description: Questo articolo fornisce informazioni sulla funzionalità di gestione delle risorse in Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: f30bac95b2beb92345cbe25332963c58d2bde4bb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: dd50d12686a6ad17f6a95ccf0c2f1447cc470bf7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585061"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928437"
 ---
 # <a name="resource-management-modes-overview"></a>Panoramica delle modalità di gestione delle risorse
 
@@ -38,7 +38,7 @@ Per le organizzazioni che richiedono flessibilità nell'allocazione delle risors
 
 ![Modalità ibrida.](./media/resource-management-hybrid.png)
 
-Oltre al processo in modalità centrale supportato, vedi i seguenti argomenti per gestire tutti gli altri flussi di prenotazione supportati in modalità ibrida:
+Oltre al processo in modalità centrale supportato, vedi i seguenti articoli per gestire tutti gli altri flussi di prenotazione supportati in modalità ibrida:
 
 Prenota una risorsa direttamente per un progetto:
 - [Prenotare risorse prenotabili denominate per un team di progetto e assegnarvi attività](/dynamics365/project-service/assign-named-bookable-resource)

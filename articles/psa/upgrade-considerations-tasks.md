@@ -1,6 +1,6 @@
 ---
 title: Considerazioni sull'aggiornamento della struttura di suddivisione del lavoro
-description: In questo argomento vengono fornite informazioni sull'aggiornamento della struttura di suddivisione del lavoro da Project Service Automation 2.x a 3.x.
+description: In questo articolo vengono fornite informazioni sull'aggiornamento della struttura di suddivisione del lavoro da Project Service Automation 2.x a 3.x.
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/18/2019
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 13ad93d5be3c0ab07c81db28d3e13561e9d40017
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 42bf03b5e3be4b7bdce87148254ce69e381ffdf1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599735"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913119"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Considerazioni sull'aggiornamento della struttura di suddivisione del lavoro
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-In questo argomento vengono fornite informazioni sull'aggiornamento della struttura di suddivisione del lavoro da Project Service Automation 2.x a 3.x. In questo argomento viene definito lo stato di integrità di un progetto in Project Service Automation (PSA) che è necessario per un aggiornamento corretto. Sono inoltre fornite informazioni sulle condizioni di blocco comuni che rendono impossibile l'aggiornamento. Per ulteriori informazioni sulla definizione delle attività di progetto e le relative funzioni in una pianificazione di progetto, vedi [Pianificazioni di progetto](project-creating.md).
+In questo articolo vengono fornite informazioni sull'aggiornamento della struttura di suddivisione del lavoro da Project Service Automation 2.x a 3.x. In questo articolo viene definito lo stato di integrità di un progetto in Project Service Automation (PSA) che è necessario per un aggiornamento corretto. Sono inoltre fornite informazioni sulle condizioni di blocco comuni che rendono impossibile l'aggiornamento. Per ulteriori informazioni sulla definizione delle attività di progetto e le relative funzioni in una pianificazione di progetto, vedi [Pianificazioni di progetto](project-creating.md).
 
 ## <a name="key-entities"></a>Entità chiave
 Per una struttura di suddivisione del lavoro accurata già caricata con le risorse, sono necessarie le entità seguenti:

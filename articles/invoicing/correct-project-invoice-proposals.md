@@ -1,17 +1,17 @@
 ---
 title: Correggere la contabilità sulle proposte di fattura di progetto in bozza
-description: Questo argomento spiega come modificare le informazioni relative alla contabilità in una bozza di proposta di fattura.
+description: Questo articolo spiega come modificare le informazioni relative alla contabilità su una bozza di proposta di fattura.
 author: sigitac
 ms.date: 01/05/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: bf0a3d6b97880920b133cb3b30389adf0c83111c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 32f566a798d07b698693392f3aa1823f91fe5408
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575079"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921215"
 ---
 # <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a>Correggere la contabilità sulle proposte di fattura di progetto in bozza
 
@@ -19,7 +19,7 @@ _**Si applica a:** Project Operations per scenari basati su risorse/materiali no
 
 I *dettagli operativi* per le fatture di progetto vengono mantenuti dal responsabile di progetto in una fattura pro forma. Questi dettagli includono la decisione su ore, spese, materiali o passaggi fondamentali che devono essere fatturati, le tariffe e l'applicazione degli importi di anticipo e acconto. Dopo aver confermato la fattura pro forma originale, puoi modificare i dettagli operativi creando e confermando una [fattura pro forma correttiva](../proforma-invoicing/corrective-invoices.md).
 
-I *dettagli contabili* per le fatture di progetto vengono mantenuti in un documento di fattura rivolto al cliente. Questi dettagli includono il calcolo dell'IVA e le dimensioni finanziarie applicate alla fattura. Questo argomento fornisce le indicazioni su come questi dettagli contabili possono essere rettificati su una bozza di proposta di fattura del progetto.
+I *dettagli contabili* per le fatture di progetto vengono mantenuti in un documento di fattura rivolto al cliente. Questi dettagli includono il calcolo dell'IVA e le dimensioni finanziarie applicate alla fattura. Questo articolo fornisce informazioni su come questi dettagli contabili possono essere modificati in una bozza di proposta di fattura di progetto.
 
 ## <a name="adjust-sales-tax"></a>Rettificare l'IVA
 

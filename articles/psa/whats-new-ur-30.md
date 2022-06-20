@@ -1,6 +1,6 @@
 ---
 title: Novità o modifiche nella versione di aggiornamento 30 di Project Service Automation V3
-description: Questo argomento elenca le funzionalità e le correzioni disponibili nella versione di aggiornamento 30 di Project Service Automation V3.
+description: Questo articolo elenca le funzionalità e le correzioni disponibili nella versione di aggiornamento 30 di Project Service Automation V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 04/01/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: f99d2df3f9f6c0752109c39132c2401e0130d5df
-ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
+ms.openlocfilehash: ad00b126a13e18a5de47df335aea06b9690efa13
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723545"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925079"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-30-v3"></a>Novità o modifiche nella versione di aggiornamento 30 di Project Service Automation V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8723545"
 
 Siamo lieti di annunciare l'ultimo aggiornamento per l'applicazione Project Service Automation per Dynamics 365. Questa versione include alcuni importanti miglioramenti in termini di qualità, prestazioni e usabilità. Questa versione è compatibile con Dynamics 365 9.x. Per eseguire l'aggiornamento a questa versione, visita l'interfaccia di amministrazione di Dynamics 365 online e vai alla pagina delle soluzioni per installare l'aggiornamento. Per ulteriori informazioni, vedere [Installare, aggiornare o rimuovere una soluzione preferita](/power-platform/admin/install-remove-preferred-solution).
 
-Questo argomento elenca le funzionalità e le correzioni nuove o modificate per l'aggiornamento rilascio 30 di Project Service Automation V3. Questa versione ha il numero di build V3.10.51.61 ed è generalmente disponibile tramite un aggiornamento automatico nell'aprile 2021.
+Questo articolo elenca le funzionalità e le correzioni nuove o modificate nella versione di aggiornamento 30 di Project Service Automation V3. Questa versione ha il numero di build V3.10.51.61 ed è generalmente disponibile tramite un aggiornamento automatico nell'aprile 2021.
 
 ## <a name="update-release-30"></a>Rilascio 30 dell'aggiornamento
 

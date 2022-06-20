@@ -1,23 +1,23 @@
 ---
 title: Registrazione del lavoro richiesto di progetto
-description: In questo argomento vengono fornite informazioni su come registrare il lavoro richiesto di progetto e l'avanzamento del lavoro.
+description: In questo articolo vengono fornite informazioni su come tenere traccia dell'avanzamento del lavoro.
 author: ruhercul
 ms.date: 02/15/2022
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 037118714cf01ba2fb91cdd94345495d12ccb645
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c41dbc138f6fc92a9586de173ba5dfc89c7e44e3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593801"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929265"
 ---
 # <a name="project-effort-tracking"></a>Registrazione del lavoro richiesto di progetto
 
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
-La necessità di tenere traccia dell'avanzamento di un progetto rispetto a una pianificazione varia in base al settore di attività. Alcuni settori eseguono tale monitoraggio a un livello granulare, mentre altri lo svolgono a un livello superiore. In questo argomento viene illustrato come eseguire la pianificazione per soddisfare i requisiti dell'organizzazione.
+La necessità di tenere traccia dell'avanzamento di un progetto rispetto a una pianificazione varia in base al settore di attività. Alcuni settori eseguono tale monitoraggio a un livello granulare, mentre altri lo svolgono a un livello superiore. In questo articolo viene illustrato come eseguire la pianificazione per soddisfare i requisiti dell'organizzazione.
 
 ## <a name="effort-tracking-view"></a>Vista registrazione lavoro richiesto
 

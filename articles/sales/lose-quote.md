@@ -1,17 +1,17 @@
 ---
 title: Copiare offerte basate su progetto
-description: Questo argomento fornisce informazioni su come copiare le offerte basate su progetto in Project Operations.
+description: Questo articolo fornisce informazioni sulla copia delle offerte basate su progetto in Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 1e8611f34a23d6d87317cc785148c1a3f9c26dca
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6c3b964d89d6d24ae5d32dd9e5e79fcd1e90c19d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588051"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914913"
 ---
 # <a name="copy-project-based-quotes"></a>Copiare offerte basate su progetto
 

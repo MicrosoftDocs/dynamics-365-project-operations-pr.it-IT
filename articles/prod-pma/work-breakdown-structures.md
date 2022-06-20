@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f1e69d7cc97e3a7a59bdba387282fe19d12f5780
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 7f1a77c6e4e5f0926ff7afe1066f9a0cf7cdfb51
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683405"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920663"
 ---
 # <a name="work-breakdown-structures-overview"></a>Panoramica delle strutture di suddivisione del lavoro
 
@@ -35,7 +35,7 @@ Il grado di dettaglio in una struttura di suddivisione del lavoro dipende dal li
 
 Al contrario, i progetti in settori come i media e la pubblicità, il software e l'infrastruttura IT tendono ad essere unici e la produttività è relativa all'esperienza e alla competenza dell'individuo che esegue l'attività. Pertanto, questi settori utilizzano una struttura di suddivisione del lavoro per ottenere un'approssimazione delle dimensioni di un progetto, non per tenere traccia dell'avanzamento di quel progetto in dettaglio. 
 
-La creazione di una struttura di suddivisione del lavoro è un processo intenso che di solito viene svolto per un lungo periodo e che richiede collaborazione e informazioni da un'ampia varietà di persone. Questo argomento descrive come utilizzare i miglioramenti della struttura di suddivisione del lavoro per soddisfare i requisiti di stima e monitoraggio.
+La creazione di una struttura di suddivisione del lavoro è un processo intenso che di solito viene svolto per un lungo periodo e che richiede collaborazione e informazioni da un'ampia varietà di persone. In questo articolo viene descritto come utilizzare i miglioramenti di struttura di suddivisione del lavoro per soddisfare i requisiti relativi a stime e tracciabilità.
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>Prerequisiti per la creazione di una struttura di suddivisione del lavoro
 Per creare una struttura di suddivisione del lavoro, devi essere in grado di creare un programma di lavoro e stimare il costo del lavoro.
@@ -166,7 +166,7 @@ Finance ha tre visualizzazioni per la struttura di suddivisione del lavoro di un
 
 ### <a name="planning-view"></a>Visualizzazione Pianificazione
 
-La visualizzazione Pianificazione mostra la stima pianificata o prevista della pianificazione e le informazioni sui costi. Sebbene non siano presenti funzionalità per tenere traccia della versione e della previsione per una struttura di suddivisione del lavoro di progetto, i valori in questa visualizzazione hanno lo scopo di rappresentare la versione di base. Le sezioni Stima della pianificazione e Stima dei costi di questo argomento descrivono questa visualizzazione e come viene utilizzata per creare una struttura di suddivisione del lavoro.
+La visualizzazione Pianificazione mostra la stima pianificata o prevista della pianificazione e le informazioni sui costi. Sebbene non siano presenti funzionalità per tenere traccia della versione e della previsione per una struttura di suddivisione del lavoro di progetto, i valori in questa visualizzazione hanno lo scopo di rappresentare la versione di base. Le sezioni Stima di programmazione e Stima costi di questo articolo descrivono questa visualizzazione e come viene utilizzata per creare una struttura di suddivisione del lavoro.
 
 ### <a name="effort-tracking-view"></a>Visualizzazione registrazione lavoro richiesto
 

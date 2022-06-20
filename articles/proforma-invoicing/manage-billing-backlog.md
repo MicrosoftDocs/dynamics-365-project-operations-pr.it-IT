@@ -1,17 +1,17 @@
 ---
 title: Gestire il backlog di fatturazione
-description: Questo argomento fornisce informazioni su come visualizzare e lavorare con il backlog di fatturazione in Project Operations.
+description: Questo articolo fornisce informazioni su come visualizzare e utilizzare il backlog di fatturazione in Project Operations.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 9837af0d3c0b2476edab35a53092cf95a44e5244
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5be05639650bb5b9d646067e8d83bada60824081
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599995"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929383"
 ---
 # <a name="manage-billing-backlog"></a>Gestire il backlog di fatturazione
 

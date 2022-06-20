@@ -1,17 +1,17 @@
 ---
 title: Stima le vendite e i costi del progetto quando una risorsa prenotabile ricopre più ruoli in un progetto
-description: Questo argomento spiega come utilizzare le dimensioni dei prezzi per supportare le stime dei prezzi e dei costi per una risorsa che ricopre più ruoli in un progetto.
+description: Questo articolo spiega come utilizzare le dimensioni dei prezzi per supportare le stime dei prezzi e dei costi per una risorsa che ricopre più ruoli in un progetto.
 author: rumant
 ms.date: 11/16/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2cc632d43bfcbdd23c1d06ff5203385bccf9926d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 9bb59537aaa75d9003925bec37642a2fa7c9ca22
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589155"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923469"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-on-a-project"></a>Stima le vendite e i costi del progetto quando una risorsa prenotabile ricopre più ruoli in un progetto 
 

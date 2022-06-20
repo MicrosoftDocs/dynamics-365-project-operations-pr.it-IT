@@ -1,6 +1,6 @@
 ---
 title: Home page dello sviluppo (Project Service Automation 3.x)
-description: In questo argomento sono disponibili collegamenti agli argomenti che forniscono informazioni sullo sviluppo per Dynamics 365 Project Service Automation (PSA) versione 3.x.
+description: In questo articolo sono disponibili collegamenti agli articoli che forniscono informazioni sullo sviluppo per Dynamics 365 Project Service Automation (PSA) versione 3.x.
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 86bfe8e5103bfcac89a2966b99f15b7c34a213fb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5cf7d738d5a7f6fb5d79849bdaf54831414de6de
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582324"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928989"
 ---
 # <a name="development-home-page-project-service-automation-3x"></a>Home page dello sviluppo (Project Service Automation 3.x)
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
-Dynamics 365 Project Service Automation 3.x offre nuove funzionalità, l'implementazione di nuove funzionalità di piattaforma e miglioramenti a funzionalità esistenti in varie aree. Nei seguenti argomenti sono disponibili ulteriori informazioni sulle modifiche presenti nella versione più recente di PSA:
+Dynamics 365 Project Service Automation 3.x offre nuove funzionalità, l'implementazione di nuove funzionalità di piattaforma e miglioramenti a funzionalità esistenti in varie aree. Nei seguenti articoli sono disponibili ulteriori informazioni sulle modifiche presenti nella versione più recente di PSA:
 
 - [Modifiche a entità, controlli e interfaccia utente (Project Service Automation 3.x)](../developer-guides/entity-changes-v3.x.md)
 - [Modifiche a Tempo e spesa (Project Service Automation 3.x)](../developer-guides/time-expense-changes-v3.x.md)

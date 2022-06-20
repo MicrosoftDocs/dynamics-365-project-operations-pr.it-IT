@@ -1,21 +1,21 @@
 ---
 title: Iscriversi a un abbonamento di anteprima - semplice
-description: 'Questo argomento fornisce informazioni su come iscriversi alla distribuzione semplice di Project Operations: accordo per la fatturazione proforma.'
+description: Questo articolo fornisce informazioni su come iscriversi e distribuire la distribuzione semplice di Project Operations, con la fatturazione proforma.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3b06ac29e8021967490534d3aefc8b5ce733413b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6953956c0b3401a6c64ee597f966ba4a4c0d07b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588005"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921261"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Iscriversi a un abbonamento di anteprima - semplice 
 
-Questo argomento spiega come sottoscrivere l'offerta della versione di valutazione e distribuire Dynamics 365 Project Operations, distribuzione semplice: dalla transazione alla fatturazione proforma.
+Questo articolo spiega come iscriversi all'offerta di prova e come effettuare la distribuzione semplice di Dynamics 365 Project Operations, con la fatturazione proforma.
 
 > [!NOTE]
 > Questo processo cambierà nelle prossime versioni di Project Operations.
@@ -50,7 +50,7 @@ Prima di iniziare, assicurati di aver effettuato l'accesso a un browser con l'ac
 
 ## <a name="create-a-new-dataverse-environment"></a>Creare un nuovo ambiente Dataverse
 
-1. Esegui il provisioning di un nuovo ambiente di distribuzione Dataverse di Project Operations seguendo le istruzioni nell'argomento [Modello di distribuzione Dataverse](lite-deployment.md). Quando selezioni il tipo di ambiente, assicurati di utilizzare **Versione di valutazione (basata su abbonamento)**.
+1. Esegui il provisioning di un nuovo ambiente di distribuzione Dataverse di Project Operations seguendo le istruzioni nell'articolo [Modello di distribuzione Dataverse](lite-deployment.md). Quando selezioni il tipo di ambiente, assicurati di utilizzare **Versione di valutazione (basata su abbonamento)**.
 
   ![Nuovo ambiente.](./media/19CreateEnvironment.png)
 
@@ -65,7 +65,7 @@ Prima di iniziare, assicurati di aver effettuato l'accesso a un browser con l'ac
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>Installare i dati dimostrativi di installazione e configurazione CDS
 
-Installa i dati dimostrativi di installazione e configurazione CDS seguendo le istruzioni nell'argomento [Applicare i dati di installazione e configurazione dimostrativi](lite-apply-demo-setup-config-data.md).
+Installa la configurazione CDS e imposta i dati dimostrativi seguendo le istruzioni nell'articolo [Applicare la configurazione dimostrativa e i dati di configurazione](lite-apply-demo-setup-config-data.md).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

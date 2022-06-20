@@ -1,33 +1,33 @@
 ---
 title: Aggiornamento degli attributi dei plug-in con nuove dimensioni di determinazione dei prezzi
-description: In questo argomento vengono fornite informazioni su come aggiornare gli attributi di plug-in per le dimensioni di determinazione dei prezzi.
+description: In questo articolo vengono fornite informazioni su come aggiornare gli attributi di plug-in per le dimensioni di determinazione dei prezzi.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b3b441b9ea0418e10db80a86613b2c41ea2c4673
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2ae502fea533d9f199ef5ee1cc85b623f08cbd84
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575033"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920019"
 ---
 # <a name="update-plug-in-attributes-with-new-pricing-dimensions"></a>Aggiornare gli attributi dei plug-in con nuove dimensioni di determinazione dei prezzi
 
-In questo argomento vengono fornite informazioni su come aggiornare gli attributi di plug-in per le dimensioni di determinazione dei prezzi.
+In questo articolo vengono fornite informazioni su come aggiornare gli attributi di plug-in per le dimensioni di determinazione dei prezzi.
 
 > [!NOTE]
-> Questo argomento è applicabile solo alle funzionalità di preventivo e contratto in Dynamics 365 Project Operations.
+> Questo articolo è applicabile solo alle caratteristiche dell'offerta e del contratto in Dynamics 365 Project Operations.
 
 ## <a name="prerequisites"></a>Prerequisiti
-Prima di completare i passaggi in questo argomento, è necessario aver completato le procedure nei seguenti argomenti:
+Prima di completare i passaggi in questo articolo, è necessario aver completato le procedure nei seguenti articoli:
 
   - [Creazione di campi ed entità personalizzati](create-custom-fields-entities-pricing-dimensions.md) 
   - [Aggiungere campi personalizzati all'impostazione e alle entità transazionali ](add-custom-fields-price-setup-transactional-entities.md)
   - [Configurare campi personalizzati come dimensioni di determinazione dei prezzi](set-up-custom-fields-pricing-dimensions.md). 
   
-Se non hai completato queste procedure, completale prima di leggere questo argomento.
+Se non hai completato queste procedure, completale prima di tornare a questo articolo.
 
 ## <a name="register-a-plug-in"></a>Registrare un plug-in
 Quando un dettaglio di una riga di preventivo viene creato nella pagina **Riga di offerta** per una riga di preventivo di progetto, il sistema crea due righe di preventivo. Una riga è per i costi della stima e l'altra è per le vendite. Questo è ciò che avviene anche per le voci di contratto di progetto.

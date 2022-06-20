@@ -1,6 +1,6 @@
 ---
 title: Configurare la fatturazione del progetto interaziendale
-description: Questo argomento mostra come configurare la fatturazione del progetto tra due società della tua organizzazione.
+description: In questo articolo viene illustrato come impostare la fatturazione del progetto tra due società dell'organizzazione.
 author: Yowelle
 ms.date: 07/29/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ab0d1eb2806d2e1650faccf3fbb63c63c0fa9e05
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 74548a4c30ceb6826e5280948f6829e567bc02e0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683280"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916615"
 ---
 # <a name="configure-intercompany-project-invoicing"></a>Configurare la fatturazione del progetto interaziendale
 
 [!include [banner](../../includes/banner.md)]
 
-Questo argomento mostra come configurare la fatturazione del progetto tra due società della tua organizzazione. Questa attività utilizza il set di dati USSI.
+In questo articolo viene illustrato come impostare la fatturazione del progetto tra due società dell'organizzazione. Questa attività utilizza il set di dati USSI.
 
 1. Nel riquadro di spostamento, vai a **Moduli > Contabilità fornitori > Fornitori > Tutti i fornitori**.
 2. Nell'elenco **Tutti i fornitori**, trova e seleziona il record desiderato.

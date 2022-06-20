@@ -1,6 +1,6 @@
 ---
 title: Home page dell'assegnazione di risorse ai progetti
-description: In questo argomento vengono fornite informazioni sull'assegnazione di risorse ai progetti.
+description: In questo articolo vengono fornite informazioni sull'assegnazione di risorse di progetto.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 38793c4b9fc6cd2c1999661cb2acc587086b0143
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 605a6884cb342abf029644dbf8f2d75127df1786
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684877"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924021"
 ---
 # <a name="project-resourcing-home-page"></a>Home page dell'assegnazione di risorse ai progetti
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento vengono fornite informazioni sull'assegnazione di risorse ai progetti.
+In questo articolo vengono fornite informazioni sull'assegnazione di risorse di progetto.
 
 Una sfida per i project manager e i responsabili delle risorse durante la fase di pianificazione del progetto è l'allocazione delle risorse, in cui devono determinare e prenotare la risorsa corretta per lavorare su un progetto. In Dynamics 365 Finance, le funzionalità di risorse per i progetti consentono di definire i ruoli trattati come risorse temporanee che possono essere riservate a un impegno specifico o a una parte di esso. Questo tipo di risorse consente ai project manager e ai responsabili delle risorse di completare le seguenti attività:
 
@@ -41,7 +41,7 @@ Una sfida per i project manager e i responsabili delle risorse durante la fase d
 
 Man mano che la pianificazione del progetto procede, le risorse pianificate possono essere sostituite con risorse con personale. Il project manager può anche tornare indietro e aggiornare le prenotazioni delle risorse durante qualsiasi fase del progetto.
 
-I seguenti argomenti forniscono informazioni sulle attività che devono essere completate quando utilizzi l'assegnazione di risorse ai progetti.
+I seguenti articoli forniscono informazioni sulle attività che devono essere completate quando si lavora su progetti di risorse.
 
 - [Configurare le risorse di progetto](set-up-project-resources.md)
 - [Gestire le competenze delle risorse](manage-resource-competencies.md)

@@ -1,6 +1,6 @@
 ---
 title: Novità o modifiche in Project Service Automation versione 3
-description: Questo argomento fornisce informazioni sulle novità e sulle modifiche in Project Service Automation versione 3.
+description: In questo articolo vengono fornite informazioni su novità e modifiche in Project Service Automation versione 3.
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 15925cb88cc413f9a23a25e89ddd29668e9171de
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8d076e270f426131119eab097e7f359c228edb51
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581657"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926597"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Novità o modifiche in Project Service Automation versione 3
 
@@ -32,7 +32,7 @@ ms.locfileid: "8581657"
 
 
 
-In questo argomento vengono fornite informazioni sulle modifiche all'interfaccia utente, alle funzionalità e alla terminologia di Project Service Automation tra la versione 2 o la versione 1 e la versione 3.
+In questo articolo vengono fornite informazioni sulle modifiche all'interfaccia utente, alle funzionalità e alla terminologia di Project Service Automation tra la versione 2 o la versione 1 e la versione 3.
 
 ## <a name="project-scheduling"></a>Pianificazione di progetti
 La pianificazione di progetti, nota come struttura di suddivisione del lavoro nelle versioni precedenti, è stata rinominata Pianificazione ed è possibile accedervi facendo clic sulla scheda **Pianifica**. 
@@ -150,7 +150,7 @@ Quando sono presenti assegnazioni di attività per una risorsa senza prenotazion
 Questa sezione fornisce informazioni sulle modifiche relative a tempo, spese e approvazioni nella versione 3 di Project Service Automation. Come parte della soluzione Dynamics 365 Project Service Automation, la funzionalità **Inserimento ore** è stata aggiornata per utilizzare il framework Unified Interface. Ciò consente di fornire un'interfaccia utente coerente e uniforme che applica i principi di progettazione interattiva per una visualizzazione ottimale su uno schermo o dispositivo di qualsiasi dimensione. 
 
 ### <a name="landing-page"></a>Pagina di destinazione
-L'esperienza di inserimento ore personalizzata non estendibile è stata deprecata nella versione 3 ed è stata sostituita da un'esperienza di griglia nativa estendibile e accessibile. Puoi accedere alla funzionalità di inserimento ore utilizzando la mappa del sito a sinistra. In seguito a questa modifica, non è più possibile utilizzare un inserimento ore per una settimana alla volta, ma è necessario creare un inserimento ore per ogni giorno nella griglia. Dopo la creazione di alcuni inserimenti ore, gli utenti possono creare inserimenti ore in blocco con la funzione **Copia** descritta oltre in questo argomento. 
+L'esperienza di inserimento ore personalizzata non estendibile è stata deprecata nella versione 3 ed è stata sostituita da un'esperienza di griglia nativa estendibile e accessibile. Puoi accedere alla funzionalità di inserimento ore utilizzando la mappa del sito a sinistra. In seguito a questa modifica, non è più possibile utilizzare un inserimento ore per una settimana alla volta, ma è necessario creare un inserimento ore per ogni giorno nella griglia. Dopo la creazione di alcuni inserimenti ore, gli utenti possono creare inserimenti ore in blocco con la funzione **Copia** descritta oltre in questo articolo. 
 
 ![Pagina di destinazione Inserimento ore.](media/time-entry-landing-page-07.png)
  

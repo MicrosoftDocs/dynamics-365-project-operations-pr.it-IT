@@ -1,6 +1,6 @@
 ---
 title: Offerte, determinazione dei prezzi e fatturazione avanzate
-description: In questo argomento vengono fornite informazioni su offerte, fatturazione e determinazione dei prezzi in Project Service Automation.
+description: In questo articolo vengono fornite informazioni su offerte, fatturazione e determinazione dei prezzi in Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 54047f34d950fc79e510bfe0d6601e271c02a92c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8106a18fefc34141fdc5d350c60e87ec4b2a4c1d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579357"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921813"
 ---
 # <a name="advanced-quoting-pricing-and-billing-guide"></a>Guida avanzata a offerte, determinazione dei prezzi e fatturazione
 
@@ -32,7 +32,7 @@ ms.locfileid: "8579357"
 
 La possibilità di trovare le risorse appropriate quando necessario, di prenotare tali risorse per i progetti e di continuare a utilizzarle consente alle organizzazioni di soddisfare gli obiettivi relativi ai ricavi e alla soddisfazione dei clienti. 
 
-Il collegamento PDF incluso precedentemente in questo argomento è stato rimosso e il contenuto è stato spostato negli argomenti seguenti:
+Il collegamento PDF incluso precedentemente in questo articolo è stato rimosso e il contenuto è stato spostato negli articoli seguenti:
 
 - [Offerte, determinazione dei prezzi e fatturazione](../quote-bill-price.md)
 - [Processi di vendita](../basic-sales-process.md)
@@ -50,7 +50,7 @@ Il collegamento PDF incluso precedentemente in questo argomento è stato rimosso
 - [Registrare valori effettivi](../advanced-actuals.md)
 
 > [!NOTE]
-> Questo argomento verrà rimosso in un aggiornamento futuro della documentazione. 
+> Questo articolo verrà rimosso in un aggiornamento futuro della documentazione. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

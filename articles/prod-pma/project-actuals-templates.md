@@ -1,6 +1,6 @@
 ---
 title: Sincronizzare i numeri effettivi direttamente da Project Service Automation al giornale di registrazione di integrazione progetto per la registrazione in Finance and Operations
-description: Questo argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare i numeri effettivi di progetto direttamente da Microsoft Dynamics 365 Project Service Automation a Finance and Operations.
+description: Questo articolo descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare i numeri effettivi di progetto direttamente da Microsoft Dynamics 365 Project Service Automation e le app per la finanza e le operazioni.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 12929c324bb3a7c344edc9be2e3a8f4941ff9ea4
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 7d912a11d9c7bc66ed43911ee32f25092d551cd6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683543"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929495"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Sincronizzare i numeri effettivi direttamente da Project Service Automation al giornale di registrazione di integrazione progetto per la registrazione in Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-Questo argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare i numeri effettivi di progetto direttamente da Dynamics 365 Project Service Automation a Dynamics 365 Finance.
+Questo articolo descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare i numeri effettivi di progetto direttamente da Dynamics 365 Project Service Automation a Dynamics 365 Finance.
 
 Il modello sincronizza le transazioni da Project Service Automation in una tabella di staging in Finance. Dopo che la sincronizzazione è completata, **devi** importare i dati dalla tabella di staging nel giornale di integrazione.
 

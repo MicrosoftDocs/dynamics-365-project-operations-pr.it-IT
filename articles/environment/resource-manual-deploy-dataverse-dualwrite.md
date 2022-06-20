@@ -1,25 +1,25 @@
 ---
 title: Distribuire manualmente l'app Project Operations Dataverse con supporto doppia scrittura
-description: Questo argomento spiega come distribuire manualmente l'app Project Operations Dataverse in modo che supporti la doppia scrittura.
+description: Questo articolo spiega come distribuire manualmente l'app Project Operations Dataverse in modo che supporti la doppia scrittura.
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: b82eef7b5f64705f37f224172c14f6734612329e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: be80ea3956fbf0264c2eeb7a5e30dd50b77e3c78
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591225"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912015"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>Distribuire manualmente l'app Project Operations Dataverse con supporto doppia scrittura
 
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati_
 
-Questo argomento spiega come distribuire manualmente l'app Microsoft Dynamics 365 Project Operations in Microsoft Dataverse in modo che supporti la doppia scrittura. Project Operations rileva la configurazione dell'ambiente e aggiunge ulteriore supporto per la doppia scrittura se vengono soddisfatti i prerequisiti.
+Questo articolo spiega come distribuire manualmente Microsoft Dynamics 365 Project Operations in Microsoft Dataverse in modo che supporti la doppia scrittura. Project Operations rileva la configurazione dell'ambiente e aggiunge ulteriore supporto per la doppia scrittura se vengono soddisfatti i prerequisiti.
 
-Durante la distribuzione tramite Microsoft Dynamics Lifecycle Services (LCS), se hai seguito le istruzioni in questo argomento, puoi saltare la distribuzione dell'integrazione di Microsoft Power Platform (precedentemente nota come ambiente Common Data Service).
+Durante la distribuzione tramite Microsoft Dynamics Lifecycle Services (LCS), se hai seguito le istruzioni in questo articolo, puoi saltare la distribuzione dell'integrazione di Microsoft Power Platform (precedentemente nota come ambiente Common Data Service).
 
 Il processo di distribuzione di Project Operations in Dataverse in modo che supporti la doppia scrittura ha quattro passaggi principali:
 

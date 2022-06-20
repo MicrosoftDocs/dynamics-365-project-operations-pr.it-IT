@@ -1,6 +1,6 @@
 ---
 title: Prenotare risorse prenotabili denominate per un team di progetto e assegnarvi attività
-description: In questo argomento vengono fornite informazioni sulla modalità di prenotazione di risorse denominate per team di progetto e sull'assegnazione delle risorse ad attività.
+description: In questo articolo vengono fornite informazioni su come prenotare le risorse denominate per team di progetto e assegnare le risorse ad attività.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: cdbcd84d2277ba1c8e68270d5b1f8ca45c17f05e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 61c9b47088e836c0a9c78477adf891df3d14853b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575355"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919329"
 ---
 # <a name="book-named-bookable-resources-to-a-project-team-and-assign-tasks"></a>Prenotare risorse prenotabili denominate per un team di progetto e assegnarvi attività 
 

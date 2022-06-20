@@ -1,6 +1,6 @@
 ---
 title: Novità o modifiche nella versione di aggiornamento 20 di Project Service Automation V3
-description: Questo argomento elenca le funzionalità e le correzioni disponibili nella versione di aggiornamento 20 di Project Service Automation V3
+description: Questo articolo elenca le funzionalità e le correzioni disponibili nella versione di aggiornamento 20 di Project Service Automation V3
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 06/12/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4b1a8b5b65f0dfeeff74db363c918206c64e81f7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7265f4999ee9c584450efcf444621c00acd65920
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588833"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913067"
 ---
 # <a name="project-service-automation-update-release-20-v3"></a>Versione di aggiornamento di Project Service Automation 20, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8588833"
 
 Siamo lieti di annunciare l'ultimo aggiornamento per l'applicazione Project Service Automation per Dynamics 365. Questa versione include alcuni importanti miglioramenti in termini di qualità, prestazioni e usabilità. Questa versione è compatibile con Dynamics 365 9.x. Per eseguire l'aggiornamento a questa versione, visita l'interfaccia di amministrazione di Dynamics 365 online e vai alla pagina delle soluzioni per installare l'aggiornamento. Per ulteriori informazioni, vedere [Installare, aggiornare o rimuovere una soluzione preferita](/power-platform/admin/install-remove-preferred-solution).
 
-Questo argomento elenca le funzionalità e le correzioni nuove o modificate per l'aggiornamento rilascio 20 di Project Service Automation V3. Questa versione ha il numero di build V 3.10.31.37 ed è generalmente disponibile tramite un aggiornamento automatico a giugno 2020.
+Questo articolo elenca le funzionalità e le correzioni nuove o modificate nella versione di aggiornamento 20 di Project Service Automation V3. Questa versione ha il numero di build V 3.10.31.37 ed è generalmente disponibile tramite un aggiornamento automatico a giugno 2020.
 
 ## <a name="update-release-20"></a>Rilascio 20 dell'aggiornamento
 

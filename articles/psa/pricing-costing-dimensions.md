@@ -1,6 +1,6 @@
 ---
 title: Home page delle dimensioni di determinazione di prezzi e costi
-description: In questo argomento viene fornita una panoramica delle dimensioni di determinazione dei prezzi.
+description: In questo articolo viene fornita una panoramica delle dimensioni di determinazione dei prezzi.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7dbee508cea074a8c443506d280a1b52eb698202
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 88c77d90bccaa5f10e8f75d60ae121d699bc0976
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593617"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925447"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Home page delle dimensioni di determinazione di prezzi e costi
 
@@ -47,7 +47,7 @@ PSA include un set predefinito di dimensioni di determinazione dei prezzi. Puoi 
 > [!IMPORTANT]
 > Se hai utilizzato i campi predefiniti di ruolo e unità organizzativa come dimensioni di determinazione dei prezzi prima della versione 3 di PSA, non vi sono differenze. Puoi continuare a utilizzare Project Service come di consueto. 
 
-Se devi determinare il prezzo o il costo delle risorse utilizzando ulteriori attributi, puoi creare entità, dimensioni e campi personalizzati. Per ulteriori informazioni, vedi gli argomenti seguenti, ma nota che devi completare le procedure nell'ordine indicato di seguito:
+Se devi determinare il prezzo o il costo delle risorse utilizzando ulteriori attributi, puoi creare entità, dimensioni e campi personalizzati. Per ulteriori informazioni, vedi gli articoli seguenti, ma nota che devi completare le procedure nell'ordine indicato di seguito:
 
 - [Creare campi ed entità personalizzati](create-custom-fields-entities.md)
 - [Aggiungere campi personalizzati alla configurazione dei prezzi e ad entità transazionali](field-references.md)

@@ -1,17 +1,17 @@
 ---
 title: Richiamare gli inserimenti precedentemente approvati
-description: Questo argomento spiega come un membro del team di progetto può richiedere il ritiro di record di tempo, spese e utilizzo del materiale precedentemente inviati e approvati e come un project manager può approvare o rifiutare le richieste di richiamo.
+description: Questo articolo spiega come un membro del team di progetto può richiedere il ritiro di record di tempo, spese e utilizzo del materiale precedentemente inviati e approvati e come un project manager può approvare o rifiutare le richieste di richiamo.
 author: rumant
 ms.date: 01/31/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 18796e803ff73806aaa60b453048ee3160406b40
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 54fc7ac2301a4423ebf70b0b67ad489580c347b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586579"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930369"
 ---
 # <a name="recall-previously-approved-entries"></a>Richiamare gli inserimenti precedentemente approvati
 

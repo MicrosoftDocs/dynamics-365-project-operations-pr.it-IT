@@ -1,24 +1,24 @@
 ---
 title: Novità di dicembre 2020 - Project Operations per scenari di materiali stoccati basati sulla produzione
-description: Questo argomento fornisce informazioni sugli aggiornamenti di qualità disponibili nella versione di dicembre 2020 di Project Operations per scenari di materiali stoccati basati sulla produzione.
+description: Questo articolo fornisce informazioni sugli aggiornamenti di qualità disponibili nella versione di dicembre 2020 di Project Operations per scenari di materiali stoccati basati sulla produzione.
 author: Yowelle
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 9550cf8fd594585b70d373ecf9eea1b32285e47f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e570bf3e7a808afa5d41db0c073045c91e4931d7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594951"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911371"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>Novità o modifiche di Project Operations dicembre 2020 per scenari di materiali stoccati basati sulla produzione
 
 _Si applica a: Project Operations per scenari di materiali stoccati basati sulla produzione_
 
-Questo argomento si applica ai seguenti componenti e versioni di Dynamics 365 Project Operations:
+Questo articolo si applica ai seguenti componenti e versioni di Dynamics 365 Project Operations:
 
   - Gestione progetti e contabilità in un ambiente Dynamics 365 Finance versione 10.0.15
 

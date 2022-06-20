@@ -1,23 +1,23 @@
 ---
 title: Configurare l'integrazione di Project Operations per persona giuridica
-description: Questo argomento fornisce informazioni sull'impostazione dell'integrazione per persona giuridica in Project Operations.
+description: Questo articolo fornisce informazioni sulla configurazione dell'integrazione per persona giuridica in Project Operations.
 author: sigitac
 ms.date: 10/21/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 64606a20a49fd8e9602b6ac3c1ab1880796eb128
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3f33e641ee0932655282618c99a26e2603660059
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585843"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914683"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Configurare l'integrazione di Project Operations per persona giuridica 
 
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati_
 
-Questo argomento ti guida attraverso i passaggi necessari per la configurazione Dynamics 365 Project Operations per la persona giuridica.
+Questo articolo illustra i passaggi necessari per la configurazione di Dynamics 365 Project Operations per persona giuridica.
 
 ## <a name="enable-feature-keys-in-dynamics-365-finance"></a>Abilitare le chiavi di funzionalità in Dynamics 365 Finance
 

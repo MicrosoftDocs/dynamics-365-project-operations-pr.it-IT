@@ -1,6 +1,6 @@
 ---
-title: Personalizzare un inserimento ore settimanale
-description: In questo argomento vengono fornite informazioni su come implementare regole di business personalizzate che supportano le pratiche dell'organizzazione.
+title: Personalizzare l'inserimento ore settimanale
+description: In questo articolo vengono fornite informazioni su come implementare regole di business personalizzate che supportano le pratiche dell'organizzazione.
 author: stsporen
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1cc32a1d8776f4adaa0031154aba6bd6733b7f7d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bdc8df4050d895504fa126e2ee55fcd3b4de123f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581059"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918961"
 ---
 # <a name="customize-weekly-time-entry"></a>Personalizzare l'inserimento ore settimanale 
 
@@ -46,7 +46,7 @@ La sezione **Dimensioni** visualizza, come le intestazioni delle colonne, tutte 
 - Tipo
 - Stato inserimento
 
-La sezione **Dimensioni** non consente la modifica in linea. Questa sezione è supportata da una vista che consente l'aggiunta di campi personalizzati alla griglia di inserimento ore settimanale. Per informazioni su come aggiungere campi personalizzati, vedi la sezione "Estendibilità" più avanti in questo argomento.
+La sezione **Dimensioni** non consente la modifica in linea. Questa sezione è supportata da una vista che consente l'aggiunta di campi personalizzati alla griglia di inserimento ore settimanale. Per informazioni su come aggiungere campi personalizzati, vedi la sezione "Estendibilità" più avanti in questo articolo.
 
 ### <a name="duration"></a>Durata
 La sezione Durata visualizza i giorni della settimana come intestazioni di colonna. Questa sezione consente la modifica in linea. Dopo la creazione di una riga di inserimento ore con le dimensioni appropriate, gli utenti possono immettere rapidamente, in linea, la quantità di tempo dedicata a queste dimensioni.

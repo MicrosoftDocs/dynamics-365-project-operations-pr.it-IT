@@ -1,17 +1,17 @@
 ---
 title: Iscriversi per gli abbonamenti in anteprima a Project Operations per scenari basati su risorse/non stoccate
-description: Questo argomento fornisce informazioni su come abbonarsi e distribuire Project Operations per scenari basati su risorse/non stoccate.
+description: Questo articolo fornisce informazioni su come iscriversi e distribuire Project Operations per scenari basati su risorse non stoccate.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9094b6928c5c276a40166ef5d8cb0facb539685b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fb196a50b4cb9e8533db52414e8536d77a30e425
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575815"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920111"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Iscriversi per gli abbonamenti in anteprima a Project Operations per scenari basati su risorse/non stoccate
 
@@ -19,7 +19,7 @@ _**Si applica a:** Project Operations per scenari basati su risorse/materiali no
 
 
 
-Questo argomento spiega come sottoscrivere l'offerta della versione di valutazione e distribuire l'ambiente Project Operations per scenari basati su risorse/non stoccate.
+Questo articolo spiega come sottoscrivere l'offerta di prova e distribuire l'ambiente Project Operations per scenari basati su risorse/non stoccate.
 
 ## <a name="prerequisites"></a>Prerequisiti
 - L'utente che distribuisce l'anteprima deve disporre dei diritti di amministratore globale del tenant di Azure. Puoi creare un tenant durante il primo riscatto dell'offerta. 
@@ -60,19 +60,19 @@ Vai a [Versione di valutazione Dynamics 365 for Finance Anteprima](https://aka.m
 
 ## <a name="start-a-new-project-in-lcs"></a>Avviare un nuovo progetto in LCS
 
-Creare un nuovo progetto LCS come descritto nell'argomento [Avviare un nuovo progetto in LCS](create-lcs-project.md)
+Crea un nuovo progetto LCS come descritto nell'articolo [Avviare un nuovo progetto in LCS](create-lcs-project.md)
 
 ## <a name="add-an-azure-subscription-to-an-lcs-project"></a>Aggiungere una sottoscrizione di Azure a un progetto LCS
 
-Per completare questa attività, segui i passaggi nell'argomento [Aggiungere una sottoscrizione di Azure al progetto LCS](resource-add-azure-subscription-lcs-project.md).
+Per completare questa attività, segui i passaggi nell'articolo, [Aggiungere una sottoscrizione di Azure al progetto LCS](resource-add-azure-subscription-lcs-project.md).
 
 ## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>Distribuire l'ambiente demo di Finance con Project Operations per scenari basati su risorse/non stoccate
 
-Segui le indicazioni nell'argomento [Effettuare il provisioning di un nuovo ambiente](resource-provision-new-environment.md) per completare la distribuzione. Utilizza il tipo di distribuzione [ambiente demo](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) per l'anteprima. 
+Segui la guida nell'articolo, [Fornire un nuovo ambiente](resource-provision-new-environment.md) per completare la distribuzione. Utilizza il tipo di distribuzione [ambiente demo](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) per l'anteprima. 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>Installare i dati di impostazione e configurazione CDS
 
-Installa i dati di installazione e configurazione CDS come descritto nell'argomento [Impostare e applicare i dati di configurazione in Common Data Service](resource-apply-pro-setup-config-data.md).
+Installa i dati di installazione e configurazione di CDS come descritto nell'articolo, [Impostare e applicare i dati di configurazione in Common Data Service](resource-apply-pro-setup-config-data.md).
 Completa questo passaggio solo dopo che l'ambiente demo di Finance è stato distribuito e i dati demo sono pronti.
 
 

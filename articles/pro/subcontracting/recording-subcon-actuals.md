@@ -1,17 +1,17 @@
 ---
 title: Tempo di registrazione, spese e utilizzo di materiale per i componenti in conto lavoro
-description: Questo argomento spiega in che modo tempo, spesa e utilizzo di materiale registrati nei progetti da componenti in conto lavoro vengono tracciati da Microsoft Dynamics 365 Project Operations.
+description: Questo articolo spiega in che modo tempo, spesa e utilizzo di materiale registrati nei progetti da componenti in conto lavoro vengono tracciati da Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5a31b4a1092cc4829cbfc789e8b8e30030b2826b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1c05b941fb51c8b56422e3b5d3868c9b69197187
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599229"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927655"
 ---
 # <a name="recording-time-expenses-and-material-usage-on-projects-for-subcontracted-components"></a>Tempo di registrazione, spese e utilizzo di materiale nei progetti per i componenti in conto lavoro
 
@@ -19,7 +19,7 @@ ms.locfileid: "8599229"
 
 _**Si applica a:** Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
-Questo argomento spiega in che modo tempo, spesa e utilizzo di materiale registrati nei progetti da componenti in conto lavoro vengono tracciati da Microsoft Dynamics 365 Project Operations.
+Questo articolo spiega in che modo tempo, spesa e utilizzo di materiale registrati nei progetti da componenti in conto lavoro vengono tracciati da Microsoft Dynamics 365 Project Operations.
 
 ## <a name="costing-for-subcontractor-time-on-projects"></a>Costo del tempo del terzista sui progetti
 In Project Operations, i lavoratori a contratto possono registrare il tempo sui progetti in modo simile ai dipendenti. Quando si immette il tempo nei progetti e/o nelle attività progettuali, un lavoratore a contratto può selezionare un conto lavoro e una riga di conto lavoro specifici.

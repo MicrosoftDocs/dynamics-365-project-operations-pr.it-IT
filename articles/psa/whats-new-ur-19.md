@@ -1,6 +1,6 @@
 ---
 title: Novità o modifiche nella versione di aggiornamento 19 di Project Service Automation V3
-description: Questo argomento elenca le funzionalità e le correzioni disponibili nella versione di aggiornamento 19 di Project Service Automation V3.
+description: Questo articolo elenca le funzionalità e le correzioni disponibili nella versione di aggiornamento 19 di Project Service Automation V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 05/05/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 96229a6c656cd88b7314b4692ae5d53897b4e6c5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a17275220eec726107e8ce5f82bdf5cdd403033e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596134"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915511"
 ---
 # <a name="project-service-automation-update-release-19-v3"></a>Versione di aggiornamento di Project Service Automation 19, V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8596134"
 
 Siamo lieti di annunciare l'ultimo aggiornamento per l'applicazione Project Service Automation per Dynamics 365. Questa versione include alcuni importanti miglioramenti in termini di qualità, prestazioni e usabilità. Questa versione è compatibile con Dynamics 365 9.x. Per eseguire l'aggiornamento a questa versione, visita l'interfaccia di amministrazione di Dynamics 365 online e vai alla pagina delle soluzioni per installare l'aggiornamento. Per ulteriori informazioni, vedere [Installare, aggiornare o rimuovere una soluzione preferita](/power-platform/admin/install-remove-preferred-solution).
 
-Questo argomento elenca le funzionalità e le correzioni nuove o modificate per l'aggiornamento rilascio 19 di PSA V3. Questa versione ha il numero di build V3.10.30.41 ed è generalmente disponibile tramite un aggiornamento automatico a maggio 2020.
+Questo articolo elenca le funzionalità e le correzioni nuove o modificate nella versione di aggiornamento 19 di PSA V3. Questa versione ha il numero di build V3.10.30.41 ed è generalmente disponibile tramite un aggiornamento automatico a maggio 2020.
 
 ## <a name="update-release-19"></a>Rilascio 19 dell'aggiornamento
 

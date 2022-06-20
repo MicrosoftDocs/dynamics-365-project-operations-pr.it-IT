@@ -1,17 +1,17 @@
 ---
 title: Fatture basate su progetto correttive
-description: Questo argomento fornisce informazioni su come creare e confermare fatture correttive basate su progetto in Project Operations.
+description: Questo articolo fornisce informazioni su come creare e confermare fatture correttive basate su progetto in Project Operations.
 author: rumant
 ms.date: 03/29/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 71bf10518c22ce2ad6aa43b710c68d0d46f93e77
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: eecaf3dedeab5ff72d12808eb3144f9161313009
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594629"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931105"
 ---
 # <a name="corrective-project-based-invoices"></a>Fatture basate su progetto correttive
 

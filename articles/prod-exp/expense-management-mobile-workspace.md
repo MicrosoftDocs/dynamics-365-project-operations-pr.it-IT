@@ -1,6 +1,6 @@
 ---
 title: Area di lavoro per dispositivi mobili Gestione delle spese
-description: In questo argomento vengono fornite informazioni sull'area di lavoro per dispositivi Gestione delle spese. Questa area di lavoro consente agli utenti di acquisire e caricare una ricevuta, in modo da poterla allegare a una nota spese in un secondo momento. Gli utenti possono anche creare rapidamente una riga di spesa utilizzando una ricevuta allegata e creare e gestire le proprie note spese.
+description: In questo articolo vengono fornite informazioni sull'area di lavoro mobile per la gestione della spesa. Questa area di lavoro consente agli utenti di acquisire e caricare una ricevuta, in modo da poterla allegare a una nota spese in un secondo momento. Gli utenti possono anche creare rapidamente una riga di spesa utilizzando una ricevuta allegata e creare e gestire le proprie note spese.
 author: suvaidya
 ms.date: 12/01/2017
 ms.topic: article
@@ -12,16 +12,16 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: d5309b55ed146d21d7a42e0b40add9ee346d48aa
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: aba8073fcf788f94bbcc622ab963426d230e9999
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682807"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920893"
 ---
 # <a name="expense-management-mobile-workspace"></a>Area di lavoro per dispositivi mobili Gestione delle spese
 
-In questo argomento vengono fornite informazioni sull'area di lavoro per dispositivi **Gestione delle spese**. Questa area di lavoro consente agli utenti di acquisire e caricare una ricevuta, in modo da poterla allegare a una nota spese in un secondo momento. Gli utenti possono anche creare rapidamente una riga di spesa utilizzando una ricevuta allegata e creare e gestire le proprie note spese. Inoltre, gli approvatori possono utilizzare l'area di lavoro per dispositivi mobili **Gestione delle spese** per visualizzare le note spese loro assegnate e approvarle o rifiutarle.
+In questo articolo vengono fornite informazioni sull'area di lavoro mobile per la **gestione della spesa**. Questa area di lavoro consente agli utenti di acquisire e caricare una ricevuta, in modo da poterla allegare a una nota spese in un secondo momento. Gli utenti possono anche creare rapidamente una riga di spesa utilizzando una ricevuta allegata e creare e gestire le proprie note spese. Inoltre, gli approvatori possono utilizzare l'area di lavoro per dispositivi mobili **Gestione delle spese** per visualizzare le note spese loro assegnate e approvarle o rifiutarle.
 
 
 Quest'area di lavoro per dispositivi mobili deve essere utilizzata con l'app dispositivi mobili Dynamics 365.

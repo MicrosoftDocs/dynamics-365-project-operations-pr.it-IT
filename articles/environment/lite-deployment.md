@@ -1,17 +1,17 @@
 ---
 title: Distribuire Project Operations - semplice
-description: 'Questo argomento fornisce informazioni su come installare la distribuzione semplice di Project Operations: dalla transazione alla fatturazione proforma.'
+description: Questo articolo fornisce informazioni su come installare la distribuzione semplice di Project Operations, con la fatturazione proforma.
 author: stsporen
 ms.date: 02/28/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: e33506504665f2e7ef7ad48469082f9f64a2a44b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 86293b725e86db3d4b8bdaf5810b16b7c670e8a3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580737"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930323"
 ---
 # <a name="deploy-project-operations---lite"></a>Distribuire Project Operations - semplice
 

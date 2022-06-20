@@ -1,23 +1,23 @@
 ---
 title: Impostazioni del contratto di progetto - semplice
-description: Questo argomento fornisce informazioni sui campi che influiscono sulle righe del contratto e le informazioni sul contratto che vengono riepilogate in tutte le voci.
+description: Questo articolo fornisce informazioni sui campi che influiscono sulle righe di contratto e le informazioni sul contratto che vengono riepilogate in tutte le voci.
 author: rumant
 ms.date: 03/08/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 638bd11926c2b470c0da92d67350e8da56cb1997
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6123cbc028cf49cc198173697969f415b0789256
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586395"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917075"
 ---
 # <a name="header-details-for-project-contracts"></a>Dettagli dell'intestazione per contratti di progetto
 
 _**Si applica a:** Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
-Questo argomento fornisce informazioni sui campi che si applicano all'intero contratto di progetto, comprese le impostazioni che influiscono su tutte le voci di contratto. Sono incluse anche le informazioni sul contratto che vengono riepilogate in tutte le voci per guidare i KPI del contratto di progetto.
+Questo articolo fornisce informazioni sui campi che si applicano all'intero contratto di progetto, comprese le impostazioni che influiscono su tutte le righe di contratto. Sono incluse anche le informazioni sul contratto che vengono riepilogate in tutte le voci per guidare i KPI del contratto di progetto.
 
 La tabella seguente elenca i campi di un contratto di progetto che sono univoci per Dynamics 365 Project Operations o hanno alcune importanti modifiche nel comportamento rispetto agli ordini di vendita in Dynamics 365 Sales.
 

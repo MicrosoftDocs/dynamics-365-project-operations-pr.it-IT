@@ -1,6 +1,6 @@
 ---
 title: Creare modelli previsionali per i budget di progetto
-description: Questo argomento descrive come creare un modello di previsione per i budget residuo.
+description: Questo articolo descrive come creare un modello previsionale per i budget residui.
 author: Yowelle
 ms.date: 04/24/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 992dd74524ae6a7c329612a125d60bebfcbe7dd2
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: e6b1419c41124d2062595f7346efb7538e50ee33
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683635"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916707"
 ---
 # <a name="create-forecast-models-for-project-budgets"></a>Creare modelli previsionali per i budget di progetto 
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento descrive come creare un modello di previsione per i budget residuo. Un progetto soggetto al controllo di budget utilizza due tipi di budget: originale e rimanente. Quando crei un budget di progetto, devi specificare i modelli di previsione di budget originale e rimanente creati nella pagina **Modelli previsionali**. I budget di progetto basati sui modelli specificati vengono creati quando si impegna il budget di progetto.
+Questo articolo descrive come creare un modello previsionale per i budget residui. Un progetto soggetto al controllo di budget utilizza due tipi di budget: originale e rimanente. Quando crei un budget di progetto, devi specificare i modelli di previsione di budget originale e rimanente creati nella pagina **Modelli previsionali**. I budget di progetto basati sui modelli specificati vengono creati quando si impegna il budget di progetto.
 
 > [!NOTE]
 > Un modello di previsione utilizzato per il controllo di budget non può avere un sottomodello o essere utilizzato come sottomodello.

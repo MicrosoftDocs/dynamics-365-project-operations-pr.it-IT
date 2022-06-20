@@ -1,21 +1,21 @@
 ---
 title: Gestire più clienti nei contratti di progetto
-description: Questo argomento fornisce informazioni sulla gestione di più clienti su un contratto di progetto.
+description: Questo articolo fornisce informazioni sulla gestione di più clienti in un contratto di progetto.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: bf8b0d313b2b07924d730fe8923b05559bbcc244
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 78ee117c1068e7af4674cc3b21e1055fd05bb43a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591317"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928345"
 ---
 # <a name="manage-multiple-customers-on-project-contracts"></a>Gestire più clienti nei contratti di progetto
 
-Questo argomento fornisce informazioni sulla gestione di più clienti su un contratto di progetto. È possibile utilizzare un contratto di progetto quando è necessario un accordo contrattuale per più clienti per finanziare un affare. Nella pagina **Contratto di progetto**, la scheda **Riepilogo** include informazioni sul cliente principale per un'offerta. Altri clienti che partecipano all'offerta possono essere aggiunti alla schea **Clienti**.
+Questo articolo fornisce informazioni sulla gestione di più clienti in un contratto di progetto. È possibile utilizzare un contratto di progetto quando è necessario un accordo contrattuale per più clienti per finanziare un affare. Nella pagina **Contratto di progetto**, la scheda **Riepilogo** include informazioni sul cliente principale per un'offerta. Altri clienti che partecipano all'offerta possono essere aggiunti alla schea **Clienti**.
 
 Tutti i clienti di contratto nella scheda **Clienti** del contratto di progetto vengono impostati come clienti delle voci di contratto basate sui progetti su qualsiasi nuova voce di contratto creata per il contratto di progetto. Le voci di contratto esistenti basate su progetto non ereditano i nuovi clienti di contratto quando vengono creati record in un secondo momento.
 

@@ -1,6 +1,6 @@
 ---
 title: 'Concetti chiave: offerte'
-description: Questo argomento fornisce informazioni sulle offerte di progetto e sulle offerte di vendita disponibili in Project Operations.
+description: In questo articolo vengono fornite informazioni sulle offerte di progetto e di vendita in Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: fbaed6a0967ce4ef4eec572de9e2a7da95c3cbd9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c0598b9ec276741f1f62e0cfc1717a3fd622cd7c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579919"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912521"
 ---
 # <a name="concepts-unique-to-project-based-quotes"></a>Concetti esclusivi delle offerte basate su progetto
 
@@ -35,7 +35,7 @@ In Dynamics 365 Project Operations, esistono due tipi di offerte: di progetto e 
 - **Campi e concetti**: un'offerta di vendita non include alcuni campi e concetti inclusi in un'offerta di progetto. Questi campi sono **Unità contratto**, **Gestione account** e **Nome contatto fatturazione**.  
 - **Tipo**: le offerte di vendita e di progetto sono inoltre identificate da un campo basato su set di opzioni denominato **Tipo**. Per un'offerta di vendita, il valore di questo campo è **Basato su articolo**. Per un'offerta di progetto, il valore di questo campo è **Basato su lavoro**.
 
-In questo argomento vengono descritti i dettagli delle offerte di progetto.
+In questo articolo vengono descritti i dettagli delle offerte di progetto.
 
 Un'offerta di progetto in Project Operations può avere molteplici voci o righe di offerta. In effetti, un'offerta di progetto include due griglie per le voci. Una griglia è per le righe basate su progetto che consentono stime dettagliate. L'altra griglia è per le righe basate su prodotto che utilizzano un prezzo unitario e un approccio basato sulla quantità.
 

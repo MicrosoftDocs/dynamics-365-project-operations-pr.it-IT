@@ -1,24 +1,24 @@
 ---
 title: Accesso in anteprima alle novità 2021 ciclo 2 - distribuzione lite di Project Operations
-description: Questo argomento fornisce informazioni sulle funzionalità disponibili nella versione in anteprima 2021 ciclo 2 della distribuzione lite di Project Operations.
+description: Questo articolo fornisce informazioni sulle funzionalità disponibili nel secondo ciclo di accesso in anteprima 2021 della distribuzione lite di Project Operations.
 author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7b5f3528e4b4e615b8e7f24bfd3702746fd584c9
-ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
+ms.openlocfilehash: d245868c8bd9ff332707a81c074d6c7ae3649378
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723681"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924113"
 ---
 # <a name="whats-new-2021-wave-2-early-access---project-operations-lite-deployment"></a>Accesso in anteprima alle novità 2021 ciclo 2 - distribuzione lite di Project Operations
 
 _Si applica a: Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
-Questo argomento si applica ai seguenti componenti e versioni di Dynamics 365 Project Operations:
+Questo articolo si applica ai seguenti componenti e versioni di Dynamics 365 Project Operations:
 
   - Project Operations in ambiente Dataverse versione 4.23.0.4
 

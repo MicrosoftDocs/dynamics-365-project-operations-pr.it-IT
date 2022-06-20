@@ -1,25 +1,25 @@
 ---
 title: Risolvere i problemi relativi alla griglia delle attività
-description: Questo argomento fornisce le informazioni sulla risoluzione dei problemi necessaria quando si utilizza la griglia delle attività.
+description: Questo articolo fornisce le informazioni sulla risoluzione dei problemi necessaria quando si lavora nella griglia delle attività.
 author: ruhercul
 ms.date: 04/05/2022
 ms.topic: article
 ms.product: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: ee80363cf6f9a65a91be43a84434d37f02511f26
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e6ab4f34fe3f6732f7bef252f298671e07a3c3ca
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596423"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911049"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Risolvere i problemi relativi alla griglia delle attività 
 
 
 _**Si applica a:** Project Operations per scenari basati su articoli non stoccati/risorse e Distribuzione semplice: dalla transazione alla fatturazione proforma, Project for the Web_
 
-La griglia delle attività sfruttata da Dynamics 365 Project Operations è un iframe ospitato all'interno di Microsoft Dataverse. A seguito di tale utilizzo, devono essere soddisfatti requisiti specifici per garantire il corretto funzionamento dell'autenticazione e dell'autorizzazione. Questo argomento delinea i problemi comuni che possono influire sulla capacità di eseguire il rendering della griglia o gestire le attività nella struttura di suddivisione del lavoro (WBS).
+La griglia delle attività sfruttata da Dynamics 365 Project Operations è un iframe ospitato all'interno di Microsoft Dataverse. A seguito di tale utilizzo, devono essere soddisfatti requisiti specifici per garantire il corretto funzionamento dell'autenticazione e dell'autorizzazione. Questo articolo delinea i problemi comuni che possono influire sulla capacità di eseguire il rendering della griglia o gestire le attività nella struttura di suddivisione del lavoro (WBS).
 
 I problemi comuni includono:
 

@@ -1,6 +1,6 @@
 ---
 title: Importare e gestire le transazioni con carta di credito
-description: Questo argomento spiega come importare e gestire le transazioni con carta di credito relative alle spese. Queste transazioni possono essere impostate in modo che vengano importate automaticamente in base a una pianificazione ricorrente oppure possono essere importate manualmente in base alle esigenze.
+description: Questo articolo descrive come importare e gestire le transazioni con carta di credito correlate alle spese. Queste transazioni possono essere impostate in modo che vengano importate automaticamente in base a una pianificazione ricorrente oppure possono essere importate manualmente in base alle esigenze.
 author: KimANelson
 ms.date: 01/12/2018
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: bd7ca997e18bf3c11fa188b603c899cc470df035
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 44aac1db60ef8f0e3f25612d03b46520dd09ee9e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683773"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916799"
 ---
 # <a name="import-and-maintain-credit-card-transactions"></a>Importare e gestire le transazioni con carta di credito
 

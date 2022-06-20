@@ -1,24 +1,24 @@
 ---
 title: Novità di febbraio 2022 - Distribuzione semplice di Project Operations
-description: Questo argomento fornisce informazioni sugli aggiornamenti di qualità disponibili nella versione di febbraio 2022 della distribuzione lite di Project Operations.
+description: Questo articolo fornisce informazioni sugli aggiornamenti di qualità disponibili nella versione di febbraio 2022 della distribuzione lite di Project Operations.
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: af66a5f61adf4f016f3fa547bbdfc75d06b2711b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1203faa2dd53a8fb82cff0857a1725426ebff19a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574573"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922825"
 ---
 # <a name="whats-new-february-2022---project-operations-lite-deployment"></a>Novità di febbraio 2022 - Distribuzione semplice di Project Operations
 
 _Si applica a: Distribuzione semplice: dalla transazione alla fatturazione proforma_
 
-Questo argomento si applica ai seguenti componenti e versioni di Microsoft Dynamics 365 Project Operations:
+Questo articolo si applica ai seguenti componenti e versioni di Microsoft Dynamics 365 Project Operations:
 
 - Project Operations in ambiente Dataverse versione 4.28.0.120
 

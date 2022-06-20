@@ -1,17 +1,17 @@
 ---
 title: Stime finanziarie per spese nei progetti
-description: Questo argomento fornisce informazioni sulla definizione o sulla stima delle spese basate sul progetto.
+description: Questo articolo fornisce informazioni sulla definizione o sulla stima delle spese basate sul progetto.
 author: rumant
 ms.date: 03/19/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c14dc31d666d0e0d026cf9cddfa1e78dee40f717
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5a29244a65dd88d3ba0f8333a63627bb0c068273
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589477"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925695"
 ---
 # <a name="financial-estimates-for-expenses-on-projects"></a>Stime finanziarie per spese nei progetti
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione semplice: dalla transazione alla fatturazione proforma_

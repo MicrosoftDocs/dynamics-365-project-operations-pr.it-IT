@@ -1,6 +1,6 @@
 ---
 title: Utilizzare una risorsa prenotabile come dimensione di determinazione dei prezzi
-description: In questo argomento vengono fornite informazioni sull'utilizzo di una risorsa prenotabile come dimensione di determinazione dei prezzi.
+description: In questo articolo vengono fornite informazioni sull'utilizzo di una risorsa prenotabile come dimensione di determinazione dei prezzi.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7b07ac8659c9eccf3db41775acf5ca2043016a59
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: becb64bb137079422a765dd7cd61369297e1ffb1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576413"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916109"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Utilizzare una risorsa prenotabile come dimensione di determinazione dei prezzi
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-In questo argomento vengono fornite informazioni sull'utilizzo di una risorsa prenotabile come dimensione di determinazione dei prezzi. Prima di iniziare, crea una soluzione per le dimensioni di determinazione dei prezzi se non lo hai già fatto. Se disponi già di tale soluzione, puoi apportare le modifiche in quella soluzione. Se non hai ancora creato questa soluzione per l'organizzazione, completa le procedure nell'argomento [Creare campi ed entità personalizzati](create-custom-fields-entities.md).
+In questo articolo vengono fornite informazioni sull'utilizzo di una risorsa prenotabile come dimensione di determinazione dei prezzi. Prima di iniziare, crea una soluzione per le dimensioni di determinazione dei prezzi se non lo hai già fatto. Se disponi già di tale soluzione, puoi apportare le modifiche in quella soluzione. Se non hai ancora creato questa soluzione per l'organizzazione, completa le procedure nell'articolo [Creare campi ed entità personalizzati](create-custom-fields-entities.md).
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>Aggiungere una risorsa prenotabile a moduli e viste
 Per rendere i campi visibili nell'interfaccia utente nella soluzione Dimensione di determinazione dei prezzi, devi esaminare tutti i moduli e viste delle entità Project Service principali e aggiungere tali campi a moduli e viste di queste entità.

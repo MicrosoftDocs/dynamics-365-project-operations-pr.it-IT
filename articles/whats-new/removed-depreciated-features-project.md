@@ -1,24 +1,24 @@
 ---
 title: Funzionalità rimosse o deprecate in Dynamics 365 Project Operations
-description: In questo argomento vengono descritte le funzionalità rimosse, o di cui è stata progettata la rimozione da Dynamics 365 Project Operations.
+description: In questo articolo vengono descritte le funzionalità rimosse, o di cui è stata progettata la rimozione da Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 03/16/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 61bb84b94274762636eb8532f09634db1109e969
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: df9d8a40fa853e72416e64846bf59748815048be
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601575"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921491"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-project-operations"></a>Funzionalità rimosse o deprecate in Dynamics 365 Project Operations
 
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, distribuzione semplice: transazioni di fatturazione proforma e Project Operations per scenari basati su materiali stoccati/produzione_
 
-In questo argomento vengono descritte le funzionalità rimosse, o di cui è stata progettata la rimozione da Dynamics 365 Project Operations.
+In questo articolo vengono descritte le funzionalità rimosse, o di cui è stata progettata la rimozione da Dynamics 365 Project Operations.
 
 - Una funzionalità *rimossa* non è più disponibile nel prodotto.
 - Una funzionalità *deprecata* non è in fase di sviluppo attivo e potrebbe essere rimossa in un aggiornamento futuro.
