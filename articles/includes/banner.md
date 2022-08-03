@@ -1,11 +1,11 @@
 ---
-ms.openlocfilehash: 7731d3a0ccb264f681ad955f6dca843aa895bfad72950f7e750efb143ae71391
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3aa5e2af2901855df75f08fcec0e92ff3a805743
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009626"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028403"
 ---
 > [!IMPORTANT]
-> Dynamics 365 for Finance and Operations si è evoluto in applicazioni create appositamente per aiutarti a gestire funzioni aziendali specifiche. Per ulteriori informazioni su queste modifiche, vedi [Guida alle licenze di Dynamics 365](https://go.microsoft.com/fwlink/p/?LinkId=866544).
+> Dynamics 365 Finance si è evoluto in applicazioni create appositamente per aiutarti a gestire funzioni aziendali specifiche. Per ulteriori informazioni su queste modifiche, vedi [Guida alle licenze di Dynamics 365](https://go.microsoft.com/fwlink/p/?LinkId=866544).
  
