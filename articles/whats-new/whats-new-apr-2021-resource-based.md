@@ -1,18 +1,18 @@
 ---
 title: Novità di aprile 2021 - Project Operations per scenari basati su risorse/materiali non stoccati
-description: Questo articolo fornisce informazioni sugli aggiornamenti di qualità disponibili nella versione di aprile 2021 di Project Operations per scenari basati su risorse/non stoccate.
+description: Questo articolo fornisce informazioni sugli aggiornamenti di qualità disponibili nella versione di aprile 2021 di Project Operations per scenari basati su risorse/materiali non stoccati
 author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a060bdc4e4c9f37ec666b1cf4d078986ad1571db
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 490b7aa38bfdfbcdce21a21e582296e4ce15aeeb
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912429"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029259"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novità di aprile 2021 - Project Operations per scenari basati su risorse/materiali non stoccati
 
@@ -28,7 +28,7 @@ Questo articolo si applica ai seguenti componenti e versioni di Dynamics 365 Pro
 In questa release sono incluse le seguenti funzionalità:
 
 - Materiali non stoccati per progetti. Le funzionalità chiave includono:
-  - Stima e prezzo dei materiali non stoccati durante il ciclo di vendita di un progetto. Per ulteriori informazioni, vedi [Impostare le tariffe di vendita e costi per i prodotti del catalogo - semplice](../pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md).
+  - Stima e prezzo dei materiali non stoccati durante il ciclo di vendita di un progetto. Per ulteriori informazioni, vedi [Impostare le tariffe di vendita e costi per i prodotti del catalogo - lite](../pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md).
   - Monitoraggio dell'utilizzo di materiali non stoccati durante la consegna del progetto. Per ulteriori informazioni, vedi [Registrare l'utilizzo di materiale in progetti e attività di progetto](../material/material-usage-log.md).
   - La fatturazione ha utilizzato costi di materiali non stoccati. Per ulteriori informazioni, vedi [Gestire il backlog di fatturazione](../proforma-invoicing/manage-billing-backlog.md).
   - Per informazioni su come configurare questa funzione, vedi [Configurare materiali non stoccati e fatture fornitore in sospeso](../procurement/configure-materials-nonstocked.md)
@@ -48,7 +48,7 @@ Il seguente elenco mostra le mappe a doppia scrittura che sono state modificate 
 | Entità di esportazione fattura fornitore progetto integrazione Project Operations (msdyn\_projectvendorinvoices) | 1.0.0.0 | Nuova mappa della tabella per sincronizzare le intestazioni fattura fornitore dalle app per la finanza e le operazioni a Dataverse. |
 | Entità di esportazione riga fattura fornitore progetto integrazione Project Operations (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | Nuova mappa della tabella per sincronizzare le righe di fattura fornitore dalle app per la finanza e le operazioni a Dataverse. |
 
-Devi eseguire sempre l'ultima versione della mappa nel tuo ambiente e abilita tutte le mappe di tabelle correlate mentre aggiorni la tua soluzione Project Operations Dataverse e la versione della soluzione Finance and Operations. Alcune funzionalità e capacità potrebbero non funzionare correttamente se l'ultima versione della mappa non è attivata. Puoi vedere la versione attiva della mappa nella colonna **Versione** della pagina **Doppia scrittura**. Puoi attivare una nuova versione della mappa selezionando **Versioni mappa tabella** e quindi selezionando l'ultima versione e salvando la versione selezionata. Se hai personalizzato una mappa di tabella predefinita, riapplica le modifiche. Per ulteriori informazioni, vedi [Gestione del ciclo di vita di un'applicazione](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Devi eseguire sempre l'ultima versione della mappa nel tuo ambiente e abilitare tutte le mappe di tabelle correlate mentre aggiorni la tua soluzione Project Operations Dataverse e la versione della soluzione con le app per la finanza e le operazioni. Alcune funzionalità e capacità potrebbero non funzionare correttamente se l'ultima versione della mappa non è attivata. Puoi vedere la versione attiva della mappa nella colonna **Versione** della pagina **Doppia scrittura**. Puoi attivare una nuova versione della mappa selezionando **Versioni mappa tabella** e quindi selezionando l'ultima versione e salvando la versione selezionata. Se hai personalizzato una mappa di tabella predefinita, riapplica le modifiche. Per ulteriori informazioni, vedi [Gestione del ciclo di vita di un'applicazione](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 Se riscontri un problema con l'avvio della mappa, segui le istruzioni nella sezione [Problema di colonne di tabella mancanti sulle mappe](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) della guida alla risoluzione dei problemi di doppia scrittura.
 

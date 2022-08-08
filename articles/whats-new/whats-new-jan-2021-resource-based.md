@@ -1,20 +1,20 @@
 ---
-title: Novità di gennaio 2021 - Project Operations per scenari basati su risorse/non stoccate
-description: Questo articolo fornisce informazioni sugli aggiornamenti di qualità disponibili nella versione di gennaio 2021 di Project Operations per scenari basati su risorse/non stoccate.
+title: Novità di gennaio 2021 - Project Operations per scenari basati su risorse/materiali non stoccati
+description: Questo articolo fornisce informazioni sugli aggiornamenti di qualità disponibili nella versione di gennaio 2021 di Project Operations per scenari basati su risorse/materiali non stoccati.
 author: sigitac
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: cd20ba47a45593e7694234b4f58aecd79b1c3736
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 4b335503139964d9d0747f9ce7addc033a512f30
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8910681"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029582"
 ---
-# <a name="whats-new-january-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novità di gennaio 2021 - Project Operations per scenari basati su risorse/non stoccate
+# <a name="whats-new-january-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novità di gennaio 2021 - Project Operations per scenari basati su risorse/materiali non stoccati
 
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati_
 
@@ -61,7 +61,7 @@ Questo articolo si applica ai seguenti componenti e versioni di Dynamics 365 Pro
 | **Contabilità e gestione dei progetti** | [514167](https://fix.lcs.dynamics.com/Issue/Details/?bugId=514167) | Le correzioni delle fatture non funzionano in ambienti integrati. |
 | **Contabilità e gestione dei progetti** | [514364](https://fix.lcs.dynamics.com/Issue/Details/?bugId=514364) | Quando si registra WIP: il valore delle vendite nella fatturazione del progetto interaziendale viene selezionato un conto errato. |
 | **Contabilità e gestione dei progetti** | [514385](https://fix.lcs.dynamics.com/Issue/Details/?bugId=514385) | In Project Operations, le dipendenze dalle attività di stima in Dataverse non può essere aggiornato. |
-| **Contabilità e gestione dei progetti** | [515258](https://fix.lcs.dynamics.com/Issue/Details/?bugId=515258) | L'eliminazione ripetuta dei giornali di integrazione di Project Operations in Finance porta alla perdita di dati. |
+| **Contabilità e gestione dei progetti** | [515258](https://fix.lcs.dynamics.com/Issue/Details/?bugId=515258) | L'eliminazione ripetuta dei giornali di integrazione Project Operations in Finance porta alla perdita di dati. |
 | **Contabilità e gestione dei progetti** | [519716](https://fix.lcs.dynamics.com/Issue/Details/?bugId=519716) | Il seguente errore si verifica durante la registrazione di una proposta di fattura di progetto, "La transazione non viene distribuita sulla valuta di rendicontazione quando viene aggiunta la fattura anticipata detratta". |
 | **Contabilità e gestione dei progetti** | [521807](https://fix.lcs.dynamics.com/Issue/Details/?bugId=521807) | L'ID progetto errato viene incluso nelle detrazioni dopo l'aggiornamento del contratto di progetto predefinito in Project Operations. |
 | **Contabilità e gestione dei progetti** | [522799](https://fix.lcs.dynamics.com/Issue/Details/?bugId=522799) | La stima e il riconoscimento dei ricavi non possono essere completati quando Project Operations è abilitato. |

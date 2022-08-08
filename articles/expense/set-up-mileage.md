@@ -6,12 +6,12 @@ ms.date: 05/20/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 03ca18c8fef6228f2ba553ebe50447beda5a857c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 9689bbaf4c4f88ad9f746c3f98676f97e634ab6c
+ms.sourcegitcommit: 5e1f549a2e55a87351b2979e3aff402ed35487e1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8930139"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9064283"
 ---
 # <a name="set-up-mileage-using-mileage-rate-tiers"></a>Configurare il chilometraggio utilizzando i livelli di tariffa chilometrica
 
@@ -50,5 +50,15 @@ La funzionalità **Calcolo dell'importo del chilometraggio per più livelli di c
 
 Dopo aver abilitato la funzione, reimposta i livelli di chilometraggio in modo che riflettano correttamente il valore del campo **Quantità**. 
 
+## <a name="enable-the-mileage-totals-calculation-by-fiscal-year-feature"></a>Abilitare la funzionalità Calcolo chilometraggio totale per anno fiscale
+
+La funzionalità **Calcolo chilometraggio totale per anno fiscale** abilita una nuova impostazione nei parametri di gestione delle spese che esegue i calcoli del chilometraggio totale per anno fiscale anziché per anno solare. Completa i seguenti passaggi per abilitare questa funzione.
+
+1. Vai a **Aree di lavoro** > **Gestione funzionalità**.
+1. Nell'elenco, individua e seleziona **Calcolo chilometraggio totale per anno fiscale**, quindi seleziona **Abilita ora**.
+1. Vai a **Gestione spese** > **Impostazioni** > **Generale** > **Parametri di gestione spese**.
+1. Nella pagina **Parametri di gestione spese** individua e abilita **Usa anno fiscale per chilometraggio totale**.
+
+Dopo aver abilitato **Usa anno fiscale per chilometraggio totale**, il chilometraggio totale viene calcolato per anno fiscale.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

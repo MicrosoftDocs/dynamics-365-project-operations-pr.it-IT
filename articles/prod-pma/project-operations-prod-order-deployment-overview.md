@@ -1,21 +1,21 @@
 ---
-title: Panoramica della distribuzione di Project Operations per scenari di materiali stoccati basati sulla produzione
-description: Questo articolo fornisce informazioni sul tipo di distribuzione, Project Operations per scenari di materiali stoccati basati sulla produzione.
+title: Panoramica della distribuzione di Project Operations per scenari basati su materiali stoccati/produzione
+description: Questo articolo fornisce informazioni sul tipo di distribuzione, Project Operations per scenari basati su materiali stoccati/produzione.
 author: rumant
 ms.date: 11/02/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fb5bf99b6a46e285d03bdbaa9a3acd9d4bbe70f0
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 379fdc7de161e3795100ee932fefed88811ba84e
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922779"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028799"
 ---
-# <a name="project-operations-for-stockedproduction-based-scenarios-deployment-overview"></a>Panoramica della distribuzione di Project Operations per scenari di materiali stoccati basati sulla produzione
+# <a name="project-operations-for-stockedproduction-based-scenarios-deployment-overview"></a>Panoramica della distribuzione di Project Operations per scenari basati su materiali stoccati/produzione
 
-_**Si applica a:** Project Operations per scenari di materiali stoccati basati sulla produzione_
+_**Si applica a:** Project Operations per scenari basati su materiali stoccati/produzione_
 
 
 Questo tipo di distribuzione ha le seguenti funzionalità per le aziende basate su progetti:

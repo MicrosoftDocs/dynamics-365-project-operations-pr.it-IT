@@ -6,16 +6,16 @@ ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 7db7ea6b3cffe6eb43ee0519bbaccfc9092c9311
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: 6a6986cfd6c01d1c22d37a10c8d824730fad2e9e
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959487"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029305"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Iscrizione alle versioni di valutazione di Project Operations 
 
-_**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, distribuzione semplice: transazioni di fatturazione proforma e Project Operations per scenari di materiali stoccati basati sulla produzione_ 
+_**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, distribuzione lite: transazioni di fatturazione proforma e Project Operations per scenari basati su materiali stoccati/produzione_ 
 
 
 
@@ -90,7 +90,7 @@ Prima di iniziare, accedi a un browser con l'account di lavoro dell'utente nel t
 
 ## <a name="configuring-dual-write"></a>Configurazione della doppia scrittura
 - Per configurare i ruoli di sicurezza per la doppia scrittura, vedi [Aggiornare le impostazioni di sicurezza su Project Operations in Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
-- Per accedere alla configurazione della doppia scrittura, vai all'istanza di Finance and Operations, quindi vai a **Gestione dati** > **Doppia scrittura**.
+- Per accedere alla configurazione della doppia scrittura, vai all'istanza delle app per la finanza e le operazioni, quindi vai a **Gestione dati** > **Doppia scrittura**.
 - Per configurare le mappe a doppia scrittura, vedi [Eseguire le mappe a doppia scrittura di Project Operations](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Assegnare licenze

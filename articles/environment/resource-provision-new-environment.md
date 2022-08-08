@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9cc3dafd6a2b6f92b585643c5d43ab52a3faf59e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 78f40ebe79c038799fbc59902442ad6c23fb94d4
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931611"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028523"
 ---
 # <a name="provision-a-new-environment"></a>Effettuare il provisioning di un nuovo ambiente
 
@@ -20,7 +20,7 @@ _**Si applica a:** Project Operations per scenari basati su risorse/materiali no
 
 
 
-In questo articolo vengono fornite informazioni su come eseguire il provisioning di un nuovo ambiente Dynamics 365 Project Operations per scenari basati su risorse/non stoccate.
+In questo articolo vengono fornite informazioni su come eseguire il provisioning di un nuovo ambiente Dynamics 365 Project Operations per scenari basati su risorse/materiali non stoccati.
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>Abilitare il provisioning automatizzato di Project Operations in un progetto LCS
 
@@ -117,7 +117,7 @@ Potrebbe essere necessario applicare aggiornamenti di qualità all'ambiente Fina
 
     ![Applicare soluzioni.](./media/13ApplySolutions.png)
 
-5. Seleziona entrambe le soluzioni, **Mappa di entità a doppia scrittura di Dynamics 365 Finance and Operations** e **Mappe di entità a doppia scrittura di Dynamics 365 Project Operations**, quindi seleziona **Applica**.
+5. Seleziona entrambe le soluzioni, **Mappa di entità a doppia scrittura di Dynamics 365 Finance** e **Mappe di entità a doppia scrittura di Dynamics 365 Project Operations**, quindi seleziona **Applica**.
 
     ![Confermare le soluzioni.](./media/14ConfirmSolutions.png)
 

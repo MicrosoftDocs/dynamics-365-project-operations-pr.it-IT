@@ -1,18 +1,18 @@
 ---
 title: Novità o modifiche di marzo 2021 - Project Operations per scenari basati su materiali stoccati/produzione
-description: Questo articolo fornisce informazioni sugli aggiornamenti di qualità disponibili nella versione di marzo 2021 di Project Operations per scenari di materiali stoccati basati sulla produzione.
+description: Questo articolo fornisce informazioni sugli aggiornamenti di qualità disponibili nella versione di marzo 2021 di Project Operations per scenari basati su materiali stoccati/produzione.
 author: andchoi
 ms.date: 03/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: fffa9d70574c8c91b63ceb5055af64a49c9d398b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 727f2c782370b61fce65385fe29fbfa6f2387087
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911325"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028753"
 ---
 # <a name="whats-new-or-changed-in-project-operations-march-2021-for-stockedproduction-based-scenarios"></a>Novità o modifiche di marzo 2021 - Project Operations per scenari basati su materiali stoccati/produzione
 

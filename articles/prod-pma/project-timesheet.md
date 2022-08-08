@@ -1,8 +1,8 @@
 ---
 title: Applicazione per dispositivi mobili Foglio presenze progetto
-description: In questo articolo vengono fornite informazioni sull'applicazione per dispositivi mobili Microsoft Dynamics 365 Project Timesheet. L'app per dispositivi mobili Foglio presenze progetto consente agli utenti di inviare e approvare i fogli presenza per i progetti sul proprio dispositivo mobile.
+description: In questo articolo vengono fornite informazioni sull'applicazione per dispositivi mobili Microsoft Dynamics 365 Project Timesheet. L'app per dispositivi mobili Foglio presenze progetto consente agli utenti di inviare e approvare i fogli presenze per i progetti sul proprio dispositivo mobile.
 author: abruer
-ms.date: 04/08/2019
+ms.date: 06/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,20 +15,20 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 6f4be64f595371334e4065b60ca1a81232b333f7
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 730ed36841d07df60e8a8f343126209f0edcc593
+ms.sourcegitcommit: 5c971b15295046b3c92ff6638dd1352129f1c390
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8923975"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9110980"
 ---
 # <a name="project-timesheet-mobile-application"></a>Applicazione per dispositivi mobili Foglio presenze progetto
 
 [!include [banner](../includes/banner.md)]
 
-## <a name="overview"></a>Panoramica
+## <a name="overview"></a>Descrizione
 
-L'app per dispositivi mobili Microsoft Dynamics 365 Project Timesheet consente agli utenti di inviare e approvare i fogli presenza per i progetti sul proprio dispositivo mobile (iPhone o Android). Questa app per dispositivi mobili utilizza la funzionalità per fogli presenze che si trova nell'area Gestione progetti e contabilità di Dynamics 365 Finance, migliorando la produttività e l'efficienza degli utenti e consentendo l'immissione e l'approvazione in breve tempo di fogli presenze progetto.
+L'app per dispositivi mobili Microsoft Dynamics 365 Project Timesheet consente agli utenti di inviare e approvare i fogli presenze per i progetti sul proprio dispositivo mobile (iPhone o Android). Questa app per dispositivi mobili utilizza la funzionalità di fogli presenze che si trova nell'area Gestione progetti e contabilità di Dynamics 365 Finance. Consente di migliorare la produttività e l'efficienza degli utenti nonché l'immissione e l'approvazione tempestive dei fogli presenze del progetto.
 
 ## <a name="download-and-install-the-mobile-app"></a>Scaricare e installare l'app per dispositivi mobili
 
@@ -38,6 +38,19 @@ Scarica e installa l'app per dispositivi mobili Microsoft Dynamics 365 Project T
 
 In Finance, l'app per dispositivi mobili Foglio presenze progetto deve essere abilitata. Per abilitare la funzionalità, vai a **Parametri Gestione progetti e contabilità \> Foglio presenze** e seleziona il parametro **Abilita Microsoft Dynamics 365 Project Timesheet**.
 
+### <a name="resolve-sign-in-issues"></a>Risolvere i problemi di accesso
+
+**Problema:** durante l'accesso all'app per dispositivi mobili Project Timesheet, gli utenti ricevono un messaggio di errore indicante che "non possono accedere all'applicazione '2bc50526-cdc3-4e36-a970-c284c34cbd6e ' in quel tenant."
+
+**Problema:** durante l'accesso all'app per dispositivi mobili Project Timesheet, gli utenti ricevono un errore simile a uno dei seguenti:
+
+- "AADSTS50020: account utente '[nome utente]' del provider di identità 'https://sts.windows.net/ [id app]' inesistente nel tenant '[id tenant]' e non può accedere all'applicazione '[id app]' in quel tenant."
+- "L'account utente selezionato non esiste nel tenant '[id tenant]' e non è possibile accedere all'applicazione '[id app]' nel tenant."
+
+**Spiegazione:** questi problemi sono causati da una modifica apportata ad Azure Active Directory (Azure AD) nel maggio 2022 che riguarda gli utenti esterni. Poiché tale modifica non è stata apportata alle app per la finanza e le operazioni, può riguardare i clienti in qualsiasi versione della piattaforma o dell'applicazione.
+
+**Correzione**: tutti gli utenti esterni devono essere invitati al tenant tramite Azure AD. Per ulteriori informazioni, vedi [Invitare gli utenti con la collaborazione B2B di Azure Active Directory](/power-platform/admin/invite-users-azure-active-directory-b2b-collaboration).
+
 ## <a name="sign-in-to-the-app"></a>Accedere all'app
 
 1.  Avvia l'app sul dispositivo mobile.
@@ -46,7 +59,7 @@ In Finance, l'app per dispositivi mobili Foglio presenze progetto deve essere ab
 
 3.  La prima volta che accedi, ti vengono richiesti il nome utente e la password. Immetti le tue credenziali.
 
-4.  Verrai connesso alla tua azienda predefinita.
+4. Verrai connesso alla tua azienda predefinita.
 
 ## <a name="submit-a-project-timesheet"></a>Inviare un foglio presenze del progetto
 
@@ -67,7 +80,7 @@ Le informazioni sul progetto visualizzate dipendono dai parametri mobili definit
 
 Nel campo **Persona giuridica** seleziona la persona giuridica per la quale è stato eseguito il lavoro di progetto. Il campo **Persona giuridica** è disponibile solo se il supporto del foglio presenze interaziendale è stato abilitato per la persona giuridica.
 
-Seleziona il cliente associato al progetto per il foglio presenze. Per la versione iniziale su Android, l'immissione per cliente non è supportata, poiché è necessario prima selezionare il progetto. Se hai selezionato prima il progetto, il campo **Cliente** viene compilato automaticamente.
+Seleziona il cliente associato al progetto per il foglio presenze. Per la versione iniziale su Android, l'immissione per cliente non è supportata, poiché è necessario dapprima selezionare il progetto. Se hai selezionato prima il progetto, il campo **Cliente** viene compilato automaticamente.
 
 Nel campo **Progetto**, seleziona il progetto per il quale stai immettendo l'ora. Il campo **Cliente** viene compilato automaticamente.
 
@@ -92,7 +105,7 @@ Fai clic su **Invia** per inviare il foglio presenze al flusso di lavoro di appr
 
 ## <a name="review-timesheets"></a>Rivedere i fogli presenze
 
-Nel menu è disponibile un elenco dei fogli presenze che devono essere rivisti. Questa opzione è disponibile solo se sei stato designato come approvatore del flusso di lavoro. Sono supportate sia l'intestazione che l'approvazione della riga. L'approvazione a livello di riga offre la possibilità di contrassegnare una o più righe per l'approvazione. Dopo aver esaminato le informazioni sulla scheda attività, fai clic su **Approva**, **Delega** o **Restituisci** per continuare il flusso di lavoro.
+Nel menu è disponibile un elenco dei fogli presenze che devono essere esaminati. Questa opzione è disponibile solo se sei stato designato come approvatore del flusso di lavoro. Sono supportate sia l'intestazione che l'approvazione della riga. L'approvazione a livello di riga offre la possibilità di contrassegnare una o più righe per l'approvazione. Dopo aver esaminato le informazioni sulla scheda attività, fai clic su **Approva**, **Delega** o **Restituisci** per continuare il flusso di lavoro.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

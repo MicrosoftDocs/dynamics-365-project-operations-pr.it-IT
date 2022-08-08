@@ -6,12 +6,12 @@ ms.date: 06/18/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: be80ea3956fbf0264c2eeb7a5e30dd50b77e3c78
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: a25e2a59f1c069057c6689825ce52b13d842af71
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912015"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028569"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>Distribuire manualmente l'app Project Operations Dataverse con supporto doppia scrittura
 
@@ -62,4 +62,4 @@ Puoi completare questa procedura solo se hai completato le procedure precedenti 
 
 ## <a name="link-your-environments"></a><a name="link"></a>Collega i tuoi ambienti
 
-Dopo che l'ambiente Dataverse è distribuito, è possibile configurare il collegamento nelle app per la finanza e le operazioni. Segui i passaggi in [Usare la procedura guidata doppia scrittura per collegare gli ambienti](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).
+Dopo che l'ambiente Dataverse è distribuito, puoi configurare il collegamento nelle app per la finanza e le operazioni. Segui i passaggi in [Usare la procedura guidata doppia scrittura per collegare gli ambienti](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).

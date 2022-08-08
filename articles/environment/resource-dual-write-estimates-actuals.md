@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 43c868b051bf141cfc3211669c0a44333b4b2c65
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: dc8f65aec6f2328ccef5f9591a0f4d9c792b0d8f
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914591"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029085"
 ---
 # <a name="project-estimates-and-actuals-integration"></a>Integrazione di stime e valori effettivi di progetto
 
@@ -67,11 +67,11 @@ La mappa della tabella **Valori effettivi di integrazione di Project Operations*
   - Valori effettivi dei costi di progetto per le transazioni interaziendali. Per ulteriori informazioni, vedi [Creare transazioni interaziendali](../project-accounting/create-intercompany-transactions.md). Questi record vengono ignorati perché il sistema ricrea il costo del progetto effettivo nelle app per la finanza e le operazioni quando viene registrata la fattura fornitore interaziendale.
   - Record di vendita non fatturati negativi creati quando la fattura proforma viene confermata. Questi record vengono ignorati perché il giornale di registrazione secondario di progetto nelle app per la finanza e le operazioni non annulla il record delle vendite non fatturate al momento della fatturazione, ma modifica lo stato in completamente fatturato.
 
-La mappa della tabella a doppia scrittura sincronizza i record effettivi con la tabella di gestione temporanea **ProjCDSActualsImport**. Questi record vengono elaborati dal processo periodico **Importa dalla tabella di gestione temporanea** durante la creazione di righe del giornale di registrazione di integrazione di Project Operations e righe della proposta fattura di progetto. Per ulteriori informazioni, vedi [Giornale di registrazione integrazione in Project Operations](../project-accounting/project-operations-integration-journal.md).
+La mappa della tabella a doppia scrittura sincronizza i record effettivi con la tabella di gestione temporanea **ProjCDSActualsImport**. Questi record vengono elaborati dal processo periodico **Importa dalla tabella di gestione temporanea** durante la creazione di righe del giornale di registrazione di integrazione Project Operations e righe della proposta fattura di progetto. Per ulteriori informazioni, vedi [Giornale di registrazione integrazione in Project Operations](../project-accounting/project-operations-integration-journal.md).
 
-Dataverse acquisisce anche i collegamenti tra le transazioni effettive del progetto nell'entità **Connessione di transazione**. Per ulteriori informazioni, vedi [Collegare i valori effettivi ai record originali](../actuals/linkingactuals.md). I collegamenti tra le transazioni effettive vengono sincronizzati anche con le app per la finanza e le operazioni utilizzando la mappa tabella a doppia scrittura, **Entità di integrazione per relazioni tra transazione del progetto (msdyn\_transactionconnections)**. Questi record vengono usati dal processo periodico **Importa dalla tabella di gestione temporanea** durante la creazione di righe del giornale di registrazione di integrazione di Project Operations e righe della proposta fattura di progetto.
+Dataverse acquisisce anche i collegamenti tra le transazioni effettive del progetto nell'entità **Connessione di transazione**. Per ulteriori informazioni, vedi [Collegare i valori effettivi ai record originali](../actuals/linkingactuals.md). I collegamenti tra le transazioni effettive vengono sincronizzati anche con le app per la finanza e le operazioni utilizzando la mappa tabella a doppia scrittura, **Entità di integrazione per relazioni tra transazione del progetto (msdyn\_transactionconnections)**. Questi record vengono usati dal processo periodico **Importa dalla tabella di gestione temporanea** durante la creazione di righe del giornale di registrazione di integrazione Project Operations e righe della proposta fattura di progetto.
 
-La registrazione di un giornale di registrazione di integrazione di Project Operations e di una proposta di fattura di progetto attiva un aggiornamento nei rispettivi record nella tabella di gestione temporanea **ProjCDSActualsImport**. Il sistema acquisisce e registra i seguenti attributi contabili per le transazioni effettive:
+La registrazione di un giornale di registrazione di integrazione Project Operations e di una proposta di fattura di progetto attiva un aggiornamento nei rispettivi record nella tabella di gestione temporanea **ProjCDSActualsImport**. Il sistema acquisisce e registra i seguenti attributi contabili per le transazioni effettive:
 
 - Importo in valuta contabile
 - Tasso di cambio

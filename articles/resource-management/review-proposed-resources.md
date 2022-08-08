@@ -15,16 +15,16 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3f20dda2b7b384608b8f4b548c18ac21d07fee07
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2a5b5159ceb8aa5b29dffad59517bc11fbf16871
+ms.sourcegitcommit: 66e376675e6df8efc86fa84ec24e9aad6a980304
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924849"
+ms.lasthandoff: 07/21/2022
+ms.locfileid: "9183979"
 ---
 # <a name="review-proposed-resources"></a>Esaminare le risorse proposte
 
-_**Si applica a:** Project Operations per scenari basati su risorse/non stoccate, Distribuzione semplice: dalla transazione alla fatturazione proforma_
+_**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione lite: dalla transazione alla fatturazione proforma_
 
 I responsabili delle risorse possono proporre una risorsa al responsabile di progetto mediante una richiesta di risorsa.
 
@@ -40,8 +40,8 @@ Per rivedere le risorse proposte, effettua i seguenti passaggi:
     Lo stato viene aggiornato come segue:
 
     - Nella pagina **Assistente di pianificazione**, gli indicatori di stato vengono aggiornati per indicare che la prenotazione è stata proposta ma che non è definitiva.
-    - Nella richiesta di risorsa, lo stato diventa **Revisione necessaria**.
-    - Nella scheda **Team** del progetto, il valore **Stato richiesta** del membro del team generico diventa **Revisione necessaria**.
+    - Nella richiesta di risorsa, il revisore della richiesta deve modificare lo stato in **Revisione necessaria**.
+    - Nella scheda **Team** del progetto, il valore **Stato richiesta** del membro del team generico diventa automaticamente **Revisione necessaria**.
 
 Il responsabile di progetto può accettare o rifiutare la proposta.
 

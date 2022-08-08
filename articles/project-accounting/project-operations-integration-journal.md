@@ -2,31 +2,31 @@
 title: Giornale di registrazione integrazione in Project Operations
 description: Questo articolo fornisce informazioni sull'utilizzo del giornale di registrazione integrazione in Project Operations.
 author: sigitac
-ms.date: 10/27/2020
+ms.date: 06/29/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: befb1756ad77708805f3cbb06168b93e44296df0
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d6f1709c4bf44cfd45516d9ac74b30d4817bb653
+ms.sourcegitcommit: a5a1d81d2fe0a6f684e79859fcddf45e913d76bc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8923883"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9106280"
 ---
 # <a name="integration-journal-in-project-operations"></a>Giornale di registrazione integrazione in Project Operations
 
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati_
 
-Le voci di tempi e spese creano transazioni di **valori effettivi** che rappresentano la visione operativa del lavoro completato rispetto a un progetto. Dynamics 365 Project Operations fornisce ai contabili uno strumento per rivedere le transazioni e modificare gli attributi di contabilità secondo necessità. Dopo aver completato la revisione e le rettifiche, le transazioni vengono registrate nella contabilità secondaria del progetto e nella contabilità generale. Il contabile può eseguire queste attività usando il giornale di registrazione di **integrazione di Project Operations** (**Dynamics 365 Finance** > **Gestione progetti e contabilità** > **Giornali di registrazione** > **Giornale di registrazione di integrazione di Project Operations**.
+Le voci di tempi, spese corrispettivi e materiali creano transazioni di **valori effettivi** che rappresentano la visione operativa del lavoro completato rispetto a un progetto. Dynamics 365 Project Operations fornisce ai contabili uno strumento per rivedere le transazioni e modificare gli attributi di contabilità secondo necessità. Dopo aver completato la revisione e le rettifiche, le transazioni vengono registrate nella contabilità secondaria del progetto e nella contabilità generale. Il contabile può eseguire queste attività usando il giornale di registrazione di **integrazione di Project Operations** (**Dynamics 365 Finance** > **Gestione progetti e contabilità** > **Giornali di registrazione** > **Giornale di registrazione di integrazione di Project Operations**.
 
 ![Flusso del giornale di registrazione integrazione.](./media/IntegrationJournal.png)
 
-### <a name="create-records-in-the-project-operations-integration-journal"></a>Creare record nel giornale di registrazione integrazione Project Operations
+### <a name="create-records-in-the-project-operations-integration-journal"></a>Creare record nel giornale di registrazione di integrazione Project Operations
 
-I record nel giornale di registrazione integrazione Project Operations vengono creati utilizzando un processo periodico, **Importa da tabella di gestione temporanea**. Per eseguire questo processo vai in **Dynamics 365 Finance** > **Gestione progetti e contabilità** > **Periodico** > **Integrazione di Project Operations** > **Importa da tabella di gestione temporanea**. È possibile eseguire il processo in modo interattivo o configurarlo in modo che venga eseguito in background, se necessario.
+I record nel giornale di registrazione di integrazione Project Operations vengono creati utilizzando un processo periodico, **Importa da tabella di gestione temporanea**. Per eseguire questo processo vai in **Dynamics 365 Finance** > **Gestione progetti e contabilità** > **Periodico** > **Integrazione di Project Operations** > **Importa da tabella di gestione temporanea**. È possibile eseguire il processo in modo interattivo o configurarlo in modo che venga eseguito in background, se necessario.
 
 Quando viene eseguito il processo periodico, vengono trovati tutti i valori effettivi che non sono stati ancora aggiunti al giornale di registrazione di integrazione Project Operations. Viene creata una riga di giornale di registrazione per ogni transazione effettiva.
-Il sistema raggruppa le righe in giornali di registrazione separati in base al valore selezionato nel campo **Unità del periodo nel giornale di registrazione di integrazione di Project Operations** (**Finance** > **Gestione progetti e contabilità** > **Configurazione** > **Parametri Gestione progetti e contabilità**, nella scheda **Project Operations in Dynamics 365 Customer Engagement**). I valori possibili per questo campo includono:
+Il sistema raggruppa le righe in giornali di registrazione separati in base al valore selezionato nel campo **Unità del periodo nel giornale di registrazione di integrazione Project Operations** (**Finance** > **Gestione progetti e contabilità** > **Configurazione** > **Parametri Gestione progetti e contabilità**, nella scheda **Project Operations in Dynamics 365 Customer Engagement**). I valori possibili per questo campo includono:
 
   - **Giorni**: i valori effettivi sono raggruppati per data di transazione. Per ogni giorno viene creato un giornale di registrazione separato.
   - **Mesi**: i valori effettivi sono raggruppati per mese di calendario. Per ogni mese viene creato un giornale di registrazione separato.
@@ -50,9 +50,21 @@ Solo i seguenti attributi di contabilità possono essere aggiornati nelle righe 
 - **Fatturazione della fascia IVA** e **Gruppo IVA articolo di fatturazione**
 - **Dimensioni finanziarie** (usando l'azione **Distribuisci importi**)
 
-Le righe del giornale di registrazione integrazione possono essere eliminate, tuttavia tutte le righe non registrate verranno inserite nuovamente nel giornale dopo aver rieseguito il processo periodico **Importa da gestione temporanea**.
+Le righe del giornale di registrazione di integrazione possono essere eliminate. Tuttavia, le righe non registrate verranno inserite nuovamente nel giornale dopo aver rieseguito il processo periodico **Importa da gestione temporanea**.
+
+### <a name="post-the-project-operations-integration-journal"></a>Registrare il giornale di registrazione di integrazione Project Operations
 
 Quando registri il giornale di registrazione integrazione, vengono creati un registro secondario del progetto e le transazioni di contabilità generale. Questi vengono utilizzati nella fatturazione dei clienti downstream, nel riconoscimento dei ricavi e nel reporting finanziario.
 
+Il giornale di registrazione di integrazione Project Operations selezionato può essere registrato utilizzando **Registra** nella pagina del giornale di registrazione di integrazione Project Operations. Tutti i giornali di registrazione possono essere registrati automaticamente eseguendo un processo in **Periodici** > **Integrazione Project Operations** > **Registra giornale di registrazione di integrazione Project Operations**.
+
+La registrazione può essere eseguita in modo interattivo o in un batch. Da notare che tutti i giornali di registrazione con più di 100 righe verranno automaticamente registrati in un batch. Per ottenere prestazioni migliori quando i giornali di registrazione con molte righe vengono registrati in un batch, abilita la funzionalità **Registra giornale di registrazione di integrazione Project Operations utilizzando più attività batch** nell'area di lavoro **Gestione funzionalità**. 
+
+#### <a name="transfer-all-lines-that-have-posting-errors-to-a-new-journal"></a>Trasferire tutte le righe con errori di registrazione in un nuovo giornale di registrazione
+
+> [!NOTE]
+> Per utilizzare questa funzionalità, abilita **Trasferisci tutte le righe con errori di registrazione in un nuovo giornale di registrazione di integrazione Project Operations** nell'area di lavoro **Gestione funzionalità**.
+
+Durante la registrazione nel giornale di registrazione di integrazione Project Operations, il sistema convalida ogni riga del giornale di registrazione. Il sistema registra tutte le righe che non presentano errori e crea un nuovo giornale di registrazione per tutte le righe che presentano errori di registrazione. Per esaminare i giornali di registrazioni che hanno righe che presentano errori di registrazione, vai a **Contabilità e gestione dei progetti** > **Giornali di registrazione** > **Giornale di registrazione di integrazione Project Operations** e filtra i giornali di registrazione utilizzando il campo **Giornale di registrazione originale**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,18 +1,18 @@
 ---
 title: Novità di giugno 2022 - Project Operations per scenari di risorse/materiali non stoccati
-description: Questo articolo fornisce informazioni sugli aggiornamenti di qualità disponibili nella versione di giugno 2022 di Microsoft Dynamics 365 Project Operations per scenari basati su risorse/non stoccate.
+description: Questo articolo fornisce informazioni sugli aggiornamenti di qualità disponibili nella versione di giugno 2022 di Microsoft Dynamics 365 Project Operations per scenari basati su risorse/materiali non stoccati.
 author: sigitac
 ms.date: 06/03/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: fde1f0be42eecfc5ee809cb9b2191d3aeae57131
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: 32bc7793c5a0ee8c04272d3ffcbd290b39fce4cc
+ms.sourcegitcommit: 7772d72a7c96a44ffb23369f8ffb436813449239
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959469"
+ms.lasthandoff: 06/20/2022
+ms.locfileid: "9031336"
 ---
 # <a name="whats-new-june-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novità di giugno 2022 - Project Operations per scenari di risorse/materiali non stoccati
 
@@ -20,7 +20,7 @@ _**Si applica a:** Project Operations per scenari basati su risorse/materiali no
 
 Questo articolo si applica ai seguenti componenti e versioni di Microsoft Dynamics 365 Project Operations:
 
-- Project Operations in ambiente Dataverse versione 4.43.0.77
+- Project Operations in un ambiente Dataverse versione 4.43.0.77 o 4.43.0.119
 - Gestione progetti e contabilità in un ambiente Dynamics 365 Finance versione 10.0.27
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Aggiornamenti delle mappe a doppia scrittura di Project Operations

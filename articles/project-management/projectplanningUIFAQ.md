@@ -2,24 +2,24 @@
 title: Risolvere i problemi relativi alla griglia delle attività
 description: Questo articolo fornisce le informazioni sulla risoluzione dei problemi necessaria quando si lavora nella griglia delle attività.
 author: ruhercul
-ms.date: 04/05/2022
+ms.date: 07/22/2022
 ms.topic: article
 ms.product: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: e6ab4f34fe3f6732f7bef252f298671e07a3c3ca
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 208ed55abf4cdf0ad2b035bd923e183ff3cae660
+ms.sourcegitcommit: e91136d3335ee03db660529eccacd48907774453
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911049"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "9188236"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Risolvere i problemi relativi alla griglia delle attività 
 
 
-_**Si applica a:** Project Operations per scenari basati su articoli non stoccati/risorse e Distribuzione semplice: dalla transazione alla fatturazione proforma, Project for the Web_
+_**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati e Distribuzione lite: dalla transazione alla fatturazione proforma, Project for the Web_
 
-La griglia delle attività sfruttata da Dynamics 365 Project Operations è un iframe ospitato all'interno di Microsoft Dataverse. A seguito di tale utilizzo, devono essere soddisfatti requisiti specifici per garantire il corretto funzionamento dell'autenticazione e dell'autorizzazione. Questo articolo delinea i problemi comuni che possono influire sulla capacità di eseguire il rendering della griglia o gestire le attività nella struttura di suddivisione del lavoro (WBS).
+La griglia delle attività usata da Dynamics 365 Project Operations è un iframe ospitato in Microsoft Dataverse. A seguito di tale utilizzo, devono essere soddisfatti requisiti specifici per garantire il corretto funzionamento dell'autenticazione e dell'autorizzazione. Questo articolo delinea i problemi comuni che possono influire sulla capacità di eseguire il rendering della griglia o gestire le attività nella struttura di suddivisione del lavoro (WBS).
 
 I problemi comuni includono:
 
@@ -32,7 +32,7 @@ I problemi comuni includono:
 
 ### <a name="mitigation-1-enable-cookies"></a>Mitigazione 1: abilitare i cookie
 
-Project Operations richiede che i cookie di terze parti siano abilitati per rendere la struttura di suddivisione del lavoro. Quando i cookie di terze parti non sono abilitati, invece di visualizzare le attività, vedrai una pagina vuota quando selezioni la scheda **Attività** nella pagina **Progetto**.
+Project Operations richiede che i cookie di terze parti siano abilitati per rendere la struttura di suddivisione del lavoro. Quando i cookie di terze parti non sono abilitati, al posto delle attività vedrai una pagina vuota quando selezioni la scheda **Attività** nella pagina **Progetto**.
 
 Per Microsoft Edge o Google Chrome, le seguenti procedure delineano come aggiornare le impostazioni del browser per abilitare i cookie di terze parti.
 
@@ -57,7 +57,7 @@ Per Microsoft Edge o Google Chrome, le seguenti procedure delineano come aggiorn
 
 ### <a name="mitigation-2-validate-the-pex-endpoint-has-been-correctly-configured"></a>Mitigazione 2: verificare che l'endpoint PEX sia stato configurato correttamente
 
-Project Operations richiede che un parametro di progetto faccia riferimento all'endpoint PEX. Questo endpoint è necessario per comunicare con il servizio utilizzato per eseguire il rendering della struttura di suddivisione del lavoro. Se il parametro non è abilitato, riceverai l'errore "Il parametro del progetto non è valido". Per aggiornare l'endpoint PEX, completare i seguenti passaggi.
+Project Operations richiede che un parametro di progetto faccia riferimento all'endpoint PEX. Questo endpoint è necessario per comunicare con il servizio utilizzato per eseguire il rendering della struttura di suddivisione del lavoro. Se il parametro non è abilitato, verrà visualizzato l'errore "Il parametro del progetto non è valido". Per aggiornare l'endpoint PEX, completare i seguenti passaggi.
 
 1. Aggiungi il campo **Endpoint PEX** alla pagina **Parametri di progetto**.
 2. Identifica il tipo di prodotto che stai utilizzando.. Questo valore viene utilizzato quando è impostato l'endpoint PEX. Al momento del recupero, il tipo di prodotto è già definito nell'endpoint PEX. Mantieni quel valore.
@@ -72,11 +72,14 @@ Project Operations richiede che un parametro di progetto faccia riferimento all'
 4. Rimuovi il campo dalla pagina **Parametri di progetto**.
 
 ### <a name="mitigation-3-sign-in-to-projectmicrosoftcom"></a>Migrazione 3: Accedi a project.microsoft.com.
-Nel browser Microsoft Edge, apri una nuova scheda, vai su project.microsoft.com e accedi utilizzando il ruolo utente che stai usando per accedere a Project Operations.
+
+Nel browser , apri una nuova scheda, vai su project.microsoft.com e accedi con il ruolo utente che stai usando per accedere a Project Operations. È importante che un solo utente abbia effettuato l'accesso a un prodotto Microsoft nel browser. Il messaggio di errore "login.microsoftonline.com ha rifiutato di connettersi" viene visualizzato più spesso se più di un utente ha effettuato l'accesso, come mostrato nell'illustrazione seguente.
+
+![Scegli una pagina di accesso all'account che mostri che due utenti hanno effettuato l'accesso.](media/MULTIPLE_USERS_LOGGED_IN.png)
 
 ## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>Problema: il progetto non si carica e l'interfaccia utente è bloccata sulla casella di selezione
 
-Ai fini dell'autenticazione, i popup devono essere abilitati per il caricamento della griglia delle attività. Se i popup non sono abilitati, lo schermo sarà bloccato sulla casella di selezione per il caricamento. Il grafico seguente mostra l'URL con un'etichetta popup bloccata nella barra degli indirizzi che fa sì che la casella di selezione si blocchi durante il tentativo di caricamento della pagina. 
+Ai fini dell'autenticazione, i popup devono essere abilitati per il caricamento della griglia delle attività. Se i popup non sono abilitati, lo schermo sarà bloccato sulla casella di selezione per il caricamento. Il grafico seguente mostra l'URL con un'etichetta popup bloccata nella barra degli indirizzi; questa condizione blocca la casella di selezione durante il tentativo di caricamento della pagina. 
 
    ![Casella di selezione bloccata e blocco popup.](media/popupsblocked.png)
 
@@ -147,7 +150,7 @@ Quando effettui uno o più aggiornamenti alla WBS, le modifiche falliscono e non
   - Utente Dataverse o utente di base
   - Sistema Project Operations
   - Sistema progetto
-  - Sistemi in doppia scrittura di Project Operations. Questo ruolo è richiesto per lo scenario basato su risorse/non stoccate di Project Operations.
+  - Sistemi in doppia scrittura di Project Operations. Questo ruolo è richiesto per lo scenario basato su risorse/materiali non stoccati di Project Operations.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

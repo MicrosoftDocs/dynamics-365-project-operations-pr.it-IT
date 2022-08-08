@@ -4,7 +4,7 @@ description: Come creare un modello di progetto in Project Service
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
-ms.date: 8/03/2018
+ms.date: 07/19/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 127b6e43a15f19a42791e78b55865ab11ca50c7a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8159e0390441e5029f9beb0228cffcbc4d683479
+ms.sourcegitcommit: 278740b352f1ed9618ee5c79597c8f449984d6f4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598999"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "9177430"
 ---
 # <a name="create-a-project-template-project-service"></a>Creare un modello di progetto (Project Service)
 
@@ -35,13 +35,20 @@ I modelli di progetto consentono di risparmiare tempo se la società esegue rego
 ## <a name="components-of-project-template"></a>Componenti del modello di progetto
  Un modello di progetto è composto da tre componenti:  
   
-- **Struttura di suddivisione del lavoro**: una struttura di suddivisione del lavoro nel modello di progetto ha lo stesso set di elementi del progetto. È possibile creare una gerarchia di attività, associare ruoli all'attività, definire gli attributi di pianificazione, impostare dipendenze e visualizzare i dati nel diagramma di Gantt. La struttura di suddivisione del lavoro in modelli di progetto supporta anche modalità di attività per ogni attività. Non esiste una differenza tra un modello di progetto e un progetto quando si crea una pianificazione del lavoro.  
+- **Struttura di suddivisione del lavoro**: una struttura di suddivisione del lavoro nel modello di progetto ha lo stesso set di elementi del progetto. Puoi creare una gerarchia di attività, associare ruoli ad attività, definire attributi di pianificazione, impostare dipendenze e visualizzare i dati nel diagramma di Gantt. La struttura di suddivisione del lavoro in modelli di progetto supporta anche modalità di attività per ogni attività. Non esiste una differenza tra un modello di progetto e un progetto quando si crea una pianificazione del lavoro.  
   
 - **Stime di progetto**: e stime di progetto nei modelli funzionano nello stesso modo in cui funzionano nei progetti, ad eccezione del fatto che i costi e i prezzi di vendita specificati sono sempre i costi e i listini prezzi di vendita predefiniti indicati nei parametri di [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Per il resto, il funzionamento è analogo a quello del progetto.  
   
 - **Formazione del team di progetto**: quando si crea un team di progettazione per un modello di progetto, non puoi prenotare una risorsa denominata nel modello. Puoi utilizzare **Genera team progetto** nella struttura di suddivisione del lavoro per creare un gruppo di risorse generiche. Puoi anche specificare le attività e le competenze necessarie per risorse generiche. Non puoi sostituire una risorsa generica a una risorsa prenotabile in modelli di progetto.  
-  
-## <a name="create-a-project-from-a-template"></a>Crea un progetto da un modello  
+
+## <a name="create-a-project-template-from-an-existing-project"></a>Creare un modello di progetto da un progetto esistente
+Puoi creare un modello di progetto da un progetto nei modi seguenti:
+
+- **Struttura di suddivisione del lavoro**: una struttura di suddivisione del lavoro in un modello derivato da un progetto copierà tutte le attività e le dipendenze. Le assegnazioni create saranno basate sui membri del team generici che vengono aggiunti al team di progetto quando viene creato il modello di progetto.
+- **Stime di progetto**: quando si crea un modello di progetto da un progetto esistente, le stime del progetto di origine vengono copiate nel modello di progetto.
+- **Membri del team di progetto**: quando un modello viene creato da un progetto esistente, tutti i membri del team con nome vengono sostituiti con la risorsa generica dell'organizzazione. Tutti i nomi e i ruoli delle posizioni vengono mantenuti.
+
+## <a name="create-a-project-from-a-template"></a>Creare un progetto da un modello  
  Puoi creare un progetto da un modello nei modi seguenti:  
   
 -   Quando si crea un progetto dall'offerta, puoi scegliere un modello di progetto nel modulo di creazione rapida del progetto stesso.  

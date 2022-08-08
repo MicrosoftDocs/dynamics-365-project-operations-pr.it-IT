@@ -1,20 +1,20 @@
 ---
-title: Novità o modifiche di Project Operations gennaio 2021 per scenari di materiali stoccati basati sulla produzione
-description: Questo articolo fornisce informazioni sugli aggiornamenti di qualità disponibili nella versione di gennaio 2021 di Project Operations per scenari di materiali stoccati basati sulla produzione.
+title: Novità o modifiche di Project Operations gennaio 2021 per scenari basati su materiali stoccati/produzione
+description: Questo articolo fornisce informazioni sugli aggiornamenti di qualità disponibili nella versione di gennaio 2021 di Project Operations per scenari basati su materiali stoccati/produzione.
 author: andchoi
 ms.date: 1/08/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 84a49994267d0c070769090f9fce9c6a969c98be
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 210ef2bf0316c5e88c287052f739e438f3796c5b
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8923929"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029443"
 ---
-# <a name="whats-new-or-changed-in-project-operations-january-2021-for-stockedproduction-based-scenarios"></a>Novità o modifiche di Project Operations gennaio 2021 per scenari di materiali stoccati basati sulla produzione
+# <a name="whats-new-or-changed-in-project-operations-january-2021-for-stockedproduction-based-scenarios"></a>Novità o modifiche di Project Operations gennaio 2021 per scenari basati su materiali stoccati/produzione
 
 _**Si applica a:** Project Operations per scenari basati su materiali stoccati/produzione_
 
@@ -100,7 +100,7 @@ Questo articolo si applica ai seguenti componenti e versioni di Dynamics 365 Pro
 | Contabilità e gestione dei progetti   | [514432](https://fix.lcs.dynamics.com/Issue/Details/?bugId=514432) | Una commissione da una regola di fatturazione non viene ricalcolata quando una proposta di fatturazione contiene righe selezionate per note di credito.                                                                                                                                                   |
 | Contabilità e gestione dei progetti   | [514633](https://fix.lcs.dynamics.com/Issue/Details/?bugId=514633) | L'importo del costo dell'articolo di progetto è diverso dall'importo del costo dell'ordine di acquisto quando l'entrata prodotti viene annullata.                                                                                                                                                                                 |
 | Contabilità e gestione dei progetti   | [514687](https://fix.lcs.dynamics.com/Issue/Details/?bugId=514687) | Manca il giustificativo durante la rettifica delle transazioni a un altro progetto.                                                                                                                                                                                                     |
-| Contabilità e gestione dei progetti   | [515258](https://fix.lcs.dynamics.com/Issue/Details/?bugId=515258) | L'eliminazione ripetuta dei giornali di integrazione di Project Operations in Finance porta alla perdita di dati.                                                                                                                                                               |
+| Contabilità e gestione dei progetti   | [515258](https://fix.lcs.dynamics.com/Issue/Details/?bugId=515258) | L'eliminazione ripetuta dei giornali di integrazione Project Operations in Finance porta alla perdita di dati.                                                                                                                                                               |
 | Contabilità e gestione dei progetti   | [515820](https://fix.lcs.dynamics.com/Issue/Details/?bugId=515820) | Il programma delle spese della richiesta di informazioni sui premi federali visualizza gli importi delle ricevute quando una proposta di fattura di progetto non è stata eseguita per una transazione di spesa.                                                                                                      |
 | Contabilità e gestione dei progetti   | [516616](https://fix.lcs.dynamics.com/Issue/Details/?bugId=516616) | Il controllo dei costi non funziona per i progetti interni o di investimento che hanno transazioni orarie e si verifica il seguente errore: "Per completare il calcolo della valuta è necessaria una valuta di transazione".                                                              |
 | Contabilità e gestione dei progetti   | [516799](https://fix.lcs.dynamics.com/Issue/Details/?bugId=516799) | Il componente aggiuntivo Microsoft Excel sottrae gli addebiti anziché i crediti utilizzando il giornale di registrazione giornaliero con un giornale di registrazione delle spese del progetto durante la pubblicazione dei dati dal componente aggiuntivo Excel.                                                                                                      |

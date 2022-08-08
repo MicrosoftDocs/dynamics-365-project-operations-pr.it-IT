@@ -1,21 +1,21 @@
 ---
-title: Novità di novembre 2020 - Project Operations per scenari di materiali stoccati basati sulla produzione
-description: Questo articolo fornisce informazioni sugli aggiornamenti di qualità disponibili nella versione di novembre 2020 di Project Operations per scenari di materiali stoccati basati sulla produzione.
+title: Novità di novembre 2020 - Project Operations per scenari basati su materiali stoccati/produzione
+description: Questo articolo fornisce informazioni sugli aggiornamenti di qualità disponibili nella versione di novembre 2020 di Project Operations per scenari basati su materiali stoccati/produzione.
 author: sigitac
 ms.date: 10/15/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 67f71aa045dc3c9dd513462709db79436c971b7b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 8f19f8476ed2b7958f0ba90d135bda483d05c923
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911234"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028232"
 ---
-# <a name="whats-new-november-2020---project-operations-for-stockedproduction-based-scenarios"></a>Novità di novembre 2020 - Project Operations per scenari di materiali stoccati basati sulla produzione
+# <a name="whats-new-november-2020---project-operations-for-stockedproduction-based-scenarios"></a>Novità di novembre 2020 - Project Operations per scenari basati su materiali stoccati/produzione
 
-_**Si applica a:** Project Operations per scenari di materiali stoccati basati sulla produzione_
+_**Si applica a:** Project Operations per scenari basati su materiali stoccati/produzione_
 
 ## <a name="quality-updates"></a>Aggiornamenti di qualità
 

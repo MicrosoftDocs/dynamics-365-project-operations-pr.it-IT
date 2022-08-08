@@ -1,18 +1,18 @@
 ---
 title: Novità di aprile 2022 - Project Operations per scenari basati su risorse/materiali non stoccati
-description: Questo articolo fornisce informazioni sugli aggiornamenti di qualità disponibili nella versione di aprile 2022 di Microsoft Dynamics 365 Project Operations per scenari basati su risorse/non stoccate.
+description: Questo articolo fornisce informazioni sugli aggiornamenti di qualità disponibili nella versione di aprile 2022 di Microsoft Dynamics 365 Project Operations per scenari basati su risorse/materiali non stoccati.
 author: sigitac
 ms.date: 04/08/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5ea1c96d64309990962f431b1c72ae47bf445bfa
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 999006b2c2fe2b31d6e47910a3f1a55cab415f0e
+ms.sourcegitcommit: 5c971b15295046b3c92ff6638dd1352129f1c390
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912383"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9110889"
 ---
 # <a name="whats-new-april-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novità di aprile 2022 - Project Operations per scenari basati su risorse/materiali non stoccati
 
@@ -25,7 +25,7 @@ Questo articolo si applica ai seguenti componenti e versioni di Microsoft Dynami
 
 ## <a name="features-included-in-this-release"></a>Funzioni incluse in questo rilascio
 
-Le categorie di approvvigionamento possono essere usate in ordini di acquisto di progetto e fatture fornitore in sospeso. Per altre informazioni, vedi [Utilizzare le categorie di approvvigionamento con ordini di acquisto di progetto e fatture fornitore in sospeso](configure-procurement-categories.md).
+Le categorie di approvvigionamento possono essere usate in ordini di acquisto di progetto e fatture fornitore in sospeso. Per altre informazioni, vedi [Utilizzare le categorie di approvvigionamento con ordini di acquisto di progetto e fatture fornitore in sospeso](../procurement/configure-procurement-categories.md).
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Aggiornamenti delle mappe a doppia scrittura di Project Operations
 

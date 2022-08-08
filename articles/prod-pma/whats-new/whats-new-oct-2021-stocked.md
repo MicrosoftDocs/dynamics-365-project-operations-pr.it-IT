@@ -1,5 +1,5 @@
 ---
-title: Novità o modifiche in Project Operations, ottobre 2021 per scenari di materiali stoccati basati sulla produzione
+title: Novità o modifiche in Project Operations, ottobre 2021 per scenari basati su materiali stoccati/produzione
 description: Questo articolo fornisce informazioni sugli aggiornamenti di qualità disponibili nella versione di ottobre 2021 di Project Operations per scenari basati su materiali stoccati/produzione.
 author: andchoi
 ms.date: 11/17/2021
@@ -7,14 +7,14 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: ba88268e74269c774b41396a8b6574e5bab477b9
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: aa36199c9e7b0a70307c5e9fb163d82554f6be16
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8933681"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029948"
 ---
-# <a name="whats-new-or-changed-in-project-operations-october-2021-for-stockedproduction-based-scenarios"></a>Novità o modifiche in Project Operations, ottobre 2021 per scenari di materiali stoccati basati sulla produzione
+# <a name="whats-new-or-changed-in-project-operations-october-2021-for-stockedproduction-based-scenarios"></a>Novità o modifiche in Project Operations, ottobre 2021 per scenari basati su materiali stoccati/produzione
 
 _**Si applica a:** Project Operations per scenari basati su materiali stoccati/produzione_
 
@@ -51,7 +51,7 @@ Questo articolo si applica ai seguenti componenti e versioni di Microsoft Dynami
 | Contabilità e gestione dei progetti | [597801](https://fix.lcs.dynamics.com/Issue/Details/?bugId=597801) | Il tipo di elemento del progetto di saldo iniziale è escluso da **Riepiloghi transazioni di proposte di fatturazione** quando viene calcolato il totale della fattura della proposta di fatturazione. |
 | Contabilità e gestione dei progetti | [597886](https://fix.lcs.dynamics.com/Issue/Details/?bugId=597886) | Se il costo del consumo in un ordine di produzione del progetto è 0 (zero), si verifica il seguente errore quando si tenta di eseguire la stima: "Tentativo di divisione per zero". |
 | Contabilità e gestione dei progetti | [598706](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598706) | L'app per dispositivi mobili Project Timesheet per Android non risponde. Il problema è correlato a **TimeEntryDataManager ArgumentNullException**. |
-| Contabilità e gestione dei progetti | [598758](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598758) | Il giornale di registrazione di integrazione di Project Operations restituisce un errore quando viene contabilizzato, perché mancano le dimensioni per un account. L'account per cui mancano le dimensioni non è tuttavia l'account in cui si esegue la registrazione. |
+| Contabilità e gestione dei progetti | [598758](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598758) | Il giornale di registrazione di integrazione Project Operations restituisce un errore quando viene contabilizzato, perché mancano le dimensioni per un account. L'account per cui mancano le dimensioni non è tuttavia l'account in cui si esegue la registrazione. |
 | Contabilità e gestione dei progetti | [598929](https://fix.lcs.dynamics.com/Issue/Details/?bugId=598929) | Il filtro **ToDate** nelle ricerche non viene cancellato quando viene rimosso dalla finestra di dialogo **Selezione** nella pagina **Registra costo**. |
 | Contabilità e gestione dei progetti | [599757](https://fix.lcs.dynamics.com/Issue/Details/?bugId=599757) | **Ripristina tutta la distribuzione** non riesce e restituisce un errore per i fogli presenze creati per un progetto di tipo **Solo ora**. |
 | Contabilità e gestione dei progetti | [602650](https://fix.lcs.dynamics.com/Issue/Details/?bugId=602650) | La scheda **Progetto** non è modificabile su una fattura fornitore in sospeso quando la categoria di approvvigionamento è assegnata all'articolo. |

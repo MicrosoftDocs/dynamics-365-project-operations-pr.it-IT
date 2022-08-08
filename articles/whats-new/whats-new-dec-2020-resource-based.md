@@ -1,20 +1,20 @@
 ---
-title: Novità di dicembre 2020 - Project Operations per scenari basati su risorse/non stoccate
-description: Questo articolo fornisce informazioni sugli aggiornamenti di qualità disponibili nella versione di dicembre 2020 di Project Operations per scenari basati su risorse/non stoccate.
+title: Novità di dicembre 2020 - Project Operations per scenari basati su risorse/materiali non stoccati
+description: Questo articolo fornisce informazioni sugli aggiornamenti di qualità disponibili nella versione di dicembre 2020 di Project Operations per scenari basati su risorse/materiali non stoccati.
 author: sigitac
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8eb5d2e31f8d3506fc07332cf78efda979c46206
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2b2cf628e6b6f4744cc0ee9deee2a92528a2410d
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8933037"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029719"
 ---
-# <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novità di dicembre 2020 - Project Operations per scenari basati su risorse/non stoccate
+# <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novità di dicembre 2020 - Project Operations per scenari basati su risorse/materiali non stoccati
 
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati_
 
@@ -31,7 +31,7 @@ In questa release sono incluse le seguenti funzionalità:
   - [Fatturazione interaziendale](../project-accounting/intercompany-invoicing-overview.md) 
   - [Acconti e anticipi cliente](../pro/sales/set-up-advances-retainer-based-contracts-sales.md)
 
-## <a name="updates-to-project-operations-for-resource-non-stocked-based-scenarios"></a>Aggiornamenti di Project Operations per scenari basati su risorse/non stoccate
+## <a name="updates-to-project-operations-for-resource-non-stocked-based-scenarios"></a>Aggiornamenti di Project Operations per scenari basati su risorse/materiali non stoccati
 
 ### <a name="project-operations-on-dataverse"></a>Project Operations in Dataverse
 

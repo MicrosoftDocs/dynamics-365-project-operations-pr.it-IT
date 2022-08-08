@@ -6,12 +6,12 @@ ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d7bb3dbb5acd9be447c405ec17f18d00c500f655
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 05cd71f9860b5698e3a26bc72660b0b2044206c8
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912245"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028707"
 ---
 # <a name="migrate-fully-invoiced-billing-milestones-at-cutover"></a>Migrare i passaggi fondamentali di fatturazione completamente fatturati al cutover
 
@@ -19,7 +19,7 @@ _**Si applica a:** Project Operations per scenari basati su risorse/materiali no
 
 ## <a name="scenario"></a>Scenario
 
-Contoso sarà disponibile con Microsoft Dynamics 365 Project Operations per scenari di risorse/non stoccate. Nell'ambito delle attività di cutover, il team di implementazione deve migrare i contratti di progetto aperti dal vecchio sistema. Alcuni contratti di progetto includono righe di contratto che utilizzano il metodo di fatturazione a prezzo fisso e sono già state parzialmente fatturate al cliente finale. Il team di implementazione deve migrare questi passaggi fondamentali di fatturazione come **Fattura cliente registrata**, perché devono essere inclusi nel valore totale del contratto ai fini del riconoscimento dei ricavi. Tuttavia, i saldi dei clienti in Contabilità clienti e Contabilità generale non devono essere interessati.
+Contoso sarà disponibile con Microsoft Dynamics 365 Project Operations per scenari di risorse/materiali non stoccati. Nell'ambito delle attività di cutover, il team di implementazione deve migrare i contratti di progetto aperti dal vecchio sistema. Alcuni contratti di progetto includono righe di contratto che utilizzano il metodo di fatturazione a prezzo fisso e sono già state parzialmente fatturate al cliente finale. Il team di implementazione deve migrare questi passaggi fondamentali di fatturazione come **Fattura cliente registrata**, perché devono essere inclusi nel valore totale del contratto ai fini del riconoscimento dei ricavi. Tuttavia, i saldi dei clienti in Contabilità clienti e Contabilità generale non devono essere interessati.
 
 ## <a name="solution"></a>Soluzione
 
@@ -46,7 +46,7 @@ Contoso sarà disponibile con Microsoft Dynamics 365 Project Operations per scen
 3. Aggiungi una mappa per lo stato della transazione.
 
     1. Seleziona **Aggiungi mapping**.
-    2. Sulla nuova riga, nella colonna **App per la finanza e le operazioni**, seleziona il campo **TRANSSTATUS \[TRANSSTATUS\]**.
+    2. Nella nuova riga, nella colonna **App per la finanza e le operazioni**, seleziona il campo **TRANSSTATUS \[TRANSSTATUS\]**.
     3. Nella colonna **Microsoft Dataverse** seleziona **msdyn\_invoicestatus \[Invoice status\]**.
     4. Nella colonna **Tipo di mappa** seleziona la freccia a destra (**\>**).
     5. Nella finestra di dialogo che appare, nel campo **Direzione sincronizzazione** seleziona **Da Dataverse alle app per la finanza e le operazioni**.

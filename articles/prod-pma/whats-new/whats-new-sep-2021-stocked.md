@@ -1,5 +1,5 @@
 ---
-title: Novità o modifiche in Project Operations, settembre 2021 per scenari di materiali stoccati basati sulla produzione
+title: Novità o modifiche in Project Operations, settembre 2021 per scenari basati su materiali stoccati/produzione
 description: Questo articolo fornisce informazioni sugli aggiornamenti di qualità disponibili nella versione di settembre 2021 di Project Operations per scenari basati su materiali stoccati/produzione.
 author: andchoi
 ms.date: 11/11/2021
@@ -7,14 +7,14 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 1e99471b4338209c1f7fe411084d1745d74b2d2c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: be0f397df4a3e1973e1f5546e43b2cf9578950a0
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8916523"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029857"
 ---
-# <a name="whats-new-or-changed-in-project-operations-september-2021-for-stockedproduction-based-scenarios"></a>Novità o modifiche in Project Operations, settembre 2021 per scenari di materiali stoccati basati sulla produzione
+# <a name="whats-new-or-changed-in-project-operations-september-2021-for-stockedproduction-based-scenarios"></a>Novità o modifiche in Project Operations, settembre 2021 per scenari basati su materiali stoccati/produzione
 
 _**Si applica a:** Project Operations per scenari basati su materiali stoccati/produzione_
 

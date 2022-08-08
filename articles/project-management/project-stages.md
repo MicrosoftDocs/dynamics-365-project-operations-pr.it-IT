@@ -15,16 +15,16 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: b146174583fdea45481b87375158ebe83ed63418
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: a8c8e63a2d8c238f582b67348f88b7285a0b1e12
+ms.sourcegitcommit: 278740b352f1ed9618ee5c79597c8f449984d6f4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911141"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "9177384"
 ---
 # <a name="project-stages"></a>Fasi del progetto
 
-_**Si applica a:** Project Operations per scenari basati su risorse/non stoccate, Distribuzione semplice: dalla transazione alla fatturazione proforma_
+_**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione lite: dalla transazione alla fatturazione proforma_
 
 Le fasi del progetto sono ideate per riflettere lo stato del progetto durante l'esecuzione dello stesso. Le personalizzazioni possono essere utilizzate per aggiornare automaticamente le fasi con i flussi di processi aziendali, Power Automate o estensioni plug-in.
 
@@ -47,7 +47,7 @@ Quando associ un progetto a un'offerta o quando crei un progetto da un'offerta, 
 
 ## <a name="plan"></a>Piano
 
-Quando acquisisci un'offerta associata a un progetto e il progetto passa alla fase **Contratto**, la fase di progetto diventa **Piano**. Quando il progetto è nella fase **Piano**, la pagina **Entità progetto** visualizza i dettagli del contratto.
+Quando acquisisci un'offerta associata a un progetto e il progetto passa alla fase **Contratto**, la fase di progetto diventa **Piano**. Sebbene il progetto sia nella fase **Piano**, nella scheda **Vendita** della pagina **Entità progetto** vengono visualizzati i dettagli del contratto.
 
 ## <a name="deliver"></a>Consegna
 

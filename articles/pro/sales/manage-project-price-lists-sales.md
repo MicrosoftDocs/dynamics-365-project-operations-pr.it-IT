@@ -6,16 +6,16 @@ ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6902d22c7bd4b422466c924ee6473146b036caa5
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: af89996fcaca9823d32e84e10ce6d29ead4f3d6d
+ms.sourcegitcommit: 95dacb0e74fa8970f56fdb1cbaa915d3fbec6e0f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8929955"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "9023618"
 ---
 # <a name="manage-project-price-lists-on-project-quotes"></a>Gestire i listini prezzi di progetto sulle offerte di progetto 
 
-_**Si applica a:** Distribuzione semplice: dalla transazione alla fatturazione proforma_
+_**Si applica a:** Distribuzione lite: dalla transazione alla fatturazione proforma, Project Operations per scenari basati su risorse/materiali non stoccati_
 
 Le offerte di progetto sono progettate per supportare listini prezzi di vendita con più date di validità. Con Dynamics 365 Project Operations, una nuova entità associata chiamata **Listini prezzi di progetto** è stata aggiunta. Questa entità ha una relazione 1-a-molti con un'offerta di progetto.
 

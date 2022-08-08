@@ -14,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: ecd6bded5fcf834ea14f7aca1ff11a1ede162877
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b4ed85123c92a60c6b6308fda3d9ef2f6693a0dd
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922871"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028891"
 ---
 # <a name="project-mobile-applications-overview"></a>Panoramica delle applicazioni Projects per dispositivi mobili
 
@@ -37,7 +37,7 @@ L'area di lavoro Immissione ora progetto consente agli utenti di entrare e rispa
 
 ## <a name="my-timesheetstimesheets-for-my-review"></a>Fogli presenze personali/Fogli presenze per la mia revisione
 
-Fogli presenze personali (ottimizzati per dispositivi mobili) e Fogli presenze per la mia revisione (ottimizzate per dispositivi mobili) costituiscono una soluzione che consente ai dipendenti di creare, inviare e approvare fogli presenze di progetto su un dispositivo mobile. I lavoratori possono accedere alla funzionalità Finance tramite l'URL dell'applicazione. Questa soluzione non richiede l'applicazione per la finanza e le operazioni per dispositivi mobili.
+Fogli presenze personali (ottimizzati per dispositivi mobili) e Fogli presenze per la mia revisione (ottimizzate per dispositivi mobili) costituiscono una soluzione che consente ai dipendenti di creare, inviare e approvare fogli presenze di progetto su un dispositivo mobile. I lavoratori possono accedere alla funzionalità Finance tramite l'URL dell'applicazione. Questa soluzione non richiede l'app per la finanza e le operazioni per dispositivi mobili.
 
 ## <a name="for-more-information"></a>Per altre informazioni
 

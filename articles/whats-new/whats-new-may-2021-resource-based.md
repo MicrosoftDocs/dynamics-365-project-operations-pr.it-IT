@@ -1,18 +1,18 @@
 ---
 title: Novità di maggio 2021 - Project Operations per scenari basati su risorse/materiali non stoccati
-description: Questo articolo fornisce informazioni sugli aggiornamenti di qualità disponibili nella versione di maggio 2021 di Project Operations per scenari basati su risorse/non stoccate.
+description: Questo articolo fornisce informazioni sugli aggiornamenti di qualità disponibili nella versione di maggio 2021 di Project Operations per scenari basati su risorse/materiali non stoccati.
 author: sigitac
 ms.date: 05/11/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 425b0eb78b5f03d4b0da9a792d6e33fc96adf060
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: cc5e8104702951fd787d02407d26671e46d44f0c
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8930415"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029994"
 ---
 # <a name="whats-new-may-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novità di maggio 2021 - Project Operations per scenari basati su risorse/materiali non stoccati
 

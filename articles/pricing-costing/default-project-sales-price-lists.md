@@ -6,16 +6,16 @@ ms.date: 10/13/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7a8f99cd03e5c2c15941c17469cc5632765b0fdc
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 99af12577abeb0b77dc5d8a117d1e3b292bf0b80
+ms.sourcegitcommit: 260368e1d0751db713da073a641c63c04876fcdf
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917719"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "9036416"
 ---
 # <a name="default-price-lists"></a>Listini prezzi predefiniti
 
-_**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione semplice: dalla transazione alla fatturazione proforma_
+_**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione lite: dalla transazione alla fatturazione proforma_
 
 ## <a name="sales-price-lists"></a>Listini prezzi di vendita
 
@@ -25,7 +25,7 @@ Ogni offerta e contratto di progetto in Dynamics 365 Project Operations contiene
 Il sistema completa il seguente processo per determinare quale listino prezzi impostare come predefinito per un'offerta di progetto:
 
 1. Il sistema esamina i listini prezzi collegati ai listini prezzi di progetto dell'account. 
-2. Se sono presenti listini prezzi di progetto collegati al record dell'account, il sistema esamina i listini prezzi di vendita collegati ai parametri di progetto che corrispondono alla valuta dell'offerta di progetto.
+2. Se non sono presenti listini prezzi di progetto collegati al record dell'account, il sistema esamina i listini prezzi di vendita collegati ai parametri di progetto che corrispondono alla valuta dell'offerta di progetto.
 3. Successivamente, il sistema verifica la validità delle date dei listini prezzi che rientrano nell'intervallo di date dell'offerta di progetto. In particolare, la data di creazione dell'offerta.
 4. Se sono presenti più listini prezzi validi per la data dell'offerta di progetto, tutti i listini prezzi sono predefiniti nell'offerta di progetto.
 5. Se non sono in vigore listini prezzi per la data dell'offerta di progetto, non è presente alcun listino prezzi di progetto predefinito nell'offerta di progetto. Apparirà un messaggio di avviso per l'offerta di progetto. Il messaggio indica che poiché non sono presenti listini prezzi di progetto collegati non verrà assegnato un prezzo ai valori effettivi e alle spese del progetto.

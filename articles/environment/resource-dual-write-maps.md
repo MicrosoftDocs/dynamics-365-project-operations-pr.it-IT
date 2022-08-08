@@ -2,22 +2,22 @@
 title: Versioni della mappa a doppia scrittura di Project Operations
 description: Questo articolo fornisce l'elenco delle mappe a doppia scrittura richieste per Dynamics 365 Project Operations.
 author: sigitac
-ms.date: 04/22/2021
+ms.date: 07/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ee0b6a1722405e6a50c42db6bd2a25b872c6118c
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: e904ad18b6ea94cd6d31d1878b5bc9e7c52be741
+ms.sourcegitcommit: c8b8fef5626790208c5290b1bb92b17a5d90d286
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959451"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112434"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Versioni della mappa a doppia scrittura di Project Operations
 
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati_
 
-Utilizzando Dynamics 365 Project Operations per scenari di risorse/non stoccate, è necessario che nell'ambiente sia in esecuzione una serie di mappe a doppia scrittura. 
+Utilizzando Dynamics 365 Project Operations per scenari di risorse/materiali non stoccati, è necessario che nell'ambiente sia in esecuzione una serie di mappe a doppia scrittura. 
 
 ## <a name="prerequisite-maps-dual-write-orchestration-solution"></a>Prerequisiti delle mappe: soluzione di orchestrazione doppia scrittura
 
@@ -25,12 +25,12 @@ Le mappe seguenti sono prerequisiti obbligatori per la soluzione Project Operati
 
 | Mapping tabella | Sincronizzazione iniziale |
 | --- | --- |
-| Libro mastro (msdyn_ledgers) | Richiede la sincronizzazione iniziale per la mappa della tabella e tutti i prerequisiti. Il master per la sincronizzazione iniziale è l'app per la finanza e le operazioni. |
+| Libro mastro (msdyn_ledgers) | Richiede la sincronizzazione iniziale per la mappa della tabella e tutti i prerequisiti. Le app per la finanza e le operazioni sono il master per la sincronizzazione iniziale. |
 | Persone giuridiche (cdm_companies) | Non obbligatorio. Il sistema popola questa entità automaticamente quando gli ambienti sono collegati utilizzando la doppia scrittura. |
 | Clienti V3 (accounts) | Non obbligatorio per il provisioning. |
 | Fornitori V2 (msdyn_vendors) | Non obbligatorio per il provisioning. |
 
-1. Dall'elenco dei mapping, seleziona la mappa Libro mastro **(msdyn\_ledgers)** con tutti i prerequisiti e seleziona la casella di controllo **Sincronizzazione iniziale**. Nel campo **Master per la sincronizzazione iniziale** seleziona **App per la finanza e le operazioni** sia per la mappa del contabilità genrale che per tutte le mappe dei prerequisiti. Selezionare **Esegui**.
+1. Dall'elenco dei mapping, seleziona la mappa Libro mastro **(msdyn\_ledgers)** con tutti i prerequisiti e seleziona la casella di controllo **Sincronizzazione iniziale**. Nel campo **Master per la sincronizzazione iniziale** seleziona **App per la finanza e le operazioni** sia per la mappa del contabilità generale che per tutte le mappe dei prerequisiti. Selezionare **Esegui**.
 
 ![Sincronizzazione dei mapping del libro mastro.](media/DW6.png)
 
@@ -46,7 +46,7 @@ Le mappe seguenti sono obbligatorie per una soluzione Project Operations. Le ver
 | Intestazioni del contratto di progetto (ordini di vendita) | 1.0.0.1 | Non obbligatorio per il provisioning. ||
 | Voci del contratto di progetto (salesorderdetails) | 1.0.0.0 | Non obbligatorio per il provisioning. ||
 | Fonte di finanziamento di progetto (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Non obbligatorio per il provisioning. ||
-| Tabella di integrazione Project Operations per le stime dei materiali (msdyn\_estimatelines) | 1.0.0.0 | Non obbligatorio per il provisioning. ||
+| Tabella di integrazione di progetto per le stime dei materiali (msdyn\_estimatelines) | 1.0.0.0 | Non obbligatorio per il provisioning. ||
 | Proposte di fattura di progetto V2 (invoices) | 1.0.0.3 | Non obbligatorio per il provisioning. ||
 | Valori effettivi dell'integrazione di Project Operations (msdyn_actuals) | 1.0.0.14 | Non obbligatorio per il provisioning. ||
 | Passaggi fondamentali delle righe del contratto per l'integrazione di Project Operations (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Non obbligatorio per il provisioning. ||

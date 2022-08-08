@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7d774631a4712de9b29ddedfee2ea3fc4a2d436f
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: f71c6bfcd183613471a4cc10e16a5a54571fac31
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927425"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028615"
 ---
 # <a name="use-procurement-categories-with-project-purchase-orders-and-pending-vendor-invoices"></a>Utilizzare le categorie di approvvigionamento con ordini di acquisto di progetto e fatture fornitore in sospeso
 
@@ -22,10 +22,10 @@ I professionisti degli acquisti possono creare e gestire cataloghi degli articol
 
 ## <a name="minimum-version-requirements"></a>Requisiti di versione minima
 
-Le versioni seguenti sono necessarie per utilizzare le categorie di approvvigionamento con gli ordini di acquisto del progetto per scenari Microsoft Dynamics 365 Project Operations basati su risorse/non stoccate:
+Le versioni seguenti sono necessarie per utilizzare le categorie di approvvigionamento con gli ordini di acquisto del progetto per scenari Microsoft Dynamics 365 Project Operations basati su risorse/materiali non stoccati:
 
 - Soluzione Project Operations Dataverse versione 4.41.0.45 o successiva
-- Ambiente Finance and Operations versione 10.0.26 o successiva
+- Ambiente delle app per la finanza e le operazioni versione 10.0.26 o successiva
 
 ## <a name="run-dual-write-maps-for-procurement-category-support"></a>Eseguire mappe a doppia scrittura per il supporto delle categorie di approvvigionamento
 
@@ -36,10 +36,10 @@ Assicurati che la mappatura per **Entità di esportazione riga di fattura fornit
 Attieniti alla seguente procedura per abilitare la funzionalità per l'utilizzo delle categorie di approvvigionamento con gli ordini di acquisto del progetto.
 
 1. In Dynamics 365 Finance, apri l'area di lavoro **Gestione funzionalità**.
-1. Nell'elenco delle funzionalità, trova la funzionalità **Utilizza le categorie di approvvigionamento in Project Operations per scenari basati su risorse/non stoccate** e seleziona **Abilita**.
+1. Nell'elenco delle funzionalità, trova la funzionalità **Utilizza le categorie di approvvigionamento in Project Operations per scenari basati su risorse/materiali non stoccati** e seleziona **Abilita**.
 
 > [!IMPORTANT]
-> Come prerequisito, devi anche abilitare la funzionalità **Abilita le fatture fornitore in sospeso su Project Operations per scenari basati su risorse/non stoccate**.
+> Come prerequisito, devi anche abilitare la funzionalità **Abilita le fatture fornitore in sospeso su Project Operations per scenari basati su risorse/materiali non stoccati**.
 
 ## <a name="map-project-categories-in-the-procurement-category-hierarchy"></a>Mappare le categorie di progetto nella gerarchia delle categorie di approvvigionamento
 

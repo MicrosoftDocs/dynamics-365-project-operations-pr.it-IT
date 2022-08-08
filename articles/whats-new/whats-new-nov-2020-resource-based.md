@@ -1,19 +1,19 @@
 ---
-title: Novità di novembre 2020 - Project Operations per scenari basati su risorse/non stoccate
-description: Questo articolo fornisce informazioni sugli aggiornamenti di qualità disponibili nella versione di novembre 2020 di Project Operations per scenari basati su risorse/non stoccate.
+title: Novità di novembre 2020 - Project Operations per scenari basati su risorse/materiali non stoccati
+description: Questo articolo fornisce informazioni sugli aggiornamenti di qualità disponibili nella versione di novembre 2020 di Project Operations per scenari basati su risorse/materiali non stoccati.
 author: sigitac
 ms.date: 10/30/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b98c968a040c14f4d11c350885e2cbb984596c48
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 75a7b63c12b0ad3c6808785b6cbe6f22bd65f126
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8923423"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029535"
 ---
-# <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novità di novembre 2020 - Project Operations per scenari basati su risorse/non stoccate
+# <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novità di novembre 2020 - Project Operations per scenari basati su risorse/materiali non stoccati
 
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati_
 
@@ -22,7 +22,7 @@ Questo articolo si applica ai seguenti componenti e versioni di Dynamics 365 Pro
 - Project Operations in ambiente CDS versione 4.4.0.70
 - Gestione progetti e contabilità in un ambiente Dynamics 365 Finance versione 10.0.14
 
-## <a name="updates-to-project-operations-for-resource-non-stocked-based-scenarios"></a>Aggiornamenti di Project Operations per scenari basati su risorse/non stoccate
+## <a name="updates-to-project-operations-for-resource-non-stocked-based-scenarios"></a>Aggiornamenti di Project Operations per scenari basati su risorse/materiali non stoccati
 
 ### <a name="project-operations-on-cds"></a>Project Operations in CDS
 

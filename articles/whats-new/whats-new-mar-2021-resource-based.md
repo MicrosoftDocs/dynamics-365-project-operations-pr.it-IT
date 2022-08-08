@@ -1,20 +1,20 @@
 ---
-title: Novità di marzo 2021 - Project Operations per scenari basati su risorse/non stoccate
-description: Questo articolo fornisce informazioni sugli aggiornamenti di qualità disponibili nella versione di marzo 2021 di Project Operations per scenari basati su risorse/non stoccate.
+title: Novità di marzo 2021 - Project Operations per scenari basati su risorse/materiali non stoccati
+description: Questo articolo fornisce informazioni sugli aggiornamenti di qualità disponibili nella versione di marzo 2021 di Project Operations per scenari basati su risorse/materiali non stoccati.
 author: sigitac
 ms.date: 03/03/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: fbdcb01117c39f879f80319b01d278c91a56e8f6
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: e93b4eaad98267f163bad4aff3e4fdcc661e2ab0
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932945"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028268"
 ---
-# <a name="whats-new-march-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novità di marzo 2021 - Project Operations per scenari basati su risorse/non stoccate
+# <a name="whats-new-march-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novità di marzo 2021 - Project Operations per scenari basati su risorse/materiali non stoccati
 
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati_
 
@@ -44,7 +44,7 @@ Questo articolo si applica ai seguenti componenti e versioni di Dynamics 365 Pro
 
 ### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Gestione progetti e contabilità in Dynamics 365 Finance
 
-Per ulteriori informazioni vedi [Novità di gennaio 2021 - Project Operations per scenari basati su risorse/non stoccate](whats-new-jan-2021-resource-based.md).
+Per ulteriori informazioni vedi [Novità di gennaio 2021 - Project Operations per scenari basati su risorse/materiali non stoccati](whats-new-jan-2021-resource-based.md).
 
 ## <a name="regulatory-updates"></a>Aggiornamenti normativi
 

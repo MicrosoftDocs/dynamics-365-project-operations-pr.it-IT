@@ -6,12 +6,12 @@ ms.date: 05/04/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a54ca1ec5e78d9d0af7b67914f6a63154c7347d3
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 079856e7cf2ffa9b80ab31ebad1c1b5dbe36a4ad
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931197"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028478"
 ---
 # <a name="item-requirements-for-project-contracts-with-multiple-funding-sources"></a>Requisiti degli articoli per contratti di progetto con più fonti di finanziamento
 
@@ -33,7 +33,7 @@ Contoso ha vinto un contratto di rinnovo delle apparecchiature con due dei suoi 
 
 ### <a name="prerequisites"></a>Prerequisiti
 
-- Microsoft Dynamics 365 Finance and Operations **versione 10.0.27 o successiva** è necessario per utilizzare i requisiti dell'articolo con più conti fattura.
+- Microsoft Dynamics 365 Finance **versione 10.0.27 o successiva** è necessario per utilizzare i requisiti dell'articolo con più conti fattura.
 - Il tuo sistema amministratore deve abilitare la funzionalità **Consenti requisiti articolo con più fonti di finanziamento per scenari in stock/produzione di Project Operations** nell'area di lavoro **Gestione funzionalità**.
 
 ### <a name="set-up-the-invoice-account-defaulting-rules"></a>Impostare le regole predefinite del conto fatture
