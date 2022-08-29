@@ -62,10 +62,12 @@
           href: environment/uninstall-project-operations.md
     - name: Novità
       items:
-        - name: Luglio 2022 - Project Operations per scenari basati su risorse/materiali non stoccati
-          href: whats-new/whats-new-july-2022-resource-based.md
+        - name: Agosto 2022 - Project Operations per scenari basati su articoli non stoccati/risorse
+          href: whats-new/whats-new-aug-2022-resource-based.md
         - name: Archivio
           items:
+            - name: Luglio 2022 - Project Operations per scenari basati su risorse/materiali non stoccati
+              href: whats-new/whats-new-july-2022-resource-based.md
             - name: Giugno 2022 - Project Operations per scenari basati su risorse/materiali non stoccati
               href: whats-new/whats-new-june-2022-resource-based.md
             - name: Maggio 2022 - Project Operations per scenari basati su risorse/materiali non stoccati
@@ -384,13 +386,49 @@
           items:
             - name: Panoramica sull'uso delle risorse
               href: resource-management/resource-utilization-overview.md
-    - name: Inserimento ore
+    - name: Gestione dei conti lavoro
       items:
-        - name: Panoramica dell'inserimento ore
+        - name: Gestione dei conti lavoro in Project Operations
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Concetti chiave in conto lavoro
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: Gestione fornitori e listini prezzi dei progetti
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: Terzisti come risorse prenotabili
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: Dettagli dell'intestazione per conto lavoro
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: Righe conto lavoro per orario
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: Righe conto lavoro per categorie di spesa
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: Righe conto lavoro per prodotti
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: Risorse righe conto lavoro
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: Punti cardine righe conto lavoro
+          href: pro/subcontracting/subcontract-line-milestones.md
+        - name: Membri del team di progetto in conto lavoro
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: Opzioni di conto lavoro per i membri del team di progetto
+          href: pro/subcontracting/subcon-options.md
+        - name: Stima dei costi delle assegnazioni di risorse in conto lavoro
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: Configurare la scheda di pianificazione per mostrare i lavoratori a contratto e la capacità in conto lavoro
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: Personale di un progetto con lavoratori a contratto e capacità in conto lavoro
+          href: pro/subcontracting/staffing-cw.md
+        - name: 'Tempo di registrazione, spese e utilizzo di materiale per i componenti in conto lavoro'
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: Transizioni di stato in un conto lavoro
+          href: pro/subcontracting/subcon-states.md
+    - name: Ore
+      items:
+        - name: Panoramica delle ore
           href: time/time-entry-overview.md
         - name: Creare inserimenti ore
           items:
-            - name: Interfaccia utente per l'inserimento ore
+            - name: Interfaccia utente per l'inserimento delle ore
               href: time/ui-behavior-time.md
         - name: Note per gli sviluppatori
           items:
@@ -580,6 +618,8 @@
       items:
         - name: Eseguire la migrazione dei passaggi fondamentali di fatturazione completamente fatturati durante il cutover
           href: advanced-configuration/migrating-invoiced-milestones.md
+        - name: Sincronizzare lo stato del progetto per impedire l'immissione in progetti chiusi
+          href: advanced-configuration/sync-project-status.md
     - name: Aggiornamento
       items:
         - name: Considerazioni sull'aggiornamento per le approvazioni moderne
@@ -610,10 +650,12 @@
           href: environment/security-model.md
     - name: Novità
       items:
-        - name: Novità luglio 2022 - distribuzione semplice
-          href: pro/whats-new/whats-new-july-2022-lite.md
+        - name: Novità agosto 2022 - distribuzione semplice
+          href: pro/whats-new/whats-new-aug-2022-lite.md
         - name: Archivio
           items:
+            - name: Novità luglio 2022 - distribuzione semplice
+              href: pro/whats-new/whats-new-july-2022-lite.md
             - name: Novità giugno 2022 - distribuzione semplice
               href: pro/whats-new/whats-new-june-2022-lite.md
             - name: Accesso in anteprima alle novità 2021 ciclo 2 - distribuzione semplice
