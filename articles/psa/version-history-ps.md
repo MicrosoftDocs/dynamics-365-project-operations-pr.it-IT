@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b8437df6a1ea7b5bff272767b6bd0540d632e1a0
-ms.sourcegitcommit: 7e7a5e39360cd30ef5fcb3242c050673df63c156
+ms.openlocfilehash: 14fd22c7c863d650baebf1c7c2c96521d0bd207c
+ms.sourcegitcommit: 153eb9325df25b31539bb2b44077326386ab41ae
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "9190671"
+ms.lasthandoff: 08/15/2022
+ms.locfileid: "9295836"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Pianificazione del rilascio dell'aggiornamento per Project Service 3.x
 
@@ -63,12 +63,12 @@ Per informazioni sugli aggiornamenti di Project Service, vedi i [Piani di rilasc
 | | <i>Oceana</i> | [3.10.76.168](whats-new-ur-45.md) | Da definire | 09 settembre 2022
 | | <i>Emirati Arabi Uniti</i> | [3.10.76.168](whats-new-ur-45.md) | Da definire | 09 settembre 2022
 |<strong>Stazione 4</strong> | |  |  | |
-| | <i>Europa</i> | [3.10.75.142](whats-new-ur-44.md) | [3.10.76.168](whats-new-ur-45.md) | 29 luglio 2022
+| | <i>Europa</i> | [3.10.76.168](whats-new-ur-45.md) | Da definire | 16 settembre 2022
 |<strong>Stazione 5</strong> | |  |  | |
-| | <i>America del Nord</i> | [3.10.75.142](whats-new-ur-44.md) | [3.10.76.168](whats-new-ur-45.md) | 05 agosto 2022
+| | <i>America del Nord</i> | [3.10.76.168](whats-new-ur-45.md) | Da definire | 23 settembre 2022
 |<strong>Stazione 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | [3.10.75.142](whats-new-ur-44.md) | [3.10.76.168](whats-new-ur-45.md) | 03 agosto 2022
-| | <i>Gruppi di scale dedicati</i> | [3.10.75.142](whats-new-ur-44.md) | [3.10.76.168](whats-new-ur-45.md) | 05 agosto 2022
+| | <i>Government Community Cloud</i> | [3.10.76.168](whats-new-ur-45.md) | Da definire | 21 settembre 2022
+| | <i>Gruppi di scale dedicati</i> | [3.10.76.168](whats-new-ur-45.md) | Da definire | 30 settembre 2022
 
 
 

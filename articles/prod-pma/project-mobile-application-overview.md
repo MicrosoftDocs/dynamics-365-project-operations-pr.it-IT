@@ -14,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: b4ed85123c92a60c6b6308fda3d9ef2f6693a0dd
-ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.openlocfilehash: 74d3f5377559763e035155bd3f10818076f97ea3
+ms.sourcegitcommit: fcfcedacfea4d6feabacb6b83bb9c14e5a25fcaf
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/18/2022
-ms.locfileid: "9028891"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9316992"
 ---
 # <a name="project-mobile-applications-overview"></a>Panoramica delle applicazioni Projects per dispositivi mobili
 
@@ -42,9 +42,8 @@ Fogli presenze personali (ottimizzati per dispositivi mobili) e Fogli presenze p
 ## <a name="for-more-information"></a>Per altre informazioni
 
 - [Applicazione per dispositivi mobili Foglio presenze progetto](project-timesheet.md)
-- [Immissione ora progetto]( project-time-entry-mobile-workspace.md)
+- [Immissione ora progetto](project-time-entry-mobile-workspace.md)
 - [Fogli presenze di progetto su un dispositivo mobile](Mobile-timesheets.md)
 - [Implementare campi personalizzati per l'app per dispositivi mobili Microsoft Dynamics 365 Project Timesheet su iOS e Android](custom-fields-mobile.md)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

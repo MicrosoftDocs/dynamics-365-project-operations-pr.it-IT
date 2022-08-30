@@ -1,17 +1,17 @@
 ---
-title: Impostare e applicare i dati di configurazione in Common Data Service
+title: Impostare e applicare i dati di configurazione in Microsoft Dataverse
 description: Questo articolo fornisce informazioni sull'impostazione e sull'applicazione dei dati di configurazione in Project Operations.
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 2c918425e9a6c5fe8888ed8a4258ca59f0464828
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b09d3ea7348082a0467fd7b47918c9e00d1f1e8c
+ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928023"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9230242"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Impostare e applicare i dati di configurazione in Common Data Service 
 
@@ -21,10 +21,10 @@ _**Si applica a:** Project Operations per scenari basati su risorse/materiali no
 
 ## <a name="prerequisites"></a>Prerequisiti
 
-Prima di iniziare a configurare i dati in Common Data Service (CDS), devono essere soddisfatti i seguenti prerequisiti:
+Prima di iniziare a configurare i dati in Microsoft Dataverse, devono essere soddisfatti i seguenti prerequisiti:
 
-1.  Esegui il provisioning di un ambiente CDS e un ambiente Dynamics 365 Finance per Project Operations.
-2.  Le informazioni sulla persona giuridica di Dynamics 365 Finance vengono condivise nell'ambiente CDS. Ciò significa che l'entità **Società** in CDS ha i seguenti record aziendali:
+1.  Esegui il provisioning di un ambiente Dataverse e un ambiente Dynamics 365 Finance per Project Operations.
+2.  Le informazioni sulla persona giuridica di Dynamics 365 Finance vengono condivise nell'ambiente Dataverse. Ciò significa che l'entità **Società** in Dataverse ha i seguenti record aziendali:
   - THPM
   - USPM
   - GBPM
