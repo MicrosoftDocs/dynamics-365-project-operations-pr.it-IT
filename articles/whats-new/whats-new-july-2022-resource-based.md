@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: cbee9281d2fae485a3ebcd38bb884a2b2322f8d1
-ms.sourcegitcommit: 66e376675e6df8efc86fa84ec24e9aad6a980304
+ms.openlocfilehash: e63b29741dbaa400a2176ff8b4c35c6d64dfeab4
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "9183908"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403956"
 ---
 # <a name="whats-new-july-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novità di luglio 2022 - Project Operations per scenari basati su risorse/materiali non stoccati
 
@@ -45,6 +45,12 @@ Se riscontri un problema durante l'avvio della mappa, segui le istruzioni nella 
 | Prezzi e fatturazione | 2675880 | Impedire il collegamento di un progetto a una voce di contratto non basata sul lavoro. |
 | Prezzi e fatturazione | 2664396 | Se il listino prezzi di un'offerta viene salvato senza un'offerta, deve esserci un errore indicante che l'offerta non può essere vuota. |
 | Prezzi e fatturazione | 2184019 | La scheda **Fatturazione basata su attività** non deve essere visualizzata per i progetti che non hanno un contratto o un'offerta di supporto. |
+| Ore e spesa | 2754459 | Quando il flusso cloud di pianificazione ricorrente è inattivo, mostra il banner e ignora l'elaborazione asincrona. |
+| Prezzi e fatturazione | 2724391 | Viene generata un'eccezione errata quando alla regola di fatturazione divisa del contratto di progetto manca un valore cliente. |
+| Prezzi e fatturazione | 2708638 | Il record non è stato trovato durante la ricerca utilizzando la ricerca nella griglia in Utilizzo materiale e Approvazioni per utilizzo materiale.|
+| Prezzi e fatturazione | 2686977 | Impedisci la convalida per la riga della fattura durante la creazione della fattura. |
+| Prezzi e fatturazione | 2683032 | La copia di ruoli e categorie addebitabili non supera i 5.000 record.|
+| Prezzi e fatturazione | 2673363 | La percentuale di consumo dei costi sul progetto è danneggiata quando per un progetto esistono sia le stime degli sforzi che delle spese e gli effettivi. |
 
 ### <a name="project-management-and-accounting-in-finance"></a>Contabilità e gestione dei progetti in Finance
 

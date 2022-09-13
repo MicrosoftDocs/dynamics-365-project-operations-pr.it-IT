@@ -1,45 +1,85 @@
 ---
-title: Risolvere i prezzi di costo in valori effettivi e stime di progetto
-description: Questo articolo fornisce informazioni su come vengono risolti i prezzi di costo nelle stime di progetto e nei valori effettivi.
+title: Determinare i tassi di costo per stime e valori effettivi di progetto
+description: Questo articolo fornisce informazioni su come vengono determinati i tassi di costo nelle stime di progetto e nei valori effettivi.
 author: rumant
-ms.date: 04/07/2021
+ms.date: 09/01/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c278d8994389145c6dbee7574d2354724d985722
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: c7dd264ebbd1da9b2f42d2284fb38988a09aa03f
+ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917535"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9410154"
 ---
-# <a name="resolve-cost-prices-on-project-estimates-and-actuals"></a>Risolvere i prezzi di costo in valori effettivi e stime di progetto 
+# <a name="determine-cost-rates-for-project-estimates-and-actuals"></a>Determinare i tassi di costo per stime e valori effettivi di progetto
 
-_**Si applica a:** Distribuzione semplice: dalla transazione alla fatturazione proforma_
+_**Si applica a:** Distribuzione lite: dalla transazione alla fatturazione proforma_
 
-Per risolvere i prezzi di costo e il listino prezzi di costo per le stime e i valori effettivi, il sistema utilizza le informazioni nei campi **Data**, **Valuta** e **Unità contratto** del progetto correlato. Dopo che il listino prezzi di costo è stato risolto, l'applicazione risolve la tariffa di costo.
+Per determinare i tassi di costo e il listino prezzi di costo per le stime e i contesti effettivi, il sistema utilizza le informazioni nei campi **Data**, **Valuta** e **Unità contratto** del progetto correlato.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-time"></a>Risoluzione delle tariffe di costo sulle righe di stima e valori effettivi per il tempo
+## <a name="determining-cost-rates-in-estimate-and-actual-contexts-for-time"></a>Determinazione dei tassi di costo nelle stime e nei contesti attuali per il tempo
 
-Le righe di stima per tempo si riferiscono ai dettagli della riga di offerta e contratto per le assegnazioni di tempo e risorse di un progetto.
+Il contesto di stima per **Ora** si riferisce a:
 
-Dopo che un listino prezzi di costo è stato risolto, i campo **Ruolo** e **Unità risorse** nella riga di stima per Ora vengono confrontati con le righe di prezzo del ruolo nel listino prezzi. Questa corrispondenza presuppone che tu stia utilizzando le dimensioni di prezzo standard per il costo del lavoro. Se hai configurato il sistema per abbinare i campi al posto o in aggiunta a **Ruolo** e **Unità gestione risorse**, verrà utilizzata una combinazione diversa per recuperare una riga di prezzo del ruolo corrispondente. Se l'applicazione trova una riga di prezzo del ruolo con una tariffa di costo per la combinazione **Ruolo** e **Unità gestione risorse**, questa riga è la tariffa di costo predefinita. Se l'applicazione non può corrispondere ai valori **Ruolo** e **Unità gestione risorse** recupera le righe di prezzo del ruolo con un ruolo corrispondente, eccetto i valori nulli di **Unità gestione risorse**. Quando un record di prezzo del ruolo corrispondente è disponibile, la tariffa di costo viene impostata per impostazione predefinita da quel record. 
+- Dettagli della riga di offerta per **Ora**.
+- Dettagli della riga di offerta per **Ora**.
+- Assegnazione delle risorse a un progetto.
+
+Il contesto attuale per **Ora** si riferisce a:
+
+- Scritture contabili di immissione e correzione per **Ora**.
+- Le scritture contabili che vengono create quando viene inviato un inserimento ore.
+
+Dopo che un listino prezzi di costo è stato determinato, il sistema completa i seguenti passaggi per impostare la tariffa di costo predefinita.
+
+1. Il sistema utilizza la combinazione di campi **Ruolo** e **Unità gestione risorse** nella stima o nel contesto attuale per **Ora** contro le righe di prezzo del ruolo nel listino prezzi. Questa corrispondenza presuppone che tu stia utilizzando le dimensioni di prezzo standard per il costo del lavoro. Se hai configurato il sistema per abbinare i campi al posto o in aggiunta a **Ruolo** e **Unità gestione risorse**, viene utilizzata una combinazione diversa per recuperare una riga di prezzo del ruolo corrispondente.
+1. Se il sistema trova una riga di prezzo del ruolo con una tariffa di costo per la combinazione **Ruolo**, **Unità gestione risorse**, questa tariffa di costo è usata come tariffa di costo predefinita.
+1. Se il sistema non può corrispondere ai valori **Ruolo**, **Unità gestione risorse** recupera le righe di prezzo con valori corrispondenti, eccetto per il campo **Ruolo** ma valori null per il campo **Unità gestione risorse**. Dopo che il sistema trova un record di prezzo del ruolo corrispondente, la tariffa di costo di quel record verrà utilizzata come tariffa di costo predefinita.
 
 > [!NOTE]
-> Se configuri una diversa priorità di **Ruolo** e **Unità gestione risorse** oppure se hai altre dimensioni con priorità più alta, questo comportamento cambia di conseguenza. Il sistema recupera i record del prezzo del ruolo con i valori che corrispondono a ciascuno dei valori della dimensione del prezzo in ordine di priorità con le righe che hanno valori nulli per quelle dimensioni che arrivano per ultime.
+> Se configuri una diversa priorità dei campi **Ruolo** e **Unità gestione risorse** oppure se hai altre dimensioni con priorità più alta, il precedente comportamento cambia di conseguenza. Il sistema recupera i record dei prezzi dei ruoli che hanno valori che corrispondono a ciascun valore della dimensione dei prezzi in ordine di priorità. Le righe con valori Null per quelle dimensioni vengono per ultime.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-expense"></a>Risoluzione delle tariffe di costo sulle righe di stima e valori effettivi per la spesa
+## <a name="determining-cost-rates-on-actual-and-estimate-lines-for-expense"></a>Determinazione delle tariffe di costo sulle righe di stima e valori effettivi per la spesa
 
-Le righe di stima per spesa si riferiscono ai dettagli della riga di offerta e contratto per le righe di stima di spesa e spese di un progetto.
+Il contesto di stima per **Spesa** si riferisce a:
 
-Dopo che un listino prezzi di costo è stato risolto, il sistema utilizza una combinazione dei campi **Categoria** e **Unità** nella riga della stima delle spese da confrontare con le righe **Prezzo di categoria** del listino prezzi risolto. Se il sistema trova una riga di prezzo di categoria con una tariffa di costo per la combinazione di campi **Categoria** e **Unità**, questa riga è la tariffa di costo predefinita. Se il sistema non può abbinare i valori **Categoria** e **Unità** o se è in grado di trovare una riga di prezzo della categoria corrispondente ma il metodo di determinazione del prezzo non è **Prezzo per unità**, il tasso di costo predefinito è zero (0).
+- Dettagli della riga di offerta per **Spesa**.
+- Dettagli della voce di contatto per **Spesa**.
+- Stime di spesa su un progetto.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-material"></a>Risoluzione dei tassi di costo nelle righe effettive e di stima per Materiale
+Il contesto attuale per **Spesa** si riferisce a:
 
-Le righe di stima per Materiale si riferiscono ai dettagli delle righe di offerta e delle voci di contratto per i materiali e alle righe di stima del materiale in un progetto.
+- Scritture contabili di immissione e correzione per **Spesa**.
+- Le scritture contabili che vengono create quando viene inviata una spesa.
 
-Dopo che un listino prezzi di costo viene risolto, il sistema utilizza una combinazione dei campi **Prodotto** e **Unità** nella riga di stima per una stima del materiale da abbinare alle righe **Voci di listino** del listino risolto. Se il sistema trova una riga di prezzo del prodotto con un tasso di costo per la combinazione dei campi **Prodotto** e **Unità**, il tasso di costo viene impostato automaticamente. Se il sistema non può abbinare i valori **Prodotto** e **Unità** o se è in grado di trovare una riga di voce di listino corrispondente, ma il metodo di determinazione dei prezzi è basato su Costo medio o Costo corrente e nessuno è definito nel prodotto, il costo unitario sarà zero.
+Dopo che un listino prezzi di costo è stato determinato, il sistema completa i seguenti passaggi per impostare la tariffa di costo predefinita.
 
+1. Il sistema utilizza la combinazione di campi **Categoria** e **Unità** nella stima o nel contesto attuale per **Spesa** contro le righe di prezzo della categoria nel listino prezzi.
+1. Se il sistema trova una riga di prezzo di categoria con una tariffa di costo per la combinazione di campi **Categoria** e **Unità**, questa riga è la tariffa di costo utilizzata come tariffa di costo predefinita.
+1. Se il sistema non può abbinare i valori **Categoria** e **Unità**, il prezzo è impostato su **0** (zero) per impostazione predefinita.
+1. Nel contesto della stima, se il sistema è in grado di trovare una riga di prezzo della categoria corrispondente ma il metodo di determinazione del prezzo è diverso da **Prezzo unitario**, la tariffa di costo è impostata su **0** (zero) per impostazione predefinita.
+
+## <a name="determining-cost-rates-on-actual-and-estimate-lines-for-material"></a>Determinazione dei tassi di costo nelle righe effettive e di stima per Materiale
+
+Il contesto di stima per **Materiale** si riferisce a:
+
+- Dettagli della riga di offerta per **Materiale**.
+- Dettagli della voce di contatto per **Materiale**.
+- Stime dei materiali in un progetto.
+
+Il contesto attuale per **Materiale** si riferisce a:
+
+- Scritture contabili di immissione e correzione per **Materiale**.
+- Le scritture contabili che vengono create quando viene inviato un registro di uso dei materiali.
+
+Dopo che un listino prezzi di costo è stato determinato, il sistema completa i seguenti passaggi per impostare la tariffa di costo predefinita.
+
+1. Il sistema utilizza la combinazione di campi **Prodotto** e **Unità** nella stima o nel contesto attuale per **Materiale** contro le righe delle voci del listino prezzi nel listino prezzi.
+1. Se il sistema trova una voce di listino prezzi con una tariffa di costo per la combinazione di campi **Prodotto** e **Unità**, questa riga è la tariffa di costo utilizzata come tariffa di costo predefinita.
+1. Se il sistema non può far corrispondere i valori **Prodotto** e **Unità**, il costo unitario è impostato su **0** (zero) per impostazione predefinita.
+1. Nel contesto della stima o attuale, se il sistema è in grado di trovare una riga della voce del prezzo della categoria corrispondente ma il metodo di determinazione del prezzo è diverso da **Importo in valuta**, l'unità di costo è impostata su **0** (zero) per impostazione predefinita. Questo comportamento si verifica perché Project Operations supporta solo il metodo di determinazione del prezzo **Importo in valuta** per i materiali utilizzati in un progetto.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

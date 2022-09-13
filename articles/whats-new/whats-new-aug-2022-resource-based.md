@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 112dbb98de09ef342c03d122a29cb8025058e47f
-ms.sourcegitcommit: 6b6c2bfd04e3e613ed1f38355c7cd47c3a56748d
+ms.openlocfilehash: 4042dca72a33f48e04e51af2a3cfd2da83146afd
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "9348012"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403861"
 ---
 # <a name="whats-new-august-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novità di agosto 2022 - Project Operations per scenari di risorse/materiali non stoccati
 
@@ -38,6 +38,11 @@ Se riscontri un problema durante l'avvio della mappa, segui le istruzioni nella 
 | Area funzionalità | Numero di riferimento | Aggiornamento di qualità |
 | --- | --- | --- |
 | Gestione delle opportunità | 2762089 | Gestione degli errori durante la chiusura del contratto come persa se il salvataggio automatico è disabilitato nell'organizzazione.|
+|Pianificazione e rilevamento dei progetti | 2767841 | Aggiornamenti telemetria entità progetto Crea o aggiorna scenari.|
+|Prezzi e fatturazione | 2771072 | Gestione delle eccezioni di riferimento null durante la vincita dell'offerta.|
+|Prezzi e fatturazione | 2844181 |Errore nell'ottenimento di un ID di correlazione e nel blocco della creazione di una fattura.|
+|Prezzi e fatturazione | 2852836 | Valori effettivi interaziendali mancanti per Spese interaziendali create e approvate in CE.|
+
 
 ### <a name="project-management-and-accounting-in-finance"></a>Contabilità e gestione dei progetti in Finance
 
