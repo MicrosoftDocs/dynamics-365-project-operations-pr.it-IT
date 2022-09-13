@@ -168,6 +168,8 @@
                   href: sales/invoice-schedule-quote-line.md
             - name: Copiare offerte di progetto
               href: sales/lose-quote.md
+            - name: Attivare e rivedere un'offerta di progetto
+              href: sales/activation-and-revision.md
             - name: Chiudere le offerte di progetto
               href: sales/win-quote.md
         - name: Gestire contratti di progetto
@@ -198,6 +200,8 @@
                   href: sales/import-estimate-project-contract-line.md
                 - name: Creare pianificazioni di fatturazione in voci di contratto basate su progetto
                   href: sales/invoice-schedules-contract-line.md
+            - name: Copiare contratti basati su progetto
+              href: sales/copy-project-based-contracts-sales.md
             - name: Confermare un contratto di progetto
               href: pro/sales/confirm-contract-sales.md
             - name: Anticipi e acconti
@@ -228,9 +232,9 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Sostituire i listini prezzi di vendita di progetto
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: Risolvere i prezzi di costo per stime e valori effettivi
+            - name: Determinare i prezzi di costo per stime e valori effettivi
               href: pricing-costing/cost-price-resolution.md
-            - name: Risolvere i prezzi di vendita per stime e valori effettivi
+            - name: Determinare i prezzi di vendita per stime e valori effettivi
               href: pricing-costing/sales-price-resolution.md
             - name: Copiare i listini prezzi
               href: pricing-costing/copy-price-lists.md
@@ -766,6 +770,8 @@
                   href: sales/invoice-schedule-quote-line.md
             - name: Copiare offerte basate su progetto
               href: sales/lose-quote.md
+            - name: Attivare e rivedere un'offerta di progetto
+              href: sales/activation-and-revision.md
             - name: Chiudere offerte basate su progetto
               href: pro/sales/win-quote-sales.md
         - name: Gestire contratti basati su progetto
@@ -838,9 +844,9 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Sostituire i listini prezzi di vendita di progetto
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: Risolvere i prezzi di costo in stime e valori effettivi di progetto
+            - name: Determinare i prezzi di costo in stime e valori effettivi di progetto
               href: pro/pricing-costing/cost-price-resolution-sales.md
-            - name: Risolvere i prezzi di vendita per stime e valori effettivi di progetto
+            - name: Determinare i prezzi di vendita per stime e valori effettivi di progetto
               href: pro/pricing-costing/sales-price-resolution-sales.md
             - name: Copiare i listini prezzi
               href: pricing-costing/copy-price-lists.md
