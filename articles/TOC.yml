@@ -232,6 +232,8 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Sostituire i listini prezzi di vendita di progetto
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Impostare le sostituzioni per data di validità di prezzi specifici in un listino prezzi
+              href: pricing-costing/dateffective_price_overrides.md
             - name: Determinare i prezzi di costo per stime e valori effettivi
               href: pricing-costing/cost-price-resolution.md
             - name: Determinare i prezzi di vendita per stime e valori effettivi
@@ -544,11 +546,19 @@
           href: procurement/pending-vendor-invoices.md
         - name: Ordinare beni e servizi per i progetti utilizzando gli ordini di acquisto per un progetto
           href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Fatture fornitore per i conti lavoro in Dataverse
+          items:
+            - name: Creare fatture fornitore
+              href: procurement/Vendor-invoicing-concept-and-creation.md
+            - name: Verifica delle fatture fornitore con valori effettivi approvati
+              href: pro/subcontracting/VI-Verification.md
+            - name: Confermare le fattura fornitore di progetto
+              href: procurement/Confirm-a-project-vendor-invoice.md
         - name: Fidelizzazione del fornitore
           items:
-            - name: Panoramica sulla fidelizzazione del fornitore
+            - name: Panoramica della fidelizzazione del fornitore
               href: procurement/vendor-retention-overview.md
-            - name: Impostazione della fidelizzazione del fornitore
+            - name: Configurare la fidelizzazione del fornitore
               href: procurement/set-up-vendor-retention.md
     - name: Fatturazione
       items:
@@ -844,6 +854,8 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Sostituire i listini prezzi di vendita di progetto
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Impostare le sostituzioni per data di validità di prezzi specifici in un listino prezzi
+              href: pricing-costing/dateffective_price_overrides.md
             - name: Determinare i prezzi di costo in stime e valori effettivi di progetto
               href: pro/pricing-costing/cost-price-resolution-sales.md
             - name: Determinare i prezzi di vendita per stime e valori effettivi di progetto
