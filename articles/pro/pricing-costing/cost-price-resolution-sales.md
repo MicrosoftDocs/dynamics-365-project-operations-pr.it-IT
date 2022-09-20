@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c7dd264ebbd1da9b2f42d2284fb38988a09aa03f
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: c2295174df1ce766c6d1304f4e9c55d32d5c4775
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410154"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475236"
 ---
 # <a name="determine-cost-rates-for-project-estimates-and-actuals"></a>Determinare i tassi di costo per stime e valori effettivi di progetto
 
 _**Si applica a:** Distribuzione lite: dalla transazione alla fatturazione proforma_
 
-Per determinare i tassi di costo e il listino prezzi di costo per le stime e i contesti effettivi, il sistema utilizza le informazioni nei campi **Data**, **Valuta** e **Unità contratto** del progetto correlato.
+Per determinare i tassi di costo su stime e valori effettivi in Microsoft Dynamics 365 Project Operations, il sistema utilizza prima la data e la valuta nella stima in entrata o nel valore effettivo per determinare il listino prezzi di costo. Nel contesto attuale, in particolare, il sistema utilizza il campo **Data della transazione** per determinare quale listino prezzi è applicabile. Il valore di **Data della transazione** della stima in entrata o effettivo viene confrontato con i valori **Inizio validità (Indipendente da fuso orario)** e **Fine validità (Indipendente da fuso orario)** nel listino prezzi. Dopo che il listino prezzi di costo è stato determinato, il sistema determina la tariffa di costo. 
 
 ## <a name="determining-cost-rates-in-estimate-and-actual-contexts-for-time"></a>Determinazione dei tassi di costo nelle stime e nei contesti attuali per il tempo
 

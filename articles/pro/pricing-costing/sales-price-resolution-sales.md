@@ -6,18 +6,18 @@ ms.date: 09/01/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6504302578d1eb3d00c717ea93cd4c4212acb4e7
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: 1288a571d50604ee400db9c16822719d0649628b
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410123"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475189"
 ---
 # <a name="determine-sales-prices-for-project-estimates-and-actuals"></a>Determinare i prezzi di vendita per stime e valori effettivi di progetto
 
 _**Si applica a:** Distribuzione lite: dalla transazione alla fatturazione proforma_
 
-Per determinare i prezzi di vendita su stime e valori effettivi in Microsoft Dynamics 365 Project Operations, il sistema utilizza prima la data e la valuta nella stima in entrata o nel valore effettivo per determinare il listino prezzi di vendita. Nel contesto attuale, in particolare, il sistema utilizza il campo **Data della transazione** per determinare quale listino prezzi è applicabile. Dopo che il listino prezzi di vendita è stato determinato, il sistema determina la tariffa di vendita o fatturazione.
+Per determinare i prezzi di vendita su stime e valori effettivi in Microsoft Dynamics 365 Project Operations, il sistema utilizza prima la data e la valuta nella stima in entrata o nel valore effettivo per determinare il listino prezzi di vendita. Nel contesto attuale, in particolare, il sistema utilizza il campo **Data della transazione** per determinare quale listino prezzi è applicabile. Il valore di **Data della transazione** della stima in entrata o effettivo viene confrontato con i valori **Inizio validità (Indipendente da fuso orario)** e **Fine validità (Indipendente da fuso orario)** nel listino prezzi. Dopo che il listino prezzi di vendita è stato determinato, il sistema determina la tariffa di vendita o fatturazione.
 
 ## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-time"></a>La determinazione delle tariffe di vendita sulle righe di stima e valori effettivi per il tempo
 

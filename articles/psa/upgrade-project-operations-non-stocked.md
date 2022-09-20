@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c7958c1474820361269f19ea8c9279b96f087d7a
-ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
+ms.openlocfilehash: 43ea29aeafb62f3ecd69b316f2c0a5b791707da5
+ms.sourcegitcommit: bc21fbe8547534d2644269f873eb05d509840f23
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9230256"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9446040"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Aggiornamento da Project Service Automation a Project Operations
 
@@ -29,7 +29,7 @@ Siamo lieti di annunciare la prima delle tre fasi per l'aggiornamento da Microso
 
 Il programma di consegna dell'aggiornamento sarà suddiviso in tre fasi.
 
-| Consegna dell'aggiornamento | Fase 1 (gennaio 2022) | Fase 2 (ciclo di aprile 2022) | Fase 3  |
+| Consegna dell'aggiornamento | Fase 1 (gennaio 2022) | Fase 2 (novembre 2022) | Fase 3 (ciclo di aprile 2023)  |
 |------------------|------------------------|---------------------------|---------------------------|
 | Nessuna dipendenza dalla struttura di suddivisione del lavoro (WBS) per i progetti | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | La struttura di suddivisione del lavoro entro i limiti attualmente supportati di Project Operations | | :heavy_check_mark: | :heavy_check_mark: |
@@ -39,7 +39,7 @@ Il programma di consegna dell'aggiornamento sarà suddiviso in tre fasi.
 
 Come parte del processo di aggiornamento, abbiamo aggiunto i registri di aggiornamento alla mappa del sito, in modo che gli amministratori possano diagnosticare più facilmente gli errori. Oltre alla nuova interfaccia, verranno aggiunte nuove regole di convalida per garantire l'integrità dei dati dopo un aggiornamento. Le seguenti convalide verranno aggiunte al processo di aggiornamento.
 
-| Convalide | Fase 1 (gennaio 2022) | Fase 2 (ciclo di aprile 2022) | Fase 3  |
+| Convalide | Fase 1 (gennaio 2022) | Fase 2 (novembre 2022) | Fase 3  |
 |-------------|------------------------|---------------------------|---------------------------|
 | La struttura di suddivisione del lavoro verrà convalidata rispetto alle comuni violazioni dell'integrità dei dati (ad esempio, assegnazioni di risorse associate alla stessa attività padre ma con progetti padre diversi). | | :heavy_check_mark: | :heavy_check_mark: |
 | La struttura di suddivisione del lavoro sarà convalidata rispetto ai [limiti noti di Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries). | | :heavy_check_mark: | :heavy_check_mark: |
