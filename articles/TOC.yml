@@ -508,6 +508,8 @@
           href: approvals/cancelapproval.md
         - name: Richiamare inserimenti precedentemente approvati
           href: approvals/recall-cancel.md
+        - name: Sicurezza e approvazioni
+          href: approvals/approvals-security.md
         - name: Note per gli sviluppatori
           items:
             - name: Note per gli sviluppatori per le approvazioni
@@ -560,6 +562,8 @@
               href: procurement/vendor-retention-overview.md
             - name: Configurare la fidelizzazione del fornitore
               href: procurement/set-up-vendor-retention.md
+            - name: Pagamento all'incasso
+              href: procurement/Pay-when-paid.md
     - name: Fatturazione
       items:
         - name: Panoramica del processo di fatturazione
@@ -1102,6 +1106,8 @@
           href: approvals/cancelapproval.md
         - name: Richiamare inserimenti precedentemente approvati
           href: approvals/recall-cancel.md
+        - name: Sicurezza e approvazioni
+          href: approvals/approvals-security.md
         - name: Note per gli sviluppatori
           items:
             - name: Note per gli sviluppatori per le approvazioni
