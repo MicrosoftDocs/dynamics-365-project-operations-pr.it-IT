@@ -2,20 +2,20 @@
 title: Impostare i terzisti come risorse prenotabili
 description: Questo articolo spiega come impostare e gestire le risorse del terzista create da utenti e contatti nel sistema, in modo che possano essere associate ai terzisti in Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 07/28/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 67df514cd1a0bd07d4ff2582e1a7738d913e0ac5
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 727508c41c190c3703e9cd1420066fa0e551f147
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261328"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522706"
 ---
 # <a name="set-up-subcontractors-as-bookable-resources"></a>Impostare i terzisti come risorse prenotabili
 
-_**Si applica a:** Distribuzione semplice: dalla transazione alla fatturazione proforma_
+_**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione lite: dalla transazione alla fatturazione proforma_
 
 Segui questi passaggi per configurare i terzisti come risorse prenotabili in Microsoft Dynamics 365 Project Operations.
 

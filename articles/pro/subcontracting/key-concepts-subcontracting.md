@@ -2,21 +2,21 @@
 title: Concetti chiave dei conti lavoro
 description: In questo articolo vengono illustrati alcuni concetti chiave che si applicano al conto lavoro in Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 08/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: e75f2cf9c1092604e43e5cb60dda0e2a1b7dcd64
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 9577169f12198222e647ed07ae8a1b6c55da4323
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262174"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522753"
 ---
 # <a name="key-concepts-in-subcontracting"></a>Concetti chiave dei conti lavoro
 
 
-_**Si applica a:** Distribuzione semplice: dalla transazione alla fatturazione proforma_
+_**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione lite: dalla transazione alla fatturazione proforma_
 
 L'articolo spiega alcuni concetti chiave di cui dovresti essere a conoscenza prima di iniziare a utilizzare la funzionalità di conto lavoro in Microsoft Dynamics 365 Project Operations.
 

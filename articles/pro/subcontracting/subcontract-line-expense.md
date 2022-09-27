@@ -2,20 +2,20 @@
 title: Righe conto lavoro per categorie di spesa
 description: In questo articolo viene spiegato come registrare le righe di conto lavoro per le spese e utilizzare i campi per registrare l'acquisto di tempo dei fornitori.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7166642abc2187a53f7019639df6f0d7124f4765
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: ba1241ce40b7c5b488e278e8f1b8e9f352f45dc8
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261845"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522612"
 ---
 #  <a name="subcontract-lines-for-expense-categories"></a>Righe conto lavoro per categorie di spesa
 
-_**Si applica a:** Distribuzione semplice: dalla transazione alla fatturazione proforma_
+_**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione lite: dalla transazione alla fatturazione proforma_
 
 Un conto lavoro in Dynamics 365 Project Operations può avere una riga per le categorie di spesa. Le voci di conto lavoro per le categorie di spesa consentono a un responsabile di progetto di acquistare categorie di servizi o prodotti da fornitori che possono eseguire un addebito su un progetto.
 

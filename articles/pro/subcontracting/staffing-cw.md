@@ -2,20 +2,20 @@
 title: Personale di un progetto con lavoratori a contratto e capacità in conto lavoro
 description: Questo articolo spiega come gestire i requisiti del progetto utilizzando lavoratori a contratto o capacità in conto lavoro in Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8edb053467ef200ca3e051e2fd78106734318389
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 30e16efeed93ab4568eac57fb3ed46067a08524d
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261259"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522440"
 ---
 # <a name="staffing-a-project-with-contract-workers-and-subcontracted-capacity"></a>Personale di un progetto con lavoratori a contratto e capacità in conto lavoro
 
-_**Si applica a:** Distribuzione semplice: dalla transazione alla fatturazione proforma_
+_**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione lite: dalla transazione alla fatturazione proforma_
 
 I membri generici del team di progetto possono essere impiegati con dipendenti o lavoratori a contratto. Quando si assegna personale a un progetto con lavoratori a contratto, è possibile limitare le opzioni di personale a lavoratori a contratto specifici assegnati a una riga di conto lavoro. 
 

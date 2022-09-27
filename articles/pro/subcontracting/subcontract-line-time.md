@@ -2,20 +2,20 @@
 title: Righe conto lavoro per orario
 description: Questo articolo spiega come registrare le righe di conto lavoro per tempo e registrare l'acquisto di tempo dei fornitori.
 author: rumant
-ms.date: 08/05/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8e9619dc713fde3127f552234e4a7427d99be683
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 3ba013dd7ad023acc4f0cf077099c8c2c8d5bcd8
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261987"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522237"
 ---
 # <a name="subcontract-lines-for-time"></a>Righe conto lavoro per orario
 
-_**Si applica a:** Distribuzione semplice: dalla transazione alla fatturazione proforma_
+_**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione lite: dalla transazione alla fatturazione proforma_
 
 Un conto lavoro in Dynamics 365 Project Operations può avere una voce di conto lavoro per le ore. Le voci di conto lavoro per il tempo consentono a un responsabile di progetto di acquistare il tempo delle risorse del fornitore per le attività di progetto del personale e i requisiti di risorse.
 

@@ -2,20 +2,20 @@
 title: Righe conto lavoro per prodotti
 description: Questo articolo spiega come registrare le righe conto lavoro per i prodotti e utilizzare i diversi campi per registrare gli acquisti di prodotti dai fornitori.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b5852df1876eff591ae6a131b229d979eacf5aad
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 1ca042eaf95a5e252f00248e83efb959ab3ce801
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262122"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522847"
 ---
 # <a name="subcontract-lines-for-products"></a>Righe conto lavoro per prodotti
 
-_**Si applica a:** Distribuzione semplice: dalla transazione alla fatturazione proforma_
+_**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione lite: dalla transazione alla fatturazione proforma_
 
 Un conto lavoro in Dynamics 365 Project Operations può avere una voce di conto lavoro per i prodotti. Queste righe consentono a un responsabile di progetto di acquistare prodotti dai fornitori che può quindi utilizzare nelle attività del progetto.
 

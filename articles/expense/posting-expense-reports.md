@@ -1,8 +1,8 @@
 ---
 title: Registrare le note spese
 description: Questo articolo spiega come registrare le note spese.
-author: suvaidya
-ms.date: 09/09/2020
+author: ramagadu
+ms.date: 08/12/2022
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4b084357179a28279344c995047f1a0a458cf9aa
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d0ae4559a08553236158a663513401cb38cbe28f
+ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8934509"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524874"
 ---
 # <a name="post-expense-reports"></a>Registrare le note spese
 
@@ -30,5 +30,15 @@ Per registrare una nota spese, nella pagina **Note spese approvate** seleziona l
 
 È inoltre possibile registrare contemporaneamente tutte le note spese dell'elenco. Seleziona tutte le note spese, quindi seleziona **Registra**.
 
+## <a name="enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature"></a>Abilitare la funzionalità Possibilità di registrare la passività di spesa nella valuta del fornitore per il metodo di pagamento in contanti
+
+La funzionalità **Possibilità di registrare la passività di spesa nella valuta del fornitore per il metodo di pagamento in contanti** consente di registrare le note spese nella valuta del fornitore per il metodo di pagamento in contanti.
+
+Attualmente, quando invii le spese in contanti, le note spese vengono registrate nella valuta di contabilizzazione. A causa della conversione dell'importo tra la valuta della transazione, la valuta di contabilizzazione e la valuta del fornitore, ai fornitori viene pagato un importo errato se la data di transazione della spesa e la data di pagamento effettiva hanno tassi di cambio differenti.
+
+Questa funzionalità garantirà che il saldo fornitore venga registrato nella valuta del fornitore al momento della registrazione della nota spese.
+
+1. Vai ad **Aree di lavoro** \> **Gestione funzionalità**.
+2. Nell'elenco, trova e seleziona **Possibilità di registrare la passività di spesa nella valuta del fornitore per il metodo di pagamento in contanti**, quindi seleziona **Abilita ora**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

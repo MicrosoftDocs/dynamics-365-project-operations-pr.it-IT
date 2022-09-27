@@ -2,20 +2,20 @@
 title: Transizioni di stato in un conto lavoro
 description: Questo articolo spiega le transizioni di stato su un conto lavoro in Microsoft Dynamics 365 Project Operations quando il conto lavoro viene creato, eseguito e chiuso.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 02553099a6728c19c219659dff431ff9a5cf10fc
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 2804fc30f8dade42dc1093e5fc0f01fa1db22ca3
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261207"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522891"
 ---
 # <a name="state-transitions-on-a-subcontract"></a>Transizioni di stato in un conto lavoro 
 
-_**Si applica a:** Distribuzione semplice: dalla transazione alla fatturazione proforma_
+_**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione lite: dalla transazione alla fatturazione proforma_
 
 Questo articolo spiega le transizioni di stato su un conto lavoro in Microsoft Dynamics 365 Project Operations. Ogni stato è rappresentato come bozza, confermato, chiuso o annullato. L'immagine seguente rappresenta le transizioni di stato.
 

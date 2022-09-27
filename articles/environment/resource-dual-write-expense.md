@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e11f1cfd714212691146eed59bcfb5b5facd750c
-ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.openlocfilehash: da37adcf63a10b9f245283d377e70fd08b3aa9c5
+ms.sourcegitcommit: 385081ecc839d7d4a557eda2bb1578ca073f7e41
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/18/2022
-ms.locfileid: "9029214"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9527995"
 ---
 # <a name="expense-management-integration"></a>Integrazione di gestione spese
 
@@ -34,7 +34,7 @@ Le categorie di spesa nelle app per la finanza e le operazioni sono specifiche d
 
 ## <a name="expense-reports"></a>Note spese
 
-Le note spese vengono create e approvate nelle app per la finanza e le operazioni. Per ulteriori informazioni, vedi [Creare ed elaborare le note spese in Dynamics 365 Project Operations](/learn/modules/create-process-expense-reports/). Dopo che la nota spese è stata approvata dal responsabile di progetto, viene registrata nella contabilità generale. In Project Operations, le righe delle note spese relative al progetto vengono registrate utilizzando regole di registrazione speciali:
+Le note spese vengono create e approvate nelle app per la finanza e le operazioni. Per ulteriori informazioni, vedi [Creare ed elaborare le note spese in Dynamics 365 Project Operations](/training/modules/create-process-expense-reports/). Dopo che la nota spese è stata approvata dal responsabile di progetto, viene registrata nella contabilità generale. In Project Operations, le righe delle note spese relative al progetto vengono registrate utilizzando regole di registrazione speciali:
 
   - Il costo relativo al progetto (inclusa l'imposta non recuperabile) non viene registrato immediatamente nel conto dei costi di progetto della contabilità generale, ma viene invece registrato nel conto di integrazione delle spese. Questo conto è configurato in **Gestione progetti e contabilità** > **Configura** > **Parametri di gestione progetti e contabilità** , **Project Operations in Dynamics 365 Customer Engagement**.
   - La doppia scrittura si sincronizza con Dataverse utilizzando la mappa della tabella **Entità di esportazione delle spese di progetto di integrazione di Project Operations (msdyn\_expenses)** .

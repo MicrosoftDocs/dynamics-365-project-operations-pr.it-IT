@@ -6,12 +6,12 @@ ms.date: 02/01/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 5e030c1aa4a41b428a0f4541fd204a7a3deaba08
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: ca205073edbce2b399aab3ae273d635c8af96765
+ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8918087"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524921"
 ---
 # <a name="approval-sets"></a>Set di approvazioni
 
@@ -44,15 +44,10 @@ Se selezioni **Riprova** viene aggiunto al conteggio della durata del set di app
 
 ## <a name="configure-approval-sets"></a>Configurazione dei set di approvazione
 
-### <a name="enable-the-approval-sets-feature"></a>Abilita la funzione Set di approvazioni
-Prima di abilitare la funzione Set di approvazioni, verifica che non vi siano approvazioni in corso di elaborazione.
+### <a name="enable-the-approval-sets-feature"></a>Abilita la funzionalità Set di approvazioni
+Prima di abilitare la funzionalità Set di approvazioni, verifica che non vi siano approvazioni in corso di elaborazione. Questa funzionalità non può essere disabilitata dopo l'abilitazione.
 
 - Vai alla pagina **Parametri progetto** e seleziona **Controllo funzionalità** > **Abilita approvazioni moderne**.
-
-### <a name="turn-off-the-approval-sets-feature"></a>Disabilita la funzione Set di approvazioni
-Prima di disabilitare la funzione Set di approvazioni, verifica che non vi siano approvazioni in corso di elaborazione.
-
-- Vai alla pagina **Parametri progetto** e seleziona **Controllo funzionalità** > **Disabilita approvazioni moderne**.
 
 ### <a name="configuring-the-asynchronous-threshold"></a>Configurazione della soglia asincrona 
 Quando vengono creati i set di approvazioni, l'elaborazione passa in background quando il numero selezionato di record per l'approvazione supera la soglia indicata. Usa il campo **Soglia asincrona** per configurare quando l'elaborazione dell'approvazione deve essere eseguita in modo sincrono o asincrono. Seleziona uno dei valori seguenti:
