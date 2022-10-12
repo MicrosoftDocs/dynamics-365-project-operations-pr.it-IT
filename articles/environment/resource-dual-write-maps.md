@@ -6,12 +6,12 @@ ms.date: 07/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e904ad18b6ea94cd6d31d1878b5bc9e7c52be741
-ms.sourcegitcommit: c8b8fef5626790208c5290b1bb92b17a5d90d286
+ms.openlocfilehash: b86b9ecdc63989189c76dd8380024aa44c7641a5
+ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9112434"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "9621086"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Versioni della mappa a doppia scrittura di Project Operations
 
@@ -48,14 +48,14 @@ Le mappe seguenti sono obbligatorie per una soluzione Project Operations. Le ver
 | Fonte di finanziamento di progetto (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Non obbligatorio per il provisioning. ||
 | Tabella di integrazione di progetto per le stime dei materiali (msdyn\_estimatelines) | 1.0.0.0 | Non obbligatorio per il provisioning. ||
 | Proposte di fattura di progetto V2 (invoices) | 1.0.0.3 | Non obbligatorio per il provisioning. ||
-| Valori effettivi dell'integrazione di Project Operations (msdyn_actuals) | 1.0.0.14 | Non obbligatorio per il provisioning. ||
+| Valori effettivi dell'integrazione di Project Operations (msdyn_actuals) | 1.0.0.15 | Non obbligatorio per il provisioning. |10.0.29 o successive|
 | Passaggi fondamentali delle righe del contratto per l'integrazione di Project Operations (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Non obbligatorio per il provisioning. ||
 | Entità dell'integrazione di Project Operations per stime delle spese (msdyn_estimatelines) | 1.0.0.2 | Non obbligatorio per il provisioning. ||
 | Entità di integrazione per stime orarie di Project Operations (msdyn_estimateslines) | 1.0.0.5 | Non obbligatorio per il provisioning. ||
 | Entità di esportazione categorie delle spese di progetto di integrazione di Project Operations (msdyn_expensecategories) | 1.0.0.1 | Non obbligatorio per il provisioning. ||
 | Entità di esportazione delle spese di progetto di integrazione di Project Operations (msdyn_expenses) | 1.0.0.3 | Non obbligatorio per il provisioning. ||
-| Entità di esportazione fattura fornitore progetto integrazione Project Operations (msdyn_projectvendorinvoices) | 1.0.0.1 | Non obbligatorio per il provisioning. |10.0.26 o successive|
-| Entità di esportazione riga fattura fornitore progetto integrazione Project Operations (msdyn_projectvendorinvoicelines) | 1.0.0.4 | Non obbligatorio per il provisioning. | 10.0.26 o successive |
+| Entità di esportazione fattura fornitore progetto integrazione Project Operations (msdyn_projectvendorinvoices) | 1.0.0.2 | Non obbligatorio per il provisioning. |10.0.29 o successive|
+| Entità di esportazione riga fattura fornitore progetto integrazione Project Operations (msdyn_projectvendorinvoicelines) | 1.0.0.5 | Non obbligatorio per il provisioning. | 10.0.29 o successive |
 | Ruoli delle risorse di progetto per tutte le aziende (bookableresourcecategories) | 1.0.0.1 | Richiede una sincronizzazione iniziale per la mappa della tabella per sincronizzare i ruoli delle risorse del responsabile di progetto e del membro del team che sono popolati nell'ambiente Dynamics 365 Dataverse durante il provisioning. Dataverse è la fonte principale per la sincronizzazione iniziale. ||
 | Attività di progetto (msdyn_projecttasks) | 1.0.0.4 | Non obbligatorio per il provisioning. ||
 | Categorie di transazione di progetto (msdyn_transactioncategories) | 1.0.0.0 | Non obbligatorio per il provisioning. ||

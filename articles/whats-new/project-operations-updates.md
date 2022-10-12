@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ba33afd955170797bc43ae84d8baa9e2a04c5918
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: eb658f8b0150d5d70e9ed090ff0e25e33eedd5a3
+ms.sourcegitcommit: 6536e79aca5ce2cb0276a4366db69d688962a21f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9409940"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "9622020"
 ---
 # <a name="project-operations-updates"></a>Aggiornamenti di Project Operations
 
@@ -47,24 +47,24 @@ Gli aggiornamenti per Project Operations in ambiente Dataverse sono disponibili 
 | Stazione | Area geografica | Numero versione corrente | Aggiornamenti automatici per la distribuzione lite | Aggiornamenti automatici per la distribuzione di risorse/materiali non stoccati | Numero versione successiva | La versione successiva è generalmente disponibile |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Stazione 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Prima versione         |  4.45.0.53      | Completamento           | Completamento            | Da definire                 | 09 settembre 2022      |
+|   &nbsp;  | Prima versione         |  4.46.0.60      | Completamento           | Completamento            | Da definire                 | 07 ottobre 2022      |
 | Stazione 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | America del Sud         |  4.45.0.53      | Completamento           | Completamento            | Da definire                 | 09 settembre 2022       |
-|   &nbsp;  | Canada                |  4.45.0.53      | Completamento           | Completamento            | Da definire                 | 09 settembre 2022       |
-|   &nbsp;  | India                 |  4.45.0.53      | Completamento           | Completamento            | Da definire                 | 09 settembre 2022       |
-|   &nbsp;  | Francia                |  4.45.0.53      | Completamento           | Completamento            | Da definire                 | 09 settembre 2022       |
-|   &nbsp;  | Sudafrica          |  4.45.0.53      | Completamento           | Completamento            | Da definire                 | 09 settembre 2022       |
-|   &nbsp;  | Svizzera           |  4.45.0.53      | Completamento           | Completamento            | Da definire                 | 09 settembre 2022       |
+|   &nbsp;  | America del Sud         |  4.46.0.60      | Completamento           | Completamento            | Da definire                 | 14 ottobre 2022       |
+|   &nbsp;  | Canada                |  4.46.0.60      | Completamento           | Completamento            | Da definire                 | 14 ottobre 2022       |
+|   &nbsp;  | India                 |  4.46.0.60      | Completamento           | Completamento            | Da definire                 | 14 ottobre 2022       |
+|   &nbsp;  | Francia                |  4.46.0.60      | Completamento           | Completamento            | Da definire                 | 14 ottobre 2022       |
+|   &nbsp;  | Sudafrica          |  4.46.0.60      | Completamento           | Completamento            | Da definire                 | 14 ottobre 2022       |
+|   &nbsp;  | Svizzera           |  4.46.0.60      | Completamento           | Completamento            | Da definire                 | 14 ottobre 2022       |
 | Stazione 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Giappone                 |  4.45.0.53      | Completamento      | Completamento       | Da definire                 | 09 settembre 2022       |
-|   &nbsp;  | Asia Pacifico          |  4.45.0.53      | Completamento      | Completamento       | Da definire                 | 09 settembre 2022       |
-|   &nbsp;  | Gran Bretagna         |  4.45.0.53      | Completamento      | Completamento       | Da definire                 | 09 settembre 2022       |
-|   &nbsp;  | Oceania               |  4.45.0.53      | Completamento      | Completamento       | Da definire                 | 09 settembre 2022       |
-|   &nbsp;  | Emirati Arabi Uniti  |  4.45.0.53      | Completamento      | Completamento       | Da definire                 | 09 settembre 2022       |
+|   &nbsp;  | Giappone                 |  4.46.0.60      | Completamento      | Completamento       | Da definire                 | 21 ottobre 2022       |
+|   &nbsp;  | Asia Pacifico          |  4.46.0.60      | Completamento      | Completamento       | Da definire                 | 21 ottobre 2022       |
+|   &nbsp;  | Gran Bretagna         |  4.46.0.60      | Completamento      | Completamento       | Da definire                 | 21 ottobre 2022       |
+|   &nbsp;  | Oceania               |  4.46.0.60      | Completamento      | Completamento       | Da definire                 | 21 ottobre 2022       |
+|   &nbsp;  | Emirati Arabi Uniti  |  4.46.0.60      | Completamento      | Completamento       | Da definire                 | 21 ottobre 2022       |
 | Stazione 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europa                |  4.45.0.53      | Completamento           | Completamento            | Da definire           | 16 settembre 2022       |
+|   &nbsp;  | Europa                |  4.46.0.60      | Completamento           | Completamento            | Da definire           | 28 ottobre 2022       |
 | Stazione 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | America del Nord         |  4.45.0.53      | Completamento           | Completamento            | Da definire           | 16 settembre 2022       |
+|   &nbsp;  | America del Nord         |  4.46.0.60      | Completamento           | Completamento            | Da definire           | 04 novembre 2022       |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Pianificazione della versione per Gestione progetti e contabilità nell'ambiente per app per la finanza e le operazioni
 
