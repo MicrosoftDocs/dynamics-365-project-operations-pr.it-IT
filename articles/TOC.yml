@@ -56,16 +56,18 @@
               href: environment/resource-dual-write-project-invoice.md
             - name: Integrazione della gestione spese
               href: environment/resource-dual-write-expense.md
-            - name: Integrazione della fatture fornitore
+            - name: Integrazione delle fatture fornitore
               href: environment/resource-dual-write-vendor-invoice.md
         - name: Disinstallazione di Dynamics 365 Project Operations
           href: environment/uninstall-project-operations.md
     - name: Novità
       items:
-        - name: Agosto 2022 - Project Operations per scenari basati su articoli non stoccati/risorse
-          href: whats-new/whats-new-aug-2022-resource-based.md
+        - name: Settembre 2022 - Project Operations per scenari basati su risorse/materiali non stoccati
+          href: whats-new/whats-new-sept-2022-resource-based.md
         - name: Archivio
           items:
+            - name: Agosto 2022 - Project Operations per scenari basati su risorse/materiali non stoccati
+              href: whats-new/whats-new-aug-2022-resource-based.md
             - name: Luglio 2022 - Project Operations per scenari basati su risorse/materiali non stoccati
               href: whats-new/whats-new-july-2022-resource-based.md
             - name: Giugno 2022 - Project Operations per scenari basati su risorse/materiali non stoccati
@@ -668,13 +670,15 @@
           href: environment/security-model.md
     - name: Novità
       items:
-        - name: Novità agosto 2022 - distribuzione semplice
-          href: pro/whats-new/whats-new-aug-2022-lite.md
+        - name: Novità di settembre 2022 - distribuzione semplice
+          href: pro/whats-new/whats-new-sept-2022-lite.md
         - name: Archivio
           items:
-            - name: Novità luglio 2022 - distribuzione semplice
+            - name: Novità di agosto 2022 - distribuzione semplice
+              href: pro/whats-new/whats-new-aug-2022-lite.md
+            - name: Novità di luglio 2022 - distribuzione semplice
               href: pro/whats-new/whats-new-july-2022-lite.md
-            - name: Novità giugno 2022 - distribuzione semplice
+            - name: Novità di giugno 2022 - distribuzione semplice
               href: pro/whats-new/whats-new-june-2022-lite.md
             - name: Accesso in anteprima alle novità 2021 ciclo 2 - distribuzione semplice
               href: pro/whats-new/whats-new-2021-early-access-lite.md
@@ -1180,10 +1184,12 @@
               href: whats-new/ur5-nonstocked-installation.md
     - name: Novità
       items:
-        - name: Novità di luglio 2022 - Project Operations per scenari di materiali stoccati basati sulla produzione
-          href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
+        - name: Novità di settembre 2022 - Project Operations per scenari di materiali stoccati basati sulla produzione
+          href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
         - name: Archivio
           items:
+            - name: Novità di luglio 2022 - Project Operations per scenari di materiali stoccati basati sulla produzione
+              href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
             - name: Novità di giugno 2022 - Project Operations per scenari di materiali stoccati basati sulla produzione
               href: prod-pma/whats-new/whats-new-jun-2022-stocked.md
             - name: Novità di ottobre 2021 - Project Operations per scenari di materiali stoccati basati sulla produzione
@@ -1434,8 +1440,12 @@
       href: psa/overview.md
     - name: Novità
       items:
-        - name: Aggiornare la pianificazione della versione per Project Service 3.x
+        - name: Aggiornare la pianificazione del rilascio per Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Novità o modifiche dell''aggiornamento versione 47, V3'
+          href: psa/whats-new-ur-47.md
+        - name: 'Novità o modifiche dell''aggiornamento versione 45, V3'
+          href: psa/whats-new-ur-45.md
         - name: 'Novità o modifiche dell''aggiornamento versione 44, V3'
           href: psa/whats-new-ur-44.md
         - name: 'Novità o modifiche dell''aggiornamento versione 43, V3'
