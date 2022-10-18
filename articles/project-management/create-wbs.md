@@ -6,12 +6,12 @@ ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a947c0a44464bfad6c3bd74b0cb4fb8128924859
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 19d2dfeff39fd3c5edd5124c27134a9fe360e4d1
+ms.sourcegitcommit: 8f4841387deea2998589b7365c3373585a16cb0e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932071"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9655193"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Creare una struttura di suddivisione del lavoro
 
@@ -112,6 +112,18 @@ Il campo **Categoria** include i valori che indicano un tipo di lavoro più ampi
 Puoi utilizzare la pianificazione in Project Operations per creare relazioni predecessore tra attività. Il campo **Predecessore** utilizza uno o più valori per indicare le attività da cui dipende un'attività. Quando i valori di predecessore sono assegnati a un'attività, l'attività può iniziare solo dopo che tutte le attività predecessore sono state completate. A causa della dipendenza, la data di inizio pianificata dell'attività viene impostata sulla data di completamento delle attività predecessore.
 
 La modalità di attività non influisce sugli aggiornamenti delle date di inizio e fine delle attività predecessore/dipendenti.
+
+## <a name="understanding-the-impacts-of-duration-resource-calendars-and-project-calendars-on-tasks"></a>Comprendere l'impatto della durata, dei calendari delle risorse e dei calendari dei progetti sulle attività
+La durata di un'attività è definita come il numero di ore lavorative tra l'ora di inizio della data di inizio e l'ora di fine della data di fine dell'attività.   Project for the Web definisce le unità di misura della durata come segue:
+
+| **Misura della durata** | **Quantità**|
+|----------------------------------------------------|----------------------|
+| Ore al giorno | 8 |
+| Ore alla settimana |  40 |
+| Giorni al mese |  20 |
+
+Le attività non assegnate vengono pianificate utilizzando il calendario del progetto. Tuttavia, al momento dell'assegnazione iniziale della risorsa, la pianificazione di un'attività viene aggiornata in modo che rispetti il calendario della risorsa. Le modifiche successive a un'attività che ha un'assegnazione saranno disciplinate dalla [modalità di pianificazione](scheduling-modes.md) del progetto. Per ulteriori informazioni sull'influenza dei calendari sulle attività, vedi [Calendari delle risorse in Project for the Web](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) e [Orari di inizio attività e progetti](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
+
 
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Tasti di scelta rapida e accessibilità
 

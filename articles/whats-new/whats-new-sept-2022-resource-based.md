@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: ef8b4dd98d64dac1e2420f8e6a104258f126f112
-ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
+ms.openlocfilehash: 04b5f2f8223cdc80028860dd880dde314be244eb
+ms.sourcegitcommit: b3a70bc4f2850cff5c2b7114cff7bd61ec298143
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "9621247"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9634810"
 ---
 # <a name="whats-new-september-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novità della versione di settembre 2022 - Project Operations per scenari basati su risorse/materiali non stoccati
 
@@ -35,6 +35,7 @@ Questo articolo si applica ai seguenti componenti e versioni di Microsoft Dynami
 | Gestione spese | **Possibilità di registrare la passività di spesa nella valuta del fornitore**<br>Questa funzionalità permette di registrare le note spese in una valuta del fornitore per il metodo di pagamento in contanti. | [Possibilità di registrare la passività di spesa nella valuta del fornitore](/dynamics365/project-operations/expense/posting-expense-reports#enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature) |
 | Approvvigionamento di progetti | **Pagamenti del fornitore con pagamento su pagamento**<br>Questa funzionalità consente di usare la funzionalità Pagamento su pagamento (PWP) con ambienti non di magazzino di Project Operations. Permette di bloccare/trattenere i pagamenti ai fornitori, in base a termini di ritenuta, fino al ricevimento del pagamento da parte del cliente. | [Pagamenti del fornitore con pagamento su pagamento](/dynamics365/project-operations/procurement/pay-when-paid) |
 | Approvvigionamento di progetti | **Richieste di acquisto di progetto**<br>Questa funzionalità consente agli utenti di creare ordini di acquisto correlati al progetto in persone giuridiche in cui è abilitata l'integrazione di Project Operations on Dynamics 365 Customer Engagement. Gli ordini di acquisto del progetto possono essere usati per registrare l'approvvigionamento di materiale non stoccato a fronte del progetto per i singoli utenti tipo del reparto acquisti. Gli ordini di acquisto del progetto non verranno sincronizzati con Dataverse. Tuttavia, puoi usare un'entità virtuale per visualizzare le righe dell'ordine di acquisto del progetto in Dataverse per informazioni sul project manager. Il costo della fattura fornitore relativo al progetto è integrato con l'entità Valori effettivi di progetto in Dataverse. Il costo del progetto viene registrato nel giornale di registrazione secondario usando il giornale di integrazione di Project Operations. | |
+|Pianificazione e rilevamento dei progetti|**Utilizzare le API di pianificazione del progetto per eseguire operazioni con entità di pianificazione** </br> </br>L'API di modifica del contorno dell'assegnazione delle risorse consente agli sviluppatori di specificare a livello di codice il lavoro di un assegnatario di attività in qualsiasi intervallo di date supportato per una pianificazione più dettagliata del lavoro in fasi temporali.|[Utilizzare le API di pianificazione del progetto per eseguire operazioni con entità di pianificazione](/dynamics365/project-operations/project-management/schedule-api-preview)|
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Aggiornamenti delle mappe a doppia scrittura di Project Operations
 

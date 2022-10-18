@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 2cce7ae25f05258e8bf0bab9430324bc9b30e329
-ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
+ms.openlocfilehash: a02ac7a69489bc7974eb0e63c11fa5de74795b78
+ms.sourcegitcommit: b3a70bc4f2850cff5c2b7114cff7bd61ec298143
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "9621254"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9634857"
 ---
 # <a name="whats-new-september-2022---project-operations-lite-deployment"></a>Novità della versione di settembre 2022 - Distribuzione di Project Operations Lite
 
@@ -30,6 +30,7 @@ Questo articolo si applica ai seguenti componenti e versioni di Microsoft Dynami
 | Prezzi e fatturazione | **Impostazione automatica del prezzo indipendente dal fuso orario**<br>Project Operations ha introdotto il concetto di una data indipendente dal fuso orario su tutti i valori effettivi del progetto. Un nuovo campo, **Data transazione**, è ora disponibile nelle righe del giornale di registrazione e nei valori effettivi e verrà usato per memorizzare la data in cui si è verificata la transazione, ma senza convertire tale data in Coordinated Universal Time. Questa data verrà usata per i processi a valle come l'impostazione automatica del prezzo e la creazione di fatture. | <p>[Determinare i tassi di costo per stime e valori effettivi basati su progetto](/dynamics365/project-operations/pro/pricing-costing/cost-price-resolution-sales)</p><p>[Determinare i prezzi di vendita per stime e valori effettivi basati su progetto](/dynamics365/project-operations/pro/pricing-costing/sales-price-resolution-sales)</p> |
 | Prezzi e fatturazione | **Sostituzioni del prezzo alla data di validità in Project Operations**<br>Sostituzioni prezzo data di validità fornisce un modo per ignorare o modificare prezzi specifici nel listino prezzi. | [Sostituzioni prezzo data di validità](/dynamics365/project-operations/pricing-costing/dateffective_price_overrides) |
 | Ore e spesa | **Responsabile approvatore globale**<br>Questa funzione consente l'approvazione centralizzata e del fornitore di software indipendente (ISV), indipendentemente dal progetto o dallo stato del membro del team nel progetto. | [Sicurezza e approvazioni](/dynamics365/project-operations/approvals/approvals-security) |
+|Pianificazione e rilevamento dei progetti|**Utilizzare le API di pianificazione del progetto per eseguire operazioni con entità di pianificazione** </br> </br>L'API di modifica del contorno dell'assegnazione delle risorse consente agli sviluppatori di specificare a livello di codice il lavoro di un assegnatario di attività in qualsiasi intervallo di date supportato per una pianificazione più dettagliata del lavoro in fasi temporali.|[Utilizzare le API di pianificazione del progetto per eseguire operazioni con entità di pianificazione](/dynamics365/project-operations/project-management/schedule-api-preview)|
 
 ## <a name="quality-updates"></a>Aggiornamenti di qualità
 
