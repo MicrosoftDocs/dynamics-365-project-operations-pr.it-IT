@@ -1752,9 +1752,7 @@
               href: psa/FAQ-soft-book-in-web-app.md
             - name: Come si personalizza il processo aziendale Fasi del progetto?
               href: psa/FAQ-customize-bpf.md
-            - name: Considerazioni sull'aggiornamento della struttura di suddivisione del lavoro
-              href: psa/upgrade-considerations-tasks.md
-        - name: White Paper
+        - name: White paper
           href: psa/white-papers.md
         - name: Guida dell'amministratore
           items:
