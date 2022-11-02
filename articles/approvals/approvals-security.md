@@ -6,12 +6,12 @@ ms.date: 08/29/2022
 ms.topic: security
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: bc33f63f66bdcf1470e5d9386cfc3661774436fd
-ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
+ms.openlocfilehash: 0dcadaa142bf46e4c54f160759602ac749022108
+ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/16/2022
-ms.locfileid: "9525363"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9709402"
 ---
 # <a name="security-and-approvals"></a>Sicurezza e approvazioni
 
@@ -33,6 +33,6 @@ Per approvare voci non di progetto, devi essere il responsabile dell'autore dell
 > [!NOTE]
 > La funzionalità [Set di approvazioni](approval-sets.md) deve essere abilitata per poter utilizzare la funzionalità Amministratore responsabile approvazione di progetto.
 
-Il ruolo di sicurezza **Amministratore responsabile approvazione di progetto** consente agli utenti di ignorare i criteri e consente l'approvazione delle voci in tutti i progetti. L'assegnazione di questo ruolo ignorerà la logica di convalida che richiede l'appartenenza al team e di essere contrassegnato come responsabile approvazione. Devi avere accesso alle entità correlate pertinenti, ad esempio **Progetto**. Tale accesso può essere assegnato da qualcuno che dispone del ruolo **Responsabile di progetto**.
+Il ruolo di sicurezza **Amministratore responsabile approvazione di progetto** consente agli utenti di ignorare i criteri e consente l'approvazione delle voci in tutti i progetti. L'assegnazione di questo ruolo ignorerà la logica di convalida che richiede l'appartenenza al team e di essere contrassegnato come responsabile approvazione. È necessario avere accesso alle tabelle correlate pertinenti, ad esempio **Project**, tramite i ruoli di sicurezza a te assegnati.
 
 Il contesto utente SYSTEM ignora le convalide come il ruolo di sicurezza Amministratore responsabile approvazione di progetto.
