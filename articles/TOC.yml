@@ -286,6 +286,8 @@
           href: project-management/define-project-calendars.md
         - name: Modalità di pianificazione
           href: project-management/scheduling-modes.md
+        - name: Pianificazione esterna
+          href: project-management/external-scheduling.md
         - name: Aggiornare un progetto
           href: project-management/update-project.md
         - name: Copiare un progetto
@@ -914,6 +916,8 @@
           href: project-management/define-project-calendars.md
         - name: Modalità di pianificazione
           hreF: project-management/scheduling-modes.md
+        - name: Pianificazione esterna
+          href: project-management/external-scheduling.md
         - name: Aggiornare un progetto
           href: project-management/update-project.md
         - name: Copiare un progetto
