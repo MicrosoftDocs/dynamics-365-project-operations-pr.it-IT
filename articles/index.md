@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: kfend
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 0cda9df5b04e96dc347976d328a87739a48ac8a7
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: f802583a60eec45a9fd4d1e28e1aeafe03f3218a
+ms.sourcegitcommit: bea5f9b4066277344add1da3a1567ed56a0cfd31
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924435"
+ms.lasthandoff: 11/02/2022
+ms.locfileid: "9736718"
 ---
 # <a name="dynamics-365-project-operations"></a>Dynamics 365 Project Operations
 
@@ -37,7 +37,7 @@ Project Operations è potente di per sé, ma può essere ampliato dai nostri cli
 Per ulteriori informazioni, vedere:
 
 - [Panoramica di Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/)
-- [Panoramica del primo ciclo di rilascio del 2022 di Dynamics 365 Project Operations](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-project-operations/)
+- [Panoramica di Dynamics 365 Project Operations - Primo ciclo di rilascio del 2022](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-project-operations/)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

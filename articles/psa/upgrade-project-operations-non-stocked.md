@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 06a4de89be8176049d3a14a8c0d6427e228744ba
-ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
+ms.openlocfilehash: ac2435c99f3aa9b2a6cdb08d7ce5f6628e7f6ac4
+ms.sourcegitcommit: bea5f9b4066277344add1da3a1567ed56a0cfd31
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "9709449"
+ms.lasthandoff: 11/02/2022
+ms.locfileid: "9736671"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Aggiornamento da Project Service Automation a Project Operations
 
@@ -97,7 +97,7 @@ Dopo aver aggiornato le personalizzazioni per importare in modo pulito Project O
     A seconda della quantità di dati nell'ambiente, l'aggiornamento potrebbe richiedere diverse ore. Il team principale che gestisce l'aggiornamento deve pianificare di conseguenza ed eseguire l'aggiornamento durante le ore non lavorative. In alcuni casi, se il volume di dati è grande, l'aggiornamento deve essere eseguito durante il fine settimana. La decisione sulla pianificazione deve essere basata sui risultati dei test in ambienti inferiori.
 
 3. Aggiorna le soluzioni personalizzate in base alle esigenze. A questo punto, distribuisci tutte le modifiche che hai apportato alle tue personalizzazioni nella sezione [Test e refactoring delle personalizzazioni](#testing-and-refactoring-customizations) di questo articolo.
-4. Vai a **Impostazioni** \> **Soluzioni** e seleziona di disinstallare la soluzione **Componenti deprecati di Project Operations**.
+4. Vai a **make.powerapps.com**, seleziona il tuo ambiente dal menu a tendina in alto a destra del portale, seleziona **Soluzioni** dal menu a sinistra, seleziona la soluzione **Componenti deprecati di Project Operations** e **Disinstalla**.
 
     Questa soluzione è una soluzione temporanea che contiene il modello di dati esistente e i componenti presenti durante l'aggiornamento. Rimuovendo questa soluzione, rimuovi tutti i campi e i componenti che non vengono più utilizzati. In questo modo, contribuisci a semplificare l'interfaccia e a rendere più facili l'integrazione e l'estensione.
     
