@@ -1,21 +1,21 @@
 ---
-title: Creare un anticipo ad hoc su un contratto
+title: Creare un anticipo ad hoc su un contratto di progetto
 description: Questo articolo fornisce informazioni sulla creazione di un anticipo su un contratto in base alle esigenze.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 3e450a17990c6fc783ddffdb05e1ab5b9429a3c1
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 62e41e5faeb5e40143e26e2cdf48c1279941a6b4
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922181"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824852"
 ---
-# <a name="creating-an-ad-hoc-advance-on-a-contract"></a>Creare un anticipo ad hoc su un contratto
+# <a name="create-an-ad-hoc-advance-on-a-project-contract"></a>Creare un anticipo ad hoc su un contratto di progetto
 
-_**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione semplice: dalla transazione alla fatturazione proforma_
+_**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione lite: dalla transazione alla fatturazione proforma_
 
 Microsoft Dynamics 365 Project Operations supporta scenari di fatturazione che coinvolgono pagamenti anticipati e anticipi. Il processo per l'utilizzo di **Anticipi** in **Project Operations** è simile ai contratti **Acconto**. 
 

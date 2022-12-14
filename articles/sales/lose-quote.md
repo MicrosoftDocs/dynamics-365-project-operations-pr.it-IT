@@ -1,21 +1,21 @@
 ---
-title: Copiare offerte basate su progetto
-description: Questo articolo fornisce informazioni sulla copia delle offerte basate su progetto in Project Operations.
+title: Copiare offerte di progetto
+description: Questo articolo fornisce informazioni sulla copia delle offerte di progetto in Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6c3b964d89d6d24ae5d32dd9e5e79fcd1e90c19d
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 4f865a4c8a541d6a9c92c5f58a4ed2ed32891eb0
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914913"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825282"
 ---
-# <a name="copy-project-based-quotes"></a>Copiare offerte basate su progetto
+# <a name="copy-project-quotes"></a>Copiare offerte di progetto
 
-_**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione semplice: dalla transazione alla fatturazione proforma_
+_**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione lite: dalla transazione alla fatturazione proforma_
 
 Puoi facilmente creare una nuova offerta di progetto copiandone una esistente. 
 

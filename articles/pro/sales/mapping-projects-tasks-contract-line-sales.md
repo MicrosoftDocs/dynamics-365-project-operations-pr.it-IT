@@ -1,23 +1,23 @@
 ---
-title: Mappare progetti e attività a una voce di contratto basata su progetto - semplice
+title: Mappare progetti e attività a una voce del contratto di progetto
 description: Questo articolo fornisce informazioni sull'aggiunta e sulla rimozione di progetti e attività in una riga di contratto.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c8075e3161acd904969f964e5ab32dfe04edc4b6
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 45118bb5a36203a3121a5f7ada0992d2c2491a4a
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932531"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825063"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-contract-line"></a>Mappare progetti e attività a una riga di offerta basata su progetto 
+# <a name="map-projects-and-tasks-to-a-project-contract-line"></a>Mappare progetti e attività a una voce del contratto di progetto 
 
-_**Si applica a:** Distribuzione semplice: dalla transazione alla fatturazione proforma, Project Operations per scenari basati su risorse/materiali non stoccati_
+_**Si applica a:** Distribuzione lite: dalla transazione alla fatturazione proforma, Project Operations per scenari basati su risorse/materiali non stoccati_
 
-Nelle voci di contratto basate su progetto, è possibile mappare attività specifiche in un progetto alla voce di contratto.
+Nelle voci di contratto di progetto, è possibile mappare attività specifiche in un progetto alla voce di contratto.
 
 Quando mappi attività specifiche a una voce di contratto, il metodo di fatturazione, le opzioni di addebito, i limiti da non superare e i clienti definiti nella voce di contratto saranno applicabili solo a quelle attività specifiche.
 
@@ -25,7 +25,7 @@ Se hai uno scenario in cui una fase di un progetto, ad esempio la fase prototipo
 
 Tutte le altre fasi nella struttura di suddivisione del lavoro del progetto possono essere associate alla voce di contratto basata su tempo e materiale.
 
-## <a name="associate-tasks-to-project-based-contract-lines"></a>Associare attività a voci di contratto basate su progetto
+## <a name="associate-tasks-to-project-contract-lines"></a>Associare attività a voci di contratto di progetto
 
 Le attività possono essere associate a voci di contratto dalla scheda **Attività addebitabili** nella pagina **Voce di contratto** o dalla scheda **Fatturazione attività** della pagina **Progetto**.
 

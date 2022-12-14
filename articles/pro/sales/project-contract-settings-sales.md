@@ -1,21 +1,21 @@
 ---
-title: Impostazioni del contratto di progetto - semplice
-description: Questo articolo fornisce informazioni sui campi che influiscono sulle righe di contratto e le informazioni sul contratto che vengono riepilogate in tutte le voci.
+title: Dettagli dell'intestazione per contratti di progetto
+description: Questo articolo fornisce informazioni sui campi e sui contratti di progetto in Project Operations.
 author: rumant
 ms.date: 03/08/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6123cbc028cf49cc198173697969f415b0789256
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: f648113f54257e2c303cb2729e282d70f818d838
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917075"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824913"
 ---
 # <a name="header-details-for-project-contracts"></a>Dettagli dell'intestazione per contratti di progetto
 
-_**Si applica a:** Distribuzione semplice: dalla transazione alla fatturazione proforma_
+_**Si applica a:** Distribuzione lite: dalla transazione alla fatturazione proforma_
 
 Questo articolo fornisce informazioni sui campi che si applicano all'intero contratto di progetto, comprese le impostazioni che influiscono su tutte le righe di contratto. Sono incluse anche le informazioni sul contratto che vengono riepilogate in tutte le voci per guidare i KPI del contratto di progetto.
 

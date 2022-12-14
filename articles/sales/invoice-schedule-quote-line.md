@@ -1,27 +1,27 @@
 ---
-title: Pianificazioni della fatturazione su righe di offerta basate su progetto
+title: Pianificazioni della fatturazione su righe di offerta di progetto
 description: Questo articolo fornisce informazioni sulla creazione di pianificazioni fatture e passaggi fondamentali per le righe di offerta.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b1e431bc3586f9fef7a01348555e4ee4e06cc66c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 98006cc2857f01298054c4f0e70781bf4b8b474b
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8918317"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825758"
 ---
-# <a name="invoice-schedules-on-project-based-quote-lines"></a>Pianificazioni della fatturazione su righe di offerta basate su progetto
+# <a name="invoice-schedules-on-project-quote-lines"></a>Pianificazioni della fatturazione su righe di offerta di progetto
 
-_**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione semplice: dalla transazione alla fatturazione proforma_
+_**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione lite: dalla transazione alla fatturazione proforma_
 
-Una riga di offerta basata su progetto offre la possibilità di esprimere una pianificazione della fatturazione. Si tratta di un'opzione facoltativa durante la fase di offerta perché l'applicazione non supporta la fatturazione di un progetto quando è collegato a una riga dell'offerta. La fatturazione è consentita solo dopo che l'offerta è stata acquisita. L'unico impatto downstream della creazione di una pianificazione della fatturazione durante la fase di offerta è che questa pianificazione della fatturazione viene copiata nella riga di contratto basata sul progetto. Se non crei una pianificazione della fatturazione durante la fase di offerta, sarà possibile farlo nella riga di contratto basata sul progetto.
+Una riga di offerta di progetto offre la possibilità di esprimere una pianificazione della fatturazione. Si tratta di un'opzione facoltativa durante la fase di offerta perché l'applicazione non supporta la fatturazione di un progetto quando è collegato a una riga dell'offerta. La fatturazione è consentita solo dopo che l'offerta è stata acquisita. L'unico impatto downstream della creazione di una pianificazione della fatturazione durante la fase di offerta è che questa pianificazione della fatturazione viene copiata nella riga di contratto basata sul progetto. Se non crei una pianificazione della fatturazione durante la fase di offerta, sarà possibile farlo nella riga di contratto basata sul progetto.
 
 Nel complesso, lo scopo delle pianificazioni della fatturazione è consentire la creazione automatica di bozze di fatture per una riga di contratto basata su progetto. 
 
-## <a name="create-a-time-and-material-invoice-schedule-for-a-project-based-quote-line"></a>Creare una pianificazione della fatturazione per tempi e materiali per una riga di offerta basata su progetto
+## <a name="create-a-time-and-material-invoice-schedule-for-a-project-quote-line"></a>Creare una pianificazione della fatturazione per tempi e materiali per una riga di offerta di progetto
 
 Quando il metodo di fatturazione per una riga di offerta basata su progetto è Tempo e materiale, il sistema genera una pianificazione della fatturazione basata sulla data. Per generare automaticamente una pianificazione della fatturazione basata sulla data, completa i seguenti passaggi.
 
@@ -36,7 +36,7 @@ Quando il metodo di fatturazione per una riga di offerta basata su progetto è T
     - **Data limite transazione** è impostato il giorno prima della **Data esecuzione fattura**.
     - **Stato di esecuzione** viene impostato automaticamente su **Non eseguito**. Quando il processo di creazione automatica della fattura viene eseguito per una determinata data di esecuzione della fattura, aggiornerà questo campo in **Esecuzione completata** o **Esecuzione non riuscita**.
 
-## <a name="create-a-fixed-price-invoice-schedule-for-a-project-based-quote-line"></a>Creare una pianificazione della fatturazione a prezzo fisso per una riga di offerta basata su progetto
+## <a name="create-a-fixed-price-invoice-schedule-for-a-project-quote-line"></a>Creare una pianificazione della fatturazione a prezzo fisso per una riga di offerta di progetto
 
 Quando la riga dell'offerta basata sul progetto ha un metodo di fatturazione **Fisso**, il sistema crea una pianificazione della fatturazione basata su passaggi fondamentali. Completa i passaggi seguenti per generare automaticamente questa pianificazione per un insieme fisso di passaggi fondamentali che vengono equamente distribuiti per il periodo di calendario.
 

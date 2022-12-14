@@ -1,21 +1,21 @@
 ---
-title: Gestire più clienti sulle voci di contratto basate su progetto - semplice
+title: Gestire più clienti nelle righe di contratto di progetto
 description: Questo articolo fornisce informazioni sulla gestione di più clienti nelle voci di contratto basate su progetto.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f7648c7ef7ec6ffb68932552a0c25b79f1f93733
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: ec8457fd32a5c215bbc2056b02b2ab3527c4ab1f
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922135"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825945"
 ---
-# <a name="manage-multiple-customers-on-project-based-contract-lines---lite"></a>Gestire più clienti sulle voci di contratto basate su progetto - semplice
+# <a name="manage-multiple-customers-on-project-contract-lines"></a>Gestire più clienti nelle righe di contratto di progetto
 
-_**Si applica a:** Distribuzione semplice: dalla transazione alla fatturazione proforma_
+_**Si applica a:** Distribuzione lite: dalla transazione alla fatturazione proforma_
 
 Le voci di contratto basate su progetto possono includere un elenco di clienti responsabili del pagamento. Questo elenco di clienti nella voce di contratto basata su progetto può essere uguale all'elenco dei clienti nel contratto, ma non è obbligatorio. Quando si acquisisce un'offerta di progetto e viene creato un contratto di progetto, l'elenco dei clienti nella riga di offerta viene copiato nella voce di contratto corrispondente. I clienti dell'offerta vengono copiati nel contratto.
 

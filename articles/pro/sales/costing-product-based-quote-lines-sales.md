@@ -1,21 +1,21 @@
 ---
 title: Costo delle righe dell'offerta basate sul prodotto
 description: Questo articolo fornisce informazioni sull'applicazione di un prezzo di costo a una riga di offerta basata su prodotto.
-author: ruhercul
+author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
-ms.author: ruhercul
-ms.openlocfilehash: 23eb3d29081769347d62098534a9863fd28fa90c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.author: rumant
+ms.openlocfilehash: a8b3569ff217f6fc62606dae4292be14f9d3358c
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932577"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825616"
 ---
 # <a name="costing-product-based-quote-lines"></a>Costo delle righe dell'offerta basate sul prodotto
 
-_**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione semplice: dalla transazione alla fatturazione proforma_
+_**Si applica a:** Distribuzione lite: dalla transazione alla fatturazione proforma_
 
 
 Le righe di offerta basata su prodotto in Dynamics 365 Project Operations hanno anche un campo **Prezzo di costo**. Questo campo viene utilizzato per tener traccia del prezzo di costo del prodotto nella riga di offerta e per i calcoli della redditività downstream.

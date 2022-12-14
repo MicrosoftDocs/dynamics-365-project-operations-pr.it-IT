@@ -1,23 +1,23 @@
 ---
-title: Gestire più clienti in un'offerta di progetto
+title: Gestire più clienti in un'offerta basata su progetto
 description: Questo articolo fornisce informazioni su come lavorare sulle offerte che coinvolgono più clienti che finanzieranno il progetto.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 16cd07527fddd093748a18c1f7c900c8b32be85d
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7b9c82ababdb9a588a0d28cae60a49d0594378d9
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928207"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825153"
 ---
-# <a name="manage-multiple-customers-on-a-project-quote"></a>Gestire più clienti in un'offerta di progetto
+# <a name="manage-multiple-customers-on-a-project-based-quote"></a>Gestire più clienti in un'offerta basata su progetto
 
-_**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione semplice: dalla transazione alla fatturazione proforma_
+_**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati_
 
-Le offerte di progetto supportano lo scenario in cui la proposta coinvolge più clienti che finanzieranno la transazione. La scheda **Riepilogo** dell'offerta contiene il campo **Potenziale cliente** che identifica il cliente principale della transazione. Altri clienti per la transazione possono essere impostati nella scheda **Clienti** dell'offerta di progetto.
+Le offerte basate su progetto supportano lo scenario in cui la proposta coinvolge più clienti che finanzieranno la transazione. La scheda **Riepilogo** dell'offerta contiene il campo **Potenziale cliente** che identifica il cliente principale della transazione. Altri clienti per la transazione possono essere impostati nella scheda **Clienti** dell'offerta di progetto.
 
 Tutti i clienti dell'offerta nella scheda **Clienti** dell'offerta di progetto vengono impostati in modo predefinito come clienti della riga dell'offerta in qualsiasi **nuova** riga dell'offerta basata sul progetto creata per l'offerta. Eventuali righe dell'offerta basate sul progetto esistenti non erediteranno i nuovi record cliente dell'offerta creati successivamente.
 

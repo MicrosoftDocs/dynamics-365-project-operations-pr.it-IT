@@ -1,21 +1,21 @@
 ---
-title: Gestire opportunità basate su progetto
+title: Gestire opportunità di progetto
 description: In questo articolo vengono fornite informazioni su come utilizzare le opportunità correlate ai progetti.
 author: rumant
 ms.date: 10/21/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 29e5a2c91186021eee9bb23aba3d42228fcd9381
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 56eba38476dd5b49f0043eee5d411d51f9bf56b8
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8933221"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825336"
 ---
-# <a name="manage-project-based-opportunities"></a>Gestire opportunità basate su progetto
+# <a name="manage-project-opportunities"></a>Gestire opportunità di progetto
 
-_**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione semplice: dalla transazione alla fatturazione proforma_
+_**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione lite: dalla transazione alla fatturazione proforma_
 
 Le società basate su progetti in genere includono operazioni per la consegna distribuite in più paesi e aree geografiche. Il costo dell'esecuzione e della consegna del progetto può variare in base all'area geografica o alla divisione che gestisce la consegna. A sua volta, questo può influire sui margini della transazione. La consegna di servizi basati su progetti comporta in genere grandi quantità di tempo in termini di risorse umane, spese considerevoli per viaggi, costi dei materiali e altre spese.
 

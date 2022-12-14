@@ -1,21 +1,21 @@
 ---
-title: Panoramica delle righe dell'offerta basate su prodotto - semplice
+title: Panoramica delle righe dell'offerta basate su prodotto
 description: Questo articolo fornisce informazioni sull'uso di righe di offerta basate su prodotto.
 author: rumant
 ms.date: 10/30/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: db0700e789202a8fdd0ef3b49959421ac54fb9ad
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: a260c0f51cc2d958281dbc6f0f711347cab85a9a
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914315"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9826227"
 ---
-# <a name="product-based-quote-lines-overview---lite"></a>Panoramica delle righe dell'offerta basate su prodotto - semplice
+# <a name="product-based-quote-lines-overview"></a>Panoramica delle righe dell'offerta basate su prodotto
 
-_**Si applica a:** Distribuzione semplice: dalla transazione alla fatturazione proforma_
+_**Si applica a:** Distribuzione lite: dalla transazione alla fatturazione proforma_
 
 Puoi creare righe di offerta basate su prodotto in Dynamics 365 Project Operations. Le righe di offerta basate su prodotto possono essere aggiunte manualmente oppure possono essere articoli del catalogo prodotti.
 

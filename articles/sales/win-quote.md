@@ -1,23 +1,23 @@
 ---
-title: Chiudere un'offerta
+title: Chiudere offerte basate su progetto
 description: In questo articolo vengono fornite informazioni sulla chiusura delle offerte in Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 45bdfe5fb9eddb8f96ed1bc017596c8fe436245e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7b35417d4258a1e837fdf7a61bbcc303ec04a900
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931887"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824222"
 ---
-# <a name="close-a-quote"></a>Chiudere un'offerta
+# <a name="close-project-based-quotes"></a>Chiudere offerte basate su progetto
 
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati_
 
-Un'offerta di progetto può essere chiusa come acquisita o persa. Dal momento che le funzioni Attiva e Revisiona non sono supportate nelle offerte in Microsoft Dynamics 365 Project Operations, puoi chiudere un'offerta in bozza.
+Un'offerta di progetto può essere chiusa come **acquisita** o **persa**. 
 
 ## <a name="close-a-quote-as-won"></a>Chiudere un'offerta come acquisita
 

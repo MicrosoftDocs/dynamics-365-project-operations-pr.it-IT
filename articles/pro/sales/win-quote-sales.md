@@ -1,5 +1,5 @@
 ---
-title: Chiudere un'offerta - semplice
+title: Chiudere le offerte di progetto
 description: In questo articolo vengono fornite informazioni sulla chiusura di un'offerta in Project Operations.
 author: rumant
 ms.date: 10/01/2020
@@ -7,16 +7,16 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: e3a199843f379dc53d63372f91e8be2e1bcbf4e9
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 4335fa5467640af840c0f68a648c9b8a6864d834
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8916937"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9826180"
 ---
-# <a name="close-a-quote---lite"></a>Chiudere un'offerta - semplice
+# <a name="close-project-quotes"></a>Chiudere le offerte di progetto
 
-_**Si applica a:** Distribuzione semplice: dalla transazione alla fatturazione proforma_
+_**Si applica a:** Distribuzione lite: dalla transazione alla fatturazione proforma_
 
 Un'offerta di progetto può essere chiusa come acquisita o persa. Una bozza di offerta può essere chiusa perché le operazioni di attivazione e revisione sulle offerte non sono supportate in Microsoft Dynamics 365 Project Operations.
 
@@ -30,7 +30,7 @@ Se l'offerta è collegata a un'opportunità, qualsiasi altra offerta di progetto
 
 Se sono presenti valori effettivi per l'ora in un progetto mentre è ancora collegato a una bozza di offerta, viene registrato solo il costo dell'ora o della spesa. Dopo che un'offerta è stata chiusa come acquisita, l'applicazione effettuerà il refactoring dei costi annullando i valori effettivi di costo precedenti e ricreando nuovi valori effettivi di costo. L'applicazione elaborerà questi valori effettivi di costo in base al metodo di fatturazione della voce di contratto di progetto associata. Se i valori effettivi dei costi fanno riferimento a una riga di contratto di tempo e materiali, vengono creati i valori effettivi di vendita non fatturati corrispondenti per quando l'offerta viene chiusa e il contratto di progetto viene creato. Se i costi effettivi fanno riferimento a una riga di contratto a prezzo fisso, l'applicazione interromperà la rielaborazione dei costi effettivi basati sulle regole di fatturazione suddivisa per i clienti del contratto di progetto.
 
-## <a name="closing-a-quote-as-lost"></a>Chiusura di un'offerta come persa:
+## <a name="closing-a-quote-as-lost"></a>Chiusura di un'offerta come persa
 
 Quando chiudi un'offerta di progetto come Persa, lo stato viene impostato su Chiuso e il motivo dello stato è Perso. La chiusura dell'offerta rende l'offerta di progetto di sola lettura. Poiché un'offerta chiusa non può essere riaperta, prima di chiudere un'offerta una finestra di dialogo di conferma confermerà le modifiche.
 

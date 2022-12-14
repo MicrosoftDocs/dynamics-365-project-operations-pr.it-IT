@@ -1,23 +1,23 @@
 ---
-title: Gestire più clienti sulle righe di offerta basate su progetto - semplice
-description: Questo articolo descrive come gestire più clienti nelle righe di offerta basate su progetto.
+title: Gestire più clienti nelle righe offerta di progetto
+description: Questo articolo descrive come gestire più clienti nelle righe di offerta di progetto.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fbd0c17de3de8dc4cd84860851fb5837b86586cd
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 70007499ea61e7d81df071cc6d003896d721555b
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927793"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824443"
 ---
-# <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>Gestire più clienti sulle righe di offerta basate su progetto - semplice
+# <a name="manage-multiple-customers-on-project-quote-lines"></a>Gestire più clienti nelle righe offerta di progetto
 
-_**Si applica a:** Distribuzione semplice: dalla transazione alla fatturazione proforma_
+_**Si applica a:** Distribuzione lite: dalla transazione alla fatturazione proforma_
 
-Le righe di offerta basate su progetto supportano scenari in cui ogni riga di offerta include un elenco di clienti che stanno pagando per essa. Questo elenco di clienti nella riga di offerta basata su progetto può essere uguale all'elenco di clienti nell'offerta. Puoi anche modificare l'elenco dei clienti in modo che sia diverso. Dopo l'acquisizione di un'offerta di progetto, l'elenco di clienti nella riga di offerta basata su progetto viene copiato nella voce di contratto basata su progetto corrispondente per creare l'eventuale contratto di progetto. I clienti dell'offerta basata sul progetto vengono copiati nel contratto di progetto.
+Le righe di offerta di progetto supportano scenari in cui ogni riga di offerta include un elenco di clienti che stanno pagando per essa. Questo elenco di clienti nella riga di offerta basata su progetto può essere uguale all'elenco di clienti nell'offerta. Puoi anche modificare l'elenco dei clienti in modo che sia diverso. Dopo l'acquisizione di un'offerta di progetto, l'elenco di clienti nella riga di offerta basata su progetto viene copiato nella voce di contratto basata su progetto corrispondente per creare l'eventuale contratto di progetto. I clienti dell'offerta basata sul progetto vengono copiati nel contratto di progetto.
 
 Quando si fattura l'eventuale contratto di progetto, l'elenco dei clienti nella riga del contratto basato sul progetto ha la priorità sull'elenco nel contratto di progetto. L'elenco di clienti nel contratto di progetto viene utilizzato solo per i valori predefiniti nelle nuove voci del contratto di progetto.
 

@@ -1,21 +1,21 @@
 ---
-title: Configurare i componenti addebitabili di una riga di offerta
+title: Configurare i componenti addebitabili nelle righe di offerta di progetto
 description: Questo articolo fornisce informazioni sulla configurazione dei componenti addebitabili e non addebitabili in una riga di offerta basata su progetto.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d4829055f429546c7911a05a765bc28ae085afa1
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 1e454278a1c5c24ac346c537c778b25448d9ea03
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8930047"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825522"
 ---
-# <a name="configure-the-chargeable-components-of-a-quote-line"></a>Configurare i componenti addebitabili di una riga di offerta 
+# <a name="configure-chargeable-components-on-project-quote-lines"></a>Configurare i componenti addebitabili nelle righe di offerta di progetto
 
-_**Si applica a:** Distribuzione semplice: dalla transazione alla fatturazione proforma, Project Operations per scenari basati su risorse/materiali non stoccati_
+_**Si applica a:** Distribuzione lite: dalla transazione alla fatturazione proforma, Project Operations per scenari basati su risorse/materiali non stoccati_
 
 Una riga di offerta basata su progetto ha il concetto di componenti *inclusi* e *addebitabili*.
 

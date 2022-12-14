@@ -1,21 +1,21 @@
 ---
-title: Gestire più clienti nei contratti di progetto - semplice
+title: Gestire più clienti nei contratti di progetto
 description: Questo articolo fornisce informazioni sulla gestione di più clienti nei contratti di progetto.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 17cd464bad81a01f5f334524a542104d6f25717b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 001c3c822a5d1cef6bd85164ef5e63e81719dafb
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917210"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824537"
 ---
-# <a name="manage-multiple-customers-on-project-contracts---lite"></a>Gestire più clienti nei contratti di progetto - semplice
+# <a name="manage-multiple-customers-on-project-contracts"></a>Gestire più clienti nei contratti di progetto
 
-_**Si applica a:** Distribuzione semplice: dalla transazione alla fatturazione proforma_
+_**Si applica a:** Distribuzione lite: dalla transazione alla fatturazione proforma_
 
 I contratti di progetto in Dynamics 365 Project Operations supportano lo scenario in cui un contratto coinvolge più clienti che stanno finanziando una transazione. La scheda **Sommario** della pagina **Contratto di progetto** include il campo **Cliente**. Questo campo identifica il cliente principale della transazione. Altri clienti per la transazione possono essere impostati nella scheda **Clienti** della pagina **Contratto di progetto**.
 

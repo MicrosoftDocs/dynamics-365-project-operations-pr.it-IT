@@ -1,23 +1,23 @@
 ---
-title: Mappare progetti e attività a una riga dell'offerta basata su progetto
-description: In questo articolo vengono fornite informazioni su come eseguire il mapping di progetti e attività a una riga di attività basata su progetto.
+title: Mappare progetti e attività a righe di offerta di progetto
+description: In questo articolo vengono fornite informazioni su come eseguire il mapping di progetti e attività a righe offerta di progetto.
 author: rumant
 ms.date: 10/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8971a334bd19f0ef106f88034a1abbb3c338de22
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b276e7fb6ec8b98188c9396aca5092d19848afcc
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917167"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824280"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a>Mappare progetti e attività a una riga dell'offerta basata su progetto
+# <a name="map-projects-and-tasks-to-project-quote-lines"></a>Mappare progetti e attività a righe di offerta di progetto
 
-_**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione semplice: dalla transazione alla fatturazione proforma_
+_**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione lite: dalla transazione alla fatturazione proforma_
 
-Nelle righe di offerta basate sul progetto, è possibile mappare le attività specifiche di un progetto già associato a una riga di offerta.
+Nelle righe di offerta di progetto, è possibile mappare le attività specifiche di un progetto già associato a una riga di offerta.
 
 Quando si mappano attività a una riga di offerta, i seguenti elementi definiti nella riga di offerta verranno applicati solo a tali attività:
 

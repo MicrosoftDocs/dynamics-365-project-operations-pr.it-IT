@@ -1,32 +1,32 @@
 ---
-title: Stimare una voce di contratto basata su progetto - semplice
+title: Stimare una voce di contratto di progetto
 description: Questo articolo fornisce informazioni sulla stima di una voce di contratto basata su progetto.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8b4379cc5822d08b55623f0f3d4d49791af90927
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 86872aa58067f55243fa19dc865971f76660f594
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914407"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824772"
 ---
-# <a name="estimate-a-projectbased-contract-line---lite"></a>Stimare una voce di contratto basata su progetto - semplice
+# <a name="estimate-a-project-contract-line"></a>Stimare una voce di contratto di progetto
 
-_**Si applica a:** Distribuzione semplice: dalla transazione alla fatturazione proforma_
+_**Si applica a:** Distribuzione lite: dalla transazione alla fatturazione proforma_
 
-In Dynamics 365 Project Operations, una voce di contratto basata su progetto contiene dettagli che aiutano a stimare il costo e il ricavo potenziale del lavoro richiesto per consegnare la voce di contratto.
+In Dynamics 365 Project Operations, una voce di contratto di progetto contiene dettagli che aiutano a stimare il costo e il ricavo potenziale del lavoro richiesto per consegnare la voce di contratto.
 
-Per stimare una voce di contratto basata su progetto, vai alla scheda **Dettaglio voce di contratto** della **voce di contratto** basata su progetto.  Esistono due modi per creare una stima su una voce di contratto basata su progetto:
+Per stimare una voce di contratto di progetto, vai alla scheda **Dettaglio voce di contratto** della **voce di contratto** basata su progetto.  Esistono due modi per creare una stima su una voce di contratto basata su progetto:
 
    - Crea un stima direttamente nella voce di contratto aggiungendo manualmente i dettagli della voce di contratto.
    - Crea un progetto e un piano di progetto, quindi associa il progetto e le attività alla voce di contratto di progetto. Ciò abilita il processo mediante il quale è possibile importare la stima del piano di progetto nella voce di contratto in base ai componenti inclusi nella voce di contratto.
 
 ## <a name="create-an-estimation-directly-on-a-projectbased-contract-line"></a>Creare una stima direttamente in una voce di contratto basata su progetto
 
-Per creare una stima direttamente su una voce di contratto basata su progetto, procedi come segue:
+Per creare una stima direttamente su una voce di contratto di progetto, procedi come segue:
 
 1. Vai alla voce di contratto e seleziona la scheda **Dettaglio voce di contratto**. Le righe create in questa scheda vengono riepilogate e visualizzate come **Valore di contratto** per questa **voce di contratto**. 
 2. Nella griglia secondaria **Dettagli di voce di contratto**, seleziona **Nuovo dettaglio voce di contratto**. Si apre un indicatore di creazione rapida. I seguenti campi sono disponibili nella pagina **Dettagli voce di contratto**.

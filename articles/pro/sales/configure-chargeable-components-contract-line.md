@@ -1,23 +1,23 @@
 ---
-title: Configurare i componenti addebitabili di una voce di contratto basata su progetto
+title: Configurare componenti addebitabili di una voce di contratto di progetto
 description: In questo articolo vengono fornite informazioni su come aggiungere componenti addebitabili alle righe di contratto in Project Operations.
 author: rumant
 ms.date: 10/08/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 0e4118e8e56d45ef75f53d828e267a8a9c1c903a
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 33296c93964cc88499e7a98d499b99463e59d62a
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922963"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825569"
 ---
-# <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>Configurare i componenti addebitabili di una voce di contratto basata su progetto
+# <a name="configure-chargeable-components-of-a-project-contract-line"></a>Configurare componenti addebitabili di una voce di contratto di progetto
 
-_**Si applica a:** Distribuzione semplice: dalla transazione alla fatturazione proforma, Project Operations per scenari basati su risorse/materiali non stoccati_
+_**Si applica a:** Distribuzione lite: dalla transazione alla fatturazione proforma, Project Operations per scenari basati su risorse/materiali non stoccati_
 
-Una voce di contratto basata su progetto ha i componenti *inclusi* e *addebitabili*.
+Una voce di contratto di progetto ha i componenti *inclusi* e *addebitabili*.
 
 I componenti inclusi sono componenti soggetti a:
 

@@ -1,17 +1,17 @@
 ---
-title: Concetti chiave dell'offerta - semplice
+title: Concetti esclusivi delle offerte di progetto
 description: In questo articolo vengono fornite informazioni sull'utilizzo delle offerte di progetto in Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a8c2f009b7a0bebbf6a49bf942dd19f97205072e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7f0a33f1d7d77f3b5aebfdcf8e6aeb14072cd596
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8916983"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825898"
 ---
 # <a name="concepts-unique-to-project-quotes"></a>Concetti esclusivi delle offerte di progetto
 
@@ -82,9 +82,13 @@ Le pianificazioni delle fatturazioni sono specifiche per ciascuna riga di offert
 
 Le offerte di Project Operations sono basate sulle offerte di Dynamics 365 Sales. Tuttavia, ci sono alcune importanti differenze nella funzionalità di cui tenere conto:
 
-- Le azioni **Aggiorna** e **Attiva** non sono supportate.
+
 - Le offerte di Project Operations hanno due diversi tipi di righe. Uno è per i progetti e l'altro per i prodotti.
 - Le offerte di Project Operations hanno il proprio modulo ed elementi dell'interfaccia utente, regole di business, logica di business nei plug-in e script lato client che le rendono uniche rispetto alle offerte di Sales.
+- Le offerte di Sales consentono di associare più ordini a un'offerta di vendita. in Project Operations puoi associare un solo contratto di progetto a un'offerta di progetto.
+- Quando concludi un'offerta di vendita, l'opportunità correlata può rimanere aperta. Dopo l'acquisizione di un'offerta di progetto, la relativa opportunità viene chiusa.
+- Un'offerta di vendita non include alcuni campi e i concetti inclusi in un'offerta di progetto. Questi campi sono **Unità contratto**, **Gestione account** e **Nome contatto fatturazione**.  
+- **Tipo**: le offerte di vendita e di progetto sono inoltre identificate da un campo basato su set di opzioni denominato **Tipo**. Per un'offerta di vendita, il valore di questo campo è **Basato su articolo**. Per un'offerta di progetto, il valore di questo campo è **Basato su lavoro**.
 
 Per questi motivi, non è consigliabile utilizzare un'offerta di Sales e un'offerta di Project Operations in modo intercambiabile.
 

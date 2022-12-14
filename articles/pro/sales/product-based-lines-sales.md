@@ -1,24 +1,24 @@
 ---
-title: Righe di opportunità basate su prodotto - semplice
-description: Questo articolo fornisce informazioni sulle voci di opportunità basate su prodotto in Project Operations.
+title: Righe opportunità di prodotto
+description: Questo articolo fornisce informazioni sulle voci di opportunità di progetto in Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2e19b371c6e821aecce38d64392db9c027b17106
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 22dd55854f6ab6014021fb073ebed8d4d8b7b4c7
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917121"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825008"
 ---
-# <a name="product-based-opportunity-lines---lite"></a>Righe di opportunità basate su prodotto - semplice
+# <a name="product-opportunity-lines"></a>Righe opportunità di prodotto
 
-_**Si applica a:** Distribuzione semplice: dalla transazione alla fatturazione proforma_
+_**Si applica a:** Distribuzione lite: dalla transazione alla fatturazione proforma_
 
-Le righe di opportunità basate su prodotto sono voci dell'opportunità. Queste voci distinte si trovano nell'eventuale fattura fornita al cliente. La fattura non include altri servizi aggiuntivi. La spesa e il consumo associati non vengono tracciati nelle attività di alcun progetto correlato.
+Le righe di opportunità di progetto sono voci dell'opportunità che non fanno riferimento a un progetto. Queste voci distinte si trovano nell'eventuale fattura fornita al cliente. La fattura non include altri servizi aggiuntivi. La spesa e il consumo associati non vengono tracciati nelle attività di alcun progetto correlato.
 
 Le righe basate su prodotto possono essere elementi di catalogo o prodotti fuori catalogo. La maggior parte delle funzionalità delle righe basate su prodotto di un'opportunità segue la funzionalità fornita dall'applicazione Dynamics 365 Sales. Per ulteriori informazioni sulle righe di opportunità basate su prodotto, vedi [Aggiungere prodotti a un'opportunità](/dynamics365/sales-enterprise/add-products-opportunity).
 

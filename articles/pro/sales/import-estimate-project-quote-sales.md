@@ -1,21 +1,21 @@
 ---
-title: Importare stime per un progetto in una riga di offerta basata su progetto - semplice
-description: In questo articolo vengono fornite informazioni sull'importazione di stime da un progetto in una riga di offerta.
+title: Importare stime da un progetto in una riga di offerta di progetto
+description: In questo articolo vengono fornite informazioni sull'importazione di stime da un progetto in una riga di offerta di progetto.
 author: rumant
 ms.date: 10/09/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 820d858fecf70e50a9ce8943db706ff6cac29992
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 61c9660f18882d12a7da8965c23b65e408256219
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917305"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824491"
 ---
-# <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>Importare stime per un progetto in una riga di offerta basata su progetto 
+# <a name="import-estimates-from-a-project-to-a-project-quote-line"></a>Importare stime da un progetto in una riga di offerta di progetto 
 
-_**Si applica a:** Distribuzione semplice: dalla transazione alla fatturazione proforma, Project Operations per scenari basati su risorse/materiali non stoccati_
+_**Si applica a:** Distribuzione lite: dalla transazione alla fatturazione proforma, Project Operations per scenari basati su risorse/materiali non stoccati_
 
 Se un progetto viene creato durante la fase di prevendita, è possibile scegliere di importare la stima finanziaria dal progetto sulla riga di basata sul progetto.
 

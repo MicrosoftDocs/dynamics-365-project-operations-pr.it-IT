@@ -1,8 +1,8 @@
 ---
-title: 'Concetti chiave: offerte'
-description: In questo articolo vengono fornite informazioni sulle offerte di progetto e di vendita in Project Operations.
+title: Concetti univoci per offerte basate su progetto
+description: Questo articolo fornisce informazioni sulle offerte di progetto in Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 09/18/2020
+ms.date: 12/02/2022
 ms.topic: article
 ms.prod: ''
 audience: Application User
@@ -15,117 +15,91 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c0598b9ec276741f1f62e0cfc1717a3fd622cd7c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 89867cfbe92f47d58b16da40b62d3d9dd6a15b64
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912521"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824332"
 ---
-# <a name="concepts-unique-to-project-based-quotes"></a>Concetti esclusivi delle offerte basate su progetto
+# <a name="concepts-unique-to-project-based-quotes"></a>Concetti univoci per offerte basate su progetto
 
-_**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione semplice: dalla transazione alla fatturazione proforma_
+_**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati_
 
-In Dynamics 365 Project Operations, esistono due tipi di offerte: di progetto e di vendita. Questi due tipi di offerte differiscono nei modi seguenti:
+Prima di iniziare a utilizzare le offerte di progetto in Microsoft Dynamics 365 Project Operations, devi essere a conoscenza dei seguenti concetti chiave.
 
-- **Griglie per le voci**: Un'offerta di vendita include una sola griglia per le voci. In un'offerta di progetto sono presenti due griglie per le voci. Una griglia è per le righe di progetto e l'altra per le righe di prodotto.
-- **Attivazione e revisioni**: le offerte di vendita supportano l'attivazione e le revisioni. Questi processi non sono supportati in un'offerta di progetto.
-- **Ordini allegati**: è possibile associare più ordini a un'offerta di vendita, ma un solo contratto di progetto a un'offerta di progetto.
-- **Conclusione di un'offerta**: quando concludi un'offerta di vendita, l'opportunità correlata può rimanere aperta. Dopo l'acquisizione di un'offerta di progetto, la relativa opportunità viene chiusa.
-- **Campi e concetti**: un'offerta di vendita non include alcuni campi e concetti inclusi in un'offerta di progetto. Questi campi sono **Unità contratto**, **Gestione account** e **Nome contatto fatturazione**.  
-- **Tipo**: le offerte di vendita e di progetto sono inoltre identificate da un campo basato su set di opzioni denominato **Tipo**. Per un'offerta di vendita, il valore di questo campo è **Basato su articolo**. Per un'offerta di progetto, il valore di questo campo è **Basato su lavoro**.
+## <a name="owning-company"></a>Società proprietaria
 
-In questo articolo vengono descritti i dettagli delle offerte di progetto.
+La società proprietaria rappresenta la persona giuridica proprietaria della fornitura del progetto. Il cliente dell'offerta deve essere un cliente valido in quella persona giuridica nelle app per la finanza e le operazioni. La valuta della società proprietaria e la valuta dell'unità di contratto selezionata in un'offerta basata su progetto devono corrispondere.
 
-Un'offerta di progetto in Project Operations può avere molteplici voci o righe di offerta. In effetti, un'offerta di progetto include due griglie per le voci. Una griglia è per le righe basate su progetto che consentono stime dettagliate. L'altra griglia è per le righe basate su prodotto che utilizzano un prezzo unitario e un approccio basato sulla quantità.
+## <a name="contracting-unit"></a>Unità contratto
 
-- **Basate su progetto**: il valore dell'offerta viene determinato dopo la stima della quantità di lavoro necessario. Puoi stimare il lavoro ad alto livello, direttamente come dettagli di riga sotto ogni riga di offerta o in base a stime iniziali, utilizzando un progetto e un piano di progetto. Le righe di offerta basate su progetto sono disponibili solo nelle offerte basate su progetto create utilizzando Project Operations. Questo tipo di riga di offerta è un modulo personalizzato delle righe di offerta fuori catalogo disponibili in Microsoft Dynamics 365 Sales.
+L'unità contratto rappresenta la divisione o il reparto responsabile della consegna del progetto. È possibile impostare i costi delle risorse per ciascuna unità contratto. Quando si specificano i costi per una risorsa nell'unità contratto, sarà anche possibile impostare tassi di costo diversi per le risorse da cui questa unità contratto prende in prestito o altre divisioni o reparti all'interno dell'azienda. Queste tariffe del costo sono indicate come prezzi di trasferimento, prestito di risorse o prezzi di cambio. Quando si imposta il costo del prestito di risorse da altre divisioni, è anche possibile scegliere di impostare tali tassi di costo nella valuta della divisione mutuante.
 
-- **Basate su prodotto**: il valore dell'offerta viene determinato in base alla quantità di unità vendute e al prezzo di vendita unitario. Il prodotto in una riga basata su prodotto può provenire da un catalogo prodotti in Sales, oppure può essere un prodotto che definisci. Questo tipo di riga di offerta è disponibile anche nelle offerte basate su progetto create utilizzando Project Operations.
+## <a name="cost-currency"></a>Valuta costi
 
-L'importo di un'offerta è il totale delle righe basate su prodotto e delle righe basate su progetto.
+La valuta dei costi in Project Operations è la valuta in cui vengono riportati i costi. Questa valuta è derivata dalla valuta collegata al campo **Unità contratto** dell'offerta, del contratto e del progetto. I costi possono essere registrati in qualsiasi valuta per un progetto. Tuttavia, è presente la conversione di valuta dalla valuta in cui sono stati registrati i costi nella valuta dei costi del progetto.
 
-> [!NOTE]
-> Offerte e righe di offerta non sono necessarie in Project Operations. Puoi avviare il processo di progetto con un contratto di progetto (progetto venduto). Tuttavia, un'opportunità è sempre necessaria, indipendentemente se si inizia con un'offerta o un con contratto di progetto.
+Poiché i tassi di cambio nella piattaforma Dataverse (CDS) non possono dipendere dalla data, i totali sullo schermo per i costi potrebbero cambiare nel tempo se aggiorni i tassi di cambio delle valute. Tuttavia, i costi registrati nel database rimangono invariati perché gli importi vengono memorizzati nella valuta in cui sono stati sostenuti.
 
-## <a name="project-based-quote-lines"></a>Righe di offerta basate su progetto
+## <a name="sales-currency"></a>Valuta di vendita
 
-Una riga di offerta basata su progetto in Project Operations ha i seguenti metodi di fatturazione:
+La valuta di vendita in Project Operations è la valuta in cui vengono registrati e visualizzati gli importi delle vendite stimati ed effettivi. Questa è anche la valuta in cui verrà emessa la fattura al cliente per la trattativa. Per un'offerta di progetto, la valuta di vendita è quella predefinita dal record del cliente o dell'account e può essere modificata quando viene creata l'offerta. Tuttavia dopo che l'offerta è stata salvata, la valuta di vendita non può essere modificata. I listini prezzi predefiniti dei prodotti e dei progetti vengono impostati in base alla valuta di vendita dell'offerta.
 
-- Tempistica e materiali
-- Prezzo fisso
+A differenza dei costi, i valori di vendita possono essere registrati **solo** nella valuta di vendita.
 
-### <a name="time-and-material"></a>Tempistica e materiali
+## <a name="billing-method"></a>Metodo di fatturazione
 
-Il metodo di fatturazione Tempistica e materiali è basato sul consumo. Quando selezioni questo metodo di fatturazione, il cliente viene fatturato quando il progetto comporta dei costi. Le fatture vengono create a una frequenza periodica basata sulla data. Durante il processo di vendita, il valore di un componente di tempistica e materiali dell'offerta fornisce solo una stima del costo finale per il cliente. Il fornitore non si impegna a completare il progetto esattamente per il valore esatto nell'offerta. I componenti di tempistica e materiali aumentano il rischio del cliente. È quindi possibile che i clienti vogliano negoziare ulteriori clausole di non superamento dei costi per ridurre al minimo i rischi. Project Operations non supporta la definizione di clausole di non superamento dei costi.
+I progetti generalmente hanno modelli di contratto a costi fissi e basati sul consumo. In Project Operations, il modello di contratto di progetto è rappresentato dal metodo di fatturazione. Il metodo di fatturazione ha due valori: tempistica e materiali e prezzo fisso.
 
-### <a name="fixed-price"></a>Prezzo fisso
+- **Tempistica e materiali:** si tratta di un modello di contratto basato sul consumo in cui ogni costo sostenuto è supportato da ricavi corrispondenti. Man mano che si stimano o si sostengono più costi, aumentano anche le vendite stimate ed effettive corrispondenti. È possibile specificare limiti da non superare nelle righe di offerta che hanno questo metodo di fatturazione. In questo modo, puoi limitare i ricavi effettivi. I ricavi stimati non sono influenzati dai limiti da non superare.
+- **Prezzo fisso**: un modello di contratto a costi fissi che indica che i valori di vendita saranno indipendenti dai costi sostenuti. Il valore di vendita è fisso e non cambia se si stimano o si sostengono costi maggiori.
 
-Nel metodo di fatturazione Prezzo fisso, un fornitore si impegna a consegnare il progetto a un costo fisso al cliente. Al cliente viene fatturato il valore della riga di offerta a prezzo fisso indicato nell'offerta, indipendentemente dai costi incorsi dal fornitore per consegnare quella riga di offerta. Il valore della riga di offerta a prezzo fisso viene fatturato in uno dei modi seguenti: 
+## <a name="project-price-lists"></a>Listini prezzi del progetto
 
-- Come importo forfettario all'inizio o alla fine del progetto, oppure in corrispondenza di una fase fondamentale del progetto. 
-- Come pagamenti rateali uguali secondo una frequenza basata sulla data del valore fisso indicato nella riga di offerta. Questi pagamenti rateali sono noti come passaggi fondamentali periodici.
-- Come pagamenti rateali con un valore monetario allineato all'avanzamento del lavoro o a specifici passaggi fondamentali raggiunti nel progetto. In tal caso, il valore di ogni pagamento rateale può differire, ma la somma totale deve corrispondere al valore fisso nella riga di offerta.
+I listini prezzi del progetto sono listini prezzi utilizzati per impostare in modo predefinito i prezzi, non i tassi di costo, per la tempistica, le spese e altri componenti relativi al progetto. Possono essere presenti più listini prezzi e ogni elenco può avere la propria data di validità per ogni offerta di progetto. Project Operations non supporta la sovrapposizione di date di validità nei listini prezzi di progetto.
 
-Project Operations supporta tutti e tre i tipi di pianificazioni di fatturazione per le righe di offerta a prezzo fisso.
+## <a name="product-price-lists"></a>Listini prezzi del prodotto
 
-## <a name="transaction-classification"></a>Classificazione delle transazioni
+I listini prezzi dei prodotti sono listini prezzi utilizzati per impostare in modo predefinito i prezzi, non i tassi di costo, per le righe basate sul prodotto in un'offerta. È disponibile solo un listino prezzi dei prodotti per offerta.
 
-Le organizzazioni di servizi professionali in genere generano preventivi e fatture secondo la classificazione dei costi. I costi sono rappresentati dalle seguenti classificazioni di transazioni:
+## <a name="transaction-classes"></a>Classi di transazione
 
-- **Tempo**: questa classificazione rappresenta il costo del tempo della manodopera o delle risorse umane in un progetto.
-- **Spesa**: questa classificazione rappresenta tutti gli altri tipi di spese in un progetto. Poiché le spese possono essere classificate in modo ampio, la maggior parte delle organizzazioni crea sottocategorie, ad esempio Viaggi, Autonoleggio, Hotel o Forniture per ufficio.
-- **Commissioni**: questa classificazione rappresenta spese generali varie, penalità e altre voci imputati al cliente. 
-- **Imposte**: questa classificazione rappresenta gli importi delle imposte che gli utenti aggiungono quando immettono le spese.
-- **Transazione materiale**: questa classificazione rappresenta valori effettivi delle righe di prodotto in una fattura di progetto confermata.
-- **Passaggio fondamentale**: questa classificazione viene utilizzata dalla logica di fatturazione a prezzo fisso.
+Project Operations supporta quattro tipi di classi di transazione:
 
-Una o più di queste classificazioni di transazioni possono essere associate a ogni riga di offerta. Dopo l'acquisizione di un'offerta, il mapping tra la classificazione delle transazioni e la riga di offerta viene trasferito alla voce di contratto.
-  
-Ad esempio, un'offerta può contenere le seguenti due righe di offerta: 
+- Ore
+- Spesa
+- Materiale
+- Tariffa
 
-- Lavoro di consulenza che utilizza un metodo di fatturazione Tempistica e materiali in cui le classificazioni di tempo e commissioni sono applicabili. Ad esempio, tutte le transazioni tempo e commissioni per il progetto di esempio **Implementazione di Dynamics AX** vengono fatturate al cliente in base a tempistica e materiali utilizzati. 
-- Spese di viaggio correlate che utilizzano un metodo di fatturazione Prezzo fisso. Ad esempio, tutte le spese di viaggio per il progetto di esempio **Implementazione di Dynamics AX** vengono fatturate a un valore monetario fisso.
+I valori di costi e vendite possono essere stimati e inseriti nelle classi di transazione **Tempo**, **Spese** e **Materiale**, mentre **Commissioni** è una classe di transazione di soli ricavi.
 
-> [!NOTE]
-> La combinazione di progetto e classificazioni **Tempo**, **Spesa** e **Commissione** associate a una riga di offerta o voce di contratto deve essere univoca. Se si associa la stessa combinazione di progetto e classificazione di transazioni a più voci di contratto o righe di offerta, Project Operations non funzionerà correttamente.
+## <a name="work-entities-and-billing-entities"></a>Entità di lavoro ed entità di fatturazione
 
-## <a name="billing-types"></a>Tipo di fatturazione
+Progetti e attività sono le entità che rappresentano il lavoro. Righe di offerta e voci di contratto sono le entità che rappresentano la fatturazione. È possibile collegare entità di lavoro diverse alle opzioni di fatturazione associandole alle righe di offerta o voci di contratto.
 
-Il campo **Tipo di fatturazione** definisce il concetto di esigibilità. Si tratta di un set di opzioni con i seguenti possibili valori:
+## <a name="multi-customer-deals"></a>Trattative con più clienti
 
-- **Addebitabile**: il costo accumulato per questo ruolo/categoria è un costo diretto che determina l'esecuzione del progetto e il cliente pagherà per tale lavoro. Il pagamento può essere gestito come accordo Tempistica e materiali o Prezzo fisso. Tuttavia, il dipendente impiegato per questo tempo riceverà il credito corrispondente per il suo utilizzo fatturabile.
-- **Non addebitabile**: il costo accumulato per questo ruolo/categoria viene considerato un costo diretto che determina l'esecuzione del progetto, anche se il cliente non riconosce questo fatto e non pagherà per tale lavoro. Il dipendente impiegato per questo tempo non riceverà alcun credito per l'utilizzo fatturabile.
-- **Gratuito**: il costo accumulato per questo ruolo/categoria è considerato un costo diretto che determina l'esecuzione del progetto e il cliente riconosce tale fatto. Il dipendente che spende questo tempo riceverà un credito per l'utilizzo fatturabile. Tuttavia, questo costo non viene addebitato al cliente.
-- **Non disponibile**: questa opzione consente di tenere traccia dei costi sostenuti per i progetti interni che non richiedono la tracciabilità dei ricavi.
+Le trattative con più clienti si verificano quando è presente più di un cliente per fattura. Di seguito sono riportati alcuni esempi tipici:
 
-## <a name="invoice-schedule"></a>Pianificazione di fatturazione
+- **Aziende Original equipment manufacturer (OEM) e partner:** partner e rivenditori vendono un prodotto con servizi a valore aggiunto. Si tratta di solito di uno scenario in cui durante una particolare transazione con un cliente, l'OEM si offre di finanziare una parte del progetto.
+- **Progetti del settore pubblico:** più dipartimenti di un governo locale accettano di finanziare un progetto e le fatture vengono emesse in base a una suddivisione concordata in precedenza. Ad esempio, un distretto scolastico e il dipartimento del governo cittadino o locale accettano di finanziare la costruzione di una piscina.
 
-Una pianificazione di fatturazione è un insieme di date alle quali viene eseguita la fatturazione di un progetto. Puoi eventualmente creare una pianificazione di fatturazione per una riga di offerta. Ogni riga di offerta può avere una propria pianificazione di fatturazione. Per creare una pianificazione di fatturazione, devi fornire i seguenti valori di attributo:
+## <a name="invoice-schedules"></a>Pianificazioni di fatturazione
 
-- Una data di inizio fatturazione 
-- Una data di consegna che rappresenta la data di fine fatturazione del progetto
-- Una frequenza di fatturazione
+Le pianificazioni delle fatturazioni sono specifiche per ciascuna riga di offerta e sono facoltative. Le pianificazioni delle fatturazioni vengono create in base a determinate date di inizio e fine e alla frequenza della fatturazione. Vengono utilizzate nella fase del contratto in cui viene configurato il processo di creazione automatica delle fatture. Durante la fase di offerta, le pianificazioni fatturazione sono facoltative. Quando vengono create nella fase offerta, vengono copiate nel contratto di progetto creato quando viene acquisita un'offerta di progetto.
 
-Questi tre valori di attributo vengono utilizzati per generare un set di date provvisorie sulle quali basare la fatturazione.
+## <a name="differences-from-dynamics-365-sales-quotes"></a>Differenze rispetto alle offerte di Dynamics 365 Sales
 
-## <a name="invoice-frequency"></a>Frequenza di fatturazione
+Le offerte di Project Operations sono basate sulle offerte di Dynamics 365 Sales. Tuttavia, ci sono alcune importanti differenze nella funzionalità di cui tenere conto:
 
-Frequenza di fatturazione è un'entità in cui sono archiviati i valori di attributo che consentono di esprimere la frequenza di creazione delle fatture. I seguenti attributi esprimono o definiscono l'entità Frequenza di fatturazione:
+- Le offerte di Project Operations hanno due diversi tipi di righe, una per i progetti e una per i prodotti.
+- Le offerte di Project Operations hanno la propria pagina ed elementi dell'interfaccia utente, regole di business, logica di business nei plug-in e script lato client che le rendono uniche rispetto alle offerte di Sales.
+- In Sales puoi associare più ordini a una singola offerta di vendita, in Project Operations puoi associare un solo contratto di progetto a un'offerta di progetto.
+- Quando concludi un'offerta di vendita, l'opportunità correlata può rimanere aperta. Dopo l'acquisizione di un'offerta di progetto, la relativa opportunità viene chiusa.
+- Un'offerta di vendita non include alcuni campi e i concetti inclusi in un'offerta di progetto. Questi campi sono **Unità contratto**, **Gestione account** e **Nome contatto fatturazione**.
+- Le offerte di vendita e di progetto sono inoltre identificate dal campo basato su set di opzioni **Tipo**. Per un'offerta di vendita, il valore di questo campo è **Basato su articolo**. Per un'offerta di progetto, il valore è **Basato su lavoro**.
 
-- **Periodo**: sono supportati periodi mensili, bisettimanali e settimanali. 
-- **Esecuzioni per periodo**: per i periodi settimanali e bisettimanali, puoi definire una sola esecuzione per periodo. Per i periodi mensili, puoi definire tra una e quattro esecuzioni per periodo. 
-- **Giorni di esecuzione**: i giorni in cui la fatturazione deve essere eseguita. Puoi configurare questo attributo in due modi:
-  - **Giorni feriali**: ad esempio, puoi scegliere di eseguire la fatturazione ogni lunedì o ogni secondo lunedì del mese. È possibile che i clienti che devono eseguire la fatturazione in un giorno lavorativo preferiscano questo tipo di configurazione. 
-  - **Giorni di calendario**: ad esempio, puoi scegliere di eseguire la fatturazione il settimo giorno e il ventunesimo giorno di ogni mese. Alcune organizzazioni possono preferire questo tipo di configurazione in quanto garantisce l'esecuzione della fatturazione a date fisse ogni mese.
-  
-### <a name="invoice-schedule-for-a-fixed-price-quote-line"></a>Pianificazione della fatturazione per una riga di offerta a prezzo fisso
-
-Per una riga di offerta a prezzo fisso, puoi utilizzare la griglia **Pianificazione fatturazione** per creare passaggi fondamentali di fatturazione che eguagliano il valore della riga di offerta.
-
-- Per creare passaggi fondamentali di fatturazione equamente divisi, seleziona la frequenza di fatturazione, immetti la data di inizio della fatturazione nella riga di offerta e seleziona **Data di completamento richiesta** per l'offerta nella sezione **Riepilogo** dell'intestazione dell'offerta. Quindi seleziona **Genera passaggi fondamentali periodici** per creare passaggi fondamentali suddivisi equamente in base alla frequenza di fatturazione selezionata. 
-- Per creare un passaggio fondamentale di fatturazione con somma forfettaria, crea un passaggio fondamentale e quindi immetti il valore della riga di offerta come importo del passaggio fondamentale.
-- Per creare passaggi fondamentali di fatturazione basati su specifiche attività del piano di progetto, crea un passaggio fondamentale e mappalo all'elemento di pianificazione del progetto nell'interfaccia utente dei passaggi fondamentali di fatturazione.
-
+A causa delle differenze, ti consigliamo di non utilizzare le offerte in Sales e Project Operations in modo intercambiabile.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

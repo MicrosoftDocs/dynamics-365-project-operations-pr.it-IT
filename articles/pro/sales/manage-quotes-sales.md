@@ -6,12 +6,12 @@ ms.date: 10/26/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b9dad9ab9b6cef11ad337f9c3f536fe467b6a347
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 79da23d83133241204eaad44e39e64c5c6a1591d
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911647"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9826086"
 ---
 # <a name="manage-project-quotes"></a>Gestire offerte di progetto
 
@@ -23,7 +23,7 @@ In Dynamics 365 Project Operations, le offerte di progetto sono progettate per a
   - Dettagli della riga di offerta che identificano e stimano il lavoro per ogni componente di alto livello o riga di offerta. Le stime della pianificazione o della data e gli aspetti finanziari del lavoro sono legati a quella riga di offerta.
   - Per ogni riga di offerta vengono impostati modelli di contratto e componenti addebitabili. Questa configurazione aiuta a stimare la distribuzione di entrate, spese e redditività per ogni riga di offerta e per l'offerta complessiva.
 
-## <a name="view-all-project-based-quotes"></a>Visualizzare tutte le offerte basate su progetto
+## <a name="view-all-project-quotes"></a>Visualizzare tutte le offerte di progetto
 
 Un elenco di tutte le offerte di progetto può essere visualizzato dalla pagina elenco **Offerte**. 
 

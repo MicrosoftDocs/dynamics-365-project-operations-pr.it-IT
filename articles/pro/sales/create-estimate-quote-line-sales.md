@@ -1,21 +1,21 @@
 ---
-title: Stima di una riga dell'offerta basata su progetto
-description: In questo articolo vengono fornite informazioni su come creare una stima su una riga di offerta basata su progetto.
+title: Stimare una riga di offerta basata su progetto
+description: In questo articolo vengono fornite informazioni su come creare una stima su una riga di offerta di progetto.
 author: rumant
 ms.date: 04/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2a8aa2971431cd1f2082c8fc80db1438be185f5b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: bac3a3fa2d14c857edfb469a005406c346c8dbf6
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914361"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825992"
 ---
-# <a name="estimating-a-project-based-quote-line"></a>Stima di una riga dell'offerta basata su progetto
+# <a name="estimate-a-project-quote-line"></a>Stimare una riga di offerta basata su progetto
 
-_**Si applica a:** Distribuzione semplice: dalla transazione alla fatturazione proforma_
+_**Si applica a:** Distribuzione lite: dalla transazione alla fatturazione proforma, Project Operations per scenari basati su risorse/materiali non stoccati_
 
 Una riga di offerta basata su progetto contiene dettagli che aiutano a stimare il costo e i potenziali ricavi del lavoro richiesto per consegnare la riga di offerta.
 
@@ -24,7 +24,7 @@ Per stimare una riga di offerta basata su progetto, nella riga dell'offerta basa
 - Creare manualmente la stima direttamente sulla riga dell'offerta utilizzando i dettagli della riga di offerta. 
 - Creare un progetto e un piano di progetto, quindi associare il progetto e le attività nel progetto alla riga dell'offerta. Verrà abilitato il processo per importare le stime sul piano di progetto nella riga dell'offerta in base alle informazioni fornite.
 
-## <a name="create-estimates-directly-on-a-project-based-quote-line"></a>Creare stime direttamente su una riga di offerta basata su progetto
+## <a name="create-estimates-directly-on-a-project-quote-line"></a>Creare stime direttamente su una riga di offerta di progetto
 
 Per creare una stima su una riga di offerta basata su progetto, seleziona la scheda **Dettagli riga di offerta**. L'elemento della riga creato in questa scheda riepilogherà il valore offerto per questa riga di offerta. 
 
@@ -68,8 +68,7 @@ Valuta nel dettaglio della riga di offerta per i valori predefiniti di costo dal
 
 I calcoli della redditività convertono l'importo sui dettagli della riga di offerta per costi e vendite nella valuta di base dell'ambiente per riportare il margine stimato complessivo sull'offerta.
 
-> [!NOTE
-> > Potrebbero verificarsi errori di arrotondamento della valuta e margini modificati a causa della mancanza di tassi di cambio validi. Utilizza questi calcoli solo nei contratti di progetto poiché si tratta di approssimazioni e non sono per report legali o di altro tipo effettivi che richiedono una maggiore precisione di arrotondamento e consapevolezza dell'effettività della data per i tassi di cambio.
+> [!NOTA: potrebbero verificarsi errori di arrotondamento della valuta e margini modificati a causa della mancanza di tassi di cambio validi. Utilizza questi calcoli solo nei contratti di progetto poiché si tratta di approssimazioni e non sono per report legali o di altro tipo effettivi che richiedono una maggiore precisione di arrotondamento e consapevolezza dell'effettività della data per i tassi di cambio.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,21 +1,21 @@
 ---
-title: Panoramica delle righe di offerta basate su progetto
+title: Panoramica delle righe di offerta di progetto
 description: In questo articolo vengono fornite informazioni sull'utilizzo di righe di offerta basate su progetto per il lavoro di progetto.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 90c5affa25b113476e43f0bbbadd5c9615f9c05c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: e6a67b5c37508085c9ec3d8385eaa6828536de00
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8934463"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825663"
 ---
-# <a name="project-based-quote-lines-overview"></a>Panoramica delle righe di offerta basate su progetto 
+# <a name="project-quote-lines-overview"></a>Panoramica delle righe di offerta di progetto 
 
-_**Si applica a:** Distribuzione semplice: dalla transazione alla fatturazione proforma, Project Operations per scenari basati su risorse/materiali non stoccati_
+_**Si applica a:** Distribuzione lite: dalla transazione alla fatturazione proforma, Project Operations per scenari basati su risorse/materiali non stoccati_
 
 Le righe di offerta basate su progetto sono progettate per aiutare a stimare il lavoro del progetto per un impegno. La struttura di una riga di offerta basata su progetto è estesa per le stime di progetto con i seguenti concetti:
 

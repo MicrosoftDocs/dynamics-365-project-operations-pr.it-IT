@@ -1,31 +1,29 @@
 ---
-title: Gestire i lead
+title: Gestire i lead basati su progetto
 description: Questo articolo fornisce informazioni sulla gestione dei lead basati su progetti.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 080f53ee2f800b8433d055525852f5c2e21aab77
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2e1ea2ade5302427c02b271cd5d595206b137bd7
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8920203"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825804"
 ---
-# <a name="manage-leads"></a>Gestire i lead
+# <a name="manage-project-based-leads"></a>Gestire i lead basati su progetto
 
 _**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati_
 
 I lead basati su progetto possono essere gestiti e qualificati in Project Operations. Il processo di gestione dei lead include la creazione di lead basati sul lavoro e la qualificazione di tali lead. 
 
-## <a name="project-sales-leads"></a>Lead di progetto
-
 Nella sezione **Vendite**, nel riquadro di spostamento a sinistra, apri la pagina elenco **Lead** per visualizzare un elenco di tutti i record di lead nel sistema. L'elenco dei lead mostrato è basato sul lavoro e altri tipi di lead che possono essere creati se disponi anche delle applicazioni Dynamics 365 Sales o Dynamics 365 Field Service.
 
 Puoi creare un visualizzazione filtrata per vedere solo i lead basati su progetto creando un filtro sul valore **Tipo**. Ad esempio, puoi scegliere di mostrare solo i lead basati sul lavoro.
 
-## <a name="create-a-new-lead-for-a-project-based-deal"></a>Creare un nuovo lead per una transazione basata su progetto
+## <a name="create-a-new-project-based-lead"></a>Creare un nuovo lead basato su progetto 
 
 Quando un lead basato sul progetto è qualificato, vengono creati un'opportunità e un account. Un'opportunità basata su progetto è il punto di partenza per le attività di incremento delle vendite nella fase Opportunità. Le opportunità basate su progetto hanno funzionalità esclusive che sono necessarie per il lavoro del progetto di vendita. Queste funzionalità includono:
 

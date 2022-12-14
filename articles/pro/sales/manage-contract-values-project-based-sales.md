@@ -1,21 +1,21 @@
 ---
-title: Panoramica delle voci di contratto basate su progetto
-description: Questo articolo fornisce informazioni sull'uso di voci di contratto basate su progetto.
+title: Panoramica delle voci di contratto di progetto
+description: Questo articolo fornisce informazioni sull'utilizzo delle righe contratto di progetto in Project Operations.
 author: rumant
 ms.date: 10/28/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d32edac6537a4b0f51e9d2f72cb4a7342606d2c5
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: f5a529233692a39b0674417cd4ea225e40243086
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931427"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824631"
 ---
-# <a name="project-based-contract-lines-overview"></a>Panoramica delle voci di contratto basate su progetto
+# <a name="project-contract-lines-overview"></a>Panoramica delle voci di contratto di progetto
 
-_**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione semplice: dalla transazione alla fatturazione proforma_
+_**Si applica a:** Project Operations per scenari basati su risorse/materiali non stoccati, Distribuzione lite: dalla transazione alla fatturazione proforma_
 
 Le voci di contratto basate su progetto in Dynamics 365 Project Operations sono progettate per contenere i contratti di stima e fatturazione per componenti specifici del lavoro di progetto su un impegno. La struttura di una voce di contratto basata su progetto viene estesa per le stime di progetto e gli scenari di fatturazione con i seguenti concetti:
 
