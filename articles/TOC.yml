@@ -846,7 +846,7 @@
               items:
                 - name: Anticipi e contratti basati su acconto
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Configurare una pianificazione accontoConfigurare una pianificazione acconto
+                - name: Configurare una pianificazione acconto
                   href: pro/sales/set-up-schedule-retainers-sales.md
                 - name: Creare un anticipo ad hoc in un contratto di progetto
                   href: pro/sales/create-ad-hoc-advance-sales.md
